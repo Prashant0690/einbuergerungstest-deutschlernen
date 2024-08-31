@@ -36,8 +36,8 @@ function Header() {
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
         {/* App Name */}
-        <Navbar.Brand as={NavLink} to="/" className="text-warning">
-          Einbürgerungstest Quiz App
+        <Navbar.Brand as={NavLink} to="/" >
+          <strong>Einbürgerungstest und Deutschlernen</strong>
         </Navbar.Brand>
 
         {/* Toggler for small screens */}

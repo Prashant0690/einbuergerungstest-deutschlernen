@@ -1,0 +1,458 @@
+{
+  "fileName": "Einbürgerungstest_Saarland.json",
+  "testInfo": {
+    "name": "Gesamtfragenkatalog zum Test „Leben in Deutschland“ und zum „Einbürgerungstest“",
+    "version": "Stand: 25.06.2024"
+  },
+  "state": {
+    "name": "Saarland",
+    "questions": [
+      {
+        "id": 1,
+        "germanQuestion": "Welches Wappen gehört zum Bundesland Saarland?",
+        "englishQuestion": "Which coat of arms belongs to the state of Saarland?",
+        "type": "single",
+        "answerType": "image",
+        "options": [
+          {
+            "germanOption": "Bild 1",
+            "englishOption": "Image 1",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bild 2",
+            "englishOption": "Image 2",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bild 3",
+            "englishOption": "Image 3",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bild 4",
+            "englishOption": "Image 4",
+            "isCorrect": true
+          }
+        ],
+        "correctAnswerTag": "Add correct answer here later",
+        "importantWords": {
+          "nouns": [
+            { "german": "Wappen", "english": "coat of arms" },
+            { "german": "Saarland", "english": "Saarland" }
+          ]
+        },
+        "notes": "The coat of arms of Saarland is an important symbol representing the state.",
+        "learningTechniques": "Focus on identifying the unique elements of the Saarland coat of arms.",
+        "resources": [
+          {
+            "description": "Learn more about the coat of arms of Saarland.",
+            "url": "https://en.wikipedia.org/wiki/Coat_of_arms_of_Saarland"
+          }
+        ],
+        "region": "Saarland"
+      },
+      {
+        "id": 2,
+        "germanQuestion": "Welches ist ein Landkreis im Saarland?",
+        "englishQuestion": "Which is a district (Landkreis) in Saarland?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Mecklenburgische Seenplatte",
+            "englishOption": "Mecklenburg Lake District",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Altötting",
+            "englishOption": "Altötting",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Neunkirchen",
+            "englishOption": "Neunkirchen",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Rhein-Sieg-Kreis",
+            "englishOption": "Rhein-Sieg District",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landkreis", "english": "district" },
+            { "german": "Saarland", "english": "Saarland" },
+            { "german": "Neunkirchen", "english": "Neunkirchen" }
+          ]
+        },
+        "notes": "The 'Neunkirchen' is a district located in the state of Saarland.",
+        "learningTechniques": "Familiarize yourself with the names of districts within Saarland, especially 'Neunkirchen.'",
+        "resources": [
+          {
+            "description": "Learn more about the districts in Saarland.",
+            "url": "https://en.wikipedia.org/wiki/Neunkirchen_(Saarland)"
+          }
+        ],
+        "region": "Saarland"
+      },
+      {
+        "id": 3,
+        "germanQuestion": "Für wie viele Jahre wird der Landtag des Saarlandes gewählt?",
+        "englishQuestion": "For how many years is the state parliament (Landtag) in Saarland elected?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "3",
+            "englishOption": "3",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "4",
+            "englishOption": "4",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "5",
+            "englishOption": "5",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "6",
+            "englishOption": "6",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landtag", "english": "state parliament" },
+            { "german": "Saarland", "english": "Saarland" },
+            { "german": "Jahre", "english": "years" }
+          ]
+        },
+        "notes": "The state parliament in Saarland is elected for a term of 5 years.",
+        "learningTechniques": "Remember that the term length for the Landtag in Saarland is 5 years, aligning with most other German federal states.",
+        "resources": [
+          {
+            "description": "Learn more about the political system in Saarland.",
+            "url": "https://en.wikipedia.org/wiki/Politics_of_Saarland"
+          }
+        ],
+        "region": "Saarland"
+      },
+      {
+        "id": 4,
+        "germanQuestion": "Ab welchem Alter darf man im Saarland bei Kommunalwahlen wählen?",
+        "englishQuestion": "At what age can you vote in local elections in Saarland?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "14",
+            "englishOption": "14",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "16",
+            "englishOption": "16",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "18",
+            "englishOption": "18",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "20",
+            "englishOption": "20",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Kommunalwahlen", "english": "local elections" },
+            { "german": "Alter", "english": "age" },
+            { "german": "Saarland", "english": "Saarland" }
+          ]
+        },
+        "notes": "In Saarland, citizens can participate in local elections starting at the age of 16.",
+        "learningTechniques": "Remember that 16 is the voting age for local elections in Saarland, allowing young citizens to engage in their community's political process.",
+        "resources": [
+          {
+            "description": "Learn more about voting rights in Saarland.",
+            "url": "https://en.wikipedia.org/wiki/Elections_in_Saarland"
+          }
+        ],
+        "region": "Saarland"
+      },
+      {
+        "id": 5,
+        "germanQuestion": "Welche Farben hat die Landesflagge des Saarlandes?",
+        "englishQuestion": "What are the colors of the state flag of Saarland?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "weiß-blau",
+            "englishOption": "white-blue",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "schwarz-rot-gold",
+            "englishOption": "black-red-gold",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "schwarz-gelb",
+            "englishOption": "black-yellow",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "grün-weiß-rot",
+            "englishOption": "green-white-red",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landesflagge", "english": "state flag" },
+            { "german": "Farben", "english": "colors" },
+            { "german": "Saarland", "english": "Saarland" }
+          ]
+        },
+        "notes": "The state flag of Saarland consists of the colors black, red, and gold.",
+        "learningTechniques": "Remember the black-red-gold colors of Saarland's flag, which are the same as the national colors of Germany.",
+        "resources": [
+          {
+            "description": "Learn more about the flag of Saarland.",
+            "url": "https://en.wikipedia.org/wiki/Flag_of_Saarland"
+          }
+        ],
+        "region": "Saarland"
+      },
+      {
+        "id": 6,
+        "germanQuestion": "Wo können Sie sich im Saarland über politische Themen informieren?",
+        "englishQuestion": "Where can you get information on political topics in Saarland?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "bei den Kirchen",
+            "englishOption": "at the churches",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "bei der Landeszentrale für politische Bildung",
+            "englishOption": "at the State Center for Civic Education",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "bei der Verbraucherzentrale",
+            "englishOption": "at the consumer advice center",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "beim Ordnungsamt der Gemeinde",
+            "englishOption": "at the local regulatory office",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "politische Themen", "english": "political topics" },
+            {
+              "german": "Landeszentrale für politische Bildung",
+              "english": "State Center for Civic Education"
+            },
+            { "german": "Saarland", "english": "Saarland" }
+          ]
+        },
+        "notes": "In Saarland, the 'Landeszentrale für politische Bildung' (State Center for Civic Education) is the key institution for learning about political topics.",
+        "learningTechniques": "Focus on the role of the 'Landeszentrale für politische Bildung' in educating the public about political matters in Saarland.",
+        "resources": [
+          {
+            "description": "Learn more about the State Center for Civic Education in Saarland.",
+            "url": "https://www.lpb.saarland.de/"
+          }
+        ],
+        "region": "Saarland"
+      },
+      {
+        "id": 7,
+        "germanQuestion": "Die Landeshauptstadt des Saarlandes heißt …",
+        "englishQuestion": "The state capital of Saarland is called …",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Neunkirchen",
+            "englishOption": "Neunkirchen",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Homburg",
+            "englishOption": "Homburg",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Saarbrücken",
+            "englishOption": "Saarbrücken",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Völklingen",
+            "englishOption": "Völklingen",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landeshauptstadt", "english": "state capital" },
+            { "german": "Saarland", "english": "Saarland" },
+            { "german": "Saarbrücken", "english": "Saarbrücken" }
+          ]
+        },
+        "notes": "The state capital of Saarland is Saarbrücken, a city known for its industrial heritage and proximity to France.",
+        "learningTechniques": "Remember that Saarbrücken is the capital of Saarland, a key city with cultural and historical significance.",
+        "resources": [
+          {
+            "description": "Learn more about Saarbrücken, the capital of Saarland.",
+            "url": "https://en.wikipedia.org/wiki/Saarbrücken"
+          }
+        ],
+        "region": "Saarland"
+      },
+      {
+        "id": 8,
+        "germanQuestion": "Welches Bundesland ist das Saarland?",
+        "englishQuestion": "Which state is Saarland?",
+        "type": "single",
+        "answerType": "image",
+        "options": [
+          { "germanOption": "1", "englishOption": "1", "isCorrect": false },
+          { "germanOption": "2", "englishOption": "2", "isCorrect": true },
+          { "germanOption": "3", "englishOption": "3", "isCorrect": false },
+          { "germanOption": "4", "englishOption": "4", "isCorrect": false }
+        ],
+        "correctAnswerTag": "Add correct answer here later",
+        "importantWords": {
+          "nouns": [
+            { "german": "Bundesland", "english": "state" },
+            { "german": "Saarland", "english": "Saarland" }
+          ]
+        },
+        "notes": "Saarland is located in the southwestern part of Germany and is one of the country's 16 federal states.",
+        "learningTechniques": "Familiarize yourself with the geographical location of Saarland on a map of Germany.",
+        "resources": [
+          {
+            "description": "Learn more about the geography of Saarland.",
+            "url": "https://en.wikipedia.org/wiki/Saarland"
+          }
+        ],
+        "region": "Saarland"
+      },
+      {
+        "id": 9,
+        "germanQuestion": "Wie nennt man die Regierungschefin/den Regierungschef des Saarlandes?",
+        "englishQuestion": "What is the title of the head of government in Saarland?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Erste Ministerin/Erster Minister",
+            "englishOption": "First Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Premierministerin/Premierminister",
+            "englishOption": "Prime Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bürgermeisterin/Bürgermeister",
+            "englishOption": "Mayor",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Ministerpräsidentin/Ministerpräsident",
+            "englishOption": "Minister-President",
+            "isCorrect": true
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            {
+              "german": "Regierungschefin/Regierungschef",
+              "english": "head of government"
+            },
+            { "german": "Saarland", "english": "Saarland" },
+            {
+              "german": "Ministerpräsidentin/Ministerpräsident",
+              "english": "Minister-President"
+            }
+          ]
+        },
+        "notes": "The head of government in Saarland is called the 'Ministerpräsidentin' or 'Ministerpräsident,' a title equivalent to 'Minister-President.'",
+        "learningTechniques": "Remember that the title 'Ministerpräsident' is used for the heads of government in German federal states, including Saarland.",
+        "resources": [
+          {
+            "description": "Learn more about the role of the Minister-President in Germany.",
+            "url": "https://en.wikipedia.org/wiki/Minister-President"
+          }
+        ],
+        "region": "Saarland"
+      },
+      {
+        "id": 10,
+        "germanQuestion": "Welche Ministerin/welchen Minister hat das Saarland nicht?",
+        "englishQuestion": "Which minister does Saarland not have?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Justizministerin/Justizminister",
+            "englishOption": "Justice Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Außenministerin/Außenminister",
+            "englishOption": "Foreign Minister",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Finanzministerin/Finanzminister",
+            "englishOption": "Finance Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Innenministerin/Innenminister",
+            "englishOption": "Interior Minister",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Ministerin/Minister", "english": "minister" },
+            { "german": "Saarland", "english": "Saarland" },
+            {
+              "german": "Außenministerin/Außenminister",
+              "english": "Foreign Minister"
+            }
+          ]
+        },
+        "notes": "Saarland, like other German federal states, does not have a Foreign Minister ('Außenminister'), as foreign affairs are handled at the federal level.",
+        "learningTechniques": "Remember that federal states in Germany do not have foreign ministers, as foreign policy is the responsibility of the federal government.",
+        "resources": [
+          {
+            "description": "Learn more about the structure of state governments in Germany.",
+            "url": "https://en.wikipedia.org/wiki/Politics_of_Germany"
+          }
+        ],
+        "region": "Saarland"
+      }
+    ]
+  }
+}

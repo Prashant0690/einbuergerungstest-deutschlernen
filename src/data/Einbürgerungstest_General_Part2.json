@@ -1,0 +1,4490 @@
+{
+  "fileName": "Einbürgerungstest_General_Part2.json",
+  "testInfo": {
+    "name": "Gesamtfragenkatalog zum Test „Leben in Deutschland“ und zum „Einbürgerungstest“",
+    "version": "Stand: 25.06.2024"
+  },
+  "questions": [
+    {
+      "id": 101,
+      "germanQuestion": "Gewerkschaften sind Interessenverbände der …",
+      "englishQuestion": "Trade unions are interest groups for …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Jugendlichen.",
+          "englishOption": "youth.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Arbeitnehmerinnen und Arbeitnehmer.",
+          "englishOption": "employees.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Rentnerinnen und Rentner.",
+          "englishOption": "retirees.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Arbeitgeberinnen und Arbeitgeber.",
+          "englishOption": "employers.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Gewerkschaften", "english": "trade unions" },
+          {
+            "german": "Arbeitnehmerinnen und Arbeitnehmer",
+            "english": "employees"
+          }
+        ]
+      },
+      "notes": "Trade unions ('Gewerkschaften') represent the interests of employees, advocating for better wages, working conditions, and labor rights.",
+      "learningTechniques": "Remember that trade unions primarily serve the interests of employees, not employers or retirees.",
+      "resources": [
+        {
+          "description": "Learn more about trade unions in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Trade_unions_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 102,
+      "germanQuestion": "Womit kann man in der Bundesrepublik Deutschland geehrt werden, wenn man auf politischem, wirtschaftlichem, kulturellem, geistigem oder sozialem Gebiet eine besondere Leistung erbracht hat? Mit dem …",
+      "englishQuestion": "How can one be honored in the Federal Republic of Germany for outstanding achievements in political, economic, cultural, intellectual, or social fields? With the …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Bundesverdienstkreuz",
+          "englishOption": "Federal Cross of Merit",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Bundesadler",
+          "englishOption": "Federal Eagle",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Vaterländischen Verdienstorden",
+          "englishOption": "Patriotic Order of Merit",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Ehrentitel 'Held der Deutschen Demokratischen Republik'",
+          "englishOption": "Honorary title 'Hero of the German Democratic Republic'",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Bundesverdienstkreuz",
+            "english": "Federal Cross of Merit"
+          },
+          { "german": "Leistung", "english": "achievement" }
+        ]
+      },
+      "notes": "The Federal Cross of Merit ('Bundesverdienstkreuz') is one of the highest honors awarded in Germany for outstanding achievements in various fields.",
+      "learningTechniques": "Focus on the Federal Cross of Merit as Germany's primary civilian honor for distinguished service.",
+      "resources": [
+        {
+          "description": "Learn more about the Federal Cross of Merit.",
+          "url": "https://en.wikipedia.org/wiki/Order_of_Merit_of_the_Federal_Republic_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 103,
+      "germanQuestion": "Was wird in Deutschland als 'Ampelkoalition' bezeichnet? Die Zusammenarbeit …",
+      "englishQuestion": "What is referred to as a 'traffic light coalition' in Germany? The collaboration …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "der Bundestagsfraktionen von CDU und CSU",
+          "englishOption": "of the parliamentary groups of CDU and CSU",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "von SPD, FDP und Bündnis 90/Die Grünen in einer Regierung",
+          "englishOption": "of SPD, FDP, and Alliance 90/The Greens in a government",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "von CSU, Die LINKE und Bündnis 90/Die Grünen in einer Regierung",
+          "englishOption": "of CSU, The Left, and Alliance 90/The Greens in a government",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "der Bundestagsfraktionen von CDU und SPD",
+          "englishOption": "of the parliamentary groups of CDU and SPD",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Ampelkoalition", "english": "traffic light coalition" },
+          { "german": "Zusammenarbeit", "english": "collaboration" }
+        ]
+      },
+      "notes": "A 'traffic light coalition' ('Ampelkoalition') in Germany refers to a coalition between the SPD (red), FDP (yellow), and The Greens (green).",
+      "learningTechniques": "Remember the colors associated with the parties: red for SPD, yellow for FDP, and green for The Greens, forming a traffic light.",
+      "resources": [
+        {
+          "description": "Learn more about coalition governments in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Traffic_light_coalition"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 104,
+      "germanQuestion": "Eine Frau in Deutschland verliert ihre Arbeit. Was darf nicht der Grund für diese Entlassung sein?",
+      "englishQuestion": "A woman in Germany loses her job. What cannot be the reason for this dismissal?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Die Frau ist lange krank und arbeitsunfähig.",
+          "englishOption": "The woman is long-term sick and unable to work.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Die Frau kam oft zu spät zur Arbeit.",
+          "englishOption": "The woman was often late for work.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Die Frau erledigt private Sachen während der Arbeitszeit.",
+          "englishOption": "The woman handled private matters during work hours.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Die Frau bekommt ein Kind und ihr Chef weiß das.",
+          "englishOption": "The woman is having a child and her boss knows that.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Entlassung", "english": "dismissal" },
+          { "german": "Kind", "english": "child" }
+        ]
+      },
+      "notes": "In Germany, dismissing a woman because she is pregnant or having a child is illegal.",
+      "learningTechniques": "Focus on the protections provided to pregnant women in Germany under employment law.",
+      "resources": [
+        {
+          "description": "Learn more about maternity rights in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Maternity_protection_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 105,
+      "germanQuestion": "Was ist eine Aufgabe von Wahlhelferinnen/Wahlhelfern in Deutschland?",
+      "englishQuestion": "What is a task of election helpers in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Sie helfen alten Menschen bei der Stimmabgabe in der Wahlkabine.",
+          "englishOption": "They help elderly people cast their votes in the voting booth.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sie schreiben die Wahlbenachrichtigungen vor der Wahl.",
+          "englishOption": "They write the election notifications before the election.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sie geben Zwischenergebnisse an die Medien weiter.",
+          "englishOption": "They pass on interim results to the media.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sie zählen die Stimmen nach dem Ende der Wahl.",
+          "englishOption": "They count the votes after the end of the election.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Wahlhelferinnen/Wahlhelfer",
+            "english": "election helpers"
+          },
+          { "german": "Stimmabgabe", "english": "casting of votes" },
+          { "german": "Stimmen zählen", "english": "counting votes" }
+        ]
+      },
+      "notes": "One of the main tasks of election helpers in Germany is to count the votes after the election has ended.",
+      "learningTechniques": "Focus on the role of election helpers in ensuring that votes are accurately counted after the election.",
+      "resources": [
+        {
+          "description": "Learn more about the role of election helpers in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Elections_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 106,
+      "germanQuestion": "In Deutschland helfen ehrenamtliche Wahlhelferinnen und Wahlhelfer bei den Wahlen. Was ist eine Aufgabe von Wahlhelferinnen/Wahlhelfern?",
+      "englishQuestion": "In Germany, volunteer election helpers assist with elections. What is a task of election helpers?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Sie helfen Kindern und alten Menschen beim Wählen.",
+          "englishOption": "They help children and elderly people with voting.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sie schreiben Karten und Briefe mit der Angabe des Wahllokals.",
+          "englishOption": "They write cards and letters indicating the polling station.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sie geben Zwischenergebnisse an Journalisten weiter.",
+          "englishOption": "They pass on interim results to journalists.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sie zählen die Stimmen nach dem Ende der Wahl.",
+          "englishOption": "They count the votes after the end of the election.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Wahlhelferinnen/Wahlhelfer",
+            "english": "election helpers"
+          },
+          { "german": "Stimmen zählen", "english": "counting votes" }
+        ]
+      },
+      "notes": "Volunteer election helpers in Germany play a crucial role in the democratic process by counting the votes after the election ends.",
+      "learningTechniques": "Focus on the responsibility of election helpers in ensuring the integrity of the vote count.",
+      "resources": [
+        {
+          "description": "Learn more about election processes in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Elections_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 107,
+      "germanQuestion": "Für wie viele Jahre wird der Bundestag in Deutschland gewählt?",
+      "englishQuestion": "For how many years is the Bundestag in Germany elected?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "2 Jahre",
+          "englishOption": "2 years",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "4 Jahre",
+          "englishOption": "4 years",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "6 Jahre",
+          "englishOption": "6 years",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "8 Jahre",
+          "englishOption": "8 years",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundestag", "english": "Bundestag" },
+          { "german": "Jahre", "english": "years" }
+        ]
+      },
+      "notes": "The Bundestag in Germany is elected every 4 years.",
+      "learningTechniques": "Remember that the term for the Bundestag is four years, a common cycle for parliamentary elections in many countries.",
+      "resources": [
+        {
+          "description": "Learn more about the Bundestag and its election cycle.",
+          "url": "https://en.wikipedia.org/wiki/Bundestag"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 108,
+      "germanQuestion": "Bei einer Bundestagswahl in Deutschland darf jede/jeder wählen, die/der …",
+      "englishQuestion": "In a Bundestag election in Germany, who is allowed to vote?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "in der Bundesrepublik Deutschland wohnt und wählen möchte.",
+          "englishOption": "lives in the Federal Republic of Germany and wants to vote.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bürgerin/Bürger der Bundesrepublik Deutschland ist und mindestens 18 Jahre alt ist.",
+          "englishOption": "is a citizen of the Federal Republic of Germany and is at least 18 years old.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "seit mindestens 3 Jahren in der Bundesrepublik Deutschland lebt.",
+          "englishOption": "has lived in the Federal Republic of Germany for at least 3 years.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bürgerin/Bürger der Bundesrepublik Deutschland ist und mindestens 21 Jahre alt ist.",
+          "englishOption": "is a citizen of the Federal Republic of Germany and is at least 21 years old.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundestagswahl", "english": "Bundestag election" },
+          { "german": "Bürgerin/Bürger", "english": "citizen" }
+        ]
+      },
+      "notes": "In a Bundestag election, all German citizens who are at least 18 years old are eligible to vote.",
+      "learningTechniques": "Focus on the age and citizenship requirements for voting in German federal elections.",
+      "resources": [
+        {
+          "description": "Learn more about voting rights in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Voting_rights_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 109,
+      "germanQuestion": "Wie oft gibt es normalerweise Bundestagswahlen in Deutschland?",
+      "englishQuestion": "How often do Bundestag elections usually take place in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "alle drei Jahre",
+          "englishOption": "every three years",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "alle vier Jahre",
+          "englishOption": "every four years",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "alle fünf Jahre",
+          "englishOption": "every five years",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "alle sechs Jahre",
+          "englishOption": "every six years",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundestagswahlen", "english": "Bundestag elections" },
+          { "german": "Jahre", "english": "years" }
+        ]
+      },
+      "notes": "Bundestag elections in Germany are usually held every four years.",
+      "learningTechniques": "Remember the four-year election cycle for the Bundestag, which is similar to other parliamentary systems.",
+      "resources": [
+        {
+          "description": "Learn more about the election cycle for the Bundestag.",
+          "url": "https://en.wikipedia.org/wiki/Elections_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 110,
+      "germanQuestion": "Für wie viele Jahre wird der Bundestag in Deutschland gewählt?",
+      "englishQuestion": "For how many years is the Bundestag in Germany elected?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "2 Jahre",
+          "englishOption": "2 years",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "3 Jahre",
+          "englishOption": "3 years",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "4 Jahre",
+          "englishOption": "4 years",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "5 Jahre",
+          "englishOption": "5 years",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundestag", "english": "Bundestag" },
+          { "german": "Jahre", "english": "years" }
+        ]
+      },
+      "notes": "The Bundestag in Germany is elected for a four-year term.",
+      "learningTechniques": "Reinforce the idea that the term length for Bundestag members is four years.",
+      "resources": [
+        {
+          "description": "Learn more about the German Bundestag's term length.",
+          "url": "https://en.wikipedia.org/wiki/Bundestag"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 111,
+      "germanQuestion": "Welche Handlung mit Bezug auf den Staat Israel ist in Deutschland verboten?",
+      "englishQuestion": "Which action regarding the state of Israel is prohibited in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die Politik Israels öffentlich kritisieren",
+          "englishOption": "publicly criticizing Israel's policies",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "das Aufhängen einer israelischen Flagge auf dem Privatgrundstück",
+          "englishOption": "hanging an Israeli flag on private property",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine Diskussion über die Politik Israels",
+          "englishOption": "discussing Israel's policies",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "der öffentliche Aufruf zur Vernichtung Israels",
+          "englishOption": "publicly calling for the destruction of Israel",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Handlung", "english": "action" },
+          { "german": "Vernichtung", "english": "destruction" }
+        ]
+      },
+      "notes": "In Germany, publicly calling for the destruction of Israel is prohibited by law.",
+      "learningTechniques": "Focus on the fact that hate speech and incitement to violence, particularly regarding the destruction of Israel, are illegal in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about Germany's laws against hate speech and incitement.",
+          "url": "https://en.wikipedia.org/wiki/Hate_speech_laws_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 112,
+      "germanQuestion": "Die Wahlen in Deutschland sind …",
+      "englishQuestion": "The elections in Germany are …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "speziell.",
+          "englishOption": "special.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "geheim.",
+          "englishOption": "secret.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "berufsbezogen.",
+          "englishOption": "related to profession.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "geschlechtsabhängig.",
+          "englishOption": "dependent on gender.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Wahlen", "english": "elections" },
+          { "german": "geheim", "english": "secret" }
+        ]
+      },
+      "notes": "In Germany, elections are conducted secretly to ensure privacy and prevent coercion.",
+      "learningTechniques": "Remember that secrecy is a fundamental principle of democratic elections in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the election process in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Elections_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 113,
+      "germanQuestion": "Wahlen in Deutschland gewinnt die Partei, die …",
+      "englishQuestion": "In Germany, the party that wins an election is the one that …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die meisten Stimmen bekommt.",
+          "englishOption": "gets the most votes.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die meisten Männer mehrheitlich gewählt haben.",
+          "englishOption": "most men voted for.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die meisten Stimmen bei den Arbeiterinnen/Arbeitern bekommen hat.",
+          "englishOption": "received the most votes from workers.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die meisten Erststimmen für ihre Kanzlerkandidatin/ihren Kanzlerkandidaten erhalten hat.",
+          "englishOption": "received the most first votes for their chancellor candidate.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Wahlen", "english": "elections" },
+          { "german": "Stimmen", "english": "votes" }
+        ]
+      },
+      "notes": "In Germany, the party that wins an election is the one that receives the most overall votes.",
+      "learningTechniques": "Focus on the concept of total votes determining the winner in German elections.",
+      "resources": [
+        {
+          "description": "Learn more about how elections work in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Elections_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 114,
+      "germanQuestion": "An demokratischen Wahlen in Deutschland teilzunehmen ist …",
+      "englishQuestion": "Participating in democratic elections in Germany is …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "eine Pflicht.",
+          "englishOption": "a duty.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "ein Recht.",
+          "englishOption": "a right.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "ein Zwang.",
+          "englishOption": "a compulsion.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine Last.",
+          "englishOption": "a burden.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Wahlen", "english": "elections" },
+          { "german": "Recht", "english": "right" }
+        ]
+      },
+      "notes": "In Germany, participating in democratic elections is a right, not a duty or compulsion.",
+      "learningTechniques": "Emphasize that voting is a right in democratic systems, including Germany.",
+      "resources": [
+        {
+          "description": "Learn more about voting rights in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Voting_rights_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 115,
+      "germanQuestion": "Was bedeutet 'aktives Wahlrecht' in Deutschland?",
+      "englishQuestion": "What does 'active voting right' mean in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Man kann gewählt werden.",
+          "englishOption": "You can be elected.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Man muss wählen gehen.",
+          "englishOption": "You must go to vote.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Man kann wählen.",
+          "englishOption": "You can vote.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Man muss zur Auszählung der Stimmen gehen.",
+          "englishOption": "You must go to the vote count.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "aktives Wahlrecht", "english": "active voting right" },
+          { "german": "wählen", "english": "vote" }
+        ]
+      },
+      "notes": "Active voting right ('aktives Wahlrecht') in Germany refers to the right to cast a vote in an election.",
+      "learningTechniques": "Focus on the distinction between 'active voting right' (the right to vote) and 'passive voting right' (the right to be elected).",
+      "resources": [
+        {
+          "description": "Learn more about voting rights in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Voting_rights_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 116,
+      "germanQuestion": "Wenn Sie bei einer Bundestagswahl in Deutschland wählen dürfen, heißt das …",
+      "englishQuestion": "If you are allowed to vote in a Bundestag election in Germany, this is called …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "aktive Wahlkampagne.",
+          "englishOption": "active election campaign.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "aktives Wahlverfahren.",
+          "englishOption": "active election procedure.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "aktiver Wahlkampf.",
+          "englishOption": "active election campaign.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "aktives Wahlrecht.",
+          "englishOption": "active voting right.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Wahlrecht", "english": "voting right" },
+          { "german": "Wahl", "english": "election" }
+        ]
+      },
+      "notes": "Having the right to vote in a Bundestag election is referred to as 'aktives Wahlrecht' (active voting right).",
+      "learningTechniques": "Reinforce the term 'aktives Wahlrecht' to describe the right to vote in German elections.",
+      "resources": [
+        {
+          "description": "Learn more about voting rights in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Voting_rights_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 117,
+      "germanQuestion": "Wie viel Prozent der Zweitstimmen müssen Parteien mindestens bekommen, um in den Deutschen Bundestag gewählt zu werden?",
+      "englishQuestion": "What percentage of second votes must parties receive to be elected to the German Bundestag?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "3%",
+          "englishOption": "3%",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "4%",
+          "englishOption": "4%",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "5%",
+          "englishOption": "5%",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "6%",
+          "englishOption": "6%",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Zweitstimmen", "english": "second votes" },
+          { "german": "Prozent", "english": "percent" }
+        ]
+      },
+      "notes": "In order to enter the Bundestag, parties must receive at least 5% of the second votes ('Zweitstimmen'). This is known as the 5% threshold ('Fünf-Prozent-Hürde').",
+      "learningTechniques": "Remember the 5% threshold that parties must meet to gain seats in the Bundestag.",
+      "resources": [
+        {
+          "description": "Learn more about the electoral threshold in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Electoral_system_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 118,
+      "germanQuestion": "Wer darf bei den rund 40 jüdischen Makkabi-Sportvereinen Mitglied werden?",
+      "englishQuestion": "Who can become a member of the approximately 40 Jewish Makkabi sports clubs?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "nur Deutsche",
+          "englishOption": "only Germans",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "nur Israelis",
+          "englishOption": "only Israelis",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "nur religiöse Menschen",
+          "englishOption": "only religious people",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "alle Menschen",
+          "englishOption": "all people",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Makkabi-Sportvereine",
+            "english": "Makkabi sports clubs"
+          },
+          { "german": "Mitglied", "english": "member" }
+        ]
+      },
+      "notes": "The Makkabi sports clubs in Germany are open to all people, regardless of nationality or religion.",
+      "learningTechniques": "Remember that Makkabi sports clubs promote inclusivity and are open to everyone.",
+      "resources": [
+        {
+          "description": "Learn more about Makkabi sports clubs.",
+          "url": "https://en.wikipedia.org/wiki/Maccabi_World_Union"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 119,
+      "germanQuestion": "Wahlen in Deutschland sind frei. Was bedeutet das?",
+      "englishQuestion": "Elections in Germany are free. What does that mean?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Alle verurteilten Straftäterinnen/Straftäter dürfen nicht wählen.",
+          "englishOption": "All convicted criminals are not allowed to vote.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Wenn ich wählen gehen möchte, muss meine Arbeitgeberin/mein Arbeitgeber mir frei geben.",
+          "englishOption": "If I want to vote, my employer must give me time off.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Jede Person kann ohne Zwang entscheiden, ob sie wählen möchte und wen sie wählen möchte.",
+          "englishOption": "Every person can freely decide whether and whom to vote for, without coercion.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Ich kann frei entscheiden, wo ich wählen gehen möchte.",
+          "englishOption": "I can freely decide where I want to vote.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Wahlen", "english": "elections" },
+          { "german": "frei", "english": "free" }
+        ]
+      },
+      "notes": "Free elections in Germany mean that voters can make their decisions without any form of coercion.",
+      "learningTechniques": "Focus on the concept of free choice in elections, where individuals decide for themselves whether and for whom to vote.",
+      "resources": [
+        {
+          "description": "Learn more about the principles of free elections in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Elections_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 120,
+      "germanQuestion": "Das Wahlsystem in Deutschland ist ein …",
+      "englishQuestion": "The electoral system in Germany is a …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Zensuswahlrecht.",
+          "englishOption": "census-based voting system.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Dreiklassenwahlrecht.",
+          "englishOption": "three-class voting system.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Mehrheits- und Verhältniswahlrecht.",
+          "englishOption": "majority and proportional representation system.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "allgemeines Männerwahlrecht.",
+          "englishOption": "universal male suffrage.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Wahlsystem", "english": "electoral system" },
+          {
+            "german": "Mehrheitswahlrecht",
+            "english": "majority voting system"
+          },
+          {
+            "german": "Verhältniswahlrecht",
+            "english": "proportional representation system"
+          }
+        ]
+      },
+      "notes": "The German electoral system combines majority voting (for direct candidates) with proportional representation (through party lists).",
+      "learningTechniques": "Remember that Germany's electoral system uses both majority and proportional representation to elect members of parliament.",
+      "resources": [
+        {
+          "description": "Learn more about Germany's electoral system.",
+          "url": "https://en.wikipedia.org/wiki/Electoral_system_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 121,
+      "germanQuestion": "Eine Partei möchte in den Deutschen Bundestag. Sie muss aber einen Mindestanteil an Wählerstimmen haben. Das heißt …",
+      "englishQuestion": "A party wants to enter the German Bundestag. However, it must have a minimum percentage of votes. This is called …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "5%-Hürde.",
+          "englishOption": "5% threshold.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Zulassungsgrenze.",
+          "englishOption": "admission threshold.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Basiswert.",
+          "englishOption": "base value.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Richtlinie.",
+          "englishOption": "guideline.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "5%-Hürde", "english": "5% threshold" },
+          { "german": "Mindestanteil", "english": "minimum percentage" }
+        ]
+      },
+      "notes": "The '5%-Hürde' (5% threshold) means that a party must receive at least 5% of the votes to enter the Bundestag.",
+      "learningTechniques": "Focus on the concept of the 5% threshold, which is designed to prevent fragmentation in the parliament.",
+      "resources": [
+        {
+          "description": "Learn more about the 5% threshold in German elections.",
+          "url": "https://en.wikipedia.org/wiki/Electoral_system_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 122,
+      "germanQuestion": "Welchem Grundsatz unterliegen Wahlen in Deutschland? Wahlen in Deutschland sind …",
+      "englishQuestion": "What principle do elections in Germany follow? Elections in Germany are …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "frei, gleich, geheim.",
+          "englishOption": "free, equal, secret.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "offen, sicher, frei.",
+          "englishOption": "open, secure, free.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "geschlossen, gleich, sicher.",
+          "englishOption": "closed, equal, secure.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "sicher, offen, freiwillig.",
+          "englishOption": "secure, open, voluntary.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Grundsatz", "english": "principle" },
+          { "german": "gleich", "english": "equal" },
+          { "german": "geheim", "english": "secret" }
+        ]
+      },
+      "notes": "The core principles of elections in Germany are that they are free, equal, and secret, ensuring fairness and privacy.",
+      "learningTechniques": "Remember the three main principles that govern elections in Germany: freedom, equality, and secrecy.",
+      "resources": [
+        {
+          "description": "Learn more about the principles of democratic elections in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Elections_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 123,
+      "germanQuestion": "Was ist in Deutschland die '5%-Hürde'?",
+      "englishQuestion": "What is the '5% threshold' in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Abstimmungsregelung im Bundestag für kleine Parteien",
+          "englishOption": "voting rule in the Bundestag for small parties",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Anwesenheitskontrolle im Bundestag für Abstimmungen",
+          "englishOption": "attendance check in the Bundestag for votes",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Mindestanteil an Wählerstimmen, um ins Parlament zu kommen",
+          "englishOption": "minimum percentage of votes to enter parliament",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Anwesenheitskontrolle im Bundesrat für Abstimmungen",
+          "englishOption": "attendance check in the Bundesrat for votes",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "5%-Hürde", "english": "5% threshold" },
+          { "german": "Mindestanteil", "english": "minimum percentage" }
+        ]
+      },
+      "notes": "The '5%-Hürde' is a rule that requires parties to obtain at least 5% of the vote in order to enter the Bundestag.",
+      "learningTechniques": "Focus on the 5% threshold as a key feature of the German electoral system, aimed at avoiding excessive fragmentation in parliament.",
+      "resources": [
+        {
+          "description": "Learn more about the 5% threshold in German elections.",
+          "url": "https://en.wikipedia.org/wiki/Electoral_system_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 124,
+      "germanQuestion": "Die Bundestagswahl in Deutschland ist die Wahl …",
+      "englishQuestion": "The Bundestag election in Germany is the election of …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "der Bundeskanzlerin/des Bundeskanzlers.",
+          "englishOption": "the Federal Chancellor.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "der Parlamente der Länder.",
+          "englishOption": "the state parliaments.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "des Parlaments für Deutschland.",
+          "englishOption": "the parliament for Germany.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "der Bundespräsidentin/des Bundespräsidenten.",
+          "englishOption": "the Federal President.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundestagswahl", "english": "Bundestag election" },
+          { "german": "Parlament", "english": "parliament" }
+        ]
+      },
+      "notes": "The Bundestag election in Germany is the election of the national parliament, which represents the people at the federal level.",
+      "learningTechniques": "Remember that the Bundestag is the federal parliament in Germany, and its election determines the composition of the legislative branch.",
+      "resources": [
+        {
+          "description": "Learn more about the Bundestag elections.",
+          "url": "https://en.wikipedia.org/wiki/Bundestag_election"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 125,
+      "germanQuestion": "In einer Demokratie ist eine Funktion von regelmäßigen Wahlen, …",
+      "englishQuestion": "In a democracy, one function of regular elections is …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die Bürgerinnen und Bürger zu zwingen, ihre Stimme abzugeben.",
+          "englishOption": "to force citizens to cast their votes.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "nach dem Willen der Wählermehrheit den Wechsel der Regierung zu ermöglichen.",
+          "englishOption": "to allow the change of government according to the majority of voters.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "im Land bestehende Gesetze beizubehalten.",
+          "englishOption": "to maintain existing laws in the country.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "den Armen mehr Macht zu geben.",
+          "englishOption": "to give more power to the poor.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Funktion", "english": "function" },
+          { "german": "Wahlen", "english": "elections" },
+          { "german": "Regierung", "english": "government" }
+        ]
+      },
+      "notes": "One of the main functions of regular elections in a democracy is to enable a change of government according to the will of the majority.",
+      "learningTechniques": "Focus on the idea that elections allow citizens to choose their government and potentially change it based on the majority vote.",
+      "resources": [
+        {
+          "description": "Learn more about the role of elections in a democracy.",
+          "url": "https://en.wikipedia.org/wiki/Democracy"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 126,
+      "germanQuestion": "Was bekommen wahlberechtigte Bürgerinnen und Bürger in Deutschland vor einer Wahl?",
+      "englishQuestion": "What do eligible voters in Germany receive before an election?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "eine Wahlbenachrichtigung von der Gemeinde",
+          "englishOption": "an election notification from the municipality",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "eine Wahlerlaubnis von der Bundespräsidentin/von dem Bundespräsidenten",
+          "englishOption": "an election permit from the Federal President",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine Benachrichtigung von der Bundesversammlung",
+          "englishOption": "a notification from the Federal Assembly",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine Benachrichtigung vom Pfarramt",
+          "englishOption": "a notification from the parish office",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Wahlbenachrichtigung",
+            "english": "election notification"
+          },
+          { "german": "Gemeinde", "english": "municipality" }
+        ]
+      },
+      "notes": "Before an election, eligible voters in Germany receive an election notification ('Wahlbenachrichtigung') from their local municipality.",
+      "learningTechniques": "Remember that the election notification informs voters about where and when they can vote.",
+      "resources": [
+        {
+          "description": "Learn more about election procedures in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Elections_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 127,
+      "germanQuestion": "Warum gibt es die 5%-Hürde im Wahlgesetz der Bundesrepublik Deutschland? Es gibt sie, weil …",
+      "englishQuestion": "Why is there a 5% threshold in the electoral law of the Federal Republic of Germany? It exists because …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die Programme von vielen kleinen Parteien viele Gemeinsamkeiten haben.",
+          "englishOption": "the programs of many small parties have many similarities.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Bürgerinnen und Bürger bei vielen kleinen Parteien die Orientierung verlieren können.",
+          "englishOption": "citizens may lose orientation with many small parties.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "viele kleine Parteien die Regierungsbildung erschweren.",
+          "englishOption": "many small parties make it difficult to form a government.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die kleinen Parteien nicht so viel Geld haben, um die Politikerinnen und Politiker zu bezahlen.",
+          "englishOption": "small parties do not have enough money to pay politicians.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "5%-Hürde", "english": "5% threshold" },
+          { "german": "Wahlgesetz", "english": "electoral law" },
+          {
+            "german": "Regierungsbildung",
+            "english": "formation of government"
+          }
+        ]
+      },
+      "notes": "The 5% threshold in Germany's electoral law exists to prevent a fragmented parliament, which would make it difficult to form a stable government.",
+      "learningTechniques": "Focus on the idea that the 5% threshold is designed to avoid too many small parties, which could complicate government formation.",
+      "resources": [
+        {
+          "description": "Learn more about the 5% threshold in German elections.",
+          "url": "https://en.wikipedia.org/wiki/Electoral_system_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 128,
+      "germanQuestion": "Parlamentsmitglieder, die von den Bürgerinnen und Bürgern gewählt werden, nennt man …",
+      "englishQuestion": "Members of parliament elected by the citizens are called …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Abgeordnete.",
+          "englishOption": "Members of parliament.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Kanzlerinnen/Kanzler.",
+          "englishOption": "Chancellors.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Botschafterinnen/Botschafter.",
+          "englishOption": "Ambassadors.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Ministerpräsidentinnen/Ministerpräsidenten.",
+          "englishOption": "State premiers.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Parlamentsmitglieder",
+            "english": "Members of parliament"
+          },
+          { "german": "Abgeordnete", "english": "Members of parliament" }
+        ]
+      },
+      "notes": "In Germany, members of parliament elected by citizens are called 'Abgeordnete.'",
+      "learningTechniques": "Remember that 'Abgeordnete' refers to the elected members of the parliament, representing the people.",
+      "resources": [
+        {
+          "description": "Learn more about members of parliament in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Member_of_parliament"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 129,
+      "germanQuestion": "Vom Volk gewählt wird in Deutschland …",
+      "englishQuestion": "In Germany, the following is elected by the people …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die Bundeskanzlerin/der Bundeskanzler.",
+          "englishOption": "the Federal Chancellor.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Ministerpräsidentin/der Ministerpräsident eines Bundeslandes.",
+          "englishOption": "the state premier of a federal state.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "der Bundestag.",
+          "englishOption": "the Bundestag.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die Bundespräsidentin/der Bundespräsident.",
+          "englishOption": "the Federal President.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Volk", "english": "people" },
+          { "german": "Bundestag", "english": "Bundestag" }
+        ]
+      },
+      "notes": "In Germany, the Bundestag (federal parliament) is elected by the people, not the Federal Chancellor or President.",
+      "learningTechniques": "Focus on the fact that the Bundestag is the primary body elected directly by the people in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the Bundestag and elections in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Bundestag"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 130,
+      "germanQuestion": "Welcher Stimmzettel wäre bei einer Bundestagswahl gültig?",
+      "englishQuestion": "Which ballot paper would be valid in a Bundestag election?",
+      "type": "single",
+      "answerType": "image",
+      "options": [
+        {
+          "germanOption": "Stimmzettel 1",
+          "englishOption": "Ballot 1",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Stimmzettel 2",
+          "englishOption": "Ballot 2",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Stimmzettel 3",
+          "englishOption": "Ballot 3",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Stimmzettel 4",
+          "englishOption": "Ballot 4",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [{ "german": "Stimmzettel", "english": "ballot paper" }]
+      },
+      "notes": "The correct ballot paper in a Bundestag election must meet specific criteria for validity.",
+      "learningTechniques": "Focus on understanding what makes a ballot paper valid during elections in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about ballot papers in German elections.",
+          "url": "https://en.wikipedia.org/wiki/Ballot"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 131,
+      "germanQuestion": "In Deutschland ist eine Bürgermeisterin/ein Bürgermeister …",
+      "englishQuestion": "In Germany, a mayor is …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die Leiterin/der Leiter einer Schule.",
+          "englishOption": "the head of a school.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Chefin/der Chef einer Bank.",
+          "englishOption": "the head of a bank.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "das Oberhaupt einer Gemeinde.",
+          "englishOption": "the head of a municipality.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die/der Vorsitzende einer Partei.",
+          "englishOption": "the chairperson of a party.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bürgermeisterin/Bürgermeister", "english": "mayor" },
+          { "german": "Gemeinde", "english": "municipality" }
+        ]
+      },
+      "notes": "A mayor ('Bürgermeister') in Germany is the head of a municipality and is responsible for local governance.",
+      "learningTechniques": "Remember that the mayor leads the municipality, not a school, bank, or political party.",
+      "resources": [
+        {
+          "description": "Learn more about the role of mayors in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Mayor"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 132,
+      "germanQuestion": "Viele Menschen in Deutschland arbeiten in ihrer Freizeit ehrenamtlich. Was bedeutet das?",
+      "englishQuestion": "Many people in Germany volunteer in their free time. What does that mean?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Sie arbeiten als Soldatinnen/Soldaten.",
+          "englishOption": "They work as soldiers.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sie arbeiten freiwillig und unbezahlt in Vereinen und Verbänden.",
+          "englishOption": "They work voluntarily and unpaid in clubs and associations.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Sie arbeiten in der Bundesregierung.",
+          "englishOption": "They work in the federal government.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sie arbeiten in einem Krankenhaus und verdienen dabei Geld.",
+          "englishOption": "They work in a hospital and earn money.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "ehrenamtlich", "english": "volunteer" },
+          { "german": "Vereine", "english": "clubs" },
+          { "german": "Verbände", "english": "associations" }
+        ]
+      },
+      "notes": "Volunteering ('ehrenamtlich') in Germany typically means working voluntarily and unpaid, often in clubs and associations.",
+      "learningTechniques": "Focus on the concept of volunteering as unpaid work done for the community in one's free time.",
+      "resources": [
+        {
+          "description": "Learn more about volunteer work in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Volunteering_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 133,
+      "germanQuestion": "Was ist bei Bundestags- und Landtagswahlen in Deutschland erlaubt?",
+      "englishQuestion": "What is allowed in federal and state elections in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Der Ehemann wählt für seine Frau mit.",
+          "englishOption": "The husband votes on behalf of his wife.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Man kann durch Briefwahl seine Stimme abgeben.",
+          "englishOption": "You can vote by mail.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Man kann am Wahltag telefonisch seine Stimme abgeben.",
+          "englishOption": "You can vote by phone on election day.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Kinder ab dem Alter von 14 Jahren dürfen wählen.",
+          "englishOption": "Children aged 14 and older can vote.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Briefwahl", "english": "vote by mail" },
+          { "german": "Wahltag", "english": "election day" }
+        ]
+      },
+      "notes": "In Germany, voting by mail ('Briefwahl') is allowed in federal and state elections, while voting by phone or proxy voting by a spouse is not permitted.",
+      "learningTechniques": "Focus on the distinction between allowed methods of voting, such as mail-in voting, versus prohibited practices like proxy voting.",
+      "resources": [
+        {
+          "description": "Learn more about voting procedures in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Voting_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 134,
+      "germanQuestion": "Man will die Buslinie abschaffen, mit der Sie immer zur Arbeit fahren. Was können Sie machen, um die Buslinie zu erhalten?",
+      "englishQuestion": "They want to cancel the bus line you use to get to work. What can you do to keep the bus line?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Ich beteilige mich an einer Bürgerinitiative für die Erhaltung der Buslinie oder gründe selber eine Initiative.",
+          "englishOption": "I participate in a citizen initiative to keep the bus line or start one myself.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Ich werde Mitglied in einem Sportverein und trainiere Radfahren.",
+          "englishOption": "I join a sports club and train for cycling.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Ich wende mich an das Finanzamt, weil ich als Steuerzahlerin/Steuerzahler ein Recht auf die Buslinie habe.",
+          "englishOption": "I contact the tax office because, as a taxpayer, I have a right to the bus line.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Ich schreibe einen Brief an das Forstamt der Gemeinde.",
+          "englishOption": "I write a letter to the municipal forestry office.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bürgerinitiative", "english": "citizen initiative" },
+          { "german": "Buslinie", "english": "bus line" }
+        ]
+      },
+      "notes": "Participating in a citizen initiative or starting one is an effective way to advocate for keeping public services like a bus line.",
+      "learningTechniques": "Focus on the concept of citizen participation in local governance and the use of initiatives to influence public policy.",
+      "resources": [
+        {
+          "description": "Learn more about citizen initiatives in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Citizen_initiative"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 135,
+      "germanQuestion": "Wen vertreten die Gewerkschaften in Deutschland?",
+      "englishQuestion": "Whom do trade unions represent in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "große Unternehmen",
+          "englishOption": "large companies",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "kleine Unternehmen",
+          "englishOption": "small companies",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Selbstständige",
+          "englishOption": "self-employed people",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Arbeitnehmerinnen und Arbeitnehmer",
+          "englishOption": "employees",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Gewerkschaften", "english": "trade unions" },
+          {
+            "german": "Arbeitnehmerinnen und Arbeitnehmer",
+            "english": "employees"
+          }
+        ]
+      },
+      "notes": "Trade unions in Germany represent the interests of employees, advocating for better wages, working conditions, and rights at work.",
+      "learningTechniques": "Focus on the role of trade unions in representing workers rather than employers or self-employed individuals.",
+      "resources": [
+        {
+          "description": "Learn more about trade unions in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Trade_unions_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 136,
+      "germanQuestion": "Sie gehen in Deutschland zum Arbeitsgericht bei …",
+      "englishQuestion": "You go to the labor court in Germany when …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "falscher Nebenkostenabrechnung.",
+          "englishOption": "incorrect utility bill calculation.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "ungerechtfertigter Kündigung durch Ihre Chefin/Ihren Chef.",
+          "englishOption": "unjustified dismissal by your employer.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Problemen mit den Nachbarinnen/Nachbarn.",
+          "englishOption": "problems with neighbors.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Schwierigkeiten nach einem Verkehrsunfall.",
+          "englishOption": "difficulties after a traffic accident.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Arbeitsgericht", "english": "labor court" },
+          { "german": "Kündigung", "english": "dismissal" }
+        ]
+      },
+      "notes": "In Germany, labor courts deal with disputes between employees and employers, such as unjustified dismissals.",
+      "learningTechniques": "Remember that labor courts handle workplace-related issues, especially disputes over employment contracts and dismissals.",
+      "resources": [
+        {
+          "description": "Learn more about labor courts in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Labour_court"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 137,
+      "germanQuestion": "Welches Gericht ist in Deutschland bei Konflikten in der Arbeitswelt zuständig?",
+      "englishQuestion": "Which court is responsible for workplace conflicts in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "das Familiengericht",
+          "englishOption": "the family court",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "das Strafgericht",
+          "englishOption": "the criminal court",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "das Arbeitsgericht",
+          "englishOption": "the labor court",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "das Amtsgericht",
+          "englishOption": "the district court",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Arbeitsgericht", "english": "labor court" },
+          { "german": "Konflikte", "english": "conflicts" }
+        ]
+      },
+      "notes": "In Germany, the labor court ('Arbeitsgericht') handles disputes related to employment and labor issues.",
+      "learningTechniques": "Focus on the role of labor courts in resolving workplace disputes between employers and employees.",
+      "resources": [
+        {
+          "description": "Learn more about labor courts in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Labour_court"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 138,
+      "germanQuestion": "Was kann ich in Deutschland machen, wenn mir meine Arbeitgeberin/mein Arbeitgeber zu Unrecht gekündigt hat?",
+      "englishQuestion": "What can I do in Germany if my employer has wrongfully dismissed me?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "weiterarbeiten und freundlich zur Chefin/zum Chef sein",
+          "englishOption": "continue working and be friendly to your boss",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "ein Mahnverfahren gegen die Arbeitgeberin/den Arbeitgeber führen",
+          "englishOption": "initiate a dunning procedure against the employer",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Kündigungsschutzklage erheben",
+          "englishOption": "file a wrongful dismissal lawsuit",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die Arbeitgeberin/den Arbeitgeber bei der Polizei anzeigen",
+          "englishOption": "report the employer to the police",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Kündigungsschutzklage",
+            "english": "wrongful dismissal lawsuit"
+          },
+          { "german": "Arbeitgeberin/Arbeitgeber", "english": "employer" }
+        ]
+      },
+      "notes": "If an employee believes they have been wrongfully dismissed in Germany, they can file a 'Kündigungsschutzklage' (wrongful dismissal lawsuit) to challenge the termination.",
+      "learningTechniques": "Focus on the legal protection provided to employees through labor laws and the option to file a lawsuit in case of wrongful termination.",
+      "resources": [
+        {
+          "description": "Learn more about labor rights and wrongful termination in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Termination_of_employment"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 139,
+      "germanQuestion": "Wann kommt es in Deutschland zu einem Prozess vor Gericht? Wenn jemand …",
+      "englishQuestion": "When does a court case occur in Germany? When someone …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "zu einer anderen Religion übertritt.",
+          "englishOption": "converts to another religion.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine Straftat begangen hat und angeklagt wird.",
+          "englishOption": "has committed a crime and is charged.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "eine andere Meinung als die der Regierung vertritt.",
+          "englishOption": "holds a different opinion than the government.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "sein Auto falsch geparkt hat und es abgeschleppt wird.",
+          "englishOption": "parks their car incorrectly and it gets towed.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Prozess", "english": "court case" },
+          { "german": "Straftat", "english": "crime" }
+        ]
+      },
+      "notes": "A court case in Germany typically occurs when someone has committed a crime and is charged in court.",
+      "learningTechniques": "Focus on the legal process in Germany, where a trial happens when someone is formally charged with a crime.",
+      "resources": [
+        {
+          "description": "Learn more about the legal process in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Law_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 140,
+      "germanQuestion": "Was macht eine Schöffin/ein Schöffe in Deutschland? Sie/Er …",
+      "englishQuestion": "What does a lay judge do in Germany? They …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "entscheidet mit Richterinnen/Richtern über Schuld und Strafe.",
+          "englishOption": "co-decides with judges on guilt and punishment.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "gibt Bürgerinnen/Bürgern rechtlichen Rat.",
+          "englishOption": "gives legal advice to citizens.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "stellt Urkunden aus.",
+          "englishOption": "issues documents.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "verteidigt die Angeklagte/den Angeklagten.",
+          "englishOption": "defends the accused.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Schöffin/Schöffe", "english": "lay judge" },
+          { "german": "Schuld", "english": "guilt" },
+          { "german": "Strafe", "english": "punishment" }
+        ]
+      },
+      "notes": "In Germany, lay judges ('Schöffinnen/Schöffen') participate in court decisions alongside professional judges, particularly in criminal cases.",
+      "learningTechniques": "Remember that lay judges are ordinary citizens who assist professional judges in deciding on guilt and sentencing in criminal cases.",
+      "resources": [
+        {
+          "description": "Learn more about lay judges in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Lay_judge"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 141,
+      "germanQuestion": "Wer berät in Deutschland Personen bei Rechtsfragen und vertritt sie vor Gericht?",
+      "englishQuestion": "Who advises people on legal matters and represents them in court in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "eine Rechtsanwältin/ein Rechtsanwalt",
+          "englishOption": "a lawyer",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "eine Richterin/ein Richter",
+          "englishOption": "a judge",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine Schöffin/ein Schöffe",
+          "englishOption": "a lay judge",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine Staatsanwältin/ein Staatsanwalt",
+          "englishOption": "a prosecutor",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Rechtsanwältin/Rechtsanwalt", "english": "lawyer" },
+          { "german": "Gericht", "english": "court" }
+        ]
+      },
+      "notes": "In Germany, a lawyer ('Rechtsanwalt') advises clients on legal matters and represents them in court.",
+      "learningTechniques": "Focus on the role of a lawyer in providing legal advice and court representation, distinct from judges and prosecutors.",
+      "resources": [
+        {
+          "description": "Learn more about the legal profession in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Lawyer"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 142,
+      "germanQuestion": "Was ist die Hauptaufgabe einer Richterin/eines Richters in Deutschland? Eine Richterin/ein Richter …",
+      "englishQuestion": "What is the main task of a judge in Germany? A judge …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "vertritt Bürgerinnen und Bürger vor einem Gericht.",
+          "englishOption": "represents citizens in court.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "arbeitet an einem Gericht und spricht Urteile.",
+          "englishOption": "works in a court and delivers judgments.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "ändert Gesetze.",
+          "englishOption": "changes laws.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "betreut Jugendliche vor Gericht.",
+          "englishOption": "supervises juveniles in court.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Richterin/Richter", "english": "judge" },
+          { "german": "Urteile", "english": "judgments" }
+        ]
+      },
+      "notes": "The main task of a judge in Germany is to deliver judgments in court cases.",
+      "learningTechniques": "Focus on the role of judges in the judiciary, where they interpret the law and issue verdicts.",
+      "resources": [
+        {
+          "description": "Learn more about the role of judges in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Judge"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 143,
+      "germanQuestion": "Eine Richterin/ein Richter in Deutschland gehört zur …",
+      "englishQuestion": "A judge in Germany belongs to the …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Judikative.",
+          "englishOption": "Judiciary.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Exekutive.",
+          "englishOption": "Executive.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Operative.",
+          "englishOption": "Operative.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Legislative.",
+          "englishOption": "Legislature.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Richterin/Richter", "english": "judge" },
+          { "german": "Judikative", "english": "judiciary" }
+        ]
+      },
+      "notes": "Judges in Germany belong to the judiciary ('Judikative'), the branch of government responsible for interpreting and applying the law.",
+      "learningTechniques": "Focus on the separation of powers and the role of judges within the judiciary, distinct from the legislative and executive branches.",
+      "resources": [
+        {
+          "description": "Learn more about the judiciary in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Judiciary"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 144,
+      "germanQuestion": "Eine Richterin/ein Richter gehört in Deutschland zur …",
+      "englishQuestion": "A judge in Germany belongs to the …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "vollziehenden Gewalt.",
+          "englishOption": "executive power.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "rechtsprechenden Gewalt.",
+          "englishOption": "judicial power.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "planenden Gewalt.",
+          "englishOption": "planning power.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "gesetzgebenden Gewalt.",
+          "englishOption": "legislative power.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "rechtsprechende Gewalt", "english": "judicial power" },
+          { "german": "Richterin/Richter", "english": "judge" }
+        ]
+      },
+      "notes": "Judges in Germany belong to the judicial power ('rechtsprechende Gewalt'), which is responsible for interpreting and applying laws.",
+      "learningTechniques": "Focus on understanding the three branches of government and the role of the judiciary.",
+      "resources": [
+        {
+          "description": "Learn more about the separation of powers in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Separation_of_powers"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 145,
+      "germanQuestion": "In Deutschland wird die Staatsgewalt geteilt. Für welche Staatsgewalt arbeitet eine Richterin/ein Richter? Für die …",
+      "englishQuestion": "In Germany, state power is divided. Which branch of government does a judge work for? The …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Judikative",
+          "englishOption": "Judiciary",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Exekutive",
+          "englishOption": "Executive",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Presse",
+          "englishOption": "Press",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Legislative",
+          "englishOption": "Legislature",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Staatsgewalt", "english": "state power" },
+          { "german": "Judikative", "english": "judiciary" }
+        ]
+      },
+      "notes": "Judges in Germany are part of the judiciary ('Judikative'), one of the three branches of government responsible for interpreting laws.",
+      "learningTechniques": "Focus on the division of power in Germany and the role of the judiciary in ensuring the rule of law.",
+      "resources": [
+        {
+          "description": "Learn more about the judiciary and the division of power in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Judiciary"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 146,
+      "germanQuestion": "Wie nennt man in Deutschland ein Verfahren vor einem Gericht?",
+      "englishQuestion": "What is a legal proceeding in a court called in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Programm",
+          "englishOption": "program",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Prozedur",
+          "englishOption": "procedure",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Protokoll",
+          "englishOption": "protocol",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Prozess",
+          "englishOption": "trial",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Verfahren", "english": "proceeding" },
+          { "german": "Prozess", "english": "trial" }
+        ]
+      },
+      "notes": "A legal proceeding in court is called a 'Prozess' in Germany.",
+      "learningTechniques": "Remember that 'Prozess' refers to a trial or legal proceeding in a court.",
+      "resources": [
+        {
+          "description": "Learn more about court procedures in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Trial"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 147,
+      "germanQuestion": "Was ist die Arbeit einer Richterin/eines Richters in Deutschland?",
+      "englishQuestion": "What is the work of a judge in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Deutschland regieren",
+          "englishOption": "governing Germany",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Recht sprechen",
+          "englishOption": "administering justice",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Pläne erstellen",
+          "englishOption": "making plans",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Gesetze erlassen",
+          "englishOption": "enacting laws",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Richterin/Richter", "english": "judge" },
+          { "german": "Recht sprechen", "english": "administer justice" }
+        ]
+      },
+      "notes": "The main work of a judge in Germany is to administer justice ('Recht sprechen'). Judges ensure that laws are interpreted and applied correctly.",
+      "learningTechniques": "Focus on the role of judges in delivering justice rather than governing or enacting laws.",
+      "resources": [
+        {
+          "description": "Learn more about the role of judges in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Judge"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 148,
+      "germanQuestion": "Was ist eine Aufgabe der Polizei in Deutschland?",
+      "englishQuestion": "What is a task of the police in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "das Land zu verteidigen",
+          "englishOption": "defending the country",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Bürgerinnen und Bürger abzuhören",
+          "englishOption": "eavesdropping on citizens",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Gesetze zu beschließen",
+          "englishOption": "enacting laws",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Einhaltung von Gesetzen zu überwachen",
+          "englishOption": "monitoring the enforcement of laws",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Polizei", "english": "police" },
+          { "german": "Gesetze", "english": "laws" },
+          { "german": "Einhaltung", "english": "enforcement" }
+        ]
+      },
+      "notes": "The main task of the police in Germany is to monitor the enforcement of laws and ensure public safety.",
+      "learningTechniques": "Focus on the role of the police in enforcing laws rather than making or interpreting them.",
+      "resources": [
+        {
+          "description": "Learn more about the role of police in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Law_enforcement_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 149,
+      "germanQuestion": "Was ist ein Beispiel für antisemitisches Verhalten?",
+      "englishQuestion": "What is an example of anti-Semitic behavior?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "ein jüdisches Fest besuchen",
+          "englishOption": "attending a Jewish festival",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die israelische Regierung kritisieren",
+          "englishOption": "criticizing the Israeli government",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "den Holocaust leugnen",
+          "englishOption": "denying the Holocaust",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "gegen Juden Fußball spielen",
+          "englishOption": "playing football against Jews",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "antisemitisches Verhalten",
+            "english": "anti-Semitic behavior"
+          },
+          { "german": "Holocaust", "english": "Holocaust" }
+        ]
+      },
+      "notes": "Denying the Holocaust is an example of anti-Semitic behavior and is punishable under German law.",
+      "learningTechniques": "Focus on understanding that Holocaust denial is a serious crime and a form of anti-Semitism.",
+      "resources": [
+        {
+          "description": "Learn more about anti-Semitism and Holocaust denial.",
+          "url": "https://en.wikipedia.org/wiki/Antisemitism"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 150,
+      "germanQuestion": "Eine Gerichtsschöffin/ein Gerichtsschöffe in Deutschland ist …",
+      "englishQuestion": "A lay judge in Germany is …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die Stellvertreterin/der Stellvertreter des Stadtoberhaupts.",
+          "englishOption": "the deputy of the city leader.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine ehrenamtliche Richterin/ein ehrenamtlicher Richter.",
+          "englishOption": "a volunteer judge.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "ein Mitglied eines Gemeinderats.",
+          "englishOption": "a member of a municipal council.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine Person, die Jura studiert hat.",
+          "englishOption": "a person who studied law.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Gerichtsschöffin/Gerichtsschöffe",
+            "english": "lay judge"
+          },
+          { "german": "ehrenamtlich", "english": "volunteer" }
+        ]
+      },
+      "notes": "A lay judge ('Gerichtsschöffe') in Germany is a volunteer who participates in court decisions alongside professional judges.",
+      "learningTechniques": "Focus on the role of lay judges as volunteers who assist in legal proceedings without being professional judges.",
+      "resources": [
+        {
+          "description": "Learn more about lay judges in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Lay_judge"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 151,
+      "germanQuestion": "Wer baute die Mauer in Berlin?",
+      "englishQuestion": "Who built the Berlin Wall?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Großbritannien",
+          "englishOption": "Great Britain",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die DDR",
+          "englishOption": "East Germany (GDR)",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die Bundesrepublik Deutschland",
+          "englishOption": "The Federal Republic of Germany",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die USA",
+          "englishOption": "The USA",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Mauer", "english": "wall" },
+          { "german": "DDR", "english": "East Germany" }
+        ]
+      },
+      "notes": "The Berlin Wall was built by the German Democratic Republic (GDR), commonly known as East Germany, in 1961.",
+      "learningTechniques": "Focus on the historical context of the Berlin Wall, which was constructed by East Germany to prevent its citizens from fleeing to the West.",
+      "resources": [
+        {
+          "description": "Learn more about the Berlin Wall and its history.",
+          "url": "https://en.wikipedia.org/wiki/Berlin_Wall"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 152,
+      "germanQuestion": "Wann waren die Nationalsozialisten mit Adolf Hitler in Deutschland an der Macht?",
+      "englishQuestion": "When were the National Socialists under Adolf Hitler in power in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "1918 bis 1923",
+          "englishOption": "1918 to 1923",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1932 bis 1950",
+          "englishOption": "1932 to 1950",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1933 bis 1945",
+          "englishOption": "1933 to 1945",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "1945 bis 1989",
+          "englishOption": "1945 to 1989",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Nationalsozialisten", "english": "National Socialists" },
+          { "german": "Macht", "english": "power" }
+        ]
+      },
+      "notes": "The National Socialists, led by Adolf Hitler, were in power in Germany from 1933 to 1945, a period that included World War II and the Holocaust.",
+      "learningTechniques": "Focus on the timeline of Nazi rule in Germany, which started in 1933 and ended with their defeat in 1945.",
+      "resources": [
+        {
+          "description": "Learn more about Nazi Germany and its history.",
+          "url": "https://en.wikipedia.org/wiki/Nazi_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 153,
+      "germanQuestion": "Was war am 8. Mai 1945?",
+      "englishQuestion": "What happened on May 8, 1945?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Tod Adolf Hitlers",
+          "englishOption": "Death of Adolf Hitler",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Beginn des Berliner Mauerbaus",
+          "englishOption": "Start of the construction of the Berlin Wall",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Wahl von Konrad Adenauer zum Bundeskanzler",
+          "englishOption": "Election of Konrad Adenauer as Federal Chancellor",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Ende des Zweiten Weltkriegs in Europa",
+          "englishOption": "End of World War II in Europe",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Ende", "english": "end" },
+          { "german": "Zweiter Weltkrieg", "english": "World War II" }
+        ]
+      },
+      "notes": "May 8, 1945, marks the end of World War II in Europe, known as Victory in Europe (VE) Day.",
+      "learningTechniques": "Focus on remembering VE Day as the official end of the war in Europe, symbolizing the defeat of Nazi Germany.",
+      "resources": [
+        {
+          "description": "Learn more about Victory in Europe Day.",
+          "url": "https://en.wikipedia.org/wiki/Victory_in_Europe_Day"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 154,
+      "germanQuestion": "Wann war der Zweite Weltkrieg zu Ende?",
+      "englishQuestion": "When did World War II end?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "1933",
+          "englishOption": "1933",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1945",
+          "englishOption": "1945",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "1949",
+          "englishOption": "1949",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1961",
+          "englishOption": "1961",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Zweiter Weltkrieg", "english": "World War II" },
+          { "german": "Ende", "english": "end" }
+        ]
+      },
+      "notes": "World War II ended in 1945 with the unconditional surrender of Nazi Germany and Japan.",
+      "learningTechniques": "Focus on the key year of 1945 as the end of the largest conflict in modern history.",
+      "resources": [
+        {
+          "description": "Learn more about the end of World War II.",
+          "url": "https://en.wikipedia.org/wiki/End_of_World_War_II_in_Europe"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 155,
+      "germanQuestion": "Wann waren die Nationalsozialisten in Deutschland an der Macht?",
+      "englishQuestion": "When were the National Socialists in power in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "1888 bis 1918",
+          "englishOption": "1888 to 1918",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1921 bis 1934",
+          "englishOption": "1921 to 1934",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1933 bis 1945",
+          "englishOption": "1933 to 1945",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "1949 bis 1963",
+          "englishOption": "1949 to 1963",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Nationalsozialisten", "english": "National Socialists" },
+          { "german": "Macht", "english": "power" }
+        ]
+      },
+      "notes": "The National Socialists, led by Adolf Hitler, were in power in Germany from 1933 to 1945.",
+      "learningTechniques": "Focus on the period from 1933 to 1945 as the time when Nazi Germany dominated under Hitler's rule.",
+      "resources": [
+        {
+          "description": "Learn more about the timeline of Nazi Germany.",
+          "url": "https://en.wikipedia.org/wiki/Nazi_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 156,
+      "germanQuestion": "In welchem Jahr wurde Hitler Reichskanzler?",
+      "englishQuestion": "In which year did Hitler become Chancellor?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "1923",
+          "englishOption": "1923",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1927",
+          "englishOption": "1927",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1933",
+          "englishOption": "1933",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "1936",
+          "englishOption": "1936",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Reichskanzler", "english": "Chancellor" },
+          { "german": "Hitler", "english": "Hitler" }
+        ]
+      },
+      "notes": "Adolf Hitler became Chancellor of Germany in 1933, marking the beginning of Nazi rule.",
+      "learningTechniques": "Remember the year 1933 as the pivotal moment when Hitler rose to power as Chancellor.",
+      "resources": [
+        {
+          "description": "Learn more about Hitler's rise to power in 1933.",
+          "url": "https://en.wikipedia.org/wiki/Adolf_Hitler"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 157,
+      "germanQuestion": "Die Nationalsozialisten mit Adolf Hitler errichteten 1933 in Deutschland …",
+      "englishQuestion": "In 1933, the National Socialists under Adolf Hitler established …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "eine Diktatur.",
+          "englishOption": "a dictatorship.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "einen demokratischen Staat.",
+          "englishOption": "a democratic state.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine Monarchie.",
+          "englishOption": "a monarchy.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "ein Fürstentum.",
+          "englishOption": "a principality.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Diktatur", "english": "dictatorship" },
+          { "german": "Nationalsozialisten", "english": "National Socialists" }
+        ]
+      },
+      "notes": "In 1933, the National Socialists established a dictatorship in Germany under Adolf Hitler, leading to the totalitarian regime of Nazi Germany.",
+      "learningTechniques": "Focus on the fact that the rise of the Nazis in 1933 led to the establishment of a dictatorship, not a democracy.",
+      "resources": [
+        {
+          "description": "Learn more about the dictatorship established by the Nazis in 1933.",
+          "url": "https://en.wikipedia.org/wiki/Nazi_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 158,
+      "germanQuestion": "Das 'Dritte Reich' war eine …",
+      "englishQuestion": "The 'Third Reich' was a …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Diktatur.",
+          "englishOption": "dictatorship.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Demokratie.",
+          "englishOption": "democracy.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Monarchie.",
+          "englishOption": "monarchy.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Räterepublik.",
+          "englishOption": "council republic.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Dritte Reich", "english": "Third Reich" },
+          { "german": "Diktatur", "english": "dictatorship" }
+        ]
+      },
+      "notes": "The 'Third Reich' was the totalitarian state established by the National Socialists in Germany, characterized by dictatorship and state control.",
+      "learningTechniques": "Focus on the term 'Third Reich' as synonymous with Nazi Germany's dictatorship.",
+      "resources": [
+        {
+          "description": "Learn more about the Third Reich.",
+          "url": "https://en.wikipedia.org/wiki/Third_Reich"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 159,
+      "germanQuestion": "Was gab es in Deutschland nicht während der Zeit des Nationalsozialismus?",
+      "englishQuestion": "What did not exist in Germany during the National Socialist period?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "freie Wahlen",
+          "englishOption": "free elections",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Pressezensur",
+          "englishOption": "press censorship",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "willkürliche Verhaftungen",
+          "englishOption": "arbitrary arrests",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Verfolgung von Juden",
+          "englishOption": "persecution of Jews",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "freie Wahlen", "english": "free elections" },
+          { "german": "Pressezensur", "english": "press censorship" }
+        ]
+      },
+      "notes": "During the National Socialist period, free elections did not exist, while press censorship, arbitrary arrests, and persecution of Jews were widespread.",
+      "learningTechniques": "Focus on the suppression of democratic freedoms, such as free elections, during Nazi rule.",
+      "resources": [
+        {
+          "description": "Learn more about life under Nazi rule in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Nazi_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 160,
+      "germanQuestion": "Welcher Krieg dauerte von 1939 bis 1945?",
+      "englishQuestion": "Which war lasted from 1939 to 1945?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "der Erste Weltkrieg",
+          "englishOption": "the First World War",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "der Zweite Weltkrieg",
+          "englishOption": "the Second World War",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "der Vietnamkrieg",
+          "englishOption": "the Vietnam War",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "der Golfkrieg",
+          "englishOption": "the Gulf War",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Zweiter Weltkrieg", "english": "Second World War" }
+        ]
+      },
+      "notes": "The Second World War, one of the deadliest conflicts in human history, lasted from 1939 to 1945.",
+      "learningTechniques": "Focus on the timeframe of World War II as 1939-1945, with significant global impact.",
+      "resources": [
+        {
+          "description": "Learn more about World War II.",
+          "url": "https://en.wikipedia.org/wiki/World_War_II"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 161,
+      "germanQuestion": "Was kennzeichnete den NS-Staat? Eine Politik …",
+      "englishQuestion": "What characterized the Nazi state? A policy of …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "des staatlichen Rassismus",
+          "englishOption": "state racism",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "der Meinungsfreiheit",
+          "englishOption": "freedom of speech",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "der allgemeinen Religionsfreiheit",
+          "englishOption": "general religious freedom",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "der Entwicklung der Demokratie",
+          "englishOption": "development of democracy",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "staatlicher Rassismus", "english": "state racism" },
+          { "german": "NS-Staat", "english": "Nazi state" }
+        ]
+      },
+      "notes": "The Nazi state was marked by policies of state racism, particularly targeting Jews and other minorities.",
+      "learningTechniques": "Focus on the systemic racism that characterized the policies of the Nazi regime.",
+      "resources": [
+        {
+          "description": "Learn more about the racial policies of Nazi Germany.",
+          "url": "https://en.wikipedia.org/wiki/Racial_policy_of_Nazi_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 162,
+      "germanQuestion": "Claus Schenk Graf von Stauffenberg wurde bekannt durch …",
+      "englishQuestion": "Claus Schenk Graf von Stauffenberg became known for …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "eine Goldmedaille bei den Olympischen Spielen 1936.",
+          "englishOption": "a gold medal at the 1936 Olympics.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "den Bau des Reichstagsgebäudes.",
+          "englishOption": "the construction of the Reichstag building.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "den Aufbau der Wehrmacht.",
+          "englishOption": "the establishment of the Wehrmacht.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "das Attentat auf Hitler am 20. Juli 1944.",
+          "englishOption": "the assassination attempt on Hitler on July 20, 1944.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Attentat", "english": "assassination attempt" },
+          { "german": "Wehrmacht", "english": "Wehrmacht" }
+        ]
+      },
+      "notes": "Claus Schenk Graf von Stauffenberg is best known for his role in the July 20, 1944, assassination attempt on Adolf Hitler.",
+      "learningTechniques": "Remember Stauffenberg as a key figure in the resistance against Hitler, especially the failed assassination attempt in 1944.",
+      "resources": [
+        {
+          "description": "Learn more about the July 20 plot.",
+          "url": "https://en.wikipedia.org/wiki/20_July_plot"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 163,
+      "germanQuestion": "In welchem Jahr zerstörten die Nationalsozialisten Synagogen und jüdische Geschäfte in Deutschland?",
+      "englishQuestion": "In which year did the National Socialists destroy synagogues and Jewish businesses in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "1925",
+          "englishOption": "1925",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1930",
+          "englishOption": "1930",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1938",
+          "englishOption": "1938",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "1945",
+          "englishOption": "1945",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Synagogen", "english": "synagogues" },
+          { "german": "Nationalsozialisten", "english": "National Socialists" }
+        ]
+      },
+      "notes": "The events of Kristallnacht, or the Night of Broken Glass, occurred in 1938 when synagogues and Jewish businesses were destroyed in Germany.",
+      "learningTechniques": "Focus on the historical significance of 1938 as the year of Kristallnacht, a major escalation in the persecution of Jews in Nazi Germany.",
+      "resources": [
+        {
+          "description": "Learn more about Kristallnacht.",
+          "url": "https://en.wikipedia.org/wiki/Kristallnacht"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 164,
+      "germanQuestion": "Was passierte am 9. November 1938 in Deutschland?",
+      "englishQuestion": "What happened on November 9, 1938, in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Mit dem Angriff auf Polen beginnt der Zweite Weltkrieg.",
+          "englishOption": "The attack on Poland begins World War II.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Die Nationalsozialisten verlieren eine Wahl und lösen den Reichstag auf.",
+          "englishOption": "The National Socialists lose an election and dissolve the Reichstag.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Jüdische Geschäfte und Synagogen werden durch Nationalsozialisten und ihre Anhänger zerstört.",
+          "englishOption": "Jewish businesses and synagogues are destroyed by the National Socialists and their supporters.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Hitler wird Reichspräsident und lässt alle Parteien verbieten.",
+          "englishOption": "Hitler becomes Reich President and bans all parties.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Jüdische Geschäfte", "english": "Jewish businesses" },
+          { "german": "Synagogen", "english": "synagogues" }
+        ]
+      },
+      "notes": "On November 9, 1938, Kristallnacht took place, during which Jewish businesses and synagogues were destroyed by the Nazis and their supporters.",
+      "learningTechniques": "Remember Kristallnacht, the violent pogrom against Jews in Germany, as a significant event in Nazi history on November 9, 1938.",
+      "resources": [
+        {
+          "description": "Learn more about Kristallnacht.",
+          "url": "https://en.wikipedia.org/wiki/Kristallnacht"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 165,
+      "germanQuestion": "Wie hieß der erste Bundeskanzler der Bundesrepublik Deutschland?",
+      "englishQuestion": "What was the name of the first Chancellor of the Federal Republic of Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Konrad Adenauer",
+          "englishOption": "Konrad Adenauer",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Kurt Georg Kiesinger",
+          "englishOption": "Kurt Georg Kiesinger",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Helmut Schmidt",
+          "englishOption": "Helmut Schmidt",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Willy Brandt",
+          "englishOption": "Willy Brandt",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundeskanzler", "english": "Chancellor" },
+          {
+            "german": "Bundesrepublik Deutschland",
+            "english": "Federal Republic of Germany"
+          }
+        ]
+      },
+      "notes": "Konrad Adenauer was the first Chancellor of the Federal Republic of Germany, serving from 1949 to 1963.",
+      "learningTechniques": "Focus on Konrad Adenauer as the first post-war Chancellor of West Germany, shaping its early democratic development.",
+      "resources": [
+        {
+          "description": "Learn more about Konrad Adenauer.",
+          "url": "https://en.wikipedia.org/wiki/Konrad_Adenauer"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 166,
+      "germanQuestion": "Bei welchen Demonstrationen in Deutschland riefen die Menschen 'Wir sind das Volk'?",
+      "englishQuestion": "At which demonstrations in Germany did people chant 'We are the people'?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "beim Arbeiteraufstand 1953 in der DDR",
+          "englishOption": "at the 1953 workers' uprising in East Germany",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "bei den Demonstrationen 1968 in der Bundesrepublik Deutschland",
+          "englishOption": "at the 1968 demonstrations in the Federal Republic of Germany",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "bei den Anti-Atomkraft-Demonstrationen 1985 in der Bundesrepublik Deutschland",
+          "englishOption": "at the 1985 anti-nuclear demonstrations in the Federal Republic of Germany",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "bei den Montagsdemonstrationen 1989 in der DDR",
+          "englishOption": "at the 1989 Monday demonstrations in East Germany",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Montagsdemonstrationen",
+            "english": "Monday demonstrations"
+          },
+          { "german": "DDR", "english": "East Germany" }
+        ]
+      },
+      "notes": "The chant 'Wir sind das Volk' was a key slogan during the 1989 Monday demonstrations in East Germany, which contributed to the fall of the Berlin Wall.",
+      "learningTechniques": "Focus on the significance of the Monday demonstrations in 1989, which played a major role in ending East German rule.",
+      "resources": [
+        {
+          "description": "Learn more about the 1989 Monday demonstrations.",
+          "url": "https://en.wikipedia.org/wiki/Monday_demonstrations_in_East_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 167,
+      "germanQuestion": "Welche Länder wurden nach dem Zweiten Weltkrieg in Deutschland als 'Alliierte Besatzungsmächte' bezeichnet?",
+      "englishQuestion": "Which countries were referred to as the 'Allied occupying powers' in Germany after World War II?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Sowjetunion, Großbritannien, Polen, Schweden",
+          "englishOption": "Soviet Union, Great Britain, Poland, Sweden",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Frankreich, Sowjetunion, Italien, Japan",
+          "englishOption": "France, Soviet Union, Italy, Japan",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "USA, Sowjetunion, Spanien, Portugal",
+          "englishOption": "USA, Soviet Union, Spain, Portugal",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "USA, Sowjetunion, Großbritannien, Frankreich",
+          "englishOption": "USA, Soviet Union, Great Britain, France",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Alliierte Besatzungsmächte",
+            "english": "Allied occupying powers"
+          }
+        ]
+      },
+      "notes": "After World War II, the Allied occupying powers in Germany were the USA, Soviet Union, Great Britain, and France, which controlled different zones of the country.",
+      "learningTechniques": "Remember the four Allied powers that divided Germany after the war: USA, Soviet Union, Great Britain, and France.",
+      "resources": [
+        {
+          "description": "Learn more about the Allied occupation of Germany.",
+          "url": "https://en.wikipedia.org/wiki/Allied-occupied_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 168,
+      "germanQuestion": "Welches Land war keine 'Alliierte Besatzungsmacht' in Deutschland?",
+      "englishQuestion": "Which country was not an 'Allied occupying power' in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "USA",
+          "englishOption": "USA",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sowjetunion",
+          "englishOption": "Soviet Union",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Frankreich",
+          "englishOption": "France",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Japan",
+          "englishOption": "Japan",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Alliierte Besatzungsmacht",
+            "english": "Allied occupying power"
+          },
+          { "german": "Japan", "english": "Japan" }
+        ]
+      },
+      "notes": "Japan was not an occupying power in Germany after World War II. The occupying powers were the USA, Soviet Union, Great Britain, and France.",
+      "learningTechniques": "Focus on the four Allied powers in Germany, excluding Japan, which was an Axis power during the war.",
+      "resources": [
+        {
+          "description": "Learn more about the post-World War II occupation of Germany.",
+          "url": "https://en.wikipedia.org/wiki/Allied-occupied_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 169,
+      "germanQuestion": "Wann wurde die Bundesrepublik Deutschland gegründet?",
+      "englishQuestion": "When was the Federal Republic of Germany founded?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "1939",
+          "englishOption": "1939",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1945",
+          "englishOption": "1945",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1949",
+          "englishOption": "1949",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "1951",
+          "englishOption": "1951",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Bundesrepublik Deutschland",
+            "english": "Federal Republic of Germany"
+          }
+        ]
+      },
+      "notes": "The Federal Republic of Germany (West Germany) was officially founded in 1949, marking the establishment of a democratic state in the western zones.",
+      "learningTechniques": "Focus on the year 1949 as the foundation year of the Federal Republic of Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the founding of West Germany.",
+          "url": "https://en.wikipedia.org/wiki/West_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 170,
+      "germanQuestion": "Was gab es während der Zeit des Nationalsozialismus in Deutschland?",
+      "englishQuestion": "What existed during the National Socialist period in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "das Verbot von Parteien",
+          "englishOption": "the ban on political parties",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "das Recht zur freien Entfaltung der Persönlichkeit",
+          "englishOption": "the right to personal development",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Pressefreiheit",
+          "englishOption": "freedom of the press",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "den Schutz der Menschenwürde",
+          "englishOption": "protection of human dignity",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Verbot von Parteien",
+            "english": "ban on political parties"
+          },
+          { "german": "Pressefreiheit", "english": "freedom of the press" }
+        ]
+      },
+      "notes": "During the National Socialist period, political parties were banned, and basic freedoms like press freedom and protection of human dignity were severely restricted.",
+      "learningTechniques": "Focus on the oppressive nature of the Nazi regime, which included the banning of political parties and suppression of personal freedoms.",
+      "resources": [
+        {
+          "description": "Learn more about life under Nazi Germany.",
+          "url": "https://en.wikipedia.org/wiki/Nazi_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 171,
+      "germanQuestion": "Soziale Marktwirtschaft bedeutet, die Wirtschaft …",
+      "englishQuestion": "Social market economy means that the economy …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "steuert sich allein nach Angebot und Nachfrage.",
+          "englishOption": "is governed solely by supply and demand.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "wird vom Staat geplant und gesteuert, Angebot und Nachfrage werden nicht berücksichtigt.",
+          "englishOption": "is planned and controlled by the state, and supply and demand are not taken into account.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "richtet sich nach der Nachfrage im Ausland.",
+          "englishOption": "is based on foreign demand.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "richtet sich nach Angebot und Nachfrage, aber der Staat sorgt für einen sozialen Ausgleich.",
+          "englishOption": "is based on supply and demand, but the state ensures social balance.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Soziale Marktwirtschaft",
+            "english": "social market economy"
+          },
+          { "german": "Angebot und Nachfrage", "english": "supply and demand" }
+        ]
+      },
+      "notes": "The social market economy combines free-market capitalism with social policies to ensure a balance between economic freedom and social welfare.",
+      "learningTechniques": "Focus on the dual nature of the social market economy, where the market operates freely, but the state intervenes to maintain social justice.",
+      "resources": [
+        {
+          "description": "Learn more about Germany's social market economy.",
+          "url": "https://en.wikipedia.org/wiki/Social_market_economy"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 172,
+      "germanQuestion": "In welcher Besatzungszone wurde die DDR gegründet? In der …",
+      "englishQuestion": "In which occupation zone was East Germany (GDR) founded? In the …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "amerikanischen Besatzungszone",
+          "englishOption": "American occupation zone",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "französischen Besatzungszone",
+          "englishOption": "French occupation zone",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "britischen Besatzungszone",
+          "englishOption": "British occupation zone",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "sowjetischen Besatzungszone",
+          "englishOption": "Soviet occupation zone",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Besatzungszone", "english": "occupation zone" },
+          { "german": "DDR", "english": "GDR" }
+        ]
+      },
+      "notes": "The German Democratic Republic (GDR) was founded in the Soviet occupation zone in 1949.",
+      "learningTechniques": "Focus on the fact that East Germany (GDR) was established in the Soviet-controlled area of post-war Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the formation of East Germany.",
+          "url": "https://en.wikipedia.org/wiki/East_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 173,
+      "germanQuestion": "Die Bundesrepublik Deutschland ist ein Gründungsmitglied …",
+      "englishQuestion": "The Federal Republic of Germany is a founding member of …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "des Nordatlantikpakts (NATO).",
+          "englishOption": "the North Atlantic Treaty Organization (NATO).",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "der Vereinten Nationen (VN).",
+          "englishOption": "the United Nations (UN).",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "der Europäischen Union (EU).",
+          "englishOption": "the European Union (EU).",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "des Warschauer Pakts.",
+          "englishOption": "the Warsaw Pact.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Gründungsmitglied", "english": "founding member" },
+          { "german": "Europäische Union", "english": "European Union" }
+        ]
+      },
+      "notes": "The Federal Republic of Germany was a founding member of the European Union, originally established as the European Economic Community (EEC) in 1957.",
+      "learningTechniques": "Focus on Germany's role as a founding member of the European Union, a key organization for European integration.",
+      "resources": [
+        {
+          "description": "Learn more about Germany's role in the European Union.",
+          "url": "https://en.wikipedia.org/wiki/European_Union"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 174,
+      "germanQuestion": "Wann wurde die DDR gegründet?",
+      "englishQuestion": "When was East Germany (GDR) founded?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "1947",
+          "englishOption": "1947",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1949",
+          "englishOption": "1949",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "1953",
+          "englishOption": "1953",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1956",
+          "englishOption": "1956",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "DDR", "english": "GDR" },
+          { "german": "Gründung", "english": "foundation" }
+        ]
+      },
+      "notes": "East Germany (GDR) was officially founded in 1949, following the establishment of West Germany earlier that same year.",
+      "learningTechniques": "Remember that the division of Germany led to the creation of East Germany (GDR) in 1949, in the Soviet zone.",
+      "resources": [
+        {
+          "description": "Learn more about the history of East Germany.",
+          "url": "https://en.wikipedia.org/wiki/East_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 175,
+      "germanQuestion": "Wie viele Besatzungszonen gab es in Deutschland nach dem Zweiten Weltkrieg?",
+      "englishQuestion": "How many occupation zones were there in Germany after World War II?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "3",
+          "englishOption": "3",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "4",
+          "englishOption": "4",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "5",
+          "englishOption": "5",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "6",
+          "englishOption": "6",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Besatzungszonen", "english": "occupation zones" },
+          { "german": "Deutschland", "english": "Germany" }
+        ]
+      },
+      "notes": "Germany was divided into four occupation zones after World War II, controlled by the USA, Soviet Union, Great Britain, and France.",
+      "learningTechniques": "Focus on the four post-war occupation zones that divided Germany, leading to its split into East and West.",
+      "resources": [
+        {
+          "description": "Learn more about the division of Germany after World War II.",
+          "url": "https://en.wikipedia.org/wiki/Allied-occupied_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 176,
+      "germanQuestion": "Wie waren die Besatzungszonen Deutschlands nach 1945 verteilt?",
+      "englishQuestion": "How were the occupation zones of Germany distributed after 1945?",
+      "type": "single",
+      "answerType": "image",
+      "options": [
+        {
+          "germanOption": "1=Großbritannien, 2=Sowjetunion, 3=Frankreich, 4=USA",
+          "englishOption": "1=Great Britain, 2=Soviet Union, 3=France, 4=USA",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1=Sowjetunion, 2=Großbritannien, 3=USA, 4=Frankreich",
+          "englishOption": "1=Soviet Union, 2=Great Britain, 3=USA, 4=France",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1=Großbritannien, 2=Sowjetunion, 3=USA, 4=Frankreich",
+          "englishOption": "1=Great Britain, 2=Soviet Union, 3=USA, 4=France",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "1=Großbritannien, 2=USA, 3=Sowjetunion, 4=Frankreich",
+          "englishOption": "1=Great Britain, 2=USA, 3=Soviet Union, 4=France",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Besatzungszonen", "english": "occupation zones" },
+          { "german": "Verteilung", "english": "distribution" }
+        ]
+      },
+      "notes": "After 1945, Germany was divided into four occupation zones: Great Britain controlled zone 1, the Soviet Union controlled zone 2, the USA controlled zone 3, and France controlled zone 4.",
+      "learningTechniques": "Focus on the correct order of the occupation zones, which determined the post-war division of Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the Allied occupation of Germany and the division of zones.",
+          "url": "https://en.wikipedia.org/wiki/Allied-occupied_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 177,
+      "germanQuestion": "Welche deutsche Stadt wurde nach dem Zweiten Weltkrieg in vier Sektoren aufgeteilt?",
+      "englishQuestion": "Which German city was divided into four sectors after World War II?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "München",
+          "englishOption": "Munich",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Berlin",
+          "englishOption": "Berlin",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Dresden",
+          "englishOption": "Dresden",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Frankfurt/Oder",
+          "englishOption": "Frankfurt/Oder",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Sektoren", "english": "sectors" },
+          { "german": "Stadt", "english": "city" }
+        ]
+      },
+      "notes": "Berlin was divided into four sectors controlled by the USA, Soviet Union, Great Britain, and France after World War II.",
+      "learningTechniques": "Focus on Berlin as the city that symbolized the division between East and West during the Cold War.",
+      "resources": [
+        {
+          "description": "Learn more about the division of Berlin.",
+          "url": "https://en.wikipedia.org/wiki/History_of_Berlin"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 178,
+      "germanQuestion": "Vom Juni 1948 bis zum Mai 1949 wurden die Bürgerinnen und Bürger von West-Berlin durch eine Luftbrücke versorgt. Welcher Umstand war dafür verantwortlich?",
+      "englishQuestion": "From June 1948 to May 1949, the citizens of West Berlin were supplied by an airlift. What was the reason for this?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Für Frankreich war eine Versorgung der West-Berliner Bevölkerung mit dem Flugzeug kostengünstiger.",
+          "englishOption": "For France, supplying the population of West Berlin by plane was more cost-effective.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Die amerikanischen Soldatinnen und Soldaten hatten beim Landtransport Angst vor Überfällen.",
+          "englishOption": "American soldiers were afraid of being ambushed during land transport.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Für Großbritannien war die Versorgung über die Luftbrücke schneller.",
+          "englishOption": "For Great Britain, supplying via the airlift was faster.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Die Sowjetunion unterbrach den gesamten Verkehr auf dem Landwege.",
+          "englishOption": "The Soviet Union cut off all land traffic.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Luftbrücke", "english": "airlift" },
+          { "german": "West-Berlin", "english": "West Berlin" }
+        ]
+      },
+      "notes": "The Berlin Airlift was initiated after the Soviet Union blocked all land routes to West Berlin, requiring air supplies to sustain the population.",
+      "learningTechniques": "Focus on the Soviet blockade of West Berlin, which led to the Berlin Airlift.",
+      "resources": [
+        {
+          "description": "Learn more about the Berlin Airlift.",
+          "url": "https://en.wikipedia.org/wiki/Berlin_Blockade"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 179,
+      "germanQuestion": "Wie endete der Zweite Weltkrieg in Europa offiziell?",
+      "englishQuestion": "How did World War II in Europe officially end?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "mit dem Tod Adolf Hitlers",
+          "englishOption": "with the death of Adolf Hitler",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "durch die bedingungslose Kapitulation Deutschlands",
+          "englishOption": "through the unconditional surrender of Germany",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "mit dem Rückzug der Deutschen aus den besetzten Gebieten",
+          "englishOption": "with the retreat of the Germans from occupied territories",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "durch eine Revolution in Deutschland",
+          "englishOption": "through a revolution in Germany",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "bedingungslose Kapitulation",
+            "english": "unconditional surrender"
+          },
+          { "german": "Zweiter Weltkrieg", "english": "World War II" }
+        ]
+      },
+      "notes": "World War II in Europe officially ended with Germany's unconditional surrender on May 8, 1945.",
+      "learningTechniques": "Focus on Germany's unconditional surrender as the event that marked the end of World War II in Europe.",
+      "resources": [
+        {
+          "description": "Learn more about the end of World War II.",
+          "url": "https://en.wikipedia.org/wiki/End_of_World_War_II_in_Europe"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 180,
+      "germanQuestion": "Der erste Bundeskanzler der Bundesrepublik Deutschland war …",
+      "englishQuestion": "The first Chancellor of the Federal Republic of Germany was …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Ludwig Erhard.",
+          "englishOption": "Ludwig Erhard.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Willy Brandt.",
+          "englishOption": "Willy Brandt.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Konrad Adenauer.",
+          "englishOption": "Konrad Adenauer.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Gerhard Schröder.",
+          "englishOption": "Gerhard Schröder.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundeskanzler", "english": "Chancellor" },
+          {
+            "german": "Bundesrepublik Deutschland",
+            "english": "Federal Republic of Germany"
+          }
+        ]
+      },
+      "notes": "Konrad Adenauer was the first Chancellor of West Germany, serving from 1949 to 1963.",
+      "learningTechniques": "Focus on Konrad Adenauer as a key figure in post-war Germany, shaping the early years of the Federal Republic.",
+      "resources": [
+        {
+          "description": "Learn more about Konrad Adenauer.",
+          "url": "https://en.wikipedia.org/wiki/Konrad_Adenauer"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 181,
+      "germanQuestion": "Was wollte Willy Brandt mit seinem Kniefall 1970 im ehemaligen jüdischen Ghetto in Warschau ausdrücken?",
+      "englishQuestion": "What did Willy Brandt want to express with his kneeling in 1970 in the former Jewish ghetto in Warsaw?",
+      "type": "single",
+      "answerType": "image",
+      "options": [
+        {
+          "germanOption": "Er hat sich den ehemaligen Alliierten unterworfen.",
+          "englishOption": "He submitted to the former Allies.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Er bat Polen und die polnischen Juden um Vergebung.",
+          "englishOption": "He asked for forgiveness from Poland and Polish Jews.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Er zeigte seine Demut vor dem Warschauer Pakt.",
+          "englishOption": "He showed his humility before the Warsaw Pact.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Er sprach ein Gebet am Grab des Unbekannten Soldaten.",
+          "englishOption": "He said a prayer at the Tomb of the Unknown Soldier.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Kniefall", "english": "kneeling" },
+          { "german": "Vergebung", "english": "forgiveness" },
+          { "german": "Ghetto", "english": "ghetto" }
+        ]
+      },
+      "notes": "Willy Brandt's famous kneeling in Warsaw in 1970 was a symbolic act of asking for forgiveness from Poland and Polish Jews for the atrocities committed by Nazi Germany during World War II.",
+      "learningTechniques": "Focus on Willy Brandt's gesture as a significant moment of reconciliation and a step toward healing historical wounds.",
+      "resources": [
+        {
+          "description": "Learn more about Willy Brandt's Warsaw genuflection.",
+          "url": "https://en.wikipedia.org/wiki/Warschauer_Kniefall"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 182,
+      "germanQuestion": "Wie heißt das jüdische Gebetshaus?",
+      "englishQuestion": "What is the name of the Jewish house of worship?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Basilika",
+          "englishOption": "Basilica",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Moschee",
+          "englishOption": "Mosque",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Synagoge",
+          "englishOption": "Synagogue",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Kirche",
+          "englishOption": "Church",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Gebetshaus", "english": "house of worship" },
+          { "german": "Synagoge", "english": "synagogue" }
+        ]
+      },
+      "notes": "The Jewish house of worship is called a synagogue, which serves as a place for prayer, study, and community gatherings.",
+      "learningTechniques": "Focus on the word 'Synagoge' as the specific term for a Jewish place of worship.",
+      "resources": [
+        {
+          "description": "Learn more about synagogues.",
+          "url": "https://en.wikipedia.org/wiki/Synagogue"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 183,
+      "germanQuestion": "Wann war in der Bundesrepublik Deutschland das 'Wirtschaftswunder'?",
+      "englishQuestion": "When did the 'economic miracle' occur in the Federal Republic of Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "40er Jahre",
+          "englishOption": "1940s",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "50er Jahre",
+          "englishOption": "1950s",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "70er Jahre",
+          "englishOption": "1970s",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "80er Jahre",
+          "englishOption": "1980s",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Wirtschaftswunder", "english": "economic miracle" }
+        ]
+      },
+      "notes": "The 'Wirtschaftswunder' refers to the rapid economic recovery and growth in West Germany during the 1950s after World War II.",
+      "learningTechniques": "Focus on the 1950s as the decade of West Germany's remarkable economic recovery, known as the 'economic miracle.'",
+      "resources": [
+        {
+          "description": "Learn more about the 'Wirtschaftswunder'.",
+          "url": "https://en.wikipedia.org/wiki/Wirtschaftswunder"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 184,
+      "germanQuestion": "Auf welcher rechtlichen Grundlage wurde der Staat Israel gegründet?",
+      "englishQuestion": "On what legal basis was the State of Israel founded?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "eine Resolution der Vereinten Nationen",
+          "englishOption": "a United Nations resolution",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "ein Beschluss des Zionistenkongresses",
+          "englishOption": "a decision of the Zionist Congress",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "ein Vorschlag der Bundesregierung",
+          "englishOption": "a proposal by the German government",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "ein Vorschlag der UdSSR",
+          "englishOption": "a proposal by the USSR",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "rechtliche Grundlage", "english": "legal basis" },
+          { "german": "Resolution", "english": "resolution" }
+        ]
+      },
+      "notes": "The State of Israel was founded in 1948 based on United Nations Resolution 181, which called for the partition of Palestine.",
+      "learningTechniques": "Focus on the United Nations Resolution 181 as the key legal foundation for the creation of the State of Israel in 1948.",
+      "resources": [
+        {
+          "description": "Learn more about the establishment of Israel.",
+          "url": "https://en.wikipedia.org/wiki/Israel"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 185,
+      "germanQuestion": "Wofür stand der Ausdruck 'Eiserner Vorhang'? Für die Abschottung …",
+      "englishQuestion": "What did the term 'Iron Curtain' stand for? For the separation …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "des Warschauer Pakts gegen den Westen",
+          "englishOption": "of the Warsaw Pact against the West",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Norddeutschlands gegen Süddeutschland",
+          "englishOption": "of Northern Germany against Southern Germany",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Nazi-Deutschlands gegen die Alliierten",
+          "englishOption": "of Nazi Germany against the Allies",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Europas gegen die USA",
+          "englishOption": "of Europe against the USA",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Eiserner Vorhang", "english": "Iron Curtain" },
+          { "german": "Warschauer Pakt", "english": "Warsaw Pact" }
+        ]
+      },
+      "notes": "The 'Iron Curtain' symbolized the division between Eastern Bloc countries (under the Warsaw Pact) and the Western nations during the Cold War.",
+      "learningTechniques": "Focus on the term 'Iron Curtain' as representing the geopolitical barrier between the Soviet-controlled East and the West during the Cold War.",
+      "resources": [
+        {
+          "description": "Learn more about the Iron Curtain.",
+          "url": "https://en.wikipedia.org/wiki/Iron_Curtain"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 186,
+      "germanQuestion": "Im Jahr 1953 gab es in der DDR einen Aufstand, an den lange Zeit in der Bundesrepublik Deutschland ein Feiertag erinnerte. Wann war das?",
+      "englishQuestion": "In 1953, there was an uprising in East Germany (GDR), which was commemorated as a holiday in West Germany for many years. When did it take place?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "1. Mai",
+          "englishOption": "May 1",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "17. Juni",
+          "englishOption": "June 17",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "20. Juli",
+          "englishOption": "July 20",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "9. November",
+          "englishOption": "November 9",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Aufstand", "english": "uprising" },
+          { "german": "Feiertag", "english": "holiday" }
+        ]
+      },
+      "notes": "The East German uprising of June 17, 1953, was commemorated as a national holiday in West Germany, known as the Day of German Unity, until German reunification in 1990.",
+      "learningTechniques": "Focus on June 17, 1953, as the date of the uprising in East Germany, which became a symbol of resistance against the communist regime.",
+      "resources": [
+        {
+          "description": "Learn more about the 1953 East German uprising.",
+          "url": "https://en.wikipedia.org/wiki/Uprising_of_1953_in_East_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 187,
+      "germanQuestion": "Welcher deutsche Staat hatte eine schwarz-rot-goldene Flagge mit Hammer, Zirkel und Ährenkranz?",
+      "englishQuestion": "Which German state had a black-red-gold flag with a hammer, compass, and wreath of ears of corn?",
+      "type": "single",
+      "answerType": "image",
+      "options": [
+        {
+          "germanOption": "Preußen",
+          "englishOption": "Prussia",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bundesrepublik Deutschland",
+          "englishOption": "Federal Republic of Germany",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "\"Drittes Reich\"",
+          "englishOption": "\"Third Reich\"",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "DDR",
+          "englishOption": "GDR (East Germany)",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Flagge", "english": "flag" },
+          {
+            "german": "Hammer, Zirkel und Ährenkranz",
+            "english": "hammer, compass, and wreath of ears of corn"
+          }
+        ]
+      },
+      "notes": "The flag of the German Democratic Republic (GDR) featured the black-red-gold colors along with symbols of industry and agriculture: a hammer, compass, and a wreath of ears of corn.",
+      "learningTechniques": "Focus on the distinctive symbols of the GDR flag, which reflect its socialist identity.",
+      "resources": [
+        {
+          "description": "Learn more about the flag of East Germany.",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_East_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 188,
+      "germanQuestion": "In welchem Jahr wurde die Mauer in Berlin gebaut?",
+      "englishQuestion": "In which year was the Berlin Wall built?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "1953",
+          "englishOption": "1953",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1956",
+          "englishOption": "1956",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1959",
+          "englishOption": "1959",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1961",
+          "englishOption": "1961",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Mauer", "english": "wall" },
+          { "german": "Berlin", "english": "Berlin" }
+        ]
+      },
+      "notes": "The Berlin Wall was constructed in 1961 by the East German government to prevent the mass exodus of East Germans to West Berlin.",
+      "learningTechniques": "Focus on 1961 as the year that marked the beginning of the physical division of Berlin during the Cold War.",
+      "resources": [
+        {
+          "description": "Learn more about the construction of the Berlin Wall.",
+          "url": "https://en.wikipedia.org/wiki/Berlin_Wall"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 189,
+      "germanQuestion": "Wann baute die DDR die Mauer in Berlin?",
+      "englishQuestion": "When did East Germany (GDR) build the Berlin Wall?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "1919",
+          "englishOption": "1919",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1933",
+          "englishOption": "1933",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1961",
+          "englishOption": "1961",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "1990",
+          "englishOption": "1990",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "DDR", "english": "GDR" },
+          { "german": "Mauer", "english": "Wall" }
+        ]
+      },
+      "notes": "The Berlin Wall was built in 1961 by the GDR to stop East Germans from fleeing to West Berlin.",
+      "learningTechniques": "Focus on 1961 as the critical year for the construction of the Berlin Wall, symbolizing the Cold War divide.",
+      "resources": [
+        {
+          "description": "Learn more about the Berlin Wall.",
+          "url": "https://en.wikipedia.org/wiki/Berlin_Wall"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 190,
+      "germanQuestion": "Was bedeutet die Abkürzung DDR?",
+      "englishQuestion": "What does the abbreviation DDR stand for?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Dritter Deutscher Rundfunk",
+          "englishOption": "Third German Broadcasting",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Die Deutsche Republik",
+          "englishOption": "The German Republic",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Dritte Deutsche Republik",
+          "englishOption": "Third German Republic",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Deutsche Demokratische Republik",
+          "englishOption": "German Democratic Republic",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "DDR", "english": "GDR" },
+          { "german": "Republik", "english": "Republic" }
+        ]
+      },
+      "notes": "DDR stands for Deutsche Demokratische Republik (German Democratic Republic), which was the official name of East Germany.",
+      "learningTechniques": "Focus on the full form of DDR, which was the socialist state established in East Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the GDR.",
+          "url": "https://en.wikipedia.org/wiki/East_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 191,
+      "germanQuestion": "Wann wurde die Mauer in Berlin für alle geöffnet?",
+      "englishQuestion": "When was the Berlin Wall opened for everyone?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "1987",
+          "englishOption": "1987",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1989",
+          "englishOption": "1989",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "1992",
+          "englishOption": "1992",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1995",
+          "englishOption": "1995",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Mauer", "english": "Wall" },
+          { "german": "geöffnet", "english": "opened" }
+        ]
+      },
+      "notes": "The Berlin Wall was opened on November 9, 1989, marking the beginning of the end for the division of Germany.",
+      "learningTechniques": "Focus on 1989 as the year of the Berlin Wall's fall, a pivotal event leading to German reunification.",
+      "resources": [
+        {
+          "description": "Learn more about the fall of the Berlin Wall.",
+          "url": "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 192,
+      "germanQuestion": "Welches heutige deutsche Bundesland gehörte früher zum Gebiet der DDR?",
+      "englishQuestion": "Which present-day German federal state was formerly part of the GDR?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Brandenburg",
+          "englishOption": "Brandenburg",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Bayern",
+          "englishOption": "Bavaria",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Saarland",
+          "englishOption": "Saarland",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Hessen",
+          "englishOption": "Hesse",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundesland", "english": "federal state" },
+          { "german": "DDR", "english": "GDR" }
+        ]
+      },
+      "notes": "Brandenburg was part of East Germany (GDR) before German reunification in 1990.",
+      "learningTechniques": "Focus on Brandenburg as a federal state that was formerly part of East Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the federal states of Germany.",
+          "url": "https://en.wikipedia.org/wiki/States_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 193,
+      "germanQuestion": "Von 1961 bis 1989 war Berlin …",
+      "englishQuestion": "From 1961 to 1989, Berlin was …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "ohne Bürgermeister.",
+          "englishOption": "without a mayor.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "ein eigener Staat.",
+          "englishOption": "an independent state.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "durch eine Mauer geteilt.",
+          "englishOption": "divided by a wall.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "nur mit dem Flugzeug erreichbar.",
+          "englishOption": "only accessible by airplane.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Mauer", "english": "wall" },
+          { "german": "Berlin", "english": "Berlin" }
+        ]
+      },
+      "notes": "From 1961 to 1989, Berlin was divided by the Berlin Wall, separating East Berlin from West Berlin.",
+      "learningTechniques": "Focus on the division of Berlin by the Berlin Wall, which symbolized the Cold War.",
+      "resources": [
+        {
+          "description": "Learn more about the Berlin Wall and the division of Berlin.",
+          "url": "https://en.wikipedia.org/wiki/Berlin_Wall"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 194,
+      "germanQuestion": "Am 3. Oktober feiert man in Deutschland den Tag der Deutschen …",
+      "englishQuestion": "On October 3rd, Germany celebrates the Day of German …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Einheit.",
+          "englishOption": "Unity.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Nation.",
+          "englishOption": "Nation.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bundesländer.",
+          "englishOption": "Federal states.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Städte.",
+          "englishOption": "Cities.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Tag der Deutschen Einheit",
+            "english": "Day of German Unity"
+          },
+          { "german": "Einheit", "english": "unity" }
+        ]
+      },
+      "notes": "October 3rd, known as the Day of German Unity, commemorates the reunification of Germany in 1990.",
+      "learningTechniques": "Focus on October 3rd as Germany's national holiday, celebrating the country's reunification.",
+      "resources": [
+        {
+          "description": "Learn more about the Day of German Unity.",
+          "url": "https://en.wikipedia.org/wiki/German_Unity_Day"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 195,
+      "germanQuestion": "Welches heutige deutsche Bundesland gehörte früher zum Gebiet der DDR?",
+      "englishQuestion": "Which present-day German federal state was formerly part of the GDR?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Hessen",
+          "englishOption": "Hesse",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sachsen-Anhalt",
+          "englishOption": "Saxony-Anhalt",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Nordrhein-Westfalen",
+          "englishOption": "North Rhine-Westphalia",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Saarland",
+          "englishOption": "Saarland",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundesland", "english": "federal state" },
+          { "german": "DDR", "english": "GDR" }
+        ]
+      },
+      "notes": "Saxony-Anhalt was part of East Germany (GDR) before reunification.",
+      "learningTechniques": "Focus on Saxony-Anhalt as one of the federal states that was part of East Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the federal states of Germany.",
+          "url": "https://en.wikipedia.org/wiki/States_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 196,
+      "germanQuestion": "Warum nennt man die Zeit im Herbst 1989 in der DDR 'Die Wende'? In dieser Zeit veränderte sich die DDR politisch …",
+      "englishQuestion": "Why is the period in autumn 1989 in East Germany (GDR) called 'Die Wende'? During this time, the GDR changed politically …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "von einer Diktatur zur Demokratie.",
+          "englishOption": "from a dictatorship to a democracy.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "von einer liberalen Marktwirtschaft zum Sozialismus.",
+          "englishOption": "from a liberal market economy to socialism.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "von einer Monarchie zur Sozialdemokratie.",
+          "englishOption": "from a monarchy to social democracy.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "von einem religiösen Staat zu einem kommunistischen Staat.",
+          "englishOption": "from a religious state to a communist state.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Die Wende", "english": "'The Turn' (or 'The Change')" },
+          { "german": "Diktatur", "english": "dictatorship" },
+          { "german": "Demokratie", "english": "democracy" }
+        ]
+      },
+      "notes": "The term 'Die Wende' refers to the political transition in East Germany in 1989, when the GDR moved from a dictatorship to a democratic system, leading to reunification.",
+      "learningTechniques": "Focus on 'Die Wende' as the period of political transformation in East Germany that led to the fall of the Berlin Wall and the reunification of Germany.",
+      "resources": [
+        {
+          "description": "Learn more about 'Die Wende' in East Germany.",
+          "url": "https://en.wikipedia.org/wiki/Die_Wende"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 197,
+      "germanQuestion": "Welches heutige deutsche Bundesland gehörte früher zum Gebiet der DDR?",
+      "englishQuestion": "Which present-day German federal state was formerly part of the GDR?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Thüringen",
+          "englishOption": "Thuringia",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Hessen",
+          "englishOption": "Hesse",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bayern",
+          "englishOption": "Bavaria",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bremen",
+          "englishOption": "Bremen",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundesland", "english": "federal state" },
+          { "german": "DDR", "english": "GDR" }
+        ]
+      },
+      "notes": "Thuringia was part of East Germany (GDR) before reunification.",
+      "learningTechniques": "Focus on Thuringia as one of the federal states that was part of East Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the federal states of Germany.",
+          "url": "https://en.wikipedia.org/wiki/States_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 198,
+      "germanQuestion": "Welches heutige deutsche Bundesland gehörte früher zum Gebiet der DDR?",
+      "englishQuestion": "Which present-day German federal state was formerly part of the GDR?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Bayern",
+          "englishOption": "Bavaria",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Niedersachsen",
+          "englishOption": "Lower Saxony",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sachsen",
+          "englishOption": "Saxony",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Baden-Württemberg",
+          "englishOption": "Baden-Württemberg",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundesland", "english": "federal state" },
+          { "german": "DDR", "english": "GDR" }
+        ]
+      },
+      "notes": "Saxony was part of East Germany (GDR) before reunification.",
+      "learningTechniques": "Focus on Saxony as one of the federal states that was part of East Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the federal states of Germany.",
+          "url": "https://en.wikipedia.org/wiki/States_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 199,
+      "germanQuestion": "Mit der Abkürzung 'Stasi' meinte man in der DDR …",
+      "englishQuestion": "In the GDR, the abbreviation 'Stasi' referred to …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "das Parlament.",
+          "englishOption": "the Parliament.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "das Ministerium für Staatssicherheit.",
+          "englishOption": "the Ministry for State Security.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "eine regierende Partei.",
+          "englishOption": "a ruling party.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "das Ministerium für Volksbildung.",
+          "englishOption": "the Ministry for National Education.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Stasi", "english": "Stasi" },
+          {
+            "german": "Ministerium für Staatssicherheit",
+            "english": "Ministry for State Security"
+          }
+        ]
+      },
+      "notes": "The Stasi was the secret police agency in East Germany (GDR), formally known as the Ministry for State Security.",
+      "learningTechniques": "Focus on 'Stasi' as the secret police that monitored citizens in East Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the Stasi.",
+          "url": "https://en.wikipedia.org/wiki/Stasi"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 200,
+      "germanQuestion": "Welches heutige deutsche Bundesland gehörte früher zum Gebiet der DDR?",
+      "englishQuestion": "Which present-day German federal state was formerly part of the GDR?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Hessen",
+          "englishOption": "Hesse",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Schleswig-Holstein",
+          "englishOption": "Schleswig-Holstein",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Mecklenburg-Vorpommern",
+          "englishOption": "Mecklenburg-Vorpommern",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Saarland",
+          "englishOption": "Saarland",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundesland", "english": "federal state" },
+          { "german": "DDR", "english": "GDR" }
+        ]
+      },
+      "notes": "Mecklenburg-Vorpommern was part of East Germany (GDR) before reunification.",
+      "learningTechniques": "Focus on Mecklenburg-Vorpommern as one of the federal states that was part of East Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the federal states of Germany.",
+          "url": "https://en.wikipedia.org/wiki/States_of_Germany"
+        }
+      ],
+      "region": "All"
+    }
+  ]
+}

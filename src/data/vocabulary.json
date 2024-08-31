@@ -1,0 +1,1163 @@
+{
+  "vocabulary": [
+    {
+      "word": "Meinungsfreiheit",
+      "category": "Politics",
+      "translation": "Freedom of speech"
+    },
+    {
+      "word": "Religionsfreiheit",
+      "category": "Law and Rights",
+      "translation": "Freedom of religion"
+    },
+    {
+      "word": "Grundgesetz",
+      "category": "Law and Rights",
+      "translation": "Basic Law (Constitution)"
+    },
+    {
+      "word": "Wahlen",
+      "category": "Politics",
+      "translation": "Elections"
+    },
+    {
+      "word": "Bundestag",
+      "category": "Politics",
+      "translation": "Federal Parliament"
+    },
+    {
+      "word": "Bundesrat",
+      "category": "Politics",
+      "translation": "Federal Council"
+    },
+    {
+      "word": "Abgeordneter",
+      "category": "Politics",
+      "translation": "Member of Parliament"
+    },
+    {
+      "word": "Regierung",
+      "category": "Politics",
+      "translation": "Government"
+    },
+    {
+      "word": "Rechtsstaat",
+      "category": "Law and Rights",
+      "translation": "Rule of Law"
+    },
+    {
+      "word": "Demokratie",
+      "category": "Politics",
+      "translation": "Democracy"
+    },
+    {
+      "word": "Bundespräsident",
+      "category": "Politics",
+      "translation": "Federal President"
+    },
+    {
+      "word": "Grundrechte",
+      "category": "Law and Rights",
+      "translation": "Fundamental rights"
+    },
+    {
+      "word": "Sozialversicherung",
+      "category": "Economy",
+      "translation": "Social security"
+    },
+    {
+      "word": "Krankenversicherung",
+      "category": "Economy",
+      "translation": "Health insurance"
+    },
+    {
+      "word": "Soziale Marktwirtschaft",
+      "category": "Economy",
+      "translation": "Social market economy"
+    },
+    {
+      "word": "Verfassungswidrig",
+      "category": "Law and Rights",
+      "translation": "Unconstitutional"
+    },
+    {
+      "word": "Pressefreiheit",
+      "category": "Politics",
+      "translation": "Freedom of the press"
+    },
+    {
+      "word": "Asyl",
+      "category": "Law and Rights",
+      "translation": "Asylum"
+    },
+    {
+      "word": "Bundesstaat",
+      "category": "Politics",
+      "translation": "Federal state"
+    },
+    {
+      "word": "Verein",
+      "category": "Society and Culture",
+      "translation": "Association"
+    },
+    {
+      "word": "Bundesländer",
+      "category": "Geography",
+      "translation": "Federal states"
+    },
+    {
+      "word": "Europäische Union",
+      "category": "Politics",
+      "translation": "European Union"
+    },
+    {
+      "word": "Koalition",
+      "category": "Politics",
+      "translation": "Coalition"
+    },
+    {
+      "word": "Völkerrecht",
+      "category": "Law and Rights",
+      "translation": "International law"
+    },
+    {
+      "word": "Versammlungsfreiheit",
+      "category": "Law and Rights",
+      "translation": "Freedom of assembly"
+    },
+    {
+      "word": "Gesetzgebung",
+      "category": "Politics",
+      "translation": "Legislation"
+    },
+    {
+      "word": "Ministerpräsident",
+      "category": "Politics",
+      "translation": "Prime Minister (State)"
+    },
+    {
+      "word": "Wirtschaftswunder",
+      "category": "History",
+      "translation": "Economic miracle"
+    },
+    {
+      "word": "Nationalhymne",
+      "category": "Symbols and Identity",
+      "translation": "National anthem"
+    },
+    {
+      "word": "Wiedervereinigung",
+      "category": "History",
+      "translation": "Reunification"
+    },
+    {
+      "word": "Volksaufstand",
+      "category": "History",
+      "translation": "Uprising"
+    },
+    {
+      "word": "Mauerfall",
+      "category": "History",
+      "translation": "Fall of the Wall"
+    },
+    {
+      "word": "Tag der Deutschen Einheit",
+      "category": "Symbols and Identity",
+      "translation": "Day of German Unity"
+    },
+    {
+      "word": "Freiheit",
+      "category": "Law and Rights",
+      "translation": "Freedom"
+    },
+    {
+      "word": "Schulpflicht",
+      "category": "Law and Rights",
+      "translation": "Compulsory education"
+    },
+    {
+      "word": "Staatsangehörigkeit",
+      "category": "Law and Rights",
+      "translation": "Citizenship"
+    },
+    {
+      "word": "Schengener Abkommen",
+      "category": "Politics",
+      "translation": "Schengen Agreement"
+    },
+    {
+      "word": "Staatsform",
+      "category": "Politics",
+      "translation": "Form of government"
+    },
+    {
+      "word": "Sozialstaat",
+      "category": "Politics",
+      "translation": "Welfare state"
+    },
+    {
+      "word": "Verfassungsorgan",
+      "category": "Law and Rights",
+      "translation": "Constitutional body"
+    },
+    {
+      "word": "Pflegeversicherung",
+      "category": "Economy",
+      "translation": "Nursing care insurance"
+    },
+    {
+      "word": "Kirchensteuer",
+      "category": "Economy",
+      "translation": "Church tax"
+    },
+    {
+      "word": "Gleichberechtigung",
+      "category": "Law and Rights",
+      "translation": "Equality"
+    },
+    {
+      "word": "Bürgerinitiative",
+      "category": "Politics",
+      "translation": "Citizen initiative"
+    },
+    {
+      "word": "Ehrenamt",
+      "category": "Society and Culture",
+      "translation": "Voluntary work"
+    },
+    {
+      "word": "Polizeigewalt",
+      "category": "Law and Rights",
+      "translation": "Police force"
+    },
+    {
+      "word": "Bundeskanzler",
+      "category": "Politics",
+      "translation": "Federal Chancellor"
+    },
+    {
+      "word": "Bundespräsident",
+      "category": "Politics",
+      "translation": "Federal President"
+    },
+    {
+      "word": "Bundesversammlung",
+      "category": "Politics",
+      "translation": "Federal Assembly"
+    },
+    {
+      "word": "Bundestag",
+      "category": "Politics",
+      "translation": "Federal Parliament"
+    },
+    {
+      "word": "Bundesrat",
+      "category": "Politics",
+      "translation": "Federal Council"
+    },
+    {
+      "word": "Bundesverfassungsgericht",
+      "category": "Law and Rights",
+      "translation": "Federal Constitutional Court"
+    },
+    {
+      "word": "Grundgesetz",
+      "category": "Law and Rights",
+      "translation": "Basic Law (Constitution)"
+    },
+    {
+      "word": "Legislative",
+      "category": "Politics",
+      "translation": "Legislature"
+    },
+    {
+      "word": "Exekutive",
+      "category": "Politics",
+      "translation": "Executive"
+    },
+    {
+      "word": "Judikative",
+      "category": "Politics",
+      "translation": "Judiciary"
+    },
+    {
+      "word": "Volkssouveränität",
+      "category": "Law and Rights",
+      "translation": "Popular sovereignty"
+    },
+    {
+      "word": "Schulpolitik",
+      "category": "Politics",
+      "translation": "Education policy"
+    },
+    {
+      "word": "Gemeinden",
+      "category": "Geography",
+      "translation": "Municipalities"
+    },
+    {
+      "word": "Ministerpräsident",
+      "category": "Politics",
+      "translation": "Prime Minister (State)"
+    },
+    {
+      "word": "Regierungsvertreter",
+      "category": "Politics",
+      "translation": "Government representatives"
+    },
+    {
+      "word": "Fraktionen",
+      "category": "Politics",
+      "translation": "Parliamentary groups"
+    },
+    {
+      "word": "Koalition",
+      "category": "Politics",
+      "translation": "Coalition"
+    },
+    {
+      "word": "Sozialversicherung",
+      "category": "Economy",
+      "translation": "Social insurance"
+    },
+    {
+      "word": "Pflegeversicherung",
+      "category": "Economy",
+      "translation": "Nursing care insurance"
+    },
+    {
+      "word": "Jüdische Gemeinde",
+      "category": "History",
+      "translation": "Jewish community"
+    },
+    {
+      "word": "Wirtschaftswunder",
+      "category": "History",
+      "translation": "Economic miracle"
+    },
+    {
+      "word": "Stolpersteine",
+      "category": "History",
+      "translation": "Stumbling stones (Holocaust memorial)"
+    },
+    {
+      "word": "DDR (Deutsche Demokratische Republik)",
+      "category": "History",
+      "translation": "German Democratic Republic"
+    },
+    {
+      "word": "NATO",
+      "category": "Politics",
+      "translation": "North Atlantic Treaty Organization"
+    },
+    {
+      "word": "Warschauer Pakt",
+      "category": "History",
+      "translation": "Warsaw Pact"
+    },
+    {
+      "word": "Europäische Union",
+      "category": "Politics",
+      "translation": "European Union"
+    },
+    {
+      "word": "FDP (Freie Demokratische Partei)",
+      "category": "Politics",
+      "translation": "Free Democratic Party"
+    },
+    {
+      "word": "SPD (Sozialdemokratische Partei Deutschlands)",
+      "category": "Politics",
+      "translation": "Social Democratic Party of Germany"
+    },
+    {
+      "word": "CDU (Christlich Demokratische Union)",
+      "category": "Politics",
+      "translation": "Christian Democratic Union"
+    },
+    {
+      "word": "Wahlen",
+      "category": "Politics",
+      "translation": "Elections"
+    },
+    {
+      "word": "Verfassung",
+      "category": "Law and Rights",
+      "translation": "Constitution"
+    },
+    {
+      "word": "Landtagswahl",
+      "category": "Politics",
+      "translation": "State parliament election"
+    },
+    {
+      "word": "Volksaufstand",
+      "category": "History",
+      "translation": "Uprising"
+    },
+    {
+      "word": "Rechtsstaat",
+      "category": "Law and Rights",
+      "translation": "Rule of law"
+    },
+    {
+      "word": "Nationalhymne",
+      "category": "Symbols and Identity",
+      "translation": "National anthem"
+    },
+    {
+      "word": "Bundeskanzleramt",
+      "category": "Politics",
+      "translation": "Federal Chancellery"
+    },
+    {
+      "word": "Ministerien",
+      "category": "Politics",
+      "translation": "Ministries"
+    },
+    {
+      "word": "Staatsoberhaupt",
+      "category": "Politics",
+      "translation": "Head of state"
+    },
+    {
+      "word": "Opposition",
+      "category": "Politics",
+      "translation": "Opposition"
+    },
+    {
+      "word": "Fraktion",
+      "category": "Politics",
+      "translation": "Parliamentary group"
+    },
+    {
+      "word": "Bundesrat",
+      "category": "Politics",
+      "translation": "Federal Council"
+    },
+    {
+      "word": "Regierungswechsel",
+      "category": "Politics",
+      "translation": "Change of government"
+    },
+    {
+      "word": "CSU (Christlich Soziale Union)",
+      "category": "Politics",
+      "translation": "Christian Social Union"
+    },
+    {
+      "word": "Zweitstimme",
+      "category": "Politics",
+      "translation": "Second vote (in elections)"
+    },
+    {
+      "word": "Schulpflicht",
+      "category": "Society and Culture",
+      "translation": "Compulsory education"
+    },
+    {
+      "word": "Holocaustleugnung",
+      "category": "Law and Rights",
+      "translation": "Holocaust denial"
+    },
+    {
+      "word": "Sozialversicherung",
+      "category": "Economy",
+      "translation": "Social insurance"
+    },
+    {
+      "word": "Gewerkschaften",
+      "category": "Economy",
+      "translation": "Trade unions"
+    },
+    {
+      "word": "Arbeitsgericht",
+      "category": "Law and Rights",
+      "translation": "Labor court"
+    },
+    {
+      "word": "Kündigungsschutzklage",
+      "category": "Law and Rights",
+      "translation": "Dismissal protection lawsuit"
+    },
+    {
+      "word": "Schöffe",
+      "category": "Law and Rights",
+      "translation": "Lay judge"
+    },
+    {
+      "word": "Richter",
+      "category": "Law and Rights",
+      "translation": "Judge"
+    },
+    {
+      "word": "Judikative",
+      "category": "Law and Rights",
+      "translation": "Judiciary"
+    },
+    {
+      "word": "Prozess",
+      "category": "Law and Rights",
+      "translation": "Trial"
+    },
+    {
+      "word": "Polizei",
+      "category": "Law and Rights",
+      "translation": "Police"
+    },
+    {
+      "word": "5%-Hürde",
+      "category": "Politics",
+      "translation": "5% threshold"
+    },
+    {
+      "word": "Wahlrecht",
+      "category": "Law and Rights",
+      "translation": "Right to vote"
+    },
+    {
+      "word": "Wahlbenachrichtigung",
+      "category": "Politics",
+      "translation": "Election notification"
+    },
+    {
+      "word": "Abgeordnete",
+      "category": "Politics",
+      "translation": "Members of parliament"
+    },
+    {
+      "word": "Bundestagswahl",
+      "category": "Politics",
+      "translation": "Federal election"
+    },
+    {
+      "word": "Ehrenamtlich",
+      "category": "Society and Culture",
+      "translation": "Voluntary"
+    },
+    {
+      "word": "Kindergeld",
+      "category": "Economy",
+      "translation": "Child benefit"
+    },
+    {
+      "word": "Gewerkschaften",
+      "category": "Economy",
+      "translation": "Trade unions"
+    },
+    {
+      "word": "Bundesverdienstkreuz",
+      "category": "Symbols and Identity",
+      "translation": "Federal Cross of Merit"
+    },
+    {
+      "word": "Ampelkoalition",
+      "category": "Politics",
+      "translation": "Traffic light coalition"
+    },
+
+    {
+      "word": "antisemitisches Verhalten",
+      "category": "Law and Rights",
+      "translation": "antisemitic behavior"
+    },
+    {
+      "word": "Holocaust leugnen",
+      "category": "Law and Rights",
+      "translation": "deny the Holocaust"
+    },
+    {
+      "word": "Schöffe/Schöffin",
+      "category": "Law and Rights",
+      "translation": "lay judge"
+    },
+    {
+      "word": "Mauer",
+      "category": "History",
+      "translation": "wall"
+    },
+    {
+      "word": "Nationalsozialisten",
+      "category": "History",
+      "translation": "National Socialists (Nazis)"
+    },
+    {
+      "word": "Zweiter Weltkrieg",
+      "category": "History",
+      "translation": "Second World War"
+    },
+    {
+      "word": "Diktatur",
+      "category": "Politics",
+      "translation": "dictatorship"
+    },
+    {
+      "word": "staatlicher Rassismus",
+      "category": "Law and Rights",
+      "translation": "state-sponsored racism"
+    },
+    {
+      "word": "Besatzungsmächte",
+      "category": "History",
+      "translation": "occupying powers"
+    },
+    {
+      "word": "Bundeskanzler",
+      "category": "Politics",
+      "translation": "Federal Chancellor"
+    },
+    {
+      "word": "DDR (Deutsche Demokratische Republik)",
+      "category": "History",
+      "translation": "German Democratic Republic (GDR)"
+    },
+    {
+      "word": "Soziale Marktwirtschaft",
+      "category": "Economy",
+      "translation": "social market economy"
+    },
+    {
+      "word": "Luftbrücke",
+      "category": "History",
+      "translation": "airlift"
+    },
+    {
+      "word": "Kapitalismus",
+      "category": "Economy",
+      "translation": "capitalism"
+    },
+    {
+      "word": "Kniefall",
+      "category": "History",
+      "translation": "genuflection"
+    },
+    {
+      "word": "Alliierte",
+      "category": "History",
+      "translation": "Allies"
+    },
+    {
+      "word": "Kapitulation",
+      "category": "History",
+      "translation": "capitulation"
+    },
+
+    {
+      "word": "Synagoge",
+      "category": "Culture",
+      "translation": "synagogue"
+    },
+    {
+      "word": "Wirtschaftswunder",
+      "category": "Economy",
+      "translation": "economic miracle"
+    },
+    {
+      "word": "Resolution der Vereinten Nationen",
+      "category": "Law and Rights",
+      "translation": "United Nations resolution"
+    },
+    {
+      "word": "Eiserner Vorhang",
+      "category": "History",
+      "translation": "Iron Curtain"
+    },
+    {
+      "word": "17. Juni",
+      "category": "History",
+      "translation": "June 17 (refers to 1953 uprising in East Germany)"
+    },
+    {
+      "word": "Hammer, Zirkel und Ährenkranz",
+      "category": "Symbols and Identity",
+      "translation": "hammer, compass, and wheat wreath (DDR emblem)"
+    },
+    {
+      "word": "DDR (Deutsche Demokratische Republik)",
+      "category": "Politics",
+      "translation": "German Democratic Republic (East Germany)"
+    },
+    {
+      "word": "Planwirtschaft",
+      "category": "Economy",
+      "translation": "planned economy"
+    },
+    {
+      "word": "Warschauer Pakt",
+      "category": "Politics",
+      "translation": "Warsaw Pact"
+    },
+    {
+      "word": "Stasi (Staatssicherheit)",
+      "category": "Politics",
+      "translation": "State Security (East German secret police)"
+    },
+    {
+      "word": "Ostverträge",
+      "category": "Politics",
+      "translation": "Eastern Treaties (Ostpolitik)"
+    },
+    {
+      "word": "Bundesrepublik Deutschland",
+      "category": "Symbols and Identity",
+      "translation": "Federal Republic of Germany"
+    },
+    {
+      "word": "27. Januar",
+      "category": "History",
+      "translation": "January 27 (Holocaust Memorial Day)"
+    },
+    {
+      "word": "Schengener Abkommen",
+      "category": "Law and Rights",
+      "translation": "Schengen Agreement"
+    },
+    {
+      "word": "Europäische Union",
+      "category": "Politics",
+      "translation": "European Union"
+    },
+    {
+      "word": "Römische Verträge",
+      "category": "Politics",
+      "translation": "Treaty of Rome (established EEC)"
+    },
+    {
+      "word": "Euro",
+      "category": "Economy",
+      "translation": "Euro (currency)"
+    },
+    {
+      "word": "Elterngeld",
+      "category": "Law and Rights",
+      "translation": "parental allowance"
+    },
+    {
+      "word": "Frieden und Sicherheit",
+      "category": "Politics",
+      "translation": "peace and security"
+    },
+    {
+      "word": "Verdun",
+      "category": "History",
+      "translation": "Verdun (symbol of reconciliation between France and Germany)"
+    },
+
+    {
+      "word": "Eltern",
+      "category": "Society and Culture",
+      "translation": "parents"
+    },
+    {
+      "word": "Demonstration",
+      "category": "Politics",
+      "translation": "demonstration"
+    },
+    {
+      "word": "Abitur",
+      "category": "Education",
+      "translation": "high school diploma"
+    },
+    {
+      "word": "Volljährigkeit",
+      "category": "Law and Rights",
+      "translation": "legal adulthood"
+    },
+    {
+      "word": "Mutterschutz",
+      "category": "Law and Rights",
+      "translation": "maternity protection"
+    },
+    {
+      "word": "Jugendamt",
+      "category": "Law and Rights",
+      "translation": "youth welfare office"
+    },
+    {
+      "word": "Gaststättenerlaubnis",
+      "category": "Law and Rights",
+      "translation": "restaurant license"
+    },
+    {
+      "word": "Hausordnung",
+      "category": "Law and Rights",
+      "translation": "house rules"
+    },
+    {
+      "word": "Gleichbehandlung",
+      "category": "Law and Rights",
+      "translation": "equal treatment"
+    },
+    {
+      "word": "Diskriminierung",
+      "category": "Law and Rights",
+      "translation": "discrimination"
+    },
+    {
+      "word": "Kirchensteuer",
+      "category": "Economy",
+      "translation": "church tax"
+    },
+    {
+      "word": "Religiöse Toleranz",
+      "category": "Society and Culture",
+      "translation": "religious tolerance"
+    },
+    {
+      "word": "Ostern",
+      "category": "Society and Culture",
+      "translation": "Easter"
+    },
+    {
+      "word": "Adventszeit",
+      "category": "Society and Culture",
+      "translation": "Advent season"
+    },
+    {
+      "word": "Migranten",
+      "category": "Society and Culture",
+      "translation": "migrants"
+    },
+    {
+      "word": "Gastarbeiter",
+      "category": "Economy",
+      "translation": "guest worker"
+    },
+    {
+      "word": "Ehescheidung",
+      "category": "Law and Rights",
+      "translation": "divorce"
+    },
+    {
+      "word": "Steuerbescheid",
+      "category": "Law and Rights",
+      "translation": "tax assessment"
+    },
+    {
+      "word": "Ehrenamt",
+      "category": "Society and Culture",
+      "translation": "voluntary work"
+    },
+    {
+      "word": "Kindergartenplatz",
+      "category": "Society and Culture",
+      "translation": "kindergarten spot"
+    },
+    {
+      "word": "Nachtruhe",
+      "category": "Law and Rights",
+      "translation": "night rest"
+    },
+    {
+      "word": "Bundesstaat",
+      "category": "Politics and Law",
+      "translation": "federal state"
+    },
+    {
+      "word": "Rechtsstaat",
+      "category": "Politics and Law",
+      "translation": "constitutional state"
+    },
+    {
+      "word": "Grundgesetz",
+      "category": "Politics and Law",
+      "translation": "Basic Law, constitution"
+    },
+    {
+      "word": "Verfassung",
+      "category": "Politics and Law",
+      "translation": "constitution"
+    },
+    {
+      "word": "Bundesverfassungsgericht",
+      "category": "Politics and Law",
+      "translation": "Federal Constitutional Court"
+    },
+    {
+      "word": "Bundestag",
+      "category": "Politics and Law",
+      "translation": "German Federal Parliament"
+    },
+    {
+      "word": "Bundesrat",
+      "category": "Politics and Law",
+      "translation": "Federal Council"
+    },
+    {
+      "word": "Koalition",
+      "category": "Politics and Law",
+      "translation": "coalition"
+    },
+    {
+      "word": "Abgeordnete",
+      "category": "Politics and Law",
+      "translation": "members of parliament"
+    },
+    {
+      "word": "Ministerpräsident",
+      "category": "Politics and Law",
+      "translation": "prime minister of a federal state"
+    },
+    {
+      "word": "Bundeskanzler",
+      "category": "Politics and Law",
+      "translation": "federal chancellor"
+    },
+    {
+      "word": "Bürgermeister",
+      "category": "Politics and Law",
+      "translation": "mayor"
+    },
+    {
+      "word": "Gemeinde",
+      "category": "Politics and Law",
+      "translation": "municipality"
+    },
+    {
+      "word": "Gesetzgebung",
+      "category": "Politics and Law",
+      "translation": "legislation"
+    },
+    {
+      "word": "Wahlrecht",
+      "category": "Politics and Law",
+      "translation": "right to vote"
+    },
+    {
+      "word": "Meinungsfreiheit",
+      "category": "Law and Rights",
+      "translation": "freedom of opinion"
+    },
+    {
+      "word": "Gleichberechtigung",
+      "category": "Law and Rights",
+      "translation": "equality"
+    },
+    {
+      "word": "Opposition",
+      "category": "Politics and Law",
+      "translation": "opposition"
+    },
+    {
+      "word": "Versammlungsfreiheit",
+      "category": "Law and Rights",
+      "translation": "freedom of assembly"
+    },
+    {
+      "word": "Freiheit",
+      "category": "Law and Rights",
+      "translation": "freedom"
+    },
+    {
+      "word": "Parlament",
+      "category": "Politics and Law",
+      "translation": "parliament"
+    },
+    {
+      "word": "Regierung",
+      "category": "Politics and Law",
+      "translation": "government"
+    },
+    {
+      "word": "Nationalsozialismus",
+      "category": "History and Society",
+      "translation": "National Socialism, Nazism"
+    },
+    {
+      "word": "Zweiter Weltkrieg",
+      "category": "History and Society",
+      "translation": "Second World War"
+    },
+    {
+      "word": "Mauerfall",
+      "category": "History and Society",
+      "translation": "fall of the Berlin Wall"
+    },
+    {
+      "word": "Wiedervereinigung",
+      "category": "History and Society",
+      "translation": "reunification"
+    },
+    {
+      "word": "DDR",
+      "category": "History and Society",
+      "translation": "German Democratic Republic"
+    },
+    {
+      "word": "Wirtschaftswunder",
+      "category": "History and Society",
+      "translation": "economic miracle"
+    },
+    {
+      "word": "Holocaust",
+      "category": "History and Society",
+      "translation": "Holocaust"
+    },
+    {
+      "word": "Antisemitismus",
+      "category": "History and Society",
+      "translation": "anti-Semitism"
+    },
+    {
+      "word": "Besatzungszone",
+      "category": "History and Society",
+      "translation": "occupation zone"
+    },
+    {
+      "word": "Drittes Reich",
+      "category": "History and Society",
+      "translation": "Third Reich"
+    },
+    {
+      "word": "Judenverfolgung",
+      "category": "History and Society",
+      "translation": "persecution of Jews"
+    },
+    {
+      "word": "Ghetto",
+      "category": "History and Society",
+      "translation": "ghetto"
+    },
+    {
+      "word": "Christentum",
+      "category": "Culture and Religion",
+      "translation": "Christianity"
+    },
+    {
+      "word": "Synagoge",
+      "category": "Culture and Religion",
+      "translation": "synagogue"
+    },
+    {
+      "word": "Kirche",
+      "category": "Culture and Religion",
+      "translation": "church"
+    },
+    {
+      "word": "Moschee",
+      "category": "Culture and Religion",
+      "translation": "mosque"
+    },
+    {
+      "word": "Religionsfreiheit",
+      "category": "Law and Rights",
+      "translation": "freedom of religion"
+    },
+    {
+      "word": "Pfingsten",
+      "category": "Culture and Religion",
+      "translation": "Pentecost"
+    },
+    {
+      "word": "Ostern",
+      "category": "Culture and Religion",
+      "translation": "Easter"
+    },
+    {
+      "word": "Weihnachten",
+      "category": "Culture and Religion",
+      "translation": "Christmas"
+    },
+    {
+      "word": "Advent",
+      "category": "Culture and Religion",
+      "translation": "Advent"
+    },
+    {
+      "word": "Erntedankfest",
+      "category": "Culture and Religion",
+      "translation": "Thanksgiving"
+    },
+    {
+      "word": "Bundesadler",
+      "category": "Symbols and Identity",
+      "translation": "federal eagle"
+    },
+    {
+      "word": "Nationalhymne",
+      "category": "Symbols and Identity",
+      "translation": "national anthem"
+    },
+    {
+      "word": "Flagge",
+      "category": "Symbols and Identity",
+      "translation": "flag"
+    },
+    {
+      "word": "Wappen",
+      "category": "Symbols and Identity",
+      "translation": "coat of arms"
+    },
+    {
+      "word": "Einigkeit und Recht und Freiheit",
+      "category": "Symbols and Identity",
+      "translation": "Unity and justice and freedom"
+    },
+    {
+      "word": "Bundesland",
+      "category": "Geography",
+      "translation": "federal state"
+    },
+    {
+      "word": "Landeshauptstadt",
+      "category": "Geography",
+      "translation": "state capital"
+    },
+    {
+      "word": "Nachbarland",
+      "category": "Geography",
+      "translation": "neighboring country"
+    },
+    {
+      "word": "Ostdeutschland",
+      "category": "Geography",
+      "translation": "East Germany"
+    },
+    {
+      "word": "Westdeutschland",
+      "category": "Geography",
+      "translation": "West Germany"
+    },
+    {
+      "word": "Europäische Union",
+      "category": "Geography",
+      "translation": "European Union"
+    },
+    {
+      "word": "Schengener Abkommen",
+      "category": "Geography",
+      "translation": "Schengen Agreement"
+    },
+    {
+      "word": "Soziale Marktwirtschaft",
+      "category": "Economy",
+      "translation": "social market economy"
+    },
+    {
+      "word": "Arbeitslosigkeit",
+      "category": "Economy",
+      "translation": "unemployment"
+    },
+    {
+      "word": "Rentenversicherung",
+      "category": "Economy",
+      "translation": "pension insurance"
+    },
+    {
+      "word": "Krankenversicherung",
+      "category": "Economy",
+      "translation": "health insurance"
+    },
+    {
+      "word": "Gewerkschaft",
+      "category": "Economy",
+      "translation": "trade union"
+    },
+    { "word": "Steuern", "category": "Economy", "translation": "taxes" },
+    {
+      "word": "Nachtruhe",
+      "category": "Law and Rights",
+      "translation": "night rest"
+    }
+  ]
+}

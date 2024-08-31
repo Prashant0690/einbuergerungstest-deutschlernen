@@ -1,0 +1,459 @@
+{
+  "fileName": "Einbürgerungstest_Bremen.json",
+  "testInfo": {
+    "name": "Gesamtfragenkatalog zum Test „Leben in Deutschland“ und zum „Einbürgerungstest“",
+    "version": "Stand: 25.06.2024"
+  },
+  "state": {
+    "name": "Bremen",
+    "questions": [
+      {
+        "id": 1,
+        "germanQuestion": "Welches Wappen gehört zur Freien Hansestadt Bremen?",
+        "englishQuestion": "Which coat of arms belongs to the Free Hanseatic City of Bremen?",
+        "type": "single",
+        "answerType": "image",
+        "options": [
+          {
+            "germanOption": "Bild 1",
+            "englishOption": "Image 1",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bild 2",
+            "englishOption": "Image 2",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bild 3",
+            "englishOption": "Image 3",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Bild 4",
+            "englishOption": "Image 4",
+            "isCorrect": false
+          }
+        ],
+        "correctAnswerTag": "Add correct answer here later",
+        "importantWords": {
+          "nouns": [
+            { "german": "Wappen", "english": "coat of arms" },
+            {
+              "german": "Freie Hansestadt Bremen",
+              "english": "Free Hanseatic City of Bremen"
+            }
+          ]
+        },
+        "notes": "The coat of arms of Bremen often features a key, which is a symbol of the city and its historical significance as a trading center.",
+        "learningTechniques": "Familiarize yourself with Bremen's coat of arms, which prominently features a key symbol.",
+        "resources": [
+          {
+            "description": "Learn more about the coat of arms of Bremen.",
+            "url": "https://en.wikipedia.org/wiki/Coat_of_arms_of_Bremen"
+          }
+        ],
+        "region": "Bremen"
+      },
+      {
+        "id": 2,
+        "germanQuestion": "Welches ist ein Stadtteil von Bremen?",
+        "englishQuestion": "Which is a district (Stadtteil) of Bremen?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Altona",
+            "englishOption": "Altona",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Hemelingen",
+            "englishOption": "Hemelingen",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Pankow",
+            "englishOption": "Pankow",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Babelsberg",
+            "englishOption": "Babelsberg",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Stadtteil", "english": "district" },
+            { "german": "Bremen", "english": "Bremen" },
+            { "german": "Hemelingen", "english": "Hemelingen" }
+          ]
+        },
+        "notes": "Hemelingen is one of the districts (Stadtteile) of Bremen, located in the eastern part of the city.",
+        "learningTechniques": "Familiarize yourself with the districts of Bremen, especially Hemelingen, which is an important residential and industrial area.",
+        "resources": [
+          {
+            "description": "Learn more about the districts of Bremen.",
+            "url": "https://en.wikipedia.org/wiki/Hemelingen"
+          }
+        ],
+        "region": "Bremen"
+      },
+      {
+        "id": 3,
+        "germanQuestion": "Für wie viele Jahre wird das Landesparlament in Bremen gewählt?",
+        "englishQuestion": "For how many years is the state parliament in Bremen elected?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "3",
+            "englishOption": "3",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "4",
+            "englishOption": "4",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "5",
+            "englishOption": "5",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "6",
+            "englishOption": "6",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landesparlament", "english": "state parliament" },
+            { "german": "Bremen", "english": "Bremen" },
+            { "german": "Jahre", "english": "years" }
+          ]
+        },
+        "notes": "The state parliament in Bremen is elected for a term of 5 years.",
+        "learningTechniques": "Remember that the term length for the Bremen state parliament is 5 years, aligning with many other German states.",
+        "resources": [
+          {
+            "description": "Learn more about the political system in Bremen.",
+            "url": "https://en.wikipedia.org/wiki/Bremen"
+          }
+        ],
+        "region": "Bremen"
+      },
+      {
+        "id": 4,
+        "germanQuestion": "Ab welchem Alter darf man in Bremen bei den Wahlen zur Bürgerschaft (Landtag) wählen?",
+        "englishQuestion": "At what age can you vote in the elections to the state parliament (Bürgerschaft) in Bremen?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "14",
+            "englishOption": "14",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "16",
+            "englishOption": "16",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "18",
+            "englishOption": "18",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "20",
+            "englishOption": "20",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Bürgerschaft", "english": "state parliament" },
+            { "german": "Wahlen", "english": "elections" },
+            { "german": "Alter", "english": "age" },
+            { "german": "Bremen", "english": "Bremen" }
+          ]
+        },
+        "notes": "In Bremen, citizens can participate in elections for the state parliament starting at the age of 16.",
+        "learningTechniques": "Remember that 16 is the voting age for state elections in Bremen, which is a progressive policy compared to other states.",
+        "resources": [
+          {
+            "description": "Learn more about voting rights in Bremen.",
+            "url": "https://en.wikipedia.org/wiki/Elections_in_Bremen"
+          }
+        ],
+        "region": "Bremen"
+      },
+      {
+        "id": 5,
+        "germanQuestion": "Welche Farben hat die Landesflagge von Bremen?",
+        "englishQuestion": "What are the colors of the state flag of Bremen?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "blau-weiß-rot",
+            "englishOption": "blue-white-red",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "rot-weiß",
+            "englishOption": "red-white",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "grün-weiß-rot",
+            "englishOption": "green-white-red",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "schwarz-gold",
+            "englishOption": "black-gold",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landesflagge", "english": "state flag" },
+            { "german": "Farben", "english": "colors" },
+            { "german": "Bremen", "english": "Bremen" }
+          ]
+        },
+        "notes": "The state flag of Bremen consists of the colors red and white, often in a checkered pattern.",
+        "learningTechniques": "Remember the red and white colors of Bremen's flag, which are associated with the city's maritime and trading history.",
+        "resources": [
+          {
+            "description": "Learn more about the flag of Bremen.",
+            "url": "https://en.wikipedia.org/wiki/Flag_of_Bremen"
+          }
+        ],
+        "region": "Bremen"
+      },
+      {
+        "id": 6,
+        "germanQuestion": "Wo können Sie sich in Bremen über politische Themen informieren?",
+        "englishQuestion": "Where can you get information on political topics in Bremen?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "beim Ordnungsamt der Gemeinde",
+            "englishOption": "at the local regulatory office",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "bei der Landeszentrale für politische Bildung",
+            "englishOption": "at the State Center for Civic Education",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "bei den Kirchen",
+            "englishOption": "at the churches",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "bei der Verbraucherzentrale",
+            "englishOption": "at the consumer advice center",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "politische Themen", "english": "political topics" },
+            {
+              "german": "Landeszentrale für politische Bildung",
+              "english": "State Center for Civic Education"
+            },
+            { "german": "Bremen", "english": "Bremen" }
+          ]
+        },
+        "notes": "In Bremen, the 'Landeszentrale für politische Bildung' (State Center for Civic Education) is the primary resource for information on political topics.",
+        "learningTechniques": "Focus on the role of the 'Landeszentrale für politische Bildung' in educating the public about political matters in Bremen.",
+        "resources": [
+          {
+            "description": "Learn more about the State Center for Civic Education in Bremen.",
+            "url": "https://www.bpb.de/die-bpb/138528/bpb-regionalzentralen/"
+          }
+        ],
+        "region": "Bremen"
+      },
+      {
+        "id": 7,
+        "germanQuestion": "Was ist ein deutscher Stadtstaat?",
+        "englishQuestion": "Which is a German city-state?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Bremen",
+            "englishOption": "Bremen",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "München",
+            "englishOption": "Munich",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Frankfurt",
+            "englishOption": "Frankfurt",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Erfurt",
+            "englishOption": "Erfurt",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Stadtstaat", "english": "city-state" },
+            { "german": "Bremen", "english": "Bremen" }
+          ]
+        },
+        "notes": "Bremen is one of the three city-states in Germany, alongside Berlin and Hamburg. These states are both cities and federal states.",
+        "learningTechniques": "Remember that Bremen, Berlin, and Hamburg are the city-states ('Stadtstaaten') of Germany.",
+        "resources": [
+          {
+            "description": "Learn more about the city-states of Germany.",
+            "url": "https://en.wikipedia.org/wiki/States_of_Germany"
+          }
+        ],
+        "region": "Bremen"
+      },
+      {
+        "id": 8,
+        "germanQuestion": "Welches Bundesland ist Bremen?",
+        "englishQuestion": "Which federal state is Bremen?",
+        "type": "single",
+        "answerType": "image",
+        "options": [
+          { "germanOption": "1", "englishOption": "1", "isCorrect": true },
+          { "germanOption": "2", "englishOption": "2", "isCorrect": false },
+          { "germanOption": "3", "englishOption": "3", "isCorrect": false },
+          { "germanOption": "4", "englishOption": "4", "isCorrect": false }
+        ],
+        "correctAnswerTag": "Add correct answer here later",
+        "importantWords": {
+          "nouns": [
+            { "german": "Bundesland", "english": "state" },
+            { "german": "Bremen", "english": "Bremen" }
+          ]
+        },
+        "notes": "Bremen is located in the northwest of Germany and is one of the country's three city-states.",
+        "learningTechniques": "Familiarize yourself with Bremen's location as a city-state in northwestern Germany.",
+        "resources": [
+          {
+            "description": "Learn more about Bremen's geographical and political status.",
+            "url": "https://en.wikipedia.org/wiki/Bremen"
+          }
+        ],
+        "region": "Bremen"
+      },
+      {
+        "id": 9,
+        "germanQuestion": "Wie nennt man die Regierungschefin/den Regierungschef des Stadtstaates Bremen?",
+        "englishQuestion": "What is the title of the head of government in the city-state of Bremen?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Ministerpräsidentin/Ministerpräsident",
+            "englishOption": "Minister-President",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Erste Bürgermeisterin/Erster Bürgermeister",
+            "englishOption": "First Mayor",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Präsidentin/Präsident des Senates",
+            "englishOption": "President of the Senate",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Regierende Bürgermeisterin/Regierender Bürgermeister",
+            "englishOption": "Governing Mayor",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            {
+              "german": "Regierungschefin/Regierungschef",
+              "english": "head of government"
+            },
+            { "german": "Stadtstaat", "english": "city-state" },
+            { "german": "Bremen", "english": "Bremen" },
+            {
+              "german": "Erste Bürgermeisterin/Erster Bürgermeister",
+              "english": "First Mayor"
+            }
+          ]
+        },
+        "notes": "The head of government in Bremen is called the 'Erste Bürgermeisterin' or 'Erster Bürgermeister,' which translates to 'First Mayor.'",
+        "learningTechniques": "Remember that the title 'First Mayor' is used in Bremen, one of Germany's city-states.",
+        "resources": [
+          {
+            "description": "Learn more about the political structure of Bremen.",
+            "url": "https://en.wikipedia.org/wiki/Bremen"
+          }
+        ],
+        "region": "Bremen"
+      },
+      {
+        "id": 10,
+        "germanQuestion": "Welche Senatorin/welchen Senator hat Bremen nicht?",
+        "englishQuestion": "Which senator does Bremen not have?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Senatorin/Senator für Außenbeziehungen",
+            "englishOption": "Senator for Foreign Relations",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Finanzsenatorin/Finanzsenator",
+            "englishOption": "Finance Senator",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Justizsenatorin/Justizsenator",
+            "englishOption": "Justice Senator",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Innensenatorin/Innensenator",
+            "englishOption": "Interior Senator",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Senatorin/Senator", "english": "Senator" },
+            { "german": "Bremen", "english": "Bremen" },
+            { "german": "Außenbeziehungen", "english": "Foreign Relations" }
+          ]
+        },
+        "notes": "Bremen, like other German states, does not have a Senator for Foreign Relations ('Senator für Außenbeziehungen'), as foreign policy is managed at the federal level.",
+        "learningTechniques": "Remember that foreign relations are handled by the federal government in Germany, not by individual states like Bremen.",
+        "resources": [
+          {
+            "description": "Learn more about the political structure of Bremen.",
+            "url": "https://en.wikipedia.org/wiki/Senate_of_Bremen"
+          }
+        ],
+        "region": "Bremen"
+      }
+    ]
+  }
+}

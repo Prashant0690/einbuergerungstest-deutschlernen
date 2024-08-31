@@ -1,0 +1,4455 @@
+{
+  "fileName": "Einbürgerungstest_General_Part3.json",
+  "testInfo": {
+    "name": "Gesamtfragenkatalog zum Test „Leben in Deutschland“ und zum „Einbürgerungstest“",
+    "version": "Stand: 25.06.2024"
+  },
+  "questions": [
+    {
+      "id": 201,
+      "germanQuestion": "Welche der folgenden Auflistungen enthält nur Bundesländer, die zum Gebiet der früheren DDR gehörten?",
+      "englishQuestion": "Which of the following lists contains only federal states that were part of the former GDR?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Niedersachsen, Nordrhein-Westfalen, Hessen, Schleswig-Holstein, Brandenburg",
+          "englishOption": "Lower Saxony, North Rhine-Westphalia, Hesse, Schleswig-Holstein, Brandenburg",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Mecklenburg-Vorpommern, Brandenburg, Sachsen, Sachsen-Anhalt, Thüringen",
+          "englishOption": "Mecklenburg-Vorpommern, Brandenburg, Saxony, Saxony-Anhalt, Thuringia",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Bayern, Baden-Württemberg, Rheinland-Pfalz, Thüringen, Sachsen",
+          "englishOption": "Bavaria, Baden-Württemberg, Rhineland-Palatinate, Thuringia, Saxony",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sachsen, Thüringen, Hessen, Niedersachsen, Brandenburg",
+          "englishOption": "Saxony, Thuringia, Hesse, Lower Saxony, Brandenburg",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundesland", "english": "federal state" },
+          { "german": "DDR", "english": "GDR" }
+        ]
+      },
+      "notes": "The correct list includes Mecklenburg-Vorpommern, Brandenburg, Saxony, Saxony-Anhalt, and Thuringia, which were all part of East Germany (GDR).",
+      "learningTechniques": "Focus on identifying the federal states that were part of the former East Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the federal states of Germany.",
+          "url": "https://en.wikipedia.org/wiki/States_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 202,
+      "germanQuestion": "Zu wem gehörte die DDR im 'Kalten Krieg'?",
+      "englishQuestion": "Which alliance did the GDR belong to during the 'Cold War'?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "zu den Westmächten",
+          "englishOption": "to the Western powers",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "zum Warschauer Pakt",
+          "englishOption": "to the Warsaw Pact",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "zur NATO",
+          "englishOption": "to NATO",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "zu den blockfreien Staaten",
+          "englishOption": "to the non-aligned states",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Kalter Krieg", "english": "Cold War" },
+          { "german": "Warschauer Pakt", "english": "Warsaw Pact" }
+        ]
+      },
+      "notes": "During the Cold War, the GDR was aligned with the Warsaw Pact, which was the military alliance of communist states led by the Soviet Union.",
+      "learningTechniques": "Focus on the Warsaw Pact as the key alliance for the GDR during the Cold War.",
+      "resources": [
+        {
+          "description": "Learn more about the Warsaw Pact.",
+          "url": "https://en.wikipedia.org/wiki/Warsaw_Pact"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 203,
+      "germanQuestion": "Wie hieß das Wirtschaftssystem der DDR?",
+      "englishQuestion": "What was the economic system of the GDR called?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Marktwirtschaft",
+          "englishOption": "Market economy",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Planwirtschaft",
+          "englishOption": "Planned economy",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Angebot und Nachfrage",
+          "englishOption": "Supply and demand",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Kapitalismus",
+          "englishOption": "Capitalism",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Wirtschaftssystem", "english": "economic system" },
+          { "german": "Planwirtschaft", "english": "planned economy" }
+        ]
+      },
+      "notes": "The GDR had a centrally planned economy, where the state controlled production, distribution, and prices.",
+      "learningTechniques": "Focus on 'Planwirtschaft' as the term for the centrally planned economy in the GDR.",
+      "resources": [
+        {
+          "description": "Learn more about the economic system of East Germany.",
+          "url": "https://en.wikipedia.org/wiki/Economy_of_East_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 204,
+      "germanQuestion": "Wie wurden die Bundesrepublik Deutschland und die DDR zu einem Staat?",
+      "englishQuestion": "How did the Federal Republic of Germany and the GDR become one state?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Die Bundesrepublik hat die DDR besetzt.",
+          "englishOption": "The Federal Republic occupied the GDR.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Die heutigen fünf östlichen Bundesländer sind der Bundesrepublik Deutschland beigetreten.",
+          "englishOption": "The current five eastern federal states joined the Federal Republic of Germany.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Die westlichen Bundesländer sind der DDR beigetreten.",
+          "englishOption": "The western federal states joined the GDR.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Die DDR hat die Bundesrepublik Deutschland besetzt.",
+          "englishOption": "The GDR occupied the Federal Republic of Germany.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Bundesrepublik Deutschland",
+            "english": "Federal Republic of Germany"
+          },
+          { "german": "DDR", "english": "GDR" },
+          { "german": "Beitritt", "english": "accession" }
+        ]
+      },
+      "notes": "The reunification of Germany occurred when the five new eastern federal states (former GDR) joined the Federal Republic of Germany in 1990.",
+      "learningTechniques": "Focus on the accession of the eastern federal states as the key step in German reunification.",
+      "resources": [
+        {
+          "description": "Learn more about German reunification.",
+          "url": "https://en.wikipedia.org/wiki/German_reunification"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 205,
+      "germanQuestion": "Mit dem Beitritt der DDR zur Bundesrepublik Deutschland gehören die neuen Bundesländer nun auch …",
+      "englishQuestion": "With the accession of the GDR to the Federal Republic of Germany, the new federal states are now also part of …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "zur Europäischen Union.",
+          "englishOption": "the European Union.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "zum Warschauer Pakt.",
+          "englishOption": "the Warsaw Pact.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "zur OPEC.",
+          "englishOption": "OPEC.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "zur Europäischen Verteidigungsgemeinschaft.",
+          "englishOption": "the European Defense Community.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Beitritt", "english": "accession" },
+          { "german": "Europäische Union", "english": "European Union" }
+        ]
+      },
+      "notes": "After reunification, the new federal states that joined Germany also became part of the European Union.",
+      "learningTechniques": "Focus on the fact that reunification also meant integration into European structures like the EU.",
+      "resources": [
+        {
+          "description": "Learn more about the European Union and German reunification.",
+          "url": "https://en.wikipedia.org/wiki/Germany_in_the_European_Union"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 206,
+      "germanQuestion": "Woran erinnern die sogenannten 'Stolpersteine' in Deutschland?",
+      "englishQuestion": "What do the so-called 'Stolpersteine' (stumbling stones) in Germany commemorate?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "an berühmte deutsche Politikerinnen und Politiker",
+          "englishOption": "famous German politicians",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "an die Opfer des Nationalsozialismus",
+          "englishOption": "the victims of National Socialism",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "an Verkehrstote",
+          "englishOption": "road accident victims",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "an bekannte jüdische Musiker",
+          "englishOption": "famous Jewish musicians",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Stolpersteine", "english": "stumbling stones" },
+          { "german": "Opfer", "english": "victims" },
+          { "german": "Nationalsozialismus", "english": "National Socialism" }
+        ]
+      },
+      "notes": "The Stolpersteine (stumbling stones) are small brass plaques embedded in the pavement to commemorate individuals who were persecuted and killed by the Nazis.",
+      "learningTechniques": "Focus on the Stolpersteine as a grassroots project that memorializes victims of the Holocaust.",
+      "resources": [
+        {
+          "description": "Learn more about the Stolpersteine project.",
+          "url": "https://en.wikipedia.org/wiki/Stolpersteine"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 207,
+      "germanQuestion": "In welchem Militärbündnis war die DDR Mitglied?",
+      "englishQuestion": "In which military alliance was the GDR a member?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "in der NATO",
+          "englishOption": "in NATO",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "im Rheinbund",
+          "englishOption": "in the Confederation of the Rhine",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "im Warschauer Pakt",
+          "englishOption": "in the Warsaw Pact",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "im Europabündnis",
+          "englishOption": "in the European Alliance",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Militärbündnis", "english": "military alliance" },
+          { "german": "Warschauer Pakt", "english": "Warsaw Pact" }
+        ]
+      },
+      "notes": "The GDR (East Germany) was a member of the Warsaw Pact, the military alliance of socialist states led by the Soviet Union during the Cold War.",
+      "learningTechniques": "Remember that the Warsaw Pact was the Eastern Bloc's counterpart to NATO during the Cold War.",
+      "resources": [
+        {
+          "description": "Learn more about the Warsaw Pact.",
+          "url": "https://en.wikipedia.org/wiki/Warsaw_Pact"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 208,
+      "germanQuestion": "Was war die 'Stasi'?",
+      "englishQuestion": "What was the 'Stasi'?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "der Geheimdienst im 'Dritten Reich'",
+          "englishOption": "the secret service in the 'Third Reich'",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine berühmte deutsche Gedenkstätte",
+          "englishOption": "a famous German memorial site",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "der Geheimdienst der DDR",
+          "englishOption": "the secret service of the GDR",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "ein deutscher Sportverein während des Zweiten Weltkrieges",
+          "englishOption": "a German sports club during World War II",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Stasi", "english": "Stasi" },
+          { "german": "Geheimdienst", "english": "secret service" }
+        ]
+      },
+      "notes": "The Stasi was the state security service of the GDR (East Germany), responsible for surveillance and intelligence gathering.",
+      "learningTechniques": "Remember 'Stasi' as the secret police organization of East Germany, known for its extensive surveillance of citizens.",
+      "resources": [
+        {
+          "description": "Learn more about the Stasi.",
+          "url": "https://en.wikipedia.org/wiki/Stasi"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 209,
+      "germanQuestion": "Welches war das Wappen der Deutschen Demokratischen Republik?",
+      "englishQuestion": "Which was the coat of arms of the German Democratic Republic?",
+      "type": "single",
+      "answerType": "image",
+      "options": [
+        {
+          "germanOption": "Bild 1",
+          "englishOption": "Image 1",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bild 2",
+          "englishOption": "Image 2",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bild 3",
+          "englishOption": "Image 3",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bild 4",
+          "englishOption": "Image 4",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Wappen", "english": "coat of arms" },
+          {
+            "german": "Deutsche Demokratische Republik",
+            "english": "German Democratic Republic"
+          }
+        ]
+      },
+      "notes": "The coat of arms of the GDR featured a hammer and compass surrounded by a wreath of wheat, symbolizing the unity of workers, peasants, and intelligentsia.",
+      "learningTechniques": "Focus on the unique symbolism in the GDR's coat of arms, which reflected its socialist ideology.",
+      "resources": [
+        {
+          "description": "Learn more about the coat of arms of East Germany.",
+          "url": "https://en.wikipedia.org/wiki/Coat_of_arms_of_East_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 210,
+      "germanQuestion": "Was ereignete sich am 17. Juni 1953 in der DDR?",
+      "englishQuestion": "What happened on June 17, 1953, in the GDR?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "der feierliche Beitritt zum Warschauer Pakt",
+          "englishOption": "the ceremonial accession to the Warsaw Pact",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "landesweite Streiks und ein Volksaufstand",
+          "englishOption": "nationwide strikes and a popular uprising",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "der 1. SED-Parteitag",
+          "englishOption": "the 1st SED Party Congress",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "der erste Besuch Fidel Castros",
+          "englishOption": "the first visit of Fidel Castro",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Streiks", "english": "strikes" },
+          { "german": "Volksaufstand", "english": "popular uprising" },
+          { "german": "DDR", "english": "GDR" }
+        ]
+      },
+      "notes": "On June 17, 1953, a popular uprising and nationwide strikes broke out in the GDR, which were violently suppressed by the government with Soviet support.",
+      "learningTechniques": "Focus on June 17, 1953, as a significant date of resistance against the East German government.",
+      "resources": [
+        {
+          "description": "Learn more about the 1953 uprising in East Germany.",
+          "url": "https://en.wikipedia.org/wiki/Uprising_of_1953_in_East_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 211,
+      "germanQuestion": "Welcher Politiker steht für die 'Ostverträge'?",
+      "englishQuestion": "Which politician is associated with the 'Eastern Treaties'?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Helmut Kohl",
+          "englishOption": "Helmut Kohl",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Willy Brandt",
+          "englishOption": "Willy Brandt",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Michail Gorbatschow",
+          "englishOption": "Mikhail Gorbachev",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Ludwig Erhard",
+          "englishOption": "Ludwig Erhard",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Ostverträge", "english": "Eastern Treaties" },
+          { "german": "Politiker", "english": "politician" }
+        ]
+      },
+      "notes": "Willy Brandt is known for his role in the 'Ostverträge,' a series of treaties that aimed to normalize relations between West Germany and Eastern Europe during the Cold War.",
+      "learningTechniques": "Remember Willy Brandt's 'Ostpolitik' as the key policy that opened relations with Eastern European countries.",
+      "resources": [
+        {
+          "description": "Learn more about the Eastern Treaties and Willy Brandt's Ostpolitik.",
+          "url": "https://en.wikipedia.org/wiki/Ostpolitik"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 212,
+      "germanQuestion": "Wie heißt Deutschland mit vollem Namen?",
+      "englishQuestion": "What is the full name of Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Bundesstaat Deutschland",
+          "englishOption": "Federal State of Germany",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bundesländer Deutschland",
+          "englishOption": "Federal States of Germany",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bundesrepublik Deutschland",
+          "englishOption": "Federal Republic of Germany",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Bundesbezirk Deutschland",
+          "englishOption": "Federal District of Germany",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Name", "english": "name" },
+          { "german": "Bundesrepublik", "english": "Federal Republic" }
+        ]
+      },
+      "notes": "Germany's full official name is 'Bundesrepublik Deutschland' (Federal Republic of Germany).",
+      "learningTechniques": "Focus on the official designation 'Bundesrepublik Deutschland,' which reflects Germany's structure as a federal republic.",
+      "resources": [
+        {
+          "description": "Learn more about the official name of Germany.",
+          "url": "https://en.wikipedia.org/wiki/Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 213,
+      "germanQuestion": "Wie viele Einwohner hat Deutschland?",
+      "englishQuestion": "How many inhabitants does Germany have?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "70 Millionen",
+          "englishOption": "70 million",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "78 Millionen",
+          "englishOption": "78 million",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "84 Millionen",
+          "englishOption": "84 million",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "90 Millionen",
+          "englishOption": "90 million",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Einwohner", "english": "inhabitants" },
+          { "german": "Deutschland", "english": "Germany" }
+        ]
+      },
+      "notes": "As of recent estimates, Germany has approximately 84 million inhabitants, making it the most populous country in the European Union.",
+      "learningTechniques": "Focus on 84 million as the current population of Germany, reflecting its significant size in Europe.",
+      "resources": [
+        {
+          "description": "Learn more about Germany's population.",
+          "url": "https://en.wikipedia.org/wiki/Demographics_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 214,
+      "germanQuestion": "Welche Farben hat die deutsche Flagge?",
+      "englishQuestion": "What are the colors of the German flag?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "schwarz-rot-gold",
+          "englishOption": "black-red-gold",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "rot-weiß-schwarz",
+          "englishOption": "red-white-black",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "schwarz-rot-grün",
+          "englishOption": "black-red-green",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "schwarz-gelb-rot",
+          "englishOption": "black-yellow-red",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Flagge", "english": "flag" },
+          { "german": "Farben", "english": "colors" }
+        ]
+      },
+      "notes": "The colors of the German flag are black, red, and gold, which have historical significance dating back to the 19th century.",
+      "learningTechniques": "Focus on the black-red-gold color combination, which is a key symbol of German national identity.",
+      "resources": [
+        {
+          "description": "Learn more about the German flag and its history.",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 215,
+      "germanQuestion": "Wer wird als 'Kanzler der Deutschen Einheit' bezeichnet?",
+      "englishQuestion": "Who is referred to as the 'Chancellor of German Unity'?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Gerhard Schröder",
+          "englishOption": "Gerhard Schröder",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Helmut Kohl",
+          "englishOption": "Helmut Kohl",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Konrad Adenauer",
+          "englishOption": "Konrad Adenauer",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Helmut Schmidt",
+          "englishOption": "Helmut Schmidt",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Kanzler", "english": "chancellor" },
+          { "german": "Deutsche Einheit", "english": "German unity" }
+        ]
+      },
+      "notes": "Helmut Kohl is known as the 'Chancellor of German Unity' for his role in the reunification of Germany in 1990.",
+      "learningTechniques": "Focus on Helmut Kohl's key role in the reunification process, which earned him this title.",
+      "resources": [
+        {
+          "description": "Learn more about Helmut Kohl and German reunification.",
+          "url": "https://en.wikipedia.org/wiki/Helmut_Kohl"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 216,
+      "germanQuestion": "Welches Symbol ist im Plenarsaal des Deutschen Bundestages zu sehen?",
+      "englishQuestion": "Which symbol can be seen in the plenary hall of the German Bundestag?",
+      "type": "image",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "der Bundesadler",
+          "englishOption": "the Federal Eagle",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die Fahne der Stadt Berlin",
+          "englishOption": "the flag of the city of Berlin",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "der Reichsadler",
+          "englishOption": "the Imperial Eagle",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Reichskrone",
+          "englishOption": "the Imperial Crown",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundesadler", "english": "Federal Eagle" },
+          { "german": "Plenarsaal", "english": "plenary hall" },
+          { "german": "Bundestag", "english": "Bundestag" }
+        ]
+      },
+      "notes": "The Federal Eagle, known as the 'Bundesadler,' is the symbol of the Federal Republic of Germany and is prominently displayed in the plenary hall of the Bundestag.",
+      "learningTechniques": "Focus on the Federal Eagle as the national emblem of Germany and a key symbol of the Bundestag.",
+      "resources": [
+        {
+          "description": "Learn more about the German Bundestag and its symbols.",
+          "url": "https://en.wikipedia.org/wiki/German_Bundestag"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 217,
+      "germanQuestion": "In welchem Zeitraum gab es die Deutsche Demokratische Republik (DDR)?",
+      "englishQuestion": "During which period did the German Democratic Republic (GDR) exist?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "1919 bis 1927",
+          "englishOption": "1919 to 1927",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1933 bis 1945",
+          "englishOption": "1933 to 1945",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1945 bis 1961",
+          "englishOption": "1945 to 1961",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1949 bis 1990",
+          "englishOption": "1949 to 1990",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Deutsche Demokratische Republik",
+            "english": "German Democratic Republic"
+          },
+          { "german": "Zeitraum", "english": "period" }
+        ]
+      },
+      "notes": "The German Democratic Republic (GDR) existed from 1949 until 1990, when it was reunified with the Federal Republic of Germany.",
+      "learningTechniques": "Remember 1949 to 1990 as the period during which East Germany (GDR) existed.",
+      "resources": [
+        {
+          "description": "Learn more about the history of East Germany.",
+          "url": "https://en.wikipedia.org/wiki/German_Democratic_Republic"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 218,
+      "germanQuestion": "Wie viele Bundesländer kamen bei der Wiedervereinigung 1990 zur Bundesrepublik Deutschland hinzu?",
+      "englishQuestion": "How many federal states were added to the Federal Republic of Germany during reunification in 1990?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "4",
+          "englishOption": "4",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "5",
+          "englishOption": "5",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "6",
+          "englishOption": "6",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "7",
+          "englishOption": "7",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundesländer", "english": "federal states" },
+          { "german": "Wiedervereinigung", "english": "reunification" }
+        ]
+      },
+      "notes": "During the reunification of Germany in 1990, five new federal states (Brandenburg, Mecklenburg-Vorpommern, Saxony, Saxony-Anhalt, and Thuringia) were added to the Federal Republic of Germany.",
+      "learningTechniques": "Focus on the addition of five new federal states during German reunification.",
+      "resources": [
+        {
+          "description": "Learn more about German reunification and its impact on the federal states.",
+          "url": "https://en.wikipedia.org/wiki/German_reunification"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 219,
+      "germanQuestion": "Die Bundesrepublik Deutschland hat die Grenzen von heute seit …",
+      "englishQuestion": "The Federal Republic of Germany has had its current borders since …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "1933",
+          "englishOption": "1933",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1949",
+          "englishOption": "1949",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1971",
+          "englishOption": "1971",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1990",
+          "englishOption": "1990",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Grenzen", "english": "borders" },
+          {
+            "german": "Bundesrepublik Deutschland",
+            "english": "Federal Republic of Germany"
+          }
+        ]
+      },
+      "notes": "Germany's current borders were established in 1990 following the reunification of East and West Germany.",
+      "learningTechniques": "Remember that Germany's current borders were established with reunification in 1990.",
+      "resources": [
+        {
+          "description": "Learn more about the history of Germany's borders.",
+          "url": "https://en.wikipedia.org/wiki/Reunification_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 220,
+      "germanQuestion": "Der 27. Januar ist in Deutschland ein offizieller Gedenktag. Woran erinnert dieser Tag?",
+      "englishQuestion": "January 27 is an official day of remembrance in Germany. What does this day commemorate?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "an das Ende des Zweiten Weltkrieges",
+          "englishOption": "the end of World War II",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "an die Verabschiedung des Grundgesetzes",
+          "englishOption": "the adoption of the Basic Law (Grundgesetz)",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "an die Wiedervereinigung Deutschlands",
+          "englishOption": "the reunification of Germany",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "an die Opfer des Nationalsozialismus (Tag der Befreiung des Vernichtungslagers Auschwitz)",
+          "englishOption": "the victims of National Socialism (Day of the Liberation of Auschwitz concentration camp)",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Gedenktag", "english": "day of remembrance" },
+          { "german": "Opfer", "english": "victims" },
+          { "german": "Nationalsozialismus", "english": "National Socialism" }
+        ]
+      },
+      "notes": "January 27 is an official day of remembrance in Germany, dedicated to the victims of National Socialism. It marks the anniversary of the liberation of Auschwitz concentration camp in 1945.",
+      "learningTechniques": "Focus on January 27 as the day Germany commemorates the victims of the Holocaust.",
+      "resources": [
+        {
+          "description": "Learn more about Holocaust Remembrance Day in Germany.",
+          "url": "https://en.wikipedia.org/wiki/International_Holocaust_Remembrance_Day"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 221,
+      "germanQuestion": "Deutschland ist Mitglied des Schengener Abkommens. Was bedeutet das?",
+      "englishQuestion": "Germany is a member of the Schengen Agreement. What does that mean?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Deutsche können in viele Länder Europas ohne Passkontrolle reisen.",
+          "englishOption": "Germans can travel to many European countries without passport control.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Alle Menschen können ohne Personenkontrolle in Deutschland einreisen.",
+          "englishOption": "All people can enter Germany without identity checks.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Deutsche können ohne Passkontrolle in jedes Land reisen.",
+          "englishOption": "Germans can travel to any country without passport control.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Deutsche können in jedem Land mit dem Euro bezahlen.",
+          "englishOption": "Germans can pay with the euro in every country.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Schengener Abkommen", "english": "Schengen Agreement" },
+          { "german": "Passkontrolle", "english": "passport control" }
+        ]
+      },
+      "notes": "The Schengen Agreement allows for passport-free travel between many European countries, facilitating freedom of movement for Germans and others.",
+      "learningTechniques": "Focus on the Schengen Agreement as the key to understanding free movement within many European countries.",
+      "resources": [
+        {
+          "description": "Learn more about the Schengen Agreement.",
+          "url": "https://en.wikipedia.org/wiki/Schengen_Agreement"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 222,
+      "germanQuestion": "Welches Land ist ein Nachbarland von Deutschland?",
+      "englishQuestion": "Which country is a neighbor of Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Ungarn",
+          "englishOption": "Hungary",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Portugal",
+          "englishOption": "Portugal",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Spanien",
+          "englishOption": "Spain",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Schweiz",
+          "englishOption": "Switzerland",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Nachbarland", "english": "neighboring country" },
+          { "german": "Schweiz", "english": "Switzerland" }
+        ]
+      },
+      "notes": "Switzerland shares a border with Germany to the south, making it one of Germany's nine neighboring countries.",
+      "learningTechniques": "Focus on Switzerland as one of Germany's neighbors, along with eight other countries.",
+      "resources": [
+        {
+          "description": "Learn more about Germany's neighboring countries.",
+          "url": "https://en.wikipedia.org/wiki/Borders_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 223,
+      "germanQuestion": "Welches Land ist ein Nachbarland von Deutschland?",
+      "englishQuestion": "Which country is a neighbor of Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Rumänien",
+          "englishOption": "Romania",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bulgarien",
+          "englishOption": "Bulgaria",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Polen",
+          "englishOption": "Poland",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Griechenland",
+          "englishOption": "Greece",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Nachbarland", "english": "neighboring country" },
+          { "german": "Polen", "english": "Poland" }
+        ]
+      },
+      "notes": "Poland is one of Germany's eastern neighbors, sharing a significant border.",
+      "learningTechniques": "Focus on Poland as one of the key neighboring countries to the east of Germany.",
+      "resources": [
+        {
+          "description": "Learn more about Germany's neighboring countries.",
+          "url": "https://en.wikipedia.org/wiki/Borders_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 224,
+      "germanQuestion": "Was bedeutet die Abkürzung EU?",
+      "englishQuestion": "What does the abbreviation EU stand for?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Europäische Unternehmen",
+          "englishOption": "European Enterprises",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Europäische Union",
+          "englishOption": "European Union",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Einheitliche Union",
+          "englishOption": "Unified Union",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Euro Union",
+          "englishOption": "Euro Union",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Europäische Union", "english": "European Union" },
+          { "german": "Abkürzung", "english": "abbreviation" }
+        ]
+      },
+      "notes": "The EU stands for the European Union, a political and economic union of member states located primarily in Europe.",
+      "learningTechniques": "Focus on 'Europäische Union' as the full name for the abbreviation 'EU'.",
+      "resources": [
+        {
+          "description": "Learn more about the European Union.",
+          "url": "https://en.wikipedia.org/wiki/European_Union"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 225,
+      "germanQuestion": "In welchem anderen Land gibt es eine große deutschsprachige Bevölkerung?",
+      "englishQuestion": "In which other country is there a large German-speaking population?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Tschechien",
+          "englishOption": "Czech Republic",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Norwegen",
+          "englishOption": "Norway",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Spanien",
+          "englishOption": "Spain",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Österreich",
+          "englishOption": "Austria",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "deutschsprachige Bevölkerung",
+            "english": "German-speaking population"
+          },
+          { "german": "Österreich", "english": "Austria" }
+        ]
+      },
+      "notes": "Austria is a neighboring country of Germany where German is the official language and the primary spoken language.",
+      "learningTechniques": "Focus on Austria as a key German-speaking country outside of Germany.",
+      "resources": [
+        {
+          "description": "Learn more about German-speaking countries.",
+          "url": "https://en.wikipedia.org/wiki/German_language"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 226,
+      "germanQuestion": "Welche ist die Flagge der Europäischen Union?",
+      "englishQuestion": "Which is the flag of the European Union?",
+      "type": "single",
+      "answerType": "image",
+      "options": [
+        {
+          "germanOption": "Bild 1",
+          "englishOption": "Image 1",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bild 2",
+          "englishOption": "Image 2",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Bild 3",
+          "englishOption": "Image 3",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bild 4",
+          "englishOption": "Image 4",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Flagge", "english": "flag" },
+          { "german": "Europäische Union", "english": "European Union" }
+        ]
+      },
+      "notes": "The flag of the European Union is blue with a circle of 12 gold stars.",
+      "learningTechniques": "Focus on the circle of 12 stars on a blue background, representing unity in Europe.",
+      "resources": [
+        {
+          "description": "Learn more about the flag of the European Union.",
+          "url": "https://en.wikipedia.org/wiki/Flag_of_Europe"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 227,
+      "germanQuestion": "Welches Land ist ein Nachbarland von Deutschland?",
+      "englishQuestion": "Which country is a neighbor of Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Finnland",
+          "englishOption": "Finland",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Dänemark",
+          "englishOption": "Denmark",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Norwegen",
+          "englishOption": "Norway",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Schweden",
+          "englishOption": "Sweden",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Nachbarland", "english": "neighboring country" },
+          { "german": "Dänemark", "english": "Denmark" }
+        ]
+      },
+      "notes": "Denmark shares a northern border with Germany.",
+      "learningTechniques": "Focus on Denmark as Germany's northern neighbor.",
+      "resources": [
+        {
+          "description": "Learn more about Germany's neighboring countries.",
+          "url": "https://en.wikipedia.org/wiki/Borders_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 228,
+      "germanQuestion": "Wie wird der Beitritt der DDR zur Bundesrepublik Deutschland im Jahr 1990 allgemein genannt?",
+      "englishQuestion": "How is the accession of the GDR to the Federal Republic of Germany in 1990 generally called?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "NATO-Osterweiterung",
+          "englishOption": "NATO Eastern Expansion",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "EU-Osterweiterung",
+          "englishOption": "EU Eastern Expansion",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Deutsche Wiedervereinigung",
+          "englishOption": "German Reunification",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Europäische Gemeinschaft",
+          "englishOption": "European Community",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Beitritt", "english": "accession" },
+          {
+            "german": "Deutsche Wiedervereinigung",
+            "english": "German Reunification"
+          }
+        ]
+      },
+      "notes": "The process of the GDR joining the Federal Republic of Germany in 1990 is commonly referred to as the 'German Reunification.'",
+      "learningTechniques": "Focus on 'Deutsche Wiedervereinigung' as the term for the reunification of East and West Germany.",
+      "resources": [
+        {
+          "description": "Learn more about German reunification.",
+          "url": "https://en.wikipedia.org/wiki/German_reunification"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 229,
+      "germanQuestion": "Welches Land ist ein Nachbarland von Deutschland?",
+      "englishQuestion": "Which country is a neighbor of Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Spanien",
+          "englishOption": "Spain",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bulgarien",
+          "englishOption": "Bulgaria",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Norwegen",
+          "englishOption": "Norway",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Luxemburg",
+          "englishOption": "Luxembourg",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Nachbarland", "english": "neighboring country" },
+          { "german": "Luxemburg", "english": "Luxembourg" }
+        ]
+      },
+      "notes": "Luxembourg shares a western border with Germany.",
+      "learningTechniques": "Focus on Luxembourg as one of Germany's neighbors to the west.",
+      "resources": [
+        {
+          "description": "Learn more about Germany's neighboring countries.",
+          "url": "https://en.wikipedia.org/wiki/Borders_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 230,
+      "germanQuestion": "Das Europäische Parlament wird regelmäßig gewählt, nämlich alle …",
+      "englishQuestion": "The European Parliament is elected regularly, namely every …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "5 Jahre",
+          "englishOption": "5 years",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "6 Jahre",
+          "englishOption": "6 years",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "7 Jahre",
+          "englishOption": "7 years",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "8 Jahre",
+          "englishOption": "8 years",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Europäisches Parlament",
+            "english": "European Parliament"
+          },
+          { "german": "Wahl", "english": "election" }
+        ]
+      },
+      "notes": "The European Parliament is elected every five years by citizens of EU member states.",
+      "learningTechniques": "Focus on the five-year election cycle for the European Parliament.",
+      "resources": [
+        {
+          "description": "Learn more about the European Parliament.",
+          "url": "https://en.wikipedia.org/wiki/European_Parliament"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 231,
+      "germanQuestion": "Was bedeutet der Begriff 'europäische Integration'?",
+      "englishQuestion": "What does the term 'European integration' mean?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Damit sind amerikanische Einwanderinnen und Einwanderer in Europa gemeint.",
+          "englishOption": "It refers to American immigrants in Europe.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Der Begriff meint den Einwanderungsstopp nach Europa.",
+          "englishOption": "The term refers to a stop to immigration into Europe.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Damit sind europäische Auswanderinnen und Auswanderer in den USA gemeint.",
+          "englishOption": "It refers to European emigrants in the USA.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Der Begriff meint den Zusammenschluss europäischer Staaten zur EU.",
+          "englishOption": "The term refers to the integration of European states into the EU.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "europäische Integration",
+            "english": "European integration"
+          },
+          { "german": "EU", "english": "EU" }
+        ]
+      },
+      "notes": "European integration refers to the political, economic, and legal consolidation of European states, especially through the European Union.",
+      "learningTechniques": "Remember that 'europäische Integration' is associated with the formation of the EU.",
+      "resources": [
+        {
+          "description": "Learn more about European integration and the EU.",
+          "url": "https://en.wikipedia.org/wiki/European_integration"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 232,
+      "germanQuestion": "Wer wird bei der Europawahl gewählt?",
+      "englishQuestion": "Who is elected in the European Parliament election?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die Europäische Kommission",
+          "englishOption": "the European Commission",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Länder, die in die EU eintreten dürfen",
+          "englishOption": "the countries allowed to join the EU",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Abgeordneten des Europäischen Parlaments",
+          "englishOption": "the Members of the European Parliament",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die europäische Verfassung",
+          "englishOption": "the European Constitution",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Europawahl", "english": "European Parliament election" },
+          { "german": "Abgeordnete", "english": "Members of Parliament" }
+        ]
+      },
+      "notes": "In the European Parliament election, citizens of EU member states elect representatives to the European Parliament.",
+      "learningTechniques": "Focus on the election of Members of the European Parliament as the main outcome of the European elections.",
+      "resources": [
+        {
+          "description": "Learn more about the European Parliament election.",
+          "url": "https://en.wikipedia.org/wiki/European_Parliament_election"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 233,
+      "germanQuestion": "Welches Land ist ein Nachbarland von Deutschland?",
+      "englishQuestion": "Which country is a neighbor of Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Tschechien",
+          "englishOption": "Czech Republic",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Bulgarien",
+          "englishOption": "Bulgaria",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Griechenland",
+          "englishOption": "Greece",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Portugal",
+          "englishOption": "Portugal",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Nachbarland", "english": "neighboring country" },
+          { "german": "Tschechien", "english": "Czech Republic" }
+        ]
+      },
+      "notes": "The Czech Republic shares a border with Germany to the east.",
+      "learningTechniques": "Focus on the Czech Republic as one of Germany's eastern neighbors.",
+      "resources": [
+        {
+          "description": "Learn more about Germany's neighboring countries.",
+          "url": "https://en.wikipedia.org/wiki/Borders_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 234,
+      "germanQuestion": "Wo ist der Sitz des Europäischen Parlaments?",
+      "englishQuestion": "Where is the seat of the European Parliament?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "London",
+          "englishOption": "London",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Paris",
+          "englishOption": "Paris",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Berlin",
+          "englishOption": "Berlin",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Straßburg",
+          "englishOption": "Strasbourg",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Sitz", "english": "seat" },
+          {
+            "german": "Europäisches Parlament",
+            "english": "European Parliament"
+          }
+        ]
+      },
+      "notes": "The European Parliament's official seat is in Strasbourg, France.",
+      "learningTechniques": "Focus on Strasbourg as the official location of the European Parliament.",
+      "resources": [
+        {
+          "description": "Learn more about the European Parliament's seat.",
+          "url": "https://en.wikipedia.org/wiki/European_Parliament"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 235,
+      "germanQuestion": "Der damalige französische Staatspräsident François Mitterrand und der damalige deutsche Bundeskanzler Helmut Kohl gedenken in Verdun gemeinsam der Toten beider Weltkriege. Welches Ziel der Europäischen Union wird bei diesem Treffen deutlich?",
+      "englishQuestion": "The then French President François Mitterrand and the then German Chancellor Helmut Kohl jointly commemorate the dead of both world wars in Verdun. Which goal of the European Union is highlighted by this meeting?",
+      "type": "single",
+      "answerType": "image",
+      "options": [
+        {
+          "germanOption": "Freundschaft zwischen England und Deutschland",
+          "englishOption": "Friendship between England and Germany",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Reisefreiheit in alle Länder der EU",
+          "englishOption": "Freedom of travel in all EU countries",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Frieden und Sicherheit in den Ländern der EU",
+          "englishOption": "Peace and security in the countries of the EU",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "einheitliche Feiertage in den Ländern der EU",
+          "englishOption": "Unified holidays in the countries of the EU",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Frieden", "english": "peace" },
+          { "german": "Sicherheit", "english": "security" },
+          { "german": "Europäische Union", "english": "European Union" }
+        ]
+      },
+      "notes": "The meeting between Mitterrand and Kohl in Verdun symbolizes the commitment to peace and security within the European Union, one of its core objectives.",
+      "learningTechniques": "Focus on the EU's goal of promoting peace and security among its member states, as exemplified by this historic event.",
+      "resources": [
+        {
+          "description": "Learn more about the European Union's mission for peace and security.",
+          "url": "https://en.wikipedia.org/wiki/European_Union"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 236,
+      "germanQuestion": "Wie viele Mitgliedstaaten hat die EU heute?",
+      "englishQuestion": "How many member states does the EU have today?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "21",
+          "englishOption": "21",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "23",
+          "englishOption": "23",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "25",
+          "englishOption": "25",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "27",
+          "englishOption": "27",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Mitgliedstaaten", "english": "member states" },
+          { "german": "EU", "english": "EU" }
+        ]
+      },
+      "notes": "As of today, the European Union has 27 member states.",
+      "learningTechniques": "Focus on the number 27 as the current number of EU member states.",
+      "resources": [
+        {
+          "description": "Learn more about the European Union and its member states.",
+          "url": "https://en.wikipedia.org/wiki/Member_states_of_the_European_Union"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 237,
+      "germanQuestion": "2007 wurde das 50-jährige Jubiläum der 'Römischen Verträge' gefeiert. Was war der Inhalt der Verträge?",
+      "englishQuestion": "In 2007, the 50th anniversary of the 'Treaties of Rome' was celebrated. What was the content of the treaties?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Beitritt Deutschlands zur NATO",
+          "englishOption": "Germany's accession to NATO",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Gründung der Europäischen Wirtschaftsgemeinschaft (EWG)",
+          "englishOption": "Creation of the European Economic Community (EEC)",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Verpflichtung Deutschlands zu Reparationsleistungen",
+          "englishOption": "Germany's obligation to pay reparations",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Festlegung der Oder-Neiße-Linie als Ostgrenze",
+          "englishOption": "Establishment of the Oder-Neisse line as the eastern border",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Römische Verträge", "english": "Treaties of Rome" },
+          {
+            "german": "Europäische Wirtschaftsgemeinschaft",
+            "english": "European Economic Community"
+          }
+        ]
+      },
+      "notes": "The Treaties of Rome, signed in 1957, established the European Economic Community (EEC) and are considered a cornerstone of European integration.",
+      "learningTechniques": "Focus on the Treaties of Rome as the foundation for the EEC and modern European integration.",
+      "resources": [
+        {
+          "description": "Learn more about the Treaties of Rome.",
+          "url": "https://en.wikipedia.org/wiki/Treaties_of_Rome"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 238,
+      "germanQuestion": "An welchen Orten arbeitet das Europäische Parlament?",
+      "englishQuestion": "In which locations does the European Parliament work?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Paris, London und Den Haag",
+          "englishOption": "Paris, London, and The Hague",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Straßburg, Luxemburg und Brüssel",
+          "englishOption": "Strasbourg, Luxembourg, and Brussels",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Rom, Bern und Wien",
+          "englishOption": "Rome, Bern, and Vienna",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bonn, Zürich und Mailand",
+          "englishOption": "Bonn, Zurich, and Milan",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Europäisches Parlament",
+            "english": "European Parliament"
+          },
+          { "german": "Straßburg", "english": "Strasbourg" }
+        ]
+      },
+      "notes": "The European Parliament operates in three locations: Strasbourg (official seat), Luxembourg (administrative offices), and Brussels (committee meetings and plenary sessions).",
+      "learningTechniques": "Remember the three key locations for the European Parliament's operations: Strasbourg, Luxembourg, and Brussels.",
+      "resources": [
+        {
+          "description": "Learn more about the locations of the European Parliament.",
+          "url": "https://en.wikipedia.org/wiki/European_Parliament"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 239,
+      "germanQuestion": "Durch welche Verträge schloss sich die Bundesrepublik Deutschland mit anderen Staaten zur Europäischen Wirtschaftsgemeinschaft zusammen?",
+      "englishQuestion": "Through which treaties did the Federal Republic of Germany join with other states to form the European Economic Community?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "durch die 'Hamburger Verträge'",
+          "englishOption": "through the 'Hamburg Treaties'",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "durch die 'Römischen Verträge'",
+          "englishOption": "through the 'Treaties of Rome'",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "durch die 'Pariser Verträge'",
+          "englishOption": "through the 'Paris Treaties'",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "durch die 'Londoner Verträge'",
+          "englishOption": "through the 'London Treaties'",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Verträge", "english": "treaties" },
+          {
+            "german": "Europäische Wirtschaftsgemeinschaft",
+            "english": "European Economic Community"
+          }
+        ]
+      },
+      "notes": "The Treaties of Rome, signed in 1957, established the European Economic Community (EEC), including the Federal Republic of Germany.",
+      "learningTechniques": "Focus on the Treaties of Rome as the foundation of the European Economic Community.",
+      "resources": [
+        {
+          "description": "Learn more about the Treaties of Rome.",
+          "url": "https://en.wikipedia.org/wiki/Treaties_of_Rome"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 240,
+      "germanQuestion": "Seit wann bezahlt man in Deutschland mit dem Euro in bar?",
+      "englishQuestion": "Since when has cash payment been made with the Euro in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "1995",
+          "englishOption": "1995",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "1998",
+          "englishOption": "1998",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "2002",
+          "englishOption": "2002",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "2005",
+          "englishOption": "2005",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Euro", "english": "Euro" },
+          { "german": "Barzahlung", "english": "cash payment" }
+        ]
+      },
+      "notes": "The Euro was introduced as cash currency in Germany on January 1, 2002.",
+      "learningTechniques": "Focus on 2002 as the year when the Euro became the official cash currency in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the introduction of the Euro.",
+          "url": "https://en.wikipedia.org/wiki/Euro"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 241,
+      "germanQuestion": "Frau Seger bekommt ein Kind. Was muss sie tun, um Elterngeld zu erhalten?",
+      "englishQuestion": "Ms. Seger is having a child. What must she do to receive parental allowance?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Sie muss an ihre Krankenkasse schreiben.",
+          "englishOption": "She must write to her health insurance company.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sie muss einen Antrag bei der Elterngeldstelle stellen.",
+          "englishOption": "She must apply to the parental allowance office.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Sie muss nichts tun, denn sie bekommt automatisch Elterngeld.",
+          "englishOption": "She doesn't have to do anything, she automatically receives parental allowance.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sie muss das Arbeitsamt um Erlaubnis bitten.",
+          "englishOption": "She must ask the employment office for permission.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Elterngeld", "english": "parental allowance" },
+          { "german": "Krankenkasse", "english": "health insurance" }
+        ]
+      },
+      "notes": "To receive parental allowance in Germany, an application must be submitted to the relevant office.",
+      "learningTechniques": "Remember that parental allowance requires an application, it is not automatic.",
+      "resources": [
+        {
+          "description": "Learn more about parental allowance in Germany.",
+          "url": "https://www.familienportal.de/familienportal/familienleistungen/elterngeld"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 242,
+      "germanQuestion": "Wer entscheidet, ob ein Kind in Deutschland in den Kindergarten geht?",
+      "englishQuestion": "Who decides whether a child goes to kindergarten in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "der Staat",
+          "englishOption": "the state",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Bundesländer",
+          "englishOption": "the federal states",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Eltern/die Erziehungsberechtigten",
+          "englishOption": "the parents/guardians",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die Schulen",
+          "englishOption": "the schools",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Kindergarten", "english": "kindergarten" },
+          { "german": "Eltern", "english": "parents" }
+        ]
+      },
+      "notes": "In Germany, it is the parents or legal guardians who decide whether a child attends kindergarten.",
+      "learningTechniques": "Remember that kindergarten attendance in Germany is not mandatory and is a decision made by parents.",
+      "resources": [
+        {
+          "description": "Learn more about the kindergarten system in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Education_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 243,
+      "germanQuestion": "Maik und Sybille wollen mit Freunden an ihrem deutschen Wohnort eine Demonstration auf der Straße abhalten. Was müssen sie vorher tun?",
+      "englishQuestion": "Maik and Sybille want to hold a street demonstration with friends in their German hometown. What must they do beforehand?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Sie müssen die Demonstration anmelden.",
+          "englishOption": "They must register the demonstration.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Sie müssen nichts tun. Man darf in Deutschland jederzeit überall demonstrieren.",
+          "englishOption": "They don't have to do anything. You can demonstrate anywhere in Germany at any time.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sie können gar nichts tun, denn Demonstrationen sind in Deutschland grundsätzlich verboten.",
+          "englishOption": "They can't do anything because demonstrations are fundamentally forbidden in Germany.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Maik und Sybille müssen einen neuen Verein gründen, weil nur Vereine demonstrieren dürfen.",
+          "englishOption": "Maik and Sybille must form a new association because only associations are allowed to demonstrate.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Demonstration", "english": "demonstration" },
+          { "german": "Anmeldung", "english": "registration" }
+        ]
+      },
+      "notes": "In Germany, demonstrations must be registered with the authorities, but they are allowed as part of the right to assembly.",
+      "learningTechniques": "Focus on the requirement of registering demonstrations as part of Germany's regulated freedom of assembly.",
+      "resources": [
+        {
+          "description": "Learn more about the right to demonstrate in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Freedom_of_assembly_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 244,
+      "germanQuestion": "Welchen Schulabschluss braucht man normalerweise, um an einer Universität in Deutschland ein Studium zu beginnen?",
+      "englishQuestion": "Which school diploma is usually required to begin studies at a university in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "das Abitur",
+          "englishOption": "the Abitur",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "ein Diplom",
+          "englishOption": "a diploma",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Prokura",
+          "englishOption": "the power of attorney",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine Gesellenprüfung",
+          "englishOption": "a journeyman's examination",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Schulabschluss", "english": "school diploma" },
+          { "german": "Abitur", "english": "Abitur" }
+        ]
+      },
+      "notes": "The 'Abitur' is the qualification obtained at the end of secondary education in Germany, required for university admission.",
+      "learningTechniques": "Remember that 'Abitur' is the standard university entrance qualification in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the Abitur and university admission in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Abitur"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 245,
+      "germanQuestion": "Wer darf in Deutschland nicht als Paar zusammenleben?",
+      "englishQuestion": "Who is not allowed to live together as a couple in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Hans (20 Jahre) und Marie (19 Jahre)",
+          "englishOption": "Hans (20 years old) and Marie (19 years old)",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Tom (20 Jahre) und Klaus (45 Jahre)",
+          "englishOption": "Tom (20 years old) and Klaus (45 years old)",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sofie (35 Jahre) und Lisa (40 Jahre)",
+          "englishOption": "Sofie (35 years old) and Lisa (40 years old)",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Anne (13 Jahre) und Tim (25 Jahre)",
+          "englishOption": "Anne (13 years old) and Tim (25 years old)",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Paar", "english": "couple" },
+          { "german": "Zusammenleben", "english": "living together" }
+        ]
+      },
+      "notes": "In Germany, it is illegal for minors (under 14) to live as a couple with adults.",
+      "learningTechniques": "Focus on the age of consent laws in Germany, which prevent minors from engaging in relationships with significantly older adults.",
+      "resources": [
+        {
+          "description": "Learn more about age of consent and legal relationships in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Ages_of_consent_in_Europe#Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 246,
+      "germanQuestion": "Ab welchem Alter ist man in Deutschland volljährig?",
+      "englishQuestion": "At what age does one reach legal adulthood in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "16",
+          "englishOption": "16",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "18",
+          "englishOption": "18",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "19",
+          "englishOption": "19",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "21",
+          "englishOption": "21",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Volljährig", "english": "legal adulthood" },
+          { "german": "Alter", "english": "age" }
+        ]
+      },
+      "notes": "In Germany, a person reaches legal adulthood at the age of 18.",
+      "learningTechniques": "Remember that 18 is the age of legal adulthood in most European countries, including Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the age of legal adulthood in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Age_of_majority"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 247,
+      "germanQuestion": "Eine Frau ist schwanger. Sie ist kurz vor und nach der Geburt ihres Kindes vom Gesetz besonders beschützt. Wie heißt dieser Schutz?",
+      "englishQuestion": "A woman is pregnant. She is legally protected shortly before and after the birth of her child. What is this protection called?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Elternzeit",
+          "englishOption": "Parental leave",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Mutterschutz",
+          "englishOption": "Maternity protection",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Geburtsvorbereitung",
+          "englishOption": "Birth preparation",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Wochenbett",
+          "englishOption": "Postpartum",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Mutterschutz", "english": "maternity protection" },
+          { "german": "Schwangerschaft", "english": "pregnancy" }
+        ]
+      },
+      "notes": "The 'Mutterschutz' law in Germany provides legal protection for women shortly before and after childbirth, ensuring job security and health protection.",
+      "learningTechniques": "Remember that 'Mutterschutz' ensures maternity protection rights for pregnant women and new mothers.",
+      "resources": [
+        {
+          "description": "Learn more about maternity protection laws in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Maternity_protection_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 248,
+      "germanQuestion": "Die Erziehung der Kinder ist in Deutschland ist vor allem Aufgabe …",
+      "englishQuestion": "The upbringing of children in Germany is primarily the responsibility of …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "des Staates.",
+          "englishOption": "the state.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "der Eltern.",
+          "englishOption": "the parents.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "der Großeltern.",
+          "englishOption": "the grandparents.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "der Schulen.",
+          "englishOption": "the schools.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Erziehung", "english": "upbringing" },
+          { "german": "Eltern", "english": "parents" }
+        ]
+      },
+      "notes": "In Germany, the primary responsibility for raising children lies with the parents, while the state and schools provide support.",
+      "learningTechniques": "Focus on the role of parents as the primary caregivers and educators of their children in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the role of parents in child upbringing in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Parenting_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 249,
+      "germanQuestion": "Wer ist in Deutschland hauptsächlich verantwortlich für die Kindererziehung?",
+      "englishQuestion": "Who is primarily responsible for child upbringing in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "der Staat",
+          "englishOption": "the state",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Eltern",
+          "englishOption": "the parents",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die Verwandten",
+          "englishOption": "the relatives",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Schulen",
+          "englishOption": "the schools",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Kindererziehung", "english": "child upbringing" },
+          { "german": "Eltern", "english": "parents" }
+        ]
+      },
+      "notes": "Parents hold the primary responsibility for the upbringing of their children in Germany, as outlined in the Basic Law.",
+      "learningTechniques": "Focus on the legal framework in Germany that emphasizes parental responsibility for children.",
+      "resources": [
+        {
+          "description": "Learn more about child upbringing laws in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Parenting_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 250,
+      "germanQuestion": "In Deutschland hat man die besten Chancen auf einen gut bezahlten Arbeitsplatz, wenn man …",
+      "englishQuestion": "In Germany, one has the best chances of a well-paid job if they …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "katholisch ist.",
+          "englishOption": "are Catholic.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "gut ausgebildet ist.",
+          "englishOption": "are well-educated.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "eine Frau ist.",
+          "englishOption": "are a woman.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Mitglied einer Partei ist.",
+          "englishOption": "are a member of a political party.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Arbeitsplatz", "english": "job" },
+          { "german": "Ausbildung", "english": "education" }
+        ]
+      },
+      "notes": "In Germany, education and qualifications are highly valued, which significantly increases job opportunities.",
+      "learningTechniques": "Focus on the importance of education and vocational training for employment opportunities in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about education and job opportunities in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Education_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 251,
+      "germanQuestion": "Wenn man in Deutschland ein Kind schlägt, …",
+      "englishQuestion": "If you hit a child in Germany, …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "geht das niemanden etwas an.",
+          "englishOption": "it's nobody's business.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "geht das nur die Familie etwas an.",
+          "englishOption": "it's only the family's business.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "kann man dafür nicht bestraft werden.",
+          "englishOption": "you cannot be punished for it.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "kann man dafür bestraft werden.",
+          "englishOption": "you can be punished for it.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Kind", "english": "child" },
+          { "german": "Strafe", "english": "punishment" }
+        ]
+      },
+      "notes": "Hitting children is illegal in Germany, and it is punishable by law as part of child protection.",
+      "learningTechniques": "Focus on the legal protection of children in Germany, which prohibits corporal punishment.",
+      "resources": [
+        {
+          "description": "Learn more about child protection laws in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Child_protection_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 252,
+      "germanQuestion": "In Deutschland …",
+      "englishQuestion": "In Germany, …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "darf man zur gleichen Zeit nur mit einer Partnerin/einem Partner verheiratet sein.",
+          "englishOption": "you are only allowed to be married to one partner at the same time.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "kann man mehrere Ehepartnerinnen/Ehepartner gleichzeitig haben.",
+          "englishOption": "you can have multiple spouses at the same time.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "darf man nicht wieder heiraten, wenn man einmal verheiratet war.",
+          "englishOption": "you cannot remarry if you have been married before.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "darf eine Frau nicht wieder heiraten, wenn ihr Mann gestorben ist.",
+          "englishOption": "a woman cannot remarry if her husband has died.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Ehe", "english": "marriage" },
+          { "german": "Partner", "english": "partner" }
+        ]
+      },
+      "notes": "Germany follows the principle of monogamy, where an individual can only be married to one partner at a time.",
+      "learningTechniques": "Remember that monogamy is legally enforced in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about marriage laws in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Marriage_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 253,
+      "germanQuestion": "Wo müssen Sie sich anmelden, wenn Sie in Deutschland umziehen?",
+      "englishQuestion": "Where do you need to register when you move in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "beim Einwohnermeldeamt",
+          "englishOption": "at the registration office",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "beim Standesamt",
+          "englishOption": "at the registry office",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "beim Ordnungsamt",
+          "englishOption": "at the public order office",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "beim Gewerbeamt",
+          "englishOption": "at the trade office",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Einwohnermeldeamt", "english": "registration office" },
+          { "german": "Umzug", "english": "move" }
+        ]
+      },
+      "notes": "In Germany, when you move, you are required to register your new address at the local registration office (Einwohnermeldeamt).",
+      "learningTechniques": "Remember that registering your address at the Einwohnermeldeamt is a legal requirement in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about moving and registration requirements in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Melderecht"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 254,
+      "germanQuestion": "In Deutschland dürfen Ehepaare sich scheiden lassen. Meistens müssen sie dazu das 'Trennungsjahr' einhalten. Was bedeutet das?",
+      "englishQuestion": "In Germany, married couples are allowed to divorce. Most of the time, they must observe the 'separation year.' What does that mean?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Der Scheidungsprozess dauert ein Jahr.",
+          "englishOption": "The divorce process lasts one year.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Die Ehegatten sind ein Jahr verheiratet, dann ist die Scheidung möglich.",
+          "englishOption": "The spouses must be married for one year, then the divorce is possible.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Das Besuchsrecht für die Kinder gilt ein Jahr.",
+          "englishOption": "Visitation rights for the children last for one year.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Die Ehegatten führen mindestens ein Jahr getrennt ihr eigenes Leben. Danach ist die Scheidung möglich.",
+          "englishOption": "The spouses must live separately for at least one year before a divorce is possible.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Scheidung", "english": "divorce" },
+          { "german": "Trennungsjahr", "english": "separation year" }
+        ]
+      },
+      "notes": "In Germany, the separation year is a mandatory period where couples live apart for at least one year before a divorce can be finalized.",
+      "learningTechniques": "Remember that the separation year is required for most divorces in Germany, ensuring that couples have time to reconsider.",
+      "resources": [
+        {
+          "description": "Learn more about divorce laws in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Divorce_law_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 255,
+      "germanQuestion": "Bei Erziehungsproblemen können Eltern in Deutschland Hilfe erhalten vom …",
+      "englishQuestion": "In case of parenting problems, parents in Germany can get help from the …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Ordnungsamt.",
+          "englishOption": "public order office.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Schulamt.",
+          "englishOption": "school office.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Jugendamt.",
+          "englishOption": "youth welfare office.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Gesundheitsamt.",
+          "englishOption": "health office.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Erziehungsprobleme", "english": "parenting problems" },
+          { "german": "Jugendamt", "english": "youth welfare office" }
+        ]
+      },
+      "notes": "In Germany, the Jugendamt (youth welfare office) provides support to families facing parenting challenges.",
+      "learningTechniques": "Focus on the role of the Jugendamt in assisting with child welfare and family issues.",
+      "resources": [
+        {
+          "description": "Learn more about the Jugendamt's role in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Jugendamt"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 256,
+      "germanQuestion": "Ein Ehepaar möchte in Deutschland ein Restaurant eröffnen. Was braucht es dazu unbedingt?",
+      "englishQuestion": "A couple wants to open a restaurant in Germany. What do they absolutely need for that?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "eine Erlaubnis der Polizei",
+          "englishOption": "permission from the police",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine Genehmigung einer Partei",
+          "englishOption": "approval from a political party",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine Genehmigung des Einwohnermeldeamts",
+          "englishOption": "approval from the registration office",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine Gaststättenerlaubnis von der zuständigen Behörde",
+          "englishOption": "a restaurant permit from the responsible authority",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Gaststättenerlaubnis", "english": "restaurant permit" },
+          { "german": "Behörde", "english": "authority" }
+        ]
+      },
+      "notes": "In Germany, opening a restaurant requires a Gaststättenerlaubnis (restaurant permit) from the local authority.",
+      "learningTechniques": "Focus on the regulatory requirements for opening a business in Germany, particularly in the hospitality sector.",
+      "resources": [
+        {
+          "description": "Learn more about opening a restaurant in Germany.",
+          "url": "https://www.business-in-germany.info/opening-a-restaurant-in-germany/"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 257,
+      "germanQuestion": "Eine erwachsene Frau möchte in Deutschland das Abitur nachholen. Das kann sie an …",
+      "englishQuestion": "An adult woman wants to complete the Abitur in Germany. She can do this at …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "einer Hochschule.",
+          "englishOption": "a university.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "einem Abendgymnasium.",
+          "englishOption": "an evening grammar school.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "einer Hauptschule.",
+          "englishOption": "a secondary school.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "einer Privatuniversität.",
+          "englishOption": "a private university.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Abitur", "english": "Abitur" },
+          { "german": "Abendgymnasium", "english": "evening grammar school" }
+        ]
+      },
+      "notes": "Adults in Germany can complete the Abitur through special programs like evening grammar schools.",
+      "learningTechniques": "Remember that the Abitur can be completed later in life at institutions like evening schools.",
+      "resources": [
+        {
+          "description": "Learn more about adult education options in Germany.",
+          "url": "https://www.study-in-germany.de/en/plan-your-studies/preparation/adult-education-in-germany/"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 258,
+      "germanQuestion": "Was darf das Jugendamt in Deutschland?",
+      "englishQuestion": "What is the youth welfare office allowed to do in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Es entscheidet, welche Schule das Kind besucht.",
+          "englishOption": "It decides which school the child attends.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Es kann ein Kind, das geschlagen wird oder hungern muss, aus der Familie nehmen.",
+          "englishOption": "It can remove a child from the family if they are being abused or starved.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Es bezahlt das Kindergeld an die Eltern.",
+          "englishOption": "It pays child benefits to the parents.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Es kontrolliert, ob das Kind einen Kindergarten besucht.",
+          "englishOption": "It monitors whether the child attends kindergarten.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Jugendamt", "english": "youth welfare office" },
+          { "german": "Kind", "english": "child" }
+        ]
+      },
+      "notes": "In cases of abuse or neglect, the Jugendamt has the authority to remove children from dangerous environments.",
+      "learningTechniques": "Focus on the protective role of the Jugendamt in ensuring child welfare in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the responsibilities of the Jugendamt in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Jugendamt"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 259,
+      "germanQuestion": "Das Berufsinformationszentrum BIZ bei der Bundesagentur für Arbeit in Deutschland hilft bei der …",
+      "englishQuestion": "The Career Information Center (BIZ) at the Federal Employment Agency in Germany helps with …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Rentenberechnung.",
+          "englishOption": "pension calculation.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Lehrstellensuche.",
+          "englishOption": "finding an apprenticeship.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Steuererklärung.",
+          "englishOption": "tax declaration.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Krankenversicherung.",
+          "englishOption": "health insurance.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Berufsinformationszentrum (BIZ)",
+            "english": "Career Information Center (BIZ)"
+          },
+          { "german": "Lehrstelle", "english": "apprenticeship" }
+        ]
+      },
+      "notes": "The BIZ provides career guidance and helps young people find apprenticeships or training positions in Germany.",
+      "learningTechniques": "Focus on the role of the BIZ in providing career advice and assisting with apprenticeship searches.",
+      "resources": [
+        {
+          "description": "Learn more about the BIZ and its services.",
+          "url": "https://www.arbeitsagentur.de/vor-ort/rd-bayern/biz"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 260,
+      "germanQuestion": "In Deutschland hat ein Kind in der Schule …",
+      "englishQuestion": "In Germany, a child in school has …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Recht auf unbegrenzte Freizeit.",
+          "englishOption": "the right to unlimited free time.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Wahlfreiheit für alle Fächer.",
+          "englishOption": "freedom to choose all subjects.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Anspruch auf Schulgeld.",
+          "englishOption": "entitlement to school fees.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Anwesenheitspflicht.",
+          "englishOption": "mandatory attendance.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Schule", "english": "school" },
+          { "german": "Anwesenheitspflicht", "english": "mandatory attendance" }
+        ]
+      },
+      "notes": "In Germany, school attendance is compulsory for children, ensuring their right to education.",
+      "learningTechniques": "Focus on the principle of compulsory education in Germany, which requires children to attend school.",
+      "resources": [
+        {
+          "description": "Learn more about compulsory education laws in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Education_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 261,
+      "germanQuestion": "Ein Mann möchte mit 30 Jahren in Deutschland sein Abitur nachholen. Wo kann er das tun?",
+      "englishQuestion": "A man wants to complete his Abitur at the age of 30 in Germany. Where can he do that?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "an einer Hochschule.",
+          "englishOption": "at a university.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "an einem Abendgymnasium.",
+          "englishOption": "at an evening grammar school.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "an einer Hauptschule.",
+          "englishOption": "at a secondary school.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "an einer Privatuniversität.",
+          "englishOption": "at a private university.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Abitur", "english": "Abitur" },
+          { "german": "Abendgymnasium", "english": "evening grammar school" }
+        ]
+      },
+      "notes": "In Germany, adults can complete the Abitur through programs like evening grammar schools.",
+      "learningTechniques": "Remember that the Abitur can be completed later in life at institutions like evening schools.",
+      "resources": [
+        {
+          "description": "Learn more about adult education options in Germany.",
+          "url": "https://www.study-in-germany.de/en/plan-your-studies/preparation/adult-education-in-germany/"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 262,
+      "germanQuestion": "Was bedeutet in Deutschland der Grundsatz der Gleichbehandlung?",
+      "englishQuestion": "What does the principle of equal treatment mean in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Niemand darf z.B. wegen einer Behinderung benachteiligt werden.",
+          "englishOption": "No one may be disadvantaged, for example, because of a disability.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Man darf andere Personen benachteiligen, wenn ausreichende persönliche Gründe hierfür vorliegen.",
+          "englishOption": "You can disadvantage others if there are sufficient personal reasons for doing so.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Niemand darf gegen Personen klagen, wenn sie benachteiligt wurden.",
+          "englishOption": "No one is allowed to sue others if they have been disadvantaged.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Es ist für alle Gesetz, benachteiligten Gruppen jährlich Geld zu spenden.",
+          "englishOption": "It is law for everyone to donate money to disadvantaged groups annually.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Gleichbehandlung", "english": "equal treatment" },
+          { "german": "Benachteiligung", "english": "disadvantage" }
+        ]
+      },
+      "notes": "The principle of equal treatment in Germany ensures that no one is discriminated against, particularly in cases such as disability.",
+      "learningTechniques": "Focus on the anti-discrimination laws that uphold equality in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about equal treatment laws in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Equality_before_the_law"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 263,
+      "germanQuestion": "In Deutschland sind Jugendliche ab 14 Jahren strafmündig. Das bedeutet: Jugendliche, die 14 Jahre und älter sind und gegen Strafgesetze verstoßen, …",
+      "englishQuestion": "In Germany, young people are criminally liable from the age of 14. This means: Young people who are 14 years and older and break the law …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "werden bestraft.",
+          "englishOption": "are punished.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "werden wie Erwachsene behandelt.",
+          "englishOption": "are treated like adults.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "teilen die Strafe mit ihren Eltern.",
+          "englishOption": "share the punishment with their parents.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "werden nicht bestraft.",
+          "englishOption": "are not punished.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Strafmündigkeit", "english": "criminal liability" },
+          { "german": "Jugendliche", "english": "young people" }
+        ]
+      },
+      "notes": "In Germany, criminal liability begins at the age of 14, which means young people can be punished if they break the law.",
+      "learningTechniques": "Remember that in Germany, young people are considered criminally responsible from the age of 14.",
+      "resources": [
+        {
+          "description": "Learn more about criminal responsibility for young people in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Criminal_responsibility_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 264,
+      "germanQuestion": "Zu welchem Fest tragen Menschen in Deutschland bunte Kostüme und Masken?",
+      "englishQuestion": "At which festival do people in Germany wear colorful costumes and masks?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "am Rosenmontag",
+          "englishOption": "on Rose Monday",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "am Maifeiertag",
+          "englishOption": "on May Day",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "beim Oktoberfest",
+          "englishOption": "at Oktoberfest",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "an Pfingsten",
+          "englishOption": "at Pentecost",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Rosenmontag", "english": "Rose Monday" },
+          { "german": "Kostüm", "english": "costume" }
+        ]
+      },
+      "notes": "Rosenmontag is part of the Karneval season in Germany, where people dress in colorful costumes and masks.",
+      "learningTechniques": "Focus on the traditions of Karneval and Rose Monday in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the Karneval season in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Carnival_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 265,
+      "germanQuestion": "Wohin muss man in Deutschland zuerst gehen, wenn man heiraten möchte?",
+      "englishQuestion": "Where do you have to go first in Germany if you want to get married?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "zum Einwohnermeldeamt",
+          "englishOption": "to the registration office",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "zum Ordnungsamt",
+          "englishOption": "to the public order office",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "zur Agentur für Arbeit",
+          "englishOption": "to the employment agency",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "zum Standesamt",
+          "englishOption": "to the registry office",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [{ "german": "Standesamt", "english": "registry office" }]
+      },
+      "notes": "In Germany, marriages are registered at the Standesamt (registry office).",
+      "learningTechniques": "Focus on the importance of the Standesamt for official matters like marriage registration.",
+      "resources": [
+        {
+          "description": "Learn more about marriage registration in Germany.",
+          "url": "https://www.howtogermany.com/pages/marriage.html"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 266,
+      "germanQuestion": "Wann beginnt die gesetzliche Nachtruhe in Deutschland?",
+      "englishQuestion": "When does the legally mandated night quiet period begin in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "wenn die Sonne untergeht",
+          "englishOption": "when the sun sets",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "wenn die Nachbarn schlafen gehen",
+          "englishOption": "when the neighbors go to sleep",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "um 0 Uhr, Mitternacht",
+          "englishOption": "at midnight",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "um 22 Uhr",
+          "englishOption": "at 10 PM",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [{ "german": "Nachtruhe", "english": "night quiet period" }]
+      },
+      "notes": "In Germany, the legally mandated night quiet period (Nachtruhe) begins at 10 PM.",
+      "learningTechniques": "Focus on the cultural importance of respecting quiet hours in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about noise regulations in Germany.",
+          "url": "https://www.howtogermany.com/pages/noise.html"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 267,
+      "germanQuestion": "Eine junge Frau in Deutschland, 22 Jahre alt, lebt mit ihrem Freund zusammen. Die Eltern der Frau finden das nicht gut, weil ihnen der Freund nicht gefällt. Was können die Eltern tun?",
+      "englishQuestion": "A young woman in Germany, 22 years old, lives with her boyfriend. The woman's parents don't like it because they don't like the boyfriend. What can the parents do?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Sie müssen die Entscheidung der volljährigen Tochter respektieren.",
+          "englishOption": "They must respect their adult daughter's decision.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Sie haben das Recht, die Tochter in die elterliche Wohnung zurückzuholen.",
+          "englishOption": "They have the right to bring their daughter back to the parental home.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sie können zur Polizei gehen und die Tochter anzeigen.",
+          "englishOption": "They can go to the police and report their daughter.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sie suchen einen anderen Mann für die Tochter.",
+          "englishOption": "They find another man for their daughter.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Entscheidung", "english": "decision" },
+          { "german": "Tochter", "english": "daughter" }
+        ]
+      },
+      "notes": "In Germany, adult individuals have the right to make their own decisions about relationships, and parents must respect this.",
+      "learningTechniques": "Focus on the principle of personal freedom and decision-making in adulthood in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about personal rights and family law in Germany.",
+          "url": "https://www.howtogermany.com/pages/laws.html"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 268,
+      "germanQuestion": "Eine junge Frau will den Führerschein machen. Sie hat Angst vor der Prüfung, weil ihre Muttersprache nicht Deutsch ist. Was ist richtig?",
+      "englishQuestion": "A young woman wants to get her driver's license. She is afraid of the exam because her native language is not German. What is correct?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Sie muss mindestens zehn Jahre in Deutschland leben, bevor sie den Führerschein machen kann.",
+          "englishOption": "She must live in Germany for at least ten years before she can get a driver's license.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Wenn sie kein Deutsch kann, darf sie keinen Führerschein haben.",
+          "englishOption": "If she doesn't speak German, she is not allowed to have a driver's license.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sie muss den Führerschein in dem Land machen, in dem man ihre Sprache spricht.",
+          "englishOption": "She must get her driver's license in a country where her language is spoken.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sie kann die Theorie-Prüfung vielleicht in ihrer Muttersprache machen. Es gibt mehr als zehn Sprachen zur Auswahl.",
+          "englishOption": "She may be able to take the theory test in her native language. There are more than ten languages to choose from.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Führerschein", "english": "driver's license" },
+          { "german": "Muttersprache", "english": "native language" }
+        ]
+      },
+      "notes": "In Germany, the theory portion of the driving exam can be taken in several different languages, easing the process for non-native speakers.",
+      "learningTechniques": "Focus on the accommodations available for non-German speakers in the driving exam process.",
+      "resources": [
+        {
+          "description": "Learn more about taking the driving exam in Germany.",
+          "url": "https://www.tuev-sued.de/auto_fahrzeuge/fuehrerschein/fuehrerscheinpruefung-in-mehreren-sprachen"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 269,
+      "germanQuestion": "In Deutschland haben Kinder ab dem Alter von drei Jahren bis zur Ersteinschulung einen Anspruch auf …",
+      "englishQuestion": "In Germany, children from the age of three until they start school have a right to …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "monatliches Taschengeld.",
+          "englishOption": "monthly pocket money.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "einen Platz in einem Sportverein.",
+          "englishOption": "a spot in a sports club.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "einen Kindergartenplatz.",
+          "englishOption": "a kindergarten spot.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "einen Ferienpass.",
+          "englishOption": "a vacation pass.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Kindergartenplatz", "english": "kindergarten spot" },
+          { "german": "Ersteinschulung", "english": "starting school" }
+        ]
+      },
+      "notes": "In Germany, children have the right to a place in kindergarten from the age of three until they start school.",
+      "learningTechniques": "Focus on the right to early childhood education in Germany, particularly access to kindergarten.",
+      "resources": [
+        {
+          "description": "Learn more about the German kindergarten system.",
+          "url": "https://en.wikipedia.org/wiki/Kindergarten#Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 270,
+      "germanQuestion": "Die Volkshochschule in Deutschland ist eine Einrichtung …",
+      "englishQuestion": "The adult education center (Volkshochschule) in Germany is an institution …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "für den Religionsunterricht.",
+          "englishOption": "for religious education.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "nur für Jugendliche.",
+          "englishOption": "only for teenagers.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "zur Weiterbildung.",
+          "englishOption": "for continuing education.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "nur für Rentnerinnen und Rentner.",
+          "englishOption": "only for retirees.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Volkshochschule", "english": "adult education center" },
+          { "german": "Weiterbildung", "english": "continuing education" }
+        ]
+      },
+      "notes": "The Volkshochschule (VHS) in Germany offers various continuing education courses for all ages, including language courses and vocational training.",
+      "learningTechniques": "Remember that 'Volkshochschule' refers to institutions that provide adult education and lifelong learning opportunities.",
+      "resources": [
+        {
+          "description": "Learn more about Volkshochschulen in Germany.",
+          "url": "https://www.volkshochschule.de/"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 271,
+      "germanQuestion": "Was ist in Deutschland ein Brauch zu Weihnachten?",
+      "englishQuestion": "What is a Christmas tradition in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "bunte Eier verstecken",
+          "englishOption": "hiding colorful eggs",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "einen Tannenbaum schmücken",
+          "englishOption": "decorating a Christmas tree",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "sich mit Masken und Kostümen verkleiden",
+          "englishOption": "dressing up with masks and costumes",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Kürbisse vor die Tür stellen",
+          "englishOption": "placing pumpkins in front of the door",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Tannenbaum", "english": "Christmas tree" },
+          { "german": "Weihnachten", "english": "Christmas" }
+        ]
+      },
+      "notes": "One of the most well-known Christmas traditions in Germany is decorating a Christmas tree (Tannenbaum) with lights and ornaments.",
+      "learningTechniques": "Focus on cultural traditions like decorating a Tannenbaum during the Christmas season in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about Christmas traditions in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Christmas_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 272,
+      "germanQuestion": "Welche Lebensform ist in Deutschland nicht erlaubt?",
+      "englishQuestion": "Which form of living arrangement is not allowed in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Mann und Frau sind geschieden und leben mit neuen Partnern zusammen.",
+          "englishOption": "A man and woman are divorced and live with new partners.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Zwei Frauen leben zusammen.",
+          "englishOption": "Two women live together.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Ein alleinerziehender Vater lebt mit seinen zwei Kindern zusammen.",
+          "englishOption": "A single father lives with his two children.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Ein Mann ist mit zwei Frauen zur selben Zeit verheiratet.",
+          "englishOption": "A man is married to two women at the same time.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Lebensform", "english": "form of living" },
+          { "german": "Polygamie", "english": "polygamy" }
+        ]
+      },
+      "notes": "Polygamy, or being married to more than one person at the same time, is illegal in Germany.",
+      "learningTechniques": "Remember that while various living arrangements are allowed in Germany, polygamy is not permitted.",
+      "resources": [
+        {
+          "description": "Learn more about family law in Germany.",
+          "url": "https://www.howtogermany.com/pages/family_law.html"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 273,
+      "germanQuestion": "Bei Erziehungsproblemen gehen Sie in Deutschland …",
+      "englishQuestion": "In case of parenting issues, where do you go in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "zur Ärztin/zum Arzt.",
+          "englishOption": "to the doctor.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "zum Gesundheitsamt.",
+          "englishOption": "to the health department.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "zum Einwohnermeldeamt.",
+          "englishOption": "to the registration office.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "zum Jugendamt.",
+          "englishOption": "to the youth welfare office.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Erziehungsprobleme", "english": "parenting issues" },
+          { "german": "Jugendamt", "english": "youth welfare office" }
+        ]
+      },
+      "notes": "In Germany, the youth welfare office (Jugendamt) provides support and assistance for parenting issues.",
+      "learningTechniques": "Focus on the role of the Jugendamt in providing support to families in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the role of the Jugendamt in Germany.",
+          "url": "https://www.howtogermany.com/pages/child_protection.html"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 274,
+      "germanQuestion": "Sie haben in Deutschland absichtlich einen Brief geöffnet, der an eine andere Person adressiert ist. Was haben Sie nicht beachtet?",
+      "englishQuestion": "You have deliberately opened a letter in Germany that is addressed to another person. What have you violated?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "das Schweigerecht",
+          "englishOption": "the right to remain silent",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "das Briefgeheimnis",
+          "englishOption": "the secrecy of correspondence",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die Schweigepflicht",
+          "englishOption": "confidentiality obligation",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Meinungsfreiheit",
+          "englishOption": "freedom of speech",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Briefgeheimnis", "english": "secrecy of correspondence" }
+        ]
+      },
+      "notes": "Opening a letter addressed to someone else violates the secrecy of correspondence (Briefgeheimnis) in Germany, which is protected by law.",
+      "learningTechniques": "Remember that privacy in communication is strongly protected by law in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about privacy laws in Germany.",
+          "url": "https://www.bmi.bund.de/EN/topics/constitution/privacy/privacy_node.html"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 275,
+      "germanQuestion": "Was braucht man in Deutschland für eine Ehescheidung?",
+      "englishQuestion": "What do you need for a divorce in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die Einwilligung der Eltern",
+          "englishOption": "the consent of the parents",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "ein Attest einer Ärztin/eines Arztes",
+          "englishOption": "a certificate from a doctor",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Einwilligung der Kinder",
+          "englishOption": "the consent of the children",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Unterstützung einer Anwältin/eines Anwalts",
+          "englishOption": "the support of a lawyer",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Ehescheidung", "english": "divorce" },
+          { "german": "Anwalt/Anwältin", "english": "lawyer" }
+        ]
+      },
+      "notes": "In Germany, a divorce typically requires the support of a lawyer to handle the legal proceedings.",
+      "learningTechniques": "Focus on the legal requirements for divorce, such as the involvement of a lawyer.",
+      "resources": [
+        {
+          "description": "Learn more about divorce procedures in Germany.",
+          "url": "https://www.howtogermany.com/pages/divorce.html"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 276,
+      "germanQuestion": "Was sollten Sie tun, wenn Sie von Ihrer Ansprechpartnerin/Ihrem Ansprechpartner in einer deutschen Behörde schlecht behandelt werden?",
+      "englishQuestion": "What should you do if you are treated poorly by your contact person in a German authority?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Ich kann nichts tun.",
+          "englishOption": "I can't do anything.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Ich muss mir diese Behandlung gefallen lassen.",
+          "englishOption": "I have to put up with this treatment.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Ich drohe der Person.",
+          "englishOption": "I threaten the person.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Ich kann mich bei der Behördenleiterin/beim Behördenleiter beschweren.",
+          "englishOption": "I can complain to the head of the authority.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Behörde", "english": "authority" },
+          { "german": "Beschwerde", "english": "complaint" }
+        ]
+      },
+      "notes": "In Germany, if you are treated poorly by a government official, you have the right to file a complaint with the head of the authority.",
+      "learningTechniques": "Focus on the rights of individuals to file complaints when mistreated by officials.",
+      "resources": [
+        {
+          "description": "Learn more about filing complaints against authorities in Germany.",
+          "url": "https://www.service-bw.de/web/guest/article/-/sbw/Kritik+und+Beschwerden+gegen+Behoerden+einlegen-6009704"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 277,
+      "germanQuestion": "Eine Frau, die ein zweijähriges Kind hat, bewirbt sich in Deutschland um eine Stelle. Was ist ein Beispiel für Diskriminierung? Sie bekommt die Stelle nur deshalb nicht, weil sie …",
+      "englishQuestion": "A woman with a two-year-old child applies for a job in Germany. What is an example of discrimination? She doesn't get the job only because she …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "kein Englisch spricht.",
+          "englishOption": "doesn't speak English.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "zu hohe Gehaltsvorstellungen hat.",
+          "englishOption": "has too high salary expectations.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "keine Erfahrungen in diesem Beruf hat.",
+          "englishOption": "has no experience in this job.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Mutter ist.",
+          "englishOption": "is a mother.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Diskriminierung", "english": "discrimination" },
+          { "german": "Mutter", "english": "mother" }
+        ]
+      },
+      "notes": "In Germany, it is considered discrimination if a woman is denied a job solely because she is a mother.",
+      "learningTechniques": "Focus on the laws and protections against discrimination in the workplace, particularly related to parenthood.",
+      "resources": [
+        {
+          "description": "Learn more about anti-discrimination laws in Germany.",
+          "url": "https://www.antidiskriminierungsstelle.de/DE/Home/home_node.html"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 278,
+      "germanQuestion": "Ein Mann im Rollstuhl hat sich auf eine Stelle als Buchhalter beworben. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil er …",
+      "englishQuestion": "A man in a wheelchair has applied for a job as an accountant. What is an example of discrimination? He doesn't get the job only because he …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "im Rollstuhl sitzt.",
+          "englishOption": "is in a wheelchair.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "keine Erfahrung hat.",
+          "englishOption": "has no experience.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "zu hohe Gehaltsvorstellungen hat.",
+          "englishOption": "has too high salary expectations.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "kein Englisch spricht.",
+          "englishOption": "doesn't speak English.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Diskriminierung", "english": "discrimination" },
+          { "german": "Rollstuhl", "english": "wheelchair" }
+        ]
+      },
+      "notes": "Discriminating against someone based on their disability, such as not hiring them because they are in a wheelchair, is illegal in Germany.",
+      "learningTechniques": "Focus on the importance of equal opportunities and anti-discrimination laws for people with disabilities.",
+      "resources": [
+        {
+          "description": "Learn more about disability rights in Germany.",
+          "url": "https://www.bmas.de/EN/Our-Topics/Participation/disability-policy.html"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 279,
+      "germanQuestion": "In den meisten Mietshäusern in Deutschland gibt es eine 'Hausordnung'. Was steht in einer solchen 'Hausordnung'? Sie nennt …",
+      "englishQuestion": "In most rental buildings in Germany, there is a 'house rule.' What is stated in such a 'house rule'? It specifies …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Regeln für die Benutzung öffentlicher Verkehrsmittel.",
+          "englishOption": "rules for using public transportation.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "alle Mieterinnen und Mieter im Haus.",
+          "englishOption": "all the tenants in the building.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Regeln, an die sich alle Bewohnerinnen und Bewohner halten müssen.",
+          "englishOption": "rules that all residents must follow.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die Adresse des nächsten Ordnungsamtes.",
+          "englishOption": "the address of the nearest public order office.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Hausordnung", "english": "house rules" },
+          { "german": "Mieter", "english": "tenant" },
+          { "german": "Bewohner", "english": "resident" }
+        ]
+      },
+      "notes": "A 'Hausordnung' (house rules) is a set of rules that all residents of a rental building must follow, such as regulations for quiet hours and proper waste disposal.",
+      "learningTechniques": "Focus on the role of communal living rules in Germany, and how they apply to shared living spaces.",
+      "resources": [
+        {
+          "description": "Learn more about house rules and regulations in rental buildings in Germany.",
+          "url": "https://www.howtogermany.com/pages/renting.html"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 280,
+      "germanQuestion": "Wenn Sie sich in Deutschland gegen einen falschen Steuerbescheid wehren wollen, müssen Sie …",
+      "englishQuestion": "If you want to contest an incorrect tax assessment in Germany, you must …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "nichts machen.",
+          "englishOption": "do nothing.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "den Bescheid wegwerfen.",
+          "englishOption": "throw away the notice.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Einspruch einlegen.",
+          "englishOption": "file an objection.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "warten, bis ein anderer Bescheid kommt.",
+          "englishOption": "wait for another notice to come.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Steuerbescheid", "english": "tax assessment" },
+          { "german": "Einspruch", "english": "objection" }
+        ]
+      },
+      "notes": "In Germany, if you receive an incorrect tax assessment, you have the right to file an objection (Einspruch) with the tax office.",
+      "learningTechniques": "Focus on the legal procedure of contesting official documents in Germany, such as filing an objection.",
+      "resources": [
+        {
+          "description": "Learn more about tax laws and objections in Germany.",
+          "url": "https://www.howtogermany.com/pages/tax-procedure.html"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 281,
+      "germanQuestion": "Zwei Freunde wollen in ein öffentliches Schwimmbad in Deutschland. Beide haben eine dunkle Hautfarbe und werden deshalb nicht hineingelassen. Welches Recht wird in dieser Situation verletzt? Das Recht auf …",
+      "englishQuestion": "Two friends want to enter a public swimming pool in Germany. Both have dark skin and are denied entry. Which right is being violated in this situation? The right to …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Meinungsfreiheit",
+          "englishOption": "freedom of speech",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Gleichbehandlung",
+          "englishOption": "equal treatment",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Versammlungsfreiheit",
+          "englishOption": "freedom of assembly",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Freizügigkeit",
+          "englishOption": "freedom of movement",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Gleichbehandlung", "english": "equal treatment" },
+          { "german": "Schwimmbad", "english": "swimming pool" }
+        ]
+      },
+      "notes": "Denying entry based on skin color is a violation of the right to equal treatment in Germany.",
+      "learningTechniques": "Focus on anti-discrimination laws in Germany, particularly those related to race and equal treatment.",
+      "resources": [
+        {
+          "description": "Learn more about anti-discrimination laws in Germany.",
+          "url": "https://www.antidiskriminierungsstelle.de/DE/Home/home_node.html"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 282,
+      "germanQuestion": "Welches Ehrenamt müssen deutsche Staatsbürgerinnen und Staatsbürger übernehmen, wenn sie dazu aufgefordert werden?",
+      "englishQuestion": "Which volunteer position must German citizens take on if they are asked to?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Vereinstrainerin/Vereinstrainer",
+          "englishOption": "club coach",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Wahlhelferin/Wahlhelfer",
+          "englishOption": "election helper",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Bibliotheksaufsicht",
+          "englishOption": "library supervision",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Lehrerin/Lehrer",
+          "englishOption": "teacher",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Ehrenamt", "english": "volunteer position" },
+          { "german": "Wahlhelfer", "english": "election helper" }
+        ]
+      },
+      "notes": "In Germany, citizens can be required to serve as election helpers (Wahlhelfer) during elections.",
+      "learningTechniques": "Focus on civic duties in Germany, including required volunteer roles during elections.",
+      "resources": [
+        {
+          "description": "Learn more about election duties in Germany.",
+          "url": "https://www.bundeswahlleiter.de/"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 283,
+      "germanQuestion": "Was tun Sie, wenn Sie eine falsche Rechnung von einer deutschen Behörde bekommen?",
+      "englishQuestion": "What do you do if you receive an incorrect invoice from a German authority?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Ich lasse die Rechnung liegen.",
+          "englishOption": "I leave the invoice as is.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Ich lege Widerspruch bei der Behörde ein.",
+          "englishOption": "I file an objection with the authority.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Ich schicke die Rechnung an die Behörde zurück.",
+          "englishOption": "I send the invoice back to the authority.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Ich gehe mit der Rechnung zum Finanzamt.",
+          "englishOption": "I go to the tax office with the invoice.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Rechnung", "english": "invoice" },
+          { "german": "Widerspruch", "english": "objection" }
+        ]
+      },
+      "notes": "In Germany, if you receive an incorrect invoice from an authority, you should file an objection (Widerspruch) with the responsible authority.",
+      "learningTechniques": "Focus on the procedure for handling official documents, such as filing an objection in case of errors.",
+      "resources": [
+        {
+          "description": "Learn more about objections and legal procedures in Germany.",
+          "url": "https://www.howtogermany.com/pages/objections.html"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 284,
+      "germanQuestion": "Was man für die Arbeit können muss, ändert sich in Zukunft sehr schnell. Was kann man tun?",
+      "englishQuestion": "What one needs to know for work is changing very quickly in the future. What can be done?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Es ist egal, was man lernt.",
+          "englishOption": "It doesn't matter what you learn.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Erwachsene müssen auch nach der Ausbildung immer weiter lernen.",
+          "englishOption": "Adults must continue learning even after training.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Kinder lernen in der Schule alles, was im Beruf wichtig ist. Nach der Schule muss man nicht weiter lernen.",
+          "englishOption": "Children learn everything important for their job in school. After school, there is no need to continue learning.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Alle müssen früher aufhören zu arbeiten, weil sich alles ändert.",
+          "englishOption": "Everyone should stop working earlier because everything is changing.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Arbeit", "english": "work" },
+          { "german": "Ausbildung", "english": "training" }
+        ]
+      },
+      "notes": "Lifelong learning is essential in a fast-changing work environment. Adults should continue to improve their skills even after formal education.",
+      "learningTechniques": "Focus on the concept of lifelong learning and continuous professional development.",
+      "resources": [
+        {
+          "description": "Learn more about lifelong learning and adult education.",
+          "url": "https://www.adulteducation.eu/en/"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 285,
+      "germanQuestion": "Frau Frost arbeitet als fest angestellte Mitarbeiterin in einem Büro. Was muss sie nicht von ihrem Gehalt bezahlen?",
+      "englishQuestion": "Ms. Frost works as a full-time employee in an office. What does she not have to pay from her salary?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Lohnsteuer",
+          "englishOption": "income tax",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Beiträge zur Arbeitslosenversicherung",
+          "englishOption": "unemployment insurance contributions",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Beiträge zur Renten- und Krankenversicherung",
+          "englishOption": "pension and health insurance contributions",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Umsatzsteuer",
+          "englishOption": "value-added tax (VAT)",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Lohnsteuer", "english": "income tax" },
+          { "german": "Umsatzsteuer", "english": "value-added tax" }
+        ]
+      },
+      "notes": "Employees in Germany do not pay VAT (Umsatzsteuer) from their salary; it is typically a consumer tax.",
+      "learningTechniques": "Focus on the different types of taxes in Germany and which are deducted from salaries.",
+      "resources": [
+        {
+          "description": "Learn more about the German tax system.",
+          "url": "https://www.howtogermany.com/pages/german-tax-system.html"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 286,
+      "germanQuestion": "Welche Organisation in einer Firma hilft den Arbeitnehmerinnen und Arbeitnehmern bei Problemen mit der Arbeitgeberin/dem Arbeitgeber?",
+      "englishQuestion": "Which organization in a company helps employees with problems concerning their employer?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "der Betriebsrat",
+          "englishOption": "the works council",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die Betriebsprüferin/der Betriebsprüfer",
+          "englishOption": "the auditor",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Betriebsgruppe",
+          "englishOption": "the company group",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "das Betriebsmanagement",
+          "englishOption": "the company management",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Betriebsrat", "english": "works council" },
+          { "german": "Arbeitnehmer", "english": "employee" }
+        ]
+      },
+      "notes": "The works council (Betriebsrat) represents employees in matters concerning their rights and issues with employers.",
+      "learningTechniques": "Focus on the role of the works council in protecting employee rights in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the works council system in Germany.",
+          "url": "https://www.betriebsrat.de/"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 287,
+      "germanQuestion": "Sie möchten bei einer Firma in Deutschland ihr Arbeitsverhältnis beenden. Was müssen Sie beachten?",
+      "englishQuestion": "You want to terminate your employment with a company in Germany. What do you need to consider?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die Gehaltszahlungen",
+          "englishOption": "salary payments",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Arbeitszeit",
+          "englishOption": "working hours",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Kündigungsfrist",
+          "englishOption": "the notice period",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die Versicherungspflicht",
+          "englishOption": "the insurance obligation",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Kündigungsfrist", "english": "notice period" },
+          {
+            "german": "Arbeitsverhältnis",
+            "english": "employment relationship"
+          }
+        ]
+      },
+      "notes": "When terminating employment in Germany, employees must observe the notice period (Kündigungsfrist) stipulated in their contract.",
+      "learningTechniques": "Focus on employment law in Germany, particularly regarding termination and notice periods.",
+      "resources": [
+        {
+          "description": "Learn more about employment termination and notice periods in Germany.",
+          "url": "https://www.howtogermany.com/pages/employment-contracts.html"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 288,
+      "germanQuestion": "Woraus begründet sich Deutschlands besondere Verantwortung für Israel?",
+      "englishQuestion": "What is the basis of Germany's special responsibility for Israel?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "aus der Mitgliedschaft in der Europäischen Union (EU)",
+          "englishOption": "from membership in the European Union (EU)",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "aus den nationalsozialistischen Verbrechen gegen Juden",
+          "englishOption": "from the Nazi crimes against Jews",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "aus dem Grundgesetz der Bundesrepublik Deutschland",
+          "englishOption": "from the Basic Law of the Federal Republic of Germany",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "aus der christlichen Tradition",
+          "englishOption": "from the Christian tradition",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Verantwortung", "english": "responsibility" },
+          { "german": "Verbrechen", "english": "crimes" }
+        ]
+      },
+      "notes": "Germany's special responsibility for Israel is rooted in the historical context of the Holocaust and the crimes committed by the Nazis against Jews.",
+      "learningTechniques": "Focus on the historical reasons behind Germany's foreign policy regarding Israel, emphasizing the Holocaust.",
+      "resources": [
+        {
+          "description": "Learn more about Germany's historical responsibility towards Israel.",
+          "url": "https://www.holocaustremembrance.com/"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 289,
+      "germanQuestion": "Ein Mann mit dunkler Hautfarbe bewirbt sich um eine Stelle als Kellner in einem Restaurant in Deutschland. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil …",
+      "englishQuestion": "A man with dark skin applies for a job as a waiter in a restaurant in Germany. What is an example of discrimination? He does not get the job only because …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "seine Deutschkenntnisse zu gering sind.",
+          "englishOption": "his German skills are too poor.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "er zu hohe Gehaltsvorstellungen hat.",
+          "englishOption": "his salary expectations are too high.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "er eine dunkle Haut hat.",
+          "englishOption": "he has dark skin.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "er keine Erfahrungen im Beruf hat.",
+          "englishOption": "he has no experience in the job.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Diskriminierung", "english": "discrimination" },
+          { "german": "Gehaltsvorstellungen", "english": "salary expectations" }
+        ]
+      },
+      "notes": "Denying a job solely based on someone's skin color is a clear example of racial discrimination in Germany.",
+      "learningTechniques": "Focus on anti-discrimination laws and equality in the workplace in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about anti-discrimination laws in Germany.",
+          "url": "https://www.antidiskriminierungsstelle.de/"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 290,
+      "germanQuestion": "Sie haben in Deutschland einen Fernseher gekauft. Zu Hause packen Sie den Fernseher aus, doch er funktioniert nicht. Der Fernseher ist kaputt. Was können Sie machen?",
+      "englishQuestion": "You bought a TV in Germany. At home, you unpack the TV, but it doesn't work. The TV is broken. What can you do?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "eine Anzeige schreiben",
+          "englishOption": "write an advertisement",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "den Fernseher reklamieren",
+          "englishOption": "make a complaint about the TV",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "das Gerät ungefragt austauschen",
+          "englishOption": "exchange the device without asking",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Garantie verlängern",
+          "englishOption": "extend the warranty",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Fernseher", "english": "TV" },
+          { "german": "Reklamation", "english": "complaint" }
+        ]
+      },
+      "notes": "In Germany, if you buy a product that is defective, you have the right to file a complaint and request a repair, replacement, or refund.",
+      "learningTechniques": "Focus on consumer rights and warranty laws in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about consumer rights in Germany.",
+          "url": "https://www.verbraucherzentrale.de/"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 291,
+      "germanQuestion": "Warum muss man in Deutschland bei der Steuererklärung aufschreiben, ob man zu einer Kirche gehört oder nicht? Weil …",
+      "englishQuestion": "Why do you have to declare in Germany on your tax return whether you belong to a church or not? Because …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "es eine Kirchensteuer gibt, die an die Einkommen- und Lohnsteuer geknüpft ist.",
+          "englishOption": "there is a church tax tied to income and wage tax.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "das für die Statistik in Deutschland wichtig ist.",
+          "englishOption": "it is important for statistics in Germany.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "man mehr Steuern zahlen muss, wenn man nicht zu einer Kirche gehört.",
+          "englishOption": "you have to pay more taxes if you don't belong to a church.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Kirche für die Steuererklärung verantwortlich ist.",
+          "englishOption": "the church is responsible for the tax return.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Kirchensteuer", "english": "church tax" },
+          { "german": "Steuererklärung", "english": "tax return" }
+        ]
+      },
+      "notes": "In Germany, church members pay a church tax, which is collected alongside income tax. This is why church membership must be declared on tax returns.",
+      "learningTechniques": "Focus on understanding the church tax system in Germany and how it affects your tax return.",
+      "resources": [
+        {
+          "description": "Learn more about church taxes in Germany.",
+          "url": "https://www.howtogermany.com/pages/church-tax.html"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 292,
+      "germanQuestion": "Die Menschen in Deutschland leben nach dem Grundsatz der religiösen Toleranz. Was bedeutet das?",
+      "englishQuestion": "People in Germany live by the principle of religious tolerance. What does that mean?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Es dürfen keine Moscheen gebaut werden.",
+          "englishOption": "Mosques cannot be built.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Alle Menschen glauben an Gott.",
+          "englishOption": "All people believe in God.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Jeder kann glauben, was er möchte.",
+          "englishOption": "Everyone can believe what they want.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Der Staat entscheidet, an welchen Gott die Menschen glauben.",
+          "englishOption": "The state decides which God people should believe in.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "religiöse Toleranz", "english": "religious tolerance" },
+          { "german": "Gott", "english": "God" }
+        ]
+      },
+      "notes": "In Germany, religious tolerance is a key principle, allowing everyone to practice the religion of their choice or no religion at all.",
+      "learningTechniques": "Focus on the principles of religious freedom and tolerance in German society.",
+      "resources": [
+        {
+          "description": "Learn more about religious tolerance in Germany.",
+          "url": "https://www.bpb.de/"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 293,
+      "germanQuestion": "Was ist in Deutschland ein Brauch zu Ostern?",
+      "englishQuestion": "What is a tradition in Germany during Easter?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Kürbisse vor die Tür stellen",
+          "englishOption": "Place pumpkins in front of the door",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "einen Tannenbaum schmücken",
+          "englishOption": "Decorate a Christmas tree",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Eier bemalen",
+          "englishOption": "Paint eggs",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Raketen in die Luft schießen",
+          "englishOption": "Shoot fireworks into the air",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Brauch", "english": "tradition" },
+          { "german": "Ostern", "english": "Easter" },
+          { "german": "Eier", "english": "eggs" }
+        ]
+      },
+      "notes": "In Germany, one of the most popular Easter traditions is painting and decorating eggs.",
+      "learningTechniques": "Remember that Easter traditions in Germany are often linked to symbols of renewal, like eggs.",
+      "resources": [
+        {
+          "description": "Learn more about Easter traditions in Germany.",
+          "url": "https://www.germany.travel/en/traditions-and-customs/easter-in-germany.html"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 294,
+      "germanQuestion": "Pfingsten ist ein …",
+      "englishQuestion": "Pentecost is a …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "christlicher Feiertag.",
+          "englishOption": "Christian holiday.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "deutscher Gedenktag.",
+          "englishOption": "German day of remembrance.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "internationaler Trauertag.",
+          "englishOption": "International day of mourning.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "bayerischer Brauch.",
+          "englishOption": "Bavarian custom.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Pfingsten", "english": "Pentecost" },
+          { "german": "Feiertag", "english": "holiday" }
+        ]
+      },
+      "notes": "Pfingsten (Pentecost) is a significant Christian holiday celebrated in Germany, marking the descent of the Holy Spirit on the apostles.",
+      "learningTechniques": "Associate Pfingsten with the Christian holiday celebrated 50 days after Easter.",
+      "resources": [
+        {
+          "description": "More information about Pentecost traditions in Germany.",
+          "url": "https://www.germany.travel/en/traditions-and-customs/pentecost.html"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 295,
+      "germanQuestion": "Welche Religion hat die europäische und deutsche Kultur geprägt?",
+      "englishQuestion": "Which religion has shaped European and German culture?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "der Hinduismus",
+          "englishOption": "Hinduism",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "das Christentum",
+          "englishOption": "Christianity",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "der Buddhismus",
+          "englishOption": "Buddhism",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "der Islam",
+          "englishOption": "Islam",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Religion", "english": "religion" },
+          { "german": "Kultur", "english": "culture" },
+          { "german": "Christentum", "english": "Christianity" }
+        ]
+      },
+      "notes": "Christianity has had a profound influence on European and German culture, shaping many aspects of society and traditions.",
+      "learningTechniques": "Link the major holidays and cultural practices in Germany to Christian traditions.",
+      "resources": [
+        {
+          "description": "Overview of the influence of Christianity on European culture.",
+          "url": "https://www.europeanhistory.org/christianity-influence/"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 296,
+      "germanQuestion": "In Deutschland nennt man die letzten vier Wochen vor Weihnachten …",
+      "englishQuestion": "In Germany, the last four weeks before Christmas are called …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "den Buß- und Bettag.",
+          "englishOption": "Day of Repentance and Prayer.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "das Erntedankfest.",
+          "englishOption": "Harvest Festival.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Adventszeit.",
+          "englishOption": "Advent season.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Allerheiligen.",
+          "englishOption": "All Saints' Day.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Adventszeit", "english": "Advent season" },
+          { "german": "Weihnachten", "english": "Christmas" }
+        ]
+      },
+      "notes": "The Advent season in Germany marks the four weeks leading up to Christmas, often associated with traditions like Advent calendars and wreaths.",
+      "learningTechniques": "Remember that Advent is the preparation period before Christmas, with traditions observed across Germany.",
+      "resources": [
+        {
+          "description": "Learn more about Advent traditions in Germany.",
+          "url": "https://www.germany.travel/en/traditions-and-customs/advent-in-germany.html"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 297,
+      "germanQuestion": "Aus welchem Land sind die meisten Migrantinnen und Migranten nach Deutschland gekommen?",
+      "englishQuestion": "From which country have most migrants come to Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Italien",
+          "englishOption": "Italy",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Polen",
+          "englishOption": "Poland",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Marokko",
+          "englishOption": "Morocco",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Türkei",
+          "englishOption": "Turkey",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Migrantinnen", "english": "female migrants" },
+          { "german": "Migranten", "english": "male migrants" },
+          { "german": "Türkei", "english": "Turkey" }
+        ]
+      },
+      "notes": "The largest number of migrants to Germany historically have come from Turkey, especially during the guest worker programs in the 1960s and 1970s.",
+      "learningTechniques": "Associate the significant Turkish community in Germany with the country's history of labor migration.",
+      "resources": [
+        {
+          "description": "More about migration from Turkey to Germany.",
+          "url": "https://www.dw.com/en/the-history-of-turkish-migration-to-germany/a-45342456"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 298,
+      "germanQuestion": "In der DDR lebten vor allem Migrantinnen und Migranten aus …",
+      "englishQuestion": "In the GDR, most migrants came from …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Vietnam, Polen, Mosambik.",
+          "englishOption": "Vietnam, Poland, Mozambique.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Frankreich, Rumänien, Somalia.",
+          "englishOption": "France, Romania, Somalia.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Chile, Ungarn, Simbabwe.",
+          "englishOption": "Chile, Hungary, Zimbabwe.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Nordkorea, Mexiko, Ägypten.",
+          "englishOption": "North Korea, Mexico, Egypt.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "DDR", "english": "GDR (German Democratic Republic)" },
+          { "german": "Migrantinnen", "english": "female migrants" },
+          { "german": "Migranten", "english": "male migrants" }
+        ]
+      },
+      "notes": "In the GDR, labor migrants primarily came from socialist-friendly countries such as Vietnam, Poland, and Mozambique under bilateral agreements.",
+      "learningTechniques": "Remember that GDR migrant workers often came from socialist countries under government agreements.",
+      "resources": [
+        {
+          "description": "Overview of migration to the GDR.",
+          "url": "https://www.bpb.de/themen/migration-integration/dossier-migration/252391/migration-in-der-ddr/"
+        }
+      ],
+      "region": "Former GDR"
+    },
+    {
+      "id": 299,
+      "germanQuestion": "Ausländische Arbeitnehmerinnen und Arbeitnehmer, die in den 50er und 60er Jahren von der Bundesrepublik Deutschland angeworben wurden, nannte man …",
+      "englishQuestion": "Foreign workers who were recruited by West Germany in the 1950s and 1960s were called …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Schwarzarbeiterinnen/Schwarzarbeiter.",
+          "englishOption": "Illegal workers.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Gastarbeiterinnen/Gastarbeiter.",
+          "englishOption": "Guest workers.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Zeitarbeiterinnen/Zeitarbeiter.",
+          "englishOption": "Temporary workers.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Schichtarbeiterinnen/Schichtarbeiter.",
+          "englishOption": "Shift workers.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Gastarbeiter", "english": "guest workers" },
+          { "german": "Arbeitnehmer", "english": "employees" }
+        ]
+      },
+      "notes": "The term 'Gastarbeiter' refers to the foreign workers who were invited to work in West Germany during the 1950s and 1960s, mainly from Southern Europe and Turkey.",
+      "learningTechniques": "Link the term 'Gastarbeiter' with the large wave of foreign labor migration during Germany's economic boom.",
+      "resources": [
+        {
+          "description": "Learn more about the history of guest workers in Germany.",
+          "url": "https://www.dw.com/en/the-history-of-gastarbeiter-in-germany/a-18730994"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 300,
+      "germanQuestion": "Aus welchem Land kamen die ersten Gastarbeiterinnen und Gastarbeiter nach Bundesrepublik Deutschland?",
+      "englishQuestion": "From which country did the first guest workers come to West Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Italien",
+          "englishOption": "Italy",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Spanien",
+          "englishOption": "Spain",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Portugal",
+          "englishOption": "Portugal",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Türkei",
+          "englishOption": "Turkey",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Gastarbeiter", "english": "guest workers" },
+          { "german": "Italien", "english": "Italy" }
+        ]
+      },
+      "notes": "The first guest workers to arrive in West Germany came from Italy, under a bilateral agreement signed in 1955.",
+      "learningTechniques": "Connect the start of guest worker recruitment with the Italian labor migration to Germany in the mid-20th century.",
+      "resources": [
+        {
+          "description": "More on the history of Italian guest workers in Germany.",
+          "url": "https://www.dw.com/en/germany-italian-gastarbeiter-history/a-46673888"
+        }
+      ],
+      "region": "All"
+    }
+  ]
+}

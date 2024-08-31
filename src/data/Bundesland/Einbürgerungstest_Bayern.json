@@ -1,0 +1,458 @@
+{
+  "fileName": "Einbürgerungstest_Bayern.json",
+  "testInfo": {
+    "name": "Gesamtfragenkatalog zum Test „Leben in Deutschland“ und zum „Einbürgerungstest“",
+    "version": "Stand: 25.06.2024"
+  },
+  "state": {
+    "name": "Bayern",
+    "questions": [
+      {
+        "id": 1,
+        "germanQuestion": "Welches Wappen gehört zum Freistaat Bayern?",
+        "englishQuestion": "Which coat of arms belongs to the Free State of Bavaria?",
+        "type": "single",
+        "answerType": "image",
+        "options": [
+          {
+            "germanOption": "Bild 1",
+            "englishOption": "Image 1",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bild 2",
+            "englishOption": "Image 2",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Bild 3",
+            "englishOption": "Image 3",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bild 4",
+            "englishOption": "Image 4",
+            "isCorrect": false
+          }
+        ],
+        "correctAnswerTag": "Add correct answer here later",
+        "importantWords": {
+          "nouns": [
+            { "german": "Wappen", "english": "coat of arms" },
+            { "german": "Freistaat Bayern", "english": "Free State of Bavaria" }
+          ]
+        },
+        "notes": "The coat of arms of Bavaria is an important symbol of the state's identity, featuring iconic elements like the blue and white diamond pattern.",
+        "learningTechniques": "Familiarize yourself with the unique design elements of Bavaria's coat of arms.",
+        "resources": [
+          {
+            "description": "Learn more about the coat of arms of Bavaria.",
+            "url": "https://en.wikipedia.org/wiki/Coat_of_arms_of_Bavaria"
+          }
+        ],
+        "region": "Bayern"
+      },
+      {
+        "id": 2,
+        "germanQuestion": "Welches ist ein Landkreis in Bayern?",
+        "englishQuestion": "Which is a district (Landkreis) in Bavaria?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Prignitz",
+            "englishOption": "Prignitz",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Rhein-Sieg-Kreis",
+            "englishOption": "Rhein-Sieg District",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Nordfriesland",
+            "englishOption": "North Frisia",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Altötting",
+            "englishOption": "Altötting",
+            "isCorrect": true
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landkreis", "english": "district" },
+            { "german": "Bayern", "english": "Bavaria" },
+            { "german": "Altötting", "english": "Altötting" }
+          ]
+        },
+        "notes": "Altötting is a district in Bavaria, known for its religious significance and pilgrimage traditions.",
+        "learningTechniques": "Familiarize yourself with the districts in Bavaria, particularly Altötting.",
+        "resources": [
+          {
+            "description": "Learn more about the districts of Bavaria.",
+            "url": "https://en.wikipedia.org/wiki/Districts_of_Bavaria"
+          }
+        ],
+        "region": "Bayern"
+      },
+      {
+        "id": 3,
+        "germanQuestion": "Für wie viele Jahre wird der Landtag in Bayern gewählt?",
+        "englishQuestion": "For how many years is the state parliament (Landtag) in Bavaria elected?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "3",
+            "englishOption": "3",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "4",
+            "englishOption": "4",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "5",
+            "englishOption": "5",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "6",
+            "englishOption": "6",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landtag", "english": "state parliament" },
+            { "german": "Bayern", "english": "Bavaria" },
+            { "german": "Jahre", "english": "years" }
+          ]
+        },
+        "notes": "The state parliament (Landtag) in Bavaria is elected for a term of 5 years.",
+        "learningTechniques": "Remember that the term length for the Landtag in Bavaria is 5 years, which aligns with many other German federal states.",
+        "resources": [
+          {
+            "description": "Learn more about the political system in Bavaria.",
+            "url": "https://en.wikipedia.org/wiki/Politics_of_Bavaria"
+          }
+        ],
+        "region": "Bayern"
+      },
+      {
+        "id": 4,
+        "germanQuestion": "Ab welchem Alter darf man in Bayern bei Kommunalwahlen wählen?",
+        "englishQuestion": "At what age can you vote in local elections in Bavaria?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "14",
+            "englishOption": "14",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "16",
+            "englishOption": "16",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "18",
+            "englishOption": "18",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "20",
+            "englishOption": "20",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Kommunalwahlen", "english": "local elections" },
+            { "german": "Alter", "english": "age" },
+            { "german": "Bayern", "english": "Bavaria" }
+          ]
+        },
+        "notes": "In Bavaria, citizens can participate in local elections starting at the age of 18.",
+        "learningTechniques": "Remember that 18 is the voting age for local elections in Bavaria, in line with most other German federal states.",
+        "resources": [
+          {
+            "description": "Learn more about voting rights in Bavaria.",
+            "url": "https://en.wikipedia.org/wiki/Elections_in_Bavaria"
+          }
+        ],
+        "region": "Bayern"
+      },
+      {
+        "id": 5,
+        "germanQuestion": "Welche Farben hat die Landesflagge von Bayern?",
+        "englishQuestion": "What are the colors of the state flag of Bavaria?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "blau-weiß-rot",
+            "englishOption": "blue-white-red",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "weiß-blau",
+            "englishOption": "white-blue",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "grün-weiß-rot",
+            "englishOption": "green-white-red",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "schwarz-gelb",
+            "englishOption": "black-yellow",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landesflagge", "english": "state flag" },
+            { "german": "Farben", "english": "colors" },
+            { "german": "Bayern", "english": "Bavaria" }
+          ]
+        },
+        "notes": "The state flag of Bavaria consists of the colors white and blue, often depicted in a checkered diamond pattern.",
+        "learningTechniques": "Remember the iconic white and blue colors of Bavaria's flag, which are a symbol of the state's cultural identity.",
+        "resources": [
+          {
+            "description": "Learn more about the flag of Bavaria.",
+            "url": "https://en.wikipedia.org/wiki/Flag_of_Bavaria"
+          }
+        ],
+        "region": "Bayern"
+      },
+      {
+        "id": 6,
+        "germanQuestion": "Wo können Sie sich in Bayern über politische Themen informieren?",
+        "englishQuestion": "Where can you get information on political topics in Bavaria?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "beim Ordnungsamt der Gemeinde",
+            "englishOption": "at the local regulatory office",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "bei der Landeszentrale für politische Bildung",
+            "englishOption": "at the State Center for Civic Education",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "bei der Verbraucherzentrale",
+            "englishOption": "at the consumer advice center",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "bei den Kirchen",
+            "englishOption": "at the churches",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "politische Themen", "english": "political topics" },
+            {
+              "german": "Landeszentrale für politische Bildung",
+              "english": "State Center for Civic Education"
+            },
+            { "german": "Bayern", "english": "Bavaria" }
+          ]
+        },
+        "notes": "In Bavaria, the 'Landeszentrale für politische Bildung' (State Center for Civic Education) is the primary institution for learning about political topics.",
+        "learningTechniques": "Focus on the role of the 'Landeszentrale für politische Bildung' in educating the public about political matters in Bavaria.",
+        "resources": [
+          {
+            "description": "Learn more about the State Center for Civic Education in Bavaria.",
+            "url": "https://www.blz.bayern.de/"
+          }
+        ],
+        "region": "Bayern"
+      },
+      {
+        "id": 7,
+        "germanQuestion": "Die Landeshauptstadt von Bayern heißt …",
+        "englishQuestion": "The state capital of Bavaria is called …",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Ingolstadt",
+            "englishOption": "Ingolstadt",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Regensburg",
+            "englishOption": "Regensburg",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Nürnberg",
+            "englishOption": "Nuremberg",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "München",
+            "englishOption": "Munich",
+            "isCorrect": true
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landeshauptstadt", "english": "state capital" },
+            { "german": "Bayern", "english": "Bavaria" },
+            { "german": "München", "english": "Munich" }
+          ]
+        },
+        "notes": "The state capital of Bavaria is Munich ('München'), a major city known for its cultural heritage and economic importance.",
+        "learningTechniques": "Remember that Munich is not only the capital of Bavaria but also a globally recognized city for its culture and industries.",
+        "resources": [
+          {
+            "description": "Learn more about Munich, the capital of Bavaria.",
+            "url": "https://en.wikipedia.org/wiki/Munich"
+          }
+        ],
+        "region": "Bayern"
+      },
+      {
+        "id": 8,
+        "germanQuestion": "Welches Bundesland ist Bayern?",
+        "englishQuestion": "Which state is Bavaria?",
+        "type": "single",
+        "answerType": "image",
+        "options": [
+          { "germanOption": "1", "englishOption": "1", "isCorrect": false },
+          { "germanOption": "2", "englishOption": "2", "isCorrect": false },
+          { "germanOption": "3", "englishOption": "3", "isCorrect": false },
+          { "germanOption": "4", "englishOption": "4", "isCorrect": true }
+        ],
+        "correctAnswerTag": "Add correct answer here later",
+        "importantWords": {
+          "nouns": [
+            { "german": "Bundesland", "english": "state" },
+            { "german": "Bayern", "english": "Bavaria" }
+          ]
+        },
+        "notes": "Bavaria, located in southeastern Germany, is the largest federal state by land area and a major cultural and economic region.",
+        "learningTechniques": "Familiarize yourself with the geographical location of Bavaria on a map of Germany.",
+        "resources": [
+          {
+            "description": "Learn more about the geography of Bavaria.",
+            "url": "https://en.wikipedia.org/wiki/Bavaria"
+          }
+        ],
+        "region": "Bayern"
+      },
+      {
+        "id": 9,
+        "germanQuestion": "Wie nennt man die Regierungschefin/den Regierungschef in Bayern?",
+        "englishQuestion": "What is the title of the head of government in Bavaria?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Erste Ministerin/Erster Minister",
+            "englishOption": "First Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Premierministerin/Premierminister",
+            "englishOption": "Prime Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bürgermeisterin/Bürgermeister",
+            "englishOption": "Mayor",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Ministerpräsidentin/Ministerpräsident",
+            "englishOption": "Minister-President",
+            "isCorrect": true
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            {
+              "german": "Regierungschefin/Regierungschef",
+              "english": "head of government"
+            },
+            { "german": "Bayern", "english": "Bavaria" },
+            {
+              "german": "Ministerpräsidentin/Ministerpräsident",
+              "english": "Minister-President"
+            }
+          ]
+        },
+        "notes": "The head of government in Bavaria is called the 'Ministerpräsidentin' or 'Ministerpräsident,' a title equivalent to 'Minister-President.'",
+        "learningTechniques": "Remember that the title 'Ministerpräsident' is used for the heads of government in German federal states, including Bavaria.",
+        "resources": [
+          {
+            "description": "Learn more about the role of the Minister-President in Bavaria.",
+            "url": "https://en.wikipedia.org/wiki/Minister-President"
+          }
+        ],
+        "region": "Bayern"
+      },
+      {
+        "id": 10,
+        "germanQuestion": "Welche Ministerin/welchen Minister hat Bayern nicht?",
+        "englishQuestion": "Which minister does Bavaria not have?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Justizministerin/Justizminister",
+            "englishOption": "Justice Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Außenministerin/Außenminister",
+            "englishOption": "Foreign Minister",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Finanzministerin/Finanzminister",
+            "englishOption": "Finance Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Innenministerin/Innenminister",
+            "englishOption": "Interior Minister",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Ministerin/Minister", "english": "minister" },
+            { "german": "Bayern", "english": "Bavaria" },
+            {
+              "german": "Außenministerin/Außenminister",
+              "english": "Foreign Minister"
+            }
+          ]
+        },
+        "notes": "Bavaria, like other German federal states, does not have a Foreign Minister ('Außenminister'), as foreign affairs are handled at the federal level.",
+        "learningTechniques": "Remember that federal states in Germany do not have foreign ministers, as foreign policy is the responsibility of the federal government.",
+        "resources": [
+          {
+            "description": "Learn more about the structure of state governments in Germany.",
+            "url": "https://en.wikipedia.org/wiki/Politics_of_Germany"
+          }
+        ],
+        "region": "Bayern"
+      }
+    ]
+  }
+}

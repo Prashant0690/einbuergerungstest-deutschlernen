@@ -1,0 +1,458 @@
+{
+  "fileName": "Einbürgerungstest_Hessen.json",
+  "testInfo": {
+    "name": "Gesamtfragenkatalog zum Test „Leben in Deutschland“ und zum „Einbürgerungstest“",
+    "version": "Stand: 25.06.2024"
+  },
+  "state": {
+    "name": "Hessen",
+    "questions": [
+      {
+        "id": 1,
+        "germanQuestion": "Welches Wappen gehört zum Bundesland Hessen?",
+        "englishQuestion": "Which coat of arms belongs to the state of Hesse?",
+        "type": "single",
+        "answerType": "image",
+        "options": [
+          {
+            "germanOption": "Bild 1",
+            "englishOption": "Image 1",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Bild 2",
+            "englishOption": "Image 2",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bild 3",
+            "englishOption": "Image 3",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bild 4",
+            "englishOption": "Image 4",
+            "isCorrect": false
+          }
+        ],
+        "correctAnswerTag": "Add correct answer here later",
+        "importantWords": {
+          "nouns": [
+            { "german": "Wappen", "english": "coat of arms" },
+            { "german": "Hessen", "english": "Hesse" }
+          ]
+        },
+        "notes": "The coat of arms of Hesse typically features a red and white striped lion, symbolizing the state's historical significance.",
+        "learningTechniques": "Familiarize yourself with Hesse's coat of arms, which prominently features a red and white lion emblem.",
+        "resources": [
+          {
+            "description": "Learn more about the coat of arms of Hesse.",
+            "url": "https://en.wikipedia.org/wiki/Coat_of_arms_of_Hesse"
+          }
+        ],
+        "region": "Hessen"
+      },
+      {
+        "id": 2,
+        "germanQuestion": "Welches ist ein Landkreis in Hessen?",
+        "englishQuestion": "Which is a district (Landkreis) in Hesse?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Ammerland",
+            "englishOption": "Ammerland",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Altötting",
+            "englishOption": "Altötting",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Prignitz",
+            "englishOption": "Prignitz",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Main-Taunus-Kreis",
+            "englishOption": "Main-Taunus District",
+            "isCorrect": true
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landkreis", "english": "district" },
+            { "german": "Hessen", "english": "Hesse" },
+            { "german": "Main-Taunus-Kreis", "english": "Main-Taunus District" }
+          ]
+        },
+        "notes": "Main-Taunus-Kreis is a district in Hesse, located near Frankfurt, known for its residential areas and economic development.",
+        "learningTechniques": "Familiarize yourself with the districts of Hesse, particularly the Main-Taunus-Kreis, which plays an important role in the region's economy.",
+        "resources": [
+          {
+            "description": "Learn more about the districts of Hesse.",
+            "url": "https://en.wikipedia.org/wiki/Main-Taunus-Kreis"
+          }
+        ],
+        "region": "Hessen"
+      },
+      {
+        "id": 3,
+        "germanQuestion": "Für wie viele Jahre wird der Landtag in Hessen gewählt?",
+        "englishQuestion": "For how many years is the state parliament (Landtag) in Hesse elected?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "3",
+            "englishOption": "3",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "4",
+            "englishOption": "4",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "5",
+            "englishOption": "5",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "6",
+            "englishOption": "6",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landtag", "english": "state parliament" },
+            { "german": "Hessen", "english": "Hesse" },
+            { "german": "Jahre", "english": "years" }
+          ]
+        },
+        "notes": "The state parliament (Landtag) in Hesse is elected for a term of 5 years.",
+        "learningTechniques": "Remember that the term length for the Landtag in Hesse is 5 years, which aligns with many other German federal states.",
+        "resources": [
+          {
+            "description": "Learn more about the political system in Hesse.",
+            "url": "https://en.wikipedia.org/wiki/Hesse"
+          }
+        ],
+        "region": "Hessen"
+      },
+      {
+        "id": 4,
+        "germanQuestion": "Ab welchem Alter darf man in Hessen bei Kommunalwahlen wählen?",
+        "englishQuestion": "At what age can you vote in local elections in Hesse?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "14",
+            "englishOption": "14",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "16",
+            "englishOption": "16",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "18",
+            "englishOption": "18",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "20",
+            "englishOption": "20",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Kommunalwahlen", "english": "local elections" },
+            { "german": "Alter", "english": "age" },
+            { "german": "Hessen", "english": "Hesse" }
+          ]
+        },
+        "notes": "In Hesse, citizens can participate in local elections starting at the age of 16.",
+        "learningTechniques": "Remember that 16 is the voting age for local elections in Hesse, aligning with progressive policies in other German states.",
+        "resources": [
+          {
+            "description": "Learn more about voting rights in Hesse.",
+            "url": "https://en.wikipedia.org/wiki/Elections_in_Hesse"
+          }
+        ],
+        "region": "Hessen"
+      },
+      {
+        "id": 5,
+        "germanQuestion": "Welche Farben hat die Landesflagge von Hessen?",
+        "englishQuestion": "What are the colors of the state flag of Hesse?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "blau-weiß-rot",
+            "englishOption": "blue-white-red",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "rot-weiß",
+            "englishOption": "red-white",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "schwarz-gold",
+            "englishOption": "black-gold",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "grün-weiß-rot",
+            "englishOption": "green-white-red",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landesflagge", "english": "state flag" },
+            { "german": "Farben", "english": "colors" },
+            { "german": "Hessen", "english": "Hesse" }
+          ]
+        },
+        "notes": "The state flag of Hesse consists of the colors red and white, often associated with the region's history and coat of arms.",
+        "learningTechniques": "Remember the red and white colors of Hesse's flag, which symbolize the state's historical and cultural identity.",
+        "resources": [
+          {
+            "description": "Learn more about the flag of Hesse.",
+            "url": "https://en.wikipedia.org/wiki/Flag_of_Hesse"
+          }
+        ],
+        "region": "Hessen"
+      },
+      {
+        "id": 6,
+        "germanQuestion": "Wo können Sie sich in Hessen über politische Themen informieren?",
+        "englishQuestion": "Where can you get information on political topics in Hesse?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "bei der Landeszentrale für politische Bildung",
+            "englishOption": "at the State Center for Civic Education",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "bei der Verbraucherzentrale",
+            "englishOption": "at the consumer advice center",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "beim Ordnungsamt der Gemeinde",
+            "englishOption": "at the local regulatory office",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "bei den Kirchen",
+            "englishOption": "at the churches",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "politische Themen", "english": "political topics" },
+            {
+              "german": "Landeszentrale für politische Bildung",
+              "english": "State Center for Civic Education"
+            },
+            { "german": "Hessen", "english": "Hesse" }
+          ]
+        },
+        "notes": "In Hesse, the 'Landeszentrale für politische Bildung' (State Center for Civic Education) is the primary resource for information on political topics.",
+        "learningTechniques": "Focus on the role of the 'Landeszentrale für politische Bildung' in educating the public about political matters in Hesse.",
+        "resources": [
+          {
+            "description": "Learn more about the State Center for Civic Education in Hesse.",
+            "url": "https://www.politische-bildung-hessen.de/"
+          }
+        ],
+        "region": "Hessen"
+      },
+      {
+        "id": 7,
+        "germanQuestion": "Die Landeshauptstadt von Hessen heißt …",
+        "englishQuestion": "The state capital of Hesse is called …",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Kassel",
+            "englishOption": "Kassel",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Darmstadt",
+            "englishOption": "Darmstadt",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Frankfurt",
+            "englishOption": "Frankfurt",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Wiesbaden",
+            "englishOption": "Wiesbaden",
+            "isCorrect": true
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landeshauptstadt", "english": "state capital" },
+            { "german": "Hessen", "english": "Hesse" },
+            { "german": "Wiesbaden", "english": "Wiesbaden" }
+          ]
+        },
+        "notes": "The state capital of Hesse is Wiesbaden, a city known for its spas and proximity to Frankfurt.",
+        "learningTechniques": "Remember that Wiesbaden is the capital of Hesse, despite Frankfurt being the state's largest city.",
+        "resources": [
+          {
+            "description": "Learn more about Wiesbaden, the capital of Hesse.",
+            "url": "https://en.wikipedia.org/wiki/Wiesbaden"
+          }
+        ],
+        "region": "Hessen"
+      },
+      {
+        "id": 8,
+        "germanQuestion": "Welches Bundesland ist Hessen?",
+        "englishQuestion": "Which federal state is Hesse?",
+        "type": "single",
+        "answerType": "image",
+        "options": [
+          { "germanOption": "1", "englishOption": "1", "isCorrect": false },
+          { "germanOption": "2", "englishOption": "2", "isCorrect": false },
+          { "germanOption": "3", "englishOption": "3", "isCorrect": true },
+          { "germanOption": "4", "englishOption": "4", "isCorrect": false }
+        ],
+        "correctAnswerTag": "Add correct answer here later",
+        "importantWords": {
+          "nouns": [
+            { "german": "Bundesland", "english": "state" },
+            { "german": "Hessen", "english": "Hesse" }
+          ]
+        },
+        "notes": "Hesse is located in central Germany and is one of the country's 16 federal states.",
+        "learningTechniques": "Familiarize yourself with Hesse's location as a central German state, home to major cities like Frankfurt.",
+        "resources": [
+          {
+            "description": "Learn more about the geography and political structure of Hesse.",
+            "url": "https://en.wikipedia.org/wiki/Hesse"
+          }
+        ],
+        "region": "Hessen"
+      },
+      {
+        "id": 9,
+        "germanQuestion": "Wie nennt man die Regierungschefin/den Regierungschef in Hessen?",
+        "englishQuestion": "What is the title of the head of government in Hesse?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Erste Ministerin/Erster Minister",
+            "englishOption": "First Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Premierministerin/Premierminister",
+            "englishOption": "Prime Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bürgermeisterin/Bürgermeister",
+            "englishOption": "Mayor",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Ministerpräsidentin/Ministerpräsident",
+            "englishOption": "Minister-President",
+            "isCorrect": true
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            {
+              "german": "Regierungschefin/Regierungschef",
+              "english": "head of government"
+            },
+            { "german": "Hessen", "english": "Hesse" },
+            {
+              "german": "Ministerpräsidentin/Ministerpräsident",
+              "english": "Minister-President"
+            }
+          ]
+        },
+        "notes": "The head of government in Hesse is called the 'Ministerpräsidentin' or 'Ministerpräsident,' a title used for the leaders of most German federal states.",
+        "learningTechniques": "Remember that the title 'Minister-President' is used in German federal states like Hesse for the head of government.",
+        "resources": [
+          {
+            "description": "Learn more about the role of the Minister-President in Hesse.",
+            "url": "https://en.wikipedia.org/wiki/Minister-President"
+          }
+        ],
+        "region": "Hessen"
+      },
+      {
+        "id": 10,
+        "germanQuestion": "Welche Ministerin/welchen Minister hat Hessen nicht?",
+        "englishQuestion": "Which minister does Hesse not have?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Justizministerin/Justizminister",
+            "englishOption": "Justice Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Außenministerin/Außenminister",
+            "englishOption": "Foreign Minister",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Finanzministerin/Finanzminister",
+            "englishOption": "Finance Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Innenministerin/Innenminister",
+            "englishOption": "Interior Minister",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Ministerin/Minister", "english": "Minister" },
+            { "german": "Hessen", "english": "Hesse" },
+            {
+              "german": "Außenministerin/Außenminister",
+              "english": "Foreign Minister"
+            }
+          ]
+        },
+        "notes": "Hesse, like other German states, does not have a Foreign Minister ('Außenminister'), as foreign policy is managed at the federal level.",
+        "learningTechniques": "Remember that German states, including Hesse, do not manage foreign relations, which are the responsibility of the federal government.",
+        "resources": [
+          {
+            "description": "Learn more about the political structure of German states.",
+            "url": "https://en.wikipedia.org/wiki/Politics_of_Germany"
+          }
+        ],
+        "region": "Hessen"
+      }
+    ]
+  }
+}

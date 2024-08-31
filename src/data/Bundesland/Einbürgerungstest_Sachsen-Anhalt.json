@@ -1,0 +1,458 @@
+{
+  "fileName": "Einbürgerungstest_Sachsen-Anhalt.json",
+  "testInfo": {
+    "name": "Gesamtfragenkatalog zum Test „Leben in Deutschland“ und zum „Einbürgerungstest“",
+    "version": "Stand: 25.06.2024"
+  },
+  "state": {
+    "name": "Sachsen-Anhalt",
+    "questions": [
+      {
+        "id": 1,
+        "germanQuestion": "Welches Wappen gehört zum Bundesland Sachsen-Anhalt?",
+        "englishQuestion": "Which coat of arms belongs to the state of Sachsen-Anhalt?",
+        "type": "single",
+        "answerType": "image",
+        "options": [
+          {
+            "germanOption": "Bild 1",
+            "englishOption": "Image 1",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bild 2",
+            "englishOption": "Image 2",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bild 3",
+            "englishOption": "Image 3",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bild 4",
+            "englishOption": "Image 4",
+            "isCorrect": true
+          }
+        ],
+        "correctAnswerTag": "Add correct answer here later",
+        "importantWords": {
+          "nouns": [
+            { "german": "Wappen", "english": "coat of arms" },
+            { "german": "Sachsen-Anhalt", "english": "Sachsen-Anhalt" }
+          ]
+        },
+        "notes": "The coat of arms of Sachsen-Anhalt represents the state's historical and cultural heritage.",
+        "learningTechniques": "Focus on identifying the unique elements of the Sachsen-Anhalt coat of arms.",
+        "resources": [
+          {
+            "description": "Learn more about the coat of arms of Sachsen-Anhalt.",
+            "url": "https://en.wikipedia.org/wiki/Coat_of_arms_of_Sachsen-Anhalt"
+          }
+        ],
+        "region": "Sachsen-Anhalt"
+      },
+      {
+        "id": 2,
+        "germanQuestion": "Welches ist ein Landkreis in Sachsen-Anhalt?",
+        "englishQuestion": "Which is a district (Landkreis) in Sachsen-Anhalt?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Ammerland",
+            "englishOption": "Ammerland",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Altötting",
+            "englishOption": "Altötting",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Uckermark",
+            "englishOption": "Uckermark",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Börde",
+            "englishOption": "Börde",
+            "isCorrect": true
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landkreis", "english": "district" },
+            { "german": "Sachsen-Anhalt", "english": "Sachsen-Anhalt" },
+            { "german": "Börde", "english": "Börde" }
+          ]
+        },
+        "notes": "The 'Börde' is a district located in the state of Sachsen-Anhalt.",
+        "learningTechniques": "Familiarize yourself with the names of districts within Sachsen-Anhalt, especially 'Börde.'",
+        "resources": [
+          {
+            "description": "Learn more about the districts in Sachsen-Anhalt.",
+            "url": "https://en.wikipedia.org/wiki/Börde_(district)"
+          }
+        ],
+        "region": "Sachsen-Anhalt"
+      },
+      {
+        "id": 3,
+        "germanQuestion": "Für wie viele Jahre wird der Landtag in Sachsen-Anhalt gewählt?",
+        "englishQuestion": "For how many years is the state parliament (Landtag) in Sachsen-Anhalt elected?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "3",
+            "englishOption": "3",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "4",
+            "englishOption": "4",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "5",
+            "englishOption": "5",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "6",
+            "englishOption": "6",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landtag", "english": "state parliament" },
+            { "german": "Sachsen-Anhalt", "english": "Sachsen-Anhalt" },
+            { "german": "Jahre", "english": "years" }
+          ]
+        },
+        "notes": "The state parliament in Sachsen-Anhalt is elected for a term of 5 years.",
+        "learningTechniques": "Remember that the term length for the Landtag in Sachsen-Anhalt is 5 years, aligning with most other German federal states.",
+        "resources": [
+          {
+            "description": "Learn more about the political system in Sachsen-Anhalt.",
+            "url": "https://en.wikipedia.org/wiki/Politics_of_Sachsen-Anhalt"
+          }
+        ],
+        "region": "Sachsen-Anhalt"
+      },
+      {
+        "id": 4,
+        "germanQuestion": "Ab welchem Alter darf man in Sachsen-Anhalt bei Kommunalwahlen wählen?",
+        "englishQuestion": "At what age can you vote in local elections in Sachsen-Anhalt?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "14",
+            "englishOption": "14",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "16",
+            "englishOption": "16",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "18",
+            "englishOption": "18",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "20",
+            "englishOption": "20",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Kommunalwahlen", "english": "local elections" },
+            { "german": "Alter", "english": "age" },
+            { "german": "Sachsen-Anhalt", "english": "Sachsen-Anhalt" }
+          ]
+        },
+        "notes": "In Sachsen-Anhalt, citizens can participate in local elections starting at the age of 16.",
+        "learningTechniques": "Remember that 16 is the voting age for local elections in Sachsen-Anhalt, allowing younger citizens to engage in their community's political process.",
+        "resources": [
+          {
+            "description": "Learn more about voting rights in Sachsen-Anhalt.",
+            "url": "https://en.wikipedia.org/wiki/Elections_in_Sachsen-Anhalt"
+          }
+        ],
+        "region": "Sachsen-Anhalt"
+      },
+      {
+        "id": 5,
+        "germanQuestion": "Welche Farben hat die Landesflagge von Sachsen-Anhalt?",
+        "englishQuestion": "What are the colors of the state flag of Sachsen-Anhalt?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "blau-weiß-rot",
+            "englishOption": "blue-white-red",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "gelb-schwarz",
+            "englishOption": "yellow-black",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "grün-weiß-rot",
+            "englishOption": "green-white-red",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "weiß-rot",
+            "englishOption": "white-red",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landesflagge", "english": "state flag" },
+            { "german": "Farben", "english": "colors" },
+            { "german": "Sachsen-Anhalt", "english": "Sachsen-Anhalt" }
+          ]
+        },
+        "notes": "The state flag of Sachsen-Anhalt consists of the colors yellow and black.",
+        "learningTechniques": "Remember the yellow and black colors of Sachsen-Anhalt's flag, which reflect the state's identity.",
+        "resources": [
+          {
+            "description": "Learn more about the flag of Sachsen-Anhalt.",
+            "url": "https://en.wikipedia.org/wiki/Flag_of_Sachsen-Anhalt"
+          }
+        ],
+        "region": "Sachsen-Anhalt"
+      },
+      {
+        "id": 6,
+        "germanQuestion": "Wo können Sie sich in Sachsen-Anhalt über politische Themen informieren?",
+        "englishQuestion": "Where can you get information on political topics in Sachsen-Anhalt?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "bei den Kirchen",
+            "englishOption": "at the churches",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "bei der Landeszentrale für politische Bildung",
+            "englishOption": "at the State Center for Civic Education",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "beim Ordnungsamt der Gemeinde",
+            "englishOption": "at the local regulatory office",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "bei der Verbraucherzentrale",
+            "englishOption": "at the consumer advice center",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "politische Themen", "english": "political topics" },
+            {
+              "german": "Landeszentrale für politische Bildung",
+              "english": "State Center for Civic Education"
+            },
+            { "german": "Sachsen-Anhalt", "english": "Sachsen-Anhalt" }
+          ]
+        },
+        "notes": "In Sachsen-Anhalt, the 'Landeszentrale für politische Bildung' (State Center for Civic Education) is the key institution for learning about political topics.",
+        "learningTechniques": "Focus on the role of the 'Landeszentrale für politische Bildung' in educating the public about political matters in Sachsen-Anhalt.",
+        "resources": [
+          {
+            "description": "Learn more about the State Center for Civic Education in Sachsen-Anhalt.",
+            "url": "https://www.lpb.sachsen-anhalt.de/"
+          }
+        ],
+        "region": "Sachsen-Anhalt"
+      },
+      {
+        "id": 7,
+        "germanQuestion": "Die Landeshauptstadt von Sachsen-Anhalt heißt ...",
+        "englishQuestion": "The state capital of Sachsen-Anhalt is called ...",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Halle",
+            "englishOption": "Halle",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Dessau",
+            "englishOption": "Dessau",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Magdeburg",
+            "englishOption": "Magdeburg",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Wittenberg",
+            "englishOption": "Wittenberg",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landeshauptstadt", "english": "state capital" },
+            { "german": "Sachsen-Anhalt", "english": "Sachsen-Anhalt" },
+            { "german": "Magdeburg", "english": "Magdeburg" }
+          ]
+        },
+        "notes": "The state capital of Sachsen-Anhalt is Magdeburg, a city known for its rich history and its role as a cultural and economic center in the region.",
+        "learningTechniques": "Remember that Magdeburg is the capital of Sachsen-Anhalt, a city with significant historical and cultural importance.",
+        "resources": [
+          {
+            "description": "Learn more about Magdeburg, the capital of Sachsen-Anhalt.",
+            "url": "https://en.wikipedia.org/wiki/Magdeburg"
+          }
+        ],
+        "region": "Sachsen-Anhalt"
+      },
+      {
+        "id": 8,
+        "germanQuestion": "Welches Bundesland ist Sachsen-Anhalt?",
+        "englishQuestion": "Which state is Sachsen-Anhalt?",
+        "type": "single",
+        "answerType": "image",
+        "options": [
+          { "germanOption": "1", "englishOption": "1", "isCorrect": false },
+          { "germanOption": "2", "englishOption": "2", "isCorrect": false },
+          { "germanOption": "3", "englishOption": "3", "isCorrect": true },
+          { "germanOption": "4", "englishOption": "4", "isCorrect": false }
+        ],
+        "correctAnswerTag": "Add correct answer here later",
+        "importantWords": {
+          "nouns": [
+            { "german": "Bundesland", "english": "state" },
+            { "german": "Sachsen-Anhalt", "english": "Sachsen-Anhalt" }
+          ]
+        },
+        "notes": "Sachsen-Anhalt is located in the central part of Germany and is one of the country's 16 federal states.",
+        "learningTechniques": "Familiarize yourself with the geographical location of Sachsen-Anhalt on a map of Germany.",
+        "resources": [
+          {
+            "description": "Learn more about the geography of Sachsen-Anhalt.",
+            "url": "https://en.wikipedia.org/wiki/Sachsen-Anhalt"
+          }
+        ],
+        "region": "Sachsen-Anhalt"
+      },
+      {
+        "id": 9,
+        "germanQuestion": "Wie nennt man die Regierungschefin/den Regierungschef in Sachsen-Anhalt?",
+        "englishQuestion": "What is the title of the head of government in Sachsen-Anhalt?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Erste Ministerin/Erster Minister",
+            "englishOption": "First Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Premierministerin/Premierminister",
+            "englishOption": "Prime Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bürgermeisterin/Bürgermeister",
+            "englishOption": "Mayor",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Ministerpräsidentin/Ministerpräsident",
+            "englishOption": "Minister-President",
+            "isCorrect": true
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            {
+              "german": "Regierungschefin/Regierungschef",
+              "english": "head of government"
+            },
+            { "german": "Sachsen-Anhalt", "english": "Sachsen-Anhalt" },
+            {
+              "german": "Ministerpräsidentin/Ministerpräsident",
+              "english": "Minister-President"
+            }
+          ]
+        },
+        "notes": "The head of government in Sachsen-Anhalt is called the 'Ministerpräsidentin' or 'Ministerpräsident,' a title equivalent to 'Minister-President.'",
+        "learningTechniques": "Remember that the title 'Ministerpräsident' is used for the heads of government in German federal states, including Sachsen-Anhalt.",
+        "resources": [
+          {
+            "description": "Learn more about the role of the Minister-President in Germany.",
+            "url": "https://en.wikipedia.org/wiki/Minister-President"
+          }
+        ],
+        "region": "Sachsen-Anhalt"
+      },
+      {
+        "id": 10,
+        "germanQuestion": "Welche Ministerin/welchen Minister hat Sachsen-Anhalt nicht?",
+        "englishQuestion": "Which minister does Sachsen-Anhalt not have?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Justizministerin/Justizminister",
+            "englishOption": "Justice Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Außenministerin/Außenminister",
+            "englishOption": "Foreign Minister",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Finanzministerin/Finanzminister",
+            "englishOption": "Finance Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Innenministerin/Innenminister",
+            "englishOption": "Interior Minister",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Ministerin/Minister", "english": "minister" },
+            { "german": "Sachsen-Anhalt", "english": "Sachsen-Anhalt" },
+            {
+              "german": "Außenministerin/Außenminister",
+              "english": "Foreign Minister"
+            }
+          ]
+        },
+        "notes": "Sachsen-Anhalt, like other German federal states, does not have a Foreign Minister ('Außenminister'), as foreign affairs are handled at the federal level.",
+        "learningTechniques": "Remember that federal states in Germany do not have foreign ministers, as foreign policy is the responsibility of the federal government.",
+        "resources": [
+          {
+            "description": "Learn more about the structure of state governments in Germany.",
+            "url": "https://en.wikipedia.org/wiki/Politics_of_Germany"
+          }
+        ],
+        "region": "Sachsen-Anhalt"
+      }
+    ]
+  }
+}

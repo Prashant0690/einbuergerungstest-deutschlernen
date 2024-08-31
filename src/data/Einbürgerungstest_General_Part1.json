@@ -1,0 +1,4620 @@
+{
+  "fileName": "Einbürgerungstest_General_Part1.json",
+  "testInfo": {
+    "name": "Gesamtfragenkatalog zum Test „Leben in Deutschland“ und zum „Einbürgerungstest“",
+    "version": "Stand: 25.06.2024"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "germanQuestion": "In Deutschland dürfen Menschen offen etwas gegen die Regierung sagen, weil …",
+      "englishQuestion": "In Germany, people can openly say something against the government because …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "hier Religionsfreiheit gilt.",
+          "englishOption": "there is freedom of religion here.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Menschen Steuern zahlen.",
+          "englishOption": "people pay taxes.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Menschen das Wahlrecht haben.",
+          "englishOption": "people have the right to vote.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "hier Meinungsfreiheit gilt.",
+          "englishOption": "there is freedom of speech here.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Regierung", "english": "government" },
+          { "german": "Meinungsfreiheit", "english": "freedom of speech" }
+        ],
+        "verbs": [{ "german": "sagen", "english": "say" }]
+      },
+      "notes": "Germany protects the right to free speech under the Basic Law (Grundgesetz).",
+      "learningTechniques": "Remember that 'Meinungsfreiheit' directly translates to 'freedom of opinion,' a core principle in democratic societies.",
+      "resources": [
+        {
+          "description": "More about freedom of speech in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Freedom_of_speech_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 2,
+      "germanQuestion": "In Deutschland können Eltern bis zum 14. Lebensjahr ihres Kindes entscheiden, ob es in der Schule am …",
+      "englishQuestion": "In Germany, parents can decide until their child is 14 years old whether it participates in …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Geschichtsunterricht teilnimmt.",
+          "englishOption": "history class.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Religionsunterricht teilnimmt.",
+          "englishOption": "religion class.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Politikunterricht teilnimmt.",
+          "englishOption": "politics class.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sprachunterricht teilnimmt.",
+          "englishOption": "language class.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Eltern", "english": "parents" },
+          { "german": "Schule", "english": "school" }
+        ],
+        "verbs": [{ "german": "entscheiden", "english": "decide" }]
+      },
+      "notes": "In Germany, religion classes are not mandatory and parents can decide if their children will attend them.",
+      "learningTechniques": "Think of 'Religionsunterricht' (religion class) as a choice, reflecting Germany's respect for religious freedom.",
+      "resources": [
+        {
+          "description": "Overview of the education system in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Education_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 3,
+      "germanQuestion": "Deutschland ist ein Rechtsstaat. Was ist damit gemeint?",
+      "englishQuestion": "Germany is a constitutional state. What does that mean?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Alle Einwohnerinnen/Einwohner und der Staat müssen sich an die Gesetze halten.",
+          "englishOption": "All residents and the state must follow the laws.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Der Staat muss sich nicht an die Gesetze halten.",
+          "englishOption": "The state does not have to follow the laws.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Nur Deutsche müssen die Gesetze befolgen.",
+          "englishOption": "Only Germans must follow the laws.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Die Gerichte machen die Gesetze.",
+          "englishOption": "The courts make the laws.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Rechtsstaat", "english": "constitutional state" },
+          { "german": "Gesetze", "english": "laws" }
+        ],
+        "verbs": [{ "german": "halten", "english": "follow" }]
+      },
+      "notes": "A Rechtsstaat (constitutional state) ensures that the state and all its citizens are bound by law.",
+      "learningTechniques": "Remember 'Rechtsstaat' by associating 'Recht' with 'right' or 'law.'",
+      "resources": [
+        {
+          "description": "What is a Rechtsstaat?",
+          "url": "https://en.wikipedia.org/wiki/Rechtsstaat"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 4,
+      "germanQuestion": "Welches Recht gehört zu den Grundrechten in Deutschland?",
+      "englishQuestion": "Which right is one of the fundamental rights in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Waffenbesitz",
+          "englishOption": "Possession of weapons",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Faustrecht",
+          "englishOption": "Rule of the fist",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Meinungsfreiheit",
+          "englishOption": "Freedom of speech",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Selbstjustiz",
+          "englishOption": "Vigilantism",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Grundrechte", "english": "fundamental rights" },
+          { "german": "Recht", "english": "right" }
+        ]
+      },
+      "notes": "Freedom of speech is a fundamental right in Germany, guaranteed by the Basic Law.",
+      "learningTechniques": "Meinungsfreiheit is a core democratic right, linking 'Meinung' (opinion) and 'Freiheit' (freedom).",
+      "resources": [
+        {
+          "description": "More about fundamental rights in Germany.",
+          "url": "https://www.bundestag.de/en/parliament/function/basiclaw/258872"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 5,
+      "germanQuestion": "Wahlen in Deutschland sind frei. Was bedeutet das?",
+      "englishQuestion": "Elections in Germany are free. What does that mean?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Man darf Geld annehmen, wenn man dafür eine bestimmte Kandidatin/einen bestimmten Kandidaten wählt.",
+          "englishOption": "You can accept money in exchange for voting for a specific candidate.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Nur Personen, die noch nie im Gefängnis waren, dürfen wählen.",
+          "englishOption": "Only people who have never been in prison are allowed to vote.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Die Wählerin/der Wähler darf bei der Wahl weder beeinflusst noch zu einer bestimmten Stimmabgabe gezwungen werden und keine Nachteile durch die Wahl haben.",
+          "englishOption": "The voter must not be influenced or forced to vote in a certain way and should not suffer any disadvantages from the election.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Alle wahlberechtigten Personen müssen wählen.",
+          "englishOption": "All eligible voters must vote.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Wahlen", "english": "elections" },
+          { "german": "Wählerin/Wähler", "english": "voter" }
+        ]
+      },
+      "notes": "In Germany, elections are free, meaning that voters can make their decisions without being forced or influenced, and their choice should not result in any disadvantages.",
+      "learningTechniques": "Remember that 'freie Wahlen' (free elections) in Germany emphasize independence and fairness in voting.",
+      "resources": [
+        {
+          "description": "More about the principles of free elections in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Elections_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 6,
+      "germanQuestion": "Wie heißt die deutsche Verfassung?",
+      "englishQuestion": "What is the name of the German constitution?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Volksgesetz",
+          "englishOption": "People's law",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bundesgesetz",
+          "englishOption": "Federal law",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Deutsches Gesetz",
+          "englishOption": "German law",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Grundgesetz",
+          "englishOption": "Basic Law",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Verfassung", "english": "constitution" },
+          { "german": "Grundgesetz", "english": "Basic Law" }
+        ]
+      },
+      "notes": "The German constitution is called 'Grundgesetz,' which translates to 'Basic Law.' It was established after World War II and serves as the foundation of German law.",
+      "learningTechniques": "Think of 'Grundgesetz' as the fundamental (or 'ground') law that underpins all other laws in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the German Basic Law.",
+          "url": "https://en.wikipedia.org/wiki/Basic_Law_for_the_Federal_Republic_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 7,
+      "germanQuestion": "Welches Recht gehört zu den Grundrechten, die nach der deutschen Verfassung garantiert werden? Das Recht auf …",
+      "englishQuestion": "Which right is one of the fundamental rights guaranteed by the German constitution? The right to …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Glaubens- und Gewissensfreiheit",
+          "englishOption": "Freedom of belief and conscience",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Unterhaltung",
+          "englishOption": "Entertainment",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Arbeit",
+          "englishOption": "Work",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Wohnung",
+          "englishOption": "Housing",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Recht", "english": "right" },
+          { "german": "Glaubensfreiheit", "english": "freedom of belief" },
+          { "german": "Gewissensfreiheit", "english": "freedom of conscience" }
+        ]
+      },
+      "notes": "The German constitution guarantees fundamental rights such as freedom of belief and conscience.",
+      "learningTechniques": "Remember that 'Glaubensfreiheit' and 'Gewissensfreiheit' are essential rights in a democratic society, ensuring personal freedom in beliefs.",
+      "resources": [
+        {
+          "description": "Learn more about fundamental rights in Germany.",
+          "url": "https://www.bundestag.de/en/parliament/function/basiclaw/258872"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 8,
+      "germanQuestion": "Was steht nicht im Grundgesetz von Deutschland?",
+      "englishQuestion": "What is not stated in the Basic Law of Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Die Würde des Menschen ist unantastbar.",
+          "englishOption": "Human dignity is inviolable.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Alle sollen gleich viel Geld haben.",
+          "englishOption": "Everyone should have the same amount of money.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Jeder Mensch darf seine Meinung sagen.",
+          "englishOption": "Everyone may express their opinion.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Alle sind vor dem Gesetz gleich.",
+          "englishOption": "Everyone is equal before the law.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Grundgesetz", "english": "Basic Law" },
+          { "german": "Würde", "english": "dignity" },
+          { "german": "Gesetz", "english": "law" }
+        ]
+      },
+      "notes": "The German Basic Law does not state that everyone should have the same amount of money. It focuses on fundamental rights like dignity, freedom of expression, and equality before the law.",
+      "learningTechniques": "Think about how the Grundgesetz emphasizes human rights and personal freedoms, not economic equality.",
+      "resources": [
+        {
+          "description": "Overview of the Basic Law in Germany.",
+          "url": "https://www.bundestag.de/en/parliament/function/basiclaw/258872"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 9,
+      "germanQuestion": "Welches Grundrecht gilt in Deutschland nur für Ausländerinnen/Ausländer? Das Grundrecht auf …",
+      "englishQuestion": "Which fundamental right in Germany applies only to foreigners? The right to …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Schutz der Familie",
+          "englishOption": "Protection of the family",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Menschenwürde",
+          "englishOption": "Human dignity",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Asyl",
+          "englishOption": "Asylum",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Meinungsfreiheit",
+          "englishOption": "Freedom of speech",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Grundrecht", "english": "fundamental right" },
+          { "german": "Asyl", "english": "asylum" }
+        ]
+      },
+      "notes": "In Germany, the right to asylum is a fundamental right that specifically applies to foreigners.",
+      "learningTechniques": "Remember that 'Asyl' is the right granted to those seeking protection in Germany, reflecting the country's commitment to human rights.",
+      "resources": [
+        {
+          "description": "Learn more about asylum rights in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Right_of_asylum_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 10,
+      "germanQuestion": "Was ist mit dem deutschen Grundgesetz vereinbar?",
+      "englishQuestion": "What is compatible with the German Basic Law?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die Prügelstrafe",
+          "englishOption": "corporal punishment",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Folter",
+          "englishOption": "torture",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Todesstrafe",
+          "englishOption": "the death penalty",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Geldstrafe",
+          "englishOption": "the fine",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Grundgesetz", "english": "Basic Law" },
+          { "german": "Prügelstrafe", "english": "corporal punishment" },
+          { "german": "Folter", "english": "torture" },
+          { "german": "Todesstrafe", "english": "death penalty" },
+          { "german": "Geldstrafe", "english": "fine" }
+        ]
+      },
+      "notes": "The German Basic Law forbids practices such as corporal punishment, torture, and the death penalty. However, fines (Geldstrafe) are compatible with the law.",
+      "learningTechniques": "Associate 'Geldstrafe' with monetary penalties, which are legal and enforceable under the Basic Law, unlike more severe forms of punishment.",
+      "resources": [
+        {
+          "description": "Details about German criminal law and penalties.",
+          "url": "https://en.wikipedia.org/wiki/Criminal_law_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 11,
+      "germanQuestion": "Wie wird die Verfassung der Bundesrepublik Deutschland genannt?",
+      "englishQuestion": "What is the constitution of the Federal Republic of Germany called?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Grundgesetz",
+          "englishOption": "Basic Law",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Bundesverfassung",
+          "englishOption": "Federal Constitution",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Gesetzbuch",
+          "englishOption": "Code of Law",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Verfassungsvertrag",
+          "englishOption": "Constitutional Treaty",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Verfassung", "english": "constitution" },
+          { "german": "Grundgesetz", "english": "Basic Law" }
+        ]
+      },
+      "notes": "The constitution of Germany is officially known as the 'Grundgesetz' or 'Basic Law,' which has governed the country since 1949.",
+      "learningTechniques": "Remember that 'Grundgesetz' literally translates to 'Basic Law,' emphasizing the fundamental legal framework of Germany.",
+      "resources": [
+        {
+          "description": "Overview of the German Basic Law.",
+          "url": "https://en.wikipedia.org/wiki/Basic_Law_for_the_Federal_Republic_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 12,
+      "germanQuestion": "Eine Partei im Deutschen Bundestag will die Pressefreiheit abschaffen. Ist das möglich?",
+      "englishQuestion": "A party in the German Bundestag wants to abolish freedom of the press. Is that possible?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Ja, wenn mehr als die Hälfte der Abgeordneten im Bundestag dafür sind.",
+          "englishOption": "Yes, if more than half of the members of the Bundestag are in favor.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Ja, aber dazu müssen zwei Drittel der Abgeordneten im Bundestag dafür sein.",
+          "englishOption": "Yes, but two-thirds of the members of the Bundestag must be in favor.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Nein, denn die Pressefreiheit ist ein Grundrecht. Sie kann nicht abgeschafft werden.",
+          "englishOption": "No, because freedom of the press is a fundamental right. It cannot be abolished.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Nein, denn nur der Bundesrat kann die Pressefreiheit abschaffen.",
+          "englishOption": "No, because only the Bundesrat can abolish freedom of the press.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Pressefreiheit", "english": "freedom of the press" },
+          { "german": "Grundrecht", "english": "fundamental right" },
+          { "german": "Bundestag", "english": "Bundestag" },
+          { "german": "Bundesrat", "english": "Bundesrat" }
+        ]
+      },
+      "notes": "Freedom of the press is a fundamental right protected by the German constitution and cannot be abolished, even by a majority in the Bundestag.",
+      "learningTechniques": "Recall that 'Pressefreiheit' is one of the essential democratic rights in Germany, protected under the Basic Law.",
+      "resources": [
+        {
+          "description": "Overview of press freedom in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Freedom_of_the_press_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 13,
+      "germanQuestion": "Im Parlament steht der Begriff 'Opposition' für …",
+      "englishQuestion": "In parliament, the term 'opposition' stands for …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die regierenden Parteien.",
+          "englishOption": "the ruling parties.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Fraktion mit den meisten Abgeordneten.",
+          "englishOption": "the faction with the most members of parliament.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "alle Parteien, die bei der letzten Wahl die 5%-Hürde erreichen konnten.",
+          "englishOption": "all parties that were able to pass the 5% threshold in the last election.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "alle Abgeordneten, die nicht zu der Regierungspartei/den Regierungsparteien gehören.",
+          "englishOption": "all members of parliament who do not belong to the ruling party/parties.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Opposition", "english": "opposition" },
+          { "german": "Regierungspartei", "english": "ruling party" }
+        ]
+      },
+      "notes": "In a parliamentary system, the opposition consists of all members of parliament who are not part of the ruling government or ruling parties.",
+      "learningTechniques": "Think of 'Opposition' as the group that opposes the current government or ruling parties in parliament.",
+      "resources": [
+        {
+          "description": "Overview of the role of opposition in the German parliamentary system.",
+          "url": "https://en.wikipedia.org/wiki/Opposition_(parliamentary)"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 14,
+      "germanQuestion": "Meinungsfreiheit in Deutschland heißt zum Beispiel, dass ich …",
+      "englishQuestion": "Freedom of expression in Germany means, for example, that I …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Passanten auf der Straße beschimpfen darf.",
+          "englishOption": "may insult passersby on the street.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "meine Meinung im Internet äußern kann.",
+          "englishOption": "can express my opinion on the internet.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Nazi-, Hamas- oder Islamischer Staat-Symbole öffentlich tragen darf.",
+          "englishOption": "may publicly display Nazi, Hamas, or Islamic State symbols.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "meine Meinung nur dann äußern darf, solange ich der Regierung nicht widerspreche.",
+          "englishOption": "may express my opinion only as long as I do not contradict the government.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Meinungsfreiheit", "english": "freedom of expression" },
+          { "german": "Passanten", "english": "passersby" },
+          { "german": "Symbole", "english": "symbols" }
+        ]
+      },
+      "notes": "Freedom of expression in Germany allows individuals to express their opinions, including online, but it does not protect hate speech or the use of symbols from banned organizations like Nazi groups.",
+      "learningTechniques": "Remember that 'Meinungsfreiheit' guarantees the right to express opinions freely, but within the limits of the law, especially regarding hate speech and extremist symbols.",
+      "resources": [
+        {
+          "description": "Learn more about freedom of expression in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Freedom_of_speech_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 15,
+      "germanQuestion": "Was verbietet das deutsche Grundgesetz?",
+      "englishQuestion": "What does the German Basic Law prohibit?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Militärdienst",
+          "englishOption": "Military service",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Zwangsarbeit",
+          "englishOption": "Forced labor",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "freie Berufswahl",
+          "englishOption": "Free choice of profession",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Arbeit im Ausland",
+          "englishOption": "Work abroad",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Grundgesetz", "english": "Basic Law" },
+          { "german": "Zwangsarbeit", "english": "forced labor" },
+          { "german": "Berufswahl", "english": "choice of profession" }
+        ]
+      },
+      "notes": "The German Basic Law explicitly prohibits forced labor, protecting individual freedom in work and profession.",
+      "learningTechniques": "Remember that 'Zwangsarbeit' is a violation of human rights, and the German constitution ensures freedom from such practices.",
+      "resources": [
+        {
+          "description": "More about labor rights in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Labor_law_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 16,
+      "germanQuestion": "Wann ist die Meinungsfreiheit in Deutschland eingeschränkt?",
+      "englishQuestion": "When is freedom of expression restricted in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "bei der öffentlichen Verbreitung falscher Behauptungen über einzelne Personen",
+          "englishOption": "when publicly spreading false statements about individuals",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "bei Meinungsäußerungen über die Bundesregierung",
+          "englishOption": "when expressing opinions about the federal government",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "bei Diskussionen über Religionen",
+          "englishOption": "when discussing religions",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "bei Kritik am Staat",
+          "englishOption": "when criticizing the state",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Meinungsfreiheit", "english": "freedom of expression" },
+          { "german": "Behauptungen", "english": "statements" },
+          { "german": "Personen", "english": "individuals" }
+        ]
+      },
+      "notes": "Freedom of expression in Germany is a fundamental right, but it is limited in cases where it infringes on the rights of others, such as spreading false statements about individuals.",
+      "learningTechniques": "Remember that freedom of expression is protected but not absolute, especially in cases of defamation or spreading false information.",
+      "resources": [
+        {
+          "description": "More about freedom of speech laws in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Freedom_of_speech_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 17,
+      "germanQuestion": "Die deutschen Gesetze verbieten …",
+      "englishQuestion": "German laws prohibit …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Meinungsfreiheit der Einwohnerinnen und Einwohner.",
+          "englishOption": "freedom of expression for residents.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Petitionen der Bürgerinnen und Bürger.",
+          "englishOption": "petitions by citizens.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Versammlungsfreiheit der Einwohnerinnen und Einwohner.",
+          "englishOption": "freedom of assembly for residents.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Ungleichbehandlung der Bürgerinnen und Bürger durch den Staat.",
+          "englishOption": "unequal treatment of citizens by the state.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Gesetze", "english": "laws" },
+          { "german": "Meinungsfreiheit", "english": "freedom of expression" },
+          { "german": "Petitionen", "english": "petitions" },
+          {
+            "german": "Versammlungsfreiheit",
+            "english": "freedom of assembly"
+          },
+          { "german": "Ungleichbehandlung", "english": "unequal treatment" }
+        ]
+      },
+      "notes": "German laws prohibit unequal treatment of citizens by the state, ensuring equality and protection under the law.",
+      "learningTechniques": "Focus on the fact that 'Ungleichbehandlung' is prohibited, ensuring equality for all citizens in the eyes of the state.",
+      "resources": [
+        {
+          "description": "More about anti-discrimination laws in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Anti-discrimination_law_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 18,
+      "germanQuestion": "Welches Grundrecht ist in Artikel 1 des Grundgesetzes der Bundesrepublik Deutschland garantiert?",
+      "englishQuestion": "Which fundamental right is guaranteed in Article 1 of the Basic Law of the Federal Republic of Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die Unantastbarkeit der Menschenwürde",
+          "englishOption": "the inviolability of human dignity",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "das Recht auf Leben",
+          "englishOption": "the right to life",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Religionsfreiheit",
+          "englishOption": "freedom of religion",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Meinungsfreiheit",
+          "englishOption": "freedom of speech",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Grundrecht", "english": "fundamental right" },
+          { "german": "Menschenwürde", "english": "human dignity" }
+        ]
+      },
+      "notes": "Article 1 of the German Basic Law states that human dignity is inviolable. This is the cornerstone of all fundamental rights in Germany.",
+      "learningTechniques": "Remember that Article 1 of the Basic Law focuses on 'Menschenwürde' (human dignity), which is considered the highest principle.",
+      "resources": [
+        {
+          "description": "Learn more about the Basic Law's Article 1 and human dignity in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Basic_Law_for_the_Federal_Republic_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 19,
+      "germanQuestion": "Was versteht man unter dem Recht der 'Freizügigkeit' in Deutschland?",
+      "englishQuestion": "What is meant by the right of 'freedom of movement' in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Man darf sich seinen Wohnort selbst aussuchen.",
+          "englishOption": "You are allowed to choose your place of residence.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Man kann seinen Beruf wechseln.",
+          "englishOption": "You can change your profession.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Man darf sich für eine andere Religion entscheiden.",
+          "englishOption": "You can choose a different religion.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Man darf sich in der Öffentlichkeit nur leicht bekleidet bewegen.",
+          "englishOption": "You are allowed to move in public only lightly dressed.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Freizügigkeit", "english": "freedom of movement" },
+          { "german": "Wohnort", "english": "place of residence" }
+        ]
+      },
+      "notes": "The right to 'Freizügigkeit' in Germany refers to the ability to choose where you live, a key aspect of personal freedom.",
+      "learningTechniques": "Link 'Freizügigkeit' with the freedom to move and settle freely within the country.",
+      "resources": [
+        {
+          "description": "Learn more about the right to freedom of movement in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Freedom_of_movement"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 20,
+      "germanQuestion": "Eine Partei in Deutschland verfolgt das Ziel, eine Diktatur zu errichten. Sie ist dann …",
+      "englishQuestion": "A party in Germany pursues the goal of establishing a dictatorship. It is then …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "tolerant.",
+          "englishOption": "tolerant.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "rechtsstaatlich orientiert.",
+          "englishOption": "oriented towards the rule of law.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "gesetzestreu.",
+          "englishOption": "law-abiding.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "verfassungswidrig.",
+          "englishOption": "unconstitutional.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Diktatur", "english": "dictatorship" },
+          { "german": "verfassungswidrig", "english": "unconstitutional" }
+        ]
+      },
+      "notes": "Any political party in Germany that aims to establish a dictatorship is considered 'verfassungswidrig' (unconstitutional) because it contradicts the democratic principles enshrined in the Basic Law.",
+      "learningTechniques": "Remember that 'verfassungswidrig' refers to actions or goals that go against the constitution, such as the pursuit of a dictatorship.",
+      "resources": [
+        {
+          "description": "Learn more about the constitutional law in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Constitutional_law_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 21,
+      "germanQuestion": "Welches ist das Wappen der Bundesrepublik Deutschland?",
+      "englishQuestion": "Which is the coat of arms of the Federal Republic of Germany?",
+      "type": "single",
+      "answerType": "image",
+      "options": [
+        {
+          "germanOption": "Bild 1",
+          "englishOption": "Image 1",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Bild 2",
+          "englishOption": "Image 2",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bild 3",
+          "englishOption": "Image 3",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bild 4",
+          "englishOption": "Image 4",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerTag": "Add correct answer here later",
+      "importantWords": {
+        "nouns": [
+          { "german": "Wappen", "english": "coat of arms" },
+          {
+            "german": "Bundesrepublik Deutschland",
+            "english": "Federal Republic of Germany"
+          }
+        ]
+      },
+      "notes": "The coat of arms of Germany is a significant national symbol. It typically depicts an eagle.",
+      "learningTechniques": "Remember that the German coat of arms features an eagle, which has been a symbol of Germany for centuries.",
+      "resources": [
+        {
+          "description": "Learn more about the coat of arms of Germany.",
+          "url": "https://en.wikipedia.org/wiki/Coat_of_arms_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 22,
+      "germanQuestion": "Was für eine Staatsform hat Deutschland?",
+      "englishQuestion": "What form of government does Germany have?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Monarchie",
+          "englishOption": "Monarchy",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Diktatur",
+          "englishOption": "Dictatorship",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Republik",
+          "englishOption": "Republic",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Fürstentum",
+          "englishOption": "Principality",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Staatsform", "english": "form of government" },
+          { "german": "Republik", "english": "republic" }
+        ]
+      },
+      "notes": "Germany is a federal republic, meaning it is a democratic state without a monarch, ruled by elected representatives.",
+      "learningTechniques": "Remember that Germany is a 'Republik,' emphasizing its democratic governance structure.",
+      "resources": [
+        {
+          "description": "Learn more about the government system of Germany.",
+          "url": "https://en.wikipedia.org/wiki/Politics_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 23,
+      "germanQuestion": "In Deutschland sind die meisten Erwerbstätigen …",
+      "englishQuestion": "In Germany, most employed people are …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "in kleinen Familienunternehmen beschäftigt.",
+          "englishOption": "employed in small family businesses.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "ehrenamtlich für ein Bundesland tätig.",
+          "englishOption": "volunteering for a federal state.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "selbstständig mit einer eigenen Firma tätig.",
+          "englishOption": "self-employed with their own company.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "bei einer Firma oder Behörde beschäftigt.",
+          "englishOption": "employed by a company or government agency.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Erwerbstätigen", "english": "employed people" },
+          { "german": "Firma", "english": "company" },
+          { "german": "Behörde", "english": "government agency" }
+        ]
+      },
+      "notes": "In Germany, the majority of employed people work for companies or government agencies rather than being self-employed or working in small family businesses.",
+      "learningTechniques": "Focus on the fact that most employment in Germany is structured around companies and public institutions.",
+      "resources": [
+        {
+          "description": "Learn more about employment structures in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Economy_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 24,
+      "germanQuestion": "Wie viele Bundesländer hat die Bundesrepublik Deutschland?",
+      "englishQuestion": "How many federal states does the Federal Republic of Germany have?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "14",
+          "englishOption": "14",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "15",
+          "englishOption": "15",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "16",
+          "englishOption": "16",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "17",
+          "englishOption": "17",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundesländer", "english": "federal states" },
+          {
+            "german": "Bundesrepublik Deutschland",
+            "english": "Federal Republic of Germany"
+          }
+        ]
+      },
+      "notes": "Germany is made up of 16 federal states (Bundesländer), each with its own government.",
+      "learningTechniques": "Remember the number 16 when thinking about the structure of Germany's federal system.",
+      "resources": [
+        {
+          "description": "Learn more about the federal states of Germany.",
+          "url": "https://en.wikipedia.org/wiki/States_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 25,
+      "germanQuestion": "Was ist kein Bundesland der Bundesrepublik Deutschland?",
+      "englishQuestion": "Which is not a federal state of the Federal Republic of Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Elsass-Lothringen",
+          "englishOption": "Alsace-Lorraine",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Nordrhein-Westfalen",
+          "englishOption": "North Rhine-Westphalia",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Mecklenburg-Vorpommern",
+          "englishOption": "Mecklenburg-Western Pomerania",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sachsen-Anhalt",
+          "englishOption": "Saxony-Anhalt",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundesland", "english": "federal state" },
+          {
+            "german": "Bundesrepublik Deutschland",
+            "english": "Federal Republic of Germany"
+          },
+          { "german": "Elsass-Lothringen", "english": "Alsace-Lorraine" }
+        ]
+      },
+      "notes": "Elsass-Lothringen (Alsace-Lorraine) is not a federal state of Germany. It is a region that historically changed hands between France and Germany but is currently part of France.",
+      "learningTechniques": "Remember that 'Elsass-Lothringen' is a region in France, not a federal state of Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the federal states of Germany.",
+          "url": "https://en.wikipedia.org/wiki/States_of_Germany"
+        },
+        {
+          "description": "Learn more about the region of Alsace-Lorraine.",
+          "url": "https://en.wikipedia.org/wiki/Alsace-Lorraine"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 26,
+      "germanQuestion": "Deutschland ist …",
+      "englishQuestion": "Germany is …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "eine kommunistische Republik.",
+          "englishOption": "a communist republic.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "ein demokratischer und sozialer Bundesstaat.",
+          "englishOption": "a democratic and social federal state.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "eine kapitalistische und soziale Monarchie.",
+          "englishOption": "a capitalist and social monarchy.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "ein sozialer und sozialistischer Bundesstaat.",
+          "englishOption": "a social and socialist federal state.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "demokratischer", "english": "democratic" },
+          {
+            "german": "sozialer Bundesstaat",
+            "english": "social federal state"
+          },
+          {
+            "german": "kommunistische Republik",
+            "english": "communist republic"
+          }
+        ]
+      },
+      "notes": "Germany is defined as a democratic and social federal state in its constitution, ensuring both democratic governance and social welfare.",
+      "learningTechniques": "Link Germany's system with both democracy and a strong social welfare structure.",
+      "resources": [
+        {
+          "description": "Learn more about the political system of Germany.",
+          "url": "https://en.wikipedia.org/wiki/Politics_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 27,
+      "germanQuestion": "Deutschland ist …",
+      "englishQuestion": "Germany is …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "ein sozialistischer Staat.",
+          "englishOption": "a socialist state.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "ein Bundesstaat.",
+          "englishOption": "a federal state.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "eine Diktatur.",
+          "englishOption": "a dictatorship.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine Monarchie.",
+          "englishOption": "a monarchy.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundesstaat", "english": "federal state" },
+          { "german": "sozialistischer Staat", "english": "socialist state" }
+        ]
+      },
+      "notes": "Germany is a federal state, meaning it has a division of powers between the federal government and individual states (Bundesländer).",
+      "learningTechniques": "Focus on Germany's structure as a 'Bundesstaat,' or federal state, with shared power between national and state governments.",
+      "resources": [
+        {
+          "description": "Learn more about the federal structure of Germany.",
+          "url": "https://en.wikipedia.org/wiki/Federalism_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 28,
+      "germanQuestion": "Wer wählt in Deutschland die Abgeordneten zum Bundestag?",
+      "englishQuestion": "Who elects the members of the Bundestag in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "das Militär",
+          "englishOption": "the military",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Wirtschaft",
+          "englishOption": "the economy",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "das wahlberechtigte Volk",
+          "englishOption": "the eligible voters",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die Verwaltung",
+          "englishOption": "the administration",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Abgeordneten", "english": "members of parliament" },
+          { "german": "Bundestag", "english": "Bundestag" },
+          { "german": "wahlberechtigte Volk", "english": "eligible voters" }
+        ]
+      },
+      "notes": "The members of the Bundestag, Germany's federal parliament, are elected by the eligible voting population in free and fair elections.",
+      "learningTechniques": "Remember that in a democracy like Germany, the power to elect representatives lies with the people ('wahlberechtigte Volk').",
+      "resources": [
+        {
+          "description": "Learn more about the Bundestag and its election process.",
+          "url": "https://en.wikipedia.org/wiki/Bundestag"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 29,
+      "germanQuestion": "Welches Tier ist das Wappentier der Bundesrepublik Deutschland?",
+      "englishQuestion": "Which animal is the emblem of the Federal Republic of Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Löwe",
+          "englishOption": "lion",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Adler",
+          "englishOption": "eagle",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Bär",
+          "englishOption": "bear",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Pferd",
+          "englishOption": "horse",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Wappentier", "english": "emblem" },
+          {
+            "german": "Bundesrepublik Deutschland",
+            "english": "Federal Republic of Germany"
+          }
+        ]
+      },
+      "notes": "The eagle ('Adler') is the national emblem of Germany, symbolizing strength and freedom.",
+      "learningTechniques": "Remember that the eagle has historically been a symbol of power and sovereignty in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the national symbols of Germany.",
+          "url": "https://en.wikipedia.org/wiki/Coat_of_arms_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 30,
+      "germanQuestion": "Was ist kein Merkmal unserer Demokratie?",
+      "englishQuestion": "Which is not a feature of our democracy?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "regelmäßige Wahlen",
+          "englishOption": "regular elections",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Pressezensur",
+          "englishOption": "press censorship",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Meinungsfreiheit",
+          "englishOption": "freedom of speech",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "verschiedene Parteien",
+          "englishOption": "different parties",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Demokratie", "english": "democracy" },
+          { "german": "Pressezensur", "english": "press censorship" },
+          { "german": "Meinungsfreiheit", "english": "freedom of speech" },
+          { "german": "Parteien", "english": "parties" }
+        ]
+      },
+      "notes": "Press censorship is not a feature of democracy. Instead, democracy is characterized by regular elections, freedom of speech, and the presence of multiple political parties.",
+      "learningTechniques": "Focus on the principles of democracy, which oppose censorship and support free expression.",
+      "resources": [
+        {
+          "description": "Learn more about the features of democratic systems.",
+          "url": "https://en.wikipedia.org/wiki/Democracy"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 31,
+      "germanQuestion": "Die Zusammenarbeit von Parteien zur Bildung einer Regierung nennt man in Deutschland …",
+      "englishQuestion": "The collaboration of parties to form a government in Germany is called …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Einheit.",
+          "englishOption": "unity.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Koalition.",
+          "englishOption": "coalition.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Ministerium.",
+          "englishOption": "ministry.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Fraktion.",
+          "englishOption": "faction.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Zusammenarbeit", "english": "collaboration" },
+          { "german": "Parteien", "english": "parties" },
+          { "german": "Regierung", "english": "government" },
+          { "german": "Koalition", "english": "coalition" }
+        ]
+      },
+      "notes": "In Germany, when multiple political parties collaborate to form a government, it is called a 'Koalition' (coalition).",
+      "learningTechniques": "Remember that 'Koalition' refers to the partnership of different parties working together to govern.",
+      "resources": [
+        {
+          "description": "Learn more about coalitions in German politics.",
+          "url": "https://en.wikipedia.org/wiki/Politics_of_Germany#Coalitions"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 32,
+      "germanQuestion": "Was ist keine staatliche Gewalt in Deutschland?",
+      "englishQuestion": "Which is not a state authority in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Gesetzgebung",
+          "englishOption": "Legislation",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Regierung",
+          "englishOption": "Government",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Presse",
+          "englishOption": "Press",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Rechtsprechung",
+          "englishOption": "Judiciary",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "staatliche Gewalt", "english": "state authority" },
+          { "german": "Gesetzgebung", "english": "legislation" },
+          { "german": "Regierung", "english": "government" },
+          { "german": "Presse", "english": "press" },
+          { "german": "Rechtsprechung", "english": "judiciary" }
+        ]
+      },
+      "notes": "In Germany, the state powers are divided into the legislative, executive, and judiciary branches. The press is free and not considered a state authority.",
+      "learningTechniques": "Remember that the press is independent of state authority and acts as a watchdog in democratic systems.",
+      "resources": [
+        {
+          "description": "Learn more about the separation of powers in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Politics_of_Germany#Separation_of_powers"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 33,
+      "germanQuestion": "Welche Aussage ist richtig? In Deutschland …",
+      "englishQuestion": "Which statement is correct? In Germany …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "sind Staat und Religionsgemeinschaften voneinander getrennt.",
+          "englishOption": "state and religious communities are separate.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "bilden die Religionsgemeinschaften den Staat.",
+          "englishOption": "religious communities form the state.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "ist der Staat abhängig von den Religionsgemeinschaften.",
+          "englishOption": "the state depends on religious communities.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "bilden Staat und Religionsgemeinschaften eine Einheit.",
+          "englishOption": "state and religious communities form a unity.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Staat", "english": "state" },
+          {
+            "german": "Religionsgemeinschaften",
+            "english": "religious communities"
+          },
+          { "german": "Einheit", "english": "unity" }
+        ]
+      },
+      "notes": "In Germany, there is a clear separation between state and religion, ensuring that religious institutions do not control or form the state.",
+      "learningTechniques": "Focus on the principle of secularism in Germany, which separates state functions from religious influences.",
+      "resources": [
+        {
+          "description": "Learn more about the relationship between state and religion in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Secularism_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 34,
+      "germanQuestion": "Was ist Deutschland nicht?",
+      "englishQuestion": "What is Germany not?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "eine Demokratie",
+          "englishOption": "a democracy",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "ein Rechtsstaat",
+          "englishOption": "a constitutional state",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine Monarchie",
+          "englishOption": "a monarchy",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "ein Sozialstaat",
+          "englishOption": "a welfare state",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Demokratie", "english": "democracy" },
+          { "german": "Rechtsstaat", "english": "constitutional state" },
+          { "german": "Monarchie", "english": "monarchy" },
+          { "german": "Sozialstaat", "english": "welfare state" }
+        ]
+      },
+      "notes": "Germany is a democracy, a constitutional state, and a welfare state, but it is not a monarchy.",
+      "learningTechniques": "Focus on the fact that Germany is a republic with democratic and social principles, not a monarchy.",
+      "resources": [
+        {
+          "description": "Learn more about the political structure of Germany.",
+          "url": "https://en.wikipedia.org/wiki/Politics_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 35,
+      "germanQuestion": "Womit finanziert der deutsche Staat die Sozialversicherung?",
+      "englishQuestion": "How does the German state finance social security?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Kirchensteuer",
+          "englishOption": "church tax",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sozialabgaben",
+          "englishOption": "social contributions",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Spendengeldern",
+          "englishOption": "donations",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Vereinsbeiträgen",
+          "englishOption": "membership fees",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Sozialversicherung", "english": "social security" },
+          { "german": "Sozialabgaben", "english": "social contributions" },
+          { "german": "Kirchensteuer", "english": "church tax" },
+          { "german": "Spendengelder", "english": "donations" },
+          { "german": "Vereinsbeiträge", "english": "membership fees" }
+        ]
+      },
+      "notes": "Germany finances its social security system primarily through 'Sozialabgaben,' which are social contributions made by employees and employers.",
+      "learningTechniques": "Remember that 'Sozialabgaben' are the key financial source for Germany's extensive social security system.",
+      "resources": [
+        {
+          "description": "Learn more about the social security system in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Social_security_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 36,
+      "germanQuestion": "Welche Maßnahme schafft in Deutschland soziale Sicherheit?",
+      "englishQuestion": "Which measure creates social security in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die Krankenversicherung",
+          "englishOption": "health insurance",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die Autoversicherung",
+          "englishOption": "car insurance",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Gebäudeversicherung",
+          "englishOption": "building insurance",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Haftpflichtversicherung",
+          "englishOption": "liability insurance",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Maßnahme", "english": "measure" },
+          { "german": "soziale Sicherheit", "english": "social security" },
+          { "german": "Krankenversicherung", "english": "health insurance" }
+        ]
+      },
+      "notes": "In Germany, social security is primarily achieved through the health insurance system ('Krankenversicherung'), which ensures access to healthcare for all citizens.",
+      "learningTechniques": "Associate 'Krankenversicherung' with the concept of social security, which ensures that health-related needs are met for everyone.",
+      "resources": [
+        {
+          "description": "Learn more about health insurance and social security in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Healthcare_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 37,
+      "germanQuestion": "Wie werden die Regierungschefinnen/Regierungschefs der meisten Bundesländer in Deutschland genannt?",
+      "englishQuestion": "What are the heads of government in most federal states in Germany called?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Erste Ministerin/Erster Minister",
+          "englishOption": "First Minister",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Premierministerin/Premierminister",
+          "englishOption": "Prime Minister",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Senatorin/Senator",
+          "englishOption": "Senator",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Ministerpräsidentin/Ministerpräsident",
+          "englishOption": "Minister-President",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Regierungschefin/Regierungschef",
+            "english": "head of government"
+          },
+          { "german": "Bundesländer", "english": "federal states" },
+          {
+            "german": "Ministerpräsidentin/Ministerpräsident",
+            "english": "Minister-President"
+          }
+        ]
+      },
+      "notes": "In Germany, the head of government in most federal states is called 'Ministerpräsidentin' or 'Ministerpräsident,' which is equivalent to 'Minister-President.'",
+      "learningTechniques": "Remember that 'Ministerpräsident' refers to the political leader of a German federal state, similar to a governor in other federal systems.",
+      "resources": [
+        {
+          "description": "Learn more about the political structure of German federal states.",
+          "url": "https://en.wikipedia.org/wiki/Minister-President"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 38,
+      "germanQuestion": "Die Bundesrepublik Deutschland ist ein demokratischer und sozialer …",
+      "englishQuestion": "The Federal Republic of Germany is a democratic and social …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Staatenverbund",
+          "englishOption": "confederation",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bundesstaat",
+          "englishOption": "federal state",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Staatenbund",
+          "englishOption": "federation",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Zentralstaat",
+          "englishOption": "central state",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundesrepublik", "english": "Federal Republic" },
+          { "german": "Bundesstaat", "english": "federal state" }
+        ]
+      },
+      "notes": "Germany is a federal state ('Bundesstaat'), where power is divided between the federal government and individual states.",
+      "learningTechniques": "Remember that Germany is a 'Bundesstaat' (federal state), meaning power is shared between the federal and state governments.",
+      "resources": [
+        {
+          "description": "Learn more about Germany's political system.",
+          "url": "https://en.wikipedia.org/wiki/Federalism_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 39,
+      "germanQuestion": "Was hat jedes deutsche Bundesland?",
+      "englishQuestion": "What does every German federal state have?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "eine eigene Außenministerin/einen eigenen Außenminister",
+          "englishOption": "its own Foreign Minister",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine eigene Währung",
+          "englishOption": "its own currency",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine eigene Armee",
+          "englishOption": "its own army",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine eigene Regierung",
+          "englishOption": "its own government",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundesland", "english": "federal state" },
+          { "german": "Regierung", "english": "government" }
+        ]
+      },
+      "notes": "Each German federal state has its own government responsible for managing certain areas such as education and law enforcement.",
+      "learningTechniques": "Remember that every German state ('Bundesland') has its own government, unlike areas like foreign policy, which are handled federally.",
+      "resources": [
+        {
+          "description": "Learn more about the structure of German states.",
+          "url": "https://en.wikipedia.org/wiki/States_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 40,
+      "germanQuestion": "Mit welchen Worten beginnt die deutsche Nationalhymne?",
+      "englishQuestion": "What are the opening words of the German national anthem?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Völker, hört die Signale …",
+          "englishOption": "People, hear the signals …",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Einigkeit und Recht und Freiheit …",
+          "englishOption": "Unity and justice and freedom …",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Freude schöner Götterfunken …",
+          "englishOption": "Joy, beautiful spark of the gods …",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Deutschland einig Vaterland …",
+          "englishOption": "Germany, united fatherland …",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Nationalhymne", "english": "national anthem" },
+          { "german": "Einigkeit", "english": "unity" },
+          { "german": "Freiheit", "english": "freedom" }
+        ]
+      },
+      "notes": "The German national anthem starts with the words 'Einigkeit und Recht und Freiheit' (Unity and justice and freedom).",
+      "learningTechniques": "Remember that the German national anthem emphasizes core values like unity and freedom from the very first words.",
+      "resources": [
+        {
+          "description": "Learn more about the German national anthem.",
+          "url": "https://en.wikipedia.org/wiki/Deutschlandlied"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 41,
+      "germanQuestion": "Warum gibt es in einer Demokratie mehr als eine Partei?",
+      "englishQuestion": "Why are there more than one party in a democracy?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "weil dadurch die unterschiedlichen Meinungen der Bürgerinnen und Bürger vertreten werden",
+          "englishOption": "because it allows the different opinions of citizens to be represented",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "damit Bestechung in der Politik begrenzt wird",
+          "englishOption": "to limit bribery in politics",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "um politische Demonstrationen zu verhindern",
+          "englishOption": "to prevent political demonstrations",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "um wirtschaftlichen Wettbewerb anzuregen",
+          "englishOption": "to encourage economic competition",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Demokratie", "english": "democracy" },
+          { "german": "Partei", "english": "party" },
+          { "german": "Meinungen", "english": "opinions" }
+        ]
+      },
+      "notes": "In a democracy, having multiple parties ensures that the diverse opinions of the population are represented in the political system.",
+      "learningTechniques": "Remember that a core principle of democracy is the representation of various opinions, which is achieved by having multiple political parties.",
+      "resources": [
+        {
+          "description": "Learn more about the role of political parties in a democracy.",
+          "url": "https://en.wikipedia.org/wiki/Political_party"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 42,
+      "germanQuestion": "Wer beschließt in Deutschland ein neues Gesetz?",
+      "englishQuestion": "Who passes a new law in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die Regierung",
+          "englishOption": "the government",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "das Parlament",
+          "englishOption": "the parliament",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die Gerichte",
+          "englishOption": "the courts",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Polizei",
+          "englishOption": "the police",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Gesetz", "english": "law" },
+          { "german": "Parlament", "english": "parliament" },
+          { "german": "Regierung", "english": "government" }
+        ]
+      },
+      "notes": "In Germany, new laws are passed by the parliament, known as the Bundestag, which is the legislative branch of government.",
+      "learningTechniques": "Focus on the fact that the legislative power to pass laws rests with the parliament (Bundestag) in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the legislative process in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Politics_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 43,
+      "germanQuestion": "Wann kann in Deutschland eine Partei verboten werden?",
+      "englishQuestion": "When can a party be banned in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "wenn ihr Wahlkampf zu teuer ist",
+          "englishOption": "if its election campaign is too expensive",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "wenn sie gegen die Verfassung kämpft",
+          "englishOption": "if it fights against the constitution",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "wenn sie Kritik am Staatsoberhaupt äußert",
+          "englishOption": "if it criticizes the head of state",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "wenn ihr Programm eine neue Richtung vorschlägt",
+          "englishOption": "if its program suggests a new direction",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Partei", "english": "party" },
+          { "german": "Verfassung", "english": "constitution" }
+        ]
+      },
+      "notes": "A party can be banned in Germany if it works against the democratic order or the constitution, as determined by the Federal Constitutional Court.",
+      "learningTechniques": "Focus on the principle that political parties in Germany must adhere to democratic principles; otherwise, they risk being banned.",
+      "resources": [
+        {
+          "description": "Learn more about the legal framework for banning parties in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Constitution_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 44,
+      "germanQuestion": "Wen kann man als Bürgerin/Bürger in Deutschland nicht direkt wählen?",
+      "englishQuestion": "Who cannot be directly elected by citizens in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Abgeordnete des EU-Parlaments",
+          "englishOption": "Members of the EU Parliament",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Die Bundespräsidentin/den Bundespräsidenten",
+          "englishOption": "The Federal President",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Landtagsabgeordnete",
+          "englishOption": "State Parliament Members",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bundestagsabgeordnete",
+          "englishOption": "Members of the Bundestag",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Bundespräsidentin/Bundespräsident",
+            "english": "Federal President"
+          },
+          { "german": "Abgeordnete", "english": "members" },
+          { "german": "Bundestag", "english": "Federal Parliament" }
+        ]
+      },
+      "notes": "In Germany, the Federal President is elected by the Federal Assembly, not directly by the citizens.",
+      "learningTechniques": "Focus on the fact that while many positions are directly elected in Germany, the Federal President is chosen by the Federal Assembly.",
+      "resources": [
+        {
+          "description": "Learn more about the German electoral system.",
+          "url": "https://en.wikipedia.org/wiki/Elections_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 45,
+      "germanQuestion": "Zu welcher Versicherung gehört die Pflegeversicherung?",
+      "englishQuestion": "Which type of insurance includes long-term care insurance?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Sozialversicherung",
+          "englishOption": "Social insurance",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Unfallversicherung",
+          "englishOption": "Accident insurance",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Hausratsversicherung",
+          "englishOption": "Home contents insurance",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Haftpflicht- und Feuerversicherung",
+          "englishOption": "Liability and fire insurance",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Pflegeversicherung",
+            "english": "long-term care insurance"
+          },
+          { "german": "Sozialversicherung", "english": "social insurance" },
+          { "german": "Versicherung", "english": "insurance" }
+        ]
+      },
+      "notes": "Long-term care insurance in Germany is part of the social insurance system, which also includes health, unemployment, and pension insurance.",
+      "learningTechniques": "Remember that care insurance ('Pflegeversicherung') is a component of Germany's comprehensive social insurance system.",
+      "resources": [
+        {
+          "description": "Learn more about social insurance in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Social_insurance_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 46,
+      "germanQuestion": "Der deutsche Staat hat viele Aufgaben. Welche Aufgabe gehört dazu?",
+      "englishQuestion": "The German state has many responsibilities. Which is one of them?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Er baut Straßen und Schulen.",
+          "englishOption": "It builds roads and schools.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Er verkauft Lebensmittel und Kleidung.",
+          "englishOption": "It sells food and clothing.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Er versorgt alle Einwohnerinnen und Einwohner kostenlos mit Zeitungen.",
+          "englishOption": "It provides all residents with free newspapers.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Er produziert Autos und Busse.",
+          "englishOption": "It manufactures cars and buses.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Staat", "english": "state" },
+          { "german": "Aufgabe", "english": "task" },
+          { "german": "Straßen", "english": "roads" },
+          { "german": "Schulen", "english": "schools" }
+        ]
+      },
+      "notes": "One of the German state's main responsibilities is infrastructure development, including the construction of roads and schools.",
+      "learningTechniques": "Focus on the state's role in infrastructure, such as building public roads and schools, as key responsibilities.",
+      "resources": [
+        {
+          "description": "Learn more about the functions of the German state.",
+          "url": "https://en.wikipedia.org/wiki/Government_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 47,
+      "germanQuestion": "Der deutsche Staat hat viele Aufgaben. Welche Aufgabe gehört nicht dazu?",
+      "englishQuestion": "The German state has many responsibilities. Which is not one of them?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Er bezahlt für alle Staatsangehörigen Urlaubsreisen.",
+          "englishOption": "It pays for vacations for all citizens.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Er zahlt Kindergeld.",
+          "englishOption": "It provides child benefits.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Er unterstützt Museen.",
+          "englishOption": "It supports museums.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Er fördert Sportlerinnen und Sportler.",
+          "englishOption": "It promotes athletes.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Staat", "english": "state" },
+          { "german": "Aufgabe", "english": "responsibility" },
+          { "german": "Urlaubsreisen", "english": "vacations" },
+          { "german": "Kindergeld", "english": "child benefits" },
+          { "german": "Museen", "english": "museums" },
+          { "german": "Sportlerinnen und Sportler", "english": "athletes" }
+        ]
+      },
+      "notes": "While the German state is involved in social benefits, cultural support, and promoting sports, it does not pay for citizens' vacations.",
+      "learningTechniques": "Focus on the responsibilities the state does not take on, like personal vacation costs, to understand the limits of state involvement.",
+      "resources": [
+        {
+          "description": "Learn more about the social responsibilities of the German state.",
+          "url": "https://en.wikipedia.org/wiki/Welfare_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 48,
+      "germanQuestion": "Welches Organ gehört nicht zu den Verfassungsorganen Deutschlands?",
+      "englishQuestion": "Which body is not one of Germany's constitutional organs?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "der Bundesrat",
+          "englishOption": "the Bundesrat",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Bundespräsidentin/der Bundespräsident",
+          "englishOption": "the Federal President",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Bürgerversammlung",
+          "englishOption": "the citizens' assembly",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die Regierung",
+          "englishOption": "the government",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Verfassungsorgan", "english": "constitutional organ" },
+          { "german": "Bundesrat", "english": "Bundesrat" },
+          { "german": "Bürgerversammlung", "english": "citizens' assembly" }
+        ]
+      },
+      "notes": "The constitutional organs of Germany include institutions like the Bundesrat and the Federal President, but not a citizens' assembly.",
+      "learningTechniques": "Remember that Germany's constitutional organs are formal institutions, unlike a citizens' assembly, which is not part of the structure.",
+      "resources": [
+        {
+          "description": "Learn more about Germany's constitutional organs.",
+          "url": "https://en.wikipedia.org/wiki/Constitution_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 49,
+      "germanQuestion": "Wer bestimmt in Deutschland die Schulpolitik?",
+      "englishQuestion": "Who determines education policy in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die Lehrer und Lehrerinnen",
+          "englishOption": "the teachers",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Bundesländer",
+          "englishOption": "the federal states",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "das Familienministerium",
+          "englishOption": "the Ministry of Family Affairs",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Universitäten",
+          "englishOption": "the universities",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Schulpolitik", "english": "education policy" },
+          { "german": "Bundesländer", "english": "federal states" }
+        ]
+      },
+      "notes": "Education policy in Germany is primarily determined by the federal states ('Bundesländer'), which have their own regulations and systems.",
+      "learningTechniques": "Remember that education in Germany is decentralized, with each federal state responsible for its own policies and school systems.",
+      "resources": [
+        {
+          "description": "Learn more about the education system in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Education_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 50,
+      "germanQuestion": "Die Wirtschaftsform in Deutschland nennt man …",
+      "englishQuestion": "The economic system in Germany is called …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "freie Zentralwirtschaft",
+          "englishOption": "free central economy",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "soziale Marktwirtschaft",
+          "englishOption": "social market economy",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "gelenkte Zentralwirtschaft",
+          "englishOption": "controlled central economy",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Planwirtschaft",
+          "englishOption": "planned economy",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Wirtschaftsform", "english": "economic system" },
+          {
+            "german": "soziale Marktwirtschaft",
+            "english": "social market economy"
+          }
+        ]
+      },
+      "notes": "Germany's economic system is called a 'soziale Marktwirtschaft' (social market economy), which combines a free market with social policies to ensure fair competition and welfare.",
+      "learningTechniques": "Focus on the term 'soziale Marktwirtschaft,' which emphasizes both market freedom and social welfare measures.",
+      "resources": [
+        {
+          "description": "Learn more about Germany's social market economy.",
+          "url": "https://en.wikipedia.org/wiki/Social_market_economy"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 51,
+      "germanQuestion": "Zu einem demokratischen Rechtsstaat gehört es nicht, dass …",
+      "englishQuestion": "A democratic constitutional state does not include …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Menschen sich kritisch über die Regierung äußern können.",
+          "englishOption": "people can express criticism of the government.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bürger friedlich demonstrieren gehen dürfen.",
+          "englishOption": "citizens can peacefully protest.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Menschen von einer Privatpolizei ohne Grund verhaftet werden.",
+          "englishOption": "people are arrested without reason by a private police force.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "jemand ein Verbrechen begeht und deshalb verhaftet wird.",
+          "englishOption": "someone commits a crime and is therefore arrested.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Rechtsstaat", "english": "constitutional state" },
+          { "german": "Privatpolizei", "english": "private police force" },
+          { "german": "Verhaftung", "english": "arrest" }
+        ]
+      },
+      "notes": "In a democratic constitutional state, law enforcement is governed by the state, and people cannot be arrested without cause by a private entity.",
+      "learningTechniques": "Focus on the principle that only state authorities can enforce the law, ensuring that arrests are carried out legally and with due process.",
+      "resources": [
+        {
+          "description": "Learn more about the rule of law in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Rule_of_law_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 52,
+      "germanQuestion": "Was bedeutet 'Volkssouveränität'? Alle Staatsgewalt geht vom ...",
+      "englishQuestion": "What does 'popular sovereignty' mean? All state authority emanates from the …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Volke aus.",
+          "englishOption": "people.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Bundestag aus.",
+          "englishOption": "Bundestag.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "preußischen König aus.",
+          "englishOption": "Prussian king.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bundesverfassungsgericht aus.",
+          "englishOption": "Federal Constitutional Court.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Volkssouveränität", "english": "popular sovereignty" },
+          { "german": "Staatsgewalt", "english": "state authority" },
+          { "german": "Volk", "english": "people" }
+        ]
+      },
+      "notes": "Popular sovereignty ('Volkssouveränität') means that all governmental power comes from the people, a fundamental principle of democracy.",
+      "learningTechniques": "Remember that in a democracy, the people are the source of all state power, which is known as 'Volkssouveränität.'",
+      "resources": [
+        {
+          "description": "Learn more about the concept of popular sovereignty.",
+          "url": "https://en.wikipedia.org/wiki/Popular_sovereignty"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 53,
+      "germanQuestion": "Was bedeutet 'Rechtsstaat' in Deutschland?",
+      "englishQuestion": "What does 'Rechtsstaat' mean in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Der Staat hat Recht.",
+          "englishOption": "The state is always right.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Es gibt nur rechte Parteien.",
+          "englishOption": "There are only right-wing parties.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Die Bürgerinnen und Bürger entscheiden über Gesetze.",
+          "englishOption": "Citizens decide on laws.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Der Staat muss die Gesetze einhalten.",
+          "englishOption": "The state must follow the laws.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Rechtsstaat", "english": "constitutional state" },
+          { "german": "Gesetze", "english": "laws" },
+          { "german": "Staat", "english": "state" }
+        ]
+      },
+      "notes": "In a 'Rechtsstaat' (constitutional state), the government and all state institutions are bound by law and must adhere to it.",
+      "learningTechniques": "Focus on the principle that a 'Rechtsstaat' ensures that no one, including the state, is above the law.",
+      "resources": [
+        {
+          "description": "Learn more about the concept of a 'Rechtsstaat' in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Rechtsstaat"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 54,
+      "germanQuestion": "Was ist keine staatliche Gewalt in Deutschland?",
+      "englishQuestion": "Which is not a branch of government in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Legislative",
+          "englishOption": "Legislative",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Judikative",
+          "englishOption": "Judiciary",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Exekutive",
+          "englishOption": "Executive",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Direktive",
+          "englishOption": "Directive",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "staatliche Gewalt", "english": "branch of government" },
+          { "german": "Legislative", "english": "Legislative" },
+          { "german": "Judikative", "english": "Judiciary" },
+          { "german": "Exekutive", "english": "Executive" }
+        ]
+      },
+      "notes": "Germany's government is divided into three branches: Legislative, Executive, and Judiciary. 'Directive' is not one of these branches.",
+      "learningTechniques": "Focus on the three branches of government in Germany: Legislative, Executive, and Judiciary.",
+      "resources": [
+        {
+          "description": "Learn more about the structure of the German government.",
+          "url": "https://en.wikipedia.org/wiki/Government_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 55,
+      "germanQuestion": "Was zeigt dieses Bild? © Deutscher Bundestag/Achim Melde",
+      "englishQuestion": "What does this image show? © Deutscher Bundestag/Achim Melde",
+      "type": "single",
+      "answerType": "image",
+      "imageLinks": [
+        {
+          "url": "https://example.com/bundestag.jpg",
+          "description": "Bundestag building"
+        },
+        {
+          "url": "https://example.com/bundesverfassungsgericht.jpg",
+          "description": "Federal Constitutional Court"
+        },
+        {
+          "url": "https://example.com/bundesrat.jpg",
+          "description": "Bundesrat building"
+        },
+        {
+          "url": "https://example.com/bundeskanzleramt.jpg",
+          "description": "Chancellery"
+        }
+      ],
+      "options": [
+        {
+          "germanOption": "den Bundestagssitz in Berlin",
+          "englishOption": "the Bundestag building in Berlin",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "das Bundesverfassungsgericht in Karlsruhe",
+          "englishOption": "the Federal Constitutional Court in Karlsruhe",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "das Bundesratsgebäude in Berlin",
+          "englishOption": "the Bundesrat building in Berlin",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "das Bundeskanzleramt in Berlin",
+          "englishOption": "the Chancellery in Berlin",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswerTag": "Add correct answer here later",
+      "importantWords": {
+        "nouns": [
+          { "german": "Bild", "english": "image" },
+          { "german": "Bundestagssitz", "english": "Bundestag building" },
+          {
+            "german": "Bundesverfassungsgericht",
+            "english": "Federal Constitutional Court"
+          },
+          { "german": "Bundesrat", "english": "Bundesrat" },
+          { "german": "Bundeskanzleramt", "english": "Chancellery" }
+        ]
+      },
+      "notes": "The image depicted is of a notable government building in Germany, such as the Bundestag or Bundeskanzleramt.",
+      "learningTechniques": "Familiarize yourself with Germany's key government buildings, including the Bundestag, Bundesrat, and Bundeskanzleramt.",
+      "resources": [
+        {
+          "description": "Learn more about Germany's government buildings.",
+          "url": "https://en.wikipedia.org/wiki/Bundestag"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 56,
+      "germanQuestion": "Welches Amt gehört in Deutschland zur Gemeindeverwaltung?",
+      "englishQuestion": "Which office is part of the municipal administration in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Pfarramt",
+          "englishOption": "Parish office",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Ordnungsamt",
+          "englishOption": "Public order office",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Finanzamt",
+          "englishOption": "Tax office",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Auswärtiges Amt",
+          "englishOption": "Foreign Office",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Gemeindeverwaltung",
+            "english": "municipal administration"
+          },
+          { "german": "Ordnungsamt", "english": "public order office" },
+          { "german": "Pfarramt", "english": "parish office" },
+          { "german": "Finanzamt", "english": "tax office" },
+          { "german": "Auswärtiges Amt", "english": "Foreign Office" }
+        ]
+      },
+      "notes": "The Ordnungsamt (Public Order Office) is part of municipal administration, responsible for enforcing local regulations.",
+      "learningTechniques": "Focus on local offices like the Ordnungsamt that are directly involved in municipal governance.",
+      "resources": [
+        {
+          "description": "Learn more about municipal administration in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Municipal_administration_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 57,
+      "germanQuestion": "Wer wird meistens zur Präsidentin/zum Präsidenten des Deutschen Bundestages gewählt?",
+      "englishQuestion": "Who is usually elected as the President of the German Bundestag?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die/der älteste Abgeordnete im Parlament",
+          "englishOption": "the oldest member of parliament",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Ministerpräsidentin/der Ministerpräsident des größten Bundeslandes",
+          "englishOption": "the Minister-President of the largest federal state",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine ehemalige Bundeskanzlerin/ein ehemaliger Bundeskanzler",
+          "englishOption": "a former Chancellor",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine Abgeordnete/ein Abgeordneter der stärksten Fraktion",
+          "englishOption": "a member of the largest parliamentary group",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Präsidentin/Präsident", "english": "President" },
+          { "german": "Bundestag", "english": "Bundestag" },
+          { "german": "Abgeordnete", "english": "member of parliament" },
+          { "german": "Fraktion", "english": "parliamentary group" }
+        ]
+      },
+      "notes": "The President of the Bundestag is usually elected from the largest parliamentary group, reflecting the majority party's leadership.",
+      "learningTechniques": "Remember that the President of the Bundestag comes from the largest party group, ensuring the leadership reflects the majority's interests.",
+      "resources": [
+        {
+          "description": "Learn more about the President of the Bundestag.",
+          "url": "https://en.wikipedia.org/wiki/President_of_the_Bundestag"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 58,
+      "germanQuestion": "Wer ernennt in Deutschland die Ministerinnen/die Minister der Bundesregierung?",
+      "englishQuestion": "Who appoints the ministers of the federal government in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die Präsidentin/der Präsident des Bundesverfassungsgerichtes",
+          "englishOption": "the President of the Federal Constitutional Court",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Bundespräsidentin/der Bundespräsident",
+          "englishOption": "the Federal President",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die Bundesratspräsidentin/der Bundesratspräsident",
+          "englishOption": "the President of the Bundesrat",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Bundestagspräsidentin/der Bundestagspräsident",
+          "englishOption": "the President of the Bundestag",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Ministerinnen/Minister", "english": "ministers" },
+          { "german": "Bundesregierung", "english": "federal government" },
+          {
+            "german": "Bundespräsidentin/Bundespräsident",
+            "english": "Federal President"
+          }
+        ]
+      },
+      "notes": "The Federal President appoints the ministers of the German federal government, following recommendations from the Chancellor.",
+      "learningTechniques": "Remember that the Federal President has the formal role of appointing government ministers.",
+      "resources": [
+        {
+          "description": "Learn more about the role of the Federal President in Germany.",
+          "url": "https://en.wikipedia.org/wiki/President_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 59,
+      "germanQuestion": "Vor wie vielen Jahren gab es erstmals eine jüdische Gemeinde auf dem Gebiet des heutigen Deutschlands?",
+      "englishQuestion": "How many years ago did the first Jewish community exist in the area of present-day Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "vor etwa 300 Jahren",
+          "englishOption": "about 300 years ago",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "vor etwa 700 Jahren",
+          "englishOption": "about 700 years ago",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "vor etwa 1150 Jahren",
+          "englishOption": "about 1150 years ago",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "vor etwa 1700 Jahren",
+          "englishOption": "about 1700 years ago",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "jüdische Gemeinde", "english": "Jewish community" },
+          { "german": "Deutschland", "english": "Germany" },
+          { "german": "Jahre", "english": "years" }
+        ]
+      },
+      "notes": "The first Jewish community in the area of modern-day Germany existed approximately 1700 years ago, marking a long history of Jewish presence in the region.",
+      "learningTechniques": "Focus on the significant history of Jewish communities in Germany, dating back 1700 years.",
+      "resources": [
+        {
+          "description": "Learn more about Jewish history in Germany.",
+          "url": "https://en.wikipedia.org/wiki/History_of_the_Jews_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 60,
+      "germanQuestion": "In Deutschland gehören der Bundestag und der Bundesrat zur …",
+      "englishQuestion": "In Germany, the Bundestag and Bundesrat belong to the …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Exekutive",
+          "englishOption": "Executive",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Legislative",
+          "englishOption": "Legislative",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Direktive",
+          "englishOption": "Directive",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Judikative",
+          "englishOption": "Judiciary",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundestag", "english": "Bundestag" },
+          { "german": "Bundesrat", "english": "Bundesrat" },
+          { "german": "Legislative", "english": "Legislative" }
+        ]
+      },
+      "notes": "The Bundestag and Bundesrat are part of the legislative branch of government in Germany, responsible for making laws.",
+      "learningTechniques": "Remember that the legislative branch, which includes the Bundestag and Bundesrat, is responsible for lawmaking in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the legislative branch in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Legislature_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 61,
+      "germanQuestion": "Was bedeutet 'Volkssouveränität'?",
+      "englishQuestion": "What does 'popular sovereignty' mean?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Die Königin/der König herrscht über das Volk.",
+          "englishOption": "The queen/king rules over the people.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Das Bundesverfassungsgericht steht über der Verfassung.",
+          "englishOption": "The Federal Constitutional Court is above the constitution.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Die Interessenverbände üben die Souveränität zusammen mit der Regierung aus.",
+          "englishOption": "Interest groups exercise sovereignty together with the government.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Die Staatsgewalt geht vom Volke aus.",
+          "englishOption": "All state authority emanates from the people.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Volkssouveränität", "english": "popular sovereignty" },
+          { "german": "Staatsgewalt", "english": "state authority" },
+          { "german": "Volk", "english": "people" }
+        ]
+      },
+      "notes": "Popular sovereignty ('Volkssouveränität') means that all state authority originates from the people, which is a fundamental principle of democracy.",
+      "learningTechniques": "Remember that in a democracy, the people are the source of all state authority, known as 'Volkssouveränität.'",
+      "resources": [
+        {
+          "description": "Learn more about the concept of popular sovereignty.",
+          "url": "https://en.wikipedia.org/wiki/Popular_sovereignty"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 62,
+      "germanQuestion": "Wenn das Parlament eines deutschen Bundeslandes gewählt wird, nennt man das …",
+      "englishQuestion": "When the parliament of a German federal state is elected, it is called …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Kommunalwahl",
+          "englishOption": "municipal election",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Landtagswahl",
+          "englishOption": "state parliament election",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Europawahl",
+          "englishOption": "European election",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bundestagswahl",
+          "englishOption": "federal parliament election",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Landtagswahl", "english": "state parliament election" },
+          { "german": "Bundesland", "english": "federal state" }
+        ]
+      },
+      "notes": "When the parliament of a federal state in Germany is elected, it is referred to as a 'Landtagswahl' (state parliament election).",
+      "learningTechniques": "Remember that elections for state parliaments are called 'Landtagswahl' and are distinct from national and local elections.",
+      "resources": [
+        {
+          "description": "Learn more about elections in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Elections_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 63,
+      "germanQuestion": "Was gehört in Deutschland nicht zur Exekutive?",
+      "englishQuestion": "Which does not belong to the executive branch in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die Polizei",
+          "englishOption": "the police",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Gerichte",
+          "englishOption": "the courts",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "das Finanzamt",
+          "englishOption": "the tax office",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Ministerien",
+          "englishOption": "the ministries",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Exekutive", "english": "executive" },
+          { "german": "Polizei", "english": "police" },
+          { "german": "Gerichte", "english": "courts" },
+          { "german": "Finanzamt", "english": "tax office" },
+          { "german": "Ministerien", "english": "ministries" }
+        ]
+      },
+      "notes": "The courts ('Gerichte') belong to the judiciary, not the executive branch, which includes entities like the police, ministries, and tax offices.",
+      "learningTechniques": "Focus on the separation of powers in Germany, where the judiciary, including the courts, is separate from the executive branch.",
+      "resources": [
+        {
+          "description": "Learn more about the separation of powers in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Separation_of_powers"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 64,
+      "germanQuestion": "Die Bundesrepublik Deutschland ist heute gegliedert in …",
+      "englishQuestion": "The Federal Republic of Germany is currently divided into …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "vier Besatzungszonen",
+          "englishOption": "four occupation zones",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "einen Oststaat und einen Weststaat",
+          "englishOption": "an eastern and a western state",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "16 Kantone",
+          "englishOption": "16 cantons",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bund, Länder und Kommunen",
+          "englishOption": "federal, state, and municipal governments",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bund", "english": "federal government" },
+          { "german": "Länder", "english": "states" },
+          { "german": "Kommunen", "english": "municipalities" }
+        ]
+      },
+      "notes": "Germany is divided into three levels of government: the federal (Bund), state (Länder), and municipal (Kommunen) levels.",
+      "learningTechniques": "Remember that Germany is structured into three levels: federal, state, and municipal, reflecting its federal system.",
+      "resources": [
+        {
+          "description": "Learn more about the structure of Germany.",
+          "url": "https://en.wikipedia.org/wiki/Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 65,
+      "germanQuestion": "Es gehört nicht zu den Aufgaben des Deutschen Bundestages, …",
+      "englishQuestion": "Which of the following is not a responsibility of the German Bundestag?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Gesetze zu entwerfen",
+          "englishOption": "to draft laws",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Bundesregierung zu kontrollieren",
+          "englishOption": "to oversee the federal government",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Bundeskanzlerin/den Bundeskanzler zu wählen",
+          "englishOption": "to elect the Chancellor",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "das Bundeskabinett zu bilden",
+          "englishOption": "to form the federal cabinet",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundestag", "english": "Bundestag" },
+          { "german": "Gesetze", "english": "laws" },
+          { "german": "Bundesregierung", "english": "federal government" },
+          { "german": "Bundeskabinett", "english": "federal cabinet" }
+        ]
+      },
+      "notes": "The Bundestag's responsibilities include drafting laws, electing the Chancellor, and overseeing the government. However, forming the federal cabinet is the responsibility of the Chancellor, not the Bundestag.",
+      "learningTechniques": "Focus on the Bundestag's legislative and oversight roles, while remembering that the formation of the cabinet is the Chancellor's role.",
+      "resources": [
+        {
+          "description": "Learn more about the responsibilities of the Bundestag.",
+          "url": "https://en.wikipedia.org/wiki/Bundestag"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 66,
+      "germanQuestion": "Welche Städte haben die größten jüdischen Gemeinden in Deutschland?",
+      "englishQuestion": "Which cities have the largest Jewish communities in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Berlin und München",
+          "englishOption": "Berlin and Munich",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Hamburg und Essen",
+          "englishOption": "Hamburg and Essen",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Nürnberg und Stuttgart",
+          "englishOption": "Nuremberg and Stuttgart",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Worms und Speyer",
+          "englishOption": "Worms and Speyer",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "jüdische Gemeinden", "english": "Jewish communities" },
+          { "german": "Städte", "english": "cities" },
+          { "german": "Berlin", "english": "Berlin" },
+          { "german": "München", "english": "Munich" }
+        ]
+      },
+      "notes": "Berlin and Munich have the largest Jewish communities in Germany, reflecting the significant Jewish population in these major cities.",
+      "learningTechniques": "Remember that Berlin and Munich are home to the largest Jewish communities in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about Jewish communities in Germany.",
+          "url": "https://en.wikipedia.org/wiki/History_of_the_Jews_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 67,
+      "germanQuestion": "Was ist in Deutschland vor allem eine Aufgabe der Bundesländer?",
+      "englishQuestion": "What is primarily a responsibility of the federal states in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Verteidigungspolitik",
+          "englishOption": "defense policy",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Außenpolitik",
+          "englishOption": "foreign policy",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Wirtschaftspolitik",
+          "englishOption": "economic policy",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Schulpolitik",
+          "englishOption": "education policy",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundesländer", "english": "federal states" },
+          { "german": "Schulpolitik", "english": "education policy" }
+        ]
+      },
+      "notes": "Education policy ('Schulpolitik') is primarily the responsibility of the federal states ('Bundesländer'), each of which has its own school system.",
+      "learningTechniques": "Focus on the fact that education is decentralized in Germany, with each federal state managing its own education policies.",
+      "resources": [
+        {
+          "description": "Learn more about the responsibilities of the federal states in Germany.",
+          "url": "https://en.wikipedia.org/wiki/States_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 68,
+      "germanQuestion": "Warum kontrolliert der Staat in Deutschland das Schulwesen?",
+      "englishQuestion": "Why does the state in Germany control the education system?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "weil es in Deutschland nur staatliche Schulen gibt",
+          "englishOption": "because there are only state schools in Germany",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "weil alle Schülerinnen und Schüler einen Schulabschluss haben müssen",
+          "englishOption": "because all students must obtain a school diploma",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "weil es in den Bundesländern verschiedene Schulen gibt",
+          "englishOption": "because there are different schools in the federal states",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "weil es nach dem Grundgesetz seine Aufgabe ist",
+          "englishOption": "because it is its duty according to the Basic Law",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Staat", "english": "state" },
+          { "german": "Schulwesen", "english": "education system" },
+          { "german": "Grundgesetz", "english": "Basic Law" }
+        ]
+      },
+      "notes": "The state controls the education system in Germany because it is a responsibility mandated by the Basic Law ('Grundgesetz').",
+      "learningTechniques": "Focus on the constitutional basis for the state's control of education in Germany, which is outlined in the Basic Law.",
+      "resources": [
+        {
+          "description": "Learn more about the education system in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Education_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 69,
+      "germanQuestion": "Die Bundesrepublik Deutschland hat einen dreistufigen Verwaltungsaufbau. Wie heißt die unterste politische Stufe?",
+      "englishQuestion": "The Federal Republic of Germany has a three-tier administrative structure. What is the lowest political level called?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Stadträte",
+          "englishOption": "city councils",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Landräte",
+          "englishOption": "district councils",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Gemeinden",
+          "englishOption": "municipalities",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Bezirksämter",
+          "englishOption": "district offices",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Verwaltungsaufbau",
+            "english": "administrative structure"
+          },
+          { "german": "Gemeinden", "english": "municipalities" },
+          { "german": "Stadträte", "english": "city councils" },
+          { "german": "Bezirksämter", "english": "district offices" }
+        ]
+      },
+      "notes": "The lowest political level in Germany's administrative structure is the municipality ('Gemeinde'), which is responsible for local governance.",
+      "learningTechniques": "Focus on the three levels of government in Germany: federal, state, and local, with municipalities ('Gemeinden') being the lowest level.",
+      "resources": [
+        {
+          "description": "Learn more about Germany's administrative structure.",
+          "url": "https://en.wikipedia.org/wiki/Administrative_divisions_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 70,
+      "germanQuestion": "Der deutsche Bundespräsident Gustav Heinemann gibt Helmut Schmidt 1974 die Ernennungsurkunde zum deutschen Bundeskanzler. Was gehört zu den Aufgaben der deutschen Bundespräsidentin/des deutschen Bundespräsidenten? © Bundesregierung/Engelbert Reineke",
+      "englishQuestion": "In 1974, German Federal President Gustav Heinemann gave Helmut Schmidt the appointment certificate as German Chancellor. What is one of the responsibilities of the German Federal President? © Bundesregierung/Engelbert Reineke",
+      "type": "single",
+      "answerType": "image",
+      "options": [
+        {
+          "germanOption": "Sie/Er führt die Regierungsgeschäfte.",
+          "englishOption": "He/She conducts government business.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sie/Er kontrolliert die Regierungspartei.",
+          "englishOption": "He/She controls the ruling party.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sie/Er wählt die Ministerinnen/Minister aus.",
+          "englishOption": "He/She selects the ministers.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sie/Er schlägt die Kanzlerin/den Kanzler zur Wahl vor.",
+          "englishOption": "He/She proposes the Chancellor for election.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Bundespräsidentin/Bundespräsident",
+            "english": "Federal President"
+          },
+          {
+            "german": "Ernennungsurkunde",
+            "english": "appointment certificate"
+          },
+          { "german": "Kanzlerin/Kanzler", "english": "Chancellor" }
+        ]
+      },
+      "notes": "One of the key responsibilities of the German Federal President is to propose the Chancellor for election by the Bundestag.",
+      "learningTechniques": "Focus on the role of the Federal President in the German political system, especially the responsibility to propose the Chancellor for election.",
+      "resources": [
+        {
+          "description": "Learn more about the responsibilities of the Federal President in Germany.",
+          "url": "https://en.wikipedia.org/wiki/President_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 71,
+      "germanQuestion": "Wo hält sich die deutsche Bundeskanzlerin/der deutsche Bundeskanzler am häufigsten auf? Am häufigsten ist sie/er …",
+      "englishQuestion": "Where does the German Chancellor most frequently reside? Most often, he/she is …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "in Bonn, weil sich dort das Bundeskanzleramt und der Bundestag befinden.",
+          "englishOption": "in Bonn, because the Chancellery and Bundestag are located there.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "auf Schloss Meseberg, dem Gästehaus der Bundesregierung, um Staatsgäste zu empfangen.",
+          "englishOption": "at Schloss Meseberg, the guest house of the federal government, to receive state guests.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "auf Schloss Bellevue, dem Amtssitz der Bundespräsidentin/des Bundespräsidenten, um Staatsgäste zu empfangen.",
+          "englishOption": "at Schloss Bellevue, the official residence of the Federal President, to receive state guests.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "in Berlin, weil sich dort das Bundeskanzleramt und der Bundestag befinden.",
+          "englishOption": "in Berlin, because the Chancellery and Bundestag are located there.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Bundeskanzlerin/Bundeskanzler",
+            "english": "Chancellor"
+          },
+          { "german": "Bundeskanzleramt", "english": "Chancellery" },
+          { "german": "Bundestag", "english": "Bundestag" }
+        ]
+      },
+      "notes": "The German Chancellor primarily resides in Berlin, where the Chancellery and Bundestag are located.",
+      "learningTechniques": "Remember that the political center of Germany is in Berlin, where the Chancellor frequently resides due to the location of the Chancellery and Bundestag.",
+      "resources": [
+        {
+          "description": "Learn more about the Chancellery in Berlin.",
+          "url": "https://en.wikipedia.org/wiki/Federal_Chancellery_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 72,
+      "germanQuestion": "Wie heißt der jetzige Bundeskanzler /die jetzige Bundeskanzlerin von Deutschland?",
+      "englishQuestion": "What is the name of the current Chancellor of Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Gerhard Schröder",
+          "englishOption": "Gerhard Schröder",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Angela Merkel",
+          "englishOption": "Angela Merkel",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Franziska Giffey",
+          "englishOption": "Franziska Giffey",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Olaf Scholz",
+          "englishOption": "Olaf Scholz",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Bundeskanzler/Bundeskanzlerin",
+            "english": "Chancellor"
+          },
+          { "german": "Deutschland", "english": "Germany" }
+        ]
+      },
+      "notes": "As of the latest information, Olaf Scholz is the current Chancellor of Germany, having succeeded Angela Merkel.",
+      "learningTechniques": "Keep up to date with current political leaders, noting that Olaf Scholz is the current Chancellor of Germany.",
+      "resources": [
+        {
+          "description": "Learn more about Olaf Scholz, the current Chancellor of Germany.",
+          "url": "https://en.wikipedia.org/wiki/Olaf_Scholz"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 73,
+      "germanQuestion": "Die beiden größten Fraktionen im Deutschen Bundestag heißen zurzeit …",
+      "englishQuestion": "The two largest parliamentary groups in the German Bundestag are currently called …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "CDU/CSU und SPD.",
+          "englishOption": "CDU/CSU and SPD.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Die Linke und Bündnis 90/Die Grünen.",
+          "englishOption": "The Left and Alliance 90/The Greens.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "FDP und SPD.",
+          "englishOption": "FDP and SPD.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Die Linke und FDP.",
+          "englishOption": "The Left and FDP.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Fraktionen", "english": "parliamentary groups" },
+          { "german": "Bundestag", "english": "Bundestag" }
+        ]
+      },
+      "notes": "The two largest parliamentary groups in the Bundestag are traditionally the CDU/CSU and SPD, which represent the main political parties in Germany.",
+      "learningTechniques": "Stay informed about the current political landscape, noting that CDU/CSU and SPD are typically the largest parliamentary groups.",
+      "resources": [
+        {
+          "description": "Learn more about the Bundestag and its parliamentary groups.",
+          "url": "https://en.wikipedia.org/wiki/Bundestag"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 74,
+      "germanQuestion": "Wie heißt das Parlament für ganz Deutschland?",
+      "englishQuestion": "What is the name of the parliament for all of Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Bundesversammlung",
+          "englishOption": "Federal Assembly",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Volkskammer",
+          "englishOption": "People's Chamber",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bundestag",
+          "englishOption": "Bundestag",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Bundesgerichtshof",
+          "englishOption": "Federal Court of Justice",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Parlament", "english": "parliament" },
+          { "german": "Bundestag", "english": "Bundestag" }
+        ]
+      },
+      "notes": "The national parliament of Germany is called the Bundestag, which is the primary legislative body.",
+      "learningTechniques": "Remember that the Bundestag is the name of the national parliament in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the Bundestag, Germany's national parliament.",
+          "url": "https://en.wikipedia.org/wiki/Bundestag"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 75,
+      "germanQuestion": "Wie heißt Deutschlands heutiges Staatsoberhaupt?",
+      "englishQuestion": "What is the name of Germany's current head of state?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Frank-Walter Steinmeier",
+          "englishOption": "Frank-Walter Steinmeier",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Bärbel Bas",
+          "englishOption": "Bärbel Bas",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bodo Ramelow",
+          "englishOption": "Bodo Ramelow",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Joachim Gauck",
+          "englishOption": "Joachim Gauck",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Staatsoberhaupt", "english": "head of state" },
+          { "german": "Bundespräsident", "english": "Federal President" }
+        ]
+      },
+      "notes": "The current head of state in Germany is Frank-Walter Steinmeier, who holds the position of Federal President.",
+      "learningTechniques": "Keep track of current political leaders in Germany, noting that Frank-Walter Steinmeier is the current Federal President.",
+      "resources": [
+        {
+          "description": "Learn more about Frank-Walter Steinmeier, Germany's Federal President.",
+          "url": "https://en.wikipedia.org/wiki/Frank-Walter_Steinmeier"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 76,
+      "germanQuestion": "Was bedeutet die Abkürzung CDU in Deutschland?",
+      "englishQuestion": "What does the abbreviation CDU mean in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Christliche Deutsche Union",
+          "englishOption": "Christian German Union",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Club Deutscher Unternehmer",
+          "englishOption": "Club of German Entrepreneurs",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Christlicher Deutscher Umweltschutz",
+          "englishOption": "Christian German Environmental Protection",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Christlich Demokratische Union",
+          "englishOption": "Christian Democratic Union",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "CDU", "english": "CDU" },
+          { "german": "Union", "english": "Union" }
+        ]
+      },
+      "notes": "CDU stands for 'Christlich Demokratische Union' (Christian Democratic Union), a major political party in Germany.",
+      "learningTechniques": "Associate CDU with 'Christian Democratic Union,' a key political party in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the CDU.",
+          "url": "https://en.wikipedia.org/wiki/Christian_Democratic_Union_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 77,
+      "germanQuestion": "Was ist die Bundeswehr?",
+      "englishQuestion": "What is the Bundeswehr?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die deutsche Polizei",
+          "englishOption": "the German police",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "ein deutscher Hafen",
+          "englishOption": "a German port",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "eine deutsche Bürgerinitiative",
+          "englishOption": "a German citizens' initiative",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die deutsche Armee",
+          "englishOption": "the German army",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundeswehr", "english": "Bundeswehr" },
+          { "german": "Armee", "english": "army" }
+        ]
+      },
+      "notes": "The Bundeswehr is the German military, responsible for defense and international missions.",
+      "learningTechniques": "Remember that 'Bundeswehr' refers to the German armed forces.",
+      "resources": [
+        {
+          "description": "Learn more about the Bundeswehr.",
+          "url": "https://en.wikipedia.org/wiki/Bundeswehr"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 78,
+      "germanQuestion": "Was bedeutet die Abkürzung SPD?",
+      "englishQuestion": "What does the abbreviation SPD mean?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Sozialistische Partei Deutschlands",
+          "englishOption": "Socialist Party of Germany",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sozialpolitische Partei Deutschlands",
+          "englishOption": "Social Political Party of Germany",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Sozialdemokratische Partei Deutschlands",
+          "englishOption": "Social Democratic Party of Germany",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Sozialgerechte Partei Deutschlands",
+          "englishOption": "Social Justice Party of Germany",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "SPD", "english": "SPD" },
+          {
+            "german": "Sozialdemokratische Partei Deutschlands",
+            "english": "Social Democratic Party of Germany"
+          }
+        ]
+      },
+      "notes": "SPD stands for 'Sozialdemokratische Partei Deutschlands' (Social Democratic Party of Germany), one of the major political parties.",
+      "learningTechniques": "Focus on SPD representing the Social Democratic Party of Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the SPD.",
+          "url": "https://en.wikipedia.org/wiki/Social_Democratic_Party_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 79,
+      "germanQuestion": "Was bedeutet die Abkürzung FDP in Deutschland?",
+      "englishQuestion": "What does the abbreviation FDP mean in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Friedliche Demonstrative Partei",
+          "englishOption": "Peaceful Demonstrative Party",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Freie Deutschland Partei",
+          "englishOption": "Free Germany Party",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Führende Demokratische Partei",
+          "englishOption": "Leading Democratic Party",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Freie Demokratische Partei",
+          "englishOption": "Free Democratic Party",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "FDP", "english": "FDP" },
+          {
+            "german": "Freie Demokratische Partei",
+            "english": "Free Democratic Party"
+          }
+        ]
+      },
+      "notes": "FDP stands for 'Freie Demokratische Partei' (Free Democratic Party), a liberal political party in Germany.",
+      "learningTechniques": "Remember that FDP represents the Free Democratic Party, which focuses on liberal policies.",
+      "resources": [
+        {
+          "description": "Learn more about the FDP.",
+          "url": "https://en.wikipedia.org/wiki/Free_Democratic_Party_(Germany)"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 80,
+      "germanQuestion": "Welches Gericht in Deutschland ist zuständig für die Auslegung des Grundgesetzes?",
+      "englishQuestion": "Which court in Germany is responsible for interpreting the Basic Law?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Oberlandesgericht",
+          "englishOption": "Higher Regional Court",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Amtsgericht",
+          "englishOption": "District Court",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Bundesverfassungsgericht",
+          "englishOption": "Federal Constitutional Court",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Verwaltungsgericht",
+          "englishOption": "Administrative Court",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Gericht", "english": "court" },
+          { "german": "Grundgesetz", "english": "Basic Law" },
+          {
+            "german": "Bundesverfassungsgericht",
+            "english": "Federal Constitutional Court"
+          }
+        ]
+      },
+      "notes": "The Federal Constitutional Court ('Bundesverfassungsgericht') is responsible for interpreting Germany's Basic Law (Grundgesetz).",
+      "learningTechniques": "Remember that the Federal Constitutional Court is the highest authority on constitutional matters in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the Federal Constitutional Court.",
+          "url": "https://en.wikipedia.org/wiki/Federal_Constitutional_Court"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 81,
+      "germanQuestion": "Wer wählt die Bundeskanzlerin/den Bundeskanzler in Deutschland?",
+      "englishQuestion": "Who elects the Chancellor in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "der Bundesrat",
+          "englishOption": "the Bundesrat",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Bundesversammlung",
+          "englishOption": "the Federal Assembly",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "das Volk",
+          "englishOption": "the people",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "der Bundestag",
+          "englishOption": "the Bundestag",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Bundeskanzlerin/Bundeskanzler",
+            "english": "Chancellor"
+          },
+          { "german": "Bundestag", "english": "Bundestag" }
+        ]
+      },
+      "notes": "The Chancellor of Germany is elected by the Bundestag, the federal parliament.",
+      "learningTechniques": "Focus on the role of the Bundestag in electing the Chancellor, not the Bundesrat or the people directly.",
+      "resources": [
+        {
+          "description": "Learn more about the election of the Chancellor in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Chancellor_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 82,
+      "germanQuestion": "Wer leitet das deutsche Bundeskabinett?",
+      "englishQuestion": "Who leads the German federal cabinet?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die Bundestagspräsidentin/der Bundestagspräsident",
+          "englishOption": "the President of the Bundestag",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Bundespräsidentin/der Bundespräsident",
+          "englishOption": "the Federal President",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Bundesratspräsidentin/der Bundesratspräsident",
+          "englishOption": "the President of the Bundesrat",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Bundeskanzlerin/der Bundeskanzler",
+          "englishOption": "the Chancellor",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundeskabinett", "english": "federal cabinet" },
+          { "german": "Bundeskanzlerin/Bundeskanzler", "english": "Chancellor" }
+        ]
+      },
+      "notes": "The German federal cabinet is led by the Chancellor, who is responsible for guiding government policy.",
+      "learningTechniques": "Focus on the Chancellor's role in leading the federal cabinet and setting government policy.",
+      "resources": [
+        {
+          "description": "Learn more about the German federal cabinet.",
+          "url": "https://en.wikipedia.org/wiki/Cabinet_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 83,
+      "germanQuestion": "Wer wählt die deutsche Bundeskanzlerin/den deutschen Bundeskanzler?",
+      "englishQuestion": "Who elects the German Chancellor?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "das Volk",
+          "englishOption": "the people",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Bundesversammlung",
+          "englishOption": "the Federal Assembly",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "der Bundestag",
+          "englishOption": "the Bundestag",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die Bundesregierung",
+          "englishOption": "the federal government",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Bundeskanzlerin/Bundeskanzler",
+            "english": "Chancellor"
+          },
+          { "german": "Bundestag", "english": "Bundestag" }
+        ]
+      },
+      "notes": "The German Chancellor is elected by the Bundestag, not directly by the people or the Federal Assembly.",
+      "learningTechniques": "Focus on the Bundestag's role in electing the Chancellor, which highlights the parliamentary nature of the German political system.",
+      "resources": [
+        {
+          "description": "Learn more about the election of the German Chancellor.",
+          "url": "https://en.wikipedia.org/wiki/Chancellor_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 84,
+      "germanQuestion": "Welche Hauptaufgabe hat die deutsche Bundespräsidentin/der deutsche Bundespräsident? Sie/Er …",
+      "englishQuestion": "What is the main responsibility of the German Federal President? He/She …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "regiert das Land.",
+          "englishOption": "governs the country.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "entwirft die Gesetze.",
+          "englishOption": "drafts the laws.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "repräsentiert das Land.",
+          "englishOption": "represents the country.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "überwacht die Einhaltung der Gesetze.",
+          "englishOption": "oversees the enforcement of the laws.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "Bundespräsidentin/Bundespräsident",
+            "english": "Federal President"
+          },
+          { "german": "repräsentieren", "english": "to represent" }
+        ]
+      },
+      "notes": "The main responsibility of the German Federal President is to represent the country, both domestically and internationally.",
+      "learningTechniques": "Focus on the representative role of the Federal President, who serves as the symbolic head of state.",
+      "resources": [
+        {
+          "description": "Learn more about the role of the Federal President in Germany.",
+          "url": "https://en.wikipedia.org/wiki/President_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 85,
+      "germanQuestion": "Wer bildet den deutschen Bundesrat?",
+      "englishQuestion": "Who constitutes the German Bundesrat?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die Abgeordneten des Bundestages",
+          "englishOption": "the members of the Bundestag",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Ministerinnen und Minister der Bundesregierung",
+          "englishOption": "the ministers of the federal government",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Regierungsvertreter der Bundesländer",
+          "englishOption": "the representatives of the state governments",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die Parteimitglieder",
+          "englishOption": "the party members",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundesrat", "english": "Bundesrat" },
+          {
+            "german": "Regierungsvertreter",
+            "english": "government representatives"
+          },
+          { "german": "Bundesländer", "english": "federal states" }
+        ]
+      },
+      "notes": "The Bundesrat is composed of representatives from the governments of the federal states (Bundesländer), giving the states a voice in federal legislation.",
+      "learningTechniques": "Focus on the structure of the Bundesrat, which is made up of state representatives rather than directly elected members.",
+      "resources": [
+        {
+          "description": "Learn more about the Bundesrat and its role.",
+          "url": "https://en.wikipedia.org/wiki/Bundesrat_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 86,
+      "germanQuestion": "Wer wählt in Deutschland die Bundespräsidentin/den Bundespräsidenten?",
+      "englishQuestion": "Who elects the Federal President in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die Bundesversammlung",
+          "englishOption": "the Federal Assembly",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "der Bundesrat",
+          "englishOption": "the Bundesrat",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "das Bundesparlament",
+          "englishOption": "the Federal Parliament",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "das Bundesverfassungsgericht",
+          "englishOption": "the Federal Constitutional Court",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundesversammlung", "english": "Federal Assembly" },
+          {
+            "german": "Bundespräsidentin/Bundespräsident",
+            "english": "Federal President"
+          }
+        ]
+      },
+      "notes": "The Federal President of Germany is elected by the Federal Assembly (Bundesversammlung), which is a special body convened for this purpose.",
+      "learningTechniques": "Remember that the Federal Assembly, not the Bundestag or Bundesrat, elects the Federal President.",
+      "resources": [
+        {
+          "description": "Learn more about the election of the Federal President.",
+          "url": "https://en.wikipedia.org/wiki/Federal_Assembly_(Germany)"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 87,
+      "germanQuestion": "Wer ist das Staatsoberhaupt der Bundesrepublik Deutschland?",
+      "englishQuestion": "Who is the head of state of the Federal Republic of Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die Bundeskanzlerin/der Bundeskanzler",
+          "englishOption": "the Chancellor",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Bundespräsidentin/der Bundespräsident",
+          "englishOption": "the Federal President",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die Bundesratspräsidentin/der Bundesratspräsident",
+          "englishOption": "the President of the Bundesrat",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Bundestagspräsidentin/der Bundestagspräsident",
+          "englishOption": "the President of the Bundestag",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Staatsoberhaupt", "english": "head of state" },
+          {
+            "german": "Bundespräsidentin/Bundespräsident",
+            "english": "Federal President"
+          }
+        ]
+      },
+      "notes": "The Federal President is the head of state of Germany, representing the country both domestically and internationally.",
+      "learningTechniques": "Focus on the distinction between the head of state (Federal President) and the head of government (Chancellor).",
+      "resources": [
+        {
+          "description": "Learn more about the Federal President of Germany.",
+          "url": "https://en.wikipedia.org/wiki/President_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 88,
+      "germanQuestion": "Die parlamentarische Opposition im Deutschen Bundestag …",
+      "englishQuestion": "The parliamentary opposition in the German Bundestag …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "kontrolliert die Regierung.",
+          "englishOption": "controls the government.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "entscheidet, wer Bundesministerin/Bundesminister wird.",
+          "englishOption": "decides who becomes federal minister.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "bestimmt, wer im Bundesrat sitzt.",
+          "englishOption": "determines who sits in the Bundesrat.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "schlägt die Regierungschefinnen/Regierungschefs der Länder vor.",
+          "englishOption": "proposes the heads of government of the states.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "parlamentarische Opposition",
+            "english": "parliamentary opposition"
+          },
+          { "german": "Bundestag", "english": "Bundestag" },
+          { "german": "Regierung", "english": "government" }
+        ]
+      },
+      "notes": "The primary role of the parliamentary opposition in the Bundestag is to control and oversee the government's actions.",
+      "learningTechniques": "Remember that the opposition's role in parliament is to scrutinize and hold the government accountable.",
+      "resources": [
+        {
+          "description": "Learn more about the role of the opposition in the Bundestag.",
+          "url": "https://en.wikipedia.org/wiki/Opposition_(parliamentary)"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 89,
+      "germanQuestion": "Wie nennt man in Deutschland die Vereinigung von Abgeordneten einer Partei im Parlament?",
+      "englishQuestion": "What is the term for the grouping of a party's members in the German parliament?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Verband",
+          "englishOption": "Association",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Ältestenrat",
+          "englishOption": "Council of Elders",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Fraktion",
+          "englishOption": "Parliamentary group",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Opposition",
+          "englishOption": "Opposition",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Vereinigung", "english": "grouping" },
+          { "german": "Abgeordnete", "english": "members of parliament" },
+          { "german": "Fraktion", "english": "parliamentary group" }
+        ]
+      },
+      "notes": "In Germany, the grouping of a party's members in the parliament is called a 'Fraktion' (parliamentary group).",
+      "learningTechniques": "Focus on the term 'Fraktion,' which refers to a party's parliamentary group in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the structure of political parties in the Bundestag.",
+          "url": "https://en.wikipedia.org/wiki/Political_parties_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 90,
+      "germanQuestion": "Die deutschen Bundesländer wirken an der Gesetzgebung des Bundes mit durch …",
+      "englishQuestion": "The German federal states participate in federal legislation through …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "den Bundesrat",
+          "englishOption": "the Bundesrat",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die Bundesversammlung",
+          "englishOption": "the Federal Assembly",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "den Bundestag",
+          "englishOption": "the Bundestag",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Bundesregierung",
+          "englishOption": "the federal government",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Bundesländer", "english": "federal states" },
+          { "german": "Gesetzgebung", "english": "legislation" },
+          { "german": "Bundesrat", "english": "Bundesrat" }
+        ]
+      },
+      "notes": "The German federal states participate in federal legislation through the Bundesrat, which represents the states at the federal level.",
+      "learningTechniques": "Remember that the Bundesrat serves as the voice of the federal states in the legislative process.",
+      "resources": [
+        {
+          "description": "Learn more about the role of the Bundesrat.",
+          "url": "https://en.wikipedia.org/wiki/Bundesrat_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 91,
+      "germanQuestion": "In Deutschland kann ein Regierungswechsel in einem Bundesland Auswirkungen auf die Bundespolitik haben. Das Regieren wird …",
+      "englishQuestion": "In Germany, a change of government in a federal state can affect federal politics. Governing becomes …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "schwieriger, wenn sich dadurch die Mehrheit im Bundestag ändert.",
+          "englishOption": "more difficult if it changes the majority in the Bundestag.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "leichter, wenn dadurch neue Parteien in den Bundesrat kommen.",
+          "englishOption": "easier if new parties enter the Bundesrat as a result.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "schwieriger, wenn dadurch die Mehrheit im Bundesrat verändert wird.",
+          "englishOption": "more difficult if it changes the majority in the Bundesrat.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "leichter, wenn es sich um ein reiches Bundesland handelt.",
+          "englishOption": "easier if it involves a wealthy federal state.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Regierungswechsel", "english": "change of government" },
+          { "german": "Bundespolitik", "english": "federal politics" },
+          { "german": "Bundesrat", "english": "Bundesrat" }
+        ]
+      },
+      "notes": "A change of government in a federal state can affect the federal political landscape, especially if it alters the majority in the Bundesrat.",
+      "learningTechniques": "Focus on the impact that changes in state governments can have on the balance of power in the Bundesrat.",
+      "resources": [
+        {
+          "description": "Learn more about the relationship between state and federal politics in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Politics_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 92,
+      "germanQuestion": "Was bedeutet die Abkürzung CSU in Deutschland?",
+      "englishQuestion": "What does the abbreviation CSU mean in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Christlich Sichere Union",
+          "englishOption": "Christian Secure Union",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Christlich Süddeutsche Union",
+          "englishOption": "Christian South German Union",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Christlich Sozialer Unternehmerverband",
+          "englishOption": "Christian Social Entrepreneurs' Association",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Christlich Soziale Union",
+          "englishOption": "Christian Social Union",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "CSU", "english": "CSU" },
+          {
+            "german": "Christlich Soziale Union",
+            "english": "Christian Social Union"
+          }
+        ]
+      },
+      "notes": "CSU stands for 'Christlich Soziale Union' (Christian Social Union), a major political party primarily based in Bavaria.",
+      "learningTechniques": "Remember that the CSU is the Christian Social Union, a sister party to the CDU, and operates mainly in Bavaria.",
+      "resources": [
+        {
+          "description": "Learn more about the CSU.",
+          "url": "https://en.wikipedia.org/wiki/Christian_Social_Union_in_Bavaria"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 93,
+      "germanQuestion": "Je mehr 'Zweitstimmen' eine Partei bei einer Bundestagswahl bekommt, desto …",
+      "englishQuestion": "The more 'second votes' a party receives in a federal election, the …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "weniger Erststimmen kann sie haben.",
+          "englishOption": "fewer first votes it can have.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "mehr Direktkandidaten der Partei ziehen ins Parlament ein.",
+          "englishOption": "more direct candidates of the party enter the parliament.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "größer ist das Risiko, eine Koalition bilden zu müssen.",
+          "englishOption": "greater is the risk of having to form a coalition.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "mehr Sitze erhält die Partei im Parlament.",
+          "englishOption": "more seats the party receives in the parliament.",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Zweitstimmen", "english": "second votes" },
+          { "german": "Partei", "english": "party" },
+          { "german": "Parlament", "english": "parliament" }
+        ]
+      },
+      "notes": "In Germany's federal elections, the more 'Zweitstimmen' (second votes) a party receives, the more seats it gets in the Bundestag.",
+      "learningTechniques": "Focus on the significance of the second vote in the German mixed-member proportional representation system.",
+      "resources": [
+        {
+          "description": "Learn more about Germany's electoral system.",
+          "url": "https://en.wikipedia.org/wiki/Electoral_system_of_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 94,
+      "germanQuestion": "Ab welchem Alter darf man in Deutschland an der Wahl zum Deutschen Bundestag teilnehmen?",
+      "englishQuestion": "From what age can one participate in the election to the German Bundestag?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "16",
+          "englishOption": "16",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "18",
+          "englishOption": "18",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "21",
+          "englishOption": "21",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "23",
+          "englishOption": "23",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Alter", "english": "age" },
+          { "german": "Wahl", "english": "election" },
+          { "german": "Bundestag", "english": "Bundestag" }
+        ]
+      },
+      "notes": "The voting age for federal elections in Germany is 18 years.",
+      "learningTechniques": "Remember that the minimum age to vote in federal elections in Germany is 18.",
+      "resources": [
+        {
+          "description": "Learn more about voting rights in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Voting_rights_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 95,
+      "germanQuestion": "Was gilt für die meisten Kinder in Deutschland?",
+      "englishQuestion": "What applies to most children in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Wahlpflicht",
+          "englishOption": "mandatory voting",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Schulpflicht",
+          "englishOption": "mandatory schooling",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Schweigepflicht",
+          "englishOption": "duty of confidentiality",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Religionspflicht",
+          "englishOption": "mandatory religion",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Kinder", "english": "children" },
+          { "german": "Schulpflicht", "english": "mandatory schooling" }
+        ]
+      },
+      "notes": "In Germany, most children are subject to 'Schulpflicht' (mandatory schooling), which requires them to attend school.",
+      "learningTechniques": "Focus on 'Schulpflicht,' which ensures that education is compulsory for children in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about the education system in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Education_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 96,
+      "germanQuestion": "Wie kann jemand, der den Holocaust leugnet, bestraft werden?",
+      "englishQuestion": "How can someone who denies the Holocaust be punished?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Kürzung sozialer Leistungen",
+          "englishOption": "reduction of social benefits",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "bis zu 100 Sozialstunden",
+          "englishOption": "up to 100 hours of community service",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "gar nicht, Holocaustleugnung ist erlaubt",
+          "englishOption": "not at all, Holocaust denial is allowed",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe",
+          "englishOption": "with imprisonment of up to five years or a fine",
+          "isCorrect": true
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Holocaustleugnung", "english": "Holocaust denial" },
+          { "german": "Freiheitsstrafe", "english": "imprisonment" },
+          { "german": "Geldstrafe", "english": "fine" }
+        ]
+      },
+      "notes": "In Germany, Holocaust denial is a criminal offense and can be punished with imprisonment of up to five years or a fine.",
+      "learningTechniques": "Remember that Holocaust denial is a serious offense in Germany, subject to criminal penalties.",
+      "resources": [
+        {
+          "description": "Learn more about Holocaust denial laws in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Laws_against_Holocaust_denial"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 97,
+      "germanQuestion": "Was bezahlt man in Deutschland automatisch, wenn man fest angestellt ist?",
+      "englishQuestion": "What do you automatically pay in Germany if you are permanently employed?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Sozialversicherung",
+          "englishOption": "social insurance",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "Sozialhilfe",
+          "englishOption": "social assistance",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Kindergeld",
+          "englishOption": "child benefit",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "Wohngeld",
+          "englishOption": "housing allowance",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Sozialversicherung", "english": "social insurance" },
+          { "german": "fest angestellt", "english": "permanently employed" }
+        ]
+      },
+      "notes": "If you are permanently employed in Germany, you automatically contribute to the 'Sozialversicherung' (social insurance), which covers health, unemployment, and pension insurance.",
+      "learningTechniques": "Focus on the concept of 'Sozialversicherung,' which is a mandatory contribution for employees in Germany.",
+      "resources": [
+        {
+          "description": "Learn more about social insurance in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Social_insurance_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 98,
+      "germanQuestion": "Wenn Abgeordnete im Deutschen Bundestag ihre Fraktion wechseln, …",
+      "englishQuestion": "If members of the German Bundestag change their parliamentary group, …",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "dürfen sie nicht mehr an den Sitzungen des Parlaments teilnehmen.",
+          "englishOption": "they are no longer allowed to participate in parliamentary sessions.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "kann die Regierung ihre Mehrheit verlieren.",
+          "englishOption": "the government could lose its majority.",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "muss die Bundespräsidentin/der Bundespräsident zuvor ihr/sein Einverständnis geben.",
+          "englishOption": "the Federal President must first give their consent.",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "dürfen die Wählerinnen/Wähler dieser Abgeordneten noch einmal wählen.",
+          "englishOption": "the voters of these members are allowed to vote again.",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Abgeordnete", "english": "members of parliament" },
+          { "german": "Fraktion", "english": "parliamentary group" },
+          { "german": "Mehrheit", "english": "majority" }
+        ]
+      },
+      "notes": "If members of the Bundestag change their parliamentary group, it can affect the balance of power, potentially causing the government to lose its majority.",
+      "learningTechniques": "Focus on the importance of parliamentary groups in maintaining a government's majority in the Bundestag.",
+      "resources": [
+        {
+          "description": "Learn more about the German Bundestag and parliamentary groups.",
+          "url": "https://en.wikipedia.org/wiki/Bundestag"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 99,
+      "germanQuestion": "Wer bezahlt in Deutschland die Sozialversicherungen?",
+      "englishQuestion": "Who pays for social insurance in Germany?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "Arbeitgeberinnen/Arbeitgeber und Arbeitnehmerinnen/Arbeitnehmer",
+          "englishOption": "employers and employees",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "nur Arbeitnehmerinnen/Arbeitnehmer",
+          "englishOption": "only employees",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "alle Staatsangehörigen",
+          "englishOption": "all citizens",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "nur Arbeitgeberinnen/Arbeitgeber",
+          "englishOption": "only employers",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          { "german": "Sozialversicherungen", "english": "social insurance" },
+          { "german": "Arbeitgeberinnen/Arbeitgeber", "english": "employers" },
+          { "german": "Arbeitnehmerinnen/Arbeitnehmer", "english": "employees" }
+        ]
+      },
+      "notes": "In Germany, social insurance is funded by contributions from both employers and employees.",
+      "learningTechniques": "Remember that the funding for social insurance in Germany is a shared responsibility between employers and employees.",
+      "resources": [
+        {
+          "description": "Learn more about social insurance in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Social_insurance_in_Germany"
+        }
+      ],
+      "region": "All"
+    },
+    {
+      "id": 100,
+      "germanQuestion": "Was gehört nicht zur gesetzlichen Sozialversicherung?",
+      "englishQuestion": "Which is not part of statutory social insurance?",
+      "type": "single",
+      "answerType": "text",
+      "options": [
+        {
+          "germanOption": "die Lebensversicherung",
+          "englishOption": "life insurance",
+          "isCorrect": true
+        },
+        {
+          "germanOption": "die gesetzliche Rentenversicherung",
+          "englishOption": "statutory pension insurance",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Arbeitslosenversicherung",
+          "englishOption": "unemployment insurance",
+          "isCorrect": false
+        },
+        {
+          "germanOption": "die Pflegeversicherung",
+          "englishOption": "long-term care insurance",
+          "isCorrect": false
+        }
+      ],
+      "importantWords": {
+        "nouns": [
+          {
+            "german": "gesetzliche Sozialversicherung",
+            "english": "statutory social insurance"
+          },
+          { "german": "Lebensversicherung", "english": "life insurance" }
+        ]
+      },
+      "notes": "Life insurance ('Lebensversicherung') is not part of Germany's statutory social insurance system, which includes health, pension, unemployment, and long-term care insurance.",
+      "learningTechniques": "Focus on distinguishing between statutory social insurance components and private insurance options like life insurance.",
+      "resources": [
+        {
+          "description": "Learn more about the components of social insurance in Germany.",
+          "url": "https://en.wikipedia.org/wiki/Social_insurance_in_Germany"
+        }
+      ],
+      "region": "All"
+    }
+  ]
+}

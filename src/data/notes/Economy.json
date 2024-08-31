@@ -1,0 +1,148 @@
+{
+  "section": "Economy",
+  "subSections": [
+    {
+      "title": "Soziale Marktwirtschaft (Social Market Economy)",
+      "content": {
+        "german": "Die soziale Marktwirtschaft in Deutschland kombiniert das Prinzip der freien Marktwirtschaft mit sozialen Absicherungen. Der Staat greift regulierend ein, um soziale Ungleichheiten abzufedern.",
+        "english": "The social market economy in Germany combines the principle of free market economy with social protections. The state intervenes to mitigate social inequalities."
+      },
+      "keyPoints": [
+        {
+          "german": "Grundprinzipien: Die soziale Marktwirtschaft basiert auf den Prinzipien von Angebot und Nachfrage, aber mit staatlichen Eingriffen, um soziale Sicherheit zu gewährleisten.",
+          "english": "Basic principles: The social market economy is based on supply and demand principles, but with state interventions to ensure social security."
+        },
+        {
+          "german": "Sozialstaat: Der Staat sorgt für soziale Sicherungssysteme wie Krankenversicherung, Rentenversicherung und Arbeitslosenversicherung.",
+          "english": "Welfare state: The state provides social security systems like health insurance, pension insurance, and unemployment insurance."
+        }
+      ]
+    },
+    {
+      "title": "Arbeitsmarkt (Labor Market)",
+      "content": {
+        "german": "Der Arbeitsmarkt in Deutschland ist geprägt durch eine hohe Erwerbsbeteiligung, ein starkes Bildungssystem und Tarifverhandlungen zwischen Gewerkschaften und Arbeitgeberverbänden.",
+        "english": "The labor market in Germany is characterized by high employment participation, a strong education system, and collective bargaining between trade unions and employers' associations."
+      },
+      "keyPoints": [
+        {
+          "german": "Tarifverträge: Gewerkschaften und Arbeitgeberverbände verhandeln Tarifverträge, die Arbeitsbedingungen und Löhne regeln.",
+          "english": "Collective agreements: Trade unions and employers' associations negotiate collective agreements that regulate working conditions and wages."
+        },
+        {
+          "german": "Arbeitslosenquote: Die Arbeitslosenquote ist ein wichtiger Indikator für die Gesundheit des Arbeitsmarktes.",
+          "english": "Unemployment rate: The unemployment rate is an important indicator of the labor market's health."
+        },
+        {
+          "german": "Fachkräftemangel: In einigen Branchen gibt es einen Mangel an qualifizierten Arbeitskräften, was zu speziellen Programmen für Fachkräfte führt.",
+          "english": "Skilled labor shortage: Some industries face a shortage of skilled labor, leading to special programs for skilled workers."
+        }
+      ]
+    },
+    {
+      "title": "Sozialversicherungssystem (Social Security System)",
+      "content": {
+        "german": "Das Sozialversicherungssystem in Deutschland umfasst die gesetzliche Kranken-, Pflege-, Renten-, Unfall- und Arbeitslosenversicherung. Es soll den Lebensstandard der Bürger im Krankheitsfall, im Alter oder bei Arbeitslosigkeit sichern.",
+        "english": "The social security system in Germany includes statutory health, nursing care, pension, accident, and unemployment insurance. It aims to secure citizens' living standards in case of illness, old age, or unemployment."
+      },
+      "keyPoints": [
+        {
+          "german": "Pflichtversicherung: Alle Arbeitnehmer und Arbeitgeber zahlen in die Sozialversicherungssysteme ein.",
+          "english": "Mandatory insurance: All employees and employers contribute to the social security systems."
+        },
+        {
+          "german": "Krankenversicherung: Die gesetzliche Krankenversicherung deckt die grundlegende medizinische Versorgung der Bürger ab.",
+          "english": "Health insurance: Statutory health insurance covers citizens' basic medical care."
+        },
+        {
+          "german": "Rentenversicherung: Die gesetzliche Rentenversicherung sichert das Einkommen im Ruhestand.",
+          "english": "Pension insurance: The statutory pension insurance secures income during retirement."
+        }
+      ]
+    },
+    {
+      "title": "Steuersystem (Tax System)",
+      "content": {
+        "german": "Das Steuersystem in Deutschland ist progressiv, das bedeutet, dass Personen mit höheren Einkommen auch höhere Steuersätze zahlen. Die Steuern finanzieren die öffentlichen Aufgaben des Staates.",
+        "english": "The tax system in Germany is progressive, meaning that people with higher incomes pay higher tax rates. Taxes finance the state's public duties."
+      },
+      "keyPoints": [
+        {
+          "german": "Einkommenssteuer: Diese Steuer wird auf das Einkommen natürlicher Personen erhoben und ist die wichtigste Steuerquelle des Staates.",
+          "english": "Income tax: This tax is levied on individuals' income and is the state's most important source of revenue."
+        },
+        {
+          "german": "Mehrwertsteuer: Die Mehrwertsteuer ist eine Verbrauchssteuer, die auf Waren und Dienstleistungen erhoben wird.",
+          "english": "Value-added tax: The VAT is a consumption tax levied on goods and services."
+        },
+        {
+          "german": "Kirchensteuer: Mitglieder bestimmter Religionsgemeinschaften zahlen zusätzlich zur Einkommenssteuer eine Kirchensteuer.",
+          "english": "Church tax: Members of certain religious communities pay a church tax in addition to income tax."
+        }
+      ]
+    },
+    {
+      "title": "Wirtschaftswachstum und Nachhaltigkeit (Economic Growth and Sustainability)",
+      "content": {
+        "german": "Deutschland legt großen Wert auf nachhaltiges Wirtschaften. Es gibt Bemühungen, das Wirtschaftswachstum mit Umweltschutz zu vereinen.",
+        "english": "Germany places great importance on sustainable economic practices. There are efforts to combine economic growth with environmental protection."
+      },
+      "keyPoints": [
+        {
+          "german": "Energiewende: Der Übergang zu erneuerbaren Energien ist ein zentraler Bestandteil der deutschen Wirtschaftspolitik.",
+          "english": "Energy transition: The shift to renewable energy is a key element of Germany's economic policy."
+        },
+        {
+          "german": "Umweltauflagen: Unternehmen müssen Umweltvorgaben einhalten, um ihre ökologischen Fußabdrücke zu minimieren.",
+          "english": "Environmental regulations: Companies must comply with environmental regulations to minimize their ecological footprint."
+        },
+        {
+          "german": "Nachhaltigkeit: Nachhaltiges Wirtschaften ist in Deutschland ein wichtiges Thema, sowohl auf politischer als auch auf wirtschaftlicher Ebene.",
+          "english": "Sustainability: Sustainable economic practices are an important topic in Germany, both politically and economically."
+        }
+      ]
+    },
+    {
+      "title": "Internationale Wirtschaft (International Economy)",
+      "content": {
+        "german": "Deutschland ist eine exportorientierte Volkswirtschaft und stark in die globale Wirtschaft eingebunden. Es ist eines der größten Exportnationen der Welt.",
+        "english": "Germany is an export-oriented economy and is deeply integrated into the global economy. It is one of the largest exporting nations in the world."
+      },
+      "keyPoints": [
+        {
+          "german": "Exporte: Deutschland exportiert vor allem Autos, Maschinen und chemische Produkte.",
+          "english": "Exports: Germany mainly exports cars, machinery, and chemical products."
+        },
+        {
+          "german": "Europäische Union: Die EU ist Deutschlands wichtigster Handelspartner und bietet einen gemeinsamen Binnenmarkt.",
+          "english": "European Union: The EU is Germany's most important trading partner and provides a common internal market."
+        },
+        {
+          "german": "Globalisierung: Die deutsche Wirtschaft profitiert von der Globalisierung, steht aber auch vor Herausforderungen durch internationalen Wettbewerb.",
+          "english": "Globalization: The German economy benefits from globalization but also faces challenges from international competition."
+        }
+      ]
+    },
+    {
+      "title": "Mittelstand und Unternehmen (Small and Medium-Sized Enterprises and Corporations)",
+      "content": {
+        "german": "Der deutsche Mittelstand spielt eine entscheidende Rolle in der Wirtschaft. Diese kleinen und mittelständischen Unternehmen (KMU) sind das Rückgrat der deutschen Wirtschaft.",
+        "english": "The German Mittelstand plays a crucial role in the economy. These small and medium-sized enterprises (SMEs) are the backbone of the German economy."
+      },
+      "keyPoints": [
+        {
+          "german": "KMU: Kleine und mittlere Unternehmen stellen den größten Teil der Arbeitsplätze in Deutschland.",
+          "english": "SMEs: Small and medium-sized enterprises provide the majority of jobs in Germany."
+        },
+        {
+          "german": "Familienunternehmen: Viele deutsche Unternehmen sind Familienbetriebe, die oft über Generationen geführt werden.",
+          "english": "Family businesses: Many German companies are family-owned and have often been run for generations."
+        },
+        {
+          "german": "Innovationen: Der Mittelstand zeichnet sich durch hohe Innovationskraft und Spezialisierung aus.",
+          "english": "Innovation: The Mittelstand is characterized by high levels of innovation and specialization."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "section": "History",
+  "subSections": [
+    {
+      "title": "Antike und Mittelalter (Ancient and Medieval History)",
+      "content": {
+        "german": "Deutschland hat eine lange Geschichte, die bis in die Zeit des Römischen Reiches zurückreicht. Im Mittelalter war das Heilige Römische Reich ein bedeutendes Herrschaftsgebiet in Europa.",
+        "english": "Germany has a long history that dates back to the Roman Empire. In the Middle Ages, the Holy Roman Empire was a significant realm in Europe."
+      },
+      "keyPoints": [
+        {
+          "german": "Heiliges Römisches Reich: Von 962 bis 1806 bestand das Heilige Römische Reich, das weite Teile Mitteleuropas umfasste.",
+          "english": "Holy Roman Empire: From 962 to 1806, the Holy Roman Empire existed, encompassing large parts of Central Europe."
+        },
+        {
+          "german": "Römisches Reich: Teile Deutschlands gehörten zum Römischen Reich, darunter Gebiete entlang des Rheins.",
+          "english": "Roman Empire: Parts of Germany were part of the Roman Empire, including regions along the Rhine."
+        }
+      ]
+    },
+    {
+      "title": "Das Kaiserreich (The German Empire)",
+      "content": {
+        "german": "Das Deutsche Kaiserreich wurde 1871 nach dem Deutsch-Französischen Krieg gegründet. Es war eine konstitutionelle Monarchie unter der Herrschaft von Kaiser Wilhelm I.",
+        "english": "The German Empire was founded in 1871 after the Franco-Prussian War. It was a constitutional monarchy under Emperor Wilhelm I."
+      },
+      "keyPoints": [
+        {
+          "german": "Gründung des Kaiserreichs: Das Deutsche Reich wurde am 18. Januar 1871 im Spiegelsaal von Versailles ausgerufen.",
+          "english": "Foundation of the Empire: The German Empire was proclaimed on January 18, 1871, in the Hall of Mirrors at Versailles."
+        },
+        {
+          "german": "Kaiser Wilhelm I: Er war der erste Kaiser des Deutschen Reiches.",
+          "english": "Emperor Wilhelm I: He was the first emperor of the German Empire."
+        }
+      ]
+    },
+    {
+      "title": "Erster Weltkrieg (World War I)",
+      "content": {
+        "german": "Der Erste Weltkrieg dauerte von 1914 bis 1918. Deutschland war eine der Hauptkriegsparteien, und der Krieg endete mit der Niederlage Deutschlands und dem Vertrag von Versailles.",
+        "english": "World War I lasted from 1914 to 1918. Germany was one of the main belligerents, and the war ended with Germany's defeat and the Treaty of Versailles."
+      },
+      "keyPoints": [
+        {
+          "german": "Kriegsende: Der Krieg endete 1918 mit der Niederlage Deutschlands.",
+          "english": "End of the war: The war ended in 1918 with Germany's defeat."
+        },
+        {
+          "german": "Vertrag von Versailles: Der Vertrag von Versailles legte Deutschland strenge Friedensbedingungen auf.",
+          "english": "Treaty of Versailles: The Treaty of Versailles imposed strict peace terms on Germany."
+        }
+      ]
+    },
+    {
+      "title": "Weimarer Republik (Weimar Republic)",
+      "content": {
+        "german": "Nach dem Ersten Weltkrieg wurde 1919 die Weimarer Republik gegründet. Diese demokratische Regierung hatte mit vielen politischen und wirtschaftlichen Problemen zu kämpfen.",
+        "english": "After World War I, the Weimar Republic was founded in 1919. This democratic government faced many political and economic challenges."
+      },
+      "keyPoints": [
+        {
+          "german": "Demokratie: Die Weimarer Republik war die erste Demokratie in Deutschland.",
+          "english": "Democracy: The Weimar Republic was Germany's first democracy."
+        },
+        {
+          "german": "Krise: Wirtschaftliche Krisen und politische Instabilität prägten die Weimarer Republik.",
+          "english": "Crisis: Economic crises and political instability characterized the Weimar Republic."
+        }
+      ]
+    },
+    {
+      "title": "Nationalsozialismus und Zweiter Weltkrieg (National Socialism and World War II)",
+      "content": {
+        "german": "Die Nationalsozialisten unter der Führung von Adolf Hitler übernahmen 1933 die Macht in Deutschland. Der Zweite Weltkrieg begann 1939 und endete 1945 mit der Niederlage Deutschlands und der Befreiung Europas von der Nazi-Herrschaft.",
+        "english": "The National Socialists under Adolf Hitler took power in Germany in 1933. World War II began in 1939 and ended in 1945 with Germany's defeat and the liberation of Europe from Nazi rule."
+      },
+      "keyPoints": [
+        {
+          "german": "Machtergreifung: Adolf Hitler und die NSDAP übernahmen 1933 die Kontrolle über Deutschland.",
+          "english": "Seizure of power: Adolf Hitler and the Nazi Party took control of Germany in 1933."
+        },
+        {
+          "german": "Holocaust: Millionen Juden und andere Minderheiten wurden während des Holocausts ermordet.",
+          "english": "Holocaust: Millions of Jews and other minorities were murdered during the Holocaust."
+        },
+        {
+          "german": "Kriegsende: Der Zweite Weltkrieg endete 1945 mit der bedingungslosen Kapitulation Deutschlands.",
+          "english": "End of the war: World War II ended in 1945 with Germany's unconditional surrender."
+        }
+      ]
+    },
+    {
+      "title": "Nachkriegszeit und Teilung Deutschlands (Post-War Period and Division of Germany)",
+      "content": {
+        "german": "Nach dem Zweiten Weltkrieg wurde Deutschland in vier Besatzungszonen aufgeteilt. 1949 entstanden die Bundesrepublik Deutschland (Westdeutschland) und die Deutsche Demokratische Republik (Ostdeutschland).",
+        "english": "After World War II, Germany was divided into four occupation zones. In 1949, the Federal Republic of Germany (West Germany) and the German Democratic Republic (East Germany) were established."
+      },
+      "keyPoints": [
+        {
+          "german": "Teilung: Deutschland wurde nach dem Zweiten Weltkrieg in zwei Staaten geteilt.",
+          "english": "Division: Germany was divided into two states after World War II."
+        },
+        {
+          "german": "Berliner Mauer: Die Berliner Mauer trennte Ost- und Westberlin von 1961 bis 1989.",
+          "english": "Berlin Wall: The Berlin Wall separated East and West Berlin from 1961 to 1989."
+        }
+      ]
+    },
+    {
+      "title": "Wiedervereinigung Deutschlands (Reunification of Germany)",
+      "content": {
+        "german": "Deutschland wurde am 3. Oktober 1990 wiedervereinigt, als die DDR der Bundesrepublik Deutschland beitrat und die deutsche Einheit wiederhergestellt wurde.",
+        "english": "Germany was reunified on October 3, 1990, when East Germany joined the Federal Republic of Germany, restoring German unity."
+      },
+      "keyPoints": [
+        {
+          "german": "Wiedervereinigung: Am 3. Oktober 1990 wurden Ost- und Westdeutschland wiedervereinigt.",
+          "english": "Reunification: East and West Germany were reunified on October 3, 1990."
+        },
+        {
+          "german": "Tag der Deutschen Einheit: Der 3. Oktober ist der Tag der Deutschen Einheit, ein nationaler Feiertag.",
+          "english": "Day of German Unity: October 3rd is the Day of German Unity, a national holiday."
+        }
+      ]
+    },
+    {
+      "title": "Deutsche Geschichte in der Europäischen Union (German History in the European Union)",
+      "content": {
+        "german": "Deutschland ist ein Gründungsmitglied der Europäischen Union (EU) und spielt eine zentrale Rolle in der europäischen Integration.",
+        "english": "Germany is a founding member of the European Union (EU) and plays a central role in European integration."
+      },
+      "keyPoints": [
+        {
+          "german": "Gründungsmitglied: Deutschland war 1957 eines der Gründungsmitglieder der Europäischen Wirtschaftsgemeinschaft (EWG), dem Vorläufer der EU.",
+          "english": "Founding member: Germany was one of the founding members of the European Economic Community (EEC) in 1957, the precursor to the EU."
+        },
+        {
+          "german": "Europäische Integration: Deutschland ist ein starker Befürworter der europäischen Integration und des Euro.",
+          "english": "European integration: Germany is a strong supporter of European integration and the Euro."
+        }
+      ]
+    },
+    {
+      "title": "Die Reformation und Martin Luther (The Reformation and Martin Luther)",
+      "content": {
+        "german": "Die Reformation begann 1517 mit Martin Luthers Thesenanschlag. Sie führte zur Spaltung der Kirche und zur Gründung der evangelischen Kirche.",
+        "english": "The Reformation began in 1517 with Martin Luther's Ninety-Five Theses. It led to the split of the Church and the founding of the Protestant Church."
+      },
+      "keyPoints": [
+        {
+          "german": "Martin Luther: Er war eine Schlüsselfigur der Reformation und gründete die evangelische Kirche.",
+          "english": "Martin Luther: He was a key figure of the Reformation and founded the Protestant Church."
+        },
+        {
+          "german": "Thesenanschlag: 1517 schlug Luther seine 95 Thesen an die Kirchentür in Wittenberg.",
+          "english": "Ninety-Five Theses: In 1517, Luther posted his Ninety-Five Theses on the church door in Wittenberg."
+        }
+      ]
+    },
+    {
+      "title": "Die Berliner Luftbrücke (Berlin Airlift)",
+      "content": {
+        "german": "Die Berliner Luftbrücke von 1948 bis 1949 war eine Reaktion auf die Blockade West-Berlins durch die Sowjetunion. Westliche Alliierten versorgten die Stadt über eine Luftbrücke.",
+        "english": "The Berlin Airlift from 1948 to 1949 was a response to the Soviet blockade of West Berlin. Western allies supplied the city via an airlift."
+      },
+      "keyPoints": [
+        {
+          "german": "Blockade: Die Sowjetunion blockierte den Landzugang zu West-Berlin.",
+          "english": "Blockade: The Soviet Union blocked land access to West Berlin."
+        },
+        {
+          "german": "Luftbrücke: Die Westalliierten versorgten Berlin durch eine Luftbrücke mit Lebensmitteln und anderen Gütern.",
+          "english": "Airlift: The Western allies supplied Berlin with food and other goods via an airlift."
+        }
+      ]
+    },
+    {
+      "title": "Der Fall der Berliner Mauer (The Fall of the Berlin Wall)",
+      "content": {
+        "german": "Die Berliner Mauer fiel am 9. November 1989. Dieses Ereignis markierte den Beginn der deutschen Wiedervereinigung.",
+        "english": "The Berlin Wall fell on November 9, 1989. This event marked the beginning of German reunification."
+      },
+      "keyPoints": [
+        {
+          "german": "Mauerfall: Die Öffnung der Grenze zwischen Ost- und West-Berlin wurde als Symbol für das Ende des Kalten Krieges gesehen.",
+          "english": "Fall of the wall: The opening of the border between East and West Berlin was seen as a symbol of the end of the Cold War."
+        },
+        {
+          "german": "Wiedervereinigung: Nach dem Mauerfall folgte die deutsche Wiedervereinigung am 3. Oktober 1990.",
+          "english": "Reunification: After the fall of the wall, German reunification followed on October 3, 1990."
+        }
+      ]
+    }
+  ]
+}

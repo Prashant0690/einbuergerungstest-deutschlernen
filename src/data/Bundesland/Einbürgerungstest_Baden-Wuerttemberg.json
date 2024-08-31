@@ -1,0 +1,461 @@
+{
+  "fileName": "Einbürgerungstest_Baden-Wuerttemberg.json",
+  "testInfo": {
+    "name": "Gesamtfragenkatalog zum Test „Leben in Deutschland“ und zum „Einbürgerungstest“",
+    "version": "Stand: 25.06.2024"
+  },
+  "state": {
+    "name": "Baden-Württemberg",
+    "questions": [
+      {
+        "id": 1,
+        "germanQuestion": "Welches Wappen gehört zum Bundesland Baden-Württemberg?",
+        "englishQuestion": "Which coat of arms belongs to the state of Baden-Württemberg?",
+        "type": "single",
+        "answerType": "image",
+        "options": [
+          {
+            "germanOption": "Bild 1",
+            "englishOption": "Image 1",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Bild 2",
+            "englishOption": "Image 2",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bild 3",
+            "englishOption": "Image 3",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bild 4",
+            "englishOption": "Image 4",
+            "isCorrect": false
+          }
+        ],
+        "correctAnswerTag": "Add correct answer here later",
+        "importantWords": {
+          "nouns": [
+            { "german": "Wappen", "english": "coat of arms" },
+            { "german": "Baden-Württemberg", "english": "Baden-Württemberg" }
+          ]
+        },
+        "notes": "The coat of arms of Baden-Württemberg is an important symbol representing the state.",
+        "learningTechniques": "Focus on identifying the unique elements of the Baden-Württemberg coat of arms.",
+        "resources": [
+          {
+            "description": "Learn more about the coat of arms of Baden-Württemberg.",
+            "url": "https://en.wikipedia.org/wiki/Coat_of_arms_of_Baden-Württemberg"
+          }
+        ],
+        "region": "Baden-Württemberg"
+      },
+      {
+        "id": 2,
+        "germanQuestion": "Welches ist ein Landkreis in Baden-Württemberg?",
+        "englishQuestion": "Which is a district (Landkreis) in Baden-Württemberg?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Mecklenburgische Seenplatte",
+            "englishOption": "Mecklenburg Lake District",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Neckar-Odenwald-Kreis",
+            "englishOption": "Neckar-Odenwald District",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Nordfriesland",
+            "englishOption": "North Frisia",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Altötting",
+            "englishOption": "Altötting",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landkreis", "english": "district" },
+            { "german": "Baden-Württemberg", "english": "Baden-Württemberg" },
+            {
+              "german": "Neckar-Odenwald-Kreis",
+              "english": "Neckar-Odenwald District"
+            }
+          ]
+        },
+        "notes": "The 'Neckar-Odenwald-Kreis' is a district located in the state of Baden-Württemberg.",
+        "learningTechniques": "Familiarize yourself with the names of districts within Baden-Württemberg, especially 'Neckar-Odenwald-Kreis.'",
+        "resources": [
+          {
+            "description": "Learn more about the districts in Baden-Württemberg.",
+            "url": "https://en.wikipedia.org/wiki/Neckar-Odenwald-Kreis"
+          }
+        ],
+        "region": "Baden-Württemberg"
+      },
+      {
+        "id": 3,
+        "germanQuestion": "Für wie viele Jahre wird der Landtag in Baden-Württemberg gewählt?",
+        "englishQuestion": "For how many years is the state parliament (Landtag) in Baden-Württemberg elected?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "3",
+            "englishOption": "3",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "4",
+            "englishOption": "4",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "5",
+            "englishOption": "5",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "6",
+            "englishOption": "6",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landtag", "english": "state parliament" },
+            { "german": "Baden-Württemberg", "english": "Baden-Württemberg" },
+            { "german": "Jahre", "english": "years" }
+          ]
+        },
+        "notes": "The state parliament in Baden-Württemberg is elected for a term of 5 years.",
+        "learningTechniques": "Remember that the term length for the Landtag in Baden-Württemberg is 5 years, aligning with most other German federal states.",
+        "resources": [
+          {
+            "description": "Learn more about the political system in Baden-Württemberg.",
+            "url": "https://en.wikipedia.org/wiki/Politics_of_Baden-Württemberg"
+          }
+        ],
+        "region": "Baden-Württemberg"
+      },
+      {
+        "id": 4,
+        "germanQuestion": "Ab welchem Alter darf man in Baden-Württemberg bei Kommunalwahlen wählen?",
+        "englishQuestion": "At what age can you vote in local elections in Baden-Württemberg?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "14",
+            "englishOption": "14",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "16",
+            "englishOption": "16",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "18",
+            "englishOption": "18",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "20",
+            "englishOption": "20",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Kommunalwahlen", "english": "local elections" },
+            { "german": "Alter", "english": "age" },
+            { "german": "Baden-Württemberg", "english": "Baden-Württemberg" }
+          ]
+        },
+        "notes": "In Baden-Württemberg, citizens can participate in local elections starting at the age of 16.",
+        "learningTechniques": "Remember that 16 is the voting age for local elections in Baden-Württemberg, allowing young citizens to engage in their community's political process.",
+        "resources": [
+          {
+            "description": "Learn more about voting rights in Baden-Württemberg.",
+            "url": "https://en.wikipedia.org/wiki/Elections_in_Baden-Württemberg"
+          }
+        ],
+        "region": "Baden-Württemberg"
+      },
+      {
+        "id": 5,
+        "germanQuestion": "Welche Farben hat die Landesflagge von Baden-Württemberg?",
+        "englishQuestion": "What are the colors of the state flag of Baden-Württemberg?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "blau-weiß-rot",
+            "englishOption": "blue-white-red",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "schwarz-gold",
+            "englishOption": "black-gold",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "weiß-blau",
+            "englishOption": "white-blue",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "grün-weiß-rot",
+            "englishOption": "green-white-red",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landesflagge", "english": "state flag" },
+            { "german": "Farben", "english": "colors" },
+            { "german": "Baden-Württemberg", "english": "Baden-Württemberg" }
+          ]
+        },
+        "notes": "The state flag of Baden-Württemberg consists of the colors black and gold.",
+        "learningTechniques": "Remember the black and gold colors of Baden-Württemberg's flag, which reflect the state's heritage.",
+        "resources": [
+          {
+            "description": "Learn more about the flag of Baden-Württemberg.",
+            "url": "https://en.wikipedia.org/wiki/Flag_of_Baden-Württemberg"
+          }
+        ],
+        "region": "Baden-Württemberg"
+      },
+      {
+        "id": 6,
+        "germanQuestion": "Wo können Sie sich in Baden-Württemberg über politische Themen informieren?",
+        "englishQuestion": "Where can you get information on political topics in Baden-Württemberg?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "beim Ordnungsamt der Gemeinde",
+            "englishOption": "at the local regulatory office",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "bei der Verbraucherzentrale",
+            "englishOption": "at the consumer advice center",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "bei der Landeszentrale für politische Bildung",
+            "englishOption": "at the State Center for Civic Education",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "bei den Kirchen",
+            "englishOption": "at the churches",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "politische Themen", "english": "political topics" },
+            {
+              "german": "Landeszentrale für politische Bildung",
+              "english": "State Center for Civic Education"
+            },
+            { "german": "Baden-Württemberg", "english": "Baden-Württemberg" }
+          ]
+        },
+        "notes": "In Baden-Württemberg, the 'Landeszentrale für politische Bildung' (State Center for Civic Education) is the key institution for learning about political topics.",
+        "learningTechniques": "Focus on the role of the 'Landeszentrale für politische Bildung' in educating the public about political matters in Baden-Württemberg.",
+        "resources": [
+          {
+            "description": "Learn more about the State Center for Civic Education in Baden-Württemberg.",
+            "url": "https://www.lpb-bw.de/"
+          }
+        ],
+        "region": "Baden-Württemberg"
+      },
+      {
+        "id": 7,
+        "germanQuestion": "Die Landeshauptstadt von Baden-Württemberg heißt …",
+        "englishQuestion": "The state capital of Baden-Württemberg is called …",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Heidelberg",
+            "englishOption": "Heidelberg",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Stuttgart",
+            "englishOption": "Stuttgart",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Karlsruhe",
+            "englishOption": "Karlsruhe",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Mannheim",
+            "englishOption": "Mannheim",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landeshauptstadt", "english": "state capital" },
+            { "german": "Baden-Württemberg", "english": "Baden-Württemberg" },
+            { "german": "Stuttgart", "english": "Stuttgart" }
+          ]
+        },
+        "notes": "The state capital of Baden-Württemberg is Stuttgart, a major city known for its automotive industry and cultural heritage.",
+        "learningTechniques": "Remember that Stuttgart is not only the capital of Baden-Württemberg but also a key economic hub in Germany.",
+        "resources": [
+          {
+            "description": "Learn more about Stuttgart, the capital of Baden-Württemberg.",
+            "url": "https://en.wikipedia.org/wiki/Stuttgart"
+          }
+        ],
+        "region": "Baden-Württemberg"
+      },
+      {
+        "id": 8,
+        "germanQuestion": "Welches Bundesland ist Baden-Württemberg?",
+        "englishQuestion": "Which state is Baden-Württemberg?",
+        "type": "single",
+        "answerType": "image",
+        "options": [
+          { "germanOption": "1", "englishOption": "1", "isCorrect": false },
+          { "germanOption": "2", "englishOption": "2", "isCorrect": true },
+          { "germanOption": "3", "englishOption": "3", "isCorrect": false },
+          { "germanOption": "4", "englishOption": "4", "isCorrect": false }
+        ],
+        "correctAnswerTag": "Add correct answer here later",
+        "importantWords": {
+          "nouns": [
+            { "german": "Bundesland", "english": "state" },
+            { "german": "Baden-Württemberg", "english": "Baden-Württemberg" }
+          ]
+        },
+        "notes": "Baden-Württemberg is located in the southwest of Germany and is one of the country's 16 federal states.",
+        "learningTechniques": "Familiarize yourself with the geographical location of Baden-Württemberg on a map of Germany.",
+        "resources": [
+          {
+            "description": "Learn more about the geography of Baden-Württemberg.",
+            "url": "https://en.wikipedia.org/wiki/Baden-Württemberg"
+          }
+        ],
+        "region": "Baden-Württemberg"
+      },
+      {
+        "id": 9,
+        "germanQuestion": "Wie nennt man die Regierungschefin/den Regierungschef in Baden-Württemberg?",
+        "englishQuestion": "What is the title of the head of government in Baden-Württemberg?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Erste Ministerin/Erster Minister",
+            "englishOption": "First Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Premierministerin/Premierminister",
+            "englishOption": "Prime Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bürgermeisterin/Bürgermeister",
+            "englishOption": "Mayor",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Ministerpräsidentin/Ministerpräsident",
+            "englishOption": "Minister-President",
+            "isCorrect": true
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            {
+              "german": "Regierungschefin/Regierungschef",
+              "english": "head of government"
+            },
+            { "german": "Baden-Württemberg", "english": "Baden-Württemberg" },
+            {
+              "german": "Ministerpräsidentin/Ministerpräsident",
+              "english": "Minister-President"
+            }
+          ]
+        },
+        "notes": "The head of government in Baden-Württemberg is called the 'Ministerpräsidentin' or 'Ministerpräsident,' a title equivalent to 'Minister-President.'",
+        "learningTechniques": "Remember that the title 'Ministerpräsident' is used for the heads of government in German federal states, including Baden-Württemberg.",
+        "resources": [
+          {
+            "description": "Learn more about the role of the Minister-President in Germany.",
+            "url": "https://en.wikipedia.org/wiki/Minister-President"
+          }
+        ],
+        "region": "Baden-Württemberg"
+      },
+      {
+        "id": 10,
+        "germanQuestion": "Welche Ministerin/welchen Minister hat Baden-Württemberg nicht?",
+        "englishQuestion": "Which minister does Baden-Württemberg not have?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Finanzministerin/Finanzminister",
+            "englishOption": "Finance Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Justizministerin/Justizminister",
+            "englishOption": "Justice Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Innenministerin/Innenminister",
+            "englishOption": "Interior Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Außenministerin/Außenminister",
+            "englishOption": "Foreign Minister",
+            "isCorrect": true
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Ministerin/Minister", "english": "minister" },
+            { "german": "Baden-Württemberg", "english": "Baden-Württemberg" },
+            {
+              "german": "Außenministerin/Außenminister",
+              "english": "Foreign Minister"
+            }
+          ]
+        },
+        "notes": "Baden-Württemberg, like other German federal states, does not have a Foreign Minister ('Außenminister'), as foreign affairs are handled at the federal level.",
+        "learningTechniques": "Remember that federal states in Germany do not have foreign ministers, as foreign policy is the responsibility of the federal government.",
+        "resources": [
+          {
+            "description": "Learn more about the structure of state governments in Germany.",
+            "url": "https://en.wikipedia.org/wiki/Politics_of_Germany"
+          }
+        ],
+        "region": "Baden-Württemberg"
+      }
+    ]
+  }
+}

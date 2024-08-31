@@ -1,0 +1,458 @@
+{
+  "fileName": "Einbürgerungstest_Brandenburg.json",
+  "testInfo": {
+    "name": "Gesamtfragenkatalog zum Test „Leben in Deutschland“ und zum „Einbürgerungstest“",
+    "version": "Stand: 25.06.2024"
+  },
+  "state": {
+    "name": "Brandenburg",
+    "questions": [
+      {
+        "id": 1,
+        "germanQuestion": "Welches Wappen gehört zum Bundesland Brandenburg?",
+        "englishQuestion": "Which coat of arms belongs to the state of Brandenburg?",
+        "type": "single",
+        "answerType": "image",
+        "options": [
+          {
+            "germanOption": "Bild 1",
+            "englishOption": "Image 1",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Bild 2",
+            "englishOption": "Image 2",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bild 3",
+            "englishOption": "Image 3",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bild 4",
+            "englishOption": "Image 4",
+            "isCorrect": false
+          }
+        ],
+        "correctAnswerTag": "Add correct answer here later",
+        "importantWords": {
+          "nouns": [
+            { "german": "Wappen", "english": "coat of arms" },
+            { "german": "Brandenburg", "english": "Brandenburg" }
+          ]
+        },
+        "notes": "The coat of arms of Brandenburg features a red eagle, which is a historic symbol of the region.",
+        "learningTechniques": "Familiarize yourself with Brandenburg's coat of arms, which prominently features a red eagle.",
+        "resources": [
+          {
+            "description": "Learn more about the coat of arms of Brandenburg.",
+            "url": "https://en.wikipedia.org/wiki/Coat_of_arms_of_Brandenburg"
+          }
+        ],
+        "region": "Brandenburg"
+      },
+      {
+        "id": 2,
+        "germanQuestion": "Welches ist ein Landkreis in Brandenburg?",
+        "englishQuestion": "Which is a district (Landkreis) in Brandenburg?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Prignitz",
+            "englishOption": "Prignitz",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Rhein-Sieg-Kreis",
+            "englishOption": "Rhein-Sieg District",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Vogtlandkreis",
+            "englishOption": "Vogtland District",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Amberg-Sulzbach",
+            "englishOption": "Amberg-Sulzbach",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landkreis", "english": "district" },
+            { "german": "Brandenburg", "english": "Brandenburg" },
+            { "german": "Prignitz", "english": "Prignitz" }
+          ]
+        },
+        "notes": "Prignitz is a district in Brandenburg, located in the northwestern part of the state.",
+        "learningTechniques": "Familiarize yourself with the districts of Brandenburg, especially Prignitz, which is an important rural area.",
+        "resources": [
+          {
+            "description": "Learn more about the districts of Brandenburg.",
+            "url": "https://en.wikipedia.org/wiki/Prignitz"
+          }
+        ],
+        "region": "Brandenburg"
+      },
+      {
+        "id": 3,
+        "germanQuestion": "Für wie viele Jahre wird der Landtag in Brandenburg gewählt?",
+        "englishQuestion": "For how many years is the state parliament (Landtag) in Brandenburg elected?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "3",
+            "englishOption": "3",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "4",
+            "englishOption": "4",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "5",
+            "englishOption": "5",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "6",
+            "englishOption": "6",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landtag", "english": "state parliament" },
+            { "german": "Brandenburg", "english": "Brandenburg" },
+            { "german": "Jahre", "english": "years" }
+          ]
+        },
+        "notes": "The state parliament (Landtag) in Brandenburg is elected for a term of 5 years.",
+        "learningTechniques": "Remember that the term length for the Landtag in Brandenburg is 5 years, similar to most other German states.",
+        "resources": [
+          {
+            "description": "Learn more about the political system in Brandenburg.",
+            "url": "https://en.wikipedia.org/wiki/Politics_of_Brandenburg"
+          }
+        ],
+        "region": "Brandenburg"
+      },
+      {
+        "id": 4,
+        "germanQuestion": "Ab welchem Alter darf man in Brandenburg bei Kommunalwahlen wählen?",
+        "englishQuestion": "At what age can you vote in local elections in Brandenburg?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "14",
+            "englishOption": "14",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "16",
+            "englishOption": "16",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "18",
+            "englishOption": "18",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "20",
+            "englishOption": "20",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Kommunalwahlen", "english": "local elections" },
+            { "german": "Alter", "english": "age" },
+            { "german": "Brandenburg", "english": "Brandenburg" }
+          ]
+        },
+        "notes": "In Brandenburg, citizens can participate in local elections starting at the age of 16.",
+        "learningTechniques": "Remember that 16 is the voting age for local elections in Brandenburg, which is the same as in several other German states.",
+        "resources": [
+          {
+            "description": "Learn more about voting rights in Brandenburg.",
+            "url": "https://en.wikipedia.org/wiki/Elections_in_Brandenburg"
+          }
+        ],
+        "region": "Brandenburg"
+      },
+      {
+        "id": 5,
+        "germanQuestion": "Welche Farben hat die Landesflagge von Brandenburg?",
+        "englishQuestion": "What are the colors of the state flag of Brandenburg?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "blau-weiß-rot",
+            "englishOption": "blue-white-red",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "rot-weiß",
+            "englishOption": "red-white",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "grün-weiß-rot",
+            "englishOption": "green-white-red",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "schwarz-gelb",
+            "englishOption": "black-yellow",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landesflagge", "english": "state flag" },
+            { "german": "Farben", "english": "colors" },
+            { "german": "Brandenburg", "english": "Brandenburg" }
+          ]
+        },
+        "notes": "The state flag of Brandenburg consists of the colors red and white, with a red eagle emblem.",
+        "learningTechniques": "Remember the red and white colors of Brandenburg's flag, which are associated with the historic red eagle of the region.",
+        "resources": [
+          {
+            "description": "Learn more about the flag of Brandenburg.",
+            "url": "https://en.wikipedia.org/wiki/Flag_of_Brandenburg"
+          }
+        ],
+        "region": "Brandenburg"
+      },
+      {
+        "id": 6,
+        "germanQuestion": "Wo können Sie sich in Brandenburg über politische Themen informieren?",
+        "englishQuestion": "Where can you get information on political topics in Brandenburg?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "bei den Kirchen",
+            "englishOption": "at the churches",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "beim Ordnungsamt der Gemeinde",
+            "englishOption": "at the local regulatory office",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "bei der Landeszentrale für politische Bildung",
+            "englishOption": "at the State Center for Civic Education",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "bei der Verbraucherzentrale",
+            "englishOption": "at the consumer advice center",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "politische Themen", "english": "political topics" },
+            {
+              "german": "Landeszentrale für politische Bildung",
+              "english": "State Center for Civic Education"
+            },
+            { "german": "Brandenburg", "english": "Brandenburg" }
+          ]
+        },
+        "notes": "In Brandenburg, the 'Landeszentrale für politische Bildung' (State Center for Civic Education) is the primary resource for information on political topics.",
+        "learningTechniques": "Focus on the role of the 'Landeszentrale für politische Bildung' in educating the public about political matters in Brandenburg.",
+        "resources": [
+          {
+            "description": "Learn more about the State Center for Civic Education in Brandenburg.",
+            "url": "https://www.politische-bildung-brandenburg.de/"
+          }
+        ],
+        "region": "Brandenburg"
+      },
+      {
+        "id": 7,
+        "germanQuestion": "Die Landeshauptstadt von Brandenburg heißt …",
+        "englishQuestion": "The state capital of Brandenburg is called …",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Potsdam",
+            "englishOption": "Potsdam",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Cottbus",
+            "englishOption": "Cottbus",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Brandenburg",
+            "englishOption": "Brandenburg",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Frankfurt/Oder",
+            "englishOption": "Frankfurt (Oder)",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landeshauptstadt", "english": "state capital" },
+            { "german": "Brandenburg", "english": "Brandenburg" },
+            { "german": "Potsdam", "english": "Potsdam" }
+          ]
+        },
+        "notes": "The state capital of Brandenburg is Potsdam, known for its historic palaces and parks.",
+        "learningTechniques": "Remember that Potsdam is the capital of Brandenburg, a city renowned for its cultural heritage and proximity to Berlin.",
+        "resources": [
+          {
+            "description": "Learn more about Potsdam, the capital of Brandenburg.",
+            "url": "https://en.wikipedia.org/wiki/Potsdam"
+          }
+        ],
+        "region": "Brandenburg"
+      },
+      {
+        "id": 8,
+        "germanQuestion": "Welches Bundesland ist Brandenburg?",
+        "englishQuestion": "Which federal state is Brandenburg?",
+        "type": "single",
+        "answerType": "image",
+        "options": [
+          { "germanOption": "1", "englishOption": "1", "isCorrect": false },
+          { "germanOption": "2", "englishOption": "2", "isCorrect": false },
+          { "germanOption": "3", "englishOption": "3", "isCorrect": false },
+          { "germanOption": "4", "englishOption": "4", "isCorrect": true }
+        ],
+        "correctAnswerTag": "Add correct answer here later",
+        "importantWords": {
+          "nouns": [
+            { "german": "Bundesland", "english": "state" },
+            { "german": "Brandenburg", "english": "Brandenburg" }
+          ]
+        },
+        "notes": "Brandenburg is located in northeastern Germany, surrounding the capital city of Berlin.",
+        "learningTechniques": "Familiarize yourself with Brandenburg's location as one of the states in eastern Germany, closely connected with Berlin.",
+        "resources": [
+          {
+            "description": "Learn more about the geography of Brandenburg.",
+            "url": "https://en.wikipedia.org/wiki/Brandenburg"
+          }
+        ],
+        "region": "Brandenburg"
+      },
+      {
+        "id": 9,
+        "germanQuestion": "Wie nennt man die Regierungschefin/den Regierungschef in Brandenburg?",
+        "englishQuestion": "What is the title of the head of government in Brandenburg?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Erste Ministerin/Erster Minister",
+            "englishOption": "First Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Premierministerin/Premierminister",
+            "englishOption": "Prime Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bürgermeisterin/Bürgermeister",
+            "englishOption": "Mayor",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Ministerpräsidentin/Ministerpräsident",
+            "englishOption": "Minister-President",
+            "isCorrect": true
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            {
+              "german": "Regierungschefin/Regierungschef",
+              "english": "head of government"
+            },
+            { "german": "Brandenburg", "english": "Brandenburg" },
+            {
+              "german": "Ministerpräsidentin/Ministerpräsident",
+              "english": "Minister-President"
+            }
+          ]
+        },
+        "notes": "The head of government in Brandenburg is called the 'Ministerpräsidentin' or 'Ministerpräsident,' a title used for the leaders of most German federal states.",
+        "learningTechniques": "Remember that the title 'Minister-President' is used in German federal states like Brandenburg for the head of government.",
+        "resources": [
+          {
+            "description": "Learn more about the role of the Minister-President in Brandenburg.",
+            "url": "https://en.wikipedia.org/wiki/Minister-President"
+          }
+        ],
+        "region": "Brandenburg"
+      },
+      {
+        "id": 10,
+        "germanQuestion": "Welche Ministerin/welchen Minister hat Brandenburg nicht?",
+        "englishQuestion": "Which minister does Brandenburg not have?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Justizministerin/Justizminister",
+            "englishOption": "Justice Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Außenministerin/Außenminister",
+            "englishOption": "Foreign Minister",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Finanzministerin/Finanzminister",
+            "englishOption": "Finance Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Innenministerin/Innenminister",
+            "englishOption": "Interior Minister",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Ministerin/Minister", "english": "Minister" },
+            { "german": "Brandenburg", "english": "Brandenburg" },
+            {
+              "german": "Außenministerin/Außenminister",
+              "english": "Foreign Minister"
+            }
+          ]
+        },
+        "notes": "Brandenburg, like other German states, does not have a Foreign Minister ('Außenminister'), as foreign affairs are managed at the federal level.",
+        "learningTechniques": "Remember that federal states in Germany do not have foreign ministers, as foreign policy is the responsibility of the federal government.",
+        "resources": [
+          {
+            "description": "Learn more about the political structure of German states.",
+            "url": "https://en.wikipedia.org/wiki/Politics_of_Germany"
+          }
+        ],
+        "region": "Brandenburg"
+      }
+    ]
+  }
+}

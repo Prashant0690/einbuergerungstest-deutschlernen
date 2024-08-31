@@ -1,0 +1,458 @@
+{
+  "fileName": "Einbürgerungstest_Schleswig-Holstein.json",
+  "testInfo": {
+    "name": "Gesamtfragenkatalog zum Test „Leben in Deutschland“ und zum „Einbürgerungstest“",
+    "version": "Stand: 25.06.2024"
+  },
+  "state": {
+    "name": "Schleswig-Holstein",
+    "questions": [
+      {
+        "id": 1,
+        "germanQuestion": "Welches Wappen gehört zum Bundesland Schleswig-Holstein?",
+        "englishQuestion": "Which coat of arms belongs to the state of Schleswig-Holstein?",
+        "type": "single",
+        "answerType": "image",
+        "options": [
+          {
+            "germanOption": "Bild 1",
+            "englishOption": "Image 1",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bild 2",
+            "englishOption": "Image 2",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bild 3",
+            "englishOption": "Image 3",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Bild 4",
+            "englishOption": "Image 4",
+            "isCorrect": false
+          }
+        ],
+        "correctAnswerTag": "Add correct answer here later",
+        "importantWords": {
+          "nouns": [
+            { "german": "Wappen", "english": "coat of arms" },
+            { "german": "Schleswig-Holstein", "english": "Schleswig-Holstein" }
+          ]
+        },
+        "notes": "The coat of arms of Schleswig-Holstein is a symbol of the state's history and identity.",
+        "learningTechniques": "Focus on identifying the unique elements of the Schleswig-Holstein coat of arms.",
+        "resources": [
+          {
+            "description": "Learn more about the coat of arms of Schleswig-Holstein.",
+            "url": "https://en.wikipedia.org/wiki/Coat_of_arms_of_Schleswig-Holstein"
+          }
+        ],
+        "region": "Schleswig-Holstein"
+      },
+      {
+        "id": 2,
+        "germanQuestion": "Welches ist ein Landkreis in Schleswig-Holstein?",
+        "englishQuestion": "Which is a district (Landkreis) in Schleswig-Holstein?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Ammerland",
+            "englishOption": "Ammerland",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Mecklenburgische Seenplatte",
+            "englishOption": "Mecklenburg Lake District",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Nordfriesland",
+            "englishOption": "North Frisia",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Rhein-Sieg-Kreis",
+            "englishOption": "Rhein-Sieg District",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landkreis", "english": "district" },
+            { "german": "Schleswig-Holstein", "english": "Schleswig-Holstein" },
+            { "german": "Nordfriesland", "english": "North Frisia" }
+          ]
+        },
+        "notes": "The 'Nordfriesland' is a district located in the state of Schleswig-Holstein.",
+        "learningTechniques": "Familiarize yourself with the names of districts within Schleswig-Holstein, especially 'Nordfriesland.'",
+        "resources": [
+          {
+            "description": "Learn more about the districts in Schleswig-Holstein.",
+            "url": "https://en.wikipedia.org/wiki/Nordfriesland"
+          }
+        ],
+        "region": "Schleswig-Holstein"
+      },
+      {
+        "id": 3,
+        "germanQuestion": "Für wie viele Jahre wird der Landtag in Schleswig-Holstein gewählt?",
+        "englishQuestion": "For how many years is the state parliament (Landtag) in Schleswig-Holstein elected?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "3",
+            "englishOption": "3",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "4",
+            "englishOption": "4",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "5",
+            "englishOption": "5",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "6",
+            "englishOption": "6",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landtag", "english": "state parliament" },
+            { "german": "Schleswig-Holstein", "english": "Schleswig-Holstein" },
+            { "german": "Jahre", "english": "years" }
+          ]
+        },
+        "notes": "The state parliament in Schleswig-Holstein is elected for a term of 5 years.",
+        "learningTechniques": "Remember that the term length for the Landtag in Schleswig-Holstein is 5 years, which aligns with most other German federal states.",
+        "resources": [
+          {
+            "description": "Learn more about the political system in Schleswig-Holstein.",
+            "url": "https://en.wikipedia.org/wiki/Politics_of_Schleswig-Holstein"
+          }
+        ],
+        "region": "Schleswig-Holstein"
+      },
+      {
+        "id": 4,
+        "germanQuestion": "Ab welchem Alter darf man in Schleswig-Holstein bei Kommunalwahlen wählen?",
+        "englishQuestion": "At what age can you vote in local elections in Schleswig-Holstein?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "14",
+            "englishOption": "14",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "16",
+            "englishOption": "16",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "18",
+            "englishOption": "18",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "20",
+            "englishOption": "20",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Kommunalwahlen", "english": "local elections" },
+            { "german": "Alter", "english": "age" },
+            { "german": "Schleswig-Holstein", "english": "Schleswig-Holstein" }
+          ]
+        },
+        "notes": "In Schleswig-Holstein, citizens can participate in local elections starting at the age of 16.",
+        "learningTechniques": "Remember that 16 is the voting age for local elections in Schleswig-Holstein, allowing younger citizens to engage in their community's political process.",
+        "resources": [
+          {
+            "description": "Learn more about voting rights in Schleswig-Holstein.",
+            "url": "https://en.wikipedia.org/wiki/Elections_in_Schleswig-Holstein"
+          }
+        ],
+        "region": "Schleswig-Holstein"
+      },
+      {
+        "id": 5,
+        "germanQuestion": "Welche Farben hat die Landesflagge von Schleswig-Holstein?",
+        "englishQuestion": "What are the colors of the state flag of Schleswig-Holstein?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "weiß-blau",
+            "englishOption": "white-blue",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "blau-weiß-rot",
+            "englishOption": "blue-white-red",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "weiß-rot",
+            "englishOption": "white-red",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "grün-weiß-rot",
+            "englishOption": "green-white-red",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landesflagge", "english": "state flag" },
+            { "german": "Farben", "english": "colors" },
+            { "german": "Schleswig-Holstein", "english": "Schleswig-Holstein" }
+          ]
+        },
+        "notes": "The state flag of Schleswig-Holstein consists of the colors blue, white, and red.",
+        "learningTechniques": "Remember the blue, white, and red colors of Schleswig-Holstein's flag, which reflect the state's identity.",
+        "resources": [
+          {
+            "description": "Learn more about the flag of Schleswig-Holstein.",
+            "url": "https://en.wikipedia.org/wiki/Flag_of_Schleswig-Holstein"
+          }
+        ],
+        "region": "Schleswig-Holstein"
+      },
+      {
+        "id": 6,
+        "germanQuestion": "Wo können Sie sich in Schleswig-Holstein über politische Themen informieren?",
+        "englishQuestion": "Where can you get information on political topics in Schleswig-Holstein?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "bei der Verbraucherzentrale",
+            "englishOption": "at the consumer advice center",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "beim Ordnungsamt der Gemeinde",
+            "englishOption": "at the local regulatory office",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "beim / bei der Landesbeauftragten für politische Bildung",
+            "englishOption": "at the State Commissioner for Civic Education",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "bei den Kirchen",
+            "englishOption": "at the churches",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "politische Themen", "english": "political topics" },
+            {
+              "german": "Landesbeauftragten für politische Bildung",
+              "english": "State Commissioner for Civic Education"
+            },
+            { "german": "Schleswig-Holstein", "english": "Schleswig-Holstein" }
+          ]
+        },
+        "notes": "In Schleswig-Holstein, the 'Landesbeauftragten für politische Bildung' (State Commissioner for Civic Education) is the key institution for learning about political topics.",
+        "learningTechniques": "Focus on the role of the 'Landesbeauftragten für politische Bildung' in educating the public about political matters in Schleswig-Holstein.",
+        "resources": [
+          {
+            "description": "Learn more about the State Commissioner for Civic Education in Schleswig-Holstein.",
+            "url": "https://www.schleswig-holstein.de/DE/Landesregierung/Landesbeauftragte_politische_Bildung/landesbeauftragte_politische_Bildung_node.html"
+          }
+        ],
+        "region": "Schleswig-Holstein"
+      },
+      {
+        "id": 7,
+        "germanQuestion": "Die Landeshauptstadt von Schleswig-Holstein heißt ...",
+        "englishQuestion": "The state capital of Schleswig-Holstein is called ...",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Husum",
+            "englishOption": "Husum",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Flensburg",
+            "englishOption": "Flensburg",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Lübeck",
+            "englishOption": "Lübeck",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Kiel",
+            "englishOption": "Kiel",
+            "isCorrect": true
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landeshauptstadt", "english": "state capital" },
+            { "german": "Schleswig-Holstein", "english": "Schleswig-Holstein" },
+            { "german": "Kiel", "english": "Kiel" }
+          ]
+        },
+        "notes": "The state capital of Schleswig-Holstein is Kiel, a city known for its maritime heritage and as the host of the annual Kiel Week, one of the largest sailing events in the world.",
+        "learningTechniques": "Remember that Kiel is the capital of Schleswig-Holstein, a city with significant historical and cultural importance.",
+        "resources": [
+          {
+            "description": "Learn more about Kiel, the capital of Schleswig-Holstein.",
+            "url": "https://en.wikipedia.org/wiki/Kiel"
+          }
+        ],
+        "region": "Schleswig-Holstein"
+      },
+      {
+        "id": 8,
+        "germanQuestion": "Welches Bundesland ist Schleswig-Holstein?",
+        "englishQuestion": "Which state is Schleswig-Holstein?",
+        "type": "single",
+        "answerType": "image",
+        "options": [
+          { "germanOption": "1", "englishOption": "1", "isCorrect": true },
+          { "germanOption": "2", "englishOption": "2", "isCorrect": false },
+          { "germanOption": "3", "englishOption": "3", "isCorrect": false },
+          { "germanOption": "4", "englishOption": "4", "isCorrect": false }
+        ],
+        "correctAnswerTag": "Add correct answer here later",
+        "importantWords": {
+          "nouns": [
+            { "german": "Bundesland", "english": "state" },
+            { "german": "Schleswig-Holstein", "english": "Schleswig-Holstein" }
+          ]
+        },
+        "notes": "Schleswig-Holstein is located in the northern part of Germany and is one of the country's 16 federal states.",
+        "learningTechniques": "Familiarize yourself with the geographical location of Schleswig-Holstein on a map of Germany.",
+        "resources": [
+          {
+            "description": "Learn more about the geography of Schleswig-Holstein.",
+            "url": "https://en.wikipedia.org/wiki/Schleswig-Holstein"
+          }
+        ],
+        "region": "Schleswig-Holstein"
+      },
+      {
+        "id": 9,
+        "germanQuestion": "Wie nennt man die Regierungschefin/den Regierungschef in Schleswig-Holstein?",
+        "englishQuestion": "What is the title of the head of government in Schleswig-Holstein?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Erste Ministerin/Erster Minister",
+            "englishOption": "First Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Premierministerin/Premierminister",
+            "englishOption": "Prime Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bürgermeisterin/Bürgermeister",
+            "englishOption": "Mayor",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Ministerpräsidentin/Ministerpräsident",
+            "englishOption": "Minister-President",
+            "isCorrect": true
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            {
+              "german": "Regierungschefin/Regierungschef",
+              "english": "head of government"
+            },
+            { "german": "Schleswig-Holstein", "english": "Schleswig-Holstein" },
+            {
+              "german": "Ministerpräsidentin/Ministerpräsident",
+              "english": "Minister-President"
+            }
+          ]
+        },
+        "notes": "The head of government in Schleswig-Holstein is called the 'Ministerpräsidentin' or 'Ministerpräsident,' a title equivalent to 'Minister-President.'",
+        "learningTechniques": "Remember that the title 'Ministerpräsident' is used for the heads of government in German federal states, including Schleswig-Holstein.",
+        "resources": [
+          {
+            "description": "Learn more about the role of the Minister-President in Germany.",
+            "url": "https://en.wikipedia.org/wiki/Minister-President"
+          }
+        ],
+        "region": "Schleswig-Holstein"
+      },
+      {
+        "id": 10,
+        "germanQuestion": "Welche Ministerin/welchen Minister hat Schleswig-Holstein nicht?",
+        "englishQuestion": "Which minister does Schleswig-Holstein not have?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Justizministerin/Justizminister",
+            "englishOption": "Justice Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Außenministerin/Außenminister",
+            "englishOption": "Foreign Minister",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Finanzministerin/Finanzminister",
+            "englishOption": "Finance Minister",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Innenministerin/Innenminister",
+            "englishOption": "Interior Minister",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Ministerin/Minister", "english": "minister" },
+            { "german": "Schleswig-Holstein", "english": "Schleswig-Holstein" },
+            {
+              "german": "Außenministerin/Außenminister",
+              "english": "Foreign Minister"
+            }
+          ]
+        },
+        "notes": "Schleswig-Holstein, like other German federal states, does not have a Foreign Minister ('Außenminister'), as foreign affairs are handled at the federal level.",
+        "learningTechniques": "Remember that federal states in Germany do not have foreign ministers, as foreign policy is the responsibility of the federal government.",
+        "resources": [
+          {
+            "description": "Learn more about the structure of state governments in Germany.",
+            "url": "https://en.wikipedia.org/wiki/Politics_of_Germany"
+          }
+        ],
+        "region": "Schleswig-Holstein"
+      }
+    ]
+  }
+}

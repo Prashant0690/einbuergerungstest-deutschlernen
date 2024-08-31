@@ -1,0 +1,458 @@
+{
+  "fileName": "Einbürgerungstest_Berlin.json",
+  "testInfo": {
+    "name": "Gesamtfragenkatalog zum Test „Leben in Deutschland“ und zum „Einbürgerungstest“",
+    "version": "Stand: 25.06.2024"
+  },
+  "state": {
+    "name": "Berlin",
+    "questions": [
+      {
+        "id": 1,
+        "germanQuestion": "Welches Wappen gehört zum Bundesland Berlin?",
+        "englishQuestion": "Which coat of arms belongs to the state of Berlin?",
+        "type": "single",
+        "answerType": "image",
+        "options": [
+          {
+            "germanOption": "Bild 1",
+            "englishOption": "Image 1",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bild 2",
+            "englishOption": "Image 2",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bild 3",
+            "englishOption": "Image 3",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Bild 4",
+            "englishOption": "Image 4",
+            "isCorrect": true
+          }
+        ],
+        "correctAnswerTag": "Add correct answer here later",
+        "importantWords": {
+          "nouns": [
+            { "german": "Wappen", "english": "coat of arms" },
+            { "german": "Berlin", "english": "Berlin" }
+          ]
+        },
+        "notes": "The coat of arms of Berlin often features a bear, a symbol of the city and state.",
+        "learningTechniques": "Familiarize yourself with the unique design of Berlin's coat of arms, which prominently features a bear.",
+        "resources": [
+          {
+            "description": "Learn more about the coat of arms of Berlin.",
+            "url": "https://en.wikipedia.org/wiki/Coat_of_arms_of_Berlin"
+          }
+        ],
+        "region": "Berlin"
+      },
+      {
+        "id": 2,
+        "germanQuestion": "Welches ist ein Bezirk von Berlin?",
+        "englishQuestion": "Which is a district (Bezirk) of Berlin?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Altona",
+            "englishOption": "Altona",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Prignitz",
+            "englishOption": "Prignitz",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Pankow",
+            "englishOption": "Pankow",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Mecklenburgische Seenplatte",
+            "englishOption": "Mecklenburg Lake District",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Bezirk", "english": "district" },
+            { "german": "Berlin", "english": "Berlin" },
+            { "german": "Pankow", "english": "Pankow" }
+          ]
+        },
+        "notes": "Pankow is one of the twelve districts (Bezirke) of Berlin, located in the northeastern part of the city.",
+        "learningTechniques": "Familiarize yourself with the districts of Berlin, particularly Pankow, which is a significant residential and cultural area.",
+        "resources": [
+          {
+            "description": "Learn more about the districts of Berlin.",
+            "url": "https://en.wikipedia.org/wiki/Boroughs_and_neighborhoods_of_Berlin"
+          }
+        ],
+        "region": "Berlin"
+      },
+      {
+        "id": 3,
+        "germanQuestion": "Für wie viele Jahre wird das Landesparlament in Berlin gewählt?",
+        "englishQuestion": "For how many years is the state parliament in Berlin elected?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "3",
+            "englishOption": "3",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "4",
+            "englishOption": "4",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "5",
+            "englishOption": "5",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "6",
+            "englishOption": "6",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landesparlament", "english": "state parliament" },
+            { "german": "Berlin", "english": "Berlin" },
+            { "german": "Jahre", "english": "years" }
+          ]
+        },
+        "notes": "The state parliament in Berlin is elected for a term of 5 years.",
+        "learningTechniques": "Remember that the term length for the Berlin state parliament is 5 years, similar to other German states.",
+        "resources": [
+          {
+            "description": "Learn more about the political system in Berlin.",
+            "url": "https://en.wikipedia.org/wiki/Abgeordnetenhaus_of_Berlin"
+          }
+        ],
+        "region": "Berlin"
+      },
+      {
+        "id": 4,
+        "germanQuestion": "Ab welchem Alter darf man in Berlin bei Kommunalwahlen (Wahl der Bezirksverordnetenversammlung) wählen?",
+        "englishQuestion": "At what age can you vote in local elections (election of the District Assembly) in Berlin?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "14",
+            "englishOption": "14",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "16",
+            "englishOption": "16",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "18",
+            "englishOption": "18",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "20",
+            "englishOption": "20",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Kommunalwahlen", "english": "local elections" },
+            {
+              "german": "Bezirksverordnetenversammlung",
+              "english": "District Assembly"
+            },
+            { "german": "Alter", "english": "age" }
+          ]
+        },
+        "notes": "In Berlin, citizens can participate in local elections starting at the age of 16.",
+        "learningTechniques": "Remember that 16 is the voting age for local elections in Berlin, giving young people an early opportunity to engage in politics.",
+        "resources": [
+          {
+            "description": "Learn more about voting rights in Berlin.",
+            "url": "https://en.wikipedia.org/wiki/Elections_in_Berlin"
+          }
+        ],
+        "region": "Berlin"
+      },
+      {
+        "id": 5,
+        "germanQuestion": "Welche Farben hat die Landesflagge von Berlin?",
+        "englishQuestion": "What are the colors of the state flag of Berlin?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "blau-weiß-rot",
+            "englishOption": "blue-white-red",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "weiß-rot",
+            "englishOption": "white-red",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "grün-weiß-rot",
+            "englishOption": "green-white-red",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "schwarz-gold",
+            "englishOption": "black-gold",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Landesflagge", "english": "state flag" },
+            { "german": "Farben", "english": "colors" },
+            { "german": "Berlin", "english": "Berlin" }
+          ]
+        },
+        "notes": "The state flag of Berlin consists of the colors white and red, featuring a bear, which is a symbol of the city.",
+        "learningTechniques": "Remember the iconic white and red colors of Berlin's flag, along with the bear symbol.",
+        "resources": [
+          {
+            "description": "Learn more about the flag of Berlin.",
+            "url": "https://en.wikipedia.org/wiki/Flag_of_Berlin"
+          }
+        ],
+        "region": "Berlin"
+      },
+      {
+        "id": 6,
+        "germanQuestion": "Wo können Sie sich in Berlin über politische Themen informieren?",
+        "englishQuestion": "Where can you get information on political topics in Berlin?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "beim Ordnungsamt der Gemeinde",
+            "englishOption": "at the local regulatory office",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "bei den Kirchen",
+            "englishOption": "at the churches",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "bei der Verbraucherzentrale",
+            "englishOption": "at the consumer advice center",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "bei der Landeszentrale für politische Bildung",
+            "englishOption": "at the State Center for Civic Education",
+            "isCorrect": true
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "politische Themen", "english": "political topics" },
+            {
+              "german": "Landeszentrale für politische Bildung",
+              "english": "State Center for Civic Education"
+            },
+            { "german": "Berlin", "english": "Berlin" }
+          ]
+        },
+        "notes": "In Berlin, the 'Landeszentrale für politische Bildung' (State Center for Civic Education) is a key resource for learning about political topics.",
+        "learningTechniques": "Focus on the role of the 'Landeszentrale für politische Bildung' in educating the public about political matters in Berlin.",
+        "resources": [
+          {
+            "description": "Learn more about the State Center for Civic Education in Berlin.",
+            "url": "https://www.berlin.de/politische-bildung/"
+          }
+        ],
+        "region": "Berlin"
+      },
+      {
+        "id": 7,
+        "germanQuestion": "Welches Bundesland ist ein Stadtstaat?",
+        "englishQuestion": "Which federal state is a city-state?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Berlin",
+            "englishOption": "Berlin",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Saarland",
+            "englishOption": "Saarland",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Brandenburg",
+            "englishOption": "Brandenburg",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Hessen",
+            "englishOption": "Hesse",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Stadtstaat", "english": "city-state" },
+            { "german": "Berlin", "english": "Berlin" }
+          ]
+        },
+        "notes": "Berlin is one of the three city-states in Germany, along with Hamburg and Bremen. These are both cities and federal states.",
+        "learningTechniques": "Remember that Berlin is a 'Stadtstaat,' meaning it functions as both a city and a federal state.",
+        "resources": [
+          {
+            "description": "Learn more about the city-states of Germany.",
+            "url": "https://en.wikipedia.org/wiki/States_of_Germany"
+          }
+        ],
+        "region": "Berlin"
+      },
+      {
+        "id": 8,
+        "germanQuestion": "Welches Bundesland ist Berlin?",
+        "englishQuestion": "Which federal state is Berlin?",
+        "type": "single",
+        "answerType": "image",
+        "options": [
+          { "germanOption": "1", "englishOption": "1", "isCorrect": false },
+          { "germanOption": "2", "englishOption": "2", "isCorrect": false },
+          { "germanOption": "3", "englishOption": "3", "isCorrect": false },
+          { "germanOption": "4", "englishOption": "4", "isCorrect": true }
+        ],
+        "correctAnswerTag": "Add correct answer here later",
+        "importantWords": {
+          "nouns": [
+            { "german": "Bundesland", "english": "state" },
+            { "german": "Berlin", "english": "Berlin" }
+          ]
+        },
+        "notes": "Berlin is located in northeastern Germany and is both a city and a state.",
+        "learningTechniques": "Familiarize yourself with Berlin's location as a city-state in Germany.",
+        "resources": [
+          {
+            "description": "Learn more about Berlin's geographical and political status.",
+            "url": "https://en.wikipedia.org/wiki/Berlin"
+          }
+        ],
+        "region": "Berlin"
+      },
+      {
+        "id": 9,
+        "germanQuestion": "Wie nennt man die Regierungschefin/den Regierungschef des Stadtstaates Berlin?",
+        "englishQuestion": "What is the title of the head of government in the city-state of Berlin?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Ministerpräsidentin/Ministerpräsident",
+            "englishOption": "Minister-President",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Oberbürgermeisterin/Oberbürgermeister",
+            "englishOption": "Mayor",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Präsidentin/Präsident des Senates",
+            "englishOption": "President of the Senate",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Regierende Bürgermeisterin/Regierender Bürgermeister",
+            "englishOption": "Governing Mayor",
+            "isCorrect": true
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            {
+              "german": "Regierungschefin/Regierungschef",
+              "english": "head of government"
+            },
+            { "german": "Stadtstaat", "english": "city-state" },
+            { "german": "Berlin", "english": "Berlin" },
+            {
+              "german": "Regierende Bürgermeisterin/Regierender Bürgermeister",
+              "english": "Governing Mayor"
+            }
+          ]
+        },
+        "notes": "The head of government in Berlin is called the 'Regierende Bürgermeisterin' or 'Regierender Bürgermeister,' which translates to 'Governing Mayor.'",
+        "learningTechniques": "Remember that the title 'Governing Mayor' is used in city-states like Berlin, where the role combines both city and state leadership.",
+        "resources": [
+          {
+            "description": "Learn more about the political structure of Berlin.",
+            "url": "https://en.wikipedia.org/wiki/Governing_Mayor_of_Berlin"
+          }
+        ],
+        "region": "Berlin"
+      },
+      {
+        "id": 10,
+        "germanQuestion": "Welche Senatorin/welchen Senator hat Berlin nicht?",
+        "englishQuestion": "Which senator does Berlin not have?",
+        "type": "single",
+        "answerType": "text",
+        "options": [
+          {
+            "germanOption": "Finanzsenatorin/Finanzsenator",
+            "englishOption": "Finance Senator",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Innensenatorin/Innensenator",
+            "englishOption": "Interior Senator",
+            "isCorrect": false
+          },
+          {
+            "germanOption": "Senatorin/Senator für Außenbeziehungen",
+            "englishOption": "Senator for Foreign Relations",
+            "isCorrect": true
+          },
+          {
+            "germanOption": "Justizsenatorin/Justizsenator",
+            "englishOption": "Justice Senator",
+            "isCorrect": false
+          }
+        ],
+        "importantWords": {
+          "nouns": [
+            { "german": "Senatorin/Senator", "english": "Senator" },
+            { "german": "Berlin", "english": "Berlin" },
+            { "german": "Außenbeziehungen", "english": "foreign relations" }
+          ]
+        },
+        "notes": "Berlin, like other German states, does not have a Senator for Foreign Relations ('Senator für Außenbeziehungen'), as foreign policy is handled at the federal level.",
+        "learningTechniques": "Remember that German states, including Berlin, do not manage foreign relations, which are the responsibility of the federal government.",
+        "resources": [
+          {
+            "description": "Learn more about the Senate of Berlin.",
+            "url": "https://en.wikipedia.org/wiki/Senate_of_Berlin"
+          }
+        ],
+        "region": "Berlin"
+      }
+    ]
+  }
+}

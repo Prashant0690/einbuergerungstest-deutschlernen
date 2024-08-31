@@ -1,0 +1,277 @@
+{
+  "section": "Politics",
+  "subSections": [
+    {
+      "title": "Grundrechte (Basic Rights)",
+      "content": {
+        "german": "Die Grundrechte in Deutschland sind unveräußerliche Rechte, die im Grundgesetz verankert sind. Sie umfassen unter anderem Meinungsfreiheit, Religionsfreiheit, Gleichheit vor dem Gesetz und den Schutz der Menschenwürde.",
+        "english": "Basic rights in Germany are inalienable rights that are enshrined in the Basic Law. They include, among others, freedom of speech, freedom of religion, equality before the law, and the protection of human dignity."
+      },
+      "keyPoints": [
+        {
+          "german": "Artikel 1 des Grundgesetzes: 'Die Würde des Menschen ist unantastbar.'",
+          "english": "Article 1 of the Basic Law: 'Human dignity is inviolable.'"
+        },
+        {
+          "german": "Artikel 3 des Grundgesetzes: 'Alle Menschen sind vor dem Gesetz gleich.'",
+          "english": "Article 3 of the Basic Law: 'All people are equal before the law.'"
+        },
+        {
+          "german": "Artikel 5 des Grundgesetzes: 'Jeder hat das Recht, seine Meinung in Wort, Schrift und Bild frei zu äußern.'",
+          "english": "Article 5 of the Basic Law: 'Everyone has the right to express their opinion freely in speech, writing, and image.'"
+        },
+        {
+          "german": "Meinungsfreiheit: Jeder darf seine Meinung frei äußern, solange sie nicht gegen Gesetze verstößt.",
+          "english": "Freedom of expression: Everyone can freely express their opinion as long as it does not violate the law."
+        },
+        {
+          "german": "Versammlungsfreiheit: Das Grundgesetz garantiert das Recht, sich friedlich zu versammeln.",
+          "english": "Freedom of assembly: The Basic Law guarantees the right to peacefully assemble."
+        }
+      ]
+    },
+    {
+      "title": "Staatsaufbau (State Structure)",
+      "content": {
+        "german": "Deutschland ist ein demokratischer und sozialer Bundesstaat. Die Staatsgewalt ist in die Legislative (Gesetzgebung), Exekutive (ausführende Gewalt) und Judikative (Rechtsprechung) aufgeteilt.",
+        "english": "Germany is a democratic and social federal state. State power is divided into the legislative (law-making), executive (enforcement), and judicial (adjudication) branches."
+      },
+      "keyPoints": [
+        {
+          "german": "Legislative: Bundestag und Bundesrat sind für die Gesetzgebung zuständig.",
+          "english": "Legislative: The Bundestag and Bundesrat are responsible for law-making."
+        },
+        {
+          "german": "Exekutive: Die Regierung setzt die Gesetze um.",
+          "english": "Executive: The government enforces the laws."
+        },
+        {
+          "german": "Judikative: Gerichte überwachen die Einhaltung der Gesetze.",
+          "english": "Judiciary: Courts oversee the enforcement of the laws."
+        },
+        {
+          "german": "Bundesländer: Deutschland besteht aus 16 Bundesländern, die eigene Regierungen und Parlamente haben.",
+          "english": "Federal states: Germany consists of 16 federal states, each with its own government and parliament."
+        }
+      ]
+    },
+    {
+      "title": "Verfassungsorgane (Constitutional Bodies)",
+      "content": {
+        "german": "Die wichtigsten Verfassungsorgane in Deutschland sind der Bundestag, der Bundesrat, der Bundespräsident, die Bundesregierung und das Bundesverfassungsgericht.",
+        "english": "The main constitutional bodies in Germany are the Bundestag, the Bundesrat, the Federal President, the Federal Government, and the Federal Constitutional Court."
+      },
+      "keyPoints": [
+        {
+          "german": "Bundestag: Das Parlament der Bundesrepublik Deutschland, gewählt vom Volk.",
+          "english": "Bundestag: The Parliament of the Federal Republic of Germany, elected by the people."
+        },
+        {
+          "german": "Bundesrat: Vertretung der Bundesländer, beteiligt an der Gesetzgebung.",
+          "english": "Bundesrat: Representation of the federal states, involved in the law-making process."
+        },
+        {
+          "german": "Bundespräsident: Repräsentiert Deutschland und schlägt die Bundeskanzlerin/den Bundeskanzler vor.",
+          "english": "Federal President: Represents Germany and proposes the Chancellor."
+        },
+        {
+          "german": "Bundesverfassungsgericht: Oberstes Gericht, das über die Verfassung wacht.",
+          "english": "Federal Constitutional Court: The highest court that oversees the constitution."
+        }
+      ]
+    },
+    {
+      "title": "Wahlen und politische Teilhabe (Elections and Political Participation)",
+      "content": {
+        "german": "Wahlen in Deutschland sind frei, geheim, gleich und allgemein. Alle deutschen Staatsbürger ab 18 Jahren dürfen wählen.",
+        "english": "Elections in Germany are free, secret, equal, and universal. All German citizens over the age of 18 are allowed to vote."
+      },
+      "keyPoints": [
+        {
+          "german": "Aktives Wahlrecht: Das Recht, an Wahlen teilzunehmen.",
+          "english": "Active right to vote: The right to participate in elections."
+        },
+        {
+          "german": "Passives Wahlrecht: Das Recht, gewählt zu werden.",
+          "english": "Passive right to vote: The right to be elected."
+        },
+        {
+          "german": "Wahlperiode: Der Bundestag wird alle vier Jahre gewählt.",
+          "english": "Election cycle: The Bundestag is elected every four years."
+        },
+        {
+          "german": "5%-Hürde: Parteien müssen mindestens 5% der Stimmen erhalten, um in den Bundestag einzuziehen.",
+          "english": "5% threshold: Parties must receive at least 5% of the votes to enter the Bundestag."
+        }
+      ]
+    },
+    {
+      "title": "Parteiensystem (Party System)",
+      "content": {
+        "german": "Deutschland hat ein Mehrparteiensystem. Die wichtigsten Parteien sind CDU/CSU, SPD, Bündnis 90/Die Grünen, FDP, und Die Linke.",
+        "english": "Germany has a multi-party system. The main parties are CDU/CSU, SPD, Bündnis 90/Die Grünen, FDP, and Die Linke."
+      },
+      "keyPoints": [
+        {
+          "german": "CDU/CSU: Christlich Demokratische Union/Christlich-Soziale Union, konservative Parteien.",
+          "english": "CDU/CSU: Christian Democratic Union/Christian Social Union, conservative parties."
+        },
+        {
+          "german": "SPD: Sozialdemokratische Partei Deutschlands, sozialdemokratische Partei.",
+          "english": "SPD: Social Democratic Party of Germany, social-democratic party."
+        },
+        {
+          "german": "Bündnis 90/Die Grünen: Partei, die sich für Umwelt- und Klimaschutz einsetzt.",
+          "english": "Bündnis 90/Die Grünen: Party advocating for environmental and climate protection."
+        },
+        {
+          "german": "FDP: Freie Demokratische Partei, liberale Partei.",
+          "english": "FDP: Free Democratic Party, liberal party."
+        },
+        {
+          "german": "Die Linke: Partei, die sich für soziale Gerechtigkeit einsetzt.",
+          "english": "Die Linke: Party advocating for social justice."
+        }
+      ]
+    },
+    {
+      "title": "Rechtsstaat (Rule of Law)",
+      "content": {
+        "german": "Deutschland ist ein Rechtsstaat. Das bedeutet, dass der Staat und seine Institutionen an die Gesetze gebunden sind. Bürgerinnen und Bürger können ihre Rechte vor Gericht einklagen.",
+        "english": "Germany is a rule of law state, which means that the state and its institutions are bound by law. Citizens can enforce their rights in court."
+      },
+      "keyPoints": [
+        {
+          "german": "Gesetzesbindung: Alle staatlichen Institutionen müssen sich an die Gesetze halten.",
+          "english": "Binding to the law: All state institutions must adhere to the law."
+        },
+        {
+          "german": "Rechtsschutz: Bürger können bei Gerichten Klage erheben, wenn ihre Rechte verletzt werden.",
+          "english": "Legal protection: Citizens can file lawsuits in court if their rights are violated."
+        },
+        {
+          "german": "Gewaltenteilung: Die Macht ist auf Legislative, Exekutive und Judikative verteilt.",
+          "english": "Separation of powers: Power is divided between the legislative, executive, and judiciary branches."
+        }
+      ]
+    },
+    {
+      "title": "Soziale Marktwirtschaft (Social Market Economy)",
+      "content": {
+        "german": "Die soziale Marktwirtschaft in Deutschland kombiniert Marktwirtschaft mit sozialem Ausgleich. Der Staat greift ein, um soziale Ungleichheiten abzufedern.",
+        "english": "The social market economy in Germany combines a market economy with social balance. The state intervenes to mitigate social inequalities."
+      },
+      "keyPoints": [
+        {
+          "german": "Staatliche Eingriffe: Der Staat sorgt durch Sozialversicherungen für soziale Sicherheit.",
+          "english": "State interventions: The state provides social security through social insurance."
+        },
+        {
+          "german": "Wirtschaftsordnung: Die soziale Marktwirtschaft basiert auf den Prinzipien von Angebot und Nachfrage, jedoch mit staatlichen Eingriffen zum Schutz der Schwachen.",
+          "english": "Economic order: The social market economy is based on the principles of supply and demand, but with state interventions to protect the vulnerable."
+        }
+      ]
+    },
+    {
+      "title": "Geschichte der Bundesrepublik Deutschland (History of the Federal Republic of Germany)",
+      "content": {
+        "german": "Die Bundesrepublik Deutschland wurde 1949 gegründet. Sie ist aus den westlichen Besatzungszonen nach dem Zweiten Weltkrieg hervorgegangen.",
+        "english": "The Federal Republic of Germany was founded in 1949. It emerged from the western occupation zones after World War II."
+      },
+      "keyPoints": [
+        {
+          "german": "Gründung: Die Bundesrepublik Deutschland wurde am 23. Mai 1949 gegründet.",
+          "english": "Foundation: The Federal Republic of Germany was founded on May 23, 1949."
+        },
+        {
+          "german": "Wiedervereinigung: Am 3. Oktober 1990 wurde Deutschland wiedervereinigt.",
+          "english": "Reunification: Germany was reunified on October 3, 1990."
+        },
+        {
+          "german": "Grundgesetz: Die Verfassung der Bundesrepublik Deutschland wird Grundgesetz genannt.",
+          "english": "Basic Law: The constitution of the Federal Republic of Germany is called the Basic Law."
+        }
+      ]
+    },
+    {
+      "title": "Bundeskanzler/Bundeskanzlerin (Federal Chancellor)",
+      "content": {
+        "german": "Der Bundeskanzler oder die Bundeskanzlerin ist der Regierungschef der Bundesrepublik Deutschland und leitet die Bundesregierung. Er oder sie wird vom Bundestag gewählt.",
+        "english": "The Federal Chancellor is the head of government of the Federal Republic of Germany and leads the Federal Government. He or she is elected by the Bundestag."
+      },
+      "keyPoints": [
+        {
+          "german": "Regierungschef: Der Bundeskanzler leitet die Bundesregierung und bestimmt die Richtlinien der Politik.",
+          "english": "Head of government: The Federal Chancellor leads the Federal Government and sets the guidelines for policy."
+        },
+        {
+          "german": "Wahl: Der Bundeskanzler wird vom Bundestag gewählt.",
+          "english": "Election: The Federal Chancellor is elected by the Bundestag."
+        },
+        {
+          "german": "Amtszeit: Die Amtszeit des Bundeskanzlers beträgt vier Jahre, aber es gibt keine Begrenzung der Amtszeiten.",
+          "english": "Term: The Chancellor serves for four years, with no limit on the number of terms."
+        }
+      ]
+    },
+    {
+      "title": "Bundespräsident/Bundespräsidentin (Federal President)",
+      "content": {
+        "german": "Der Bundespräsident ist das Staatsoberhaupt der Bundesrepublik Deutschland. Er hat vor allem repräsentative Aufgaben und wird von der Bundesversammlung gewählt.",
+        "english": "The Federal President is the head of state of the Federal Republic of Germany. His or her role is mainly representative, and he or she is elected by the Federal Assembly."
+      },
+      "keyPoints": [
+        {
+          "german": "Repräsentation: Der Bundespräsident repräsentiert Deutschland im In- und Ausland.",
+          "english": "Representation: The Federal President represents Germany domestically and internationally."
+        },
+        {
+          "german": "Wahl: Der Bundespräsident wird von der Bundesversammlung gewählt.",
+          "english": "Election: The Federal President is elected by the Federal Assembly."
+        },
+        {
+          "german": "Amtszeit: Die Amtszeit des Bundespräsidenten beträgt fünf Jahre, mit der Möglichkeit einer einmaligen Wiederwahl.",
+          "english": "Term: The Federal President serves for five years, with the possibility of one re-election."
+        }
+      ]
+    },
+    {
+      "title": "Koalitionen in Deutschland (Coalitions in Germany)",
+      "content": {
+        "german": "In Deutschland werden Regierungen oft durch Koalitionen gebildet, da es selten eine absolute Mehrheit für eine Partei gibt. Die Koalitionsparteien arbeiten zusammen, um eine Regierung zu bilden.",
+        "english": "In Germany, governments are often formed through coalitions, as it is rare for one party to achieve an absolute majority. Coalition parties work together to form a government."
+      },
+      "keyPoints": [
+        {
+          "german": "Koalitionsvertrag: Die Parteien, die eine Koalition bilden, schließen einen Koalitionsvertrag, der die gemeinsame Regierungsarbeit regelt.",
+          "english": "Coalition agreement: The parties forming a coalition sign a coalition agreement that outlines their joint government work."
+        },
+        {
+          "german": "Koalitionsarten: Es gibt verschiedene Arten von Koalitionen, wie z.B. die Große Koalition (CDU/CSU und SPD) oder die Ampelkoalition (SPD, FDP, Grüne).",
+          "english": "Types of coalitions: There are different types of coalitions, such as the Grand Coalition (CDU/CSU and SPD) or the Traffic Light Coalition (SPD, FDP, Greens)."
+        }
+      ]
+    },
+    {
+      "title": "Justiz in Deutschland (Judiciary in Germany)",
+      "content": {
+        "german": "Die Justiz in Deutschland überwacht die Einhaltung der Gesetze und sorgt dafür, dass Rechte und Pflichten durchgesetzt werden. Sie ist unabhängig von der Regierung und dem Parlament.",
+        "english": "The judiciary in Germany oversees the enforcement of laws and ensures that rights and obligations are upheld. It is independent of the government and parliament."
+      },
+      "keyPoints": [
+        {
+          "german": "Unabhängigkeit: Die Justiz ist unabhängig und darf nicht von der Regierung oder dem Parlament beeinflusst werden.",
+          "english": "Independence: The judiciary is independent and must not be influenced by the government or parliament."
+        },
+        {
+          "german": "Gerichtsarten: Es gibt verschiedene Arten von Gerichten in Deutschland, wie z.B. Zivilgerichte, Strafgerichte und Verwaltungsgerichte.",
+          "english": "Types of courts: There are different types of courts in Germany, such as civil courts, criminal courts, and administrative courts."
+        },
+        {
+          "german": "Bundesverfassungsgericht: Das Bundesverfassungsgericht ist das höchste Gericht und überwacht die Einhaltung des Grundgesetzes.",
+          "english": "Federal Constitutional Court: The Federal Constitutional Court is the highest court and ensures compliance with the Basic Law."
+        }
+      ]
+    }
+  ]
+}

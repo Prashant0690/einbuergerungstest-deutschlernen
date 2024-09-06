@@ -21,9 +21,8 @@ Folder Name: einbuergerungstest-deutschlernen
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
-import "./HomePage.css"; // Assuming you might want to add custom styles here
 
-function HomePage() {
+function CitizenshipTestHomePage() {
   return (
     <div className="container mt-4">
       {/* Main Title */}
@@ -31,14 +30,22 @@ function HomePage() {
         Welcome to the Einbürgerungstest Quiz App
       </h1>
       <p className="lead text-center">
-        Test your knowledge about life in Germany! Prepare for the German citizenship test (Einbürgerungstest) with this comprehensive and interactive quiz app. Ideal for anyone looking to learn about German history, politics, culture, and more.
+        Test your knowledge about life in Germany! Prepare for the German
+        citizenship test (Einbürgerungstest) with this comprehensive and
+        interactive quiz app. Ideal for anyone looking to learn about German
+        history, politics, culture, and more.
       </p>
 
       {/* Introduction Section */}
       <div className="text-center mt-5">
         <h2 className="mb-4">About the Einbürgerungstest</h2>
         <p>
-          The Einbürgerungstest (German naturalization test) is a crucial step for those seeking German citizenship. It consists of 300 questions covering various topics, including history, politics, society, law, and geography. Preparing for this test will help you gain a deeper understanding of the rights, responsibilities, and culture associated with living in Germany.
+          The Einbürgerungstest (German naturalization test) is a crucial step
+          for those seeking German citizenship. It consists of 300 questions
+          covering various topics, including history, politics, society, law,
+          and geography. Preparing for this test will help you gain a deeper
+          understanding of the rights, responsibilities, and culture associated
+          with living in Germany.
         </p>
       </div>
 
@@ -51,7 +58,9 @@ function HomePage() {
               <div className="card-body">
                 <h4 className="card-title">1. History</h4>
                 <p className="card-text">
-                  Learn about Germany's rich history, including its role in European history, major events, and its place in the European Union.
+                  Learn about Germany's rich history, including its role in
+                  European history, major events, and its place in the European
+                  Union.
                 </p>
               </div>
             </div>
@@ -62,7 +71,8 @@ function HomePage() {
               <div className="card-body">
                 <h4 className="card-title">2. Politics</h4>
                 <p className="card-text">
-                  Understand the structure and functions of the German government, political parties, and constitutional law.
+                  Understand the structure and functions of the German
+                  government, political parties, and constitutional law.
                 </p>
               </div>
             </div>
@@ -73,7 +83,8 @@ function HomePage() {
               <div className="card-body">
                 <h4 className="card-title">3. Society and Culture</h4>
                 <p className="card-text">
-                  Dive into the social norms, values, cultural practices, and demographics of Germany.
+                  Dive into the social norms, values, cultural practices, and
+                  demographics of Germany.
                 </p>
               </div>
             </div>
@@ -84,7 +95,8 @@ function HomePage() {
               <div className="card-body">
                 <h4 className="card-title">4. Law and Rights</h4>
                 <p className="card-text">
-                  Focus on the fundamental rights of citizens, the judiciary system, and labor laws in Germany.
+                  Focus on the fundamental rights of citizens, the judiciary
+                  system, and labor laws in Germany.
                 </p>
               </div>
             </div>
@@ -95,7 +107,8 @@ function HomePage() {
               <div className="card-body">
                 <h4 className="card-title">5. Geography</h4>
                 <p className="card-text">
-                  Explore Germany's federal states, major rivers, mountains, and the country's place in European geography.
+                  Explore Germany's federal states, major rivers, mountains, and
+                  the country's place in European geography.
                 </p>
               </div>
             </div>
@@ -106,7 +119,8 @@ function HomePage() {
               <div className="card-body">
                 <h4 className="card-title">6. Economy</h4>
                 <p className="card-text">
-                  Gain insights into Germany's economic system, key industries, and the role of the European Union in trade.
+                  Gain insights into Germany's economic system, key industries,
+                  and the role of the European Union in trade.
                 </p>
               </div>
             </div>
@@ -117,7 +131,8 @@ function HomePage() {
               <div className="card-body">
                 <h4 className="card-title">7. Symbols and Identity</h4>
                 <p className="card-text">
-                  Learn about Germany's national symbols, including the flag and anthem, as well as holidays and cultural celebrations.
+                  Learn about Germany's national symbols, including the flag and
+                  anthem, as well as holidays and cultural celebrations.
                 </p>
               </div>
             </div>
@@ -130,19 +145,25 @@ function HomePage() {
         <h2 className="text-center mb-4">Useful Links</h2>
         <ul className="list-group">
           <li className="list-group-item">
-            <Link to="/general-questions">General Questions</Link> - Practice the 300 general questions included in the Einbürgerungstest.
+            <Link to="/general-questions">General Questions</Link> - Practice
+            the 300 general questions included in the Einbürgerungstest.
           </li>
           <li className="list-group-item">
-            <Link to="/state-questions">State-Specific Questions</Link> - Focus on questions specific to your Bundesland.
+            <Link to="/state-questions">State-Specific Questions</Link> - Focus
+            on questions specific to your Bundesland.
           </li>
           <li className="list-group-item">
-            <Link to="/quiz-selection">Quiz</Link> - Take a full 34-question quiz, including 30 general and 4 state-specific questions.
+            <Link to="/quiz-selection">Quiz</Link> - Take a full 34-question
+            quiz, including 30 general and 4 state-specific questions.
           </li>
           <li className="list-group-item">
-            <Link to="/VocabularyPage">Vocabulary</Link> - Learn important words and phrases that are essential for understanding the Einbürgerungstest and daily life in Germany.
+            <Link to="/VocabularyPage">Vocabulary</Link> - Learn important words
+            and phrases that are essential for understanding the
+            Einbürgerungstest and daily life in Germany.
           </li>
           <li className="list-group-item">
-            <Link to="/learningPage">Learning</Link> - Delve deeper into each section of the test, with detailed explanations and resources.
+            <Link to="/learningPage">Learning</Link> - Delve deeper into each
+            section of the test, with detailed explanations and resources.
           </li>
         </ul>
       </div>
@@ -150,11 +171,15 @@ function HomePage() {
       {/* Footer Note */}
       <div className="mt-5 text-center">
         <p className="text-muted">
-          This app is designed to help individuals prepare for the Einbürgerungstest. It is for educational purposes only and should not be relied upon for legal advice or official guidance. In the future, this app may be expanded to include useful notes and resources for learning German.
+          This app is designed to help individuals prepare for the
+          Einbürgerungstest. It is for educational purposes only and should not
+          be relied upon for legal advice or official guidance. In the future,
+          this app may be expanded to include useful notes and resources for
+          learning German.
         </p>
       </div>
     </div>
   );
 }
 
-export default HomePage;
+export default CitizenshipTestHomePage;

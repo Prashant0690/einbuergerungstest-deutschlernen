@@ -236,34 +236,14 @@
       "translation": "Federal Chancellor"
     },
     {
-      "word": "Bundespräsident",
-      "category": "Politics",
-      "translation": "Federal President"
-    },
-    {
       "word": "Bundesversammlung",
       "category": "Politics",
       "translation": "Federal Assembly"
     },
     {
-      "word": "Bundestag",
-      "category": "Politics",
-      "translation": "Federal Parliament"
-    },
-    {
-      "word": "Bundesrat",
-      "category": "Politics",
-      "translation": "Federal Council"
-    },
-    {
       "word": "Bundesverfassungsgericht",
       "category": "Law and Rights",
       "translation": "Federal Constitutional Court"
-    },
-    {
-      "word": "Grundgesetz",
-      "category": "Law and Rights",
-      "translation": "Basic Law (Constitution)"
     },
     {
       "word": "Legislative",
@@ -296,11 +276,6 @@
       "translation": "Municipalities"
     },
     {
-      "word": "Ministerpräsident",
-      "category": "Politics",
-      "translation": "Prime Minister (State)"
-    },
-    {
       "word": "Regierungsvertreter",
       "category": "Politics",
       "translation": "Government representatives"
@@ -311,29 +286,9 @@
       "translation": "Parliamentary groups"
     },
     {
-      "word": "Koalition",
-      "category": "Politics",
-      "translation": "Coalition"
-    },
-    {
-      "word": "Sozialversicherung",
-      "category": "Economy",
-      "translation": "Social insurance"
-    },
-    {
-      "word": "Pflegeversicherung",
-      "category": "Economy",
-      "translation": "Nursing care insurance"
-    },
-    {
       "word": "Jüdische Gemeinde",
       "category": "History",
       "translation": "Jewish community"
-    },
-    {
-      "word": "Wirtschaftswunder",
-      "category": "History",
-      "translation": "Economic miracle"
     },
     {
       "word": "Stolpersteine",
@@ -356,11 +311,6 @@
       "translation": "Warsaw Pact"
     },
     {
-      "word": "Europäische Union",
-      "category": "Politics",
-      "translation": "European Union"
-    },
-    {
       "word": "FDP (Freie Demokratische Partei)",
       "category": "Politics",
       "translation": "Free Democratic Party"
@@ -376,11 +326,6 @@
       "translation": "Christian Democratic Union"
     },
     {
-      "word": "Wahlen",
-      "category": "Politics",
-      "translation": "Elections"
-    },
-    {
       "word": "Verfassung",
       "category": "Law and Rights",
       "translation": "Constitution"
@@ -389,21 +334,6 @@
       "word": "Landtagswahl",
       "category": "Politics",
       "translation": "State parliament election"
-    },
-    {
-      "word": "Volksaufstand",
-      "category": "History",
-      "translation": "Uprising"
-    },
-    {
-      "word": "Rechtsstaat",
-      "category": "Law and Rights",
-      "translation": "Rule of law"
-    },
-    {
-      "word": "Nationalhymne",
-      "category": "Symbols and Identity",
-      "translation": "National anthem"
     },
     {
       "word": "Bundeskanzleramt",
@@ -431,11 +361,6 @@
       "translation": "Parliamentary group"
     },
     {
-      "word": "Bundesrat",
-      "category": "Politics",
-      "translation": "Federal Council"
-    },
-    {
       "word": "Regierungswechsel",
       "category": "Politics",
       "translation": "Change of government"
@@ -451,19 +376,9 @@
       "translation": "Second vote (in elections)"
     },
     {
-      "word": "Schulpflicht",
-      "category": "Society and Culture",
-      "translation": "Compulsory education"
-    },
-    {
       "word": "Holocaustleugnung",
       "category": "Law and Rights",
       "translation": "Holocaust denial"
-    },
-    {
-      "word": "Sozialversicherung",
-      "category": "Economy",
-      "translation": "Social insurance"
     },
     {
       "word": "Gewerkschaften",
@@ -489,11 +404,6 @@
       "word": "Richter",
       "category": "Law and Rights",
       "translation": "Judge"
-    },
-    {
-      "word": "Judikative",
-      "category": "Law and Rights",
-      "translation": "Judiciary"
     },
     {
       "word": "Prozess",
@@ -541,11 +451,6 @@
       "translation": "Child benefit"
     },
     {
-      "word": "Gewerkschaften",
-      "category": "Economy",
-      "translation": "Trade unions"
-    },
-    {
       "word": "Bundesverdienstkreuz",
       "category": "Symbols and Identity",
       "translation": "Federal Cross of Merit"
@@ -555,7 +460,6 @@
       "category": "Politics",
       "translation": "Traffic light coalition"
     },
-
     {
       "word": "antisemitisches Verhalten",
       "category": "Law and Rights",
@@ -602,21 +506,6 @@
       "translation": "occupying powers"
     },
     {
-      "word": "Bundeskanzler",
-      "category": "Politics",
-      "translation": "Federal Chancellor"
-    },
-    {
-      "word": "DDR (Deutsche Demokratische Republik)",
-      "category": "History",
-      "translation": "German Democratic Republic (GDR)"
-    },
-    {
-      "word": "Soziale Marktwirtschaft",
-      "category": "Economy",
-      "translation": "social market economy"
-    },
-    {
       "word": "Luftbrücke",
       "category": "History",
       "translation": "airlift"
@@ -641,16 +530,10 @@
       "category": "History",
       "translation": "capitulation"
     },
-
     {
       "word": "Synagoge",
       "category": "Culture",
       "translation": "synagogue"
-    },
-    {
-      "word": "Wirtschaftswunder",
-      "category": "Economy",
-      "translation": "economic miracle"
     },
     {
       "word": "Resolution der Vereinten Nationen",
@@ -673,19 +556,9 @@
       "translation": "hammer, compass, and wheat wreath (DDR emblem)"
     },
     {
-      "word": "DDR (Deutsche Demokratische Republik)",
-      "category": "Politics",
-      "translation": "German Democratic Republic (East Germany)"
-    },
-    {
       "word": "Planwirtschaft",
       "category": "Economy",
       "translation": "planned economy"
-    },
-    {
-      "word": "Warschauer Pakt",
-      "category": "Politics",
-      "translation": "Warsaw Pact"
     },
     {
       "word": "Stasi (Staatssicherheit)",
@@ -706,16 +579,6 @@
       "word": "27. Januar",
       "category": "History",
       "translation": "January 27 (Holocaust Memorial Day)"
-    },
-    {
-      "word": "Schengener Abkommen",
-      "category": "Law and Rights",
-      "translation": "Schengen Agreement"
-    },
-    {
-      "word": "Europäische Union",
-      "category": "Politics",
-      "translation": "European Union"
     },
     {
       "word": "Römische Verträge",
@@ -742,7 +605,6 @@
       "category": "History",
       "translation": "Verdun (symbol of reconciliation between France and Germany)"
     },
-
     {
       "word": "Eltern",
       "category": "Society and Culture",
@@ -794,11 +656,6 @@
       "translation": "discrimination"
     },
     {
-      "word": "Kirchensteuer",
-      "category": "Economy",
-      "translation": "church tax"
-    },
-    {
       "word": "Religiöse Toleranz",
       "category": "Society and Culture",
       "translation": "religious tolerance"
@@ -834,11 +691,6 @@
       "translation": "tax assessment"
     },
     {
-      "word": "Ehrenamt",
-      "category": "Society and Culture",
-      "translation": "voluntary work"
-    },
-    {
       "word": "Kindergartenplatz",
       "category": "Society and Culture",
       "translation": "kindergarten spot"
@@ -847,61 +699,6 @@
       "word": "Nachtruhe",
       "category": "Law and Rights",
       "translation": "night rest"
-    },
-    {
-      "word": "Bundesstaat",
-      "category": "Politics and Law",
-      "translation": "federal state"
-    },
-    {
-      "word": "Rechtsstaat",
-      "category": "Politics and Law",
-      "translation": "constitutional state"
-    },
-    {
-      "word": "Grundgesetz",
-      "category": "Politics and Law",
-      "translation": "Basic Law, constitution"
-    },
-    {
-      "word": "Verfassung",
-      "category": "Politics and Law",
-      "translation": "constitution"
-    },
-    {
-      "word": "Bundesverfassungsgericht",
-      "category": "Politics and Law",
-      "translation": "Federal Constitutional Court"
-    },
-    {
-      "word": "Bundestag",
-      "category": "Politics and Law",
-      "translation": "German Federal Parliament"
-    },
-    {
-      "word": "Bundesrat",
-      "category": "Politics and Law",
-      "translation": "Federal Council"
-    },
-    {
-      "word": "Koalition",
-      "category": "Politics and Law",
-      "translation": "coalition"
-    },
-    {
-      "word": "Abgeordnete",
-      "category": "Politics and Law",
-      "translation": "members of parliament"
-    },
-    {
-      "word": "Ministerpräsident",
-      "category": "Politics and Law",
-      "translation": "prime minister of a federal state"
-    },
-    {
-      "word": "Bundeskanzler",
-      "category": "Politics and Law",
-      "translation": "federal chancellor"
     },
     {
       "word": "Bürgermeister",
@@ -914,49 +711,9 @@
       "translation": "municipality"
     },
     {
-      "word": "Gesetzgebung",
-      "category": "Politics and Law",
-      "translation": "legislation"
-    },
-    {
-      "word": "Wahlrecht",
-      "category": "Politics and Law",
-      "translation": "right to vote"
-    },
-    {
-      "word": "Meinungsfreiheit",
-      "category": "Law and Rights",
-      "translation": "freedom of opinion"
-    },
-    {
-      "word": "Gleichberechtigung",
-      "category": "Law and Rights",
-      "translation": "equality"
-    },
-    {
-      "word": "Opposition",
-      "category": "Politics and Law",
-      "translation": "opposition"
-    },
-    {
-      "word": "Versammlungsfreiheit",
-      "category": "Law and Rights",
-      "translation": "freedom of assembly"
-    },
-    {
-      "word": "Freiheit",
-      "category": "Law and Rights",
-      "translation": "freedom"
-    },
-    {
       "word": "Parlament",
       "category": "Politics and Law",
       "translation": "parliament"
-    },
-    {
-      "word": "Regierung",
-      "category": "Politics and Law",
-      "translation": "government"
     },
     {
       "word": "Nationalsozialismus",
@@ -964,29 +721,9 @@
       "translation": "National Socialism, Nazism"
     },
     {
-      "word": "Zweiter Weltkrieg",
-      "category": "History and Society",
-      "translation": "Second World War"
-    },
-    {
-      "word": "Mauerfall",
-      "category": "History and Society",
-      "translation": "fall of the Berlin Wall"
-    },
-    {
-      "word": "Wiedervereinigung",
-      "category": "History and Society",
-      "translation": "reunification"
-    },
-    {
       "word": "DDR",
       "category": "History and Society",
       "translation": "German Democratic Republic"
-    },
-    {
-      "word": "Wirtschaftswunder",
-      "category": "History and Society",
-      "translation": "economic miracle"
     },
     {
       "word": "Holocaust",
@@ -1024,11 +761,6 @@
       "translation": "Christianity"
     },
     {
-      "word": "Synagoge",
-      "category": "Culture and Religion",
-      "translation": "synagogue"
-    },
-    {
       "word": "Kirche",
       "category": "Culture and Religion",
       "translation": "church"
@@ -1039,19 +771,9 @@
       "translation": "mosque"
     },
     {
-      "word": "Religionsfreiheit",
-      "category": "Law and Rights",
-      "translation": "freedom of religion"
-    },
-    {
       "word": "Pfingsten",
       "category": "Culture and Religion",
       "translation": "Pentecost"
-    },
-    {
-      "word": "Ostern",
-      "category": "Culture and Religion",
-      "translation": "Easter"
     },
     {
       "word": "Weihnachten",
@@ -1072,11 +794,6 @@
       "word": "Bundesadler",
       "category": "Symbols and Identity",
       "translation": "federal eagle"
-    },
-    {
-      "word": "Nationalhymne",
-      "category": "Symbols and Identity",
-      "translation": "national anthem"
     },
     {
       "word": "Flagge",
@@ -1119,21 +836,6 @@
       "translation": "West Germany"
     },
     {
-      "word": "Europäische Union",
-      "category": "Geography",
-      "translation": "European Union"
-    },
-    {
-      "word": "Schengener Abkommen",
-      "category": "Geography",
-      "translation": "Schengen Agreement"
-    },
-    {
-      "word": "Soziale Marktwirtschaft",
-      "category": "Economy",
-      "translation": "social market economy"
-    },
-    {
       "word": "Arbeitslosigkeit",
       "category": "Economy",
       "translation": "unemployment"
@@ -1144,20 +846,14 @@
       "translation": "pension insurance"
     },
     {
-      "word": "Krankenversicherung",
-      "category": "Economy",
-      "translation": "health insurance"
-    },
-    {
       "word": "Gewerkschaft",
       "category": "Economy",
       "translation": "trade union"
     },
-    { "word": "Steuern", "category": "Economy", "translation": "taxes" },
     {
-      "word": "Nachtruhe",
-      "category": "Law and Rights",
-      "translation": "night rest"
+      "word": "Steuern",
+      "category": "Economy",
+      "translation": "taxes"
     }
   ]
 }

@@ -20,7 +20,8 @@ Folder Name: einbuergerungstest-deutschlernen
 */
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import HomePage from "./pages/HomePage";
+import CitizenshipTestHomePage from "./pages/CitizenshipTestHomePage";
+import GermanLearningHomePage from "./pages/GermanLearningHomePage";
 import "bootstrap/dist/css/bootstrap.min.css";
 import LearningPage from "./pages/LearningPage";
 import Header from "./components/Header";
@@ -30,6 +31,9 @@ import GeneralQuestionsPage from "./pages/GeneralQuestionsPage";
 import StateQuestionsPage from "./pages/StateQuestionsPage";
 import QuizPage from "./pages/QuizPage";
 import LegalNoticeModal from "./components/LegalNoticeModal";
+import EinbuergerungSprachSprintPage from "./pages/EinbuergerungSprachSprintPage";
+import GermanLanguageSprintPage from "./pages/GermanLanguageSprintPage";
+
 
 function App() {
   const [language, setLanguage] = useState("de");
@@ -68,17 +72,32 @@ function App() {
         {/* Main content */}
         <div className="container mt-4 flex-grow-1">
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/" element={<CitizenshipTestHomePage />} />
             <Route path="/VocabularyPage" element={<VocabularyPage />} />
             <Route path="/learningPage" element={<LearningPage />} />
-            <Route path="/general-questions" element={<GeneralQuestionsPage />} />
+            <Route
+              path="/general-questions"
+              element={<GeneralQuestionsPage />}
+            />
             <Route path="/state-questions" element={<StateQuestionsPage />} />
             <Route path="/quiz-selection" element={<QuizPage />} />
+
+            <Route
+              path="/german-learning"
+              element={<GermanLearningHomePage />}
+            />
+
+            <Route path="/einbuergerung-sprachsprint" element={<EinbuergerungSprachSprintPage />} />
+            <Route path="/deutsch-sprint" element={<GermanLanguageSprintPage />} />
           </Routes>
         </div>
 
         {/* Footer with language toggle */}
-        <Footer language={language} toggleLanguage={toggleLanguage} onShowLegalNotice={handleShowLegalNotice} />
+        <Footer
+          language={language}
+          toggleLanguage={toggleLanguage}
+          onShowLegalNotice={handleShowLegalNotice}
+        />
       </div>
     </Router>
   );

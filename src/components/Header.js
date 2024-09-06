@@ -169,6 +169,16 @@ function Header() {
               Key Topics Overview
             </NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink
+              className={`nav-link ${
+                location.pathname === "/einbuergerung-sprachsprint" ? "active-link" : ""
+              }`}
+              to="/einbuergerung-sprachsprint"
+            >
+              Einbürgerung SprachSprint
+            </NavLink>
+          </li>
         </ul>
       )}
       {isGermanLearning() && (
@@ -182,6 +192,17 @@ function Header() {
               exact
             >
               Home
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink
+              className={`nav-link ${
+                location.pathname === "/deutsch-sprint" ? "active-link" : ""
+              }`}
+              to="/deutsch-sprint"
+              exact
+            >
+              deutschlearnen SprachSprint
             </NavLink>
           </li>
         </ul>

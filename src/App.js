@@ -31,6 +31,9 @@ import GeneralQuestionsPage from "./pages/GeneralQuestionsPage";
 import StateQuestionsPage from "./pages/StateQuestionsPage";
 import QuizPage from "./pages/QuizPage";
 import LegalNoticeModal from "./components/LegalNoticeModal";
+import EinbuergerungSprachSprintPage from "./pages/EinbuergerungSprachSprintPage";
+import GermanLanguageSprintPage from "./pages/GermanLanguageSprintPage";
+
 
 function App() {
   const [language, setLanguage] = useState("de");
@@ -83,6 +86,9 @@ function App() {
               path="/german-learning"
               element={<GermanLearningHomePage />}
             />
+
+            <Route path="/einbuergerung-sprachsprint" element={<EinbuergerungSprachSprintPage />} />
+            <Route path="/deutsch-sprint" element={<GermanLanguageSprintPage />} />
           </Routes>
         </div>
 

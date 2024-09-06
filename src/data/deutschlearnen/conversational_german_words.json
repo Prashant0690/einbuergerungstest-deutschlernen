@@ -1,0 +1,1789 @@
+[
+  {
+    "id": 1,
+    "GermanWord": "Doch",
+    "EnglishMeanings": ["However", "But", "On the contrary", "Still", "Indeed"],
+    "Category": "Modal Particle / Response Word",
+    "ExampleSentences": [
+      {
+        "Sentence": "Das Wetter ist schlecht, aber ich gehe doch spazieren.",
+        "Translation": "The weather is bad, but I’m still going for a walk."
+      },
+      {
+        "Sentence": "Kommst du nicht? – Doch, ich komme gleich.",
+        "Translation": "Aren’t you coming? – Yes, I am coming soon."
+      },
+      {
+        "Sentence": "Er hat doch gesagt, er kommt heute.",
+        "Translation": "He did say he was coming today."
+      }
+    ],
+    "Notes": [
+      "'Doch' is versatile; it can contradict negatives, soften commands, or emphasize agreement."
+    ],
+    "UsageTips": [
+      "Use 'doch' to politely contradict or reinforce a positive statement in conversation."
+    ]
+  },
+  {
+    "id": 2,
+    "GermanWord": "Ding",
+    "EnglishMeanings": ["Thing", "Object"],
+    "Category": "Noun",
+    "ExampleSentences": [
+      {
+        "Sentence": "Was ist das für ein Ding?",
+        "Translation": "What kind of thing is that?"
+      },
+      {
+        "Sentence": "Das ist nicht mein Ding.",
+        "Translation": "That’s not my thing."
+      },
+      {
+        "Sentence": "Viele Dinge müssen noch gemacht werden.",
+        "Translation": "Many things still need to be done."
+      }
+    ],
+    "Notes": [
+      "Used to describe objects or abstract 'things', can be literal or figurative."
+    ],
+    "UsageTips": [
+      "Useful in both casual conversation and formal situations when referring to objects or concepts."
+    ]
+  },
+  {
+    "id": 3,
+    "GermanWord": "Da",
+    "EnglishMeanings": ["There", "Here", "Because"],
+    "Category": "Adverb / Conjunction",
+    "ExampleSentences": [
+      { "Sentence": "Er ist da.", "Translation": "He is there." },
+      {
+        "Sentence": "Ich komme da nicht hin.",
+        "Translation": "I can’t get there."
+      },
+      {
+        "Sentence": "Da es regnet, bleiben wir zu Hause.",
+        "Translation": "Because it’s raining, we’re staying home."
+      }
+    ],
+    "Notes": [
+      "‘Da’ has multiple uses as a location indicator or as a conjunction to mean 'because'."
+    ],
+    "UsageTips": [
+      "Be mindful of context: as a location ('there' or 'here') or cause ('because')."
+    ]
+  },
+  {
+    "id": 4,
+    "GermanWord": "Eben",
+    "EnglishMeanings": ["Just", "Exactly", "Precisely", "Right now"],
+    "Category": "Modal Particle / Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Ich habe es dir doch eben gesagt!",
+        "Translation": "I just told you!"
+      },
+      {
+        "Sentence": "Eben, das ist das Problem.",
+        "Translation": "Exactly, that's the problem."
+      },
+      {
+        "Sentence": "Eben war sie noch hier.",
+        "Translation": "She was just here a moment ago."
+      }
+    ],
+    "Notes": [
+      "‘Eben’ emphasizes agreement or highlights something that just happened."
+    ],
+    "UsageTips": ["Use in recent past events or to confirm agreement."]
+  },
+  {
+    "id": 5,
+    "GermanWord": "Naja",
+    "EnglishMeanings": ["Well", "Hmm", "I guess"],
+    "Category": "Modal Particle / Discourse Marker",
+    "ExampleSentences": [
+      {
+        "Sentence": "Naja, das kann man so sehen.",
+        "Translation": "Well, that’s one way to see it."
+      },
+      {
+        "Sentence": "Naja, ich weiß nicht.",
+        "Translation": "Well, I’m not sure."
+      }
+    ],
+    "Notes": ["‘Naja’ shows hesitation or doubt and softens statements."],
+    "UsageTips": [
+      "Use ‘naja’ when you're uncertain or to express a softened opinion."
+    ]
+  },
+  {
+    "id": 6,
+    "GermanWord": "Genau",
+    "EnglishMeanings": ["Exactly", "Precisely", "Right"],
+    "Category": "Adverb / Agreement Word",
+    "ExampleSentences": [
+      {
+        "Sentence": "Genau, das habe ich gemeint.",
+        "Translation": "Exactly, that’s what I meant."
+      },
+      {
+        "Sentence": "Das ist genau, was ich wollte.",
+        "Translation": "That’s exactly what I wanted."
+      }
+    ],
+    "Notes": [
+      "‘Genau’ is widely used to confirm agreement or emphasize precision."
+    ],
+    "UsageTips": [
+      "Use ‘genau’ when confirming something or highlighting accuracy."
+    ]
+  },
+  {
+    "id": 7,
+    "GermanWord": "Tja",
+    "EnglishMeanings": ["Well", "Too bad", "Oh well"],
+    "Category": "Interjection",
+    "ExampleSentences": [
+      {
+        "Sentence": "Tja, so ist das eben.",
+        "Translation": "Well, that’s just how it is."
+      },
+      { "Sentence": "Tja, Pech gehabt.", "Translation": "Oh well, tough luck." }
+    ],
+    "Notes": ["‘Tja’ expresses resignation or mild disappointment."],
+    "UsageTips": ["Use it to express resignation in informal conversation."]
+  },
+  {
+    "id": 8,
+    "GermanWord": "Echt",
+    "EnglishMeanings": ["Really", "Genuine", "Real"],
+    "Category": "Adjective / Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Das ist echt lecker.",
+        "Translation": "That is really tasty."
+      },
+      { "Sentence": "Ist das echt?", "Translation": "Is that real?" },
+      {
+        "Sentence": "Echt? Ich wusste es nicht.",
+        "Translation": "Really? I didn’t know that."
+      }
+    ],
+    "Notes": [
+      "‘Echt’ can be used to emphasize something being real or to express surprise."
+    ],
+    "UsageTips": ["Use it for emphasis or when asking if something is genuine."]
+  },
+  {
+    "id": 9,
+    "GermanWord": "Quatsch",
+    "EnglishMeanings": ["Nonsense", "Rubbish"],
+    "Category": "Noun / Exclamation",
+    "ExampleSentences": [
+      {
+        "Sentence": "Das ist doch Quatsch!",
+        "Translation": "That’s nonsense!"
+      },
+      { "Sentence": "Was für ein Quatsch!", "Translation": "What rubbish!" }
+    ],
+    "Notes": [
+      "‘Quatsch’ is used to dismiss something as foolish or nonsensical."
+    ],
+    "UsageTips": ["Use it when you want to say that something makes no sense."]
+  },
+  {
+    "id": 10,
+    "GermanWord": "Achso",
+    "EnglishMeanings": ["Oh, I see", "Ah, got it"],
+    "Category": "Interjection",
+    "ExampleSentences": [
+      {
+        "Sentence": "Achso, jetzt verstehe ich.",
+        "Translation": "Oh, now I understand."
+      },
+      {
+        "Sentence": "Achso, das meinst du.",
+        "Translation": "Ah, that’s what you mean."
+      }
+    ],
+    "Notes": ["Used when realizing or understanding something new."],
+    "UsageTips": ["Use when acknowledging or realizing something."]
+  },
+  {
+    "id": 11,
+    "GermanWord": "Servus",
+    "EnglishMeanings": ["Hello", "Goodbye"],
+    "Category": "Greeting",
+    "ExampleSentences": [
+      {
+        "Sentence": "Servus, wie geht’s dir?",
+        "Translation": "Hello, how are you?"
+      },
+      {
+        "Sentence": "Servus! Bis morgen!",
+        "Translation": "Goodbye! See you tomorrow!"
+      }
+    ],
+    "Notes": ["A regional greeting common in southern Germany and Austria."],
+    "UsageTips": ["Use it casually to greet or say goodbye."]
+  },
+  {
+    "id": 12,
+    "GermanWord": "Krass",
+    "EnglishMeanings": ["Awesome", "Crazy", "Intense"],
+    "Category": "Adjective",
+    "ExampleSentences": [
+      {
+        "Sentence": "Das Konzert war krass!",
+        "Translation": "The concert was awesome!"
+      },
+      {
+        "Sentence": "Krass, was du gemacht hast!",
+        "Translation": "Crazy what you did!"
+      }
+    ],
+    "Notes": [
+      "Often used by younger people to express excitement or surprise."
+    ],
+    "UsageTips": ["Use ‘krass’ informally to express intensity or amazement."]
+  },
+  {
+    "id": 13,
+    "GermanWord": "Bisschen",
+    "EnglishMeanings": ["A little", "A bit"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Kannst du mir ein bisschen helfen?",
+        "Translation": "Can you help me a bit?"
+      },
+      {
+        "Sentence": "Ich bin ein bisschen müde.",
+        "Translation": "I’m a little tired."
+      }
+    ],
+    "Notes": ["Commonly used to soften requests or descriptions."],
+    "UsageTips": [
+      "Use it to politely ask for small favors or express small amounts."
+    ]
+  },
+  {
+    "id": 14,
+    "GermanWord": "Na",
+    "EnglishMeanings": ["Well", "So", "Well then"],
+    "Category": "Interjection",
+    "ExampleSentences": [
+      { "Sentence": "Na, wie geht’s?", "Translation": "So, how’s it going?" },
+      {
+        "Sentence": "Na, was meinst du?",
+        "Translation": "Well, what do you think?"
+      },
+      { "Sentence": "Na los, komm schon!", "Translation": "Well, come on!" }
+    ],
+    "Notes": [
+      "‘Na’ is often used to start a question or to prompt someone to speak or act."
+    ],
+    "UsageTips": [
+      "Use it casually to initiate conversation or urge someone forward."
+    ]
+  },
+  {
+    "id": 15,
+    "GermanWord": "Lecker",
+    "EnglishMeanings": ["Tasty", "Delicious"],
+    "Category": "Adjective",
+    "ExampleSentences": [
+      {
+        "Sentence": "Das Essen war wirklich lecker.",
+        "Translation": "The food was really delicious."
+      },
+      {
+        "Sentence": "Hast du das probiert? Es ist super lecker!",
+        "Translation": "Did you try this? It’s super tasty!"
+      }
+    ],
+    "Notes": ["‘Lecker’ is commonly used to describe food in a positive way."],
+    "UsageTips": [
+      "Use it to compliment food in both casual and formal situations."
+    ]
+  },
+  {
+    "id": 16,
+    "GermanWord": "Moin",
+    "EnglishMeanings": ["Hello", "Good morning"],
+    "Category": "Greeting (Regional)",
+    "ExampleSentences": [
+      {
+        "Sentence": "Moin! Wie geht’s dir?",
+        "Translation": "Hello! How are you?"
+      },
+      {
+        "Sentence": "Moin moin, was gibt’s Neues?",
+        "Translation": "Good morning, what’s new?"
+      }
+    ],
+    "Notes": ["‘Moin’ is a casual greeting mainly used in northern Germany."],
+    "UsageTips": [
+      "Use it in the morning or as a casual greeting throughout the day."
+    ]
+  },
+  {
+    "id": 17,
+    "GermanWord": "Schön",
+    "EnglishMeanings": ["Beautiful", "Nice", "Lovely"],
+    "Category": "Adjective",
+    "ExampleSentences": [
+      {
+        "Sentence": "Der Ausblick ist wirklich schön.",
+        "Translation": "The view is really beautiful."
+      },
+      {
+        "Sentence": "Es war ein schöner Tag.",
+        "Translation": "It was a lovely day."
+      },
+      {
+        "Sentence": "Schön, dass du gekommen bist.",
+        "Translation": "It’s nice that you came."
+      }
+    ],
+    "Notes": [
+      "‘Schön’ can describe both physical beauty and pleasant experiences."
+    ],
+    "UsageTips": [
+      "Use ‘schön’ to describe something aesthetically pleasing or an enjoyable experience."
+    ]
+  },
+  {
+    "id": 18,
+    "GermanWord": "Wenig",
+    "EnglishMeanings": ["Little", "Few"],
+    "Category": "Adjective",
+    "ExampleSentences": [
+      {
+        "Sentence": "Ich habe nur wenig Zeit.",
+        "Translation": "I have little time."
+      },
+      {
+        "Sentence": "Es gibt nur wenige Leute hier.",
+        "Translation": "There are only a few people here."
+      }
+    ],
+    "Notes": ["‘Wenig’ is used to describe small quantities or amounts."],
+    "UsageTips": [
+      "Use it to express scarcity or small numbers in both formal and informal contexts."
+    ]
+  },
+  {
+    "id": 19,
+    "GermanWord": "Schade",
+    "EnglishMeanings": ["Too bad", "What a pity"],
+    "Category": "Interjection / Adjective",
+    "ExampleSentences": [
+      {
+        "Sentence": "Schade, dass du nicht kommen kannst.",
+        "Translation": "It’s a pity that you can’t come."
+      },
+      {
+        "Sentence": "Das ist wirklich schade.",
+        "Translation": "That’s really too bad."
+      }
+    ],
+    "Notes": [
+      "‘Schade’ is used to express regret or sympathy in response to unfortunate news."
+    ],
+    "UsageTips": [
+      "Use it when you want to express disappointment or sympathy in a casual way."
+    ]
+  },
+  {
+    "id": 20,
+    "GermanWord": "Genug",
+    "EnglishMeanings": ["Enough", "Sufficient"],
+    "Category": "Adverb / Adjective",
+    "ExampleSentences": [
+      {
+        "Sentence": "Das ist genug für heute.",
+        "Translation": "That’s enough for today."
+      },
+      {
+        "Sentence": "Hast du genug geschlafen?",
+        "Translation": "Did you get enough sleep?"
+      }
+    ],
+    "Notes": [
+      "‘Genug’ is used to express the sufficiency of something, whether quantity or quality."
+    ],
+    "UsageTips": [
+      "Use it to indicate that something is sufficient in both casual and formal speech."
+    ]
+  },
+  {
+    "id": 21,
+    "GermanWord": "Stimmt",
+    "EnglishMeanings": ["That’s right", "Agreed", "True"],
+    "Category": "Response / Agreement",
+    "ExampleSentences": [
+      {
+        "Sentence": "Das stimmt, ich habe es auch gehört.",
+        "Translation": "That’s right, I heard it too."
+      },
+      { "Sentence": "Ja, das stimmt.", "Translation": "Yes, that’s true." }
+    ],
+    "Notes": [
+      "‘Stimmt’ is used to agree with a statement or confirm that something is correct."
+    ],
+    "UsageTips": [
+      "Use ‘stimmt’ in conversations when you agree with someone or want to confirm correctness."
+    ]
+  },
+  {
+    "id": 22,
+    "GermanWord": "Jein",
+    "EnglishMeanings": ["Yes and no"],
+    "Category": "Response Word",
+    "ExampleSentences": [
+      {
+        "Sentence": "Ist das eine gute Idee? Jein.",
+        "Translation": "Is that a good idea? Yes and no."
+      },
+      {
+        "Sentence": "Magst du das? Jein, es kommt darauf an.",
+        "Translation": "Do you like it? Yes and no, it depends."
+      }
+    ],
+    "Notes": [
+      "‘Jein’ is a playful combination of ‘Ja’ and ‘Nein’ used to express mixed feelings."
+    ],
+    "UsageTips": [
+      "Use ‘jein’ when you're undecided or feel both positive and negative about something."
+    ]
+  },
+  {
+    "id": 23,
+    "GermanWord": "Egal",
+    "EnglishMeanings": ["Doesn’t matter", "Whatever"],
+    "Category": "Adjective / Response Word",
+    "ExampleSentences": [
+      { "Sentence": "Es ist mir egal.", "Translation": "I don’t care." },
+      {
+        "Sentence": "Mach, was du willst, ist mir egal.",
+        "Translation": "Do whatever you want, it doesn’t matter to me."
+      }
+    ],
+    "Notes": [
+      "‘Egal’ is used when something is unimportant or when the speaker has no preference."
+    ],
+    "UsageTips": ["Use ‘egal’ to express indifference in casual conversation."]
+  },
+  {
+    "id": 24,
+    "GermanWord": "Leider",
+    "EnglishMeanings": ["Unfortunately", "Regrettably"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Leider habe ich keine Zeit.",
+        "Translation": "Unfortunately, I have no time."
+      },
+      {
+        "Sentence": "Es ist leider ausverkauft.",
+        "Translation": "It’s unfortunately sold out."
+      }
+    ],
+    "Notes": ["‘Leider’ is used to convey regret or bad news."],
+    "UsageTips": [
+      "Use it to introduce unfortunate situations or disappointment."
+    ]
+  },
+  {
+    "id": 25,
+    "GermanWord": "Mal",
+    "EnglishMeanings": ["Once", "Sometime", "Just"],
+    "Category": "Modal Particle / Adverb",
+    "ExampleSentences": [
+      { "Sentence": "Komm mal her!", "Translation": "Come here for a moment!" },
+      {
+        "Sentence": "Wir sollten das mal probieren.",
+        "Translation": "We should try that sometime."
+      }
+    ],
+    "Notes": [
+      "‘Mal’ is a modal particle that softens commands or refers to a single instance of something."
+    ],
+    "UsageTips": [
+      "Use it to make requests sound less harsh or to refer to a casual, one-time event."
+    ]
+  },
+  {
+    "id": 26,
+    "GermanWord": "Vielleicht",
+    "EnglishMeanings": ["Maybe", "Perhaps"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Vielleicht gehe ich morgen spazieren.",
+        "Translation": "Maybe I’ll go for a walk tomorrow."
+      },
+      {
+        "Sentence": "Es ist vielleicht besser, das nicht zu tun.",
+        "Translation": "It’s maybe better not to do that."
+      }
+    ],
+    "Notes": ["‘Vielleicht’ expresses uncertainty or possibilities."],
+    "UsageTips": [
+      "Use it when you want to express a possibility without committing fully."
+    ]
+  },
+  {
+    "id": 27,
+    "GermanWord": "Gern",
+    "EnglishMeanings": ["Gladly", "With pleasure", "Happily"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Ich helfe dir gern.",
+        "Translation": "I’ll gladly help you."
+      },
+      {
+        "Sentence": "Ich komme gern zu deiner Party.",
+        "Translation": "I’ll happily come to your party."
+      },
+      {
+        "Sentence": "Du kannst es gern benutzen.",
+        "Translation": "You can use it gladly."
+      }
+    ],
+    "Notes": [
+      "‘Gern’ is often used to show willingness or pleasure in doing something."
+    ],
+    "UsageTips": [
+      "Use it to express readiness or to politely agree to requests."
+    ]
+  },
+  {
+    "id": 28,
+    "GermanWord": "Blöd",
+    "EnglishMeanings": ["Stupid", "Dumb", "Silly"],
+    "Category": "Adjective",
+    "ExampleSentences": [
+      {
+        "Sentence": "Das ist eine blöde Idee.",
+        "Translation": "That’s a stupid idea."
+      },
+      { "Sentence": "Wie blöd von mir!", "Translation": "How silly of me!" },
+      {
+        "Sentence": "Er hat sich blöd verhalten.",
+        "Translation": "He acted foolishly."
+      }
+    ],
+    "Notes": [
+      "‘Blöd’ is an informal word used to describe something or someone as foolish or silly."
+    ],
+    "UsageTips": [
+      "Use ‘blöd’ casually to describe poor decisions, behaviors, or situations."
+    ]
+  },
+  {
+    "id": 29,
+    "GermanWord": "Zufällig",
+    "EnglishMeanings": ["By chance", "Coincidentally", "Randomly"],
+    "Category": "Adverb / Adjective",
+    "ExampleSentences": [
+      {
+        "Sentence": "Ich habe ihn zufällig im Supermarkt getroffen.",
+        "Translation": "I met him by chance at the supermarket."
+      },
+      {
+        "Sentence": "Ist das zufällig deins?",
+        "Translation": "Is that yours by any chance?"
+      },
+      {
+        "Sentence": "Wir haben zufällig denselben Namen.",
+        "Translation": "We coincidentally have the same name."
+      }
+    ],
+    "Notes": [
+      "‘Zufällig’ is used to describe events that happen by accident or without planning."
+    ],
+    "UsageTips": ["Use it to express coincidences or chance occurrences."]
+  },
+  {
+    "id": 30,
+    "GermanWord": "Ungefähr",
+    "EnglishMeanings": ["Approximately", "Roughly", "Around"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Es dauert ungefähr eine Stunde.",
+        "Translation": "It takes about an hour."
+      },
+      {
+        "Sentence": "Ungefähr 50 Leute waren da.",
+        "Translation": "About 50 people were there."
+      },
+      {
+        "Sentence": "Ich bin ungefähr um 5 Uhr zu Hause.",
+        "Translation": "I’ll be home around 5 o’clock."
+      }
+    ],
+    "Notes": ["‘Ungefähr’ is used to give estimates or approximate values."],
+    "UsageTips": [
+      "Use it to indicate approximate time, quantities, or measures."
+    ]
+  },
+  {
+    "id": 31,
+    "GermanWord": "Unbedingt",
+    "EnglishMeanings": ["Absolutely", "Definitely", "Without fail"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Ich muss das unbedingt sehen.",
+        "Translation": "I absolutely must see that."
+      },
+      {
+        "Sentence": "Mach das unbedingt!",
+        "Translation": "Definitely do that!"
+      },
+      {
+        "Sentence": "Das ist unbedingt nötig.",
+        "Translation": "That is absolutely necessary."
+      }
+    ],
+    "Notes": [
+      "‘Unbedingt’ is used for emphasis to indicate that something is required or important."
+    ],
+    "UsageTips": [
+      "Use it when you want to stress the necessity or certainty of something."
+    ]
+  },
+  {
+    "id": 32,
+    "GermanWord": "Schon",
+    "EnglishMeanings": ["Already", "Yet", "Surely", "Even"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Bist du schon fertig?",
+        "Translation": "Are you finished already?"
+      },
+      {
+        "Sentence": "Er ist schon gegangen.",
+        "Translation": "He has already left."
+      },
+      {
+        "Sentence": "Das wird schon klappen.",
+        "Translation": "It will surely work out."
+      }
+    ],
+    "Notes": [
+      "‘Schon’ is often used to indicate that something has happened earlier than expected or to reassure."
+    ],
+    "UsageTips": [
+      "Use it to refer to something that’s already done, or to provide assurance."
+    ]
+  },
+  {
+    "id": 33,
+    "GermanWord": "Fast",
+    "EnglishMeanings": ["Almost", "Nearly"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Ich habe fast alles geschafft.",
+        "Translation": "I’ve almost finished everything."
+      },
+      {
+        "Sentence": "Es ist fast acht Uhr.",
+        "Translation": "It’s almost eight o’clock."
+      },
+      {
+        "Sentence": "Fast hätte ich den Bus verpasst.",
+        "Translation": "I almost missed the bus."
+      }
+    ],
+    "Notes": [
+      "‘Fast’ indicates that something was close to happening but didn’t quite occur."
+    ],
+    "UsageTips": ["Use it when describing near-completions or close calls."]
+  },
+  {
+    "id": 34,
+    "GermanWord": "Also",
+    "EnglishMeanings": ["So", "Therefore", "Well then"],
+    "Category": "Discourse Marker / Conjunction",
+    "ExampleSentences": [
+      {
+        "Sentence": "Also, was machen wir jetzt?",
+        "Translation": "So, what do we do now?"
+      },
+      {
+        "Sentence": "Es ist kalt, also bleibe ich zu Hause.",
+        "Translation": "It’s cold, so I’ll stay home."
+      },
+      {
+        "Sentence": "Also, das war ja einfach.",
+        "Translation": "Well then, that was easy."
+      }
+    ],
+    "Notes": [
+      "‘Also’ is a very common discourse marker in German, often used to introduce a conclusion or consequence."
+    ],
+    "UsageTips": [
+      "Use it to introduce an idea, action, or conclusion, similar to 'so' in English."
+    ]
+  },
+  {
+    "id": 35,
+    "GermanWord": "Ebenfalls",
+    "EnglishMeanings": ["Likewise", "Same to you", "Also"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Schönes Wochenende! – Danke, ebenfalls.",
+        "Translation": "Have a nice weekend! – Thanks, you too."
+      },
+      {
+        "Sentence": "Ich wünsche dir ebenfalls viel Glück.",
+        "Translation": "I wish you good luck as well."
+      },
+      {
+        "Sentence": "Er ist ebenfalls eingeladen.",
+        "Translation": "He is also invited."
+      }
+    ],
+    "Notes": [
+      "‘Ebenfalls’ is used to express mutual feelings, actions, or well-wishes."
+    ],
+    "UsageTips": [
+      "Use it in polite conversation when reciprocating well-wishes or affirming shared actions."
+    ]
+  },
+  {
+    "id": 36,
+    "GermanWord": "Kaum",
+    "EnglishMeanings": ["Hardly", "Barely", "Scarcely"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Ich habe kaum geschlafen.",
+        "Translation": "I barely slept."
+      },
+      {
+        "Sentence": "Kaum jemand war da.",
+        "Translation": "Hardly anyone was there."
+      },
+      {
+        "Sentence": "Es hat kaum geregnet.",
+        "Translation": "It hardly rained."
+      }
+    ],
+    "Notes": [
+      "‘Kaum’ is used to express something that happens to a very small extent."
+    ],
+    "UsageTips": [
+      "Use it to describe minimal or near-nonexistent amounts of something."
+    ]
+  },
+  {
+    "id": 37,
+    "GermanWord": "Gar",
+    "EnglishMeanings": ["At all", "Completely", "Entirely"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Das stimmt gar nicht.",
+        "Translation": "That’s not true at all."
+      },
+      {
+        "Sentence": "Es gibt gar keinen Grund zur Sorge.",
+        "Translation": "There’s no reason to worry at all."
+      },
+      {
+        "Sentence": "Ich habe gar nichts gesagt.",
+        "Translation": "I didn’t say anything at all."
+      }
+    ],
+    "Notes": [
+      "‘Gar’ is often used in negative sentences to emphasize the total lack of something."
+    ],
+    "UsageTips": [
+      "Use ‘gar’ to intensify negative statements or to emphasize complete absence."
+    ]
+  },
+  {
+    "id": 38,
+    "GermanWord": "Ziemlich",
+    "EnglishMeanings": ["Quite", "Rather", "Fairly"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Das ist ziemlich interessant.",
+        "Translation": "That’s quite interesting."
+      },
+      {
+        "Sentence": "Ich bin ziemlich müde.",
+        "Translation": "I’m rather tired."
+      },
+      {
+        "Sentence": "Es ist ziemlich kalt draußen.",
+        "Translation": "It’s fairly cold outside."
+      }
+    ],
+    "Notes": [
+      "‘Ziemlich’ is used to moderate or intensify statements depending on context."
+    ],
+    "UsageTips": [
+      "Use it to indicate higher-than-average levels of intensity without going to extremes."
+    ]
+  },
+  {
+    "id": 39,
+    "GermanWord": "Doch nicht",
+    "EnglishMeanings": ["But not", "After all, not", "Actually not"],
+    "Category": "Modal Particle / Negation",
+    "ExampleSentences": [
+      {
+        "Sentence": "Ich dachte, er kommt, aber er kommt doch nicht.",
+        "Translation": "I thought he was coming, but he's not coming after all."
+      },
+      {
+        "Sentence": "Ich wollte es machen, aber ich habe es doch nicht gemacht.",
+        "Translation": "I wanted to do it, but I didn’t do it after all."
+      },
+      {
+        "Sentence": "Ist er doch nicht gekommen?",
+        "Translation": "Did he not come after all?"
+      }
+    ],
+    "Notes": [
+      "‘Doch nicht’ is used to contradict or take back something previously said."
+    ],
+    "UsageTips": [
+      "Use it when you change your mind or when something you expected does not happen."
+    ]
+  },
+  {
+    "id": 40,
+    "GermanWord": "Kein Problem",
+    "EnglishMeanings": ["No problem", "It’s okay", "Not an issue"],
+    "Category": "Response / Casual Phrase",
+    "ExampleSentences": [
+      {
+        "Sentence": "Danke, dass du geholfen hast. – Kein Problem!",
+        "Translation": "Thanks for helping. – No problem!"
+      },
+      {
+        "Sentence": "Kannst du mir morgen helfen? – Ja, kein Problem.",
+        "Translation": "Can you help me tomorrow? – Yes, no problem."
+      }
+    ],
+    "Notes": [
+      "‘Kein Problem’ is a friendly, casual way to express that something isn’t an issue."
+    ],
+    "UsageTips": [
+      "Use it to show that you're not troubled by a request or to downplay an issue."
+    ]
+  },
+  {
+    "id": 41,
+    "GermanWord": "Na gut",
+    "EnglishMeanings": ["Alright then", "Okay then"],
+    "Category": "Interjection / Response",
+    "ExampleSentences": [
+      {
+        "Sentence": "Na gut, gehen wir.",
+        "Translation": "Alright then, let’s go."
+      },
+      {
+        "Sentence": "Na gut, ich mache das.",
+        "Translation": "Okay then, I’ll do it."
+      }
+    ],
+    "Notes": [
+      "‘Na gut’ expresses acceptance of something, often after initial hesitation."
+    ],
+    "UsageTips": [
+      "Use it to show that you’re agreeing or accepting a plan after thinking about it."
+    ]
+  },
+  {
+    "id": 42,
+    "GermanWord": "Nichts",
+    "EnglishMeanings": ["Nothing", "None"],
+    "Category": "Pronoun",
+    "ExampleSentences": [
+      {
+        "Sentence": "Ich habe nichts zu sagen.",
+        "Translation": "I have nothing to say."
+      },
+      {
+        "Sentence": "Es gibt nichts Neues.",
+        "Translation": "There’s nothing new."
+      },
+      {
+        "Sentence": "Ich weiß von nichts.",
+        "Translation": "I don’t know anything."
+      }
+    ],
+    "Notes": [
+      "‘Nichts’ is used in negative sentences to indicate the absence of something."
+    ],
+    "UsageTips": [
+      "Use it to express total absence or to indicate that no information is known."
+    ]
+  },
+  {
+    "id": 43,
+    "GermanWord": "Natürlich",
+    "EnglishMeanings": ["Of course", "Naturally", "Sure"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Kannst du mir helfen? – Natürlich!",
+        "Translation": "Can you help me? – Of course!"
+      },
+      { "Sentence": "Das ist natürlich so.", "Translation": "That’s natural." },
+      {
+        "Sentence": "Natürlich ist er gekommen.",
+        "Translation": "Of course, he came."
+      }
+    ],
+    "Notes": [
+      "‘Natürlich’ is used to express something obvious, expected, or natural."
+    ],
+    "UsageTips": [
+      "Use it to affirm something or agree confidently in conversation."
+    ]
+  },
+  {
+    "id": 44,
+    "GermanWord": "Bald",
+    "EnglishMeanings": ["Soon", "Shortly"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Ich werde bald kommen.",
+        "Translation": "I will come soon."
+      },
+      {
+        "Sentence": "Bald wird es regnen.",
+        "Translation": "It will rain soon."
+      },
+      {
+        "Sentence": "Wir sehen uns bald.",
+        "Translation": "We’ll see each other soon."
+      }
+    ],
+    "Notes": [
+      "‘Bald’ is used to express something that will happen in the near future."
+    ],
+    "UsageTips": [
+      "Use it to indicate future events that are going to occur shortly."
+    ]
+  },
+  {
+    "id": 45,
+    "GermanWord": "Lust haben",
+    "EnglishMeanings": ["To feel like", "To be in the mood for"],
+    "Category": "Verb Phrase",
+    "ExampleSentences": [
+      {
+        "Sentence": "Hast du Lust, ins Kino zu gehen?",
+        "Translation": "Do you feel like going to the cinema?"
+      },
+      {
+        "Sentence": "Ich habe keine Lust, das zu machen.",
+        "Translation": "I don’t feel like doing that."
+      }
+    ],
+    "Notes": [
+      "‘Lust haben’ is used to express whether someone is in the mood to do something or not."
+    ],
+    "UsageTips": [
+      "Use it when talking about desires or willingness to do something."
+    ]
+  },
+  {
+    "id": 46,
+    "GermanWord": "Klar",
+    "EnglishMeanings": ["Clear", "Of course", "Sure"],
+    "Category": "Adjective / Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Klar, ich helfe dir.",
+        "Translation": "Of course, I’ll help you."
+      },
+      { "Sentence": "Ist das klar?", "Translation": "Is that clear?" },
+      { "Sentence": "Klar, kein Problem!", "Translation": "Sure, no problem!" }
+    ],
+    "Notes": [
+      "‘Klar’ can be used both to express clarity and to agree with someone."
+    ],
+    "UsageTips": [
+      "Use ‘klar’ to confirm understanding or to agree in a casual conversation."
+    ]
+  },
+  {
+    "id": 47,
+    "GermanWord": "Los",
+    "EnglishMeanings": ["Go", "Come on", "Let’s go"],
+    "Category": "Interjection",
+    "ExampleSentences": [
+      {
+        "Sentence": "Los, wir müssen jetzt gehen!",
+        "Translation": "Come on, we have to go now!"
+      },
+      {
+        "Sentence": "Los, mach schon!",
+        "Translation": "Come on, do it already!"
+      },
+      { "Sentence": "Na los, beeil dich!", "Translation": "Come on, hurry up!" }
+    ],
+    "Notes": ["‘Los’ is used to urge someone to start moving or acting."],
+    "UsageTips": [
+      "Use it in situations where you want to motivate or hurry someone along."
+    ]
+  },
+  {
+    "id": 48,
+    "GermanWord": "Passt",
+    "EnglishMeanings": ["Fits", "Okay", "That works"],
+    "Category": "Response / Casual Phrase",
+    "ExampleSentences": [
+      {
+        "Sentence": "Kann ich um 3 Uhr kommen? – Passt!",
+        "Translation": "Can I come at 3 o’clock? – That works!"
+      },
+      {
+        "Sentence": "Das T-Shirt passt mir perfekt.",
+        "Translation": "The T-shirt fits me perfectly."
+      },
+      { "Sentence": "Passt alles?", "Translation": "Is everything okay?" }
+    ],
+    "Notes": [
+      "‘Passt’ can describe both physical fit and the acceptability of a plan or situation."
+    ],
+    "UsageTips": [
+      "Use it to indicate that something fits or that a plan or situation is acceptable."
+    ]
+  },
+  {
+    "id": 49,
+    "GermanWord": "Gerade",
+    "EnglishMeanings": ["Just", "Right now", "Straight"],
+    "Category": "Adverb / Adjective",
+    "ExampleSentences": [
+      {
+        "Sentence": "Ich bin gerade beschäftigt.",
+        "Translation": "I’m busy right now."
+      },
+      {
+        "Sentence": "Ich habe das gerade gemacht.",
+        "Translation": "I just did that."
+      },
+      { "Sentence": "Gehe geradeaus.", "Translation": "Go straight ahead." }
+    ],
+    "Notes": [
+      "‘Gerade’ can refer to time (just now) or direction (straight ahead)."
+    ],
+    "UsageTips": [
+      "Use it to describe something happening in the immediate present or to give directions."
+    ]
+  },
+  {
+    "id": 50,
+    "GermanWord": "Irgendwie",
+    "EnglishMeanings": ["Somehow", "In some way"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Irgendwie müssen wir das lösen.",
+        "Translation": "We have to solve this somehow."
+      },
+      {
+        "Sentence": "Das ist irgendwie komisch.",
+        "Translation": "That’s kind of weird."
+      },
+      {
+        "Sentence": "Ich fühle mich irgendwie müde.",
+        "Translation": "I feel kind of tired."
+      }
+    ],
+    "Notes": [
+      "‘Irgendwie’ is often used to express uncertainty or a vague quality."
+    ],
+    "UsageTips": [
+      "Use it when you want to express something indefinite or unclear."
+    ]
+  },
+  {
+    "id": 51,
+    "GermanWord": "Genug",
+    "EnglishMeanings": ["Enough", "Sufficient"],
+    "Category": "Adverb / Adjective",
+    "ExampleSentences": [
+      {
+        "Sentence": "Hast du genug Geld?",
+        "Translation": "Do you have enough money?"
+      },
+      {
+        "Sentence": "Das ist genug für heute.",
+        "Translation": "That’s enough for today."
+      },
+      {
+        "Sentence": "Es gibt nicht genug Essen für alle.",
+        "Translation": "There isn’t enough food for everyone."
+      }
+    ],
+    "Notes": [
+      "‘Genug’ is used to express sufficiency, whether in terms of quantity, time, or quality."
+    ],
+    "UsageTips": [
+      "Use ‘genug’ when talking about quantities or to describe something as sufficient or adequate."
+    ]
+  },
+  {
+    "id": 52,
+    "GermanWord": "Irgendwann",
+    "EnglishMeanings": ["Sometime", "At some point"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Ich werde dich irgendwann besuchen.",
+        "Translation": "I will visit you sometime."
+      },
+      {
+        "Sentence": "Irgendwann müssen wir das erledigen.",
+        "Translation": "We have to get it done at some point."
+      },
+      {
+        "Sentence": "Er wird es schon irgendwann verstehen.",
+        "Translation": "He’ll understand it at some point."
+      }
+    ],
+    "Notes": ["‘Irgendwann’ refers to an undefined time in the future."],
+    "UsageTips": [
+      "Use it when talking about vague future plans or events that will happen at an unspecified time."
+    ]
+  },
+  {
+    "id": 53,
+    "GermanWord": "Obwohl",
+    "EnglishMeanings": ["Although", "Even though"],
+    "Category": "Conjunction",
+    "ExampleSentences": [
+      {
+        "Sentence": "Obwohl es regnet, gehen wir spazieren.",
+        "Translation": "Although it’s raining, we’re going for a walk."
+      },
+      {
+        "Sentence": "Er kam, obwohl er krank war.",
+        "Translation": "He came, even though he was sick."
+      },
+      {
+        "Sentence": "Obwohl ich müde bin, bleibe ich wach.",
+        "Translation": "Although I am tired, I am staying awake."
+      }
+    ],
+    "Notes": [
+      "‘Obwohl’ is a subordinating conjunction that introduces a contrast or contradiction."
+    ],
+    "UsageTips": [
+      "Use it to join two clauses where one part contradicts or contrasts with the other."
+    ]
+  },
+  {
+    "id": 54,
+    "GermanWord": "Übrigens",
+    "EnglishMeanings": ["By the way", "Incidentally"],
+    "Category": "Discourse Marker",
+    "ExampleSentences": [
+      {
+        "Sentence": "Übrigens, hast du das schon gehört?",
+        "Translation": "By the way, did you hear that?"
+      },
+      {
+        "Sentence": "Übrigens, ich komme später.",
+        "Translation": "By the way, I’ll be coming later."
+      },
+      {
+        "Sentence": "Übrigens, das war eine tolle Idee.",
+        "Translation": "By the way, that was a great idea."
+      }
+    ],
+    "Notes": [
+      "‘Übrigens’ is often used to introduce additional information or a side note."
+    ],
+    "UsageTips": [
+      "Use it to casually introduce new or unrelated information during conversation."
+    ]
+  },
+  {
+    "id": 55,
+    "GermanWord": "Stattdessen",
+    "EnglishMeanings": ["Instead", "In place of that"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Wir bleiben zu Hause statt ins Kino zu gehen.",
+        "Translation": "We are staying at home instead of going to the movies."
+      },
+      {
+        "Sentence": "Er wollte ein Auto kaufen, hat sich aber stattdessen ein Fahrrad gekauft.",
+        "Translation": "He wanted to buy a car, but instead bought a bicycle."
+      },
+      {
+        "Sentence": "Sie rief nicht an, sondern schrieb stattdessen eine E-Mail.",
+        "Translation": "She didn’t call, but instead sent an email."
+      }
+    ],
+    "Notes": [
+      "‘Stattdessen’ is used to replace an action or event with another."
+    ],
+    "UsageTips": [
+      "Use it to indicate that one option was replaced with another in a sentence."
+    ]
+  },
+  {
+    "id": 56,
+    "GermanWord": "Ja, genau",
+    "EnglishMeanings": ["Yes, exactly", "That’s right"],
+    "Category": "Response / Agreement Phrase",
+    "ExampleSentences": [
+      {
+        "Sentence": "Ja, genau, so habe ich das gemeint.",
+        "Translation": "Yes, exactly, that’s what I meant."
+      },
+      {
+        "Sentence": "Ja, genau, du hast recht.",
+        "Translation": "Yes, exactly, you are right."
+      }
+    ],
+    "Notes": [
+      "‘Ja, genau’ is used to confirm or agree with someone in conversation."
+    ],
+    "UsageTips": [
+      "Use it to show strong agreement or confirm an idea in response to someone’s statement."
+    ]
+  },
+  {
+    "id": 57,
+    "GermanWord": "Nichts zu danken",
+    "EnglishMeanings": ["You're welcome", "No thanks needed"],
+    "Category": "Response / Polite Phrase",
+    "ExampleSentences": [
+      {
+        "Sentence": "Danke für deine Hilfe. – Nichts zu danken.",
+        "Translation": "Thanks for your help. – You’re welcome."
+      },
+      {
+        "Sentence": "Es war keine Mühe. – Nichts zu danken.",
+        "Translation": "It was no trouble. – No thanks needed."
+      }
+    ],
+    "Notes": [
+      "‘Nichts zu danken’ is a polite and humble response to someone’s gratitude."
+    ],
+    "UsageTips": [
+      "Use it as a humble way of saying ‘you’re welcome’ in response to thanks."
+    ]
+  },
+  {
+    "id": 58,
+    "GermanWord": "Wirklich",
+    "EnglishMeanings": ["Really", "Truly", "Actually"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Ist das wirklich wahr?",
+        "Translation": "Is that really true?"
+      },
+      {
+        "Sentence": "Ich bin wirklich müde.",
+        "Translation": "I am really tired."
+      },
+      {
+        "Sentence": "Das war wirklich eine tolle Erfahrung.",
+        "Translation": "That was truly a great experience."
+      }
+    ],
+    "Notes": ["‘Wirklich’ is often used to emphasize truth or intensity."],
+    "UsageTips": [
+      "Use it to express emphasis, whether you’re surprised or stressing the validity of something."
+    ]
+  },
+  {
+    "id": 59,
+    "GermanWord": "Auf jeden Fall",
+    "EnglishMeanings": ["Definitely", "In any case"],
+    "Category": "Phrase / Adverbial Phrase",
+    "ExampleSentences": [
+      {
+        "Sentence": "Wir sollten auf jeden Fall hingehen.",
+        "Translation": "We should definitely go."
+      },
+      {
+        "Sentence": "Er wird auf jeden Fall kommen.",
+        "Translation": "He will definitely come."
+      },
+      {
+        "Sentence": "Ich werde auf jeden Fall versuchen, es zu schaffen.",
+        "Translation": "I will definitely try to make it."
+      }
+    ],
+    "Notes": ["‘Auf jeden Fall’ is used to express certainty or resolve."],
+    "UsageTips": [
+      "Use it when you want to affirm something strongly or commit to doing something."
+    ]
+  },
+  {
+    "id": 60,
+    "GermanWord": "Vielleicht",
+    "EnglishMeanings": ["Maybe", "Perhaps"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Vielleicht komme ich morgen.",
+        "Translation": "Maybe I’ll come tomorrow."
+      },
+      {
+        "Sentence": "Vielleicht ist es besser, zu warten.",
+        "Translation": "Maybe it’s better to wait."
+      },
+      {
+        "Sentence": "Das ist vielleicht möglich.",
+        "Translation": "That might be possible."
+      }
+    ],
+    "Notes": [
+      "‘Vielleicht’ expresses uncertainty or a possibility without committing."
+    ],
+    "UsageTips": [
+      "Use it when discussing potential future events or expressing uncertainty about a situation."
+    ]
+  },
+  {
+    "id": 61,
+    "GermanWord": "Eigentlich",
+    "EnglishMeanings": ["Actually", "In fact", "Really"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Eigentlich wollte ich heute zu Hause bleiben.",
+        "Translation": "Actually, I wanted to stay home today."
+      },
+      {
+        "Sentence": "Das ist eigentlich nicht nötig.",
+        "Translation": "That’s actually not necessary."
+      },
+      {
+        "Sentence": "Eigentlich habe ich keine Zeit.",
+        "Translation": "I actually don’t have time."
+      }
+    ],
+    "Notes": [
+      "‘Eigentlich’ is used to express contrast between what is expected and reality."
+    ],
+    "UsageTips": [
+      "Use ‘eigentlich’ when explaining something that differs from the assumed or expected outcome."
+    ]
+  },
+  {
+    "id": 62,
+    "GermanWord": "Sowieso",
+    "EnglishMeanings": ["Anyway", "In any case", "Regardless"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Ich wollte sowieso gerade gehen.",
+        "Translation": "I was going to leave anyway."
+      },
+      {
+        "Sentence": "Das hätte sowieso nicht geklappt.",
+        "Translation": "That wouldn’t have worked anyway."
+      },
+      {
+        "Sentence": "Es wird sowieso regnen.",
+        "Translation": "It’s going to rain anyway."
+      }
+    ],
+    "Notes": [
+      "‘Sowieso’ is used to emphasize that something is certain regardless of other factors."
+    ],
+    "UsageTips": [
+      "Use it to confirm a point that will hold true regardless of conditions or changes."
+    ]
+  },
+  {
+    "id": 63,
+    "GermanWord": "Keine Ahnung",
+    "EnglishMeanings": ["No idea", "I don’t know"],
+    "Category": "Phrase",
+    "ExampleSentences": [
+      {
+        "Sentence": "Hast du den Film gesehen? – Keine Ahnung.",
+        "Translation": "Have you seen the movie? – No idea."
+      },
+      {
+        "Sentence": "Was passiert jetzt? – Keine Ahnung.",
+        "Translation": "What’s happening now? – I have no idea."
+      },
+      {
+        "Sentence": "Ich habe wirklich keine Ahnung, was ich tun soll.",
+        "Translation": "I really have no idea what to do."
+      }
+    ],
+    "Notes": [
+      "‘Keine Ahnung’ is an informal way of saying ‘I don’t know’ or expressing a lack of information."
+    ],
+    "UsageTips": [
+      "Use it casually when you're uncertain or don't have information on a particular topic."
+    ]
+  },
+  {
+    "id": 64,
+    "GermanWord": "Allerdings",
+    "EnglishMeanings": ["However", "Indeed", "Certainly"],
+    "Category": "Adverb / Conjunction",
+    "ExampleSentences": [
+      {
+        "Sentence": "Es ist schön, allerdings teuer.",
+        "Translation": "It’s nice, however, expensive."
+      },
+      {
+        "Sentence": "Allerdings war er sehr hilfsbereit.",
+        "Translation": "Indeed, he was very helpful."
+      },
+      {
+        "Sentence": "Das ist allerdings eine gute Idee.",
+        "Translation": "That is certainly a good idea."
+      }
+    ],
+    "Notes": [
+      "‘Allerdings’ is used to introduce a contrast or to affirm something strongly."
+    ],
+    "UsageTips": [
+      "Use it to add emphasis or to introduce a slight contradiction or clarification."
+    ]
+  },
+  {
+    "id": 65,
+    "GermanWord": "Natürlich",
+    "EnglishMeanings": ["Naturally", "Of course"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Natürlich werde ich dir helfen.",
+        "Translation": "Of course, I’ll help you."
+      },
+      {
+        "Sentence": "Das ist natürlich wahr.",
+        "Translation": "That is naturally true."
+      },
+      {
+        "Sentence": "Du kannst natürlich mitkommen.",
+        "Translation": "You can of course come along."
+      }
+    ],
+    "Notes": [
+      "‘Natürlich’ is commonly used to express something that is expected or obvious."
+    ],
+    "UsageTips": [
+      "Use ‘natürlich’ to agree or confirm something that is obvious or a natural assumption."
+    ]
+  },
+  {
+    "id": 66,
+    "GermanWord": "Wie bitte?",
+    "EnglishMeanings": ["Sorry?", "Pardon?", "What did you say?"],
+    "Category": "Phrase",
+    "ExampleSentences": [
+      {
+        "Sentence": "Wie bitte? Ich habe dich nicht verstanden.",
+        "Translation": "Sorry? I didn’t understand you."
+      },
+      {
+        "Sentence": "Wie bitte? Kannst du das wiederholen?",
+        "Translation": "Pardon? Can you repeat that?"
+      },
+      {
+        "Sentence": "Wie bitte? Das habe ich nicht gehört.",
+        "Translation": "What did you say? I didn’t hear that."
+      }
+    ],
+    "Notes": [
+      "‘Wie bitte?’ is a polite way of asking someone to repeat something you didn’t hear or understand."
+    ],
+    "UsageTips": [
+      "Use it in both formal and informal settings when asking for clarification or repetition."
+    ]
+  },
+  {
+    "id": 67,
+    "GermanWord": "Schon gut",
+    "EnglishMeanings": ["It's okay", "No worries", "That’s fine"],
+    "Category": "Phrase",
+    "ExampleSentences": [
+      {
+        "Sentence": "Entschuldigung, ich bin zu spät. – Schon gut.",
+        "Translation": "Sorry, I’m late. – It’s okay."
+      },
+      {
+        "Sentence": "Danke für deine Hilfe. – Schon gut.",
+        "Translation": "Thanks for your help. – No worries."
+      },
+      {
+        "Sentence": "Ich dachte, du bist sauer. – Schon gut, kein Problem.",
+        "Translation": "I thought you were upset. – It’s fine, no problem."
+      }
+    ],
+    "Notes": [
+      "‘Schon gut’ is a comforting phrase used to assure someone that everything is fine."
+    ],
+    "UsageTips": [
+      "Use it to reassure others that there's no issue or to dismiss minor mistakes."
+    ]
+  },
+  {
+    "id": 68,
+    "GermanWord": "Ehrlich",
+    "EnglishMeanings": ["Honestly", "Frankly", "Sincerely"],
+    "Category": "Adverb / Adjective",
+    "ExampleSentences": [
+      {
+        "Sentence": "Ehrlich gesagt, finde ich das langweilig.",
+        "Translation": "Honestly, I find that boring."
+      },
+      {
+        "Sentence": "Bist du ehrlich?",
+        "Translation": "Are you being honest?"
+      },
+      {
+        "Sentence": "Ehrlich, ich habe das nicht gewusst.",
+        "Translation": "Honestly, I didn’t know that."
+      }
+    ],
+    "Notes": [
+      "‘Ehrlich’ can be used to express honesty in statements or as a question of integrity."
+    ],
+    "UsageTips": [
+      "Use it to express sincerity or to emphasize truthfulness in conversations."
+    ]
+  },
+  {
+    "id": 69,
+    "GermanWord": "Ich meine",
+    "EnglishMeanings": ["I mean", "What I mean is"],
+    "Category": "Phrase",
+    "ExampleSentences": [
+      {
+        "Sentence": "Ich meine, es ist besser, zu warten.",
+        "Translation": "I mean, it’s better to wait."
+      },
+      {
+        "Sentence": "Ich meine, das war eine gute Entscheidung.",
+        "Translation": "What I mean is, that was a good decision."
+      },
+      {
+        "Sentence": "Ich meine, er ist nicht sehr zuverlässig.",
+        "Translation": "I mean, he’s not very reliable."
+      }
+    ],
+    "Notes": [
+      "‘Ich meine’ is used to clarify or emphasize what the speaker intends to say."
+    ],
+    "UsageTips": [
+      "Use it in informal speech to introduce a clarification or to emphasize a point."
+    ]
+  },
+  {
+    "id": 70,
+    "GermanWord": "Immerhin",
+    "EnglishMeanings": ["At least", "After all", "Still"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Immerhin hat es aufgehört zu regnen.",
+        "Translation": "At least it stopped raining."
+      },
+      {
+        "Sentence": "Wir haben es immerhin versucht.",
+        "Translation": "After all, we tried."
+      },
+      {
+        "Sentence": "Immerhin war es eine interessante Erfahrung.",
+        "Translation": "It was still an interesting experience."
+      }
+    ],
+    "Notes": [
+      "‘Immerhin’ is used to emphasize that, despite challenges, something positive remains."
+    ],
+    "UsageTips": [
+      "Use it to acknowledge a positive aspect in a situation that is otherwise not ideal."
+    ]
+  },
+  {
+    "id": 71,
+    "GermanWord": "Trotzdem",
+    "EnglishMeanings": ["Nevertheless", "Despite that", "Still"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Es regnet, aber ich gehe trotzdem spazieren.",
+        "Translation": "It’s raining, but I’m still going for a walk."
+      },
+      {
+        "Sentence": "Er war krank, trotzdem hat er gearbeitet.",
+        "Translation": "He was sick, but he still worked."
+      },
+      {
+        "Sentence": "Es war spät, trotzdem bin ich gegangen.",
+        "Translation": "It was late, but I still went."
+      }
+    ],
+    "Notes": [
+      "‘Trotzdem’ expresses persistence or continuation despite obstacles or contradictions."
+    ],
+    "UsageTips": [
+      "Use it to indicate that something happens despite a condition or difficulty."
+    ]
+  },
+  {
+    "id": 72,
+    "GermanWord": "Deshalb",
+    "EnglishMeanings": ["Therefore", "That's why", "For that reason"],
+    "Category": "Conjunction / Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Es war spät, deshalb bin ich nach Hause gegangen.",
+        "Translation": "It was late, therefore I went home."
+      },
+      {
+        "Sentence": "Er hat viel gelernt, deshalb hat er die Prüfung bestanden.",
+        "Translation": "He studied a lot, that's why he passed the exam."
+      },
+      {
+        "Sentence": "Ich war müde, deshalb bin ich früher ins Bett gegangen.",
+        "Translation": "I was tired, so I went to bed earlier."
+      }
+    ],
+    "Notes": [
+      "‘Deshalb’ is used to introduce the reason or cause of a consequence or action."
+    ],
+    "UsageTips": [
+      "Use ‘deshalb’ to logically connect an action or result to its reason."
+    ]
+  },
+  {
+    "id": 73,
+    "GermanWord": "Dabei",
+    "EnglishMeanings": [
+      "With",
+      "There",
+      "In the process of",
+      "At the same time"
+    ],
+    "Category": "Adverb / Conjunction",
+    "ExampleSentences": [
+      {
+        "Sentence": "Hast du dein Handy dabei?",
+        "Translation": "Do you have your phone with you?"
+      },
+      {
+        "Sentence": "Ich war dabei, das Abendessen zu kochen.",
+        "Translation": "I was in the process of cooking dinner."
+      },
+      {
+        "Sentence": "Er wollte kommen, aber dabei ist etwas dazwischengekommen.",
+        "Translation": "He wanted to come, but something got in the way."
+      }
+    ],
+    "Notes": [
+      "‘Dabei’ can express location, accompaniment, or simultaneous action, depending on the context."
+    ],
+    "UsageTips": [
+      "Use ‘dabei’ in conversations about simultaneous actions or when referring to someone having something with them."
+    ]
+  },
+  {
+    "id": 74,
+    "GermanWord": "Ob",
+    "EnglishMeanings": ["If", "Whether"],
+    "Category": "Conjunction",
+    "ExampleSentences": [
+      {
+        "Sentence": "Ich weiß nicht, ob er kommt.",
+        "Translation": "I don't know if he's coming."
+      },
+      {
+        "Sentence": "Ob es regnet oder nicht, wir gehen spazieren.",
+        "Translation": "Whether it rains or not, we’re going for a walk."
+      },
+      {
+        "Sentence": "Frag ihn, ob er Zeit hat.",
+        "Translation": "Ask him if he has time."
+      }
+    ],
+    "Notes": [
+      "‘Ob’ is often used in indirect questions and to express uncertainty."
+    ],
+    "UsageTips": [
+      "Use ‘ob’ when discussing uncertain or conditional events, particularly in reported speech."
+    ]
+  },
+  {
+    "id": 75,
+    "GermanWord": "Zumindest",
+    "EnglishMeanings": ["At least"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Zumindest hat es nicht geregnet.",
+        "Translation": "At least it didn’t rain."
+      },
+      {
+        "Sentence": "Er ist nicht der Beste, aber zumindest versucht er es.",
+        "Translation": "He's not the best, but at least he's trying."
+      },
+      {
+        "Sentence": "Zumindest haben wir es geschafft, rechtzeitig anzukommen.",
+        "Translation": "At least we managed to arrive on time."
+      }
+    ],
+    "Notes": [
+      "‘Zumindest’ is used to express the least favorable but still positive aspect of a situation."
+    ],
+    "UsageTips": [
+      "Use ‘zumindest’ to highlight a minimal positive outcome when the overall situation is less ideal."
+    ]
+  },
+  {
+    "id": 76,
+    "GermanWord": "Einerseits... andererseits",
+    "EnglishMeanings": ["On one hand... on the other hand"],
+    "Category": "Conjunction / Phrase",
+    "ExampleSentences": [
+      {
+        "Sentence": "Einerseits möchte ich mitkommen, andererseits habe ich keine Zeit.",
+        "Translation": "On one hand, I want to come along, but on the other hand, I don’t have time."
+      },
+      {
+        "Sentence": "Einerseits ist das Wetter schön, andererseits ist es sehr heiß.",
+        "Translation": "On one hand, the weather is nice, but on the other hand, it's very hot."
+      },
+      {
+        "Sentence": "Einerseits wäre es toll, aber andererseits könnte es schwierig werden.",
+        "Translation": "On one hand, it would be great, but on the other hand, it could be difficult."
+      }
+    ],
+    "Notes": [
+      "This phrase is used to present two contrasting ideas or arguments."
+    ],
+    "UsageTips": [
+      "Use it when comparing two conflicting viewpoints or when expressing pros and cons."
+    ]
+  }
+]

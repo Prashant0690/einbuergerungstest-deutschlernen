@@ -4,6 +4,8 @@
 
 **Einbürgerungstest und Deutschlernen** is a personal project designed to help individuals prepare for the German citizenship test ("Einbürgerungstest") and learn about German culture, language, and society. The application provides interactive quizzes, vocabulary learning tools, and educational resources, allowing users to practice the full range of general and state-specific questions, as well as expand their German vocabulary.
 
+**Live App (GitHub Pages):** [https://prashant0690.github.io/einbuergerungstest-deutschlernen](https://prashant0690.github.io/einbuergerungstest-deutschlernen)
+
 ## Features and Usage
 
 ### General Questions
@@ -72,7 +74,7 @@
       npm run deploy
       ```
    3. Wait 1-2 minutes, then open:
-      `https://prashant0690.github.io/einbuergerungstest-deutschlernen`
+      [https://prashant0690.github.io/einbuergerungstest-deutschlernen](https://prashant0690.github.io/einbuergerungstest-deutschlernen)
 
    ## Legal Notice
 

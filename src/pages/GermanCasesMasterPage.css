@@ -277,32 +277,32 @@
 
 .sentence-token.case-nom,
 .case-colour-legend .case-nom {
-  background: #dceeff;
-  color: #064a83;
+  background: #1264a3;
+  color: #fff;
 }
 
 .sentence-token.case-verb,
 .case-colour-legend .case-verb {
-  background: #d9f5f7;
-  color: #05636d;
+  background: #087e8b;
+  color: #fff;
 }
 
 .sentence-token.case-dat,
 .case-colour-legend .case-dat {
-  background: #eadfff;
-  color: #542690;
+  background: #6c3db4;
+  color: #fff;
 }
 
 .sentence-token.case-acc,
 .case-colour-legend .case-acc {
-  background: #dff5e7;
-  color: #146233;
+  background: #177744;
+  color: #fff;
 }
 
 .sentence-token.case-gen,
 .case-colour-legend .case-gen {
-  background: #fbe1e7;
-  color: #7b1f37;
+  background: #8c3148;
+  color: #fff;
 }
 
 .sentence-adjective {

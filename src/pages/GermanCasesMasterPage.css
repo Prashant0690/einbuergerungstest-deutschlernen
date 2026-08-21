@@ -277,44 +277,50 @@
 
 .sentence-token.case-nom,
 .case-colour-legend .case-nom {
-  background: #1264a3;
-  color: #fff;
+  background: #dceeff;
+  color: #064a83;
 }
 
 .sentence-token.case-verb,
 .case-colour-legend .case-verb {
-  background: #087e8b;
-  color: #fff;
+  background: #d9f5f7;
+  color: #05636d;
 }
 
 .sentence-token.case-dat,
 .case-colour-legend .case-dat {
-  background: #6c3db4;
-  color: #fff;
+  background: #eadfff;
+  color: #542690;
 }
 
 .sentence-token.case-acc,
 .case-colour-legend .case-acc {
-  background: #177744;
-  color: #fff;
+  background: #dff5e7;
+  color: #146233;
 }
 
 .sentence-token.case-gen,
 .case-colour-legend .case-gen {
-  background: #8c3148;
-  color: #fff;
+  background: #fbe1e7;
+  color: #7b1f37;
 }
 
-.case-colour-legend .case-adjective,
 .sentence-adjective {
-  background: #b86b00;
-  color: #fff;
+  background: transparent;
+  color: inherit;
+  text-decoration: underline 2px currentColor;
+  text-underline-offset: 0.18em;
+}
+
+.case-colour-legend .case-adjective {
+  background: #fff;
+  color: #123a63;
+  text-decoration: underline 2px #b86b00;
+  text-underline-offset: 0.18em;
 }
 
 .sentence-adjective {
   margin: 0 0.12rem;
-  padding: 0.05rem 0.2rem;
-  border-radius: 0.2rem;
 }
 
 .case-colour-legend {

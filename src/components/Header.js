@@ -48,7 +48,7 @@ function Header() {
 
   return (
     <div>
-      <Navbar bg="dark" variant="dark" expand="lg" className="top-navbar">
+      <Navbar bg="light" variant="light" expand="lg" className="top-navbar">
         <Container>
           <Navbar.Brand as={NavLink} to="/" className="app-brand">
             <strong>Einbürgerungstest und Deutschlernen</strong>

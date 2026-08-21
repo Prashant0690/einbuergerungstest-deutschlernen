@@ -34,6 +34,7 @@ import LegalNoticeModal from "./components/LegalNoticeModal";
 import EinbuergerungSprachSprintPage from "./pages/EinbuergerungSprachSprintPage";
 import GermanLanguageSprintPage from "./pages/GermanLanguageSprintPage";
 import GermanGrammarPage from "./pages/GermanGrammarPage";
+import GermanCasesMasterPage from "./pages/GermanCasesMasterPage";
 
 
 function App() {
@@ -91,6 +92,7 @@ function App() {
             <Route path="/einbuergerung-sprachsprint" element={<EinbuergerungSprachSprintPage />} />
             <Route path="/deutsch-sprint" element={<GermanLanguageSprintPage />} />
             <Route path="/german-grammar" element={<GermanGrammarPage />} />
+            <Route path="/german-cases" element={<GermanCasesMasterPage />} />
           </Routes>
         </div>
 

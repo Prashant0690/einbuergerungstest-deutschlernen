@@ -1,0 +1,203 @@
+.cases-master {
+  max-width: 1180px;
+  margin: 0 auto 2rem;
+  color: #1f354b;
+}
+
+.cases-hero {
+  padding: 2.75rem 1.5rem;
+  text-align: center;
+  background: linear-gradient(135deg, #edf5ff, #f8f7ff);
+  border-radius: 1rem;
+}
+
+.cases-hero h1,
+.cases-section h2 {
+  color: #123a63;
+}
+
+.cases-eyebrow {
+  margin-bottom: 0.5rem;
+  color: #1264a3;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.cases-jump-nav {
+  display: flex;
+  justify-content: center;
+  gap: 0.25rem;
+  margin: 1rem 0 2rem;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.cases-jump-nav .nav-link {
+  color: #245278;
+  font-weight: 600;
+}
+
+.cases-section {
+  padding-top: 1rem;
+  margin-bottom: 3rem;
+  scroll-margin-top: 1rem;
+}
+
+.case-card {
+  width: 100%;
+  min-height: 175px;
+  padding: 1rem;
+  text-align: left;
+  background: #fff;
+  border: 2px solid currentColor;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.2rem 0.6rem rgba(18, 58, 99, 0.08);
+  color: #123a63;
+  cursor: pointer;
+}
+
+.case-card:hover,
+.case-card.is-active {
+  transform: translateY(-2px);
+  box-shadow: 0 0.55rem 1.25rem rgba(18, 58, 99, 0.15);
+}
+
+.case-card span,
+.case-card strong {
+  display: block;
+}
+
+.case-card-label {
+  margin-bottom: 0.25rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.case-card strong {
+  font-size: 1.15rem;
+}
+
+.case-nom,
+.case-nom .cases-eyebrow { color: #1264a3; }
+
+.case-acc,
+.case-acc .cases-eyebrow { color: #177744; }
+
+.case-dat,
+.case-dat .cases-eyebrow { color: #6c3db4; }
+
+.case-gen,
+.case-gen .cases-eyebrow { color: #8c3148; }
+
+.case-detail {
+  border-left: 6px solid currentColor;
+  box-shadow: 0 0.2rem 0.7rem rgba(18, 58, 99, 0.08);
+}
+
+.case-detail.case-nom { background: #edf5ff; }
+.case-detail.case-acc { background: #eefaf3; }
+.case-detail.case-dat { background: #f5efff; }
+.case-detail.case-gen { background: #fff1f3; }
+
+.case-question {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.cases-table {
+  margin-bottom: 0;
+  font-size: 0.94rem;
+}
+
+.cases-table th {
+  background: #123a63;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.cases-table td {
+  vertical-align: middle;
+}
+
+.case-tip,
+.preposition-card,
+.cases-finish {
+  border: 1px solid #d5e3f1;
+  box-shadow: 0 0.2rem 0.7rem rgba(18, 58, 99, 0.06);
+}
+
+.case-tip {
+  background: #fffaf0;
+}
+
+.sentence-map {
+  overflow-x: auto;
+  border: 1px solid #d5e3f1;
+  border-radius: 0.5rem;
+}
+
+.sentence-map > div {
+  display: grid;
+  min-width: 760px;
+  grid-template-columns: 100px repeat(5, 1fr);
+}
+
+.sentence-map > div:nth-child(odd) {
+  background: #f8fbff;
+}
+
+.sentence-map span {
+  padding: 0.8rem;
+  border-right: 1px solid #d5e3f1;
+  font-weight: 600;
+}
+
+.sentence-label {
+  color: #59738c;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.case-verb {
+  color: #087e8b;
+}
+
+.case-example-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.case-example-grid p {
+  margin: 0;
+  padding: 0.9rem;
+  background: #f8fbff;
+  border-radius: 0.5rem;
+}
+
+.case-example-grid small {
+  display: block;
+  margin-top: 0.35rem;
+  color: #59738c;
+}
+
+.cases-finish {
+  background: #e8f7f0;
+  color: #1c5a40;
+}
+
+@media (max-width: 767.98px) {
+  .cases-hero {
+    padding: 2rem 1rem;
+  }
+
+  .cases-hero h1 {
+    font-size: 2rem;
+  }
+
+  .case-example-grid {
+    grid-template-columns: 1fr;
+  }
+}

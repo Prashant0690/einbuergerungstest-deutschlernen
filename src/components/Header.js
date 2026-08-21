@@ -227,6 +227,16 @@ function Header() {
               Grammar Quick Reference
             </NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink
+              className={`nav-link ${
+                location.pathname === "/german-cases" ? "active-link" : ""
+              }`}
+              to="/german-cases"
+            >
+              Cases Master
+            </NavLink>
+          </li>
         </ul>
       )}
     </div>

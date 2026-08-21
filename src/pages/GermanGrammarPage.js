@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Button, Card, Col, Nav, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./GermanGrammarPage.css";
 
 const grammarTopics = [
@@ -148,6 +149,11 @@ function GermanGrammarPage() {
                 <strong>Memory cue</strong>
                 <span>{selectedTopic.memory}</span>
               </div>
+              {selectedTopic.id === "cases" && (
+                <Button as={Link} to="/german-cases" variant="primary" className="mt-3">
+                  Open the Cases Master
+                </Button>
+              )}
             </Card.Body>
           </Card>
         </Col>

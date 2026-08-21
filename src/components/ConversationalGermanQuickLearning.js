@@ -1,321 +1,353 @@
-import React, { useMemo, useState } from "react";
-import { Badge, Button, ButtonGroup, Card, Col, Form, ProgressBar, Row } from "react-bootstrap";
-import { FaVolumeUp } from "react-icons/fa";
+import React, { useCallback, useEffect, useMemo, useState } from "react";
+import { Badge, Button, Card, Col, Form, OverlayTrigger, ProgressBar, Row, Tooltip } from "react-bootstrap";
+import { FaInfoCircle, FaVolumeUp } from "react-icons/fa";
 import conversational_german_words from "../data/deutschlearnen/conversational_german_words.json";
 
-const SESSION_SIZES = [8, 12, 20];
+const SESSION_SIZES = [20, 40, 60, 98];
+
+const normalize = (text) => text.toLowerCase().trim();
+
+const shuffle = (items) => {
+  const result = [...items];
+  for (let i = result.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+};
 
 function ConversationalGermanQuickLearning() {
-  const [viewMode, setViewMode] = useState("list");
   const [query, setQuery] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState("All");
-  const [sessionSize, setSessionSize] = useState(12);
-  const [showTranslations, setShowTranslations] = useState(true);
-  const [flashcardIndex, setFlashcardIndex] = useState(0);
-  const [shuffleSeed, setShuffleSeed] = useState(0);
-  const [showFlashcardAnswer, setShowFlashcardAnswer] = useState(false);
-  const [learnedWords, setLearnedWords] = useState([]);
-
-  const words = useMemo(
-    () => conversational_german_words.map((word) => ({ ...word, normalizedWord: word.GermanWord.toLowerCase() })),
-    []
-  );
-
-  const categories = useMemo(
-    () => ["All", ...new Set(words.map((word) => word.Category).filter(Boolean))],
-    [words]
-  );
+  const [sessionSize, setSessionSize] = useState(40);
+  const [promptLanguage, setPromptLanguage] = useState("english");
+  const [showFullList, setShowFullList] = useState(false);
+  const [deck, setDeck] = useState([]);
+  const [cardIndex, setCardIndex] = useState(0);
+  const [showAnswer, setShowAnswer] = useState(false);
+  const [learnedIds, setLearnedIds] = useState([]);
 
   const filteredWords = useMemo(() => {
-    const normalizedQuery = query.trim().toLowerCase();
+    const term = normalize(query);
+    if (!term) return conversational_german_words;
 
-    return words.filter((word) => {
-      const categoryMatches = selectedCategory === "All" || word.Category === selectedCategory;
-      const textMatches =
-        !normalizedQuery ||
-        word.normalizedWord.includes(normalizedQuery) ||
-        word.EnglishMeanings.some((meaning) => meaning.toLowerCase().includes(normalizedQuery));
-      return categoryMatches && textMatches;
+    return conversational_german_words.filter((word) => {
+      const wordMatch = normalize(word.GermanWord).includes(term);
+      const meaningMatch = word.EnglishMeanings.some((meaning) => normalize(meaning).includes(term));
+      const noteMatch = normalize(word.Note || "").includes(term);
+      return wordMatch || meaningMatch || noteMatch;
     });
-  }, [words, selectedCategory, query]);
+  }, [query]);
 
-  const sessionWords = useMemo(() => filteredWords.slice(0, sessionSize), [filteredWords, sessionSize]);
-  const orderedSessionWords = useMemo(() => {
-    if (!shuffleSeed) return sessionWords;
-    return [...sessionWords].sort((a, b) => {
-      const aRank = (a.id * 9301 + shuffleSeed) % 233280;
-      const bRank = (b.id * 9301 + shuffleSeed) % 233280;
-      return aRank - bRank;
-    });
-  }, [sessionWords, shuffleSeed]);
+  const activeSize = showFullList ? filteredWords.length : sessionSize;
 
-  const currentFlashcard = orderedSessionWords[flashcardIndex];
+  useEffect(() => {
+    const nextDeck = shuffle(filteredWords.slice(0, activeSize));
+    setDeck(nextDeck);
+    setCardIndex(0);
+    setShowAnswer(false);
+  }, [filteredWords, activeSize]);
 
+  const currentCard = deck[cardIndex];
   const learnedCount = useMemo(
-    () => orderedSessionWords.filter((word) => learnedWords.includes(word.id)).length,
-    [orderedSessionWords, learnedWords]
+    () => deck.filter((word) => learnedIds.includes(word.id)).length,
+    [deck, learnedIds]
   );
 
   const speakText = (text) => {
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "de-DE";
-    utterance.rate = 0.85;
+    utterance.rate = 0.9;
     speechSynthesis.speak(utterance);
   };
 
-  const resetFlashcards = () => {
-    setFlashcardIndex(0);
-    setShuffleSeed(0);
-    setShowFlashcardAnswer(false);
-  };
+  const goNextCard = useCallback(() => {
+    if (!deck.length) return;
+    setCardIndex((prev) => (prev + 1) % deck.length);
+    setShowAnswer(false);
+  }, [deck.length]);
+
+  const goPrevCard = useCallback(() => {
+    if (!deck.length) return;
+    setCardIndex((prev) => (prev - 1 + deck.length) % deck.length);
+    setShowAnswer(false);
+  }, [deck.length]);
 
   const toggleLearned = () => {
-    if (!currentFlashcard) return;
-    setLearnedWords((previous) =>
-      previous.includes(currentFlashcard.id)
-        ? previous.filter((wordId) => wordId !== currentFlashcard.id)
-        : [...previous, currentFlashcard.id]
+    if (!currentCard) return;
+    setLearnedIds((prev) =>
+      prev.includes(currentCard.id)
+        ? prev.filter((id) => id !== currentCard.id)
+        : [...prev, currentCard.id]
     );
   };
 
-  const shuffleSessionWords = () => {
-    if (orderedSessionWords.length < 2) return;
-    setShuffleSeed(Math.floor(Math.random() * 100000) + 1);
-    setShowFlashcardAnswer(false);
-    setFlashcardIndex(0);
+  const reshuffleDeck = () => {
+    setDeck((prev) => shuffle(prev));
+    setCardIndex(0);
+    setShowAnswer(false);
   };
 
-  const goToNext = () => {
-    if (!orderedSessionWords.length) return;
-    setFlashcardIndex((prev) => (prev + 1) % orderedSessionWords.length);
-    setShowFlashcardAnswer(false);
+  const onCardClick = () => {
+    if (!currentCard) return;
+    if (!showAnswer) {
+      setShowAnswer(true);
+      return;
+    }
+    goNextCard();
   };
 
-  const goToPrevious = () => {
-    if (!orderedSessionWords.length) return;
-    setFlashcardIndex((prev) => (prev - 1 + orderedSessionWords.length) % orderedSessionWords.length);
-    setShowFlashcardAnswer(false);
-  };
+  const promptText =
+    promptLanguage === "english"
+      ? currentCard?.EnglishMeanings.join(", ")
+      : currentCard?.GermanWord;
+  const germanText = currentCard?.GermanWord || "";
+  const englishText = currentCard?.EnglishMeanings.join(", ") || "";
 
   return (
     <div className="container mt-4">
-      <h2 className="text-center mb-4" style={{ fontWeight: 'bold', fontSize: '2rem' }}>
-        Conversational German Quick Learning
+      <h2 className="text-center mb-2" style={{ fontWeight: "bold", fontSize: "2rem" }}>
+        Conversational German Flashcards
       </h2>
+      <p className="text-center text-muted mb-4">
+        Manual mode only (no auto switching). Reveal when ready, then move to next card.
+      </p>
 
       <Card className="shadow-sm p-3 mb-4">
         <Row className="g-3 align-items-end">
           <Col md={5}>
-            <Form.Label className="fw-semibold">Search word or meaning</Form.Label>
+            <Form.Label className="fw-semibold">Search</Form.Label>
             <Form.Control
               value={query}
-              onChange={(event) => {
-                setQuery(event.target.value);
-                resetFlashcards();
-              }}
-              placeholder="e.g. really, maybe, doch..."
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder="Search German, English, or note"
             />
           </Col>
-          <Col md={3}>
-            <Form.Label className="fw-semibold">Category</Form.Label>
-            <Form.Select
-              value={selectedCategory}
-              onChange={(event) => {
-                setSelectedCategory(event.target.value);
-                resetFlashcards();
-              }}
-            >
-              {categories.map((category) => (
-                <option key={category} value={category}>{category}</option>
-              ))}
-            </Form.Select>
-          </Col>
           <Col md={2}>
-            <Form.Label className="fw-semibold">Words per session</Form.Label>
+            <Form.Label className="fw-semibold">Cards in session</Form.Label>
             <Form.Select
               value={sessionSize}
-              onChange={(event) => {
-                setSessionSize(Number(event.target.value));
-                resetFlashcards();
-              }}
+              onChange={(event) => setSessionSize(Number(event.target.value))}
+              disabled={showFullList}
             >
               {SESSION_SIZES.map((size) => (
-                <option key={size} value={size}>{size}</option>
+                <option key={size} value={size}>
+                  {size}
+                </option>
               ))}
             </Form.Select>
           </Col>
           <Col md={2}>
-            <Form.Check
-              type="switch"
-              id="show-translations"
-              className="mt-4"
-              label="Show translations"
-              checked={showTranslations}
-              onChange={(event) => setShowTranslations(event.target.checked)}
-            />
-          </Col>
-        </Row>
-
-        <div className="d-flex justify-content-between align-items-center mt-3 flex-wrap gap-2">
-          <div className="text-muted">
-            Learning set: <strong>{sessionWords.length}</strong> of <strong>{filteredWords.length}</strong> matching words
-          </div>
-          <ButtonGroup>
-            <Button variant={viewMode === "list" ? "primary" : "outline-primary"} onClick={() => setViewMode("list")}>
-              List view
-            </Button>
-            <Button
-              variant={viewMode === "flashcards" ? "primary" : "outline-primary"}
-              onClick={() => {
-                setViewMode("flashcards");
-                resetFlashcards();
+            <Form.Label className="fw-semibold">Show first</Form.Label>
+            <Form.Select
+              value={promptLanguage}
+              onChange={(event) => {
+                setPromptLanguage(event.target.value);
+                setShowAnswer(false);
               }}
             >
-              Flashcards
+              <option value="english">English</option>
+              <option value="german">German</option>
+            </Form.Select>
+          </Col>
+          <Col md={3} className="d-flex gap-2">
+            <Button variant="outline-primary" onClick={reshuffleDeck}>
+              Randomize order
             </Button>
-          </ButtonGroup>
-        </div>
+            <Button
+              variant={showFullList ? "primary" : "outline-secondary"}
+              onClick={() => setShowFullList((prev) => !prev)}
+            >
+              {showFullList ? "Full list ON" : "View full list"}
+            </Button>
+          </Col>
+        </Row>
       </Card>
 
-      {viewMode === "list" && (
-        <Row className="g-4">
-          {sessionWords.map((word) => (
-            <Col sm={12} md={6} key={word.id}>
-              <Card className="shadow-sm p-3 h-100">
-                <Card.Body>
-                  <div className="d-flex justify-content-between align-items-center mb-2">
-                    <Badge bg="info">{word.Category}</Badge>
-                    <FaVolumeUp
-                      onClick={() => speakText(word.GermanWord)}
-                      style={{ cursor: "pointer", fontSize: "1.4rem", color: "#0d6efd" }}
-                      title="Hear word"
-                    />
-                  </div>
-                  <h4 style={{ fontSize: "1.6rem", fontWeight: "700", color: "#0d6efd" }}>{word.GermanWord}</h4>
-                  {showTranslations && (
-                    <p className="mb-3">
-                      <em>{word.EnglishMeanings.join(", ")}</em>
-                    </p>
-                  )}
-
-                  {word.ExampleSentences?.[0] && (
-                    <div className="mb-3">
-                      <strong>{word.ExampleSentences[0].Sentence}</strong>
-                      <FaVolumeUp
-                        onClick={() => speakText(word.ExampleSentences[0].Sentence)}
-                        style={{ cursor: "pointer", fontSize: "1.1rem", marginLeft: "8px", color: "#0d6efd" }}
-                        title="Hear sentence"
-                      />
-                      {showTranslations && (
-                        <p className="text-muted mb-0 mt-1">{word.ExampleSentences[0].Translation}</p>
-                      )}
-                    </div>
-                  )}
-
-                  {word.ExampleSentences?.length > 1 && (
-                    <details>
-                      <summary className="text-primary" style={{ cursor: "pointer" }}>More examples</summary>
-                      {word.ExampleSentences.slice(1).map((example, index) => (
-                        <div key={`${word.id}-${index}`} className="mt-2">
-                          <strong>{example.Sentence}</strong>
-                          {showTranslations && <p className="text-muted mb-0">{example.Translation}</p>}
-                        </div>
-                      ))}
-                    </details>
-                  )}
-                </Card.Body>
-              </Card>
-            </Col>
-          ))}
-          {sessionWords.length === 0 && (
-            <Col xs={12}>
-              <Card className="p-4 text-center">
-                <strong>No words found for this filter.</strong>
-                <div className="text-muted">Try another search term or category.</div>
-              </Card>
-            </Col>
-          )}
-        </Row>
-      )}
-
-      {viewMode === "flashcards" && (
-        <Card className="shadow-sm p-3">
+      {currentCard ? (
+        <Card className="shadow-sm p-3 mb-4">
           <Card.Body>
-            {currentFlashcard ? (
-              <>
-                <div className="d-flex justify-content-between align-items-center mb-3">
-                  <strong>Card {flashcardIndex + 1} / {orderedSessionWords.length}</strong>
-                  <strong>Learned: {learnedCount}/{orderedSessionWords.length}</strong>
-                </div>
-
-                <ProgressBar
-                  now={(learnedCount / Math.max(orderedSessionWords.length, 1)) * 100}
-                  label={`${Math.round((learnedCount / Math.max(orderedSessionWords.length, 1)) * 100)}%`}
-                  className="mb-3"
-                />
-
-                <Card
-                  className="p-4 text-center mb-3"
-                  style={{ cursor: "pointer", minHeight: "240px", backgroundColor: showFlashcardAnswer ? "#f8fbff" : "#fdfdfd" }}
-                  onClick={() => setShowFlashcardAnswer((current) => !current)}
-                >
-                  {!showFlashcardAnswer ? (
-                    <>
-                      <Badge bg="secondary" className="mb-3">{currentFlashcard.Category}</Badge>
-                      <h2 className="mb-3">{currentFlashcard.GermanWord}</h2>
-                      <div className="text-muted mb-2">Tap to reveal meaning</div>
-                      <FaVolumeUp
-                        onClick={(event) => {
-                          event.stopPropagation();
-                          speakText(currentFlashcard.GermanWord);
-                        }}
-                        style={{ cursor: "pointer", fontSize: "1.8rem", color: "#0d6efd" }}
-                      />
-                    </>
-                  ) : (
-                    <>
-                      <h4 className="mb-2">{currentFlashcard.GermanWord}</h4>
-                      <p className="mb-2"><em>{currentFlashcard.EnglishMeanings.join(", ")}</em></p>
-                      {currentFlashcard.ExampleSentences?.[0] && (
-                        <>
-                          <p className="fw-semibold mb-1">{currentFlashcard.ExampleSentences[0].Sentence}</p>
-                          <p className="text-muted mb-2">{currentFlashcard.ExampleSentences[0].Translation}</p>
-                        </>
-                      )}
-                      {currentFlashcard.UsageTips?.[0] && (
-                        <p className="mb-0"><strong>Tip:</strong> {currentFlashcard.UsageTips[0]}</p>
-                      )}
-                    </>
-                  )}
-                </Card>
-
-                <div className="d-flex justify-content-between gap-2 flex-wrap">
-                  <Button variant="outline-primary" onClick={goToPrevious}>Previous</Button>
-                  <Button variant="outline-secondary" onClick={shuffleSessionWords}>Shuffle</Button>
-                  <Button
-                    variant={learnedWords.includes(currentFlashcard.id) ? "success" : "outline-success"}
-                    onClick={toggleLearned}
-                  >
-                    {learnedWords.includes(currentFlashcard.id) ? "Marked learned" : "Mark as learned"}
-                  </Button>
-                  <Button variant="primary" onClick={goToNext}>Next</Button>
-                </div>
-              </>
-            ) : (
-              <div className="text-center py-4">
-                <strong>No flashcards in this filter.</strong>
+            <div className="d-flex justify-content-between align-items-center mb-3 flex-wrap gap-2">
+              <strong>
+                Card {cardIndex + 1} / {deck.length}
+              </strong>
+              <div className="d-flex gap-2 align-items-center">
+                <Badge bg="success">Learned {learnedCount}</Badge>
+                <Badge bg="secondary">Remaining {Math.max(deck.length - learnedCount, 0)}</Badge>
               </div>
-            )}
+            </div>
+
+            <ProgressBar
+              now={(learnedCount / Math.max(deck.length, 1)) * 100}
+              className="mb-4"
+              label={`${Math.round((learnedCount / Math.max(deck.length, 1)) * 100)}%`}
+            />
+
+            <Card
+              className="p-4 mb-4"
+              style={{
+                minHeight: "280px",
+                border: showAnswer ? "2px solid #9ec5fe" : "2px solid #f4d7a1",
+                backgroundColor: showAnswer ? "#f4f8ff" : "#ffffff",
+                cursor: "pointer",
+                transition: "all 0.2s ease",
+              }}
+              onClick={onCardClick}
+            >
+              <div className="p-3 rounded mb-3" style={{ backgroundColor: "#fff7e8", border: "1px solid #ffe0ac" }}>
+                <h2 className="mb-1 fw-bold">{promptText}</h2>
+                <div className="d-flex justify-content-end">
+                  <OverlayTrigger
+                    trigger={["hover", "click", "focus"]}
+                    placement="top"
+                    overlay={<Tooltip id={`note-${currentCard.id}`}>{currentCard.Note}</Tooltip>}
+                  >
+                    <Button
+                      variant="link"
+                      className="p-0 text-muted"
+                      style={{ textDecoration: "none" }}
+                      onClick={(event) => event.stopPropagation()}
+                    >
+                      <FaInfoCircle style={{ fontSize: "1rem" }} />
+                    </Button>
+                  </OverlayTrigger>
+                </div>
+              </div>
+
+              {promptLanguage === "german" && (
+                <Button
+                  variant="link"
+                  className="p-0 mb-3"
+                  style={{ textDecoration: "none" }}
+                  onClick={() => speakText(currentCard.GermanWord)}
+                >
+                  <FaVolumeUp style={{ fontSize: "1.2rem" }} /> Hear German
+                </Button>
+              )}
+
+              {showAnswer ? (
+                <div
+                  className="p-3 mt-2 rounded"
+                  style={{ backgroundColor: "#eaf2ff", border: "1px solid #c9dcff" }}
+                >
+                  <h2 className="mb-2 fw-bold">
+                    {promptLanguage === "english" ? germanText : englishText}
+                  </h2>
+                  <Button
+                    variant="link"
+                    className="p-0"
+                    style={{ textDecoration: "none" }}
+                    onClick={() => speakText(currentCard.GermanWord)}
+                  >
+                    <FaVolumeUp style={{ fontSize: "1.2rem" }} /> Hear German
+                  </Button>
+                </div>
+              ) : (
+                <div className="text-muted">Click once to reveal. Click again to open next word.</div>
+              )}
+            </Card>
+
+            <div className="d-flex justify-content-between gap-2 flex-wrap">
+              <Button variant="outline-primary" onClick={goPrevCard}>
+                Previous
+              </Button>
+              <Button
+                variant={learnedIds.includes(currentCard.id) ? "success" : "outline-success"}
+                onClick={toggleLearned}
+              >
+                {learnedIds.includes(currentCard.id) ? "Learned" : "Mark learned"}
+              </Button>
+              <Button
+                variant="outline-secondary"
+                onClick={() => setShowAnswer((prev) => !prev)}
+              >
+                {showAnswer ? "Hide answer" : "Reveal answer"}
+              </Button>
+              <Button variant="primary" onClick={goNextCard}>
+                Next
+              </Button>
+            </div>
           </Card.Body>
+        </Card>
+      ) : (
+        <Card className="shadow-sm p-4 text-center mb-4">
+          <strong>No cards found.</strong>
+          <div className="text-muted">Try a different search term.</div>
         </Card>
       )}
 
-      <Card className="mt-4 border-0" style={{ backgroundColor: "#f8f9fa" }}>
-        <Card.Body>
-          <strong>Coach mode:</strong> Learn 8-12 words per session, repeat each card out loud, and keep only words marked
-          as "learned" if you can use them in your own sentence.
-        </Card.Body>
-      </Card>
+      {showFullList && filteredWords.length > 0 && (
+        <Card className="shadow-sm p-3">
+          <Card.Body>
+            <div className="d-flex justify-content-between align-items-center mb-3 flex-wrap gap-2">
+              <h5 className="mb-0">Full learning board</h5>
+              <div className="text-muted">Browse, listen, and jump directly to any word.</div>
+            </div>
+
+            <div style={{ maxHeight: "460px", overflowY: "auto", paddingRight: "4px" }}>
+              <Row className="g-3">
+                {filteredWords.map((word, index) => (
+                  <Col key={word.id} xs={12} md={6} lg={4}>
+                    <Card
+                      className="h-100"
+                      style={{
+                        border: learnedIds.includes(word.id) ? "1px solid #8fd19e" : "1px solid #e9ecef",
+                        backgroundColor: learnedIds.includes(word.id) ? "#f2fbf4" : "#ffffff",
+                      }}
+                    >
+                      <Card.Body>
+                        <div className="d-flex justify-content-between align-items-start mb-2">
+                          <Badge bg={learnedIds.includes(word.id) ? "success" : "secondary"}>#{index + 1}</Badge>
+                          <Button
+                            variant="link"
+                            className="p-0"
+                            onClick={() => speakText(word.GermanWord)}
+                            title="Hear German pronunciation"
+                          >
+                            <FaVolumeUp />
+                          </Button>
+                        </div>
+                        <h5 className="fw-bold mb-2">{word.GermanWord}</h5>
+                        <div className="text-muted mb-3" style={{ fontSize: "0.95rem" }}>
+                          {word.EnglishMeanings.join(", ")}
+                        </div>
+
+                        <div className="d-flex gap-2 flex-wrap">
+                          <Button
+                            size="sm"
+                            variant="outline-primary"
+                            onClick={() => {
+                              const nextIndex = deck.findIndex((item) => item.id === word.id);
+                              if (nextIndex >= 0) {
+                                setCardIndex(nextIndex);
+                                setShowAnswer(false);
+                              }
+                            }}
+                          >
+                            Study this
+                          </Button>
+                          <Button
+                            size="sm"
+                            variant={learnedIds.includes(word.id) ? "success" : "outline-success"}
+                            onClick={() => {
+                              setLearnedIds((prev) =>
+                                prev.includes(word.id)
+                                  ? prev.filter((id) => id !== word.id)
+                                  : [...prev, word.id]
+                              );
+                            }}
+                          >
+                            {learnedIds.includes(word.id) ? "Learned" : "Mark learned"}
+                          </Button>
+                        </div>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                ))}
+              </Row>
+            </div>
+          </Card.Body>
+        </Card>
+      )}
     </div>
   );
 }

@@ -259,7 +259,91 @@
 }
 
 .practice-sentence p {
-  line-height: 1.7;
+  line-height: 2.15;
+}
+
+.practice-language {
+  font-size: 1.05rem;
+}
+
+.sentence-token,
+.case-colour-legend span {
+  display: inline-block;
+  margin: 0.15rem 0.3rem 0.15rem 0;
+  padding: 0.12rem 0.45rem;
+  border-radius: 0.3rem;
+  font-weight: 600;
+}
+
+.sentence-token.case-nom,
+.case-colour-legend .case-nom {
+  background: #dceeff;
+  color: #064a83;
+}
+
+.sentence-token.case-verb,
+.case-colour-legend .case-verb {
+  background: #d9f5f7;
+  color: #05636d;
+}
+
+.sentence-token.case-dat,
+.case-colour-legend .case-dat {
+  background: #eadfff;
+  color: #542690;
+}
+
+.sentence-token.case-acc,
+.case-colour-legend .case-acc {
+  background: #dff5e7;
+  color: #146233;
+}
+
+.sentence-token.case-gen,
+.case-colour-legend .case-gen {
+  background: #fbe1e7;
+  color: #7b1f37;
+}
+
+.case-colour-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin: 1rem 0;
+}
+
+.practice-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1.25rem 0;
+  padding: 1rem;
+  background: #f8fbff;
+  border: 1px solid #d5e3f1;
+  border-radius: 0.5rem;
+}
+
+.complexity-tabs {
+  gap: 0.5rem;
+}
+
+.complexity-tabs .nav-link {
+  cursor: pointer;
+}
+
+.practice-answer,
+.practice-reveal {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #d5e3f1;
+}
+
+.practice-reveal summary {
+  color: #1264a3;
+  cursor: pointer;
+  font-weight: 700;
 }
 
 @media (max-width: 767.98px) {
@@ -273,5 +357,9 @@
 
   .case-example-grid {
     grid-template-columns: 1fr;
+  }
+
+  .practice-toolbar {
+    align-items: stretch;
   }
 }

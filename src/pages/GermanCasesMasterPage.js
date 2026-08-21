@@ -167,11 +167,33 @@ const practiceSentences = sentenceSubjects.flatMap((subject, subjectIndex) =>
   sentenceObjects.map((object, objectIndex) => {
     const recipient = sentenceRecipients[(subjectIndex + objectIndex) % sentenceRecipients.length];
     const owner = sentenceOwners[(subjectIndex * 3 + objectIndex) % sentenceOwners.length];
+    const complexity = objectIndex % 3 === 0 ? "simple" : objectIndex % 3 === 1 ? "intermediate" : "advanced";
+    const english = [subject[0], subject[2]];
+    const german = [subject[1], subject[3]];
+
+    if (complexity !== "simple") {
+      english.push(recipient[0]);
+      german.push(recipient[1]);
+    }
+
+    english.push(object[0]);
+    german.push(object[1]);
+
+    if (complexity === "advanced") {
+      english.push(`from ${owner[0]}`);
+      german.push(owner[1]);
+    }
+
     return {
       id: `${subjectIndex}-${objectIndex}`,
-      english: [subject[0], subject[2], recipient[0], object[0], `from ${owner[0]}`],
-      german: [subject[1], subject[3], recipient[1], object[1], owner[1]],
-      rules: "Nominative subject; verb in position two; dative receiver; accusative direct object; genitive possession.",
+      complexity,
+      english,
+      german,
+      rules: complexity === "simple"
+        ? "Nominative subject; verb in position two; accusative direct object."
+        : complexity === "intermediate"
+          ? "Nominative subject; verb in position two; dative receiver; accusative direct object."
+          : "Nominative subject; verb in position two; dative receiver; accusative direct object; genitive possession.",
     };
   })
 );
@@ -189,14 +211,29 @@ function CaseTable({ rows, headers, className = "" }) {
   );
 }
 
-function ColourSentence({ sentence }) {
-  const colours = ["case-nom", "case-verb", "case-dat", "case-acc", "case-gen"];
+function ColourSentence({ sentence, showAnswer }) {
+  const colours = sentence.complexity === "simple"
+    ? ["case-nom", "case-verb", "case-acc"]
+    : sentence.complexity === "intermediate"
+      ? ["case-nom", "case-verb", "case-dat", "case-acc"]
+      : ["case-nom", "case-verb", "case-dat", "case-acc", "case-gen"];
+
   return (
     <Card className="practice-sentence">
       <Card.Body>
-        <p><strong>English</strong><br />{sentence.english.map((part, index) => <span className={colours[index]} key={`en-${index}`}>{part}{index < 4 ? " " : "."}</span>)}</p>
-        <p><strong>German</strong><br />{sentence.german.map((part, index) => <span className={colours[index]} key={`de-${index}`}>{part}{index < 4 ? " " : "."}</span>)}</p>
-        <p className="mb-0"><strong>Rules applied:</strong> {sentence.rules}</p>
+        <p className="practice-language"><strong>English (E)</strong><br />{sentence.english.map((part, index) => <span className={`sentence-token ${colours[index]}`} key={`en-${index}`}>{part}</span>)}</p>
+        {showAnswer ? (
+          <div className="practice-answer">
+            <p className="practice-language"><strong>German (D)</strong><br />{sentence.german.map((part, index) => <span className={`sentence-token ${colours[index]}`} key={`de-${index}`}>{part}</span>)}</p>
+            <p className="mb-0"><strong>Rules applied:</strong> {sentence.rules}</p>
+          </div>
+        ) : (
+          <details className="practice-reveal">
+            <summary>Show German answer and rules</summary>
+            <p className="practice-language mt-3"><strong>German (D)</strong><br />{sentence.german.map((part, index) => <span className={`sentence-token ${colours[index]}`} key={`de-${index}`}>{part}</span>)}</p>
+            <p className="mb-0"><strong>Rules applied:</strong> {sentence.rules}</p>
+          </details>
+        )}
       </Card.Body>
     </Card>
   );
@@ -209,10 +246,19 @@ function GermanCasesMasterPage() {
     negative: true,
   });
   const [visibleSentenceCount, setVisibleSentenceCount] = useState(10);
+  const [activeComplexity, setActiveComplexity] = useState("simple");
+  const [showAllAnswers, setShowAllAnswers] = useState(false);
 
   const toggleArticle = (type) => {
     setArticleVisibility((current) => ({ ...current, [type]: !current[type] }));
   };
+
+  const selectComplexity = (complexity) => {
+    setActiveComplexity(complexity);
+    setVisibleSentenceCount(10);
+  };
+
+  const filteredSentences = practiceSentences.filter((sentence) => sentence.complexity === activeComplexity);
 
   return (
     <section className="cases-master">
@@ -354,13 +400,34 @@ function GermanCasesMasterPage() {
 
       <section id="sentences" className="cases-section">
         <h2>Practice sentences and reference examples</h2>
-        <p>These 100 original reference sentences use one colour system in English and German: blue = subject, teal = verb, purple = dative receiver, green = accusative object, and maroon = genitive possession.</p>
-        <div className="practice-sentence-list">
-          {practiceSentences.slice(0, visibleSentenceCount).map((sentence) => <ColourSentence key={sentence.id} sentence={sentence} />)}
+        <p>Read the English sentence first and identify each role. Reveal the German and rules only when you are ready to check your answer.</p>
+        <div className="case-colour-legend" aria-label="Sentence colour key">
+          <span className="case-nom">Blue: subject / nominative</span>
+          <span className="case-verb">Teal: verb / action</span>
+          <span className="case-dat">Purple: receiver / dative</span>
+          <span className="case-acc">Green: direct object / accusative</span>
+          <span className="case-gen">Maroon: possession / genitive</span>
         </div>
-        {visibleSentenceCount < practiceSentences.length && (
-          <Button variant="outline-primary" onClick={() => setVisibleSentenceCount((count) => Math.min(count + 10, practiceSentences.length))}>
-            Show 10 more sentences ({visibleSentenceCount} of {practiceSentences.length})
+        <div className="practice-toolbar">
+          <Nav variant="pills" className="complexity-tabs" aria-label="Sentence complexity">
+            <Nav.Item><Nav.Link active={activeComplexity === "simple"} onClick={() => selectComplexity("simple")}>Simple sentences</Nav.Link></Nav.Item>
+            <Nav.Item><Nav.Link active={activeComplexity === "intermediate"} onClick={() => selectComplexity("intermediate")}>Intermediate sentences</Nav.Link></Nav.Item>
+            <Nav.Item><Nav.Link active={activeComplexity === "advanced"} onClick={() => selectComplexity("advanced")}>Advanced sentences</Nav.Link></Nav.Item>
+          </Nav>
+          <Form.Check
+            id="show-all-practice-answers"
+            type="switch"
+            label="Show all German answers and rules"
+            checked={showAllAnswers}
+            onChange={() => setShowAllAnswers((visible) => !visible)}
+          />
+        </div>
+        <div className="practice-sentence-list">
+          {filteredSentences.slice(0, visibleSentenceCount).map((sentence) => <ColourSentence key={sentence.id} sentence={sentence} showAnswer={showAllAnswers} />)}
+        </div>
+        {visibleSentenceCount < filteredSentences.length && (
+          <Button variant="outline-primary" onClick={() => setVisibleSentenceCount((count) => Math.min(count + 10, filteredSentences.length))}>
+            Show 10 more sentences ({visibleSentenceCount} of {filteredSentences.length})
           </Button>
         )}
       </section>

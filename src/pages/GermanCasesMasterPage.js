@@ -3,10 +3,10 @@ import { Accordion, Button, Card, Col, Form, Nav, Row, Table } from "react-boots
 import "./GermanCasesMasterPage.css";
 
 const cases = [
-  { id: "nom", short: "Nom", name: "Nominativ", question: "Wer oder was?", role: "Subject - who acts?", example: "Die Nachbarin kocht heute.", color: "nom" },
-  { id: "acc", short: "Acc", name: "Akkusativ", question: "Wen oder was?", role: "Direct object - what is affected?", example: "Wir besuchen den neuen Markt.", color: "acc" },
-  { id: "dat", short: "Dat", name: "Dativ", question: "Wem?", role: "Indirect object - to or for whom?", example: "Der Arzt erklärt der Patientin den Plan.", color: "dat" },
-  { id: "gen", short: "Gen", name: "Genitiv", question: "Wessen?", role: "Possession - whose?", example: "Die Farbe des Hauses ist warm.", color: "gen" },
+  { id: "nom", short: "Nom", name: "Nominativ (Subject)", question: "Wer oder was?", role: "who acts?", example: "Die Nachbarin kocht heute.", color: "nom" },
+  { id: "acc", short: "Acc", name: "Akkusativ (Direct object)", question: "Wen oder was?", role: "what is affected?", example: "Wir besuchen den neuen Markt.", color: "acc" },
+  { id: "dat", short: "Dat", name: "Dativ (Indirect object)", question: "Wem?", role: "to or for whom?", example: "Der Arzt erklärt der Patientin den Plan.", color: "dat" },
+  { id: "gen", short: "Gen", name: "Genitiv (Possession)", question: "Wessen?", role: "whose?", example: "Die Farbe des Hauses ist warm.", color: "gen" },
 ];
 
 const articleCharts = {

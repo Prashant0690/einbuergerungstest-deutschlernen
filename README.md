@@ -53,9 +53,30 @@
 4. **Open the application:**
    Visit `http://localhost:3000/einbuergerungstest-quiz-app` in your web browser.
 
-## Legal Notice
+   ## Publishing to GitHub Pages
 
-The content and images used in this project are derived from the official test materials of the "Leben in Deutschland" and "Einbürgerungstest," as published by the Federal Office for Migration and Refugees (BAMF). The source materials were downloaded from the BAMF website and adapted for educational purposes within this application.
+   This repository is already configured for GitHub Pages:
+   - `homepage` is set in `package.json`
+   - `gh-pages` is configured with `predeploy` and `deploy` scripts
+
+   ### First-time setup (GitHub)
+   1. Open **Settings → Pages** in this repository.
+   2. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
+   3. Select branch **gh-pages** and folder **/(root)**, then save.
+
+   ### Publish a new version
+   1. Make sure your latest changes are committed to your working branch.
+   2. Run:
+      ```bash
+      npm install
+      npm run deploy
+      ```
+   3. Wait 1-2 minutes, then open:
+      `https://prashant0690.github.io/einbuergerungstest-deutschlernen`
+
+   ## Legal Notice
+
+   The content and images used in this project are derived from the official test materials of the "Leben in Deutschland" and "Einbürgerungstest," as published by the Federal Office for Migration and Refugees (BAMF). The source materials were downloaded from the BAMF website and adapted for educational purposes within this application.
 
 This project is intended solely for educational purposes and personal study. It is not affiliated with or endorsed by BAMF or any other official entity. Please refer to the [BAMF website](https://www.bamf.de/DE/Startseite/startseite_node.html) for official information and resources.
 

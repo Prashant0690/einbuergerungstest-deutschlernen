@@ -1785,5 +1785,265 @@
     "UsageTips": [
       "Use it when comparing two conflicting viewpoints or when expressing pros and cons."
     ]
+  },
+  {
+    "id": 77,
+    "GermanWord": "Halt",
+    "EnglishMeanings": ["Just", "Simply", "That's just how it is"],
+    "Category": "Modal Particle",
+    "ExampleSentences": [
+      {
+        "Sentence": "So ist das halt.",
+        "Translation": "That's just how it is."
+      },
+      {
+        "Sentence": "Dann machen wir das halt morgen.",
+        "Translation": "Then we'll just do it tomorrow."
+      },
+      {
+        "Sentence": "Ich bin halt müde.",
+        "Translation": "I'm just tired."
+      }
+    ],
+    "Notes": [
+      "'Halt' is very common in spoken German and often softens statements."
+    ],
+    "UsageTips": [
+      "Use it in casual speech when you want to sound natural and less absolute."
+    ]
+  },
+  {
+    "id": 78,
+    "GermanWord": "Nämlich",
+    "EnglishMeanings": ["Namely", "Because", "You see"],
+    "Category": "Adverb / Connector",
+    "ExampleSentences": [
+      {
+        "Sentence": "Ich kann heute nicht, ich habe nämlich einen Termin.",
+        "Translation": "I can't today, because I have an appointment."
+      },
+      {
+        "Sentence": "Das ist nämlich gar nicht so einfach.",
+        "Translation": "You see, that's not that easy."
+      },
+      {
+        "Sentence": "Sie ist nämlich schon weg.",
+        "Translation": "She has already left, you know."
+      }
+    ],
+    "Notes": [
+      "'Nämlich' often appears in spoken explanations and gives the reason after the main statement."
+    ],
+    "UsageTips": [
+      "Use it to sound more conversational when adding reasons in dialogue."
+    ]
+  },
+  {
+    "id": 79,
+    "GermanWord": "Überhaupt",
+    "EnglishMeanings": ["At all", "In general", "Anyway"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Hast du überhaupt Zeit?",
+        "Translation": "Do you have time at all?"
+      },
+      {
+        "Sentence": "Warum machst du das überhaupt?",
+        "Translation": "Why are you doing that anyway?"
+      },
+      {
+        "Sentence": "Überhaupt ist das keine gute Idee.",
+        "Translation": "In general, that's not a good idea."
+      }
+    ],
+    "Notes": [
+      "'Überhaupt' is frequent in everyday speech and TV dialogue for emphasis."
+    ],
+    "UsageTips": [
+      "Use it in questions to express surprise or doubt."
+    ]
+  },
+  {
+    "id": 80,
+    "GermanWord": "Jedenfalls",
+    "EnglishMeanings": ["Anyway", "In any case"],
+    "Category": "Adverb",
+    "ExampleSentences": [
+      {
+        "Sentence": "Jedenfalls war es ein interessanter Abend.",
+        "Translation": "Anyway, it was an interesting evening."
+      },
+      {
+        "Sentence": "Wir gehen jedenfalls hin.",
+        "Translation": "We're going in any case."
+      },
+      {
+        "Sentence": "Er hat jedenfalls nichts gesagt.",
+        "Translation": "At least, he didn't say anything."
+      }
+    ],
+    "Notes": [
+      "'Jedenfalls' helps wrap up a point and move the conversation forward."
+    ],
+    "UsageTips": [
+      "Use it in conversations and stories when shifting back to the main point."
+    ]
+  },
+  {
+    "id": 81,
+    "GermanWord": "Na klar",
+    "EnglishMeanings": ["Of course", "Sure", "Absolutely"],
+    "Category": "Phrase / Response",
+    "ExampleSentences": [
+      {
+        "Sentence": "Kannst du mir helfen? – Na klar!",
+        "Translation": "Can you help me? – Of course!"
+      },
+      {
+        "Sentence": "Kommst du mit? – Na klar.",
+        "Translation": "Are you coming along? – Sure."
+      },
+      {
+        "Sentence": "Na klar weiß ich das.",
+        "Translation": "Of course I know that."
+      }
+    ],
+    "Notes": [
+      "A very natural response phrase in spoken German."
+    ],
+    "UsageTips": [
+      "Use it to sound friendly and confident in everyday conversation."
+    ]
+  },
+  {
+    "id": 82,
+    "GermanWord": "Kein Ding",
+    "EnglishMeanings": ["No problem", "No big deal"],
+    "Category": "Phrase",
+    "ExampleSentences": [
+      {
+        "Sentence": "Danke fürs Warten. – Kein Ding.",
+        "Translation": "Thanks for waiting. – No problem."
+      },
+      {
+        "Sentence": "Sorry, ich bin zu spät. – Kein Ding.",
+        "Translation": "Sorry, I'm late. – No big deal."
+      },
+      {
+        "Sentence": "Kannst du das morgen machen? – Kein Ding.",
+        "Translation": "Can you do that tomorrow? – No problem."
+      }
+    ],
+    "Notes": [
+      "Informal phrase often heard in younger and casual speech."
+    ],
+    "UsageTips": [
+      "Use it with friends or colleagues in relaxed settings."
+    ]
+  },
+  {
+    "id": 83,
+    "GermanWord": "Ach komm",
+    "EnglishMeanings": ["Oh come on", "Give me a break"],
+    "Category": "Interjection / Phrase",
+    "ExampleSentences": [
+      {
+        "Sentence": "Ach komm, das glaubst du doch selbst nicht.",
+        "Translation": "Oh come on, you don't believe that yourself."
+      },
+      {
+        "Sentence": "Ach komm, sei nicht so streng.",
+        "Translation": "Come on, don't be so strict."
+      },
+      {
+        "Sentence": "Ach komm, das war nur ein Witz.",
+        "Translation": "Oh come on, that was just a joke."
+      }
+    ],
+    "Notes": [
+      "Common in movies and web series for emotional reactions."
+    ],
+    "UsageTips": [
+      "Use with the right tone; it can sound playful or annoyed depending on context."
+    ]
+  },
+  {
+    "id": 84,
+    "GermanWord": "Passt schon",
+    "EnglishMeanings": ["It's fine", "Works for me", "All good"],
+    "Category": "Phrase",
+    "ExampleSentences": [
+      {
+        "Sentence": "Ist 18 Uhr okay? – Passt schon.",
+        "Translation": "Is 6 PM okay? – Works for me."
+      },
+      {
+        "Sentence": "Entschuldige die Verspätung. – Passt schon.",
+        "Translation": "Sorry for being late. – It's fine."
+      },
+      {
+        "Sentence": "Das passt schon so.",
+        "Translation": "That's fine as it is."
+      }
+    ],
+    "Notes": [
+      "A relaxed, everyday expression to accept something."
+    ],
+    "UsageTips": [
+      "Use it to quickly signal agreement or reassure someone."
+    ]
+  },
+  {
+    "id": 85,
+    "GermanWord": "Genau so",
+    "EnglishMeanings": ["Exactly like that", "Just like that"],
+    "Category": "Phrase",
+    "ExampleSentences": [
+      {
+        "Sentence": "Mach es genau so.",
+        "Translation": "Do it exactly like that."
+      },
+      {
+        "Sentence": "Ja, genau so habe ich es gemeint.",
+        "Translation": "Yes, that's exactly what I meant."
+      },
+      {
+        "Sentence": "Das klingt genau so, wie ich es wollte.",
+        "Translation": "That sounds exactly how I wanted it."
+      }
+    ],
+    "Notes": [
+      "Useful when confirming instructions or agreement."
+    ],
+    "UsageTips": [
+      "Use it in conversations where you want precision and confirmation."
+    ]
+  },
+  {
+    "id": 86,
+    "GermanWord": "Was denn?",
+    "EnglishMeanings": ["What now?", "What is it?", "What then?"],
+    "Category": "Question Phrase",
+    "ExampleSentences": [
+      {
+        "Sentence": "Warum lachst du? – Was denn?",
+        "Translation": "Why are you laughing? – What?"
+      },
+      {
+        "Sentence": "Du schaust so ernst. Was denn los?",
+        "Translation": "You look so serious. What's up?"
+      },
+      {
+        "Sentence": "Was denn? Ich habe doch nichts gemacht.",
+        "Translation": "What? I didn't do anything."
+      }
+    ],
+    "Notes": [
+      "Frequently used in spontaneous spoken reactions."
+    ],
+    "UsageTips": [
+      "Use it with natural intonation to react in conversations."
+    ]
   }
 ]

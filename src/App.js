@@ -33,6 +33,7 @@ import QuizPage from "./pages/QuizPage";
 import LegalNoticeModal from "./components/LegalNoticeModal";
 import EinbuergerungSprachSprintPage from "./pages/EinbuergerungSprachSprintPage";
 import GermanLanguageSprintPage from "./pages/GermanLanguageSprintPage";
+import GermanGrammarPage from "./pages/GermanGrammarPage";
 
 
 function App() {
@@ -89,6 +90,7 @@ function App() {
 
             <Route path="/einbuergerung-sprachsprint" element={<EinbuergerungSprachSprintPage />} />
             <Route path="/deutsch-sprint" element={<GermanLanguageSprintPage />} />
+            <Route path="/german-grammar" element={<GermanGrammarPage />} />
           </Routes>
         </div>
 

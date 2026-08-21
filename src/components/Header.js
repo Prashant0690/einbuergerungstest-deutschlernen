@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 Project Name: einbuergerungstest-deutschlernen
 Folder Name: einbuergerungstest-deutschlernen
 */
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { useQuizContext } from "../context/QuizContext";
 import { statesList } from "../data/content";
@@ -31,7 +31,19 @@ function Header() {
   const navigate = useNavigate(); // Initialize useNavigate
 
   // State to manage the current section
-  const [currentSection, setCurrentSection] = useState("Citizenship Test"); // Default to "Citizenship Test"
+  const [currentSection, setCurrentSection] = useState(
+    location.pathname.startsWith("/german-") || location.pathname === "/deutsch-sprint"
+      ? "German Learning"
+      : "Citizenship Test"
+  );
+
+  useEffect(() => {
+    setCurrentSection(
+      location.pathname.startsWith("/german-") || location.pathname === "/deutsch-sprint"
+        ? "German Learning"
+        : "Citizenship Test"
+    );
+  }, [location.pathname]);
 
   // Function to handle state change (Bundesland selection)
   const handleStateChange = (e) => {
@@ -203,6 +215,16 @@ function Header() {
               exact
             >
               deutschlearnen SprachSprint
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink
+              className={`nav-link ${
+                location.pathname === "/german-grammar" ? "active-link" : ""
+              }`}
+              to="/german-grammar"
+            >
+              Grammar Quick Reference
             </NavLink>
           </li>
         </ul>

@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/einbuergerungstest-deutschlernen/static/css/main.80b9aee9.css",
-    "main.js": "/einbuergerungstest-deutschlernen/static/js/main.4b006319.js",
+    "main.css": "/einbuergerungstest-deutschlernen/static/css/main.ae0f7382.css",
+    "main.js": "/einbuergerungstest-deutschlernen/static/js/main.b997b447.js",
     "index.html": "/einbuergerungstest-deutschlernen/index.html",
-    "main.80b9aee9.css.map": "/einbuergerungstest-deutschlernen/static/css/main.80b9aee9.css.map",
-    "main.4b006319.js.map": "/einbuergerungstest-deutschlernen/static/js/main.4b006319.js.map"
+    "main.ae0f7382.css.map": "/einbuergerungstest-deutschlernen/static/css/main.ae0f7382.css.map",
+    "main.b997b447.js.map": "/einbuergerungstest-deutschlernen/static/js/main.b997b447.js.map"
   },
   "entrypoints": [
-    "static/css/main.80b9aee9.css",
-    "static/js/main.4b006319.js"
+    "static/css/main.ae0f7382.css",
+    "static/js/main.b997b447.js"
   ]
 }

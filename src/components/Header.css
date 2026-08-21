@@ -1,5 +1,69 @@
-.nav-link.active-link {
-  color: #007bff; /* Bootstrap's primary color */
-  font-weight: bold;
-  border-bottom: 2px solid #007bff;
+.top-navbar {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.app-brand {
+  letter-spacing: 0.2px;
+}
+
+.state-select {
+  border-radius: 10px;
+}
+
+.section-nav {
+  border-bottom: 1px solid #e8ecf3;
+}
+
+.section-nav .nav-link {
+  color: #243447;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.section-nav .nav-link:hover {
+  color: #0b5ed7;
+}
+
+.section-nav .nav-link.active-link {
+  color: #0b5ed7;
+  font-weight: 700;
+  border-bottom-color: #0b5ed7;
+}
+
+.disabled-state-link {
+  color: #9aa5b1 !important;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.home-hero {
+  background: linear-gradient(135deg, #f5f8ff 0%, #eef6ff 100%);
+  border: 1px solid #dce9ff;
+  border-radius: 18px;
+  padding: 2.5rem 1.5rem;
+}
+
+.exam-highlight-card {
+  border: 1px solid #e6ebf2;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.05);
+}
+
+.topic-card {
+  border: 1px solid #e6ebf2;
+  border-radius: 14px;
+  height: 100%;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.05);
+}
+
+.quick-link-card {
+  border: 1px solid #e6ebf2;
+  border-radius: 14px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.quick-link-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.08);
 }

@@ -26,7 +26,7 @@
 - **StateQuestionsPage**: Similar to the general questions page but focused on state-specific content. This section includes questions relevant to the selected Bundesland.
 
 ### Quiz Mode
-- **QuizPage**: Take a mock test with 34 questions, comprising 30 general questions and 4 state-specific questions. This quiz simulates the actual exam experience.
+- **QuizPage**: Take a mock test with 33 questions, comprising 30 general questions and 3 state-specific questions, aligned with the official exam structure.
 
 ## Running the Project Locally
 
@@ -51,7 +51,7 @@
    ```
 
 4. **Open the application:**
-   Visit `http://localhost:3000/einbuergerungstest-quiz-app` in your web browser.
+   Visit `http://localhost:3000/einbuergerungstest-deutschlernen` in your web browser.
 
    ## Publishing to GitHub Pages
 

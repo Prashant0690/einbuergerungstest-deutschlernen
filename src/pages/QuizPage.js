@@ -23,12 +23,13 @@ import { useQuizContext } from "../context/QuizContext";
 import { loadGeneralQuestions, loadStateQuestions } from "../data/content";
 import {
   processAnswer,
-  saveAnswersToSession,
-  loadAnswersFromSession,
   updateAnswerArray,
   getImageUrl,
 } from "../utils/quizUtils";
-import AnsweredQuestionComponent from "../components/AnsweredQuestionComponent";
+
+const GENERAL_QUESTIONS_COUNT = 30;
+const STATE_QUESTIONS_COUNT = 3;
+const TOTAL_QUESTIONS = GENERAL_QUESTIONS_COUNT + STATE_QUESTIONS_COUNT;
 
 const shuffleArray = (array) => array.sort(() => Math.random() - 0.5);
 
@@ -49,7 +50,7 @@ const QuestionSection = ({
         className="mb-5 p-4 border rounded shadow-sm question-container"
         style={{ backgroundColor: '#f8f9fa' }}
       >
-        <h4 className="mb-3">Question {index + 1} of 34</h4>
+        <h4 className="mb-3">Question {index + 1} of {TOTAL_QUESTIONS}</h4>
 
         <div className="row">
           <div className="col-md-5">
@@ -147,7 +148,7 @@ const ResultSection = ({
             style={{ backgroundColor: '#f8f9fa' }}
           >
             <h4 className="mb-3">
-              Question {index + 1} of 34 -{" "}
+              Question {index + 1} of {TOTAL_QUESTIONS} -{" "}
               <span
                 className={`badge ${
                   answerStatus === "Correct"
@@ -243,7 +244,7 @@ function QuizPage() {
   const [refreshKey, setRefreshKey] = useState(0);
   const [showScore, setShowScore] = useState(false);
 
-  const getStorageKey = (type) => `quiz_${bundesland}_34${type}`;
+  const getStorageKey = (type) => `quiz_${bundesland}_${TOTAL_QUESTIONS}${type}`;
   const getShowScoreKey = () => `quizShowScore_${bundesland}`;
 
   const loadSavedData = (type) => {
@@ -267,8 +268,8 @@ function QuizPage() {
   };
 
   const loadNewQuestions = () => {
-    const generalQuestions = shuffleArray(loadGeneralQuestions()).slice(0, 30);
-    const stateQuestions = shuffleArray(loadStateQuestions()[bundesland] || []).slice(0, 4);
+    const generalQuestions = shuffleArray(loadGeneralQuestions()).slice(0, GENERAL_QUESTIONS_COUNT);
+    const stateQuestions = shuffleArray(loadStateQuestions()[bundesland] || []).slice(0, STATE_QUESTIONS_COUNT);
     const allQuestions = [...generalQuestions, ...stateQuestions];
 
     setQuestions(allQuestions);
@@ -287,7 +288,7 @@ function QuizPage() {
     const savedQuestions = loadSavedData("questions");
     const savedAnswers = loadSavedData("answers");
 
-    if (savedQuestions && savedQuestions.length === 34) {
+    if (savedQuestions && savedQuestions.length === TOTAL_QUESTIONS) {
       setQuestions(savedQuestions);
       if (savedAnswers) {
         setSelectedAnswers(savedAnswers);
@@ -340,7 +341,7 @@ function QuizPage() {
       }
     });
 
-    const unattempted = 34 - (correct + incorrect);
+    const unattempted = TOTAL_QUESTIONS - (correct + incorrect);
 
     return { correct, incorrect, unattempted };
   };

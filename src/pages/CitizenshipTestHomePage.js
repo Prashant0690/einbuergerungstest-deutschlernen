@@ -23,160 +23,135 @@ import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 
 function CitizenshipTestHomePage() {
+  const topicCards = [
+    {
+      title: "History",
+      description:
+        "Learn about major events in German history and their impact on society and democracy.",
+    },
+    {
+      title: "Politics",
+      description:
+        "Understand federal institutions, constitutional principles, elections, and civic participation.",
+    },
+    {
+      title: "Society and Culture",
+      description:
+        "Explore values, diversity, social life, and integration topics relevant for daily life in Germany.",
+    },
+    {
+      title: "Law and Rights",
+      description:
+        "Study core rights and duties, legal protections, and important rules for residents and citizens.",
+    },
+    {
+      title: "Geography",
+      description:
+        "Review German states, major cities, landscapes, and regional structure across the country.",
+    },
+    {
+      title: "Economy",
+      description:
+        "Build understanding of Germany's social market economy, jobs, and role in the EU.",
+    },
+    {
+      title: "Symbols and Identity",
+      description:
+        "Learn national symbols, democratic identity, historical memory, and civic traditions.",
+    },
+  ];
+
   return (
     <div className="container mt-4">
-      {/* Main Title */}
-      <h1 className="mb-4 text-center display-4">
-        Welcome to the Einbürgerungstest Quiz App
-      </h1>
-      <p className="lead text-center">
-        Test your knowledge about life in Germany! Prepare for the German
-        citizenship test (Einbürgerungstest) with this comprehensive and
-        interactive quiz app. Ideal for anyone looking to learn about German
-        history, politics, culture, and more.
-      </p>
-
-      {/* Introduction Section */}
-      <div className="text-center mt-5">
-        <h2 className="mb-4">About the Einbürgerungstest</h2>
-        <p>
-          The Einbürgerungstest (German naturalization test) is a crucial step
-          for those seeking German citizenship. It consists of 300 questions
-          covering various topics, including history, politics, society, law,
-          and geography. Preparing for this test will help you gain a deeper
-          understanding of the rights, responsibilities, and culture associated
-          with living in Germany.
+      <section className="home-hero text-center">
+        <p className="text-uppercase fw-semibold text-primary mb-2">Einbürgerungstest Preparation</p>
+        <h1 className="display-5 fw-bold mb-3">Learn smarter for the German citizenship test</h1>
+        <p className="lead mb-0">
+          Practice with official-style questions, state-specific content, and focused learning resources in one place.
         </p>
-      </div>
+      </section>
 
-      {/* List of main sections */}
+      <section className="mt-5">
+        <h2 className="text-center mb-4">Official Test Format</h2>
+        <div className="row g-3">
+          <div className="col-md-4">
+            <div className="exam-highlight-card p-4 h-100">
+              <h3 className="h5">Question pool</h3>
+              <p className="mb-0">
+                300 general questions plus 10 state-specific questions for each Bundesland.
+              </p>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="exam-highlight-card p-4 h-100">
+              <h3 className="h5">Exam composition</h3>
+              <p className="mb-0">
+                33 total questions: 30 general and 3 state-specific.
+              </p>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="exam-highlight-card p-4 h-100">
+              <h3 className="h5">Passing threshold</h3>
+              <p className="mb-0">
+                You need at least 17 correct answers to pass.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <div className="mt-5">
         <h2 className="text-center mb-4">Explore Key Topics</h2>
-        <div className="row">
-          <div className="col-md-6">
-            <div className="card mb-3">
-              <div className="card-body">
-                <h4 className="card-title">1. History</h4>
-                <p className="card-text">
-                  Learn about Germany's rich history, including its role in
-                  European history, major events, and its place in the European
-                  Union.
-                </p>
+        <div className="row g-3">
+          {topicCards.map((topic, index) => (
+            <div className="col-md-6" key={topic.title}>
+              <div className="topic-card p-4">
+                <h4 className="h5">{index + 1}. {topic.title}</h4>
+                <p className="mb-0">{topic.description}</p>
               </div>
             </div>
-          </div>
+          ))}
+        </div>
+      </div>
 
+      <div className="mt-5">
+        <h2 className="text-center mb-4">Start Practicing</h2>
+        <div className="row g-3">
           <div className="col-md-6">
-            <div className="card mb-3">
-              <div className="card-body">
-                <h4 className="card-title">2. Politics</h4>
-                <p className="card-text">
-                  Understand the structure and functions of the German
-                  government, political parties, and constitutional law.
-                </p>
-              </div>
+            <div className="quick-link-card p-4 h-100">
+              <h3 className="h5"><Link to="/general-questions">General Questions</Link></h3>
+              <p className="mb-0">Practice all 300 general questions from the official catalog.</p>
             </div>
           </div>
-
           <div className="col-md-6">
-            <div className="card mb-3">
-              <div className="card-body">
-                <h4 className="card-title">3. Society and Culture</h4>
-                <p className="card-text">
-                  Dive into the social norms, values, cultural practices, and
-                  demographics of Germany.
-                </p>
-              </div>
+            <div className="quick-link-card p-4 h-100">
+              <h3 className="h5"><Link to="/state-questions">State Questions</Link></h3>
+              <p className="mb-0">Train with the 10 state questions for your selected Bundesland.</p>
             </div>
           </div>
-
           <div className="col-md-6">
-            <div className="card mb-3">
-              <div className="card-body">
-                <h4 className="card-title">4. Law and Rights</h4>
-                <p className="card-text">
-                  Focus on the fundamental rights of citizens, the judiciary
-                  system, and labor laws in Germany.
-                </p>
-              </div>
+            <div className="quick-link-card p-4 h-100">
+              <h3 className="h5"><Link to="/quiz-selection">Exam Simulation</Link></h3>
+              <p className="mb-0">Take a 33-question mock test (30 general + 3 state questions).</p>
             </div>
           </div>
-
           <div className="col-md-6">
-            <div className="card mb-3">
-              <div className="card-body">
-                <h4 className="card-title">5. Geography</h4>
-                <p className="card-text">
-                  Explore Germany's federal states, major rivers, mountains, and
-                  the country's place in European geography.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-6">
-            <div className="card mb-3">
-              <div className="card-body">
-                <h4 className="card-title">6. Economy</h4>
-                <p className="card-text">
-                  Gain insights into Germany's economic system, key industries,
-                  and the role of the European Union in trade.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-6 mx-auto">
-            <div className="card mb-3">
-              <div className="card-body">
-                <h4 className="card-title">7. Symbols and Identity</h4>
-                <p className="card-text">
-                  Learn about Germany's national symbols, including the flag and
-                  anthem, as well as holidays and cultural celebrations.
-                </p>
-              </div>
+            <div className="quick-link-card p-4 h-100">
+              <h3 className="h5"><Link to="/VocabularyPage">Essential Vocabulary</Link></h3>
+              <p className="mb-0">Strengthen your German vocabulary for the test and everyday life.</p>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Links to Other Pages */}
-      <div className="mt-5">
-        <h2 className="text-center mb-4">Useful Links</h2>
-        <ul className="list-group">
-          <li className="list-group-item">
-            <Link to="/general-questions">General Questions</Link> - Practice
-            the 300 general questions included in the Einbürgerungstest.
-          </li>
-          <li className="list-group-item">
-            <Link to="/state-questions">State-Specific Questions</Link> - Focus
-            on questions specific to your Bundesland.
-          </li>
-          <li className="list-group-item">
-            <Link to="/quiz-selection">Quiz</Link> - Take a full 34-question
-            quiz, including 30 general and 4 state-specific questions.
-          </li>
-          <li className="list-group-item">
-            <Link to="/VocabularyPage">Vocabulary</Link> - Learn important words
-            and phrases that are essential for understanding the
-            Einbürgerungstest and daily life in Germany.
-          </li>
-          <li className="list-group-item">
-            <Link to="/learningPage">Learning</Link> - Delve deeper into each
-            section of the test, with detailed explanations and resources.
-          </li>
-        </ul>
-      </div>
-
-      {/* Footer Note */}
       <div className="mt-5 text-center">
         <p className="text-muted">
-          This app is designed to help individuals prepare for the
-          Einbürgerungstest. It is for educational purposes only and should not
-          be relied upon for legal advice or official guidance. In the future,
-          this app may be expanded to include useful notes and resources for
-          learning German.
+          Educational tool only. For official and legally binding information, always verify with BAMF resources.
         </p>
+        <Link className="btn btn-outline-primary" to="/learningPage">
+          Learn key topics <FaArrowRight className="ms-2" />
+        </Link>
       </div>
     </div>
   );

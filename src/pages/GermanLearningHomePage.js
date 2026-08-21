@@ -1,13 +1,53 @@
 // src/pages/GermanLearningHomePage.js
 import React from "react";
+import { Link } from "react-router-dom";
 
 function GermanLearningHomePage() {
+  const learningCards = [
+    {
+      title: "Deutschlernen SprachSprint",
+      path: "/deutsch-sprint",
+      description: "Quick conversational practice with practical examples for daily life in Germany.",
+    },
+    {
+      title: "Grammar Quick Reference",
+      path: "/german-grammar",
+      description: "Refresh sentence structure, tenses, and common grammar rules with concise explanations.",
+    },
+    {
+      title: "German Cases Master",
+      path: "/german-cases",
+      description: "Improve confidence with Nominativ, Akkusativ, Dativ, and Genitiv in context.",
+    },
+    {
+      title: "Einbürgerung Vocabulary",
+      path: "/VocabularyPage",
+      description: "Build key vocabulary linked to Einbürgerungstest topics and everyday communication.",
+    },
+  ];
+
   return (
     <div className="container mt-4">
-      <h1 className="mb-4 text-center">German Learning Home</h1>
-      <p className="lead text-center">
-        This section is under construction. Work in Progress.
-      </p>
+      <section className="home-hero text-center">
+        <p className="text-uppercase fw-semibold text-primary mb-2">German Learning</p>
+        <h1 className="display-6 fw-bold mb-3">Build practical German for everyday life</h1>
+        <p className="lead mb-0">
+          Strengthen vocabulary, grammar, and spoken confidence with focused, interactive learning paths.
+        </p>
+      </section>
+
+      <div className="row g-3 mt-1">
+        {learningCards.map((card) => (
+          <div className="col-md-6" key={card.path}>
+            <div className="quick-link-card p-4 h-100">
+              <h2 className="h5">
+                <Link to={card.path}>{card.title}</Link>
+              </h2>
+              <p className="mb-0">{card.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

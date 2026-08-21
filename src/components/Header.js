@@ -18,90 +18,63 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 Project Name: einbuergerungstest-deutschlernen
 Folder Name: einbuergerungstest-deutschlernen
 */
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { useQuizContext } from "../context/QuizContext";
 import { statesList } from "../data/content";
-import { Navbar, Form, FormControl, Container, Button } from "react-bootstrap";
+import { Navbar, Form, Container, Button } from "react-bootstrap";
 import "./Header.css";
 
 function Header() {
   const { bundesland, setBundesland } = useQuizContext();
-  const location = useLocation(); // Get the current location
-  const navigate = useNavigate(); // Initialize useNavigate
+  const location = useLocation();
+  const navigate = useNavigate();
 
-  // State to manage the current section
-  const [currentSection, setCurrentSection] = useState(
-    location.pathname.startsWith("/german-") || location.pathname === "/deutsch-sprint"
-      ? "German Learning"
-      : "Citizenship Test"
-  );
-
-  useEffect(() => {
-    setCurrentSection(
-      location.pathname.startsWith("/german-") || location.pathname === "/deutsch-sprint"
-        ? "German Learning"
-        : "Citizenship Test"
-    );
-  }, [location.pathname]);
-
-  // Function to handle state change (Bundesland selection)
   const handleStateChange = (e) => {
     const state = e.target.value;
     setBundesland(state);
   };
 
-  // Function to handle "Citizenship Test" button click
   const handleEinbuergerungstestClick = () => {
-    setCurrentSection("Citizenship Test");
-    console.log("Citizenship Test button clicked");
-    navigate("/"); // Redirect to Citizenship Test HomePage
+    navigate("/");
   };
 
-  // Function to handle "German Learning" button click
   const handleDeutschlernenClick = () => {
-    setCurrentSection("German Learning");
-    console.log("German Learning button clicked");
-    navigate("/german-learning"); // Redirect to German Learning HomePage
+    navigate("/german-learning");
   };
 
-  // Helper methods to check the current section
-  const isCitizenshipTest = () => currentSection === "Citizenship Test";
-  const isGermanLearning = () => currentSection === "German Learning";
+  const isGermanLearningSection =
+    location.pathname.startsWith("/german-") || location.pathname === "/deutsch-sprint";
 
   return (
     <div>
-      <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar bg="light" variant="light" expand="lg" className="top-navbar">
         <Container>
-          {/* App Name */}
-          <Navbar.Brand as={NavLink} to="/">
+          <Navbar.Brand as={NavLink} to="/" className="app-brand">
             <strong>Einbürgerungstest und Deutschlernen</strong>
           </Navbar.Brand>
 
-          {/* Toggler for small screens */}
           <Navbar.Toggle aria-controls="navbarNav" />
           <Navbar.Collapse id="navbarNav" className="justify-content-center">
-            {/* Buttons for Citizenship Test and German Learning */}
             <Button
-              variant={isCitizenshipTest() ? "light" : "outline-light"} // Highlight if selected
+              variant={!isGermanLearningSection ? "warning" : "outline-light"}
               className="me-2"
               onClick={handleEinbuergerungstestClick}
             >
               Citizenship Test
             </Button>
             <Button
-              variant={isGermanLearning() ? "light" : "outline-light"} // Highlight if selected
+              variant={isGermanLearningSection ? "warning" : "outline-light"}
               onClick={handleDeutschlernenClick}
             >
               German Learning
             </Button>
-            {/* State Selection Dropdown */}
+
             <Form className="d-flex ms-auto">
-              <FormControl
-                as="select"
+              <Form.Select
                 value={bundesland}
                 onChange={handleStateChange}
-                className="form-select"
+                className="form-select state-select"
                 style={{ maxWidth: "200px" }}
               >
                 <option value="">Select a state...</option>
@@ -110,22 +83,20 @@ function Header() {
                     {state}
                   </option>
                 ))}
-              </FormControl>
+              </Form.Select>
             </Form>
           </Navbar.Collapse>
         </Container>
       </Navbar>
 
-      {/* Additional Navigation Links based on the current section */}
-      {isCitizenshipTest() && (
-        <ul className="nav justify-content-center bg-light py-3">
+      {!isGermanLearningSection && (
+        <ul className="nav justify-content-center bg-light py-3 section-nav">
           <li className="nav-item">
             <NavLink
               className={`nav-link ${
                 location.pathname === "/" ? "active-link" : ""
               }`}
               to="/"
-              exact
             >
               Home
             </NavLink>
@@ -144,9 +115,14 @@ function Header() {
             <NavLink
               className={`nav-link ${
                 location.pathname === "/state-questions" ? "active-link" : ""
-              }`}
-              to="/state-questions"
-              disabled={!bundesland}
+              } ${!bundesland ? "disabled-state-link" : ""}`}
+              to={bundesland ? "/state-questions" : "#"}
+              aria-disabled={!bundesland}
+              onClick={(event) => {
+                if (!bundesland) {
+                  event.preventDefault();
+                }
+              }}
             >
               State Questions
             </NavLink>
@@ -193,15 +169,14 @@ function Header() {
           </li>
         </ul>
       )}
-      {isGermanLearning() && (
-        <ul className="nav justify-content-center bg-light py-3">
+      {isGermanLearningSection && (
+        <ul className="nav justify-content-center bg-light py-3 section-nav">
           <li className="nav-item">
             <NavLink
               className={`nav-link ${
-                location.pathname === "/" ? "active-link" : ""
+                location.pathname === "/german-learning" ? "active-link" : ""
               }`}
               to="/german-learning"
-              exact
             >
               Home
             </NavLink>
@@ -212,9 +187,8 @@ function Header() {
                 location.pathname === "/deutsch-sprint" ? "active-link" : ""
               }`}
               to="/deutsch-sprint"
-              exact
             >
-              deutschlearnen SprachSprint
+              Deutschlernen SprachSprint
             </NavLink>
           </li>
           <li className="nav-item">

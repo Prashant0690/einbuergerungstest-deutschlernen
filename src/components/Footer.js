@@ -19,79 +19,117 @@ Project Name: einbuergerungstest-deutschlernen
 Folder Name: einbuergerungstest-deutschlernen
 */
 // Footer.js
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import "./Footer.css";
 
 function Footer({ language, toggleLanguage, onShowLegalNotice }) {
-  const currentYear = new Date().getFullYear(); // Get the current year
+  const currentYear = new Date().getFullYear();
+  const [expanded, setExpanded] = useState(false);
 
   return (
-    <footer className="bg-light py-3 mt-4">
+    <footer className="app-footer mt-5">
       <div className="container">
-        <div className="row">
-          {/* Project Information */}
-          <div className="col-md-6 d-flex flex-column">
-            <p className="mb-0">
+        <div className="footer-compact-row">
+          <div className="footer-compact-text">
+            <strong>Einbürgerungstest und Deutschlernen</strong>
+            <span className="footer-dot-separator">•</span>
+            <span className="footer-muted">
               {language === "en"
-                ? "This is a personal project created to help individuals study for the Einbürgerungstest. This site is for informational purposes only and cannot be used for legal purposes."
-                : "Dies ist ein persönliches Projekt, das erstellt wurde, um Einzelpersonen beim Studium für den Einbürgerungstest zu helfen. Diese Website dient nur zu Informationszwecken und kann nicht für rechtliche Zwecke verwendet werden."}
-            </p>
-            <small className="text-muted">
-              {language === "en"
-                ? `Content and images are based on materials provided by BAMF.`
-                : `Inhalte und Bilder basieren auf Materialien, die von BAMF bereitgestellt wurden.`}
-            </small>
+                ? "Educational purpose only. Verify official details with BAMF."
+                : "Nur zu Lernzwecken. Offizielle Informationen mit BAMF abgleichen."}
+            </span>
+            <span className="footer-dot-separator">•</span>
+            <small className="footer-copyright">© {currentYear} Prashant Tiwari</small>
           </div>
 
-          {/* Notice and Language Selection */}
-          <div className="col-md-6 d-flex justify-content-end align-items-center">
-            <button className="btn btn-link" onClick={onShowLegalNotice}>
-              {language === "en" ? "Notice" : "Hinweis"}
+          <div className="footer-controls">
+            <button
+              className="btn btn-outline-light btn-sm"
+              onClick={() => setExpanded((prev) => !prev)}
+              aria-expanded={expanded}
+            >
+              {expanded
+                ? language === "en"
+                  ? "Less"
+                  : "Weniger"
+                : language === "en"
+                ? "More info"
+                : "Mehr Infos"}
+            </button>
+            <button className="btn btn-outline-light btn-sm" onClick={onShowLegalNotice}>
+              {language === "en" ? "Legal Notice" : "Rechtlicher Hinweis"}
             </button>
             <select
-              className="form-select form-select-sm ms-3"
+              className="form-select form-select-sm footer-language-select"
               value={language}
               onChange={toggleLanguage}
-              style={{ width: "150px" }}
+              aria-label={language === "en" ? "Language selector" : "Sprachauswahl"}
             >
               <option value="de">Deutsch</option>
               <option value="en">English</option>
             </select>
-          </div>
-        </div>
-
-        {/* Social Links and Date */}
-        <div className="row mt-3">
-          <div className="col-md-12 d-flex justify-content-between align-items-center">
-            <div>
-              <small className="text-muted">
-                {language === "en"
-                  ? `© ${currentYear} Prashant Tiwari`
-                  : `© ${currentYear} Prashant Tiwari`}
-              </small>
-            </div>
-            <div>
+            <div className="footer-social">
               <a
                 href="https://github.com/Prashant0690/einbuergerungstest-deutschlernen"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="me-3 text-dark"
+                className="footer-social-link"
                 aria-label="GitHub"
               >
-                <FaGithub size={24} />
+                <FaGithub size={18} />
               </a>
               <a
                 href="https://www.linkedin.com/in/prashanttiwari-in/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-dark"
+                className="footer-social-link"
                 aria-label="LinkedIn"
               >
-                <FaLinkedin size={24} />
+                <FaLinkedin size={18} />
               </a>
             </div>
           </div>
         </div>
+
+        {expanded && (
+          <div className="footer-expanded mt-3">
+            <p className="footer-copy mb-2">
+              {language === "en"
+                ? "Practice faster using these direct sections:"
+                : "Lerne schneller mit diesen direkten Bereichen:"}
+            </p>
+            <div className="footer-links">
+              <Link to="/general-questions" className="footer-link-pill">
+                {language === "en" ? "General Questions" : "Allgemeine Fragen"}
+              </Link>
+              <Link to="/state-questions" className="footer-link-pill">
+                {language === "en" ? "State Questions" : "Bundesland Fragen"}
+              </Link>
+              <Link to="/quiz-selection" className="footer-link-pill">
+                {language === "en" ? "Mock Exam" : "Probeprüfung"}
+              </Link>
+              <Link to="/learningPage" className="footer-link-pill">
+                {language === "en" ? "Key Topics" : "Wichtige Themen"}
+              </Link>
+              <a
+                href="https://www.bamf.de/DE/Startseite/startseite_node.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-link-pill"
+              >
+                BAMF
+              </a>
+            </div>
+            <small className="footer-muted d-block mt-2">
+              {language === "en"
+                ? "Content and images are based on materials provided by BAMF."
+                : "Inhalte und Bilder basieren auf Materialien von BAMF."}
+            </small>
+          </div>
+        )}
+
       </div>
     </footer>
   );

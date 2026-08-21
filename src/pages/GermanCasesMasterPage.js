@@ -112,29 +112,29 @@ const adjectiveCharts = [
 ];
 
 const sentenceSubjects = [
-  ["The new teacher", "Der neue Lehrer", "explains", "erklärt"],
-  ["The friendly doctor", "Die freundliche Ärztin", "shows", "zeigt"],
-  ["The young architect", "Der junge Architekt", "sends", "schickt"],
-  ["The experienced chef", "Der erfahrene Koch", "brings", "bringt"],
-  ["The helpful neighbor", "Der hilfsbereite Nachbar", "gives", "gibt"],
-  ["The local librarian", "Die örtliche Bibliothekarin", "lends", "leiht"],
-  ["The careful mechanic", "Der sorgfältige Mechaniker", "writes", "schreibt"],
-  ["The kind pharmacist", "Die nette Apothekerin", "offers", "bietet"],
-  ["The new colleague", "Der neue Kollege", "delivers", "liefert"],
-  ["The patient guide", "Die geduldige Führerin", "describes", "beschreibt"],
+  ["The [new] teacher", "Der [neue] Lehrer", "explains", "erklärt"],
+  ["The [friendly] doctor", "Die [freundliche] Ärztin", "shows", "zeigt"],
+  ["The [young] architect", "Der [junge] Architekt", "sends", "schickt"],
+  ["The [experienced] chef", "Der [erfahrene] Koch", "brings", "bringt"],
+  ["The [helpful] neighbor", "Der [hilfsbereite] Nachbar", "gives", "gibt"],
+  ["The [local] librarian", "Die [örtliche] Bibliothekarin", "lends", "leiht"],
+  ["The [careful] mechanic", "Der [sorgfältige] Mechaniker", "writes", "schreibt"],
+  ["The [kind] pharmacist", "Die [nette] Apothekerin", "offers", "bietet"],
+  ["The [new] colleague", "Der [neue] Kollege", "delivers", "liefert"],
+  ["The [patient] guide", "Die [geduldige] Führerin", "describes", "beschreibt"],
 ];
 
 const sentenceObjects = [
-  ["the important map", "den wichtigen Plan"],
-  ["the useful brochure", "die nützliche Broschüre"],
-  ["the old book", "das alte Buch"],
-  ["the detailed answer", "die ausführliche Antwort"],
-  ["the fresh lunch", "das frische Mittagessen"],
-  ["the necessary form", "das notwendige Formular"],
-  ["the clear message", "die klare Nachricht"],
-  ["the small package", "das kleine Paket"],
-  ["the current schedule", "den aktuellen Terminplan"],
-  ["the practical tip", "den praktischen Tipp"],
+  ["the [important] map", "den [wichtigen] Plan"],
+  ["the [useful] brochure", "die [nützliche] Broschüre"],
+  ["the [old] book", "das [alte] Buch"],
+  ["the [detailed] answer", "die [ausführliche] Antwort"],
+  ["the [fresh] lunch", "das [frische] Mittagessen"],
+  ["the [necessary] form", "das [notwendige] Formular"],
+  ["the [clear] message", "die [klare] Nachricht"],
+  ["the [small] package", "das [kleine] Paket"],
+  ["the [current] schedule", "den [aktuellen] Terminplan"],
+  ["the [practical] tip", "den [praktischen] Tipp"],
 ];
 
 const sentenceRecipients = [
@@ -221,22 +221,34 @@ function ColourSentence({ sentence, showAnswer }) {
   return (
     <Card className="practice-sentence">
       <Card.Body>
-        <p className="practice-language"><strong>English (E)</strong><br />{sentence.english.map((part, index) => <span className={`sentence-token ${colours[index]}`} key={`en-${index}`}>{part}</span>)}</p>
+        <p className="practice-language">{renderSentenceTokens(sentence.english, colours, "en")}</p>
         {showAnswer ? (
           <div className="practice-answer">
-            <p className="practice-language"><strong>German (D)</strong><br />{sentence.german.map((part, index) => <span className={`sentence-token ${colours[index]}`} key={`de-${index}`}>{part}</span>)}</p>
+            <p className="practice-language">{renderSentenceTokens(sentence.german, colours, "de")}</p>
             <p className="mb-0"><strong>Rules applied:</strong> {sentence.rules}</p>
           </div>
         ) : (
           <details className="practice-reveal">
             <summary>Show German answer and rules</summary>
-            <p className="practice-language mt-3"><strong>German (D)</strong><br />{sentence.german.map((part, index) => <span className={`sentence-token ${colours[index]}`} key={`de-${index}`}>{part}</span>)}</p>
+            <p className="practice-language mt-3">{renderSentenceTokens(sentence.german, colours, "de")}</p>
             <p className="mb-0"><strong>Rules applied:</strong> {sentence.rules}</p>
           </details>
         )}
       </Card.Body>
     </Card>
   );
+}
+
+function renderSentenceTokens(parts, colours, language) {
+  return parts.map((part, index) => (
+    <span className={`sentence-token ${colours[index]}`} key={`${language}-${index}`}>
+      {part.split(/(\[[^\]]+\])/).map((segment, segmentIndex) =>
+        segment.startsWith("[") && segment.endsWith("]")
+          ? <span className="sentence-adjective" key={`${language}-${index}-${segmentIndex}`}>{segment.slice(1, -1)}</span>
+          : segment
+      )}
+    </span>
+  ));
 }
 
 function GermanCasesMasterPage() {
@@ -407,6 +419,7 @@ function GermanCasesMasterPage() {
           <span className="case-dat">Purple: receiver / dative</span>
           <span className="case-acc">Green: direct object / accusative</span>
           <span className="case-gen">Maroon: possession / genitive</span>
+          <span className="case-adjective">Gold: adjective / ending</span>
         </div>
         <div className="practice-toolbar">
           <Nav variant="pills" className="complexity-tabs" aria-label="Sentence complexity">

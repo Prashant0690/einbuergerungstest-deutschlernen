@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 function GermanLearningHomePage() {
   const learningCards = [
     {
-      title: "Deutschlernen SprachSprint",
-      path: "/deutsch-sprint",
-      description: "Quick conversational practice with practical examples for daily life in Germany.",
+      title: "Conversational German Flashcard Sprint",
+      path: "/german-flashcard-sprint",
+      description: "Master 98 high-frequency conversation words with random flashcards and timed auto-reveal mode.",
     },
     {
       title: "Grammar Quick Reference",

@@ -90,6 +90,7 @@ function App() {
             />
 
             <Route path="/einbuergerung-sprachsprint" element={<EinbuergerungSprachSprintPage />} />
+            <Route path="/german-flashcard-sprint" element={<GermanLanguageSprintPage />} />
             <Route path="/deutsch-sprint" element={<GermanLanguageSprintPage />} />
             <Route path="/german-grammar" element={<GermanGrammarPage />} />
             <Route path="/german-cases" element={<GermanCasesMasterPage />} />

@@ -184,11 +184,13 @@ function Header() {
           <li className="nav-item">
             <NavLink
               className={`nav-link ${
-                location.pathname === "/deutsch-sprint" ? "active-link" : ""
+              location.pathname === "/german-flashcard-sprint" || location.pathname === "/deutsch-sprint"
+                ? "active-link"
+                : ""
               }`}
-              to="/deutsch-sprint"
+            to="/german-flashcard-sprint"
             >
-              Deutschlernen SprachSprint
+              Conversational Flashcard Sprint
             </NavLink>
           </li>
           <li className="nav-item">

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Accordion, Button, Card, Col, Form, Nav, Row, Table } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./GermanCasesMasterPage.css";
 
 const cases = [
@@ -278,6 +279,9 @@ function GermanCasesMasterPage() {
         <p className="cases-eyebrow">GERMAN CASES MASTER REFERENCE</p>
         <h1>See the role. Choose the case.</h1>
         <p className="lead mb-0">A colour-coded guide to the German cases, their articles, endings, and triggers.</p>
+        <Button as={Link} to="/german-cases-practice" variant="outline-primary" className="mt-3">
+          Open Cases Practice 400
+        </Button>
       </header>
 
       <Nav className="cases-jump-nav" aria-label="Cases page sections">

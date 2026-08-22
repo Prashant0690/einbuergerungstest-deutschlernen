@@ -1,0 +1,2175 @@
+GERMAN CASES — 400 PRACTICE QUESTIONS
+=====================================
+
+SECTION 1 — 250 GERMAN–ENGLISH SENTENCES
+-----------------------------------------
+# 🇩🇪 250 German Sentences for Mastering Cases
+
+## 1. Nominativ — The Subject
+
+# | German | English
+1 | Der Mann arbeitet heute. | The man is working today.
+2 | Die Frau kocht das Abendessen. | The woman is cooking dinner.
+3 | Das Kind spielt im Garten. | The child is playing in the garden.
+4 | Ein Mann wartet draußen. | A man is waiting outside.
+5 | Eine Frau sitzt im Café. | A woman is sitting in the café.
+6 | Ein Kind schläft im Zimmer. | A child is sleeping in the room.
+7 | Der Hund läuft schnell. | The dog runs quickly.
+8 | Die Katze schläft auf dem Sofa. | The cat is sleeping on the sofa.
+9 | Das Auto steht vor dem Haus. | The car is standing in front of the house.
+10 | Mein Bruder wohnt in Hamburg. | My brother lives in Hamburg.
+11 | Meine Schwester arbeitet in Berlin. | My sister works in Berlin.
+12 | Unser Lehrer spricht sehr langsam. | Our teacher speaks very slowly.
+13 | Ihr Vater ist Arzt. | Her father is a doctor.
+14 | Der neue Mitarbeiter kommt morgen. | The new employee is coming tomorrow.
+15 | Eine kleine Katze sitzt am Fenster. | A small cat is sitting at the window.
+16 | Der alte Mann liest eine Zeitung. | The old man is reading a newspaper.
+17 | Das schöne Haus gehört meiner Familie. | The beautiful house belongs to my family.
+18 | Meine neuen Kollegen sind sehr freundlich. | My new colleagues are very friendly.
+19 | Der deutsche Student lernt Englisch. | The German student is learning English.
+20 | Ein interessantes Buch liegt auf dem Tisch. | An interesting book is lying on the table.
+
+Pattern: Nominativ answers Wer? / Was?
+
+
+# 2. Akkusativ — Direct Object
+
+# | German | English
+21 | Ich sehe den Mann. | I see the man.
+22 | Ich sehe die Frau. | I see the woman.
+23 | Ich sehe das Kind. | I see the child.
+24 | Ich kaufe einen Tisch. | I am buying a table.
+25 | Ich kaufe eine Lampe. | I am buying a lamp.
+26 | Ich kaufe ein Sofa. | I am buying a sofa.
+27 | Er liest den Brief. | He reads the letter.
+28 | Sie öffnet die Tür. | She opens the door.
+29 | Wir besuchen das Museum. | We visit the museum.
+30 | Ich brauche einen neuen Computer. | I need a new computer.
+31 | Sie sucht eine neue Wohnung. | She is looking for a new apartment.
+32 | Er hat ein großes Auto. | He has a big car.
+33 | Ich kenne deinen Bruder. | I know your brother.
+34 | Ich kenne deine Schwester. | I know your sister.
+35 | Ich kenne dein Kind. | I know your child.
+36 | Wir besuchen unseren Freund. | We visit our friend.
+37 | Sie besucht ihre Mutter. | She visits her mother.
+38 | Er repariert sein Fahrrad. | He repairs his bicycle.
+39 | Ich sehe meinen alten Lehrer. | I see my old teacher.
+40 | Wir kaufen einen schönen Tisch. | We are buying a beautiful table.
+
+### Important
+
+In masculine Akkusativ:
+
+der → den
+ein → einen
+mein → meinen
+
+But feminine and neuter articles usually don't change:
+
+die → die
+das → das
+eine → eine
+ein → ein
+
+
+# 3. More Akkusativ
+
+# | German | English
+41 | Ich trinke einen Kaffee. | I drink a coffee.
+42 | Sie isst einen Apfel. | She eats an apple.
+43 | Er kauft den roten Pullover. | He buys the red sweater.
+44 | Ich nehme die schwarze Tasche. | I take the black bag.
+45 | Wir mieten das kleine Auto. | We rent the small car.
+46 | Sie trägt einen langen Mantel. | She is wearing a long coat.
+47 | Ich brauche meinen Reisepass. | I need my passport.
+48 | Er sucht seinen Schlüssel. | He is looking for his key.
+49 | Sie ruft ihre Freundin an. | She calls her friend.
+50 | Wir treffen unsere neuen Nachbarn. | We meet our new neighbours.
+51 | Ich habe keinen Termin. | I don't have an appointment.
+52 | Er hat keinen Führerschein. | He doesn't have a driving licence.
+53 | Sie kauft keine neue Tasche. | She isn't buying a new bag.
+54 | Ich sehe keinen Fehler. | I don't see any mistake.
+55 | Wir brauchen keine Hilfe. | We don't need any help.
+56 | Er macht einen wichtigen Termin. | He makes an important appointment.
+57 | Ich lese ein interessantes Buch. | I am reading an interesting book.
+58 | Sie trägt eine schöne Jacke. | She is wearing a beautiful jacket.
+59 | Wir suchen ein gutes Restaurant. | We are looking for a good restaurant.
+60 | Er kauft den teuren Fernseher. | He buys the expensive television.
+
+
+# 4. Dativ — Indirect Object
+
+The Dativ often answers:
+
+Wem? = To whom? / For whom?
+
+# | German | English
+61 | Ich helfe dem Mann. | I help the man.
+62 | Ich helfe der Frau. | I help the woman.
+63 | Ich helfe dem Kind. | I help the child.
+64 | Ich gebe dem Mann das Buch. | I give the man the book.
+65 | Ich gebe der Frau die Tasche. | I give the woman the bag.
+66 | Ich gebe dem Kind einen Ball. | I give the child a ball.
+67 | Er hilft seinem Bruder. | He helps his brother.
+68 | Sie hilft ihrer Schwester. | She helps her sister.
+69 | Wir helfen unserem Lehrer. | We help our teacher.
+70 | Ich danke dem Mann. | I thank the man.
+71 | Ich danke der Frau. | I thank the woman.
+72 | Ich danke meinem Vater. | I thank my father.
+73 | Sie antwortet dem Lehrer. | She answers the teacher.
+74 | Er folgt dem Auto. | He follows the car.
+75 | Das gehört meinem Bruder. | That belongs to my brother.
+76 | Das gehört meiner Schwester. | That belongs to my sister.
+77 | Das gehört unserem Nachbarn. | That belongs to our neighbour.
+78 | Ich vertraue meinem Freund. | I trust my friend.
+79 | Sie glaubt ihrem Mann. | She believes her husband.
+80 | Wir gratulieren dem Gewinner. | We congratulate the winner.
+
+### Dative articles
+
+der → dem
+die → der
+das → dem
+die plural → den
+
+And plural nouns often add -n:
+
+die Kinder → den Kindern
+
+
+# 5. Dativ + Akkusativ Together
+
+# | German | English
+81 | Ich gebe dem Mann den Schlüssel. | I give the man the key.
+82 | Ich gebe der Frau die Rechnung. | I give the woman the bill.
+83 | Ich gebe dem Kind das Buch. | I give the child the book.
+84 | Er schenkt seiner Mutter eine Blume. | He gives his mother a flower.
+85 | Sie kauft ihrem Vater ein Geschenk. | She buys her father a gift.
+86 | Wir schicken unserem Freund einen Brief. | We send our friend a letter.
+87 | Ich zeige meinem Bruder das Foto. | I show my brother the photo.
+88 | Sie erklärt dem Kunden das Problem. | She explains the problem to the customer.
+89 | Er bringt seiner Frau einen Kaffee. | He brings his wife a coffee.
+90 | Ich erzähle meinem Kind eine Geschichte. | I tell my child a story.
+91 | Wir geben unseren Gästen etwas zu essen. | We give our guests something to eat.
+92 | Sie leiht ihrem Freund ihr Auto. | She lends her friend her car.
+93 | Er verkauft dem Kunden ein altes Fahrrad. | He sells the customer an old bicycle.
+94 | Ich schreibe meiner Mutter eine Nachricht. | I write my mother a message.
+95 | Sie zeigt ihrem Lehrer die Hausaufgabe. | She shows her teacher the homework.
+
+
+# 6. Dative Prepositions
+
+The following always take Dativ:
+
+aus, bei, mit, nach, seit, von, zu, gegenüber
+
+# | German | English
+96 | Ich komme aus dem Büro. | I come from the office.
+97 | Sie kommt aus der Schule. | She comes from school.
+98 | Er kommt aus dem Haus. | He comes out of the house.
+99 | Ich fahre mit dem Bus. | I travel by bus.
+100 | Sie fährt mit der Bahn. | She travels by train.
+101 | Er fährt mit seinem Auto. | He travels in his car.
+102 | Ich spreche mit dem Lehrer. | I speak with the teacher.
+103 | Sie spricht mit ihrer Mutter. | She speaks with her mother.
+104 | Wir wohnen bei unseren Freunden. | We are staying with our friends.
+105 | Er arbeitet bei einer deutschen Firma. | He works at a German company.
+106 | Ich bin heute bei meinem Arzt. | I am at my doctor's today.
+107 | Wir fahren nach Berlin. | We are travelling to Berlin.
+108 | Sie fliegt nach Indien. | She flies to India.
+109 | Ich gehe nach Hause. | I go home.
+110 | Ich lerne seit einem Jahr Deutsch. | I have been learning German for a year.
+111 | Er arbeitet seit drei Monaten hier. | He has been working here for three months.
+112 | Das Geschenk ist von meinem Bruder. | The gift is from my brother.
+113 | Ich habe eine Nachricht von meiner Mutter. | I have a message from my mother.
+114 | Ich gehe zum Arzt. | I go to the doctor.
+115 | Sie geht zur Schule. | She goes to school.
+116 | Wir fahren zu unseren Freunden. | We go to our friends' place.
+117 | Das Hotel liegt gegenüber dem Bahnhof. | The hotel is opposite the train station.
+118 | Die Apotheke liegt gegenüber der Bank. | The pharmacy is opposite the bank.
+119 | Er sitzt bei seinem Vater. | He is sitting with his father.
+120 | Sie kommt mit ihren Kindern. | She comes with her children.
+
+
+# 7. Accusative Prepositions
+
+These always take Akkusativ:
+
+durch, für, gegen, ohne, um
+
+# | German | English
+121 | Wir gehen durch den Park. | We walk through the park.
+122 | Er fährt durch die Stadt. | He drives through the city.
+123 | Das Auto fährt durch einen Tunnel. | The car drives through a tunnel.
+124 | Das Geschenk ist für den Mann. | The gift is for the man.
+125 | Das Geschenk ist für die Frau. | The gift is for the woman.
+126 | Dieses Buch ist für mein Kind. | This book is for my child.
+127 | Ich bin gegen den Plan. | I am against the plan.
+128 | Sie ist gegen diese Idee. | She is against this idea.
+129 | Wir spielen gegen eine starke Mannschaft. | We play against a strong team.
+130 | Ich gehe ohne meinen Bruder. | I go without my brother.
+131 | Sie kommt ohne ihre Tasche. | She comes without her bag.
+132 | Er arbeitet ohne einen Computer. | He works without a computer.
+133 | Wir sitzen um den Tisch. | We sit around the table.
+134 | Die Kinder laufen um das Haus. | The children run around the house.
+135 | Der Bus fährt um einen großen Platz. | The bus drives around a large square.
+
+
+# 8. Two-Way Prepositions — Wo? vs. Wohin?
+
+These are extremely important:
+
+an, auf, hinter, in, neben, über, unter, vor, zwischen
+
+### Wo? → Dativ
+
+### Wohin? → Akkusativ
+
+# | German | English
+136 | Das Buch liegt auf dem Tisch. | The book is lying on the table.
+137 | Ich lege das Buch auf den Tisch. | I put the book on the table.
+138 | Die Katze ist auf dem Sofa. | The cat is on the sofa.
+139 | Die Katze springt auf das Sofa. | The cat jumps onto the sofa.
+140 | Ich bin in der Küche. | I am in the kitchen.
+141 | Ich gehe in die Küche. | I go into the kitchen.
+142 | Er ist im Büro. | He is in the office.
+143 | Er geht ins Büro. | He goes into the office.
+144 | Das Auto steht vor dem Haus. | The car is in front of the house.
+145 | Ich stelle das Auto vor das Haus. | I put the car in front of the house.
+146 | Die Lampe hängt über dem Tisch. | The lamp hangs above the table.
+147 | Ich hänge die Lampe über den Tisch. | I hang the lamp above the table.
+148 | Der Hund liegt unter dem Tisch. | The dog is lying under the table.
+149 | Der Hund läuft unter den Tisch. | The dog runs under the table.
+150 | Der Schrank steht neben dem Bett. | The cupboard is next to the bed.
+151 | Ich stelle den Schrank neben das Bett. | I put the cupboard next to the bed.
+152 | Das Fahrrad steht hinter dem Haus. | The bicycle is behind the house.
+153 | Ich stelle das Fahrrad hinter das Haus. | I put the bicycle behind the house.
+154 | Der Bus steht zwischen den Häusern. | The bus is between the houses.
+155 | Der Bus fährt zwischen die Häuser. | The bus drives between the houses.
+
+
+# 9. Article Contractions
+
+# | German | English
+156 | Ich bin im Supermarkt. | I am in the supermarket.
+157 | Ich gehe in den Supermarkt. | I go into the supermarket.
+158 | Wir sind im Restaurant. | We are in the restaurant.
+159 | Wir gehen ins Restaurant. | We go into the restaurant.
+160 | Er ist am Bahnhof. | He is at the train station.
+161 | Er geht an den Bahnhof. | He goes to the train station.
+162 | Sie ist beim Arzt. | She is at the doctor's.
+163 | Sie geht zum Arzt. | She goes to the doctor.
+164 | Ich komme vom Bahnhof. | I come from the train station.
+165 | Er kommt aus dem Büro. | He comes from the office.
+
+Useful contractions:
+
+in dem → im
+in das → ins
+an dem → am
+bei dem → beim
+zu dem → zum
+zu der → zur
+von dem → vom
+
+
+# 10. Possessive Articles
+
+Possessives behave like ein-words.
+
+# | German | English
+166 | Das ist mein Bruder. | This is my brother.
+167 | Das ist meine Schwester. | This is my sister.
+168 | Das ist mein Auto. | This is my car.
+169 | Ich sehe meinen Bruder. | I see my brother.
+170 | Ich sehe meine Schwester. | I see my sister.
+171 | Ich sehe mein Auto. | I see my car.
+172 | Ich helfe meinem Bruder. | I help my brother.
+173 | Ich helfe meiner Schwester. | I help my sister.
+174 | Ich helfe meinem Kind. | I help my child.
+175 | Das ist dein neuer Computer. | This is your new computer.
+176 | Ich brauche deinen Computer. | I need your computer.
+177 | Ich spreche mit deinem Bruder. | I speak with your brother.
+178 | Sie besucht ihren Vater. | She visits her father.
+179 | Sie besucht ihre Mutter. | She visits her mother.
+180 | Sie spricht mit ihrem Vater. | She speaks with her father.
+
+
+# 11. Possessives — More Cases
+
+# | German | English
+181 | Er sucht seinen Schlüssel. | He is looking for his key.
+182 | Er spricht mit seinem Chef. | He speaks with his boss.
+183 | Er arbeitet in seinem Büro. | He works in his office.
+184 | Wir besuchen unsere Eltern. | We visit our parents.
+185 | Wir helfen unseren Eltern. | We help our parents.
+186 | Unsere Eltern wohnen in Berlin. | Our parents live in Berlin.
+187 | Ihr Bruder arbeitet in München. | Her brother works in Munich.
+188 | Ich kenne ihren Bruder. | I know her brother.
+189 | Ich spreche mit ihrem Bruder. | I speak with her brother.
+190 | Euer Haus ist sehr schön. | Your house is very beautiful.
+191 | Ich sehe euer Haus. | I see your house.
+192 | Ich bin in eurem Haus. | I am in your house.
+193 | Ihr Auto steht vor unserem Haus. | Your car is in front of our house.
+194 | Wir parken unser Auto hinter eurem Haus. | We park our car behind your house.
+195 | Ich habe meine Tasche in meinem Zimmer gelassen. | I left my bag in my room.
+
+
+# 12. Adjective Endings — Definite Articles
+
+The key patterns:
+
+### Nominativ
+
+der gute Mann
+die gute Frau
+das gute Kind
+die guten Kinder
+
+### Akkusativ
+
+den guten Mann
+die gute Frau
+das gute Kind
+die guten Kinder
+
+### Dativ
+
+dem guten Mann
+der guten Frau
+dem guten Kind
+den guten Kindern
+
+# | German | English
+196 | Der gute Mann arbeitet hier. | The good man works here.
+197 | Die gute Frau hilft mir. | The good woman helps me.
+198 | Das gute Kind lernt schnell. | The good child learns quickly.
+199 | Die guten Kinder spielen draußen. | The good children play outside.
+200 | Ich sehe den guten Mann. | I see the good man.
+201 | Ich sehe die gute Frau. | I see the good woman.
+202 | Ich sehe das gute Kind. | I see the good child.
+203 | Ich sehe die guten Kinder. | I see the good children.
+204 | Ich helfe dem guten Mann. | I help the good man.
+205 | Ich helfe der guten Frau. | I help the good woman.
+206 | Ich helfe dem guten Kind. | I help the good child.
+207 | Ich helfe den guten Kindern. | I help the good children.
+
+
+# 13. Adjective Endings — Indefinite Articles
+
+### Nominativ
+
+ein guter Mann
+eine gute Frau
+ein gutes Kind
+
+### Akkusativ
+
+einen guten Mann
+eine gute Frau
+ein gutes Kind
+
+### Dativ
+
+einem guten Mann
+einer guten Frau
+einem guten Kind
+
+# | German | English
+208 | Ein guter Mann hilft mir. | A good man helps me.
+209 | Eine gute Frau arbeitet hier. | A good woman works here.
+210 | Ein gutes Kind lernt schnell. | A good child learns quickly.
+211 | Ich sehe einen guten Mann. | I see a good man.
+212 | Ich sehe eine gute Frau. | I see a good woman.
+213 | Ich sehe ein gutes Kind. | I see a good child.
+214 | Ich helfe einem guten Mann. | I help a good man.
+215 | Ich helfe einer guten Frau. | I help a good woman.
+216 | Ich helfe einem guten Kind. | I help a good child.
+217 | Er hat einen neuen Job. | He has a new job.
+218 | Sie hat eine neue Wohnung. | She has a new apartment.
+219 | Wir wohnen in einem neuen Haus. | We live in a new house.
+220 | Sie arbeitet mit einem erfahrenen Kollegen. | She works with an experienced colleague.
+
+
+# 14. Adjective Endings — No Article
+
+When there is no article, the adjective carries the case information.
+
+# | German | English
+221 | Guter Wein ist teuer. | Good wine is expensive.
+222 | Kaltes Wasser ist erfrischend. | Cold water is refreshing.
+223 | Frische Milch steht im Kühlschrank. | Fresh milk is in the refrigerator.
+224 | Ich trinke kalten Kaffee. | I drink cold coffee.
+225 | Wir kaufen frisches Brot. | We buy fresh bread.
+226 | Er trinkt kaltes Wasser. | He drinks cold water.
+227 | Ich helfe armen Menschen. | I help poor people.
+228 | Sie spricht mit alten Freunden. | She speaks with old friends.
+229 | Wir fahren mit öffentlichen Verkehrsmitteln. | We travel by public transport.
+230 | Trotz starken Regens gehen wir spazieren. | Despite heavy rain, we go for a walk.
+
+
+# 15. Genitiv — Possession
+
+Genitiv commonly answers:
+
+Wessen? = Whose?
+
+### Articles
+
+der → des
+das → des
+die → der
+
+Masculine/neuter nouns often receive -s / -es.
+
+# | German | English
+231 | Das ist das Auto meines Bruders. | That is my brother's car.
+232 | Das ist die Wohnung meiner Schwester. | That is my sister's apartment.
+233 | Die Farbe des Autos ist schön. | The colour of the car is beautiful.
+234 | Die Tür des Hauses ist offen. | The door of the house is open.
+235 | Der Name des Kindes ist Paul. | The child's name is Paul.
+236 | Die Tasche der Frau ist schwarz. | The woman's bag is black.
+237 | Das Fahrrad des Mannes ist neu. | The man's bicycle is new.
+238 | Die Meinung meiner Mutter ist wichtig. | My mother's opinion is important.
+239 | Die Größe meines Hauses ist ausreichend. | The size of my house is sufficient.
+240 | Die Qualität dieser Produkte ist sehr gut. | The quality of these products is very good.
+
+
+# 16. Genitive Prepositions
+
+Important Genitiv prepositions include:
+
+wegen, trotz, während, innerhalb, außerhalb
+
+# | German | English
+241 | Wegen des schlechten Wetters bleiben wir zu Hause. | Because of the bad weather, we stay at home.
+242 | Wegen meiner Arbeit kann ich heute nicht kommen. | Because of my work, I cannot come today.
+243 | Trotz des Regens gehen wir spazieren. | Despite the rain, we go for a walk.
+244 | Trotz seiner Krankheit arbeitet er weiter. | Despite his illness, he continues working.
+245 | Während des Urlaubs habe ich viel gelesen. | During the holiday, I read a lot.
+246 | Während der Reise haben wir viele Fotos gemacht. | During the trip, we took many photos.
+247 | Innerhalb eines Jahres hat er Deutsch gelernt. | Within one year, he learned German.
+248 | Außerhalb der Stadt ist es ruhiger. | Outside the city, it is quieter.
+249 | Wegen eines wichtigen Termins muss sie früher gehen. | Because of an important appointment, she has to leave earlier.
+250 | Trotz vieler Schwierigkeiten haben wir das Projekt erfolgreich abgeschlossen. | Despite many difficulties, we successfully completed the project.
+
+
+SECTION 2 — 100 MIXED & COMPLEX QUESTIONS
+
+# 🇩🇪 German Cases — 100 Mixed & Complex Questions
+
+How to use: Try all 100 first without looking at the answer key. For each sentence, ask Wer? Wen/Was? Wem? Wessen? Wo? Wohin?
+
+
+## Part A — Identify the Cases
+### 1.
+
+Der erfahrene Architekt präsentierte dem Kunden den endgültigen Entwurf für das neue Bürogebäude.
+
+Identify the case of:
+
+* der erfahrene Architekt
+* dem Kunden
+* den endgültigen Entwurf
+* das neue Bürogebäude
+
+ANSWER:
+der erfahrene Architekt → Nominativ; dem Kunden → Dativ; den endgültigen Entwurf → Akkusativ; das neue Bürogebäude → Akkusativ.
+NOTE:
+Wer präsentiert? → der Architekt (Nominativ). Wem? → dem Kunden (Dativ). Was? → den Entwurf (Akkusativ). Für das neue Bürogebäude is governed by für → Akkusativ.
+
+### 2.
+
+Nach einem langen Arbeitstag setzte sich meine Schwester mit einer Tasse Tee auf das Sofa im Wohnzimmer.
+
+Identify the case of:
+
+* einem langen Arbeitstag
+* meine Schwester
+* einer Tasse Tee
+* das Sofa
+* im Wohnzimmer
+
+ANSWER:
+einem langen Arbeitstag → Dativ; meine Schwester → Nominativ; einer Tasse Tee → Dativ; das Sofa → Akkusativ; im Wohnzimmer → Dativ.
+NOTE:
+nach/mit take Dativ. Auf das Sofa expresses movement/destination → Akkusativ; im Wohnzimmer expresses location (Wo?) → Dativ.
+
+### 3.
+
+Wegen des unerwarteten Streiks mussten viele Reisende ihre bereits gebuchten Zugverbindungen ändern.
+
+Identify the case of:
+
+* des unerwarteten Streiks
+* viele Reisende
+* ihre bereits gebuchten Zugverbindungen
+
+ANSWER:
+des unerwarteten Streiks → Genitiv; viele Reisende → Nominativ; ihre bereits gebuchten Zugverbindungen → Akkusativ.
+NOTE:
+wegen → Genitiv. Viele Reisende are the subject. Zugverbindungen are the direct object of ändern.
+
+### 4.
+
+Der kleine Junge gab seiner Großmutter vorsichtig das selbst gemalte Bild.
+
+Identify the case of:
+
+* der kleine Junge
+* seiner Großmutter
+* das selbst gemalte Bild
+
+ANSWER:
+der kleine Junge → Nominativ; seiner Großmutter → Dativ; das selbst gemalte Bild → Akkusativ.
+NOTE:
+Der Junge gives something to someone: seiner Großmutter = Wem? Dativ; das Bild = Was? Akkusativ.
+
+### 5.
+
+Ich habe gestern mit meinem neuen Kollegen über die bevorstehende Präsentation gesprochen.
+
+Identify the case of:
+
+* meinem neuen Kollegen
+* die bevorstehende Präsentation
+
+ANSWER:
+meinem neuen Kollegen → Dativ; die bevorstehende Präsentation → Akkusativ.
+NOTE:
+mit → Dativ. Über in this meaning takes Akkusativ: über die Präsentation.
+
+### 6.
+
+Die Entscheidung des Unternehmens hat für mehrere langjährige Mitarbeiter überraschende Konsequenzen.
+
+Identify the case of:
+
+* des Unternehmens
+* für mehrere langjährige Mitarbeiter
+
+ANSWER:
+des Unternehmens → Genitiv; für mehrere langjährige Mitarbeiter → Akkusativ.
+NOTE:
+des Unternehmens shows possession/association → Genitiv. für always takes Akkusativ.
+
+### 7.
+
+Wir haben den schweren Koffer neben die Eingangstür gestellt, damit unser Besuch ihn sofort sehen kann.
+
+Identify the case of:
+
+* den schweren Koffer
+* die Eingangstür
+* unser Besuch
+* ihn
+
+ANSWER:
+den schweren Koffer → Akkusativ; die Eingangstür → Akkusativ; unser Besuch → Nominativ; ihn → Akkusativ.
+NOTE:
+den Koffer is the object of stellen. neben die Eingangstür shows movement to a position → Akkusativ. Unser Besuch is the subject of sehen; ihn is its object.
+
+### 8.
+
+In dem alten Gebäude gegenüber der Universität befindet sich eine kleine, aber sehr beliebte Buchhandlung.
+
+Identify the case of:
+
+* dem alten Gebäude
+* der Universität
+* eine kleine, aber sehr beliebte Buchhandlung
+
+ANSWER:
+dem alten Gebäude → Dativ; der Universität → Genitiv; eine kleine, aber sehr beliebte Buchhandlung → Nominativ.
+NOTE:
+In dem alten Gebäude = location → Dativ. Gegenüber der Universität expresses a relation/possession-like Genitiv in this source sentence. The Buchhandlung is the subject.
+
+### 9.
+
+Meine Nachbarin hat ihrem Sohn zum Geburtstag ein gebrauchtes Fahrrad geschenkt.
+
+Identify:
+
+* ihrem Sohn
+* ein gebrauchtes Fahrrad
+* zum Geburtstag
+
+ANSWER:
+ihrem Sohn → Dativ; ein gebrauchtes Fahrrad → Akkusativ; zum Geburtstag → Dativ.
+NOTE:
+jemandem etwas schenken → Dativ + Akkusativ. zum = zu dem → Dativ.
+
+### 10.
+
+Trotz der schwierigen finanziellen Situation unterstützt die Familie ihren ältesten Sohn während seines Studiums.
+
+Identify:
+
+* der schwierigen finanziellen Situation
+* die Familie
+* ihren ältesten Sohn
+* seines Studiums
+
+
+# Part B — Choose the Correct Article
+
+ANSWER:
+der schwierigen finanziellen Situation → Genitiv; die Familie → Nominativ; ihren ältesten Sohn → Akkusativ; seines Studiums → Genitiv.
+NOTE:
+trotz and während are treated as Genitiv here. Die Familie is the subject; ihren Sohn is the direct object.
+
+### 11.
+
+Ich fahre morgen mit ___ Zug nach Hamburg.
+
+a) der
+b) den
+c) dem
+d) des
+
+ANSWER:
+dem
+NOTE:
+mit → Dativ.
+
+### 12.
+
+Wir besuchen am Wochenende ___ neuen Freund meiner Schwester.
+
+a) der
+b) den
+c) dem
+d) des
+
+ANSWER:
+den
+NOTE:
+besuchen takes a direct object → Akkusativ; masculine der Freund → den Freund.
+
+### 13.
+
+Sie hilft ___ älteren Nachbarn regelmäßig beim Einkaufen.
+
+a) der
+b) den
+c) dem
+d) des
+
+ANSWER:
+dem
+NOTE:
+helfen → Dativ.
+
+### 14.
+
+Das ist das Auto ___ neuen Kollegen.
+
+a) der
+b) den
+c) dem
+d) des
+
+ANSWER:
+des
+NOTE:
+das Auto wessen? → des neuen Kollegen → Genitiv.
+
+### 15.
+
+Ich stelle die Pflanzen neben ___ großen Fenster.
+
+a) der
+b) die
+c) das
+d) dem
+
+ANSWER:
+das
+NOTE:
+neben + movement/destination → Akkusativ; das Fenster.
+
+### 16.
+
+Die Kinder laufen hinter ___ alten Gebäude.
+
+a) der
+b) das
+c) dem
+d) den
+
+ANSWER:
+das
+NOTE:
+hinter + movement → Akkusativ; das Gebäude.
+
+### 17.
+
+Wir gehen nach ___ langen Besprechung direkt nach Hause.
+
+a) der
+b) die
+c) dem
+d) den
+
+ANSWER:
+der
+NOTE:
+nach → Dativ; die Besprechung → der Besprechung.
+
+### 18.
+
+Er legt seine Schlüssel auf ___ kleinen Tisch neben der Tür.
+
+a) der
+b) den
+c) dem
+d) des
+
+ANSWER:
+den
+NOTE:
+auf + movement → Akkusativ; der Tisch → den Tisch.
+
+### 19.
+
+Die Mitarbeiterin spricht gerade mit ___ neuen Abteilungsleiter.
+
+a) der
+b) den
+c) dem
+d) des
+
+ANSWER:
+dem
+NOTE:
+mit → Dativ; der Abteilungsleiter → dem Abteilungsleiter.
+
+### 20.
+
+Während ___ letzten Monate hat sich die Situation deutlich verbessert.
+
+a) die
+b) der
+c) den
+d) des
+
+
+# Part C — Adjective Endings
+
+ANSWER:
+der
+NOTE:
+während → Genitiv; die Monate → der Monate.
+
+### 21.
+
+Ich suche einen ___ (ruhig) Ort zum Arbeiten.
+
+ANSWER:
+ruhigen
+NOTE:
+einen + masculine Akkusativ → einen ruhigen Ort.
+
+### 22.
+
+Wir wohnen seit zwei Jahren in einer ___ (modern) Wohnung.
+
+ANSWER:
+modernen
+NOTE:
+in einer Wohnung = location → Dativ; feminine Dativ adjective ending → modernen.
+
+### 23.
+
+Der ___ (alt) Computer funktioniert noch erstaunlich gut.
+
+ANSWER:
+alte
+NOTE:
+der + masculine Nominativ → der alte Computer.
+
+### 24.
+
+Ich habe gestern mit einem ___ (erfahren) Arzt gesprochen.
+
+ANSWER:
+erfahrenen
+NOTE:
+mit einem + masculine Dativ → einem erfahrenen Arzt.
+
+### 25.
+
+Sie trägt heute eine ___ (elegant) schwarze Jacke.
+
+ANSWER:
+elegante
+NOTE:
+eine + feminine Akkusativ → eine elegante Jacke.
+
+### 26.
+
+Wegen des ___ (stark) Regens wurde das Fußballspiel abgesagt.
+
+ANSWER:
+starken
+NOTE:
+wegen des + Genitiv → des starken Regens.
+
+### 27.
+
+Die Mitarbeiter arbeiten in einem ___ (international) Unternehmen.
+
+ANSWER:
+internationalen
+NOTE:
+in einem + neuter Dativ → einem internationalen Unternehmen.
+
+### 28.
+
+Er hat seinem ___ (jung) Bruder einen ___ (teuer) Laptop gekauft.
+
+ANSWER:
+jungen / teuren
+NOTE:
+seinem Bruder → Dativ: jungen. einen Laptop → Akkusativ: teuren.
+
+### 29.
+
+Wir müssen die ___ (wichtig) Dokumente noch heute abschicken.
+
+ANSWER:
+wichtigen
+NOTE:
+die + plural Akkusativ → die wichtigen Dokumente.
+
+### 30.
+
+Nach einem ___ (anstrengend) Arbeitstag brauche ich etwas Ruhe.
+
+ANSWER:
+anstrengenden
+NOTE:
+nach einem + masculine Dativ → einem anstrengenden Arbeitstag.
+
+### 31.
+
+Sie fährt jeden Morgen mit öffentlichen ___ (Verkehrsmittel) zur Arbeit.
+
+ANSWER:
+Verkehrsmitteln
+NOTE:
+mit → Dativ plural; Verkehrsmittel → Verkehrsmitteln.
+
+### 32.
+
+Ich habe keine ___ (ausreichend) Informationen über das Projekt.
+
+ANSWER:
+ausreichenden
+NOTE:
+keine + plural Akkusativ → keine ausreichenden Informationen.
+
+### 33.
+
+Die ___ (neu) Mitarbeiterin erklärt den Kunden die verschiedenen Möglichkeiten.
+
+ANSWER:
+neue
+NOTE:
+die + feminine Nominativ → die neue Mitarbeiterin.
+
+### 34.
+
+Trotz ___ (schwierig) Bedingungen konnte das Team die Aufgabe erfolgreich erledigen.
+
+ANSWER:
+schwieriger
+NOTE:
+trotz + Genitiv plural; plural without article → schwieriger Bedingungen.
+
+### 35.
+
+Er lebt seit mehreren Jahren mit einer ___ (chronisch) Erkrankung.
+
+
+# Part D — Possessive Articles
+
+ANSWER:
+chronischen
+NOTE:
+mit einer + feminine Dativ → einer chronischen Erkrankung.
+
+### 36.
+
+Ich habe ___ Bruder gestern am Bahnhof getroffen.
+
+Choose:
+
+a) mein
+b) meinen
+c) meinem
+d) meines
+
+ANSWER:
+meinen
+NOTE:
+haben + masculine Akkusativ → meinen Bruder.
+
+### 37.
+
+Sie spricht jeden Abend mit ___ Mutter über ihren Tag.
+
+a) ihre
+b) ihrer
+c) ihren
+d) ihres
+
+ANSWER:
+ihrer
+NOTE:
+mit → Dativ; ihre Mutter → ihrer Mutter.
+
+### 38.
+
+Wir haben ___ Freunden gestern eine Einladung geschickt.
+
+a) unsere
+b) unseren
+c) unserer
+d) unseres
+
+ANSWER:
+unseren
+NOTE:
+plural Dativ after schicken: unseren Freunden.
+
+### 39.
+
+Er sucht seit einer Stunde ___ Schlüssel.
+
+a) sein
+b) seinen
+c) seinem
+d) seines
+
+ANSWER:
+seinen
+NOTE:
+suchen + masculine Akkusativ → seinen Schlüssel.
+
+### 40.
+
+Das ist das Fahrrad ___ jüngeren Bruders.
+
+a) mein
+b) meinen
+c) meinem
+d) meines
+
+ANSWER:
+meines
+NOTE:
+Genitiv: das Fahrrad wessen? → meines Bruders.
+
+### 41.
+
+Ich fahre morgen mit ___ Eltern nach Berlin.
+
+a) meine
+b) meinen
+c) meiner
+d) meines
+
+ANSWER:
+meinen
+NOTE:
+mit → Dativ plural → meinen Eltern.
+
+### 42.
+
+Sie hat ___ alten Wohnung bereits gekündigt.
+
+a) ihre
+b) ihrer
+c) ihren
+d) ihres
+
+ANSWER:
+ihrer
+NOTE:
+gekündigt haben: ihrer alten Wohnung is Dativ with kündigen + Dativ.
+
+### 43.
+
+Wir müssen ___ neues Auto nächste Woche zur Werkstatt bringen.
+
+a) unser
+b) unseren
+c) unserem
+d) unseres
+
+ANSWER:
+unser
+NOTE:
+neut­er Nominativ → unser neues Auto.
+
+### 44.
+
+Er hat die Nachricht von ___ ehemaligem Chef bekommen.
+
+a) sein
+b) seinen
+c) seinem
+d) seines
+
+ANSWER:
+seinem
+NOTE:
+von → Dativ; seinem ehemaligen Chef.
+
+### 45.
+
+Wegen ___ beruflichen Verpflichtungen konnte sie nicht teilnehmen.
+
+a) ihre
+b) ihrer
+c) ihren
+d) ihres
+
+
+# Part E — Prepositions
+
+ANSWER:
+ihrer
+NOTE:
+wegen + Genitiv → ihrer beruflichen Verpflichtungen.
+
+### 46.
+
+Ich komme gerade ___ Büro und fahre jetzt nach Hause.
+
+a) aus dem
+b) in das
+c) auf den
+d) für den
+
+ANSWER:
+aus dem
+NOTE:
+aus → Dativ.
+
+### 47.
+
+Dieses Geschenk ist ___ meine Eltern.
+
+a) mit
+b) für
+c) bei
+d) aus
+
+ANSWER:
+für
+NOTE:
+für → Akkusativ.
+
+### 48.
+
+Wir fahren morgen ___ unseren Freunden an die Ostsee.
+
+a) mit
+b) von
+c) nach
+d) aus
+
+ANSWER:
+mit
+NOTE:
+mit → Dativ.
+
+### 49.
+
+Er arbeitet ___ drei Jahren bei dieser Firma.
+
+a) seit
+b) während
+c) trotz
+d) wegen
+
+ANSWER:
+seit
+NOTE:
+seit → Dativ.
+
+### 50.
+
+___ des schlechten Wetters wurde der Flug verschoben.
+
+a) Mit
+b) Wegen
+c) Für
+d) Durch
+
+ANSWER:
+wegen
+NOTE:
+wegen → Genitiv.
+
+### 51.
+
+Sie ging ___ den Park, obwohl es bereits dunkel war.
+
+a) mit
+b) durch
+c) bei
+d) seit
+
+ANSWER:
+durch
+NOTE:
+durch → Akkusativ.
+
+### 52.
+
+___ seiner Verletzung nahm der Sportler weiterhin am Training teil.
+
+a) Trotz
+b) Für
+c) Gegenüber
+d) Nach
+
+ANSWER:
+trotz
+NOTE:
+trotz → Genitiv.
+
+### 53.
+
+Das Hotel befindet sich direkt ___ dem Bahnhof.
+
+a) gegenüber
+b) durch
+c) ohne
+d) gegen
+
+ANSWER:
+gegenüber
+NOTE:
+gegenüber → Dativ.
+
+### 54.
+
+Wir bleiben ___ des starken Schneefalls heute zu Hause.
+
+a) während
+b) wegen
+c) mit
+d) für
+
+ANSWER:
+wegen
+NOTE:
+wegen → Genitiv.
+
+### 55.
+
+___ der Konferenz wurden mehrere wichtige Entscheidungen getroffen.
+
+a) Während
+b) Ohne
+c) Gegen
+d) Aus
+
+
+# Part F — Wo oder Wohin?
+
+ANSWER:
+während
+NOTE:
+während → Genitiv.
+
+### 56.
+
+Das Handy liegt ___ Tisch.
+
+Choose the correct form of der Tisch.
+
+ANSWER:
+auf dem Tisch
+NOTE:
+Wo? → Dativ.
+
+### 57.
+
+Ich lege das Handy ___ Tisch.
+
+ANSWER:
+auf den Tisch
+NOTE:
+Wohin? → Akkusativ.
+
+### 58.
+
+Die Kinder spielen ___ Garten.
+
+ANSWER:
+im Garten
+NOTE:
+Wo? → Dativ; in dem → im.
+
+### 59.
+
+Die Kinder laufen ___ Garten.
+
+ANSWER:
+in den Garten
+NOTE:
+Wohin? → Akkusativ.
+
+### 60.
+
+Der Mantel hängt ___ Tür.
+
+ANSWER:
+an der Tür
+NOTE:
+Wo? → Dativ.
+
+### 61.
+
+Ich hänge den Mantel ___ Tür.
+
+ANSWER:
+an die Tür
+NOTE:
+Wohin? → Akkusativ.
+
+### 62.
+
+Das Auto steht ___ Garage.
+
+ANSWER:
+in der Garage
+NOTE:
+Wo? → Dativ.
+
+### 63.
+
+Der Fahrer fährt das Auto ___ Garage.
+
+ANSWER:
+in die Garage
+NOTE:
+Wohin? → Akkusativ.
+
+### 64.
+
+Die Lampe hängt ___ Esstisch.
+
+ANSWER:
+über dem Esstisch
+NOTE:
+Wo? → Dativ.
+
+### 65.
+
+Der Elektriker hängt die neue Lampe ___ Esstisch.
+
+ANSWER:
+über den Esstisch
+NOTE:
+Wohin? → Akkusativ.
+
+### 66.
+
+Der Hund schläft ___ Sofa.
+
+ANSWER:
+auf dem Sofa
+NOTE:
+Wo? → Dativ.
+
+### 67.
+
+Der Hund springt ___ Sofa.
+
+ANSWER:
+auf das Sofa
+NOTE:
+Wohin? → Akkusativ.
+
+### 68.
+
+Wir sitzen ___ unseren Freunden.
+
+ANSWER:
+bei unseren Freunden
+NOTE:
+bei → Dativ.
+
+### 69.
+
+Wir setzen uns ___ unsere Freunde.
+
+ANSWER:
+zu unseren Freunden
+NOTE:
+zu → Dativ; destination does not change the case because zu always takes Dativ.
+
+### 70.
+
+Das Hotel liegt ___ Bahnhof und dem Stadtzentrum.
+
+
+# Part G — Correct the Sentence
+
+ANSWER:
+zwischen dem Bahnhof und dem Stadtzentrum
+NOTE:
+location between two places → Dativ.
+
+### 71.
+
+Correct the sentence:
+
+Ich fahre mit den Auto zu der Arbeit.
+
+ANSWER:
+Ich fahre mit dem Auto zur Arbeit.
+NOTE:
+mit → Dativ; zu der → zur.
+
+### 72.
+
+Wegen dem schlechten Wetter konnten wir nicht draußen essen.
+
+ANSWER:
+Wegen des schlechten Wetters konnten wir nicht draußen essen.
+NOTE:
+wegen → Genitiv.
+
+### 73.
+
+Ich habe meinen Schwester gestern angerufen.
+
+ANSWER:
+Ich habe meine Schwester gestern angerufen.
+NOTE:
+Schwester is feminine Akkusativ → meine.
+
+### 74.
+
+Er hilft seine alten Nachbarn jeden Samstag.
+
+ANSWER:
+Er hilft seinen alten Nachbarn jeden Samstag.
+NOTE:
+helfen → Dativ plural → seinen alten Nachbarn.
+
+### 75.
+
+Wir stellen den Tisch neben der Fenster.
+
+ANSWER:
+Wir stellen den Tisch neben das Fenster.
+NOTE:
+stellen = movement; neben → Akkusativ.
+
+### 76.
+
+Sie spricht mit ihren neuer Chef über das Problem.
+
+ANSWER:
+Sie spricht mit ihrem neuen Chef über das Problem.
+NOTE:
+mit → Dativ; über in this meaning → Akkusativ.
+
+### 77.
+
+Das ist das Auto von mein Bruder.
+
+ANSWER:
+Das ist das Auto von meinem Bruder.
+NOTE:
+von → Dativ. (Genitive alternative: das Auto meines Bruders.)
+
+### 78.
+
+Trotz den hohen Kosten hat er die Wohnung gekauft.
+
+ANSWER:
+Trotz der hohen Kosten hat er die Wohnung gekauft.
+NOTE:
+trotz → Genitiv.
+
+### 79.
+
+Ich gehe in dem Supermarkt, um Lebensmittel zu kaufen.
+
+ANSWER:
+Ich gehe in den Supermarkt, um Lebensmittel zu kaufen.
+NOTE:
+movement into a place → in + Akkusativ.
+
+### 80.
+
+Der Lehrer erklärt den Schüler die schwierige Grammatikregel.
+
+
+# Part H — Mixed Case Analysis
+
+ANSWER:
+Der Lehrer erklärt den Schülern die schwierige Grammatikregel.
+NOTE:
+erklären jemandem etwas → Dativ + Akkusativ.
+
+### 81.
+
+Nachdem die junge Ärztin ihren Patienten untersucht hatte, erklärte sie dem besorgten Ehemann in aller Ruhe die möglichen Ursachen der Beschwerden und empfahl ihm, einen erfahrenen Spezialisten aufzusuchen.
+
+Identify the case of every bold phrase and explain why.
+
+ANSWER:
+die junge Ärztin → Nominativ; ihren Patienten → Akkusativ; dem besorgten Ehemann → Dativ; die möglichen Ursachen → Akkusativ; der Beschwerden → Genitiv; einen erfahrenen Spezialisten → Akkusativ.
+NOTE:
+Untersuchen and aufsuchen take a direct object. Erklären uses Dativ for the person and Akkusativ for the thing. der Beschwerden answers wessen?
+
+### 82.
+
+Vor unserem nächsten Urlaub müssen wir noch einige wichtige Dokumente vorbereiten, die wir anschließend der zuständigen Behörde vorlegen müssen.
+
+Identify:
+
+1. unserem nächsten Urlaub
+2. einige wichtige Dokumente
+3. der zuständigen Behörde
+
+ANSWER:
+unserem nächsten Urlaub → Dativ; einige wichtige Dokumente → Akkusativ; der zuständigen Behörde → Dativ.
+NOTE:
+vor → Dativ here (time); Dokumente are the object of vorbereiten; vorlegen: jemandem etwas vorlegen → Dativ + Akkusativ.
+
+### 83.
+
+Während des gesamten Gesprächs stellte die Personalmanagerin dem Bewerber mehrere detaillierte Fragen zu seiner bisherigen Berufserfahrung.
+
+Identify all four cases if present.
+
+ANSWER:
+des gesamten Gesprächs → Genitiv; die Personalmanagerin → Nominativ; dem Bewerber → Dativ; seiner bisherigen Berufserfahrung → Genitiv.
+NOTE:
+während → Genitiv. Die Personalmanagerin is the subject. dem Bewerber is the person receiving questions; seiner Berufserfahrung is introduced with zu.
+
+### 84.
+
+Ich habe meinem neuen Nachbarn, der erst vor wenigen Wochen in unsere Straße gezogen ist, einen kleinen Stadtplan gegeben, damit er sich in der Umgebung besser orientieren kann.
+
+Identify the case of:
+
+* meinem neuen Nachbarn
+* unsere Straße
+* einen kleinen Stadtplan
+* der Umgebung
+
+ANSWER:
+meinem neuen Nachbarn → Dativ; unsere Straße → Akkusativ; einen kleinen Stadtplan → Akkusativ; der Umgebung → Dativ.
+NOTE:
+geben jemandem etwas → Dativ + Akkusativ. In unsere Straße describes movement → Akkusativ. In der Umgebung describes location → Dativ.
+
+### 85.
+
+Trotz seiner langjährigen Erfahrung konnte der erfahrene Techniker den komplizierten Fehler zunächst nicht finden, weil sich das Problem innerhalb eines wichtigen Systems befand.
+
+Analyse all noun phrases.
+
+ANSWER:
+seiner langjährigen Erfahrung → Genitiv; der erfahrene Techniker → Nominativ; den komplizierten Fehler → Akkusativ; eines wichtigen Systems → Genitiv.
+NOTE:
+trotz → Genitiv. Der Techniker is the subject; den Fehler is the object; innerhalb eines Systems → Genitiv.
+
+### 86.
+
+Nachdem wir mit unseren Kollegen über die neuen Arbeitsbedingungen gesprochen hatten, beschlossen wir, dem Geschäftsführer einen gemeinsamen Vorschlag zu unterbreiten.
+
+Find the cases and explain the prepositions.
+
+ANSWER:
+unseren Kollegen → Dativ; die neuen Arbeitsbedingungen → Akkusativ; dem Geschäftsführer → Dativ; einen gemeinsamen Vorschlag → Akkusativ.
+NOTE:
+mit → Dativ. sprechen über → Akkusativ. einen Vorschlag unterbreiten: someone Dativ + something Akkusativ.
+
+### 87.
+
+Die Schlüssel des alten Hauses, das früher meiner Großmutter gehört hat, liegen inzwischen bei meinem Onkel in einer kleinen Schublade.
+
+Identify:
+
+* des alten Hauses
+* meiner Großmutter
+* meinem Onkel
+* einer kleinen Schublade
+
+ANSWER:
+des alten Hauses → Genitiv; meiner Großmutter → Dativ; meinem Onkel → Dativ; einer kleinen Schublade → Dativ.
+NOTE:
+des alten Hauses and meiner Großmutter express possession. gehören takes Dativ; bei takes Dativ.
+
+### 88.
+
+Wegen eines technischen Problems konnte der Mitarbeiter die dringend benötigte Datei nicht an seinen Kollegen schicken.
+
+Identify the cases.
+
+ANSWER:
+eines technischen Problems → Genitiv; der Mitarbeiter → Nominativ; die dringend benötigte Datei → Akkusativ; an seinen Kollegen → Akkusativ.
+NOTE:
+wegen → Genitiv. Der Mitarbeiter is the subject; Datei is the direct object. an seinen Kollegen is directional/recipient use → Akkusativ in this construction.
+
+### 89.
+
+Nachdem sie ihre Kinder zur Schule gebracht hatte, fuhr meine Nachbarin mit ihrem kleinen Auto zu einem nahe gelegenen Supermarkt, um frisches Gemüse zu kaufen.
+
+Identify every case.
+
+ANSWER:
+ihre Kinder → Akkusativ; meine Nachbarin → Nominativ; ihrem kleinen Auto → Dativ; einem nahe gelegenen Supermarkt → Dativ; frisches Gemüse → Akkusativ.
+NOTE:
+bringen jemandem? Here 'ihre Kinder zur Schule bringen' has Kinder as Akkusativ. mit → Dativ; zu → Dativ; kaufen → Akkusativ.
+
+### 90.
+
+Der neue Vertrag zwischen unserer Firma und dem ausländischen Partner enthält mehrere Klauseln, die sowohl die Interessen unserer Kunden als auch die Rechte unserer Mitarbeiter schützen sollen.
+
+Identify all cases.
+
+
+# Part I — Advanced / Complex
+
+ANSWER:
+unserer Firma → Dativ; dem ausländischen Partner → Dativ; die Interessen unserer Kunden → Akkusativ + Genitiv; die Rechte unserer Mitarbeiter → Akkusativ + Genitiv.
+NOTE:
+zwischen takes Dativ here. schützen takes Akkusativ. unserer Kunden / unserer Mitarbeiter answer wessen? → Genitiv.
+
+### 91.
+
+Complete the sentence with the correct forms:
+
+Nachdem ich mit ________ (mein / neu / Chef) über ________ (das / wichtig / Projekt) gesprochen hatte, schickte ich ________ (unser / extern / Berater) alle benötigten Unterlagen.
+
+ANSWER:
+Nachdem ich mit meinem neuen Chef über das wichtige Projekt gesprochen hatte, schickte ich unserem externen Berater alle benötigten Unterlagen.
+NOTE:
+mit → Dativ; über → Akkusativ; schicken jemandem etwas → Dativ + Akkusativ.
+
+### 92.
+
+Complete:
+
+Wegen ________ (der / stark / Verkehr) kam ________ (die / verspätet / Mitarbeiterin) nicht rechtzeitig zu ________ (ihr / wichtig / Termin).
+
+ANSWER:
+Wegen des starken Verkehrs kam die verspätete Mitarbeiterin nicht rechtzeitig zu ihrem wichtigen Termin.
+NOTE:
+wegen → Genitiv; die Mitarbeiterin is Nominativ; zu → Dativ.
+
+### 93.
+
+Complete:
+
+Ich habe ________ (mein / alt / Freund), den ich seit vielen Jahren nicht gesehen hatte, gestern zufällig in ________ (die / Innenstadt) getroffen.
+
+ANSWER:
+Ich habe meinen alten Freund, den ich seit vielen Jahren nicht gesehen hatte, gestern zufällig in der Innenstadt getroffen.
+NOTE:
+treffen → Akkusativ. seit → Dativ; in der Innenstadt describes location → Dativ.
+
+### 94.
+
+Complete:
+
+Trotz ________ (das / schlecht / Wetter) gingen wir mit ________ (unsere / klein / Kinder) in ________ (der / nahe / Park).
+
+ANSWER:
+Trotz des schlechten Wetters gingen wir mit unseren kleinen Kindern in den nahe gelegenen Park.
+NOTE:
+trotz → Genitiv; mit → Dativ; movement into the park → Akkusativ.
+
+### 95.
+
+Complete:
+
+Die Leiterin erklärte ________ (die / neu / Mitarbeiter) während ________ (die / kurz / Besprechung) die wichtigsten Regeln ________ (das / Unternehmen).
+
+ANSWER:
+Die Leiterin erklärte den neuen Mitarbeitern während der kurzen Besprechung die wichtigsten Regeln des Unternehmens.
+NOTE:
+erklären jemandem etwas → Dativ + Akkusativ. während → Genitiv; des Unternehmens → Genitiv possession.
+
+### 96.
+
+Translate into German:
+
+Because of the unexpected change in the schedule, I had to send my colleague the documents that our manager had requested during yesterday's meeting.
+
+Try to use:
+
+* wegen
+* possessive article
+* Dativ
+* Akkusativ
+* Genitiv
+* relative clause
+
+ANSWER:
+Wegen der unerwarteten Änderung des Zeitplans musste ich meinem Kollegen die Dokumente schicken, die unser Manager während der gestrigen Besprechung angefordert hatte.
+NOTE:
+wegen → Genitiv; des Zeitplans → Genitiv; meinem Kollegen → Dativ; die Dokumente → Akkusativ; unser Manager → Nominativ; während der Besprechung → Genitiv.
+
+### 97.
+
+Translate:
+
+After arriving at the airport, we gave our passports to the employee at the counter and waited for the announcement of our flight.
+
+Try to include:
+
+* nach
+* Dativ
+* Akkusativ
+* Genitiv
+
+ANSWER:
+Nach der Ankunft am Flughafen gaben wir unsere Reisepässe dem Mitarbeiter am Schalter und warteten auf die Ansage unseres Fluges.
+NOTE:
+nach → Dativ; am Flughafen/am Schalter → Dativ; Reisepässe → Akkusativ; dem Mitarbeiter → Dativ; unseres Fluges → Genitiv.
+
+### 98.
+
+Translate:
+
+Despite the high price of the apartment, the young couple decided to rent it because they liked the location and the view from the balcony.
+
+Try to include:
+
+* trotz
+* Genitiv
+* adjective endings
+* Akkusativ
+* possessive article
+
+ANSWER:
+Trotz des hohen Preises der Wohnung entschied sich das junge Paar, sie zu mieten, weil ihm die Lage und die Aussicht vom Balkon gefielen.
+NOTE:
+trotz → Genitiv; der Wohnung → Genitiv; das Paar → Nominativ; sie → Akkusativ; ihm → Dativ; die Lage/die Aussicht → Nominativ; vom Balkon → Dativ.
+
+### 99.
+
+Translate:
+
+The professor explained the difficult subject to the students in such a clear way that even those who had never studied the topic before could understand it.
+
+Try to include:
+
+* Dativ
+* Akkusativ
+* adjective endings
+* relative/subordinate clause
+
+
+### 100. 🔥 Final Challenge
+
+Complete and analyse the following sentence:
+
+Trotz ________ (die / unerwartet / Schwierigkeiten), die während ________ (das / umfangreich / Projekt) aufgetreten waren, gelang es ________ (die / erfahren / Teamleiterin), gemeinsam mit ________ (ihre / engagiert / Mitarbeiter) ________ (die / anspruchsvoll / Aufgabe) innerhalb ________ (eine / sehr kurz / Zeit) erfolgreich abzuschließen.
+
+Then identify every case in the completed sentence and explain:
+
+1. Why is each article in that form?
+2. Why does each adjective have that ending?
+3. Which prepositions determine the case?
+4. Which phrase is Nominativ?
+5. Which phrase is Akkusativ?
+6. Which phrase is Dativ?
+7. Which phrase is Genitiv?
+
+ANSWER:
+Der Professor erklärte den Studenten das schwierige Thema auf eine so klare Weise, dass sogar diejenigen, die das Thema noch nie studiert hatten, es verstehen konnten.
+NOTE:
+erklären jemandem etwas → Dativ + Akkusativ. die Studenten → Dativ; das Thema → Akkusativ; diejenigen → Nominativ; das Thema/es → Akkusativ.
+
+
+SECTION 3 — 50 ENGLISH → GERMAN TRANSLATION EXERCISES
+
+# 🇩🇪 German Cases — 50 English → German Translation Exercises
+
+### How to practise
+
+For each sentence, first identify mentally:
+
+* Who? → Nominativ
+* Whom/what? → Akkusativ
+* To/for whom? → Dativ
+* Whose? → Genitiv
+* Where? → Dativ with two-way prepositions
+* Where to? → Akkusativ with two-way prepositions
+
+Try translating without looking at the answers.
+
+
+## 🟢 Level 1 — Basic Cases
+### 1.
+
+I see the man at the train station.
+
+ANSWER:
+Ich sehe den Mann am Bahnhof.
+NOTE:
+den Mann → Akkusativ; am Bahnhof → Dativ.
+
+### 2.
+
+The woman gives the child a book.
+
+ANSWER:
+Die Frau gibt dem Kind ein Buch.
+NOTE:
+geben jemandem etwas → Dativ + Akkusativ.
+
+### 3.
+
+My brother is looking for his keys.
+
+ANSWER:
+Mein Bruder sucht seine Schlüssel.
+NOTE:
+mein Bruder → Nominativ; seine Schlüssel → Akkusativ.
+
+### 4.
+
+We are visiting our friends in Berlin.
+
+ANSWER:
+Wir besuchen unsere Freunde in Berlin.
+NOTE:
+besuchen → Akkusativ; Berlin has no article.
+
+### 5.
+
+The teacher explains the difficult question to the student.
+
+ANSWER:
+Der Lehrer erklärt dem Schüler die schwierige Frage.
+NOTE:
+erklären jemandem etwas → Dativ + Akkusativ.
+
+### 6.
+
+I am buying a new laptop for my sister.
+
+ANSWER:
+Ich kaufe einen neuen Laptop für meine Schwester.
+NOTE:
+einen neuen Laptop → Akkusativ; für → Akkusativ.
+
+### 7.
+
+The children are playing in the garden.
+
+ANSWER:
+Die Kinder spielen im Garten.
+NOTE:
+im Garten = in dem Garten → Dativ/location.
+
+### 8.
+
+The dog is lying under the table.
+
+ANSWER:
+Der Hund liegt unter dem Tisch.
+NOTE:
+Wo? → Dativ.
+
+### 9.
+
+I put the keys on the small table.
+
+ANSWER:
+Ich lege die Schlüssel auf den kleinen Tisch.
+NOTE:
+Wohin? → Akkusativ.
+
+### 10.
+
+She speaks with her new colleague every morning.
+
+
+# 🟡 Level 2 — Possessives + Adjectives
+
+ANSWER:
+Sie spricht jeden Morgen mit ihrer neuen Kollegin.
+NOTE:
+mit → Dativ.
+
+### 11.
+
+My older brother lives in a small apartment near the city centre.
+
+ANSWER:
+Mein älterer Bruder wohnt in einer kleinen Wohnung in der Nähe des Stadtzentrums.
+NOTE:
+in einer Wohnung → Dativ; des Stadtzentrums → Genitiv.
+
+### 12.
+
+I gave my mother a beautiful flower for her birthday.
+
+ANSWER:
+Ich habe meiner Mutter zum Geburtstag eine schöne Blume geschenkt.
+NOTE:
+meiner Mutter → Dativ; eine Blume → Akkusativ; zum → Dativ.
+
+### 13.
+
+She is looking for her black handbag in the bedroom.
+
+ANSWER:
+Sie sucht ihre schwarze Handtasche im Schlafzimmer.
+NOTE:
+Handtasche → Akkusativ; im Schlafzimmer → Dativ.
+
+### 14.
+
+We are travelling with our two young children.
+
+ANSWER:
+Wir reisen mit unseren zwei kleinen Kindern.
+NOTE:
+mit → Dativ plural.
+
+### 15.
+
+His new car is standing in front of our house.
+
+ANSWER:
+Sein neues Auto steht vor unserem Haus.
+NOTE:
+Auto → Nominativ; vor unserem Haus → Dativ.
+
+### 16.
+
+I need your old passport for the application.
+
+ANSWER:
+Ich brauche deinen alten Reisepass für den Antrag.
+NOTE:
+Reisepass → Akkusativ; für → Akkusativ.
+
+### 17.
+
+Our German teacher explains the complicated grammar very clearly.
+
+ANSWER:
+Unser Deutschlehrer erklärt die komplizierte Grammatik sehr klar.
+NOTE:
+Lehrer → Nominativ; Grammatik → Akkusativ.
+
+### 18.
+
+She bought her husband an expensive watch.
+
+ANSWER:
+Sie hat ihrem Mann eine teure Uhr gekauft.
+NOTE:
+ihrem Mann → Dativ; eine Uhr → Akkusativ.
+
+### 19.
+
+I am speaking with my new manager about an important project.
+
+ANSWER:
+Ich spreche mit meinem neuen Vorgesetzten über ein wichtiges Projekt.
+NOTE:
+mit → Dativ; über → Akkusativ.
+
+### 20.
+
+Their little daughter is sitting next to her grandmother.
+
+
+# 🟠 Level 3 — Prepositions + Cases
+
+ANSWER:
+Ihre kleine Tochter sitzt neben ihrer Großmutter.
+NOTE:
+Tochter → Nominativ; neben in a location → Dativ.
+
+### 21.
+
+I have been working for this company for three years.
+
+ANSWER:
+Ich arbeite seit drei Jahren bei dieser Firma.
+NOTE:
+seit/bei → Dativ.
+
+### 22.
+
+Because of the heavy rain, we stayed at home.
+
+ANSWER:
+Wegen des starken Regens blieben wir zu Hause.
+NOTE:
+wegen → Genitiv.
+
+### 23.
+
+Despite the difficult situation, he continued working.
+
+ANSWER:
+Trotz der schwierigen Situation arbeitete er weiter.
+NOTE:
+trotz → Genitiv.
+
+### 24.
+
+She came from the office with her colleague.
+
+ANSWER:
+Sie kam mit ihrer Kollegin aus dem Büro.
+NOTE:
+mit/aus → Dativ.
+
+### 25.
+
+We are going to the doctor after the meeting.
+
+ANSWER:
+Nach der Besprechung gehen wir zum Arzt.
+NOTE:
+nach/zu → Dativ.
+
+### 26.
+
+The pharmacy is opposite the large supermarket.
+
+ANSWER:
+Die Apotheke befindet sich gegenüber dem großen Supermarkt.
+NOTE:
+gegenüber → Dativ.
+
+### 27.
+
+He walked through the old city without his phone.
+
+ANSWER:
+Er ging ohne sein Handy durch die alte Stadt.
+NOTE:
+ohne/durch → Akkusativ.
+
+### 28.
+
+This letter is for my former employer.
+
+ANSWER:
+Dieser Brief ist für meinen ehemaligen Arbeitgeber.
+NOTE:
+für → Akkusativ.
+
+### 29.
+
+During the long journey, I talked to my parents.
+
+ANSWER:
+Während der langen Reise sprach ich mit meinen Eltern.
+NOTE:
+während → Genitiv; mit → Dativ.
+
+### 30.
+
+The bicycle is standing behind the garage.
+
+
+# 🔵 Level 4 — Wo / Wohin + Mixed Cases
+
+ANSWER:
+Das Fahrrad steht hinter der Garage.
+NOTE:
+Wo? → Dativ.
+
+### 31.
+
+I am putting the documents into the blue folder.
+
+ANSWER:
+Ich lege die Dokumente in den blauen Ordner.
+NOTE:
+Wohin? → Akkusativ.
+
+### 32.
+
+The documents are in the blue folder.
+
+ANSWER:
+Die Dokumente sind im blauen Ordner.
+NOTE:
+Wo? → Dativ.
+
+### 33.
+
+She hangs the picture above the sofa.
+
+ANSWER:
+Sie hängt das Bild über das Sofa.
+NOTE:
+Wohin? → Akkusativ.
+
+### 34.
+
+The picture is hanging above the sofa.
+
+ANSWER:
+Das Bild hängt über dem Sofa.
+NOTE:
+Wo? → Dativ.
+
+### 35.
+
+We put the children's toys under the bed.
+
+ANSWER:
+Wir legen die Spielsachen der Kinder unter das Bett.
+NOTE:
+Spielsachen → Akkusativ; der Kinder → Genitiv; unter das Bett → Akkusativ.
+
+### 36.
+
+The children's toys are under the bed.
+
+ANSWER:
+Die Spielsachen der Kinder liegen unter dem Bett.
+NOTE:
+der Kinder → Genitiv; unter dem Bett → Dativ.
+
+### 37.
+
+He places his bicycle next to the entrance.
+
+ANSWER:
+Er stellt sein Fahrrad neben den Eingang.
+NOTE:
+Wohin? → Akkusativ.
+
+### 38.
+
+His bicycle is standing next to the entrance.
+
+ANSWER:
+Sein Fahrrad steht neben dem Eingang.
+NOTE:
+Wo? → Dativ.
+
+### 39.
+
+The guests are sitting between the two large windows.
+
+ANSWER:
+Die Gäste sitzen zwischen den beiden großen Fenstern.
+NOTE:
+Wo? → Dativ.
+
+### 40.
+
+The waiter puts the plates between the glasses and the bottles.
+
+
+# 🔴 Level 5 — Complex Translation
+
+ANSWER:
+Der Kellner stellt die Teller zwischen die Gläser und die Flaschen.
+NOTE:
+Wohin? → Akkusativ.
+
+### 41.
+
+Because of an important appointment, my wife had to leave the office earlier than usual.
+
+ANSWER:
+Wegen eines wichtigen Termins musste meine Frau das Büro früher als gewöhnlich verlassen.
+NOTE:
+wegen → Genitiv; Frau → Nominativ; Büro → Akkusativ.
+
+### 42.
+
+After speaking with my manager, I sent the updated documents to our external consultant.
+
+ANSWER:
+Nachdem ich mit meinem Manager gesprochen hatte, schickte ich unserem externen Berater die aktualisierten Dokumente.
+NOTE:
+mit → Dativ; unserem Berater → Dativ; Dokumente → Akkusativ.
+
+### 43.
+
+Despite the high price of the apartment, the young couple decided to rent it because they liked the location.
+
+ANSWER:
+Trotz des hohen Preises der Wohnung entschied sich das junge Paar, sie zu mieten, weil ihm die Lage gefiel.
+NOTE:
+trotz + Genitiv; der Wohnung → Genitiv; das Paar → Nominativ; sie → Akkusativ; ihm → Dativ.
+
+### 44.
+
+The employee gave the customer a detailed explanation of the new procedure.
+
+ANSWER:
+Der Mitarbeiter gab dem Kunden eine detaillierte Erklärung des neuen Verfahrens.
+NOTE:
+geben jemandem etwas → Dativ + Akkusativ; des Verfahrens → Genitiv.
+
+### 45.
+
+After arriving at the airport, we gave our passports to the employee at the counter.
+
+ANSWER:
+Nach der Ankunft am Flughafen gaben wir dem Mitarbeiter am Schalter unsere Reisepässe.
+NOTE:
+nach → Dativ; dem Mitarbeiter → Dativ; Reisepässe → Akkusativ.
+
+### 46.
+
+The keys to my parents' old house are in a small drawer next to the entrance.
+
+ANSWER:
+Die Schlüssel zum alten Haus meiner Eltern befinden sich in einer kleinen Schublade neben dem Eingang.
+NOTE:
+zum → Dativ; meiner Eltern → Genitiv; in/ neben → Dativ because location.
+
+### 47.
+
+Because of the unexpected change in the schedule, I had to send my colleague the documents that our manager had requested.
+
+ANSWER:
+Wegen der unerwarteten Änderung des Zeitplans musste ich meinem Kollegen die Dokumente schicken, die unser Manager angefordert hatte.
+NOTE:
+wegen/des Zeitplans → Genitiv; meinem Kollegen → Dativ; Dokumente → Akkusativ; unser Manager → Nominativ.
+
+### 48.
+
+During our last holiday in Italy, we stayed in a beautiful hotel that was located near the sea.
+
+ANSWER:
+Während unseres letzten Urlaubs in Italien wohnten wir in einem wunderschönen Hotel, das in der Nähe des Meeres lag.
+NOTE:
+während → Genitiv; in einem Hotel → Dativ; des Meeres → Genitiv.
+
+### 49.
+
+Although the weather was bad, my brother drove his family to the small village where our grandparents used to live.
+
+
+### 50. 🔥 Final Challenge
+
+Despite all the difficulties that occurred during the large project, the experienced team leader managed to complete the important task together with her motivated employees within a very short period of time.
+
+ANSWER:
+Obwohl das Wetter schlecht war, fuhr mein Bruder seine Familie in das kleine Dorf, in dem unsere Großeltern früher gewohnt hatten.
+NOTE:
+mein Bruder → Nominativ; seine Familie → Akkusativ; in das Dorf → Akkusativ; in dem Dorf → Dativ.

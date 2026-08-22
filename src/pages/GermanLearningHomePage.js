@@ -20,6 +20,11 @@ function GermanLearningHomePage() {
       description: "Improve confidence with Nominativ, Akkusativ, Dativ, and Genitiv in context.",
     },
     {
+      title: "German Cases Practice 400",
+      path: "/german-cases-practice",
+      description: "Work through all sections from the 400-question German cases practice document.",
+    },
+    {
       title: "Einbürgerung Vocabulary",
       path: "/VocabularyPage",
       description: "Build key vocabulary linked to Einbürgerungstest topics and everyday communication.",

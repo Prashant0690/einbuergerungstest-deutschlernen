@@ -35,6 +35,7 @@ import EinbuergerungSprachSprintPage from "./pages/EinbuergerungSprachSprintPage
 import GermanLanguageSprintPage from "./pages/GermanLanguageSprintPage";
 import GermanGrammarPage from "./pages/GermanGrammarPage";
 import GermanCasesMasterPage from "./pages/GermanCasesMasterPage";
+import GermanCasesPracticePage from "./pages/GermanCasesPracticePage";
 
 
 function App() {
@@ -94,6 +95,7 @@ function App() {
             <Route path="/deutsch-sprint" element={<GermanLanguageSprintPage />} />
             <Route path="/german-grammar" element={<GermanGrammarPage />} />
             <Route path="/german-cases" element={<GermanCasesMasterPage />} />
+            <Route path="/german-cases-practice" element={<GermanCasesPracticePage />} />
           </Routes>
         </div>
 

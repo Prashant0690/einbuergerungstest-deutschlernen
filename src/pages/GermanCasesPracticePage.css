@@ -1,0 +1,160 @@
+.cases-practice-page {
+  max-width: 1180px;
+  margin: 0 auto 2rem;
+  color: #1f354b;
+}
+
+.cases-practice-hero {
+  padding: 2.75rem 1.5rem;
+  text-align: center;
+  background: linear-gradient(135deg, #edf5ff, #f8f7ff);
+  border-radius: 1rem;
+}
+
+.cases-practice-hero h1 {
+  color: #123a63;
+}
+
+.cases-practice-loading {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.cases-practice-card {
+  border: 1px solid #d5e3f1;
+  box-shadow: 0 0.2rem 0.7rem rgba(18, 58, 99, 0.06);
+}
+
+.cases-practice-switch {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cases-practice-pre {
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: #1f354b;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.qa-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.qa-card,
+.prompt-card {
+  border: 1px solid #d5e3f1;
+}
+
+.qa-prompt {
+  margin-bottom: 0.6rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.section-one-prompt {
+  font-weight: 400;
+}
+
+.section-one-number {
+  color: #1264a3;
+  font-weight: 700;
+  margin-right: 0.25rem;
+}
+
+.qa-answer,
+.qa-reveal,
+.prompt-details {
+  border-top: 1px solid #d5e3f1;
+  margin-top: 0.65rem;
+  padding-top: 0.65rem;
+}
+
+.qa-reveal summary {
+  color: #1264a3;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.qa-answer-text {
+  line-height: 1.5;
+}
+
+.qa-note {
+  margin-top: 0.6rem;
+  padding-top: 0.6rem;
+  border-top: 1px dashed #d5e3f1;
+  color: #3f4e5f;
+}
+
+.prompt-list {
+  display: grid;
+  gap: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.source-note {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.cases-subcategory-accordion .accordion-item {
+  border: 1px solid #c9dff3;
+  border-radius: 0.6rem;
+  overflow: hidden;
+  box-shadow: 0 0.15rem 0.45rem rgba(18, 58, 99, 0.06);
+}
+
+.cases-subcategory-accordion .accordion-item + .accordion-item {
+  margin-top: 0.9rem;
+}
+
+.cases-subcategory-accordion .accordion-button {
+  font-weight: 700;
+  color: #123a63;
+  background: #f8fbff;
+}
+
+.cases-subcategory-accordion .accordion-button:not(.collapsed) {
+  color: #123a63;
+  background: #edf5ff;
+  box-shadow: none;
+}
+
+.cases-subcategory-accordion .accordion-body {
+  background: #fff;
+}
+
+.cases-subcategory-info {
+  margin-bottom: 1rem;
+  background: #f8fbff;
+  border: 1px solid #d5e3f1;
+  border-radius: 0.5rem;
+  padding: 0.85rem;
+}
+
+.cases-part-card {
+  border: 1px solid #d5e3f1;
+  box-shadow: 0 0.15rem 0.45rem rgba(18, 58, 99, 0.06);
+}
+
+.cases-part-card + .cases-part-card {
+  margin-top: 1rem;
+}
+
+@media (max-width: 767.98px) {
+  .cases-practice-hero {
+    padding: 2rem 1rem;
+  }
+
+  .cases-practice-hero h1 {
+    font-size: 1.7rem;
+  }
+}

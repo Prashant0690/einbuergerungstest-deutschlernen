@@ -213,6 +213,16 @@ function Header() {
               Cases Master
             </NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink
+              className={`nav-link ${
+                location.pathname === "/german-cases-practice" ? "active-link" : ""
+              }`}
+              to="/german-cases-practice"
+            >
+              Cases Practice 400
+            </NavLink>
+          </li>
         </ul>
       )}
     </div>

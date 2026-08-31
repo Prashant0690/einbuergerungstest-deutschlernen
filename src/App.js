@@ -23,6 +23,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import CitizenshipTestHomePage from "./pages/CitizenshipTestHomePage";
 import GermanLearningHomePage from "./pages/GermanLearningHomePage";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 import LearningPage from "./pages/LearningPage";
 import Header from "./components/Header";
 import VocabularyPage from "./pages/VocabularyPage";
@@ -36,6 +37,8 @@ import GermanLanguageSprintPage from "./pages/GermanLanguageSprintPage";
 import GermanGrammarPage from "./pages/GermanGrammarPage";
 import GermanCasesMasterPage from "./pages/GermanCasesMasterPage";
 import GermanCasesPracticePage from "./pages/GermanCasesPracticePage";
+import GermanModalVerbsPage from "./pages/GermanModalVerbsPage";
+import GermanWhQuestionsPage from "./pages/GermanWhQuestionsPage";
 
 
 function App() {
@@ -65,7 +68,7 @@ function App() {
 
   return (
     <Router basename="/einbuergerungstest-deutschlernen">
-      <div className="d-flex flex-column min-vh-100">
+      <div className="app-shell d-flex flex-column min-vh-100">
         {/* Legal Notice Modal */}
         <LegalNoticeModal show={showLegalNotice} onAgree={handleAgree} />
 
@@ -73,7 +76,7 @@ function App() {
         <Header />
 
         {/* Main content */}
-        <div className="container mt-4 flex-grow-1">
+        <main className="app-main flex-grow-1">
           <Routes>
             <Route path="/" element={<CitizenshipTestHomePage />} />
             <Route path="/VocabularyPage" element={<VocabularyPage />} />
@@ -96,8 +99,10 @@ function App() {
             <Route path="/german-grammar" element={<GermanGrammarPage />} />
             <Route path="/german-cases" element={<GermanCasesMasterPage />} />
             <Route path="/german-cases-practice" element={<GermanCasesPracticePage />} />
+            <Route path="/german-modal-verbs" element={<GermanModalVerbsPage />} />
+            <Route path="/german-wh-questions" element={<GermanWhQuestionsPage />} />
           </Routes>
-        </div>
+        </main>
 
         {/* Footer with language toggle */}
         <Footer

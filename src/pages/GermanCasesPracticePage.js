@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Accordion, Alert, Button, Card, Form, Nav, Spinner } from "react-bootstrap";
+import GermanRoleLegend from "../components/GermanRoleLegend";
 import "./GermanCasesPracticePage.css";
 
 const DATA_URL = `${process.env.PUBLIC_URL || ""}/data/German_Cases_400_Practice_Questions.txt`;
@@ -25,6 +26,26 @@ const ONE_SENTENCE_SECTION = {
     "in einem großen Kaufhaus → Dativ because it's Wo?",
     "den → Akkusativ relative pronoun because it refers to the coat being bought",
   ],
+};
+
+const ONE_SENTENCE_TOKENS = {
+  english: [
+    "Because of the bad weather",
+    "my new German colleague",
+    "gives",
+    "his little son",
+    "a warm coat",
+    "of the department store",
+  ],
+  german: [
+    "Wegen des schlechten Wetters",
+    "mein neuer deutscher Kollege",
+    "gibt",
+    "seinem kleinen Sohn",
+    "einen warmen Mantel",
+    "des Kaufhauses",
+  ],
+  roles: ["case-gen", "case-nom", "case-verb", "case-dat", "case-acc", "case-gen"],
 };
 
 const BILINGUAL_ROW_REGEX = /^(\d+)\s*\|\s*(.+?)\s*\|\s*(.+?)\s*$/;
@@ -167,6 +188,14 @@ function parseSectionGroups(sectionBody) {
   });
 }
 
+function renderRoleSentence(parts, roles, prefix) {
+  return parts.map((part, index) => (
+    <span className={`sentence-token ${roles[index]}`} key={`${prefix}-${index}`}>
+      {part}
+    </span>
+  ));
+}
+
 function parseDocument(content) {
   if (!content) {
     return { intro: "", sections: [] };
@@ -291,6 +320,10 @@ function GermanCasesPracticePage() {
 
       {!loading && !error && (
         <>
+          <p className="mt-4 mb-2 text-muted">
+            Read the English sentence first and identify each role. Reveal the German and rules only when you are ready to check your answer.
+          </p>
+          <GermanRoleLegend />
           <div className="cases-practice-switch mt-4">
             <Form.Check
               id="show-all-cases-practice-answers"
@@ -328,14 +361,31 @@ function GermanCasesPracticePage() {
                     <Card className="cases-part-card">
                       <Card.Body>
                         <h3 className="cases-subcategory-title">{section.subtitle}</h3>
-                        <p className="qa-prompt section-one-prompt">{section.german}</p>
-                        <p className="qa-answer-text">{section.english}</p>
-                        <div className="prompt-details">
-                          <p className="mb-2"><strong>Breakdown:</strong></p>
-                          {section.breakdown.map((line) => (
-                            <p className="mb-1" key={line}>{line}</p>
-                          ))}
-                        </div>
+                        <p className="qa-prompt section-one-prompt">
+                          {renderRoleSentence(ONE_SENTENCE_TOKENS.english, ONE_SENTENCE_TOKENS.roles, "one-en")}
+                        </p>
+                        {showAllAnswers ? (
+                          <div className="prompt-details">
+                            <p className="qa-answer-text mb-2">
+                              {renderRoleSentence(ONE_SENTENCE_TOKENS.german, ONE_SENTENCE_TOKENS.roles, "one-de")}
+                            </p>
+                            <p className="mb-2"><strong>Breakdown:</strong></p>
+                            {section.breakdown.map((line) => (
+                              <p className="mb-1" key={line}>{line}</p>
+                            ))}
+                          </div>
+                        ) : (
+                          <details className="qa-reveal">
+                            <summary>Show German answer and breakdown</summary>
+                            <p className="qa-answer-text mt-2 mb-2">
+                              {renderRoleSentence(ONE_SENTENCE_TOKENS.german, ONE_SENTENCE_TOKENS.roles, "one-de")}
+                            </p>
+                            <p className="mb-2"><strong>Breakdown:</strong></p>
+                            {section.breakdown.map((line) => (
+                              <p className="mb-1" key={line}>{line}</p>
+                            ))}
+                          </details>
+                        )}
                       </Card.Body>
                     </Card>
                   )}

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button, Card, Col, Nav, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import GermanRoleLegend from "../components/GermanRoleLegend";
 import "./GermanGrammarPage.css";
 
 const grammarTopics = [
@@ -72,14 +73,56 @@ const grammarTopics = [
   },
 ];
 
+const sentenceExamplesByTopic = {
+  sentence: {
+    english: ["I", "am learning", "German"],
+    german: ["Ich", "lerne", "Deutsch"],
+    roles: ["case-nom", "case-verb", "case-acc"],
+  },
+  cases: {
+    english: ["The man", "gives", "the child", "the ball"],
+    german: ["Der Mann", "gibt", "dem Kind", "den Ball"],
+    roles: ["case-nom", "case-verb", "case-dat", "case-acc"],
+  },
+  gender: {
+    english: ["The book", "lies", "on the table"],
+    german: ["Das Buch", "liegt", "auf dem Tisch"],
+    roles: ["case-nom", "case-verb", "case-dat"],
+  },
+  tenses: {
+    english: ["I", "visited", "my friend"],
+    german: ["Ich", "habe besucht", "meine Freundin"],
+    roles: ["case-nom", "case-verb", "case-acc"],
+  },
+  questions: {
+    english: ["Why", "are not studying", "you", "today"],
+    german: ["Warum", "lernst", "du", "heute nicht"],
+    roles: ["case-verb", "case-verb", "case-nom", "case-acc"],
+  },
+  subordinate: {
+    english: ["I", "am staying", "at home", "because of the rain"],
+    german: ["Ich", "bleibe", "zu Hause", "wegen des Regens"],
+    roles: ["case-nom", "case-verb", "case-dat", "case-gen"],
+  },
+};
+
+function renderRoleSentence(parts, roles, keyPrefix) {
+  return parts.map((part, index) => (
+    <span className={`sentence-token ${roles[index]}`} key={`${keyPrefix}-${index}`}>
+      {part}
+    </span>
+  ));
+}
+
 function GermanGrammarPage() {
   const [selectedTopicId, setSelectedTopicId] = useState(grammarTopics[0].id);
-  const [showTranslation, setShowTranslation] = useState(false);
+  const [showGermanAnswer, setShowGermanAnswer] = useState(false);
   const selectedTopic = grammarTopics.find((topic) => topic.id === selectedTopicId);
+  const selectedSentenceExample = sentenceExamplesByTopic[selectedTopicId];
 
   const selectTopic = (topicId) => {
     setSelectedTopicId(topicId);
-    setShowTranslation(false);
+    setShowGermanAnswer(false);
   };
 
   return (
@@ -127,21 +170,40 @@ function GermanGrammarPage() {
                 {selectedTopic.pattern}
               </div>
 
+              <p className="mb-2 text-muted fw-semibold">
+                Read the English sentence first and identify each role.
+              </p>
+              <GermanRoleLegend />
               <div className="grammar-example">
-                <p className="mb-1 text-muted">Say it out loud</p>
-                <p className="grammar-german mb-2">{selectedTopic.example.german}</p>
-                {showTranslation && (
-                  <p className="grammar-translation mb-0">
-                    {selectedTopic.example.english}
-                  </p>
+                <p className="mb-1 text-muted">Practice sentence (English first)</p>
+                <p className="grammar-translation mb-2">
+                  {renderRoleSentence(
+                    selectedSentenceExample.english,
+                    selectedSentenceExample.roles,
+                    `${selectedTopic.id}-en`
+                  )}
+                </p>
+                {showGermanAnswer && (
+                  <>
+                    <p className="grammar-german mb-2">
+                      {renderRoleSentence(
+                        selectedSentenceExample.german,
+                        selectedSentenceExample.roles,
+                        `${selectedTopic.id}-de`
+                      )}
+                    </p>
+                    <p className="mb-0">
+                      <strong>Rule check:</strong> {selectedTopic.rule}
+                    </p>
+                  </>
                 )}
                 <Button
                   variant="outline-primary"
                   size="sm"
                   className="mt-3"
-                  onClick={() => setShowTranslation((visible) => !visible)}
+                  onClick={() => setShowGermanAnswer((visible) => !visible)}
                 >
-                  {showTranslation ? "Hide translation" : "Show translation"}
+                  {showGermanAnswer ? "Hide German answer and rule check" : "Show German answer and rule check"}
                 </Button>
               </div>
 

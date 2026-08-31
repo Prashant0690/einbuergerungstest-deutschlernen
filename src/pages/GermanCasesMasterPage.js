@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Accordion, Button, Card, Col, Form, Nav, Row, Table } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import GermanRoleLegend from "../components/GermanRoleLegend";
 import "./GermanCasesMasterPage.css";
 
 const cases = [
@@ -417,14 +418,7 @@ function GermanCasesMasterPage() {
       <section id="sentences" className="cases-section">
         <h2>Practice sentences and reference examples</h2>
         <p>Read the English sentence first and identify each role. Reveal the German and rules only when you are ready to check your answer.</p>
-        <div className="case-colour-legend" aria-label="Sentence colour key">
-          <span className="case-nom">Blue: subject / nominative</span>
-          <span className="case-verb">Teal: verb / action</span>
-          <span className="case-dat">Purple: receiver / dative</span>
-          <span className="case-acc">Green: direct object / accusative</span>
-          <span className="case-gen">Maroon: possession / genitive</span>
-          <span className="case-adjective">Gold: adjective / ending</span>
-        </div>
+        <GermanRoleLegend />
         <div className="practice-toolbar">
           <Nav variant="pills" className="complexity-tabs" aria-label="Sentence complexity">
             <Nav.Item><Nav.Link active={activeComplexity === "simple"} onClick={() => selectComplexity("simple")}>Simple sentences</Nav.Link></Nav.Item>

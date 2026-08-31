@@ -22,7 +22,7 @@ import React from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { useQuizContext } from "../context/QuizContext";
 import { statesList } from "../data/content";
-import { Navbar, Form, Container, Button } from "react-bootstrap";
+import { Navbar, Form, Container, Button, Nav } from "react-bootstrap";
 import "./Header.css";
 
 function Header() {
@@ -46,36 +46,61 @@ function Header() {
   const isGermanLearningSection =
     location.pathname.startsWith("/german-") || location.pathname === "/deutsch-sprint";
 
+  const citizenshipLinks = [
+    { to: "/", label: "Home" },
+    { to: "/general-questions", label: "General 300 Questions" },
+    { to: "/state-questions", label: "State Questions", requiresState: true },
+    { to: "/quiz-selection", label: "Exam Simulation" },
+    { to: "/VocabularyPage", label: "Essential Vocabulary" },
+    { to: "/learningPage", label: "Key Topics Overview" },
+    { to: "/einbuergerung-sprachsprint", label: "Einbürgerung SprachSprint" },
+  ];
+
+  const germanLinks = [
+    { to: "/german-learning", label: "Home" },
+    { to: "/german-flashcard-sprint", label: "Conversational Flashcard Sprint" },
+    { to: "/german-grammar", label: "Grammar Quick Reference" },
+    { to: "/german-cases", label: "Cases Master" },
+    { to: "/german-modal-verbs", label: "Modal Verbs Master" },
+    { to: "/german-wh-questions", label: "WH Questions Master" },
+    { to: "/german-cases-practice", label: "Cases Practice 400" },
+  ];
+
+  const activeLinks = isGermanLearningSection ? germanLinks : citizenshipLinks;
+
   return (
-    <div>
-      <Navbar bg="light" variant="light" expand="lg" className="top-navbar">
+    <header className="app-header">
+      <Navbar expand="lg" className="top-navbar">
         <Container>
-          <Navbar.Brand as={NavLink} to="/" className="app-brand">
-            <strong>Einbürgerungstest und Deutschlernen</strong>
+          <Navbar.Brand as={NavLink} to="/" className="app-brand d-flex flex-column">
+            <span className="brand-kicker">Study Companion</span>
+            <strong>Einbürgerungstest & Deutschlernen</strong>
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="navbarNav" />
-          <Navbar.Collapse id="navbarNav" className="justify-content-center">
-            <Button
-              variant={!isGermanLearningSection ? "warning" : "outline-light"}
-              className="me-2"
-              onClick={handleEinbuergerungstestClick}
-            >
-              Citizenship Test
-            </Button>
-            <Button
-              variant={isGermanLearningSection ? "warning" : "outline-light"}
-              onClick={handleDeutschlernenClick}
-            >
-              German Learning
-            </Button>
+          <Navbar.Collapse id="navbarNav" className="align-items-center">
+            <div className="mode-switch mx-lg-auto">
+              <Button
+                variant={!isGermanLearningSection ? "primary" : "outline-primary"}
+                className="mode-switch-btn"
+                onClick={handleEinbuergerungstestClick}
+              >
+                Citizenship Prep
+              </Button>
+              <Button
+                variant={isGermanLearningSection ? "primary" : "outline-primary"}
+                className="mode-switch-btn"
+                onClick={handleDeutschlernenClick}
+              >
+                German Learning & Support
+              </Button>
+            </div>
 
-            <Form className="d-flex ms-auto">
+            <Form className="d-flex ms-lg-auto state-select-wrap">
               <Form.Select
                 value={bundesland}
                 onChange={handleStateChange}
                 className="form-select state-select"
-                style={{ maxWidth: "200px" }}
               >
                 <option value="">Select a state...</option>
                 {statesList.map((state) => (
@@ -89,143 +114,34 @@ function Header() {
         </Container>
       </Navbar>
 
-      {!isGermanLearningSection && (
-        <ul className="nav justify-content-center bg-light py-3 section-nav">
-          <li className="nav-item">
-            <NavLink
-              className={`nav-link ${
-                location.pathname === "/" ? "active-link" : ""
-              }`}
-              to="/"
-            >
-              Home
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              className={`nav-link ${
-                location.pathname === "/general-questions" ? "active-link" : ""
-              }`}
-              to="/general-questions"
-            >
-              General 300 Questions
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              className={`nav-link ${
-                location.pathname === "/state-questions" ? "active-link" : ""
-              } ${!bundesland ? "disabled-state-link" : ""}`}
-              to={bundesland ? "/state-questions" : "#"}
-              aria-disabled={!bundesland}
-              onClick={(event) => {
-                if (!bundesland) {
-                  event.preventDefault();
-                }
-              }}
-            >
-              State Questions
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              className={`nav-link ${
-                location.pathname === "/quiz-selection" ? "active-link" : ""
-              }`}
-              to="/quiz-selection"
-            >
-              Quiz
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              className={`nav-link ${
-                location.pathname === "/VocabularyPage" ? "active-link" : ""
-              }`}
-              to="/VocabularyPage"
-            >
-              Essential Vocabulary
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              className={`nav-link ${
-                location.pathname === "/learningPage" ? "active-link" : ""
-              }`}
-              to="/learningPage"
-            >
-              Key Topics Overview
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              className={`nav-link ${
-                location.pathname === "/einbuergerung-sprachsprint" ? "active-link" : ""
-              }`}
-              to="/einbuergerung-sprachsprint"
-            >
-              Einbürgerung SprachSprint
-            </NavLink>
-          </li>
-        </ul>
-      )}
-      {isGermanLearningSection && (
-        <ul className="nav justify-content-center bg-light py-3 section-nav">
-          <li className="nav-item">
-            <NavLink
-              className={`nav-link ${
-                location.pathname === "/german-learning" ? "active-link" : ""
-              }`}
-              to="/german-learning"
-            >
-              Home
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              className={`nav-link ${
-              location.pathname === "/german-flashcard-sprint" || location.pathname === "/deutsch-sprint"
-                ? "active-link"
-                : ""
-              }`}
-            to="/german-flashcard-sprint"
-            >
-              Conversational Flashcard Sprint
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              className={`nav-link ${
-                location.pathname === "/german-grammar" ? "active-link" : ""
-              }`}
-              to="/german-grammar"
-            >
-              Grammar Quick Reference
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              className={`nav-link ${
-                location.pathname === "/german-cases" ? "active-link" : ""
-              }`}
-              to="/german-cases"
-            >
-              Cases Master
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              className={`nav-link ${
-                location.pathname === "/german-cases-practice" ? "active-link" : ""
-              }`}
-              to="/german-cases-practice"
-            >
-              Cases Practice 400
-            </NavLink>
-          </li>
-        </ul>
-      )}
-    </div>
+      <nav className="section-nav">
+        <Container>
+          <Nav className="section-nav-links">
+            {activeLinks.map((link) => (
+              <NavLink
+                key={link.to}
+                className={`nav-link ${
+                  (link.to === "/german-flashcard-sprint" &&
+                    (location.pathname === "/german-flashcard-sprint" || location.pathname === "/deutsch-sprint")) ||
+                  location.pathname === link.to
+                    ? "active-link"
+                    : ""
+                } ${link.requiresState && !bundesland ? "disabled-state-link" : ""}`}
+                to={link.requiresState && !bundesland ? "#" : link.to}
+                aria-disabled={Boolean(link.requiresState && !bundesland)}
+                onClick={(event) => {
+                  if (link.requiresState && !bundesland) {
+                    event.preventDefault();
+                  }
+                }}
+              >
+                {link.label}
+              </NavLink>
+            ))}
+          </Nav>
+        </Container>
+      </nav>
+    </header>
   );
 }
 

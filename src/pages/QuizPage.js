@@ -48,7 +48,6 @@ const QuestionSection = ({
       <div
         key={question.id}
         className="mb-5 p-4 border rounded shadow-sm question-container"
-        style={{ backgroundColor: '#f8f9fa' }}
       >
         <h4 className="mb-3">Question {index + 1} of {TOTAL_QUESTIONS}</h4>
 
@@ -118,11 +117,11 @@ const ResultSection = ({
   <div className="mt-4">
     <div className="d-flex justify-content-between align-items-center mt-4">
       <h3 className="m-0">Quiz Results</h3>
-      <h3 className="results-summary">
-        <strong>Correct:</strong> {results.correct} &nbsp;|&nbsp;
-        <strong>Incorrect:</strong> {results.incorrect} &nbsp;|&nbsp;
-        <strong>Unattempted:</strong> {results.unattempted}
-      </h3>
+      <div className="results-summary d-flex gap-2 flex-wrap">
+        <span className="result-chip correct">Correct: {results.correct}</span>
+        <span className="result-chip incorrect">Incorrect: {results.incorrect}</span>
+        <span className="result-chip unanswered">Unattempted: {results.unattempted}</span>
+      </div>
 
       <button className="btn btn-warning" onClick={handleResetQuiz}>
         New Quiz
@@ -145,7 +144,6 @@ const ResultSection = ({
           <div
             key={question.id}
             className="mb-5 p-4 border rounded shadow-sm question-container"
-            style={{ backgroundColor: '#f8f9fa' }}
           >
             <h4 className="mb-3">
               Question {index + 1} of {TOTAL_QUESTIONS} -{" "}
@@ -364,8 +362,10 @@ function QuizPage() {
 
   return (
     <div className="container mt-4">
-      <h2 className="text-center">Quiz</h2>
-      <p className="text-center">Selected State: {bundesland}</p>
+      <div className="home-hero text-center mb-4">
+        <h2 className="mb-2">Exam simulation</h2>
+        <p className="mb-0">Selected state: {bundesland}</p>
+      </div>
 
       {!showScore ? (
         <QuestionSection

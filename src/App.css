@@ -1,0 +1,239 @@
+:root {
+  --bg: #f4f7ff;
+  --surface: #ffffff;
+  --surface-alt: #f9fbff;
+  --border: #dbe4f4;
+  --text: #0f1d34;
+  --muted: #55637d;
+  --brand: #2355d8;
+  --brand-strong: #183da5;
+  --accent: #ffc857;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #eef3ff 0%, var(--bg) 55%, #edf2ff 100%);
+  color: var(--text);
+  font-family: "Inter", "Segoe UI", Roboto, system-ui, -apple-system, sans-serif;
+}
+
+a {
+  color: var(--brand);
+}
+
+a:hover {
+  color: var(--brand-strong);
+}
+
+.app-shell {
+  color: var(--text);
+}
+
+.app-main {
+  width: min(1200px, 100%);
+  margin: 0 auto;
+  padding: 1.5rem 0 2.5rem;
+}
+
+.app-main > .container {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  box-shadow: 0 16px 45px rgba(24, 61, 165, 0.08);
+  padding: 1.3rem 1.2rem;
+}
+
+.home-hero {
+  background: linear-gradient(145deg, #edf2ff 0%, #ffffff 60%);
+  border: 1px solid #d7e3ff;
+  border-radius: 22px;
+  padding: 2.5rem 1.5rem;
+}
+
+.exam-highlight-card,
+.topic-card,
+.quick-link-card {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: 0 10px 24px rgba(16, 42, 112, 0.06);
+}
+
+.quick-link-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.quick-link-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 28px rgba(16, 42, 112, 0.12);
+}
+
+.learning-path-card {
+  background: linear-gradient(155deg, #ffffff 0%, #f3f7ff 100%);
+  border: 1px solid #d5e0fb;
+  border-radius: 18px;
+  box-shadow: 0 14px 30px rgba(26, 68, 180, 0.08);
+}
+
+.path-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #5b6f95;
+  font-size: 0.74rem;
+  font-weight: 700;
+}
+
+.support-surface {
+  border: 1px solid #d5e0fb;
+  border-radius: 20px;
+  background: linear-gradient(160deg, #f8faff 0%, #eef4ff 100%);
+}
+
+.btn {
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: var(--brand);
+  border-color: var(--brand);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--brand-strong);
+  border-color: var(--brand-strong);
+}
+
+.btn-warning {
+  color: #1e1e1e;
+}
+
+.pagination .page-link {
+  border-radius: 10px;
+  margin: 0 2px;
+  border: 1px solid var(--border);
+  color: var(--brand);
+}
+
+.pagination .page-item.active .page-link {
+  background-color: var(--brand);
+  border-color: var(--brand);
+}
+
+.list-group-item {
+  border-color: var(--border);
+}
+
+.question-container {
+  border-radius: 16px !important;
+  border-color: var(--border) !important;
+  background: var(--surface-alt) !important;
+  box-shadow: 0 10px 26px rgba(19, 57, 155, 0.06);
+}
+
+.question-view {
+  background: #f9fbff;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 1rem;
+}
+
+.option-label {
+  gap: 0.35rem;
+}
+
+.role-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 1rem 0;
+}
+
+.role-chip {
+  display: inline-block;
+  padding: 0.22rem 0.62rem;
+  border-radius: 999px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.84rem;
+}
+
+.result-chip {
+  display: inline-block;
+  font-size: 0.86rem;
+  border-radius: 999px;
+  padding: 0.28rem 0.72rem;
+  border: 1px solid var(--border);
+  background: #f6f8ff;
+  color: var(--muted);
+}
+
+.result-chip.correct {
+  color: #1f7a3d;
+  border-color: #b8e2c8;
+  background: #edfbf2;
+}
+
+.result-chip.incorrect {
+  color: #b03a3a;
+  border-color: #f3c0c0;
+  background: #fff1f1;
+}
+
+.result-chip.unanswered {
+  color: #5f6f8d;
+}
+
+.sentence-token.case-nom,
+.role-chip.case-nom {
+  background: #1264a3;
+  color: #fff;
+}
+
+.sentence-token.case-verb,
+.role-chip.case-verb {
+  background: #087e8b;
+  color: #fff;
+}
+
+.sentence-token.case-dat,
+.role-chip.case-dat {
+  background: #6c3db4;
+  color: #fff;
+}
+
+.sentence-token.case-acc,
+.role-chip.case-acc {
+  background: #177744;
+  color: #fff;
+}
+
+.sentence-token.case-gen,
+.role-chip.case-gen {
+  background: #8c3148;
+  color: #fff;
+}
+
+.sentence-token {
+  display: inline-block;
+  margin: 0.15rem 0.3rem 0.15rem 0;
+  padding: 0.12rem 0.45rem;
+  border-radius: 0.3rem;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .app-main {
+    padding: 1rem 0 2rem;
+  }
+
+  .app-main > .container {
+    border-radius: 18px;
+    padding: 1rem 0.9rem;
+  }
+
+  .home-hero {
+    padding: 1.75rem 1rem;
+  }
+}

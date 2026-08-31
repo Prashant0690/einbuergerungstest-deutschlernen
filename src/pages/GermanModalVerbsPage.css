@@ -1,0 +1,116 @@
+.modal-master-page {
+  max-width: 1180px;
+  margin: 0 auto 2rem;
+  color: #1f354b;
+}
+
+.cases-eyebrow {
+  margin-bottom: 0.5rem;
+  color: #1264a3;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.cases-jump-nav {
+  display: flex;
+  justify-content: center;
+  gap: 0.25rem;
+  margin: 1rem 0 2rem;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.cases-jump-nav .nav-link {
+  color: #245278;
+  font-weight: 600;
+}
+
+.cases-section {
+  padding-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.modal-master-hero {
+  padding: 2.75rem 1.5rem;
+  text-align: center;
+  background: linear-gradient(135deg, #edf5ff, #f8f7ff);
+  border-radius: 1rem;
+}
+
+.grammar-topic-card,
+.grammar-lesson-card,
+.preposition-card,
+.case-tip {
+  border: 1px solid #d5e3f1;
+  box-shadow: 0 0.25rem 1rem rgba(18, 58, 99, 0.08);
+}
+
+.grammar-topic-list {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.grammar-topic-list .nav-link {
+  color: #284866;
+  cursor: pointer;
+  padding: 0.7rem 0.8rem;
+}
+
+.grammar-topic-list .nav-link.active {
+  background-color: #1264a3;
+}
+
+.cases-table th {
+  background: #123a63;
+  color: #fff;
+}
+
+.practice-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1.25rem 0;
+  padding: 1rem;
+  background: #f8fbff;
+  border: 1px solid #d5e3f1;
+  border-radius: 0.5rem;
+}
+
+.practice-sentence-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.practice-sentence {
+  border: 1px solid #d5e3f1;
+}
+
+.practice-language {
+  line-height: 2.1;
+}
+
+.practice-answer,
+.practice-reveal {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #d5e3f1;
+}
+
+.practice-reveal summary {
+  color: #1264a3;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+@media (max-width: 767.98px) {
+  .modal-master-hero {
+    padding: 2rem 1rem;
+  }
+
+  .modal-master-hero h1 {
+    font-size: 2rem;
+  }
+}

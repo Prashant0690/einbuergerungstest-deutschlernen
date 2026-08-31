@@ -187,10 +187,15 @@ function GeneralQuestionsPage() {
 
   return (
     <div className="container mt-4">
+      <div className="home-hero text-center mb-4">
+        <h2 className="mb-2">General question trainer</h2>
+        <p className="mb-0">Practice all 300 official-style general questions with saved progress.</p>
+      </div>
+
       {/* Pagination at the top center */}
       {!isRandomMode && <div className="mb-2 d-flex justify-content-center">{renderPagination()}</div>}
 
-      <div className="d-flex justify-content-between align-items-center mb-4">
+      <div className="d-flex flex-wrap justify-content-between align-items-center gap-3 mb-4">
         <div className="d-flex align-items-center">
           {/* Show Previous button only if not in random mode */}
           {!isRandomMode && (
@@ -213,7 +218,7 @@ function GeneralQuestionsPage() {
         <h2>
           Question {currentQuestionIndex + 1} of {questions.length}
         </h2>
-        <div className="d-flex align-items-center">
+        <div className="d-flex align-items-center flex-wrap gap-2">
           <button
             className={`btn btn-${isRandomMode ? 'warning' : 'light'} btn-sm me-2`}
             onClick={handleRandomMode}

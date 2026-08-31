@@ -39,7 +39,7 @@ function UnansweredQuestionComponent({ question, showDetails = false, setSelecte
   };
 
   return (
-    <div className="container mt-4">
+    <div className="question-view mt-4">
       <div className="row">
         <div className="col-md-6">
           {/* Display the question text */}
@@ -58,21 +58,23 @@ function UnansweredQuestionComponent({ question, showDetails = false, setSelecte
           {/* Display the answer options */}
           <ul className="list-group mt-3">
             {question.options.map((option, index) => (
-              <li key={index} className="list-group-item d-flex align-items-center">
-                <input
-                  type="radio"
-                  name={`option-${question.id}`}
-                  value={index}
-                  checked={selectedOptionIndex === index}
-                  onChange={() => handleOptionChange(index)}
-                  disabled={selectedOptionIndex !== null} // Disable after selection
-                  className="me-2"
-                />
-                <span className="me-2">{option.germanOption}</span>
-                <FaVolumeUp
-                  onClick={() => handleSpeak(option.germanOption)}
-                  style={{ cursor: "pointer" }}
-                />
+              <li key={index} className="list-group-item">
+                <label className="d-flex align-items-center mb-0 w-100 option-label">
+                  <input
+                    type="radio"
+                    name={`option-${question.id}`}
+                    value={index}
+                    checked={selectedOptionIndex === index}
+                    onChange={() => handleOptionChange(index)}
+                    disabled={selectedOptionIndex !== null}
+                    className="me-2"
+                  />
+                  <span className="me-2 flex-grow-1">{option.germanOption}</span>
+                  <FaVolumeUp
+                    onClick={() => handleSpeak(option.germanOption)}
+                    style={{ cursor: "pointer" }}
+                  />
+                </label>
                 {showDetails && option.englishOption && (
                   <span className="text-muted ms-2">({option.englishOption})</span>
                 )}

@@ -167,9 +167,14 @@ function StateQuestionsPage() {
 
   return (
     <div className="container mt-4">
+      <div className="home-hero text-center mb-4">
+        <h2 className="mb-2">State question trainer</h2>
+        <p className="mb-0">Focus on the 10 regional questions for {bundesland}.</p>
+      </div>
+
       {/* Render Pagination */}
       <div className="mb-2 d-flex justify-content-center">{renderPagination()}</div>
-      <div className="d-flex justify-content-between align-items-center mb-4">
+      <div className="d-flex flex-wrap justify-content-between align-items-center gap-3 mb-4">
         <div className="d-flex align-items-center">
           <button
             className="btn btn-outline-primary btn-sm me-2"
@@ -189,7 +194,7 @@ function StateQuestionsPage() {
         <h2>
           Question {currentQuestionIndex + 1} of {questions.length}
         </h2>
-        <div className="d-flex align-items-center">
+        <div className="d-flex align-items-center flex-wrap gap-2">
           <button
             className={`btn btn-${isAnswered ? 'warning' : showEnglish ? 'warning' : 'light'} btn-sm`}
             onClick={() => setShowEnglish(!showEnglish)}

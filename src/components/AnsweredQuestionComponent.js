@@ -38,7 +38,7 @@ function AnsweredQuestionComponent({ answerData }) {
   };
 
   return (
-    <div className="container mt-4">
+    <div className="question-view mt-4">
       <div className="row">
         <div className="col-md-6">
           {/* Display the question text */}
@@ -69,8 +69,8 @@ function AnsweredQuestionComponent({ answerData }) {
                     : ''
                 }`}
               >
-                <div className="d-flex align-items-center">
-                  <span className="me-2">{option.germanOption}</span>
+                <div className="d-flex align-items-center option-label">
+                  <span className="me-2 flex-grow-1">{option.germanOption}</span>
                   <FaVolumeUp
                     onClick={() => handleSpeak(option.germanOption)}
                     style={{ cursor: 'pointer' }}

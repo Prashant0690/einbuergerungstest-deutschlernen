@@ -23,76 +23,111 @@ import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 
 function CitizenshipTestHomePage() {
+  const pathways = [
+    {
+      title: "Foundation learning",
+      description: "Build understanding first with key topics and essential vocabulary in short sessions.",
+      cta: "Start foundations",
+      path: "/learningPage",
+    },
+    {
+      title: "Exam training",
+      description: "Move to question banks and simulation mode once you are ready for test pressure.",
+      cta: "Start training",
+      path: "/general-questions",
+    },
+  ];
+
   const topicCards = [
     {
       title: "History",
       description:
-        "Learn about major events in German history and their impact on society and democracy.",
+        "Major events in German history and their impact on society and democracy.",
     },
     {
       title: "Politics",
       description:
-        "Understand federal institutions, constitutional principles, elections, and civic participation.",
+        "Federal institutions, constitutional principles, elections, and civic participation.",
     },
     {
       title: "Society and Culture",
       description:
-        "Explore values, diversity, social life, and integration topics relevant for daily life in Germany.",
+        "Values, diversity, social life, and integration topics for daily life in Germany.",
     },
     {
       title: "Law and Rights",
       description:
-        "Study core rights and duties, legal protections, and important rules for residents and citizens.",
+        "Core rights and duties, legal protections, and important resident rules.",
     },
     {
       title: "Geography",
       description:
-        "Review German states, major cities, landscapes, and regional structure across the country.",
+        "German states, major cities, landscapes, and regional structure across the country.",
     },
     {
       title: "Economy",
       description:
-        "Build understanding of Germany's social market economy, jobs, and role in the EU.",
+        "Germany's social market economy, work life basics, and role in the EU.",
     },
     {
       title: "Symbols and Identity",
       description:
-        "Learn national symbols, democratic identity, historical memory, and civic traditions.",
+        "National symbols, democratic identity, historical memory, and civic traditions.",
     },
   ];
 
   return (
     <div className="container mt-4">
       <section className="home-hero text-center">
-        <p className="text-uppercase fw-semibold text-primary mb-2">Einbürgerungstest Preparation</p>
-        <h1 className="display-5 fw-bold mb-3">Learn smarter for the German citizenship test</h1>
+        <p className="text-uppercase fw-semibold text-primary mb-2">Citizenship preparation hub</p>
+        <h1 className="display-5 fw-bold mb-3">Learn, practice, and pass with a clear study path</h1>
         <p className="lead mb-0">
-          Practice with official-style questions, state-specific content, and focused learning resources in one place.
+          A modern learning experience designed for structured exam prep and steady progress.
         </p>
       </section>
 
+      <section className="mt-4">
+        <div className="row g-3">
+          {pathways.map((pathway) => (
+            <div key={pathway.title} className="col-md-6">
+              <div className="learning-path-card p-4 h-100">
+                <p className="path-kicker mb-2">Pathway</p>
+                <h2 className="h4">{pathway.title}</h2>
+                <p className="mb-3">{pathway.description}</p>
+                <Link className="btn btn-primary btn-sm" to={pathway.path}>
+                  {pathway.cta} <FaArrowRight className="ms-2" />
+                </Link>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <section className="mt-5">
-        <h2 className="text-center mb-4">Official Test Format</h2>
+        <h2 className="text-center mb-4">Exam format</h2>
         <div className="row g-3">
           <div className="col-md-4">
-            <div className="exam-highlight-card p-4 h-100">
-              <h3 className="h5">Question pool</h3>
+            <div className="exam-highlight-card p-4 h-100 text-center">
+              <h3 className="h1 fw-bold text-primary mb-1">300 + 10</h3>
+              <p className="fw-semibold mb-2">Question pool</p>
               <p className="mb-0">
-                300 general questions plus 10 state-specific questions for each Bundesland.
+                300 general questions and 10 state-specific questions per Bundesland.
               </p>
             </div>
           </div>
           <div className="col-md-4">
-            <div className="exam-highlight-card p-4 h-100">
-              <h3 className="h5">Exam composition</h3>
+            <div className="exam-highlight-card p-4 h-100 text-center">
+              <h3 className="h1 fw-bold text-primary mb-1">33</h3>
+              <p className="fw-semibold mb-2">Questions in exam</p>
               <p className="mb-0">
-                33 total questions: 30 general and 3 state-specific.
+                30 general plus 3 state questions in the real exam format.
               </p>
             </div>
           </div>
           <div className="col-md-4">
-            <div className="exam-highlight-card p-4 h-100">
-              <h3 className="h5">Passing threshold</h3>
+            <div className="exam-highlight-card p-4 h-100 text-center">
+              <h3 className="h1 fw-bold text-primary mb-1">17+</h3>
+              <p className="fw-semibold mb-2">Passing score</p>
               <p className="mb-0">
                 You need at least 17 correct answers to pass.
               </p>
@@ -102,11 +137,11 @@ function CitizenshipTestHomePage() {
       </section>
 
       <div className="mt-5">
-        <h2 className="text-center mb-4">Explore Key Topics</h2>
+        <h2 className="text-center mb-4">Core knowledge map</h2>
         <div className="row g-3">
           {topicCards.map((topic, index) => (
             <div className="col-md-6" key={topic.title}>
-              <div className="topic-card p-4">
+              <div className="topic-card p-4 h-100">
                 <h4 className="h5">{index + 1}. {topic.title}</h4>
                 <p className="mb-0">{topic.description}</p>
               </div>
@@ -116,24 +151,24 @@ function CitizenshipTestHomePage() {
       </div>
 
       <div className="mt-5">
-        <h2 className="text-center mb-4">Start Practicing</h2>
+        <h2 className="text-center mb-4">Training studio</h2>
         <div className="row g-3">
           <div className="col-md-6">
             <div className="quick-link-card p-4 h-100">
               <h3 className="h5"><Link to="/general-questions">General Questions</Link></h3>
-              <p className="mb-0">Practice all 300 general questions from the official catalog.</p>
+              <p className="mb-0">Practice all 300 general questions with saved in-session progress.</p>
             </div>
           </div>
           <div className="col-md-6">
             <div className="quick-link-card p-4 h-100">
               <h3 className="h5"><Link to="/state-questions">State Questions</Link></h3>
-              <p className="mb-0">Train with the 10 state questions for your selected Bundesland.</p>
+              <p className="mb-0">Practice the 10 regional questions for your selected Bundesland.</p>
             </div>
           </div>
           <div className="col-md-6">
             <div className="quick-link-card p-4 h-100">
               <h3 className="h5"><Link to="/quiz-selection">Exam Simulation</Link></h3>
-              <p className="mb-0">Take a 33-question mock test (30 general + 3 state questions).</p>
+              <p className="mb-0">Take a 33-question mock exam and get immediate performance review.</p>
             </div>
           </div>
           <div className="col-md-6">
@@ -145,13 +180,21 @@ function CitizenshipTestHomePage() {
         </div>
       </div>
 
-      <div className="mt-5 text-center">
-        <p className="text-muted">
-          Educational tool only. For official and legally binding information, always verify with BAMF resources.
-        </p>
-        <Link className="btn btn-outline-primary" to="/learningPage">
-          Learn key topics <FaArrowRight className="ms-2" />
-        </Link>
+      <div className="mt-5">
+        <div className="support-surface p-4 p-md-5 text-center">
+          <h2 className="mb-2">Need official support resources?</h2>
+          <p className="text-muted mb-3">
+            This website is an educational companion. Always verify legal details using BAMF.
+          </p>
+          <a
+            className="btn btn-outline-primary"
+            href="https://www.bamf.de/DE/Startseite/startseite_node.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Open BAMF official website <FaArrowRight className="ms-2" />
+          </a>
+        </div>
       </div>
     </div>
   );

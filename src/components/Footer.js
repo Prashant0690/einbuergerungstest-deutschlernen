@@ -29,24 +29,26 @@ function Footer({ language, toggleLanguage, onShowLegalNotice }) {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <footer className="app-footer mt-5">
+    <footer className="app-footer mt-4">
       <div className="container">
-        <div className="footer-compact-row">
-          <div className="footer-compact-text">
-            <strong>Einbürgerungstest und Deutschlernen</strong>
-            <span className="footer-dot-separator">•</span>
+        <div className="footer-main-row">
+          <div className="footer-brand-block">
+            <p className="footer-kicker mb-1">Built for exam confidence</p>
+            <strong>Einbürgerungstest & Deutschlernen</strong>
+            <p className="footer-copyright mb-0">© {currentYear} Prashant Tiwari</p>
+          </div>
+
+          <div className="footer-main-copy">
             <span className="footer-muted">
               {language === "en"
                 ? "Educational purpose only. Verify official details with BAMF."
                 : "Nur zu Lernzwecken. Offizielle Informationen mit BAMF abgleichen."}
             </span>
-            <span className="footer-dot-separator">•</span>
-            <small className="footer-copyright">© {currentYear} Prashant Tiwari</small>
           </div>
 
           <div className="footer-controls">
             <button
-              className="btn btn-outline-light btn-sm"
+              className="btn btn-outline-primary btn-sm"
               onClick={() => setExpanded((prev) => !prev)}
               aria-expanded={expanded}
             >
@@ -58,7 +60,7 @@ function Footer({ language, toggleLanguage, onShowLegalNotice }) {
                 ? "More info"
                 : "Mehr Infos"}
             </button>
-            <button className="btn btn-outline-light btn-sm" onClick={onShowLegalNotice}>
+            <button className="btn btn-outline-primary btn-sm" onClick={onShowLegalNotice}>
               {language === "en" ? "Legal Notice" : "Rechtlicher Hinweis"}
             </button>
             <select
@@ -70,7 +72,7 @@ function Footer({ language, toggleLanguage, onShowLegalNotice }) {
               <option value="de">Deutsch</option>
               <option value="en">English</option>
             </select>
-            <div className="footer-social">
+            <div className="footer-social ms-sm-2">
               <a
                 href="https://github.com/Prashant0690/einbuergerungstest-deutschlernen"
                 target="_blank"
@@ -94,7 +96,7 @@ function Footer({ language, toggleLanguage, onShowLegalNotice }) {
         </div>
 
         {expanded && (
-          <div className="footer-expanded mt-3">
+          <div className="footer-expanded">
             <p className="footer-copy mb-2">
               {language === "en"
                 ? "Practice faster using these direct sections:"
@@ -129,7 +131,6 @@ function Footer({ language, toggleLanguage, onShowLegalNotice }) {
             </small>
           </div>
         )}
-
       </div>
     </footer>
   );

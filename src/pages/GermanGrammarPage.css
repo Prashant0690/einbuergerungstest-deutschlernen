@@ -68,13 +68,14 @@
 }
 
 .grammar-german {
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   font-weight: 600;
+  line-height: 2.1;
 }
 
 .grammar-translation {
   color: #46627d;
-  font-style: italic;
+  line-height: 2.1;
 }
 
 .grammar-memory-cue {

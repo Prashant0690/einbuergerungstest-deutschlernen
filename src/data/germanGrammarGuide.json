@@ -1,0 +1,148 @@
+{
+  "lessons": [
+    {
+      "id": "main-clause",
+      "title": "Build a main sentence",
+      "topic": "Word order",
+      "rule": "In a statement, the conjugated verb takes position two. Position means the second sentence element, which can be more than one word.",
+      "pattern": "First element + conjugated verb + subject (if needed) + rest",
+      "example": {
+        "german": "Heute lerne ich zu Hause Deutsch.",
+        "english": "Today I am learning German at home."
+      },
+      "memory": "Move a time phrase to the front; the verb stays second, so the subject moves after it.",
+      "check": {
+        "prompt": "Put these parts in order: morgen / wir / fahren / nach Berlin.",
+        "answer": "Morgen fahren wir nach Berlin.",
+        "why": "Morgen is the first element, fahren is second, and wir follows the verb."
+      }
+    },
+    {
+      "id": "questions",
+      "title": "Ask a clear question",
+      "topic": "Questions",
+      "rule": "A yes/no question starts with the conjugated verb. A W-question starts with its question word, followed by the verb.",
+      "pattern": "Verb + subject ...?  ·  W-word + verb + subject ...?",
+      "example": {
+        "german": "Kommst du heute? Wo wohnst du?",
+        "english": "Are you coming today? Where do you live?"
+      },
+      "memory": "Yes/no: verb first. W-question: question word first, verb second.",
+      "check": {
+        "prompt": "Ask: “Do you work here?”",
+        "answer": "Arbeitest du hier?",
+        "why": "A yes/no question begins with the conjugated verb arbeitest."
+      }
+    },
+    {
+      "id": "cases",
+      "title": "Choose the right case",
+      "topic": "Noun roles",
+      "rule": "A noun’s role helps determine its case. The verb or preposition can also govern the case, so ask what the phrase is doing in this sentence.",
+      "pattern": "Der Mann (who?) + gibt + dem Kind (to whom?) + den Ball (what?)",
+      "example": {
+        "german": "Der Mann gibt dem Kind den Ball.",
+        "english": "The man gives the child the ball."
+      },
+      "memory": "Wer/was? Nominativ · wem? Dativ · wen/was? Akkusativ · wessen? Genitiv.",
+      "check": {
+        "prompt": "In the example, who receives the ball, and what is being given?",
+        "answer": "Dem Kind receives it (Dativ); den Ball is what is given (Akkusativ).",
+        "why": "Geben commonly uses the pattern jemand gibt jemandem etwas. The full case tables and practice are in Cases Master.",
+        "link": {
+          "label": "Open Cases Master",
+          "path": "/german-cases"
+        }
+      }
+    },
+    {
+      "id": "nouns",
+      "title": "Learn nouns with their article",
+      "topic": "Gender and plurals",
+      "rule": "Store each noun with its grammatical gender and plural form. German noun gender is not always predictable from meaning.",
+      "pattern": "das Buch → die Bücher  ·  der Tisch → die Tische  ·  die Lampe → die Lampen",
+      "example": {
+        "german": "Das Buch liegt auf dem Tisch.",
+        "english": "The book is on the table."
+      },
+      "memory": "Learn the whole set: article + noun + plural. Say it aloud as one unit.",
+      "check": {
+        "prompt": "Recall the article and plural: Buch.",
+        "answer": "das Buch · die Bücher",
+        "why": "The article and plural are part of the word you are learning, not optional extras."
+      }
+    },
+    {
+      "id": "past",
+      "title": "Talk about the past",
+      "topic": "Perfekt",
+      "rule": "In everyday conversation, finished events often use Perfekt: a present-tense auxiliary plus a past participle at the end. Many verbs use haben; many intransitive verbs of movement or change use sein.",
+      "pattern": "haben/sein (conjugated) + ... + Partizip II",
+      "example": {
+        "german": "Gestern bin ich nach Berlin gefahren.",
+        "english": "Yesterday I travelled to Berlin."
+      },
+      "memory": "The helper carries the tense; the participle closes the clause. Check the verb to choose haben or sein.",
+      "check": {
+        "prompt": "Complete: Gestern ___ wir spät angekommen.",
+        "answer": "Gestern sind wir spät angekommen.",
+        "why": "Ankommen describes arrival, a change of location, and uses sein here."
+      }
+    },
+    {
+      "id": "negation",
+      "title": "Say what is not true",
+      "topic": "Negation",
+      "rule": "Use kein to negate an indefinite or unmarked noun. Use nicht to negate a verb, adjective, or specific phrase; its position depends on what you are negating.",
+      "pattern": "Ich habe kein Auto.  ·  Ich kaufe das Auto nicht.",
+      "example": {
+        "german": "Ich habe heute keine Zeit, aber ich komme morgen.",
+        "english": "I don’t have time today, but I’m coming tomorrow."
+      },
+      "memory": "kein goes with a noun; nicht negates the action or another specific part.",
+      "check": {
+        "prompt": "Translate: “I am not coming today.”",
+        "answer": "Ich komme heute nicht.",
+        "why": "The sentence negates the action of coming, so it uses nicht."
+      }
+    },
+    {
+      "id": "subordinate",
+      "title": "Connect two ideas",
+      "topic": "Subordinate clauses",
+      "rule": "After subordinating words such as weil, dass, and wenn, the conjugated verb goes to the end of that clause. Put a comma between the clauses.",
+      "pattern": "..., weil + subject + ... + conjugated verb.",
+      "example": {
+        "german": "Weil es regnet, bleibe ich zu Hause.",
+        "english": "Because it is raining, I am staying at home."
+      },
+      "memory": "The connector sends its clause’s verb to the end. After that clause, the main verb returns to position two.",
+      "check": {
+        "prompt": "Complete: Ich gehe früh ins Bett, weil ich müde ___.",
+        "answer": "Ich gehe früh ins Bett, weil ich müde bin.",
+        "why": "Weil introduces the subordinate clause, so the conjugated verb bin goes at the end."
+      }
+    },
+    {
+      "id": "modal-verbs",
+      "title": "Use modal verbs",
+      "topic": "Ability, plans, and necessity",
+      "rule": "Conjugate the modal verb in position two and put the main verb in the infinitive at the end.",
+      "pattern": "Subject + modal (conjugated) + ... + infinitive",
+      "example": {
+        "german": "Ich muss heute länger arbeiten.",
+        "english": "I have to work longer today."
+      },
+      "memory": "One verb is conjugated in the middle; the other waits at the end.",
+      "check": {
+        "prompt": "Translate: “She can speak German.”",
+        "answer": "Sie kann Deutsch sprechen.",
+        "why": "Kann is the conjugated modal; sprechen stays infinitive at the end.",
+        "link": {
+          "label": "Open Modal Verbs Master",
+          "path": "/german-modal-verbs"
+        }
+      }
+    }
+  ]
+}

@@ -106,55 +106,6 @@ h1, h2, h3, h4, h5, h6 { color: var(--text); letter-spacing: -.025em; font-weigh
 .learned-toggle { padding: .42rem .65rem; color: #465249; background: var(--surface-alt); border: 1px solid var(--border); border-radius: 7px; font-size: .83rem; font-weight: 650; }
 .learned-toggle.active { color: var(--brand-strong); background: #e6f0e5; border-color: #b7cbb6; }
 
-/* Flashcard lesson: prompt first, context and teacher note after recall. */
-.flashcard-intro { padding: 1.3rem 0 1rem; border-bottom: 1px solid var(--border); }
-.flashcard-intro h1 { margin: .35rem 0 .5rem; font-size: clamp(1.8rem, 4vw, 2.7rem); letter-spacing: -.04em; }
-.flashcard-intro > p:last-child { max-width: 680px; margin: 0; color: var(--muted); }
-.flashcard-toolbar { padding: 1rem; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; }
-.flashcard-toolbar .form-label { margin-bottom: .3rem; color: var(--muted); font-size: .8rem; font-weight: 650; }
-.flashcard-study-summary { display: flex; gap: 1.2rem; flex-wrap: wrap; padding-top: .75rem; border-top: 1px solid var(--border); color: var(--muted); font-size: .82rem; }
-.flashcard-study-summary strong { color: var(--brand-strong); }
-.flashcard-session-meta { display: flex; justify-content: space-between; gap: 1rem; margin-bottom: .6rem; color: var(--muted); font-size: .83rem; }
-.flashcard-meta-dot { padding: 0 .2rem; }
-.flashcard-main { min-height: 270px; padding: clamp(1.2rem, 4vw, 2.3rem); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; }
-.flashcard-main.is-revealed { background: #fcfdfb; }
-.flashcard-prompt-label { color: var(--muted); text-transform: uppercase; letter-spacing: .06em; font-size: .7rem; font-weight: 750; }
-.flashcard-prompt-row { display: flex; align-items: center; gap: .7rem; margin: 1.2rem 0; }
-.flashcard-prompt-row h2 { margin: 0; font-size: clamp(1.6rem, 4vw, 2.4rem); line-height: 1.2; }
-.flashcard-audio { display: grid; place-items: center; flex: 0 0 38px; width: 38px; height: 38px; color: var(--brand); background: white; border: 1px solid var(--border); border-radius: 50%; }
-.flashcard-audio:hover { background: var(--surface-alt); }
-.flashcard-hint { margin: 3rem 0 0; color: var(--muted); }
-.flashcard-answer { padding-top: 1rem; border-top: 1px solid var(--border); }
-.flashcard-answer-heading { display: flex; align-items: center; gap: .6rem; }
-.flashcard-answer-heading h3 { margin: 0; font-size: clamp(1.5rem, 3vw, 2rem); }
-.flashcard-meaning { color: var(--muted); }
-.flashcard-answer blockquote { margin: 1.1rem 0; padding: .85rem 1rem; background: var(--surface-alt); border-left: 3px solid var(--brand); border-radius: 0 7px 7px 0; }
-.flashcard-answer blockquote p { margin: 0; font-size: 1.05rem; font-weight: 600; }
-.flashcard-answer blockquote footer { margin-top: .3rem; color: var(--muted); font-size: .88rem; }
-.flashcard-teacher-note { color: var(--muted); font-size: .9rem; }
-.flashcard-teacher-note summary { width: fit-content; color: var(--brand); cursor: pointer; font-weight: 650; }
-.flashcard-teacher-note p { margin: .6rem 0 0; }
-.flashcard-reveal { min-width: 170px; margin: .8rem 0 0; }
-.flashcard-rating { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: .6rem; margin-top: .8rem; }
-.flashcard-rating > p { grid-column: 1 / -1; margin: 0 0 .15rem; color: var(--muted); font-size: .87rem; }
-.flashcard-rating button { display: grid; gap: .15rem; padding: .7rem .8rem; text-align: left; background: white; border: 1px solid var(--border); border-radius: 8px; }
-.flashcard-rating button strong { color: var(--text); }
-.flashcard-rating button span { color: var(--muted); font-size: .76rem; }
-.flashcard-rating .rating-again { border-left: 3px solid #c46a50; }
-.flashcard-rating .rating-hard { border-left: 3px solid #c19a43; }
-.flashcard-rating .rating-good { border-left: 3px solid var(--brand); }
-.flashcard-rating button:hover { background: var(--surface-alt); }
-.flashcard-empty { padding: 2rem; text-align: center; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; }
-.flashcard-empty > svg { margin-bottom: .8rem; color: var(--brand); font-size: 1.5rem; }
-.flashcard-empty p { max-width: 540px; margin: 0 auto 1rem; color: var(--muted); }
-.flashcard-word-list { padding: .9rem 1rem; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; }
-.flashcard-word-list > summary { color: var(--brand-strong); cursor: pointer; font-weight: 650; }
-.flashcard-list-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .5rem; margin-top: .8rem; }
-.flashcard-list-item { display: flex; align-items: center; justify-content: space-between; gap: .7rem; padding: .7rem; border: 1px solid var(--border); border-radius: 8px; }
-.flashcard-list-item h3 { margin: 0 0 .2rem; font-size: .94rem; }
-.flashcard-list-item p { margin: 0; color: var(--muted); font-size: .83rem; }
-.flashcard-list-item small { color: var(--muted); font-size: .7rem; }
-
 /* Shared controls and question states */
 .btn { border-radius: 7px; font-weight: 600; box-shadow: none !important; }
 .btn-primary { color: white; background: var(--brand); border-color: var(--brand); }
@@ -204,8 +155,6 @@ h1, h2, h3, h4, h5, h6 { color: var(--text); letter-spacing: -.025em; font-weigh
   .exam-card-footer .btn { flex: 1; }
   .vocabulary-progress { align-items: flex-start; flex-direction: column; }
   .vocabulary-progress .progress { width: 100%; }
-  .flashcard-rating { grid-template-columns: 1fr; }
-  .flashcard-list-grid { grid-template-columns: 1fr; }
 }
 
 /* Bring older lesson-specific components into the same visual system. */

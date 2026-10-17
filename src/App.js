@@ -96,6 +96,7 @@ function App() {
             />
 
             <Route path="/einbuergerung-sprachsprint" element={<EinbuergerungSprachSprintPage />} />
+            <Route path="/everyday-german" element={<GermanLanguageSprintPage />} />
             <Route path="/german-flashcard-sprint" element={<GermanLanguageSprintPage />} />
             <Route path="/deutsch-sprint" element={<GermanLanguageSprintPage />} />
             <Route path="/german-grammar" element={<GermanGrammarPage />} />

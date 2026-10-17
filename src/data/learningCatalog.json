@@ -44,7 +44,7 @@
   },
   "german": {
     "tracks": [
-      { "title": "Everyday vocabulary", "path": "/german-flashcard-sprint", "description": "Practise useful phrases in themed packs with examples and spaced review.", "level": "Start here" },
+      { "title": "Everyday German", "path": "/everyday-german", "description": "Browse everyday phrases with clear English meanings and example sentences.", "level": "Start here" },
       { "title": "Grammar essentials", "path": "/german-grammar", "description": "Review sentence structure, tenses, and useful grammar patterns.", "level": "Build accuracy" },
       { "title": "German cases", "path": "/german-cases", "description": "See how Nominativ, Akkusativ, Dativ, and Genitiv work in context.", "level": "Go deeper" },
       { "title": "Modal verbs", "path": "/german-modal-verbs", "description": "Express ability, permission, obligation, and intention clearly.", "level": "Build accuracy" },

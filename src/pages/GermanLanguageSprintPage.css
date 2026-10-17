@@ -1,0 +1,118 @@
+.everyday-german-page {
+  max-width: 1040px;
+  margin: 0 auto 2rem;
+}
+
+.everyday-german-hero {
+  padding: clamp(1.3rem, 3vw, 2rem);
+  background: #edf0e8;
+  border-radius: 12px;
+}
+
+.everyday-german-hero h1 {
+  margin: .35rem 0 .4rem;
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+}
+
+.everyday-german-hero > p:last-child {
+  max-width: 660px;
+  margin: 0;
+  color: var(--muted);
+}
+
+.everyday-german-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.everyday-german-index a {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .4rem .65rem;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  font-size: .86rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.everyday-german-index a:hover {
+  border-color: #aab9ac;
+  color: var(--brand-strong);
+}
+
+.everyday-german-index span,
+.everyday-german-category-heading > span {
+  color: var(--muted);
+  font-size: .78rem;
+  font-weight: 500;
+}
+
+.everyday-german-category {
+  padding-top: 1.4rem;
+  scroll-margin-top: 1rem;
+}
+
+.everyday-german-category-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: .55rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.everyday-german-category-heading h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.everyday-german-entry {
+  display: grid;
+  grid-template-columns: minmax(180px, .8fr) minmax(0, 1.6fr);
+  gap: 1.25rem;
+  padding: .85rem .25rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.everyday-german-term h3 {
+  margin: 0 0 .2rem;
+  color: var(--brand-strong);
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
+.everyday-german-term p,
+.everyday-german-example p {
+  margin: 0;
+}
+
+.everyday-german-term p,
+.everyday-german-example p[lang="en"] {
+  color: var(--muted);
+  font-size: .9rem;
+}
+
+.everyday-german-example p[lang="de"] {
+  margin-bottom: .15rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+  .everyday-german-entry {
+    grid-template-columns: 1fr;
+    gap: .45rem;
+    padding: .75rem 0;
+  }
+
+  .everyday-german-category-heading h2 {
+    font-size: 1.1rem;
+  }
+}

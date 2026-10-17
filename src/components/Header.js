@@ -14,7 +14,7 @@ const citizenshipLinks = [
   ["/einbuergerung-sprachsprint", "Question sprint"],
 ];
 const germanLinks = [
-  ["/german-flashcard-sprint", "Everyday vocabulary"],
+  ["/everyday-german", "Everyday German"],
   ["/german-grammar", "Grammar essentials"],
   ["/german-cases", "German cases"],
   ["/german-modal-verbs", "Modal verbs"],

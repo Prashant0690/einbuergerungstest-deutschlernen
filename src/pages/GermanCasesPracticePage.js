@@ -50,6 +50,8 @@ const ONE_SENTENCE_TOKENS = {
 
 const BILINGUAL_ROW_REGEX = /^(\d+)\s*\|\s*(.+?)\s*\|\s*(.+?)\s*$/;
 const NUMBERED_BLOCK_REGEX = /^###\s*(\d+)(?:\.\s*(.*)|.*)$/gm;
+const INITIAL_VISIBLE_QUESTIONS = 5;
+const QUESTIONS_PER_PAGE = 10;
 
 function isLikelyAnswerLine(line) {
   if (!line) {
@@ -428,7 +430,7 @@ function GermanCasesPracticePage() {
                             {group.intro && <pre className="cases-practice-pre cases-subcategory-info">{group.intro}</pre>}
                             <div className="prompt-list">
                               {group.questionBlocks
-                                .slice(0, visibleQuestionCountBySection[`${section.id}-${group.id}`] || 20)
+                                .slice(0, visibleQuestionCountBySection[`${section.id}-${group.id}`] || INITIAL_VISIBLE_QUESTIONS)
                                 .map((block) => (
                                   <Card className="prompt-card" key={`${section.id}-${group.id}-${block.id}`}>
                                     <Card.Body>
@@ -463,17 +465,17 @@ function GermanCasesPracticePage() {
                                   </Card>
                                 ))}
                             </div>
-                            {group.questionBlocks.length > (visibleQuestionCountBySection[`${section.id}-${group.id}`] || 20) && (
+                            {group.questionBlocks.length > (visibleQuestionCountBySection[`${section.id}-${group.id}`] || INITIAL_VISIBLE_QUESTIONS) && (
                               <Button
                                 variant="outline-primary"
                                 onClick={() =>
                                   setVisibleQuestionCountBySection((current) => ({
                                     ...current,
-                                    [`${section.id}-${group.id}`]: (current[`${section.id}-${group.id}`] || 20) + 20,
+                                    [`${section.id}-${group.id}`]: (current[`${section.id}-${group.id}`] || INITIAL_VISIBLE_QUESTIONS) + QUESTIONS_PER_PAGE,
                                   }))
                                 }
                               >
-                                Show 20 more prompts
+                                Show 10 more questions
                               </Button>
                             )}
                           </Card.Body>
@@ -486,7 +488,7 @@ function GermanCasesPracticePage() {
                     <>
                       <div className="prompt-list">
                         {section.questionBlocks
-                          .slice(0, visibleQuestionCountBySection[section.id] || 20)
+                          .slice(0, visibleQuestionCountBySection[section.id] || INITIAL_VISIBLE_QUESTIONS)
                           .map((block) => (
                             <Card className="prompt-card" key={`${section.id}-${block.id}`}>
                               <Card.Body>

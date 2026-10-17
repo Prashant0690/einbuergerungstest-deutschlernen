@@ -113,92 +113,24 @@ const adjectiveCharts = [
   },
 ];
 
-const sentenceSubjects = [
-  ["The [new] teacher", "Der [neue] Lehrer", "explains", "erklärt"],
-  ["The [friendly] doctor", "Die [freundliche] Ärztin", "shows", "zeigt"],
-  ["The [young] architect", "Der [junge] Architekt", "sends", "schickt"],
-  ["The [experienced] chef", "Der [erfahrene] Koch", "brings", "bringt"],
-  ["The [helpful] neighbor", "Der [hilfsbereite] Nachbar", "gives", "gibt"],
-  ["The [local] librarian", "Die [örtliche] Bibliothekarin", "lends", "leiht"],
-  ["The [careful] mechanic", "Der [sorgfältige] Mechaniker", "writes", "schreibt"],
-  ["The [kind] pharmacist", "Die [nette] Apothekerin", "offers", "bietet"],
-  ["The [new] colleague", "Der [neue] Kollege", "delivers", "liefert"],
-  ["The [patient] guide", "Die [geduldige] Führerin", "describes", "beschreibt"],
+// Curated, natural examples replace the old combinatorial generator: case
+// practice should teach useful language, not merely produce grammatical strings.
+const practiceSentences = [
+  { id: "nom-1", complexity: "simple", english: ["The train", "arrives", "at eight."], german: ["Der Zug", "kommt", "um acht Uhr an."], roles: ["case-nom", "case-verb", "case-acc"], rule: "Der Zug is the subject (Nominativ). The time phrase um acht Uhr uses Akkusativ after um; the separable verb ankommen wraps around it." },
+  { id: "nom-2", complexity: "simple", english: ["My sister", "works", "in Berlin."], german: ["Meine Schwester", "arbeitet", "in Berlin."], roles: ["case-nom", "case-verb", "case-dat"], rule: "Meine Schwester is the subject (Nominativ). In Berlin answers Wo? and takes Dativ." },
+  { id: "acc-1", complexity: "simple", english: ["I", "am reading", "the newspaper."], german: ["Ich", "lese", "die Zeitung."], roles: ["case-nom", "case-verb", "case-acc"], rule: "Ich is Nominativ; die Zeitung is the direct object (Akkusativ), answering Wen oder was lese ich?" },
+  { id: "acc-2", complexity: "simple", english: ["We", "need", "a new table."], german: ["Wir", "brauchen", "einen neuen Tisch."], roles: ["case-nom", "case-verb", "case-acc"], rule: "Tisch is masculine, so the Akkusativ article changes from ein to einen; the adjective takes -en." },
+  { id: "dat-1", complexity: "simple", english: ["He", "is helping", "his neighbor."], german: ["Er", "hilft", "seinem Nachbarn."], roles: ["case-nom", "case-verb", "case-dat"], rule: "Helfen governs Dativ: seinem Nachbarn answers Wem hilft er? Nachbar also takes the n-declension ending." },
+  { id: "dat-2", complexity: "simple", english: ["The children", "are playing", "in the garden."], german: ["Die Kinder", "spielen", "im Garten."], roles: ["case-nom", "case-verb", "case-dat"], rule: "Im means in dem. The sentence describes location (Wo?), so the two-way preposition in takes Dativ." },
+  { id: "mix-1", complexity: "intermediate", english: ["The teacher", "explains", "the exercise", "to the class."], german: ["Die Lehrerin", "erklärt", "der Klasse", "die Aufgabe."], roles: ["case-nom", "case-verb", "case-dat", "case-acc"], rule: "Die Lehrerin is Nominativ; der Klasse is the Dativ recipient; die Aufgabe is the Akkusativ thing explained." },
+  { id: "mix-2", complexity: "intermediate", english: ["I", "am sending", "my friend", "a photo."], german: ["Ich", "schicke", "meinem Freund", "ein Foto."], roles: ["case-nom", "case-verb", "case-dat", "case-acc"], rule: "The recipient meinem Freund is Dativ; ein Foto is the direct object (Akkusativ, neuter form unchanged)." },
+  { id: "mix-3", complexity: "intermediate", english: ["She", "buys", "her son", "a warm jacket."], german: ["Sie", "kauft", "ihrem Sohn", "eine warme Jacke."], roles: ["case-nom", "case-verb", "case-dat", "case-acc"], rule: "Ihrem Sohn is the Dativ recipient; eine warme Jacke is the feminine Akkusativ direct object." },
+  { id: "mix-4", complexity: "intermediate", english: ["The waiter", "brings", "the guests", "the menu."], german: ["Der Kellner", "bringt", "den Gästen", "die Speisekarte."], roles: ["case-nom", "case-verb", "case-dat", "case-acc"], rule: "Den Gästen is plural Dativ (article den and noun ending -n); die Speisekarte is Akkusativ." },
+  { id: "gen-1", complexity: "advanced", english: ["The roof", "of the house", "needs", "repair."], german: ["Das Dach", "des Hauses", "muss", "repariert werden."], roles: ["case-nom", "case-gen", "case-verb", "case-verb"], rule: "Des Hauses is Genitiv and answers Wessen Dach? In the modal passive, muss is in position two and the verb phrase goes to the end." },
+  { id: "gen-2", complexity: "advanced", english: ["The advice", "of the doctor", "was", "helpful."], german: ["Der Rat", "des Arztes", "war", "hilfreich."], roles: ["case-nom", "case-gen", "case-verb", "case-other"], rule: "Des Arztes is Genitiv possession. Der Rat is the Nominativ subject; war is the past form of sein, and hilfreich is a predicate adjective (not an object)." },
+  { id: "gen-3", complexity: "advanced", english: ["Despite", "the bad weather", ", we", "went for a walk."], german: ["Trotz", "des schlechten Wetters", "gingen wir", "spazieren."], roles: ["case-gen", "case-gen", "case-verb", "case-verb"], rule: "Standard written German uses Genitiv after trotz: des schlechten Wetters. In the main clause, gingen occupies position two." },
+  { id: "gen-4", complexity: "advanced", english: ["During", "the long journey", ", they", "read a book."], german: ["Während", "der langen Reise", "lasen sie", "ein Buch."], roles: ["case-gen", "case-gen", "case-verb", "case-acc"], rule: "Während takes Genitiv in formal standard usage: der langen Reise. Ein Buch is the Akkusativ object of lesen." },
 ];
-
-const sentenceObjects = [
-  ["the [important] map", "den [wichtigen] Plan"],
-  ["the [useful] brochure", "die [nützliche] Broschüre"],
-  ["the [old] book", "das [alte] Buch"],
-  ["the [detailed] answer", "die [ausführliche] Antwort"],
-  ["the [fresh] lunch", "das [frische] Mittagessen"],
-  ["the [necessary] form", "das [notwendige] Formular"],
-  ["the [clear] message", "die [klare] Nachricht"],
-  ["the [small] package", "das [kleine] Paket"],
-  ["the [current] schedule", "den [aktuellen] Terminplan"],
-  ["the [practical] tip", "den [praktischen] Tipp"],
-];
-
-const sentenceRecipients = [
-  ["the student", "dem Schüler"],
-  ["the visitor", "der Besucherin"],
-  ["the child", "dem Kind"],
-  ["the customer", "dem Kunden"],
-  ["the new resident", "der neuen Einwohnerin"],
-  ["the reader", "dem Leser"],
-  ["the driver", "der Fahrerin"],
-  ["the patient", "dem Patienten"],
-  ["the team", "dem Team"],
-  ["the tourist", "dem Touristen"],
-];
-
-const sentenceOwners = [
-  ["the school", "der Schule"],
-  ["the city office", "des Bürgeramts"],
-  ["the library", "der Bibliothek"],
-  ["the restaurant", "des Restaurants"],
-  ["the neighborhood association", "des Nachbarschaftsvereins"],
-  ["the language course", "des Sprachkurses"],
-  ["the workshop", "der Werkstatt"],
-  ["the pharmacy", "der Apotheke"],
-  ["the company", "der Firma"],
-  ["the museum", "des Museums"],
-];
-
-const practiceSentences = sentenceSubjects.flatMap((subject, subjectIndex) =>
-  sentenceObjects.map((object, objectIndex) => {
-    const recipient = sentenceRecipients[(subjectIndex + objectIndex) % sentenceRecipients.length];
-    const owner = sentenceOwners[(subjectIndex * 3 + objectIndex) % sentenceOwners.length];
-    const complexity = objectIndex % 3 === 0 ? "simple" : objectIndex % 3 === 1 ? "intermediate" : "advanced";
-    const english = [subject[0], subject[2]];
-    const german = [subject[1], subject[3]];
-
-    if (complexity !== "simple") {
-      english.push(recipient[0]);
-      german.push(recipient[1]);
-    }
-
-    english.push(object[0]);
-    german.push(object[1]);
-
-    if (complexity === "advanced") {
-      english.push(`from ${owner[0]}`);
-      german.push(owner[1]);
-    }
-
-    return {
-      id: `${subjectIndex}-${objectIndex}`,
-      complexity,
-      english,
-      german,
-      rules: complexity === "simple"
-        ? "Nominative subject; verb in position two; accusative direct object."
-        : complexity === "intermediate"
-          ? "Nominative subject; verb in position two; dative receiver; accusative direct object."
-          : "Nominative subject; verb in position two; dative receiver; accusative direct object; genitive possession.",
-    };
-  })
-);
 
 function CaseTable({ rows, headers, className = "" }) {
   return (
@@ -214,26 +146,26 @@ function CaseTable({ rows, headers, className = "" }) {
 }
 
 function ColourSentence({ sentence, showAnswer }) {
-  const colours = sentence.complexity === "simple"
+  const colours = sentence.roles || (sentence.complexity === "simple"
     ? ["case-nom", "case-verb", "case-acc"]
     : sentence.complexity === "intermediate"
       ? ["case-nom", "case-verb", "case-dat", "case-acc"]
-      : ["case-nom", "case-verb", "case-dat", "case-acc", "case-gen"];
+      : ["case-nom", "case-verb", "case-dat", "case-acc", "case-gen"]);
 
   return (
     <Card className="practice-sentence">
       <Card.Body>
-        <p className="practice-language">{renderSentenceTokens(sentence.english, colours, "en")}</p>
+        <p className="practice-prompt"><span className="practice-number">{sentence.id.replace(/\D/g, "")}</span><span className="practice-language practice-english">{sentence.english.join(" ").replace(/\s+([,.!?])/g, "$1")}</span></p>
         {showAnswer ? (
           <div className="practice-answer">
             <p className="practice-language">{renderSentenceTokens(sentence.german, colours, "de")}</p>
-            <p className="mb-0"><strong>Rules applied:</strong> {sentence.rules}</p>
+            <p className="mb-0"><strong>Teacher’s note:</strong> {sentence.rule || sentence.rules}</p>
           </div>
         ) : (
           <details className="practice-reveal">
             <summary>Show German answer and rules</summary>
             <p className="practice-language mt-3">{renderSentenceTokens(sentence.german, colours, "de")}</p>
-            <p className="mb-0"><strong>Rules applied:</strong> {sentence.rules}</p>
+            <p className="mb-0"><strong>Teacher’s note:</strong> {sentence.rule || sentence.rules}</p>
           </details>
         )}
       </Card.Body>
@@ -417,7 +349,6 @@ function GermanCasesMasterPage() {
 
       <section id="sentences" className="cases-section">
         <h2>Practice sentences and reference examples</h2>
-        <p>Read the English sentence first and identify each role. Reveal the German and rules only when you are ready to check your answer.</p>
         <GermanRoleLegend />
         <div className="practice-toolbar">
           <Nav variant="pills" className="complexity-tabs" aria-label="Sentence complexity">

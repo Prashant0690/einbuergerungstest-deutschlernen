@@ -58,44 +58,93 @@ const modalVerbs = [
 ];
 
 const modalPatterns = [
-  ["Main statement", "Subject + modal (position 2) + ... + infinitive (final)", "Ich muss morgen früher aufstehen."],
-  ["Yes/No question", "Modal + subject + ... + infinitive", "Kannst du heute länger bleiben?"],
-  ["WH question", "WH + modal + subject + ... + infinitive", "Warum willst du jetzt gehen?"],
-  ["Past statement", "Subject + past modal + ... + infinitive", "Wir konnten gestern nicht kommen."],
+  ["Main statement", "Subject + conjugated modal (position 2) + ... + infinitive (at the end)", "Ich muss morgen früher aufstehen.", "I have to get up earlier tomorrow."],
+  ["Yes / no question", "Conjugated modal + subject + ... + infinitive", "Darf ich hier kurz warten?", "May I wait here for a moment?"],
+  ["W-question", "Question word + modal + subject + ... + infinitive", "Wann kannst du den Bericht fertigstellen?", "When can you finish the report?"],
+  ["Negation", "Subject + modal + nicht + ... + infinitive", "Du musst heute nicht arbeiten.", "You don’t have to work today (it is not necessary)."],
+  ["Past statement", "Subject + past modal + ... + infinitive", "Wir konnten den Zug noch erreichen.", "We were still able to catch the train."],
 ];
 
 const practiceSentences = [
   {
-    id: "m1",
+    id: "m1", focus: "Ability · können",
     tense: "present",
-    english: ["I", "can", "the form", "today", "submit"],
-    german: ["Ich", "kann", "das Formular", "heute", "abgeben"],
-    roles: ["case-nom", "case-verb", "case-acc", "case-dat", "case-verb"],
-    rule: "Present: modal in position 2, infinitive at end.",
+    english: "I can submit the application online.",
+    german: ["Ich", "kann", "den Antrag", "online", "einreichen."],
+    roles: ["case-nom", "case-verb", "case-acc", "case-other", "case-verb"],
+    rule: "Können expresses ability or possibility. The conjugated form kann is in position two; einreichen stays infinitive at the end.",
   },
   {
-    id: "m2",
+    id: "m2", focus: "Obligation · müssen",
     tense: "present",
-    english: ["We", "must", "the teacher", "an answer", "give"],
-    german: ["Wir", "müssen", "der Lehrerin", "eine Antwort", "geben"],
+    english: "We have to give the teacher an answer.",
+    german: ["Wir", "müssen", "der Lehrerin", "eine Antwort", "geben."],
     roles: ["case-nom", "case-verb", "case-dat", "case-acc", "case-verb"],
-    rule: "Present obligation with müssen.",
+    rule: "Müssen expresses necessity. The person receiving the answer is Dativ (der Lehrerin); the thing given is Akkusativ (eine Antwort).",
   },
   {
-    id: "m3",
-    tense: "past",
-    english: ["He", "wanted to", "a German course", "last month", "start"],
-    german: ["Er", "wollte", "einen Deutschkurs", "letzten Monat", "beginnen"],
-    roles: ["case-nom", "case-verb", "case-acc", "case-dat", "case-verb"],
-    rule: "Past intention usually uses wollte.",
+    id: "m3", focus: "Permission · dürfen",
+    tense: "present",
+    english: "May I open the window?",
+    german: ["Darf", "ich", "das Fenster", "öffnen?"],
+    roles: ["case-verb", "case-nom", "case-acc", "case-verb"],
+    rule: "Dürfen asks for or gives permission. In a yes/no question, the conjugated modal moves to position one; öffnen remains at the end.",
   },
   {
-    id: "m4",
+    id: "m4", focus: "Advice · sollen",
+    tense: "present",
+    english: "You should drink more water.",
+    german: ["Du", "solltest", "mehr Wasser", "trinken."],
+    roles: ["case-nom", "case-verb", "case-acc", "case-verb"],
+    rule: "Solltest gives advice here. The infinitive trinken goes at the end; mehr Wasser is its Akkusativ object.",
+  },
+  {
+    id: "m5", focus: "Polite request · möchten",
+    tense: "present",
+    english: "We would like to reserve a table for two.",
+    german: ["Wir", "möchten", "einen Tisch für zwei", "reservieren."],
+    roles: ["case-nom", "case-verb", "case-acc", "case-verb"],
+    rule: "Möchten is the polite present form used for wishes. Reservieren remains an infinitive at the end.",
+  },
+  {
+    id: "m6", focus: "Intention · wollen",
+    tense: "present",
+    english: "She wants to move to Hamburg next year.",
+    german: ["Sie", "will", "nächstes Jahr nach Hamburg", "ziehen."],
+    roles: ["case-nom", "case-verb", "case-other", "case-verb"],
+    rule: "Will is the first-person/third-person singular form of wollen. The main infinitive ziehen goes at the end.",
+  },
+  {
+    id: "m7", focus: "Past intention · wollen",
     tense: "past",
-    english: ["You", "were allowed to", "your child", "to school", "bring"],
-    german: ["Du", "durftest", "dein Kind", "zur Schule", "bringen"],
+    english: "He wanted to start a German course last month.",
+    german: ["Er", "wollte", "letzten Monat", "einen Deutschkurs", "beginnen."],
+    roles: ["case-nom", "case-verb", "case-other", "case-acc", "case-verb"],
+    rule: "Wollte is the simple past of wollen. Time phrases can move before the direct object; beginnen stays at the end.",
+  },
+  {
+    id: "m8", focus: "Past permission · dürfen",
+    tense: "past",
+    english: "You were allowed to bring your child to school.",
+    german: ["Du", "durftest", "dein Kind", "zur Schule", "bringen."],
     roles: ["case-nom", "case-verb", "case-acc", "case-dat", "case-verb"],
-    rule: "Past permission with durfte/durftest.",
+    rule: "Durftest is the simple past of dürfen and expresses permission in the past. The infinitive bringen closes the sentence.",
+  },
+  {
+    id: "m9", focus: "Past necessity · müssen",
+    tense: "past",
+    english: "I had to wait for an hour.",
+    german: ["Ich", "musste", "eine Stunde", "warten."],
+    roles: ["case-nom", "case-verb", "case-acc", "case-verb"],
+    rule: "Musste is the simple past of müssen. Unlike English, German uses this regular past modal form for a past obligation.",
+  },
+  {
+    id: "m10", focus: "Past ability · können",
+    tense: "past",
+    english: "They could not find the address.",
+    german: ["Sie", "konnten", "die Adresse", "nicht finden."],
+    roles: ["case-nom", "case-verb", "case-acc", "case-verb"],
+    rule: "Konnten expresses past ability. With a negative, nicht appears before the infinitive phrase at the end.",
   },
 ];
 
@@ -235,6 +284,7 @@ function GermanModalVerbsPage() {
                   <th>Use case</th>
                   <th>Structure</th>
                   <th>Example</th>
+                  <th>Meaning</th>
                 </tr>
               </thead>
               <tbody>
@@ -242,7 +292,8 @@ function GermanModalVerbsPage() {
                   <tr key={row[0]}>
                     <td>{row[0]}</td>
                     <td>{row[1]}</td>
-                    <td>{row[2]}</td>
+                    <td><strong>{row[2]}</strong></td>
+                    <td>{row[3]}</td>
                   </tr>
                 ))}
               </tbody>
@@ -269,7 +320,6 @@ function GermanModalVerbsPage() {
 
       <section id="practice" className="cases-section">
         <h2>Practice sentences and reference examples</h2>
-        <p>Read English first. Reveal German and the rule check only when you are ready.</p>
         <GermanRoleLegend />
         <div className="practice-toolbar">
           <Button variant={showAllAnswers ? "primary" : "outline-primary"} onClick={() => setShowAllAnswers((visible) => !visible)}>
@@ -280,7 +330,7 @@ function GermanModalVerbsPage() {
           {filteredPractice.map((sentence) => (
             <Card className="practice-sentence" key={sentence.id}>
               <Card.Body>
-                <p className="practice-language">{renderRoleSentence(sentence.english, sentence.roles, `${sentence.id}-en`)}</p>
+                <div className="modal-practice-heading"><span className="practice-number">{sentence.id.replace(/\D/g, "")}</span><div><span className="practice-kicker">{sentence.focus}</span><p className="practice-language practice-english mb-0">{sentence.english}</p></div></div>
                 {showAllAnswers ? (
                   <div className="practice-answer">
                     <p className="practice-language">{renderRoleSentence(sentence.german, sentence.roles, `${sentence.id}-de`)}</p>

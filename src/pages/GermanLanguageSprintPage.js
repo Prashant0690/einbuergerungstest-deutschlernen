@@ -12,9 +12,9 @@ function GermanLanguageSprintPage() {
 
   return (
     <div className="container mt-4">
-      <h1 className="text-center">Conversational German Flashcard Sprint</h1>
+      <h1 className="text-center">Everyday German practice</h1>
       <p className="lead text-center">
-        Train fast, everyday German with a random flashcard flow built for real conversations, web series, and movies.
+        Learn practical phrases through recall, examples, pronunciation, and spaced review. Choose a pack for everyday replies, conversation words, linking ideas, plans, or regional language.
       </p>
 
       {currentView !== "home" && (
@@ -25,13 +25,12 @@ function GermanLanguageSprintPage() {
 
       {currentView === "home" && (
         <div className="mt-5 text-center">
-          <h2>Start 98-Word Conversation Drill</h2>
+          <h2>Start a short recall session</h2>
           <p>
-            Practice in full manual mode: reveal answers when you want, then move forward with next.
-            You can choose German-first or English-first and also open the full 98-word list.
+            Think of the German before revealing it, then rate your recall. Each phrase includes a natural example, an English translation, and a usage note.
           </p>
           <Button variant="primary" onClick={() => setCurrentView("VocabularyQuickLearning")}>
-            Start Flashcard Sprint
+            Start practising
           </Button>
         </div>
       )}

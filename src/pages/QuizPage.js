@@ -1,388 +1,140 @@
-/*
-Einbürgerungstest und Deutschlernen
-Copyright (C) 2023 Prashant Tiwari
-
-This program is a personal project and free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-Project Name: einbuergerungstest-deutschlernen
-Folder Name: einbuergerungstest-deutschlernen
-*/
-import React, { useState, useEffect } from "react";
+import React, { useCallback, useEffect, useMemo, useState } from "react";
+import { Link } from "react-router-dom";
 import { useQuizContext } from "../context/QuizContext";
 import { loadGeneralQuestions, loadStateQuestions } from "../data/content";
-import {
-  processAnswer,
-  updateAnswerArray,
-  getImageUrl,
-} from "../utils/quizUtils";
+import { getImageUrl, processAnswer, updateAnswerArray } from "../utils/quizUtils";
 
-const GENERAL_QUESTIONS_COUNT = 30;
-const STATE_QUESTIONS_COUNT = 3;
-const TOTAL_QUESTIONS = GENERAL_QUESTIONS_COUNT + STATE_QUESTIONS_COUNT;
+const TEST_MINUTES = 60;
+const TOTAL_QUESTIONS = 33;
+const GENERAL_COUNT = 30;
+const STATE_COUNT = 3;
 
-const shuffleArray = (array) => array.sort(() => Math.random() - 0.5);
-
-const QuestionSection = ({
-  questions,
-  selectedAnswers,
-  handleOptionSelect,
-  handleSubmitQuiz,
-}) => (
-  <div className="question-section">
-    <button className="btn btn-primary mb-4" onClick={handleSubmitQuiz}>
-      Submit Quiz
-    </button>
-
-    {questions.map((question, index) => (
-      <div
-        key={question.id}
-        className="mb-5 p-4 border rounded shadow-sm question-container"
-      >
-        <h4 className="mb-3">Question {index + 1} of {TOTAL_QUESTIONS}</h4>
-
-        <div className="row">
-          <div className="col-md-5">
-            {question.answerType === 'image' && (
-              <img
-                src={getImageUrl(question.region, question.id)}
-                className="img-fluid mb-3"
-                alt="Answer related"
-                style={{
-                  maxWidth: '100%',
-                  maxHeight: '300px',
-                  objectFit: 'contain',
-                  border: '1px solid #ddd',
-                  borderRadius: '4px',
-                  padding: '5px',
-                  backgroundColor: '#fff',
-                }}
-              />
-            )}
-          </div>
-
-          <div
-            className={`col-md-${question.answerType === 'image' ? '7' : '12'}`}
-          >
-            <p className="mb-4">{question.germanQuestion}</p>
-            <ul className="list-group">
-              {question.options.map((option, i) => (
-                <li
-                  key={i}
-                  className={`list-group-item ${
-                    selectedAnswers.find((ans) => ans.id === question.id)
-                      ?.selectedGermanOption === option.germanOption
-                      ? 'list-group-item-info'
-                      : ''
-                  }`}
-                  style={{ cursor: 'pointer' }}
-                  onClick={() =>
-                    handleOptionSelect(question, option.germanOption)
-                  }
-                >
-                  {option.germanOption}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </div>
-    ))}
-
-    <div className="d-flex justify-content-center mt-5">
-      <button className="btn btn-primary" onClick={handleSubmitQuiz}>
-        Submit Quiz
-      </button>
-    </div>
-  </div>
-);
-
-const ResultSection = ({
-  questions,
-  selectedAnswers,
-  handleResetQuiz,
-  results,
-  getAnswerStatus,
-}) => (
-  <div className="mt-4">
-    <div className="d-flex justify-content-between align-items-center mt-4">
-      <h3 className="m-0">Quiz Results</h3>
-      <div className="results-summary d-flex gap-2 flex-wrap">
-        <span className="result-chip correct">Correct: {results.correct}</span>
-        <span className="result-chip incorrect">Incorrect: {results.incorrect}</span>
-        <span className="result-chip unanswered">Unattempted: {results.unattempted}</span>
-      </div>
-
-      <button className="btn btn-warning" onClick={handleResetQuiz}>
-        New Quiz
-      </button>
-    </div>
-
-    {/* Review Section */}
-    <div className="mt-4">
-      {questions.map((question, index) => {
-        const savedAnswer = selectedAnswers.find(
-          (ans) => ans.id === question.id
-        );
-        const answerStatus = savedAnswer
-          ? savedAnswer.isCorrect
-            ? "Correct"
-            : "Incorrect"
-          : "Unanswered";
-
-        return (
-          <div
-            key={question.id}
-            className="mb-5 p-4 border rounded shadow-sm question-container"
-          >
-            <h4 className="mb-3">
-              Question {index + 1} of {TOTAL_QUESTIONS} -{" "}
-              <span
-                className={`badge ${
-                  answerStatus === "Correct"
-                    ? "bg-success"
-                    : answerStatus === "Incorrect"
-                    ? "bg-danger"
-                    : "bg-secondary"
-                }`}
-              >
-                {answerStatus}
-              </span>
-            </h4>
-
-            <div className="row">
-              <div className="col-md-5">
-                {question.answerType === "image" && (
-                  <img
-                    src={getImageUrl(question.region, question.id)}
-                    className="img-fluid mb-3"
-                    alt="Answer related"
-                    style={{
-                      maxWidth: "100%",
-                      maxHeight: "300px",
-                      objectFit: "contain",
-                      border: "1px solid #ddd",
-                      borderRadius: "4px",
-                      padding: "5px",
-                      backgroundColor: "#fff",
-                    }}
-                  />
-                )}
-              </div>
-
-              <div
-                className={`col-md-${
-                  question.answerType === "image" ? "7" : "12"
-                }`}
-              >
-                <p>{question.germanQuestion}</p>
-                {question.englishQuestion && (
-                  <p className="text-muted">({question.englishQuestion})</p>
-                )}
-
-                <ul className="list-group">
-                  {question.options.map((option, i) => (
-                    <li
-                      key={i}
-                      className={`list-group-item ${
-                        savedAnswer?.selectedGermanOption ===
-                        option.germanOption
-                          ? savedAnswer.isCorrect
-                            ? "list-group-item-success"
-                            : "list-group-item-danger"
-                          : option.isCorrect
-                          ? "list-group-item-success"
-                          : ""
-                      }`}
-                    >
-                      {option.germanOption}
-                      {option.englishOption && (
-                        <span className="text-muted ms-2">
-                          ({option.englishOption})
-                        </span>
-                      )}
-                      {option.isCorrect && <strong> - Correct Answer</strong>}
-                      {savedAnswer?.selectedGermanOption ===
-                        option.germanOption && (
-                        <strong> - Your Selection</strong>
-                      )}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
-        );
-      })}
-    </div>
-
-    <div className="d-flex justify-content-center mt-5">
-      <button className="btn btn-warning" onClick={handleResetQuiz}>
-        New Quiz
-      </button>
-    </div>
-  </div>
-);
+function shuffle(items) {
+  const result = [...items];
+  for (let i = result.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
 
 function QuizPage() {
   const { bundesland } = useQuizContext();
-  const [error, setError] = useState(null);
+  const storageKey = `citizenshipExam_${bundesland}`;
   const [questions, setQuestions] = useState([]);
-  const [selectedAnswers, setSelectedAnswers] = useState([]);
-  const [refreshKey, setRefreshKey] = useState(0);
-  const [showScore, setShowScore] = useState(false);
+  const [answers, setAnswers] = useState([]);
+  const [expiresAt, setExpiresAt] = useState(null);
+  const [secondsLeft, setSecondsLeft] = useState(TEST_MINUTES * 60);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [submitted, setSubmitted] = useState(false);
 
-  const getStorageKey = (type) => `quiz_${bundesland}_${TOTAL_QUESTIONS}${type}`;
-  const getShowScoreKey = () => `quizShowScore_${bundesland}`;
-
-  const loadSavedData = (type) => {
-    const storageKey = getStorageKey(type);
-    const savedData = sessionStorage.getItem(storageKey);
-    return savedData ? JSON.parse(savedData) : null;
-  };
-
-  const saveDataToStorage = (data, type) => {
-    const storageKey = getStorageKey(type);
-    sessionStorage.setItem(storageKey, JSON.stringify(data));
-  };
-
-  const loadShowScore = () => {
-    const savedShowScore = sessionStorage.getItem(getShowScoreKey());
-    return savedShowScore === "true";
-  };
-
-  const saveShowScore = (value) => {
-    sessionStorage.setItem(getShowScoreKey(), value);
-  };
-
-  const loadNewQuestions = () => {
-    const generalQuestions = shuffleArray(loadGeneralQuestions()).slice(0, GENERAL_QUESTIONS_COUNT);
-    const stateQuestions = shuffleArray(loadStateQuestions()[bundesland] || []).slice(0, STATE_QUESTIONS_COUNT);
-    const allQuestions = [...generalQuestions, ...stateQuestions];
-
-    setQuestions(allQuestions);
-    saveDataToStorage(allQuestions, "questions");
-    setSelectedAnswers([]); // Reset selected answers for new questions
-  };
+  const makeExam = useCallback(() => {
+    const general = shuffle(loadGeneralQuestions()).slice(0, GENERAL_COUNT);
+    const state = shuffle(loadStateQuestions()[bundesland] || []).slice(0, STATE_COUNT);
+    return shuffle([...general, ...state]);
+  }, [bundesland]);
 
   useEffect(() => {
     if (!bundesland) {
-      setError("Please select a state (Bundesland) to proceed with the quiz.");
+      setQuestions([]);
       return;
     }
-
-    setError(null);
-
-    const savedQuestions = loadSavedData("questions");
-    const savedAnswers = loadSavedData("answers");
-
-    if (savedQuestions && savedQuestions.length === TOTAL_QUESTIONS) {
-      setQuestions(savedQuestions);
-      if (savedAnswers) {
-        setSelectedAnswers(savedAnswers);
-      } else {
-        setSelectedAnswers([]);
-      }
+    let saved;
+    try { saved = JSON.parse(sessionStorage.getItem(storageKey) || "null"); } catch { saved = null; }
+    if (saved && Array.isArray(saved.questions) && saved.questions.length === TOTAL_QUESTIONS) {
+      setQuestions(saved.questions);
+      setAnswers(saved.answers || []);
+      setCurrentIndex(saved.currentIndex || 0);
+      setExpiresAt(saved.expiresAt);
+      setSubmitted(Boolean(saved.submitted));
     } else {
-      loadNewQuestions();
+      const nextQuestions = makeExam();
+      const nextExpiresAt = Date.now() + TEST_MINUTES * 60 * 1000;
+      setQuestions(nextQuestions);
+      setAnswers([]);
+      setCurrentIndex(0);
+      setExpiresAt(nextExpiresAt);
+      setSubmitted(false);
+      sessionStorage.setItem(storageKey, JSON.stringify({ questions: nextQuestions, answers: [], currentIndex: 0, expiresAt: nextExpiresAt, submitted: false }));
     }
+  }, [bundesland, storageKey, makeExam]);
 
-    // Load showScore from session storage
-    setShowScore(loadShowScore());
-  }, [bundesland, refreshKey]);
+  useEffect(() => {
+    if (!questions.length || !expiresAt || submitted) return undefined;
+    const tick = () => {
+      const remaining = Math.max(0, Math.ceil((expiresAt - Date.now()) / 1000));
+      setSecondsLeft(remaining);
+      if (remaining === 0) setSubmitted(true);
+    };
+    tick();
+    const timer = window.setInterval(tick, 1000);
+    return () => window.clearInterval(timer);
+  }, [questions.length, expiresAt, submitted]);
 
-  const handleOptionSelect = (question, selectedOption) => {
-    const newAnswer = processAnswer(question, selectedOption);
-    const updatedAnswers = updateAnswerArray(selectedAnswers, newAnswer);
-    setSelectedAnswers(updatedAnswers);
-    saveDataToStorage(updatedAnswers, "answers");
+  useEffect(() => {
+    if (!questions.length || !expiresAt) return;
+    sessionStorage.setItem(storageKey, JSON.stringify({ questions, answers, currentIndex, expiresAt, submitted }));
+  }, [questions, answers, currentIndex, expiresAt, submitted, storageKey]);
+
+  const selectedFor = (question) => answers.find((answer) => answer.id === question.id && answer.region === question.region);
+  const answerCount = answers.length;
+  const currentQuestion = questions[currentIndex];
+  const results = useMemo(() => answers.reduce((totals, answer) => {
+    totals[answer.isCorrect ? "correct" : "incorrect"] += 1;
+    return totals;
+  }, { correct: 0, incorrect: 0 }), [answers]);
+  const unattempted = Math.max(0, questions.length - answerCount);
+  const clock = `${String(Math.floor(secondsLeft / 3600)).padStart(2, "0")}:${String(Math.floor((secondsLeft % 3600) / 60)).padStart(2, "0")}:${String(secondsLeft % 60).padStart(2, "0")}`;
+
+  const submit = () => setSubmitted(true);
+  const selectOption = (question, optionText) => setAnswers((previous) => updateAnswerArray(previous, processAnswer(question, optionText)));
+  const startNew = () => {
+    const nextQuestions = makeExam();
+    const nextExpiresAt = Date.now() + TEST_MINUTES * 60 * 1000;
+    setQuestions(nextQuestions); setAnswers([]); setCurrentIndex(0); setExpiresAt(nextExpiresAt); setSecondsLeft(TEST_MINUTES * 60); setSubmitted(false);
   };
 
-  const handleResetQuiz = () => {
-    if (window.confirm("Are you sure you want to reset the quiz? All progress will be lost.")) {
-      const storageKeyQuestions = getStorageKey("questions");
-      const storageKeyAnswers = getStorageKey("answers");
-      sessionStorage.removeItem(storageKeyQuestions);
-      sessionStorage.removeItem(storageKeyAnswers);
-      sessionStorage.removeItem(getShowScoreKey()); // Remove showScore from session storage
-      setQuestions([]);
-      setSelectedAnswers([]);
-      setRefreshKey((prevKey) => prevKey + 1);
-      setShowScore(false);
-    }
-  };
-
-  const handleSubmitQuiz = () => {
-    setShowScore(true);
-    saveShowScore(true); // Save the showScore state to session storage
-  };
-
-  const calculateResults = () => {
-    let correct = 0;
-    let incorrect = 0;
-
-    selectedAnswers.forEach((answer) => {
-      if (answer.isCorrect) {
-        correct++;
-      } else {
-        incorrect++;
-      }
-    });
-
-    const unattempted = TOTAL_QUESTIONS - (correct + incorrect);
-
-    return { correct, incorrect, unattempted };
-  };
-
-  const getAnswerStatus = (question) => {
-    const savedAnswer = selectedAnswers.find((ans) => ans.id === question.id);
-    if (!savedAnswer) return "Unanswered";
-    return savedAnswer.isCorrect ? "Correct" : "Incorrect";
-  };
-
-  if (error) {
-    return <p className="text-danger">{error}</p>;
-  }
-
-  if (questions.length === 0) {
-    return <p>Loading questions...</p>;
-  }
-
-  const results = calculateResults();
+  if (!bundesland) return <div className="container mt-4"><div className="empty-search p-4"><h1 className="h4">Choose your Bundesland to start</h1><p>Select your state in the header to include the three state-specific exam questions.</p><Link to="/">Back to overview</Link></div></div>;
+  if (!questions.length) return <div className="container mt-4">Preparing your exam…</div>;
 
   return (
-    <div className="container mt-4">
-      <div className="home-hero text-center mb-4">
-        <h2 className="mb-2">Exam simulation</h2>
-        <p className="mb-0">Selected state: {bundesland}</p>
-      </div>
+    <div className="container mt-4 exam-page">
+      <section className="exam-topbar">
+        <div><p className="path-kicker mb-1">Official-style exam simulation</p><h1 className="h3 mb-1">Einbürgerungstest · {bundesland}</h1><p className="text-muted mb-0">30 general questions + 3 from your state</p></div>
+        {!submitted && <div className={`exam-clock ${secondsLeft < 300 ? "urgent" : ""}`} aria-live="polite"><span>Time remaining</span><strong>{clock}</strong></div>}
+      </section>
 
-      {!showScore ? (
-        <QuestionSection
-          questions={questions}
-          selectedAnswers={selectedAnswers}
-          handleOptionSelect={handleOptionSelect}
-          handleSubmitQuiz={handleSubmitQuiz}
-        />
-      ) : (
-        <ResultSection
-          questions={questions}
-          selectedAnswers={selectedAnswers}
-          handleResetQuiz={handleResetQuiz}
-          results={results}
-          getAnswerStatus={getAnswerStatus}
-        />
-      )}
+      {!submitted ? <>
+        <div className="exam-progress-row"><span>{answerCount} of {TOTAL_QUESTIONS} answered</span><span>{currentIndex + 1} of {TOTAL_QUESTIONS}</span></div>
+        <div className="progress exam-progress" role="progressbar" aria-valuenow={answerCount} aria-valuemin="0" aria-valuemax={TOTAL_QUESTIONS}><div className="progress-bar" style={{ width: `${(answerCount / TOTAL_QUESTIONS) * 100}%` }} /></div>
+        <div className="exam-layout mt-4">
+          <aside className="exam-question-map"><h2 className="h6">Question map</h2><div className="exam-map-grid">{questions.map((question, index) => {
+            const savedAnswer = selectedFor(question);
+            return <button key={`${question.region}-${question.id}`} type="button" onClick={() => setCurrentIndex(index)} className={`exam-map-button ${index === currentIndex ? "current" : ""} ${savedAnswer ? "answered" : ""}`} aria-label={`Go to question ${index + 1}${savedAnswer ? ", answered" : ", unanswered"}`}>{index + 1}</button>;
+          })}</div><p className="small text-muted mt-3 mb-0">Blue = current · Green = answered</p></aside>
+          <section className="exam-question-card">
+            <div className="d-flex justify-content-between align-items-center gap-2 mb-3"><span className="path-kicker">Question {currentIndex + 1}</span><span className="exam-region-tag">{currentQuestion.region === "All" ? "General" : currentQuestion.region}</span></div>
+            {currentQuestion.answerType === "image" && <img src={getImageUrl(currentQuestion.region, currentQuestion.id)} className="exam-image" alt={currentQuestion.englishQuestion || currentQuestion.germanQuestion} />}
+            <h2 className="h4 mb-4">{currentQuestion.germanQuestion}</h2>
+            <div className="d-grid gap-2">{currentQuestion.options.map((option, index) => {
+              const chosen = selectedFor(currentQuestion)?.selectedGermanOption === option.germanOption;
+              return <button type="button" key={`${index}-${option.germanOption}`} className={`exam-option ${chosen ? "selected" : ""}`} onClick={() => selectOption(currentQuestion, option.germanOption)}><span className="exam-option-letter">{String.fromCharCode(65 + index)}</span><span>{option.germanOption}</span><span className="exam-option-check" aria-hidden="true">{chosen ? "✓" : ""}</span></button>;
+            })}</div>
+            <div className="exam-card-footer"><button type="button" className="btn btn-outline-primary" onClick={() => setCurrentIndex((index) => Math.max(0, index - 1))} disabled={currentIndex === 0}>← Previous</button><button type="button" className="btn btn-primary" onClick={() => currentIndex === TOTAL_QUESTIONS - 1 ? submit() : setCurrentIndex((index) => Math.min(TOTAL_QUESTIONS - 1, index + 1))}>{currentIndex === TOTAL_QUESTIONS - 1 ? "Finish exam" : "Next question →"}</button></div>
+          </section>
+        </div>
+        <div className="exam-submit-row"><span>{unattempted ? `${unattempted} question${unattempted === 1 ? "" : "s"} still unanswered` : "All questions answered"}</span><button type="button" className="btn btn-outline-dark" onClick={() => { if (!unattempted || window.confirm(`You have ${unattempted} unanswered questions. Submit anyway?`)) submit(); }}>Submit exam</button></div>
+      </> : <section className="exam-results mt-4">
+        <p className="path-kicker mb-1">Exam complete</p><h2 className="display-6 fw-bold">{results.correct >= 17 ? "You passed the practice exam" : "Keep practising — you’re getting there"}</h2>
+        <p className="lead">{results.correct} correct out of 33 · passing score: 17</p>
+        <div className="row g-3 my-3"><div className="col-sm-4"><div className="result-stat"><strong>{results.correct}</strong><span>Correct</span></div></div><div className="col-sm-4"><div className="result-stat"><strong>{results.incorrect}</strong><span>Incorrect</span></div></div><div className="col-sm-4"><div className="result-stat"><strong>{unattempted}</strong><span>Unanswered</span></div></div></div>
+        <div className="d-flex flex-wrap gap-2 mb-4"><button type="button" className="btn btn-primary" onClick={startNew}>Start a new exam</button><Link className="btn btn-outline-primary" to="/general-questions">Review the question bank</Link></div>
+        <h3 className="h4 mb-3">Answer review</h3>
+        <div className="d-grid gap-3">{questions.map((question, index) => {
+          const answer = selectedFor(question);
+          return <article className="review-card" key={`${question.region}-${question.id}`}><div className="d-flex justify-content-between gap-3"><h4 className="h6">{index + 1}. {question.germanQuestion}</h4><span className={`result-chip ${answer ? answer.isCorrect ? "correct" : "incorrect" : "unanswered"}`}>{answer ? answer.isCorrect ? "Correct" : "Review" : "Skipped"}</span></div><p className="mb-1">Your answer: {answer?.selectedGermanOption || "No answer"}</p>{(!answer || !answer.isCorrect) && <p className="text-success mb-0">Correct answer: {question.options.find((option) => option.isCorrect)?.germanOption}</p>}</article>;
+        })}</div>
+      </section>}
     </div>
   );
 }

@@ -41,6 +41,9 @@ function StateQuestionsPage() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
+    setAnsweredQuestions(loadAnswersFromSession(`answeredQuestions_${bundesland}`));
+    setCurrentQuestionIndex(0);
+    setShowEnglish(false);
     if (!bundesland) {
       setError('Please select a state.');
     } else {

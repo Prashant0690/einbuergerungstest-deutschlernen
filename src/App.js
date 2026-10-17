@@ -39,6 +39,7 @@ import GermanCasesMasterPage from "./pages/GermanCasesMasterPage";
 import GermanCasesPracticePage from "./pages/GermanCasesPracticePage";
 import GermanModalVerbsPage from "./pages/GermanModalVerbsPage";
 import GermanWhQuestionsPage from "./pages/GermanWhQuestionsPage";
+import UnifiedHomePage from "./pages/UnifiedHomePage";
 
 
 function App() {
@@ -78,7 +79,8 @@ function App() {
         {/* Main content */}
         <main className="app-main flex-grow-1">
           <Routes>
-            <Route path="/" element={<CitizenshipTestHomePage />} />
+            <Route path="/" element={<UnifiedHomePage />} />
+            <Route path="/citizenship-prep" element={<CitizenshipTestHomePage />} />
             <Route path="/VocabularyPage" element={<VocabularyPage />} />
             <Route path="/learningPage" element={<LearningPage />} />
             <Route

@@ -1,27 +1,5 @@
-/*
-Einbürgerungstest und Deutschlernen
-Copyright (C) 2023 Prashant Tiwari
-
-This program is a personal project and free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-Project Name: einbuergerungstest-deutschlernen
-Folder Name: einbuergerungstest-deutschlernen
-*/
-import React, { useState } from "react";
-import { Card } from "react-bootstrap";
-
-// Importing the data
+import React, { useMemo, useState } from "react";
+import { Card, Form } from "react-bootstrap";
 import historyData from "../data/notes/History.json";
 import politicsData from "../data/notes/Politics.json";
 import societyAndCultureData from "../data/notes/SocietyAndCulture.json";
@@ -30,99 +8,61 @@ import geographyData from "../data/notes/Geography.json";
 import economyData from "../data/notes/Economy.json";
 import symbolsAndIdentityData from "../data/notes/SymbolsAndIdentity.json";
 
+const sections = [historyData, politicsData, societyAndCultureData, lawAndRightsData, geographyData, economyData, symbolsAndIdentityData];
+
 function LearningPage() {
-  const [selectedSection, setSelectedSection] = useState("");
-
-  const sections = {
-    History: historyData,
-    Politics: politicsData,
-    "Society and Culture": societyAndCultureData,
-    "Law and Rights": lawAndRightsData,
-    Geography: geographyData,
-    Economy: economyData,
-    "Symbols and Identity": symbolsAndIdentityData,
-  };
-
-  const handleChange = (e) => {
-    setSelectedSection(e.target.value);
-  };
-
-  const renderContent = () => {
-    if (!selectedSection) return <p>Please select a topic to learn about.</p>;
-
-    const sectionData = sections[selectedSection];
-    return (
-      <div>
-        <h3 className="mb-4">{sectionData.section}</h3>
-        {sectionData.subSections.map((subSection, index) => (
-          <Card key={index} className="mb-4">
-            <Card.Body>
-              <h4 className="mb-3">{subSection.title}</h4>
-              <div className="language-section mb-4">
-                <hr />
-                <p>
-                  <strong>German:</strong> {subSection.content.german}
-                </p>
-                <p>
-                  <strong>English:</strong> {subSection.content.english}
-                </p>
-                <hr />
-              </div>
-
-              <h5 className="mt-4">Key Points</h5>
-              <div className="row mt-3">
-                <div className="col-md-6">
-                  <ul className="list-unstyled">
-                    {subSection.keyPoints.map((point, idx) => (
-                      <li key={idx} className="mb-2">
-                        <hr />
-                        {point.german}
-                        <hr />
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <div className="col-md-6">
-                  <ul className="list-unstyled">
-                    {subSection.keyPoints.map((point, idx) => (
-                      <li key={idx} className="mb-2">
-                        <hr />
-                        {point.english}
-                        <hr />
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </Card.Body>
-          </Card>
-        ))}
-      </div>
-    );
-  };
+  const [selectedSection, setSelectedSection] = useState(sections[0].section);
+  const [query, setQuery] = useState("");
+  const [language, setLanguage] = useState("english");
+  const section = sections.find((item) => item.section === selectedSection) || sections[0];
+  const entries = useMemo(() => section.subSections.filter((item) =>
+    `${item.title} ${item.content.german} ${item.content.english}`.toLowerCase().includes(query.toLowerCase())
+  ), [section, query]);
 
   return (
-    <div className="container mt-4">
-      <h2 className="mb-4 text-center">Learn About Key Topics</h2>
-      <p className="lead text-center">
-        Select a topic from the dropdown to learn more about the key concepts covered in the Einbürgerungstest.
-      </p>
+    <div className="container mt-4 learning-library">
+      <section className="home-hero learning-library-hero">
+        <p className="path-kicker mb-2">Citizenship knowledge, made clear</p>
+        <h1 className="display-6 fw-bold mb-3">Understand the topic. Remember the answer.</h1>
+        <p className="lead mb-0">Explore short explanations in German and English, then focus on the facts that matter for the exam.</p>
+      </section>
 
-      <div className="row">
-        <div className="col-md-4 mx-auto mb-4">
-          <select className="form-select" onChange={handleChange}>
-            <option value="">Select a Topic</option>
-            {Object.keys(sections).map((sectionName, index) => (
-              <option key={index} value={sectionName}>
-                {sectionName}
-              </option>
-            ))}
-          </select>
-        </div>
-      </div>
+      <div className="row g-4 mt-2">
+        <aside className="col-lg-3">
+          <div className="learning-topic-menu p-3">
+            <label className="form-label fw-semibold" htmlFor="topic-search">Find a topic</label>
+            <Form.Control id="topic-search" type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search topics…" className="mb-3" />
+            <div className="d-grid gap-2" role="group" aria-label="Knowledge topics">
+              {sections.map((item) => (
+                <button key={item.section} type="button" className={`topic-menu-button ${selectedSection === item.section ? "active" : ""}`} onClick={() => setSelectedSection(item.section)}>
+                  <span>{item.section}</span><span className="topic-count">{item.subSections.length}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        </aside>
 
-      <div className="row">
-        <div className="col-md-10 mx-auto">{renderContent()}</div>
+        <section className="col-lg-9" aria-label={`${section.section} learning notes`}>
+          <div className="d-flex flex-column flex-md-row justify-content-between align-items-md-end gap-3 mb-3">
+            <div><p className="path-kicker mb-1">Topic {sections.indexOf(section) + 1} of {sections.length}</p><h2 className="mb-0">{section.section}</h2></div>
+            <div className="language-toggle" role="group" aria-label="Explanation language">
+              <button type="button" className={language === "english" ? "active" : ""} onClick={() => setLanguage("english")}>English first</button>
+              <button type="button" className={language === "german" ? "active" : ""} onClick={() => setLanguage("german")}>Deutsch zuerst</button>
+            </div>
+          </div>
+          {entries.length ? entries.map((item, index) => (
+            <Card key={item.title} className="knowledge-card mb-3">
+              <Card.Body className="p-4">
+                <div className="d-flex justify-content-between align-items-start gap-3 mb-3"><h3 className="h5 mb-0">{item.title}</h3><span className="knowledge-index">{String(index + 1).padStart(2, "0")}</span></div>
+                <div className="knowledge-explanation">
+                  <div><span className="knowledge-label">{language === "english" ? "In plain English" : "Auf Deutsch"}</span><p>{item.content[language]}</p></div>
+                  <details><summary>{language === "english" ? "Read the other language" : "Andere Sprache anzeigen"}</summary><p className="mt-3 mb-0">{item.content[language === "english" ? "german" : "english"]}</p></details>
+                </div>
+                <div className="key-facts mt-4"><h4 className="h6 mb-3">Key facts to remember</h4><ul className="mb-0">{item.keyPoints.map((point, pointIndex) => <li key={`${item.title}-${pointIndex}`}>{point[language]}</li>)}</ul></div>
+              </Card.Body>
+            </Card>
+          )) : <div className="empty-search p-4"><h3 className="h5">No matching notes</h3><p className="mb-0">Try another keyword or choose a different topic.</p></div>}
+        </section>
       </div>
     </div>
   );

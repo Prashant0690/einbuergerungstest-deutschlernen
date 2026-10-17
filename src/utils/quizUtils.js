@@ -48,12 +48,13 @@ export const processAnswer = (question, selectedGermanOption) => {
 };
 
 export const saveAnswersToSession = (key, answersArray) => {
-  sessionStorage.setItem(key, JSON.stringify(answersArray));
+  localStorage.setItem(key, JSON.stringify(answersArray));
 };
 
 export const loadAnswersFromSession = (key) => {
-  const saved = sessionStorage.getItem(key);
-  return saved ? JSON.parse(saved) : [];
+  const saved = localStorage.getItem(key) || sessionStorage.getItem(key);
+  if (!saved) return [];
+  try { return JSON.parse(saved); } catch { return []; }
 };
 
 export const updateAnswerArray = (prevAnswers, newAnswer) => {

@@ -253,11 +253,9 @@ function GermanCasesPracticePage() {
 
   const parsedText = useMemo(() => parseDocument(practiceDocument), []);
   const { intro, sections } = useMemo(() => {
-    const section1 = parsedText.sections.find((section) => section.id === "section-1");
-
     return {
       intro: parsedText.intro,
-      sections: [section1, ONE_SENTENCE_SECTION].filter(Boolean),
+      sections: [...parsedText.sections, ONE_SENTENCE_SECTION],
     };
   }, [parsedText]);
 
@@ -266,7 +264,7 @@ function GermanCasesPracticePage() {
       <header className="cases-practice-hero">
         <p className="cases-eyebrow">GERMAN CASES PRACTICE</p>
         <h1>400 practice questions and answers</h1>
-        <p className="lead mb-0">All sections are kept in the same structure as your source document.</p>
+        <p className="lead mb-0">250 bilingual examples, 100 mixed case questions, and 50 translation exercises.</p>
       </header>
 
           <p className="mt-4 mb-2 text-muted">

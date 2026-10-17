@@ -67,14 +67,16 @@
    3. Select branch **gh-pages** and folder **/(root)**, then save.
 
    ### Publish a new version
-   1. Make sure your latest changes are committed to your working branch.
-   2. Run:
-      ```bash
-      npm install
-      npm run deploy
-      ```
-   3. Wait 1-2 minutes, then open:
-      [https://prashant0690.github.io/einbuergerungstest-deutschlernen](https://prashant0690.github.io/einbuergerungstest-deutschlernen)
+   Pull requests targeting `master` automatically install dependencies and build the app. After a pull request is merged, GitHub Actions runs `npm run deploy` and publishes the build to `gh-pages`.
+
+   To publish manually, run:
+   ```bash
+   npm install
+   npm run deploy
+   ```
+
+   Check the **Actions** tab for deployment status, then open:
+   [https://prashant0690.github.io/einbuergerungstest-deutschlernen](https://prashant0690.github.io/einbuergerungstest-deutschlernen)
 
    ## Legal Notice
 

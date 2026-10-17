@@ -1,0 +1,215 @@
+{
+  "sections": [
+    { "id": "question-words", "navLabel": "Question words" },
+    { "id": "easy-to-confuse", "navLabel": "Easy to confuse" },
+    { "id": "word-order", "navLabel": "Word order" },
+    { "id": "practice", "navLabel": "Practice" }
+  ],
+  "words": [
+    { "word": "Was?", "meaning": "what", "example": "Was lernst du?", "translation": "What are you learning?" },
+    { "word": "Wer?", "meaning": "who · subject", "example": "Wer kommt heute?", "translation": "Who is coming today?" },
+    { "word": "Wen?", "meaning": "whom · direct object", "example": "Wen besuchst du?", "translation": "Whom are you visiting?" },
+    { "word": "Wem?", "meaning": "to/for whom · recipient", "example": "Wem schreibst du?", "translation": "Whom are you writing to?" },
+    { "word": "Wo?", "meaning": "where · location", "example": "Wo arbeitest du?", "translation": "Where do you work?" },
+    { "word": "Wohin?", "meaning": "where to · destination", "example": "Wohin fährst du?", "translation": "Where are you going?" },
+    { "word": "Woher?", "meaning": "where from · origin", "example": "Woher kommst du?", "translation": "Where are you from?" },
+    { "word": "Wann?", "meaning": "when · time", "example": "Wann beginnt der Kurs?", "translation": "When does the course begin?" },
+    { "word": "Warum?", "meaning": "why · reason", "example": "Warum lernst du Deutsch?", "translation": "Why are you learning German?" },
+    { "word": "Wie?", "meaning": "how · manner", "example": "Wie kommst du zur Arbeit?", "translation": "How do you get to work?" },
+    { "word": "Welcher?", "meaning": "which · choice", "example": "Welchen Bus nehmen wir?", "translation": "Which bus are we taking?" },
+    { "word": "Wie lange?", "meaning": "how long · duration", "example": "Wie lange dauert der Film?", "translation": "How long is the film?" }
+  ],
+  "contrasts": [
+    {
+      "title": "Location, destination, origin",
+      "items": [
+        { "german": "Wo bist du?", "meaning": "Where are you?" },
+        { "german": "Wohin gehst du?", "meaning": "Where are you going to?" },
+        { "german": "Woher kommst du?", "meaning": "Where are you coming from?" }
+      ],
+      "tip": "Think: place · to a place · from a place. The verb and preposition may also affect the case."
+    },
+    {
+      "title": "Who does what?",
+      "items": [
+        { "german": "Wer hilft dir?", "meaning": "Who helps you? (subject)" },
+        { "german": "Wen siehst du?", "meaning": "Whom do you see? (accusative)" },
+        { "german": "Wem hilfst du?", "meaning": "Whom do you help? (dative)" }
+      ],
+      "tip": "The verb helps determine the case: helfen takes dative, while sehen takes accusative."
+    },
+    {
+      "title": "Ask about amount or choice",
+      "items": [
+        { "german": "Wie viel Zeit hast du?", "meaning": "How much time do you have?" },
+        { "german": "Wie viele Bücher hast du?", "meaning": "How many books do you have?" },
+        { "german": "Welches Buch liest du?", "meaning": "Which book are you reading?" }
+      ],
+      "tip": "Wie viele is used with countable plural nouns. Welcher changes form to match the noun."
+    }
+  ],
+  "patterns": [
+    {
+      "label": "One-word question",
+      "structure": "Question word + verb + subject + rest",
+      "example": "Wann beginnt der Film?",
+      "translation": "When does the film begin?"
+    },
+    {
+      "label": "Question phrase",
+      "structure": "Question phrase + verb + subject + rest",
+      "example": "Mit wem sprichst du?",
+      "translation": "Who are you speaking with?"
+    },
+    {
+      "label": "Past · Perfekt",
+      "structure": "Question word + helper + subject + rest + participle",
+      "example": "Was hast du gestern gekocht?",
+      "translation": "What did you cook yesterday?"
+    },
+    {
+      "label": "Modal verb",
+      "structure": "Question word + modal + subject + rest + infinitive",
+      "example": "Wann musst du losfahren?",
+      "translation": "When do you have to leave?"
+    }
+  ],
+  "practice": [
+    {
+      "prompt": "Ask where someone lives. Answer: They live in Hamburg.",
+      "question": "Wo wohnst du?",
+      "questionTranslation": "Where do you live?",
+      "answer": "Ich wohne in Hamburg.",
+      "answerTranslation": "I live in Hamburg.",
+      "tip": "Wo asks for a location. The answer gives the place."
+    },
+    {
+      "prompt": "Ask where someone is going. Answer: To the train station.",
+      "question": "Wohin gehst du?",
+      "questionTranslation": "Where are you going?",
+      "answer": "Ich gehe zum Bahnhof.",
+      "answerTranslation": "I’m going to the train station.",
+      "tip": "Wohin asks for a destination. Zum is zu + dem."
+    },
+    {
+      "prompt": "Ask when the appointment starts. Answer: At 10 o’clock.",
+      "question": "Wann beginnt der Termin?",
+      "questionTranslation": "When does the appointment start?",
+      "answer": "Er beginnt um zehn Uhr.",
+      "answerTranslation": "It starts at 10 o’clock.",
+      "tip": "The verb beginnt follows the first question element Wann."
+    },
+    {
+      "prompt": "Ask why someone is learning German. Answer with a reason.",
+      "question": "Warum lernst du Deutsch?",
+      "questionTranslation": "Why are you learning German?",
+      "answer": "Weil ich in Deutschland arbeiten möchte.",
+      "answerTranslation": "Because I would like to work in Germany.",
+      "tip": "After weil, the conjugated verb moves to the end: arbeiten möchte."
+    },
+    {
+      "prompt": "Ask what someone did yesterday. Answer: I cooked soup.",
+      "question": "Was hast du gestern gemacht?",
+      "questionTranslation": "What did you do yesterday?",
+      "answer": "Ich habe gestern eine Suppe gekocht.",
+      "answerTranslation": "I cooked a soup yesterday.",
+      "tip": "In the question, hast is in position two and gemacht goes at the end."
+    },
+    {
+      "prompt": "Ask which bus someone is taking. Answer: The number 5 bus.",
+      "question": "Welchen Bus nimmst du?",
+      "questionTranslation": "Which bus are you taking?",
+      "answer": "Ich nehme den Bus Nummer fünf.",
+      "answerTranslation": "I’m taking the number 5 bus.",
+      "tip": "Welchen matches Bus in the accusative because it is the object of nehmen."
+    },
+    {
+      "prompt": "Ask how someone gets to work. Answer: By bicycle.",
+      "question": "Wie kommst du zur Arbeit?",
+      "questionTranslation": "How do you get to work?",
+      "answer": "Ich fahre mit dem Fahrrad zur Arbeit.",
+      "answerTranslation": "I go to work by bicycle.",
+      "tip": "Wie asks about the way or method. Mit takes the dative: mit dem Fahrrad."
+    },
+    {
+      "prompt": "Ask how long the German course lasts. Answer: Six months.",
+      "question": "Wie lange dauert der Deutschkurs?",
+      "questionTranslation": "How long does the German course last?",
+      "answer": "Der Deutschkurs dauert sechs Monate.",
+      "answerTranslation": "The German course lasts six months.",
+      "tip": "Wie lange asks about duration. The verb dauern describes how long something lasts."
+    },
+    {
+      "prompt": "Ask how often someone practises German. Answer: Every day.",
+      "question": "Wie oft übst du Deutsch?",
+      "questionTranslation": "How often do you practise German?",
+      "answer": "Ich übe jeden Tag Deutsch.",
+      "answerTranslation": "I practise German every day.",
+      "tip": "Wie oft asks about frequency. Jeden Tag is a common answer."
+    },
+    {
+      "prompt": "Ask whom someone is calling. Answer: Her colleague.",
+      "question": "Wen rufst du an?",
+      "questionTranslation": "Whom are you calling?",
+      "answer": "Ich rufe meine Kollegin an.",
+      "answerTranslation": "I’m calling my colleague.",
+      "tip": "Anrufen is separable: the prefix an goes to the end. Wen asks for the accusative object."
+    },
+    {
+      "prompt": "Ask whom someone is helping. Answer: Their neighbour.",
+      "question": "Wem hilfst du?",
+      "questionTranslation": "Whom are you helping?",
+      "answer": "Ich helfe meinem Nachbarn.",
+      "answerTranslation": "I’m helping my neighbour.",
+      "tip": "Helfen takes the dative, so ask Wem? and answer meinem Nachbarn."
+    },
+    {
+      "prompt": "Ask where someone came from yesterday. Answer: From Munich.",
+      "question": "Woher bist du gestern gekommen?",
+      "questionTranslation": "Where did you come from yesterday?",
+      "answer": "Ich bin gestern aus München gekommen.",
+      "answerTranslation": "I came from Munich yesterday.",
+      "tip": "Woher asks about origin. In Perfekt, bist is in position two and gekommen goes at the end."
+    },
+    {
+      "prompt": "Ask how many siblings someone has. Answer: Two.",
+      "question": "Wie viele Geschwister hast du?",
+      "questionTranslation": "How many siblings do you have?",
+      "answer": "Ich habe zwei Geschwister.",
+      "answerTranslation": "I have two siblings.",
+      "tip": "Wie viele is used with a countable plural noun: die Geschwister."
+    },
+    {
+      "prompt": "Ask which language someone speaks at home. Answer: Turkish.",
+      "question": "Welche Sprache sprichst du zu Hause?",
+      "questionTranslation": "Which language do you speak at home?",
+      "answer": "Zu Hause spreche ich Türkisch.",
+      "answerTranslation": "At home, I speak Turkish.",
+      "tip": "Welche matches the feminine noun Sprache. A time or place phrase can come first in the answer; the verb stays second."
+    },
+    {
+      "prompt": "Ask whose bag this is. Answer: It belongs to Anna.",
+      "question": "Wessen Tasche ist das?",
+      "questionTranslation": "Whose bag is this?",
+      "answer": "Das ist Annas Tasche.",
+      "answerTranslation": "That is Anna’s bag.",
+      "tip": "Wessen asks about possession. It is useful to recognize, though everyday speakers may also ask Wem gehört die Tasche?"
+    },
+    {
+      "prompt": "Ask what time the train leaves. Answer: At 8:15.",
+      "question": "Wann fährt der Zug ab?",
+      "questionTranslation": "When does the train leave?",
+      "answer": "Der Zug fährt um acht Uhr fünfzehn ab.",
+      "answerTranslation": "The train leaves at 8:15.",
+      "tip": "Abfahren is separable: the prefix ab goes at the end of the main clause."
+    },
+    {
+      "prompt": "Ask what someone has to bring to the appointment. Answer: Their passport.",
+      "question": "Was musst du zum Termin mitbringen?",
+      "questionTranslation": "What do you have to bring to the appointment?",
+      "answer": "Ich muss meinen Pass mitbringen.",
+      "answerTranslation": "I have to bring my passport.",
+      "tip": "With a modal, musst is in position two and mitbringen stays as an infinitive at the end."
+    }
+  ]
+}

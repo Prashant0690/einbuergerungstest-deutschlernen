@@ -1,9 +1,9 @@
-import React, { useEffect, useMemo, useState } from "react";
-import { Accordion, Alert, Button, Card, Form, Nav, Spinner } from "react-bootstrap";
+import React, { useMemo, useState } from "react";
+import { Accordion, Button, Card, Form, Nav } from "react-bootstrap";
 import GermanRoleLegend from "../components/GermanRoleLegend";
+import practiceDocument from "../data/German_Cases_400_Practice_Questions.json";
 import "./GermanCasesPracticePage.css";
 
-const DATA_URL = `${process.env.PUBLIC_URL || ""}/data/German_Cases_400_Practice_Questions.txt`;
 const ONE_SENTENCE_SECTION = {
   id: "one-sentence",
   title: "🔥 One Sentence That Contains Almost Everything",
@@ -247,48 +247,11 @@ function parseDocument(content) {
 }
 
 function GermanCasesPracticePage() {
-  const [content, setContent] = useState("");
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState("");
   const [showAllAnswers, setShowAllAnswers] = useState(false);
   const [visibleQuestionCountBySection, setVisibleQuestionCountBySection] = useState({});
   const [activeSectionOneSubcategory, setActiveSectionOneSubcategory] = useState(null);
 
-  useEffect(() => {
-    let active = true;
-
-    const loadContent = async () => {
-      try {
-        const textResponse = await fetch(DATA_URL);
-
-        if (!textResponse.ok) {
-          throw new Error(`Unable to load practice file (${textResponse.status})`);
-        }
-
-        const text = await textResponse.text();
-
-        if (active) {
-          setContent(text);
-          setError("");
-        }
-      } catch (loadError) {
-        if (active) {
-          setError(loadError instanceof Error ? loadError.message : "Unable to load the practice file.");
-        }
-      } finally {
-        if (active) {
-          setLoading(false);
-        }
-      }
-    };
-
-    loadContent();
-
-    return () => {
-      active = false;
-    };
-  }, []);
-  const parsedText = useMemo(() => parseDocument(content), [content]);
+  const parsedText = useMemo(() => parseDocument(practiceDocument), []);
   const { intro, sections } = useMemo(() => {
     const section1 = parsedText.sections.find((section) => section.id === "section-1");
 
@@ -306,20 +269,6 @@ function GermanCasesPracticePage() {
         <p className="lead mb-0">All sections are kept in the same structure as your source document.</p>
       </header>
 
-      {loading && (
-        <div className="cases-practice-loading">
-          <Spinner animation="border" role="status" />
-        </div>
-      )}
-
-      {!loading && error && (
-        <Alert variant="danger" className="mt-4">
-          {error}
-        </Alert>
-      )}
-
-      {!loading && !error && (
-        <>
           <p className="mt-4 mb-2 text-muted">
             Read the English sentence first and identify each role. Reveal the German and rules only when you are ready to check your answer.
           </p>
@@ -584,8 +533,6 @@ function GermanCasesPracticePage() {
               </Card>
             </section>
           ))}
-        </>
-      )}
     </section>
   );
 }

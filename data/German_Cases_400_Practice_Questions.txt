@@ -580,9 +580,9 @@ Identify the case of:
 * eine kleine, aber sehr beliebte Buchhandlung
 
 ANSWER:
-dem alten Gebäude → Dativ; der Universität → Genitiv; eine kleine, aber sehr beliebte Buchhandlung → Nominativ.
+dem alten Gebäude → Dativ; der Universität → Dativ; eine kleine, aber sehr beliebte Buchhandlung → Nominativ.
 NOTE:
-In dem alten Gebäude = location → Dativ. Gegenüber der Universität expresses a relation/possession-like Genitiv in this source sentence. The Buchhandlung is the subject.
+In dem alten Gebäude = location → Dativ. Gegenüber takes Dativ, so der Universität is Dativ. The Buchhandlung is the subject.
 
 ### 9.
 

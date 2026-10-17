@@ -1,104 +1,213 @@
 .grammar-resource {
-  max-width: 1080px;
+  max-width: 1100px;
   margin: 0 auto 2rem;
 }
 
 .grammar-hero {
-  padding: 2.5rem 1rem;
-  margin-bottom: 1rem;
-  background: linear-gradient(135deg, #eaf4ff, #f8fbff);
-  border-radius: 1rem;
+  padding: clamp(1.4rem, 4vw, 2.5rem);
+  background: #edf0e8;
+  border-radius: 14px;
 }
 
-.grammar-hero h1,
-.grammar-lesson-card h2,
-.grammar-topic-card h2,
-.grammar-routine h2 {
-  color: #123a63;
+.grammar-eyebrow,
+.grammar-topic {
+  margin: 0;
+  color: var(--brand-strong);
+  font-size: .72rem;
+  font-weight: 750;
+  letter-spacing: .08em;
+  text-transform: uppercase;
 }
 
-.grammar-eyebrow {
-  color: #1264a3;
-  font-size: 0.75rem;
+.grammar-hero h1 {
+  max-width: 800px;
+  margin: .45rem 0 .6rem;
+  font-size: clamp(2rem, 4.4vw, 3rem);
+  line-height: 1.08;
+}
+
+.grammar-hero > p:last-child {
+  max-width: 680px;
+  margin: 0;
+  color: var(--muted);
+}
+
+.grammar-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+  padding: .7rem 0 .85rem;
+}
+
+.grammar-index a {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  padding: .4rem .6rem;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  font-size: .82rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.grammar-index a:hover {
+  color: var(--brand-strong);
+  border-color: #aab9ac;
+}
+
+.grammar-index a span {
+  color: var(--muted);
+  font-size: .7rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
 }
 
-.grammar-topic-card,
-.grammar-lesson-card,
-.grammar-routine {
-  border: 1px solid #d5e3f1;
-  box-shadow: 0 0.25rem 1rem rgba(18, 58, 99, 0.08);
-}
-
-.grammar-topic-list {
+.grammar-lesson-grid {
   display: grid;
-  gap: 0.5rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: .7rem;
 }
 
-.grammar-topic-list .nav-link {
-  color: #284866;
-  cursor: pointer;
-  padding: 0.7rem 0.8rem;
+.grammar-lesson {
+  min-width: 0;
+  padding: .85rem;
+  scroll-margin-top: 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 11px;
 }
 
-.grammar-topic-list .nav-link.active {
-  background-color: #1264a3;
+.grammar-lesson-heading {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  margin-bottom: .5rem;
+}
+
+.grammar-lesson-number {
+  display: grid;
+  flex: 0 0 2.15rem;
+  width: 2.15rem;
+  height: 2.15rem;
+  place-items: center;
+  color: var(--brand-strong);
+  background: var(--surface-alt);
+  border-radius: 50%;
+  font-size: .76rem;
+  font-weight: 750;
+}
+
+.grammar-topic {
+  margin-bottom: .12rem;
+  color: var(--muted);
+  font-size: .65rem;
+}
+
+.grammar-lesson-heading h2 {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.25;
 }
 
 .grammar-rule {
-  font-size: 1.15rem;
-  line-height: 1.6;
+  margin: 0 0 .55rem;
+  line-height: 1.48;
 }
 
 .grammar-pattern {
-  padding: 1rem;
-  margin: 1.5rem 0;
-  background-color: #123a63;
-  border-radius: 0.5rem;
+  padding: .5rem .65rem;
+  background: var(--surface-alt);
+  border-radius: 7px;
+}
+
+.grammar-pattern > span,
+.grammar-example figcaption {
+  display: block;
+  margin-bottom: .12rem;
+  color: var(--muted);
+  font-size: .68rem;
+  font-weight: 750;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.grammar-pattern > span {
+  color: #dce9dd;
+}
+
+.grammar-pattern p {
+  margin: 0;
   color: #fff;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  line-height: 1.6;
+  font-size: .88rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
 }
 
 .grammar-example {
-  padding: 1.25rem;
-  border-left: 4px solid #f5b700;
-  background-color: #fffaf0;
+  margin: .45rem 0 0;
+  padding: .45rem .65rem;
+  border-left: 3px solid var(--brand);
 }
+
+.grammar-example figcaption { margin-bottom: .12rem; }
 
 .grammar-german {
-  font-size: 1.05rem;
-  font-weight: 600;
-  line-height: 2.1;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.45;
 }
 
-.grammar-translation {
-  color: #46627d;
-  line-height: 2.1;
+.grammar-english {
+  margin: .15rem 0 0;
+  color: var(--muted);
+  font-size: .88rem;
+  line-height: 1.45;
 }
 
-.grammar-memory-cue {
+.grammar-memory {
   display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-  margin-top: 1.5rem;
-  padding: 1rem;
-  background-color: #e8f7f0;
-  border-radius: 0.5rem;
-  color: #1c5a40;
+  gap: .45rem;
+  margin: .45rem 0 0;
+  color: #33483a;
+  font-size: .88rem;
+  line-height: 1.45;
 }
 
-.grammar-routine p {
-  margin-bottom: 0;
+.grammar-memory strong {
+  flex: 0 0 auto;
 }
 
-@media (max-width: 575.98px) {
-  .grammar-hero {
-    padding: 2rem 1rem;
-  }
+.grammar-check {
+  margin-top: .5rem;
+  border-top: 1px solid var(--border);
+}
 
-  .grammar-hero h1 {
-    font-size: 2rem;
-  }
+.grammar-check summary {
+  width: fit-content;
+  padding-top: .45rem;
+  color: var(--brand-strong);
+  cursor: pointer;
+  font-size: .86rem;
+  font-weight: 700;
+}
+
+.grammar-check-content {
+  padding-top: .55rem;
+  font-size: .9rem;
+  line-height: 1.5;
+}
+
+.grammar-check-content p { margin: 0 0 .4rem; }
+.grammar-check-prompt { font-weight: 650; }
+.grammar-check-answer { color: var(--brand-strong); }
+.grammar-check-why { color: var(--muted); }
+.grammar-more-link { font-size: .84rem; font-weight: 650; text-decoration: none; }
+
+@media (max-width: 760px) {
+  .grammar-lesson-grid { grid-template-columns: 1fr; }
 }

@@ -49,7 +49,12 @@ function GeneralQuestionsPage() {
 
   // Shuffle the questions when random mode is activated
   const shuffleQuestions = (questionsArray) => {
-    return [...questionsArray].sort(() => Math.random() - 0.5);
+    const shuffled = [...questionsArray];
+    for (let i = shuffled.length - 1; i > 0; i -= 1) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
   };
 
   const handleRandomMode = () => {
@@ -72,15 +77,8 @@ function GeneralQuestionsPage() {
   };
 
   const handleNext = () => {
-    if (isRandomMode) {
-      // In random mode, select the next random question
-      const nextIndex = Math.floor(Math.random() * questions.length);
-      setCurrentQuestionIndex(nextIndex);
-    } else {
-      // In normal mode, select the next question in order
-      if (currentQuestionIndex < questions.length - 1) {
-        setCurrentQuestionIndex(currentQuestionIndex + 1);
-      }
+    if (currentQuestionIndex < questions.length - 1) {
+      setCurrentQuestionIndex(currentQuestionIndex + 1);
     }
     window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to top
   };
@@ -188,8 +186,9 @@ function GeneralQuestionsPage() {
   return (
     <div className="container mt-4">
       <div className="home-hero text-center mb-4">
-        <h2 className="mb-2">General question trainer</h2>
-        <p className="mb-0">Practice all 300 official-style general questions with saved progress.</p>
+        <p className="path-kicker mb-2">Study mode · 300 general questions</p>
+        <h1 className="h2 mb-2">General question trainer</h1>
+        <p className="mb-0">Learn one question at a time. Your answers are saved on this device so you can continue later.</p>
       </div>
 
       {/* Pagination at the top center */}

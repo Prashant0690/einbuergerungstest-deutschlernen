@@ -1,132 +1,53 @@
-/*
-Einbürgerungstest und Deutschlernen
-Copyright (C) 2023 Prashant Tiwari
+import React, { useMemo, useState } from "react";
+import { FaCheck, FaVolumeUp } from "react-icons/fa";
+import vocabulary from "../data/vocabulary.json";
 
-This program is a personal project and free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-Project Name: einbuergerungstest-deutschlernen
-Folder Name: einbuergerungstest-deutschlernen
-*/
-import React, { useState } from "react";
-import { Button, Tooltip, OverlayTrigger } from "react-bootstrap";
-import { FaVolumeUp } from "react-icons/fa";
-import vocabulary from "../data/vocabulary.json"; // Adjust the path if necessary
-import "./VocabularyPage.css"; // Assuming you have a separate CSS file for styling
-
-// Map categories to Bootstrap background classes for button outlines
-function getCategoryColor(category) {
-  switch (category) {
-    case "Law and Rights":
-      return "border-danger border-3"; // Red
-    case "Politics":
-      return "border-primary border-3"; // Blue
-    case "Economy":
-      return "border-success border-3"; // Green
-    case "History":
-      return "border-warning border-3"; // Orange
-    case "Symbols and Identity":
-      return "border-purple border-3"; // Purple (custom color)
-    case "Society and Culture":
-      return "border-info border-3"; // Teal
-    case "Education":
-      return "border-secondary border-3"; // Gray
-    case "Geography":
-      return "border-pink border-3"; // Pink (custom color)
-    default:
-      return "border-dark border-3"; // Default to dark
-  }
-}
-
-function renderTooltip(props, translation) {
-  return <Tooltip {...props}>{translation}</Tooltip>;
-}
+const savedLearned = () => {
+  try { return JSON.parse(localStorage.getItem("learnedCitizenshipWords") || "[]"); } catch { return []; }
+};
 
 function VocabularyPage() {
-  const [clickedWords, setClickedWords] = useState(new Set());
+  const [query, setQuery] = useState("");
+  const [category, setCategory] = useState("All topics");
+  const [learned, setLearned] = useState(savedLearned);
+  const categories = ["All topics", ...new Set(vocabulary.vocabulary.map((item) => item.category))];
+  const visibleWords = useMemo(() => vocabulary.vocabulary.filter((item) => {
+    const matchesCategory = category === "All topics" || category === item.category;
+    const matchesQuery = `${item.word} ${item.translation} ${item.category}`.toLowerCase().includes(query.toLowerCase());
+    return matchesCategory && matchesQuery;
+  }), [category, query]);
 
-  const handleWordClick = (word) => {
-    setClickedWords((prevClickedWords) => {
-      const newClickedWords = new Set(prevClickedWords);
+  const toggleLearned = (word) => setLearned((previous) => {
+    const next = previous.includes(word) ? previous.filter((item) => item !== word) : [...previous, word];
+    localStorage.setItem("learnedCitizenshipWords", JSON.stringify(next));
+    return next;
+  });
 
-      if (newClickedWords.has(word)) {
-        newClickedWords.delete(word); // Remove the word if it's already in the set
-      } else {
-        newClickedWords.add(word); // Add the word if it's not in the set
-      }
-
-      return newClickedWords;
-    });
-  };
-
-  // Function to handle speech synthesis
-  const handleSpeak = (word) => {
+  const speak = (word) => {
+    if (!("speechSynthesis" in window)) return;
+    window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(word);
-    utterance.lang = "de-DE"; // Set language to German
-    speechSynthesis.speak(utterance);
+    utterance.lang = "de-DE";
+    utterance.rate = 0.9;
+    window.speechSynthesis.speak(utterance);
   };
 
   return (
-    <div className="important-words-container">
-      <h1 className="mb-4">Important Words for the Einbürgerungstest</h1>
-      <p className="lead">
-        Here are some important nouns and verbs you should know:
-      </p>
-
-      {/* Legend Section */}
-      <div className="legend mb-4">
-        <h4>Category Legend</h4>
-        <div className="d-flex flex-wrap gap-3">
-          {vocabulary.vocabulary.map((wordObj, index) => {
-            const colorClass = getCategoryColor(wordObj.category);
-            const isClicked = clickedWords.has(wordObj.word);
-
-            return (
-              <OverlayTrigger
-                key={index}
-                placement="top"
-                overlay={(props) => renderTooltip(props, wordObj.translation)}
-              >
-                <Button
-                  variant={isClicked ? "dark" : "outline-dark"}
-                  className={`btn-lg d-flex align-items-center justify-content-between ${colorClass}`}
-                  style={{
-                    maxWidth: "520px", // Limit the width of the button
-                    overflow: "hidden",
-                    textOverflow: "ellipsis",
-                    whiteSpace: "nowrap",
-                    backgroundColor: isClicked ? "lightpink" : "white",
-                    borderColor: isClicked ? "dark" : "lightgrey",
-                    color: isClicked ? "white" : "black",
-                  }}
-                  onClick={() => handleWordClick(wordObj.word)}
-                >
-                  <span style={{ flex: 1, marginRight: "8px" }}>
-                    {wordObj.word}
-                  </span>
-                  <FaVolumeUp
-                    onClick={(e) => {
-                      e.stopPropagation(); // Prevent triggering the button click event
-                      handleSpeak(wordObj.word);
-                    }}
-                    style={{ flexShrink: 0 }}
-                  />
-                </Button>
-              </OverlayTrigger>
-            );
-          })}
-        </div>
-      </div>
+    <div className="container mt-4 vocabulary-page">
+      <section className="home-hero learning-library-hero">
+        <p className="path-kicker mb-2">German vocabulary · citizenship topics</p>
+        <h1 className="display-6 fw-bold mb-2">Words worth knowing</h1>
+        <p className="lead mb-0">Build the vocabulary to understand exam questions and talk about life in Germany.</p>
+      </section>
+      <section className="vocabulary-controls mt-4">
+        <div className="vocabulary-progress"><div><span className="path-kicker">Your word list</span><strong>{learned.length} <span>of {vocabulary.vocabulary.length} learned</span></strong></div><div className="progress"><div className="progress-bar" style={{ width: `${(learned.length / vocabulary.vocabulary.length) * 100}%` }} /></div></div>
+        <div className="row g-3 align-items-end mt-1"><div className="col-md-7"><label className="form-label fw-semibold" htmlFor="vocabulary-search">Search words</label><input id="vocabulary-search" className="form-control" type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search German, English, or topic" /></div><div className="col-md-5"><label className="form-label fw-semibold" htmlFor="vocabulary-category">Filter by topic</label><select id="vocabulary-category" className="form-select" value={category} onChange={(event) => setCategory(event.target.value)}>{categories.map((item) => <option key={item}>{item}</option>)}</select></div></div>
+        <p className="small text-muted mt-3 mb-0">Showing {visibleWords.length} {visibleWords.length === 1 ? "word" : "words"}. Select “I know this” to save your progress.</p>
+      </section>
+      {visibleWords.length ? <div className="row g-3 mt-1">{visibleWords.map((item) => {
+        const isLearned = learned.includes(item.word);
+        return <div className="col-sm-6 col-xl-4" key={item.word}><article className={`vocabulary-word-card ${isLearned ? "learned" : ""}`}><div className="d-flex justify-content-between gap-2 align-items-start"><span className="vocabulary-category">{item.category}</span><button type="button" className="speak-word" onClick={() => speak(item.word)} aria-label={`Listen to ${item.word}`} title="Listen"><FaVolumeUp /></button></div><h2 lang="de" className="h4 mt-3">{item.word}</h2><p lang="en" className="vocabulary-translation">{item.translation}</p><button type="button" className={`learned-toggle ${isLearned ? "active" : ""}`} onClick={() => toggleLearned(item.word)} aria-pressed={isLearned}>{isLearned && <FaCheck className="me-2" />}{isLearned ? "Learned" : "I know this"}</button></article></div>;
+      })}</div> : <div className="empty-search mt-3 p-4"><h2 className="h5">No words found</h2><p className="mb-0">Try a different spelling or choose another topic.</p></div>}
     </div>
   );
 }

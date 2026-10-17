@@ -1,0 +1,60 @@
+{
+  "citizenship": {
+    "pathways": [
+      {
+        "title": "Build your foundation",
+        "description": "Understand the ideas behind the questions with concise, bilingual topic notes.",
+        "cta": "Explore key topics",
+        "path": "/learningPage",
+        "icon": "book"
+      },
+      {
+        "title": "Practise for the exam",
+        "description": "Work through the official question pool or try a 33-question exam simulation.",
+        "cta": "Start practice",
+        "path": "/general-questions",
+        "icon": "target"
+      }
+    ],
+    "topics": [
+      { "title": "History", "description": "Key events and how they shaped Germany’s democracy and society." },
+      { "title": "Politics", "description": "The constitution, federal institutions, elections, and participation." },
+      { "title": "Society and Culture", "description": "Shared values, diversity, and everyday life in Germany." },
+      { "title": "Law and Rights", "description": "Fundamental rights, protections, and responsibilities." },
+      { "title": "Geography", "description": "The 16 states, cities, landscapes, and regional structure." },
+      { "title": "Economy", "description": "Work, the social market economy, and Germany’s place in Europe." },
+      { "title": "Symbols and Identity", "description": "Democratic symbols, traditions, and historical memory." }
+    ],
+    "examFormat": [
+      { "value": "310", "label": "Questions in the pool", "detail": "300 general questions plus 10 questions for your Bundesland." },
+      { "value": "33 · 60 min", "label": "Exam format", "detail": "30 general questions and 3 state questions, each with four answer choices." },
+      { "value": "17 / 33", "label": "Passing score", "detail": "At least 17 correct answers are required to pass the Einbürgerungstest." }
+    ],
+    "examTopics": [
+      { "title": "Life in a democracy", "detail": "Fundamental rights, democratic institutions, elections, and civic participation." },
+      { "title": "History and responsibility", "detail": "Important periods in German history and how they shape civic responsibility today." },
+      { "title": "People and society", "detail": "Everyday life, social values, equality, family, education, and living together." }
+    ],
+    "tools": [
+      { "title": "General question bank", "description": "Practise the 300 general questions at your own pace.", "path": "/general-questions" },
+      { "title": "Your state questions", "description": "Review the 10 questions for your selected Bundesland.", "path": "/state-questions" },
+      { "title": "Exam simulation", "description": "Try a timed-feel, 33-question mock exam with feedback.", "path": "/quiz-selection" },
+      { "title": "Essential vocabulary", "description": "Learn important words for the test and daily communication.", "path": "/VocabularyPage" }
+    ]
+  },
+  "german": {
+    "tracks": [
+      { "title": "Everyday German", "path": "/everyday-german", "description": "Browse everyday phrases with clear English meanings and example sentences.", "level": "Start here" },
+      { "title": "Grammar essentials", "path": "/german-grammar", "description": "Review sentence structure, tenses, and useful grammar patterns.", "level": "Build accuracy" },
+      { "title": "German cases", "path": "/german-cases", "description": "See how Nominativ, Akkusativ, Dativ, and Genitiv work in context.", "level": "Go deeper" },
+      { "title": "Modal verbs", "path": "/german-modal-verbs", "description": "Express ability, permission, obligation, and intention clearly.", "level": "Build accuracy" },
+      { "title": "Ask better questions", "path": "/german-wh-questions", "description": "Practise question words and natural answer structures.", "level": "Use it" },
+      { "title": "Cases practice: 400 questions", "path": "/german-cases-practice", "description": "Apply case rules across a larger set of guided exercises.", "level": "Put it into practice" },
+      { "title": "Citizenship vocabulary", "path": "/VocabularyPage", "description": "Learn useful words connected to the citizenship test and daily life.", "level": "Useful words" }
+    ],
+    "support": [
+      { "title": "Citizenship knowledge library", "description": "Learn the history, politics, law, geography, and society behind the exam.", "path": "/learningPage", "cta": "Open topic library" },
+      { "title": "Official exam information", "description": "Check official citizenship-test information and resources from BAMF.", "href": "https://www.bamf.de/DE/Startseite/startseite_node.html", "cta": "Visit BAMF" }
+    ]
+  }
+}

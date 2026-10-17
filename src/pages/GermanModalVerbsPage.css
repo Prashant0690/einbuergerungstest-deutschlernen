@@ -70,10 +70,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: .65rem;
   flex-wrap: wrap;
-  margin: 1.25rem 0;
-  padding: 1rem;
+  margin: .8rem 0;
+  padding: .7rem .85rem;
   background: #f8fbff;
   border: 1px solid #d5e3f1;
   border-radius: 0.5rem;
@@ -81,21 +81,52 @@
 
 .practice-sentence-list {
   display: grid;
-  gap: 1rem;
+  gap: .6rem;
 }
 
 .practice-sentence {
   border: 1px solid #d5e3f1;
 }
 
+.practice-sentence .card-body { padding: .75rem .9rem; }
+
+.modal-practice-heading {
+  display: flex;
+  align-items: flex-start;
+  gap: .6rem;
+}
+
+.practice-number {
+  display: inline-grid;
+  flex: 0 0 2rem;
+  width: 2rem;
+  height: 2rem;
+  place-items: center;
+  border-radius: 50%;
+  color: #fff;
+  background: #315e49;
+  font-size: .85rem;
+  font-weight: 750;
+}
+
+.practice-kicker {
+  display: block;
+  margin: 0 0 .25rem;
+  color: #5c7163;
+  font-size: .75rem;
+  font-weight: 750;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+}
+
 .practice-language {
-  line-height: 2.1;
+  line-height: 1.55;
 }
 
 .practice-answer,
 .practice-reveal {
-  margin-top: 1rem;
-  padding-top: 1rem;
+  margin-top: .6rem;
+  padding-top: .6rem;
   border-top: 1px solid #d5e3f1;
 }
 
@@ -103,6 +134,14 @@
   color: #1264a3;
   cursor: pointer;
   font-weight: 700;
+}
+
+.practice-answer > p:last-child,
+.practice-reveal > p:last-child {
+  padding: .7rem .8rem;
+  background: #f1f5ef;
+  border-radius: 7px;
+  line-height: 1.55;
 }
 
 @media (max-width: 767.98px) {
@@ -113,4 +152,6 @@
   .modal-master-hero h1 {
     font-size: 2rem;
   }
+
+  .modal-practice-heading { gap: .65rem; }
 }

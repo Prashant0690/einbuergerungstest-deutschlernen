@@ -8,6 +8,7 @@ function GermanRoleLegend({ className = "" }) {
       <span className="role-chip case-dat">Purple: receiver / dative</span>
       <span className="role-chip case-acc">Green: direct object / accusative</span>
       <span className="role-chip case-gen">Maroon: possession / genitive</span>
+      <span className="role-chip case-other">Grey: time, place, or predicate phrase</span>
     </div>
   );
 }

@@ -1,0 +1,57 @@
+{
+  "intro": "These clues help you remember an article; they do not predict every noun. Learn each noun as a set: article + singular + plural.",
+  "rules": [
+    {
+      "group": "Usually feminine · strong clues",
+      "likelihood": "Very reliable suffixes",
+      "endings": ["-ung", "-heit", "-keit", "-schaft", "-ei", "-ion", "-tät"],
+      "examples": ["die Zeitung", "die Freiheit", "die Möglichkeit", "die Freundschaft", "die Bäckerei", "die Diskussion", "die Universität"],
+      "note": "These suffixes are reliable signals for feminine nouns. Notice the ending, then still store the article with the word."
+    },
+    {
+      "group": "Usually neuter · strong clues",
+      "likelihood": "Very reliable endings",
+      "endings": ["-chen", "-lein"],
+      "examples": ["das Mädchen", "das Brötchen", "das Häuschen", "das Fräulein"],
+      "note": "Diminutives ending in -chen or -lein are neuter, even when they refer to a person or a word that has another gender: die Frau → das Fräulein."
+    },
+    {
+      "group": "Often masculine · useful clues",
+      "likelihood": "Common patterns",
+      "endings": ["-ling", "-ismus", "-ist"],
+      "examples": ["der Lehrling", "der Tourismus", "der Polizist"],
+      "note": "These endings are commonly masculine. Use them as a memory aid; vocabulary still has exceptions and borrowed forms."
+    },
+    {
+      "group": "Gender from meaning",
+      "likelihood": "Helpful categories, with exceptions",
+      "endings": ["Male people and roles → often der", "Female people and roles ending -in → die", "Days, months, seasons → der", "Infinitives used as nouns → das"],
+      "examples": ["der Vater", "die Lehrerin", "der Montag", "der Januar", "der Sommer", "das Lesen"],
+      "note": "Meaning-based patterns can help, but grammatical gender is not always the same as a person's sex or an object's natural category: das Mädchen is neuter."
+    },
+    {
+      "group": "Compound nouns",
+      "likelihood": "Reliable rule",
+      "endings": ["The final noun determines the gender"],
+      "examples": ["der Garten + die Tür → die Gartentür", "das Wörterbuch + der Eintrag → der Wörterbucheintrag", "die Arbeit + das Zimmer → das Arbeitszimmer"],
+      "note": "For a compound, find the last noun. Its gender carries over to the whole compound."
+    }
+  ],
+  "cautions": [
+    "Many endings are only clues, not rules. A noun's meaning or final letter alone is rarely enough to know its article.",
+    "Plural die does not reveal a noun's singular gender. Learn the singular article and plural together: der Apfel → die Äpfel.",
+    "Some suffix patterns are subtle. For example, -er does not make a noun masculine: das Fenster and die Leiter are common examples."
+  ],
+  "caseGuide": {
+    "title": "Use the article in a sentence",
+    "intro": "A dictionary gives the nominative form. In a sentence, the article can change to show the noun's role.",
+    "examples": [
+      { "case": "Nominativ", "form": "der Tisch", "sentence": "Der Tisch ist groß.", "translation": "The table is big." },
+      { "case": "Akkusativ", "form": "den Tisch", "sentence": "Ich kaufe den Tisch.", "translation": "I am buying the table." },
+      { "case": "Dativ", "form": "dem Tisch", "sentence": "Ich sitze am Tisch.", "translation": "I am sitting at the table.", "note": "am = an dem" },
+      { "case": "Genitiv", "form": "des Tisches", "sentence": "Die Beine des Tisches sind stabil.", "translation": "The table's legs are sturdy." }
+    ],
+    "tip": "The article and sometimes the noun ending change; the noun's gender stays the same.",
+    "linkLabel": "Study all four cases"
+  }
+}

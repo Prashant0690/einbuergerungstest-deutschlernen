@@ -19,6 +19,7 @@ const germanLinks = [
   ["/german-cases", "German cases"],
   ["/german-modal-verbs", "Modal verbs"],
   ["/german-wh-questions", "Question words"],
+  ["/german-core-vocabulary", "Core vocabulary"],
   ["/german-cases-practice", "Cases practice · 400"],
 ];
 

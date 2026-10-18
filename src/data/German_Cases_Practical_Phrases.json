@@ -1,0 +1,129 @@
+{
+  "categories": [
+    {
+      "title": "Ask for and understand directions",
+      "items": [
+        {
+          "english": "Excuse me, how do I get to the train station?",
+          "german": "Entschuldigung, wie komme ich zum Bahnhof?",
+          "note": "zum = zu dem; a polite, useful way to ask for directions."
+        },
+        {
+          "english": "Is it far from here?",
+          "german": "Ist es von hier aus weit?"
+        },
+        {
+          "english": "Could you show me on the map, please?",
+          "german": "Könnten Sie es mir bitte auf der Karte zeigen?",
+          "note": "Könnten Sie …? is a polite request."
+        },
+        {
+          "english": "Should I turn left or right?",
+          "german": "Soll ich links oder rechts abbiegen?"
+        },
+        {
+          "english": "Can I walk there?",
+          "german": "Kann ich zu Fuß dorthin gehen?"
+        }
+      ]
+    },
+    {
+      "title": "Say what you understand while learning German",
+      "items": [
+        {
+          "english": "I can't speak much German yet, but I already understand quite a lot.",
+          "german": "Ich kann noch nicht viel Deutsch sprechen, aber ich verstehe schon ziemlich viel.",
+          "note": "A natural, encouraging way to describe your level."
+        },
+        {
+          "english": "Could you speak a little more slowly, please?",
+          "german": "Könnten Sie bitte etwas langsamer sprechen?"
+        },
+        {
+          "english": "Could you repeat that, please?",
+          "german": "Könnten Sie das bitte wiederholen?"
+        },
+        {
+          "english": "What does ___ mean?",
+          "german": "Was bedeutet ___?"
+        },
+        {
+          "english": "How do you say ___ in German?",
+          "german": "Wie sagt man ___ auf Deutsch?"
+        },
+        {
+          "english": "I'm still learning German. Please correct me if I make a mistake.",
+          "german": "Ich lerne noch Deutsch. Bitte korrigieren Sie mich, wenn ich einen Fehler mache.",
+          "note": "The verb goes to the end after wenn."
+        },
+        {
+          "english": "Could you write that down, please?",
+          "german": "Könnten Sie das bitte aufschreiben?"
+        }
+      ]
+    },
+    {
+      "title": "Express feelings and reactions",
+      "items": [
+        {
+          "english": "I'm a little nervous right now.",
+          "german": "Ich bin gerade ein bisschen nervös."
+        },
+        {
+          "english": "I'm happy that you're here.",
+          "german": "Ich freue mich, dass du da bist.",
+          "note": "Informal du; with Sie: Ich freue mich, dass Sie da sind."
+        },
+        {
+          "english": "I'm looking forward to the weekend.",
+          "german": "Ich freue mich auf das Wochenende.",
+          "note": "sich freuen auf + Akkusativ for something you look forward to."
+        },
+        {
+          "english": "I'm not feeling very well today.",
+          "german": "Ich fühle mich heute nicht so gut."
+        },
+        {
+          "english": "That makes me happy.",
+          "german": "Das macht mich glücklich."
+        },
+        {
+          "english": "I'm sorry; that wasn't intentional.",
+          "german": "Es tut mir leid; das war keine Absicht."
+        }
+      ]
+    },
+    {
+      "title": "Handle everyday conversations politely",
+      "items": [
+        {
+          "english": "Could you help me, please?",
+          "german": "Könnten Sie mir bitte helfen?",
+          "note": "helfen takes a dative object: mir."
+        },
+        {
+          "english": "I'm looking for the bus stop.",
+          "german": "Ich suche die Bushaltestelle."
+        },
+        {
+          "english": "I'd like a coffee, please.",
+          "german": "Ich hätte gern einen Kaffee, bitte.",
+          "note": "Ich hätte gern … is a friendly way to order."
+        },
+        {
+          "english": "That sounds good.",
+          "german": "Das klingt gut."
+        },
+        {
+          "english": "Let me think for a moment.",
+          "german": "Lassen Sie mich kurz überlegen.",
+          "note": "Formal Sie; with friends: Lass mich kurz überlegen."
+        },
+        {
+          "english": "No problem; take your time.",
+          "german": "Kein Problem, lassen Sie sich Zeit."
+        }
+      ]
+    }
+  ]
+}

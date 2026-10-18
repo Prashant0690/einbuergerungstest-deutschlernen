@@ -39,6 +39,7 @@ import GermanCasesMasterPage from "./pages/GermanCasesMasterPage";
 import GermanCasesPracticePage from "./pages/GermanCasesPracticePage";
 import GermanModalVerbsPage from "./pages/GermanModalVerbsPage";
 import GermanWhQuestionsPage from "./pages/GermanWhQuestionsPage";
+import GermanCoreVocabularyPage from "./pages/GermanCoreVocabularyPage";
 import UnifiedHomePage from "./pages/UnifiedHomePage";
 
 
@@ -104,6 +105,7 @@ function App() {
             <Route path="/german-cases-practice" element={<GermanCasesPracticePage />} />
             <Route path="/german-modal-verbs" element={<GermanModalVerbsPage />} />
             <Route path="/german-wh-questions" element={<GermanWhQuestionsPage />} />
+            <Route path="/german-core-vocabulary" element={<GermanCoreVocabularyPage />} />
           </Routes>
         </main>
 

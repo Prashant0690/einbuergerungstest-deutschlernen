@@ -1,0 +1,3630 @@
+{
+  "verbs": [
+    [
+      "sein",
+      "be",
+      "bin",
+      "gewesen"
+    ],
+    [
+      "haben",
+      "have",
+      "habe",
+      "gehabt"
+    ],
+    [
+      "werden",
+      "become / will",
+      "werde",
+      "geworden"
+    ],
+    [
+      "können",
+      "can / be able to",
+      "kann",
+      "gekonnt"
+    ],
+    [
+      "müssen",
+      "must / have to",
+      "muss",
+      "gemusst"
+    ],
+    [
+      "sagen",
+      "say / tell",
+      "sage",
+      "gesagt"
+    ],
+    [
+      "machen",
+      "do / make",
+      "mache",
+      "gemacht"
+    ],
+    [
+      "geben",
+      "give",
+      "gebe",
+      "gegeben"
+    ],
+    [
+      "kommen",
+      "come",
+      "komme",
+      "gekommen"
+    ],
+    [
+      "sollen",
+      "should / be supposed to",
+      "soll",
+      "gesollt"
+    ],
+    [
+      "wollen",
+      "want",
+      "will",
+      "gewollt"
+    ],
+    [
+      "gehen",
+      "go / walk",
+      "gehe",
+      "gegangen"
+    ],
+    [
+      "wissen",
+      "know a fact",
+      "weiß",
+      "gewusst"
+    ],
+    [
+      "sehen",
+      "see",
+      "sehe",
+      "gesehen"
+    ],
+    [
+      "lassen",
+      "let / leave",
+      "lasse",
+      "gelassen"
+    ],
+    [
+      "stehen",
+      "stand",
+      "stehe",
+      "gestanden"
+    ],
+    [
+      "finden",
+      "find",
+      "finde",
+      "gefunden"
+    ],
+    [
+      "bleiben",
+      "stay",
+      "bleibe",
+      "geblieben"
+    ],
+    [
+      "liegen",
+      "lie / be located",
+      "liege",
+      "gelegen"
+    ],
+    [
+      "heißen",
+      "be called / mean",
+      "heiße",
+      "geheißen"
+    ],
+    [
+      "denken",
+      "think",
+      "denke",
+      "gedacht"
+    ],
+    [
+      "nehmen",
+      "take",
+      "nehme",
+      "genommen"
+    ],
+    [
+      "dürfen",
+      "may / be allowed to",
+      "darf",
+      "gedurft"
+    ],
+    [
+      "glauben",
+      "believe / think",
+      "glaube",
+      "geglaubt"
+    ],
+    [
+      "halten",
+      "hold / stop",
+      "halte",
+      "gehalten"
+    ],
+    [
+      "nennen",
+      "name / call",
+      "nenne",
+      "genannt"
+    ],
+    [
+      "mögen",
+      "like",
+      "mag",
+      "gemocht"
+    ],
+    [
+      "zeigen",
+      "show",
+      "zeige",
+      "gezeigt"
+    ],
+    [
+      "führen",
+      "lead / guide",
+      "führe",
+      "geführt"
+    ],
+    [
+      "sprechen",
+      "speak",
+      "spreche",
+      "gesprochen"
+    ],
+    [
+      "bringen",
+      "bring",
+      "bringe",
+      "gebracht"
+    ],
+    [
+      "leben",
+      "live",
+      "lebe",
+      "gelebt"
+    ],
+    [
+      "fahren",
+      "go / travel by vehicle",
+      "fahre",
+      "gefahren"
+    ],
+    [
+      "meinen",
+      "mean / have an opinion",
+      "meine",
+      "gemeint"
+    ],
+    [
+      "fragen",
+      "ask",
+      "frage",
+      "gefragt"
+    ],
+    [
+      "kennen",
+      "know / be familiar with",
+      "kenne",
+      "gekannt"
+    ],
+    [
+      "gelten",
+      "be valid / count",
+      "gelte",
+      "gegolten"
+    ],
+    [
+      "stellen",
+      "put / place upright",
+      "stelle",
+      "gestellt"
+    ],
+    [
+      "spielen",
+      "play",
+      "spiele",
+      "gespielt"
+    ],
+    [
+      "arbeiten",
+      "work",
+      "arbeite",
+      "gearbeitet"
+    ],
+    [
+      "brauchen",
+      "need",
+      "brauche",
+      "gebraucht"
+    ],
+    [
+      "folgen",
+      "follow",
+      "folge",
+      "gefolgt"
+    ],
+    [
+      "lernen",
+      "learn",
+      "lerne",
+      "gelernt"
+    ],
+    [
+      "bestehen",
+      "exist / pass",
+      "bestehe",
+      "bestanden"
+    ],
+    [
+      "verstehen",
+      "understand",
+      "verstehe",
+      "verstanden"
+    ],
+    [
+      "setzen",
+      "set / seat",
+      "setze",
+      "gesetzt"
+    ],
+    [
+      "bekommen",
+      "get / receive",
+      "bekomme",
+      "bekommen"
+    ],
+    [
+      "beginnen",
+      "begin",
+      "beginne",
+      "begonnen"
+    ],
+    [
+      "erzählen",
+      "tell / narrate",
+      "erzähle",
+      "erzählt"
+    ],
+    [
+      "versuchen",
+      "try",
+      "versuche",
+      "versucht"
+    ],
+    [
+      "schreiben",
+      "write",
+      "schreibe",
+      "geschrieben"
+    ],
+    [
+      "laufen",
+      "run / walk",
+      "laufe",
+      "gelaufen"
+    ],
+    [
+      "erklären",
+      "explain",
+      "erkläre",
+      "erklärt"
+    ],
+    [
+      "entsprechen",
+      "correspond to",
+      "entspreche",
+      "entsprochen"
+    ],
+    [
+      "sitzen",
+      "sit",
+      "sitze",
+      "gesessen"
+    ],
+    [
+      "ziehen",
+      "pull / move",
+      "ziehe",
+      "gezogen"
+    ],
+    [
+      "scheinen",
+      "seem / shine",
+      "scheine",
+      "geschienen"
+    ],
+    [
+      "fallen",
+      "fall",
+      "falle",
+      "gefallen"
+    ],
+    [
+      "gehören",
+      "belong to",
+      "gehöre",
+      "gehört"
+    ],
+    [
+      "entstehen",
+      "arise / come into being",
+      "entstehe",
+      "entstanden"
+    ],
+    [
+      "erhalten",
+      "receive / maintain",
+      "erhalte",
+      "erhalten"
+    ],
+    [
+      "treffen",
+      "meet",
+      "treffe",
+      "getroffen"
+    ],
+    [
+      "suchen",
+      "look for",
+      "suche",
+      "gesucht"
+    ],
+    [
+      "legen",
+      "lay / put down",
+      "lege",
+      "gelegt"
+    ],
+    [
+      "vorstellen",
+      "introduce / imagine",
+      "stelle vor",
+      "vorgestellt"
+    ],
+    [
+      "handeln",
+      "act / deal",
+      "handle",
+      "gehandelt"
+    ],
+    [
+      "erreichen",
+      "reach / achieve",
+      "erreiche",
+      "erreicht"
+    ],
+    [
+      "tragen",
+      "carry / wear",
+      "trage",
+      "getragen"
+    ],
+    [
+      "schaffen",
+      "manage / create",
+      "schaffe",
+      "geschafft"
+    ],
+    [
+      "lesen",
+      "read",
+      "lese",
+      "gelesen"
+    ],
+    [
+      "verlieren",
+      "lose",
+      "verliere",
+      "verloren"
+    ],
+    [
+      "darstellen",
+      "represent / depict",
+      "stelle dar",
+      "dargestellt"
+    ],
+    [
+      "erkennen",
+      "recognize",
+      "erkenne",
+      "erkannt"
+    ],
+    [
+      "entwickeln",
+      "develop",
+      "entwickle",
+      "entwickelt"
+    ],
+    [
+      "reden",
+      "talk",
+      "rede",
+      "geredet"
+    ],
+    [
+      "aussehen",
+      "look / appear",
+      "sehe aus",
+      "ausgesehen"
+    ],
+    [
+      "erscheinen",
+      "appear / be published",
+      "erscheine",
+      "erschienen"
+    ],
+    [
+      "bilden",
+      "form",
+      "bilde",
+      "gebildet"
+    ],
+    [
+      "anfangen",
+      "begin / start",
+      "fange an",
+      "angefangen"
+    ],
+    [
+      "erwarten",
+      "expect",
+      "erwarte",
+      "erwartet"
+    ],
+    [
+      "wohnen",
+      "live / reside",
+      "wohne",
+      "gewohnt"
+    ],
+    [
+      "zahlen",
+      "pay",
+      "zahle",
+      "gezahlt"
+    ],
+    [
+      "essen",
+      "eat",
+      "esse",
+      "gegessen"
+    ],
+    [
+      "trinken",
+      "drink",
+      "trinke",
+      "getrunken"
+    ],
+    [
+      "schlafen",
+      "sleep",
+      "schlafe",
+      "geschlafen"
+    ],
+    [
+      "kaufen",
+      "buy",
+      "kaufe",
+      "gekauft"
+    ],
+    [
+      "verkaufen",
+      "sell",
+      "verkaufe",
+      "verkauft"
+    ],
+    [
+      "öffnen",
+      "open",
+      "öffne",
+      "geöffnet"
+    ],
+    [
+      "schließen",
+      "close",
+      "schließe",
+      "geschlossen"
+    ],
+    [
+      "helfen",
+      "help",
+      "helfe",
+      "geholfen"
+    ],
+    [
+      "warten",
+      "wait",
+      "warte",
+      "gewartet"
+    ],
+    [
+      "bezahlen",
+      "pay for",
+      "bezahle",
+      "bezahlt"
+    ],
+    [
+      "anrufen",
+      "call on the phone",
+      "rufe an",
+      "angerufen"
+    ],
+    [
+      "aufstehen",
+      "get up",
+      "stehe auf",
+      "aufgestanden"
+    ],
+    [
+      "mitbringen",
+      "bring along",
+      "bringe mit",
+      "mitgebracht"
+    ],
+    [
+      "einladen",
+      "invite",
+      "lade ein",
+      "eingeladen"
+    ],
+    [
+      "vergessen",
+      "forget",
+      "vergesse",
+      "vergessen"
+    ],
+    [
+      "gewinnen",
+      "win",
+      "gewinne",
+      "gewonnen"
+    ],
+    [
+      "kochen",
+      "cook",
+      "koche",
+      "gekocht"
+    ],
+    [
+      "bestellen",
+      "order",
+      "bestelle",
+      "bestellt"
+    ],
+    [
+      "fehlen",
+      "be missing / lack",
+      "fehle",
+      "gefehlt"
+    ],
+    [
+      "fühlen",
+      "feel",
+      "fühle",
+      "gefühlt"
+    ],
+    [
+      "kosten",
+      "cost",
+      "koste",
+      "gekostet"
+    ],
+    [
+      "reisen",
+      "travel",
+      "reise",
+      "gereist"
+    ],
+    [
+      "schicken",
+      "send",
+      "schicke",
+      "geschickt"
+    ],
+    [
+      "duschen",
+      "shower",
+      "dusche",
+      "geduscht"
+    ],
+    [
+      "putzen",
+      "clean",
+      "putze",
+      "geputzt"
+    ],
+    [
+      "aufräumen",
+      "tidy up",
+      "räume auf",
+      "aufgeräumt"
+    ],
+    [
+      "abholen",
+      "pick up",
+      "hole ab",
+      "abgeholt"
+    ],
+    [
+      "ausfüllen",
+      "fill in",
+      "fülle aus",
+      "ausgefüllt"
+    ],
+    [
+      "umziehen",
+      "move house / change clothes",
+      "ziehe um",
+      "umgezogen"
+    ],
+    [
+      "anmelden",
+      "register",
+      "melde an",
+      "angemeldet"
+    ],
+    [
+      "teilnehmen",
+      "take part",
+      "nehme teil",
+      "teilgenommen"
+    ],
+    [
+      "passieren",
+      "happen",
+      "passiere",
+      "passiert"
+    ],
+    [
+      "empfehlen",
+      "recommend",
+      "empfehle",
+      "empfohlen"
+    ],
+    [
+      "entscheiden",
+      "decide",
+      "entscheide",
+      "entschieden"
+    ],
+    [
+      "bitten",
+      "ask / request",
+      "bitte",
+      "gebeten"
+    ],
+    [
+      "benutzen",
+      "use",
+      "benutze",
+      "benutzt"
+    ]
+  ],
+  "adjectives": [
+    [
+      "gut",
+      "good",
+      "schlecht"
+    ],
+    [
+      "schlecht",
+      "bad",
+      "gut"
+    ],
+    [
+      "groß",
+      "big / tall",
+      "klein"
+    ],
+    [
+      "klein",
+      "small",
+      "groß"
+    ],
+    [
+      "lang",
+      "long",
+      "kurz"
+    ],
+    [
+      "kurz",
+      "short",
+      "lang"
+    ],
+    [
+      "alt",
+      "old",
+      "jung"
+    ],
+    [
+      "jung",
+      "young",
+      "alt"
+    ],
+    [
+      "neu",
+      "new",
+      "alt"
+    ],
+    [
+      "wichtig",
+      "important",
+      "unwichtig"
+    ],
+    [
+      "richtig",
+      "correct",
+      "falsch"
+    ],
+    [
+      "falsch",
+      "wrong",
+      "richtig"
+    ],
+    [
+      "schön",
+      "beautiful / nice",
+      "hässlich"
+    ],
+    [
+      "hässlich",
+      "ugly",
+      "schön"
+    ],
+    [
+      "schnell",
+      "fast",
+      "langsam"
+    ],
+    [
+      "langsam",
+      "slow",
+      "schnell"
+    ],
+    [
+      "leicht",
+      "easy / light",
+      "schwer"
+    ],
+    [
+      "schwer",
+      "difficult / heavy",
+      "leicht"
+    ],
+    [
+      "einfach",
+      "simple",
+      "kompliziert"
+    ],
+    [
+      "kompliziert",
+      "complicated",
+      "einfach"
+    ],
+    [
+      "teuer",
+      "expensive",
+      "billig"
+    ],
+    [
+      "billig",
+      "cheap",
+      "teuer"
+    ],
+    [
+      "kostenlos",
+      "free of charge",
+      "kostenpflichtig"
+    ],
+    [
+      "warm",
+      "warm",
+      "kalt"
+    ],
+    [
+      "kalt",
+      "cold",
+      "warm"
+    ],
+    [
+      "heiß",
+      "hot",
+      "kühl"
+    ],
+    [
+      "sauber",
+      "clean",
+      "schmutzig"
+    ],
+    [
+      "schmutzig",
+      "dirty",
+      "sauber"
+    ],
+    [
+      "voll",
+      "full",
+      "leer"
+    ],
+    [
+      "leer",
+      "empty",
+      "voll"
+    ],
+    [
+      "offen",
+      "open",
+      "geschlossen"
+    ],
+    [
+      "geschlossen",
+      "closed",
+      "offen"
+    ],
+    [
+      "frei",
+      "free / available",
+      "besetzt"
+    ],
+    [
+      "besetzt",
+      "occupied / busy",
+      "frei"
+    ],
+    [
+      "früh",
+      "early",
+      "spät"
+    ],
+    [
+      "spät",
+      "late",
+      "früh"
+    ],
+    [
+      "nah",
+      "near",
+      "weit"
+    ],
+    [
+      "weit",
+      "far",
+      "nah"
+    ],
+    [
+      "hoch",
+      "high / tall",
+      "niedrig"
+    ],
+    [
+      "niedrig",
+      "low",
+      "hoch"
+    ],
+    [
+      "stark",
+      "strong",
+      "schwach"
+    ],
+    [
+      "schwach",
+      "weak",
+      "stark"
+    ],
+    [
+      "gesund",
+      "healthy",
+      "krank"
+    ],
+    [
+      "krank",
+      "ill",
+      "gesund"
+    ],
+    [
+      "müde",
+      "tired",
+      "wach"
+    ],
+    [
+      "wach",
+      "awake",
+      "müde"
+    ],
+    [
+      "glücklich",
+      "happy",
+      "unglücklich"
+    ],
+    [
+      "traurig",
+      "sad",
+      "fröhlich"
+    ],
+    [
+      "fröhlich",
+      "cheerful",
+      "traurig"
+    ],
+    [
+      "freundlich",
+      "friendly",
+      "unfreundlich"
+    ],
+    [
+      "nett",
+      "kind / nice",
+      "gemein"
+    ],
+    [
+      "höflich",
+      "polite",
+      "unhöflich"
+    ],
+    [
+      "ruhig",
+      "calm / quiet",
+      "laut"
+    ],
+    [
+      "laut",
+      "loud",
+      "leise"
+    ],
+    [
+      "leise",
+      "quiet / soft",
+      "laut"
+    ],
+    [
+      "sicher",
+      "safe / certain",
+      "gefährlich"
+    ],
+    [
+      "gefährlich",
+      "dangerous",
+      "sicher"
+    ],
+    [
+      "interessant",
+      "interesting",
+      "langweilig"
+    ],
+    [
+      "langweilig",
+      "boring",
+      "interessant"
+    ],
+    [
+      "bekannt",
+      "known / familiar",
+      "unbekannt"
+    ],
+    [
+      "unbekannt",
+      "unknown",
+      "bekannt"
+    ],
+    [
+      "möglich",
+      "possible",
+      "unmöglich"
+    ],
+    [
+      "unmöglich",
+      "impossible",
+      "möglich"
+    ],
+    [
+      "bereit",
+      "ready",
+      "unvorbereitet"
+    ],
+    [
+      "wahr",
+      "true",
+      "falsch"
+    ],
+    [
+      "offiziell",
+      "official",
+      "inoffiziell"
+    ],
+    [
+      "normal",
+      "normal",
+      "ungewöhnlich"
+    ],
+    [
+      "besonders",
+      "special",
+      "gewöhnlich"
+    ],
+    [
+      "modern",
+      "modern",
+      "altmodisch"
+    ],
+    [
+      "praktisch",
+      "practical",
+      "unpraktisch"
+    ],
+    [
+      "bequem",
+      "comfortable",
+      "unbequem"
+    ],
+    [
+      "saftig",
+      "juicy",
+      "trocken"
+    ],
+    [
+      "trocken",
+      "dry",
+      "nass"
+    ],
+    [
+      "nass",
+      "wet",
+      "trocken"
+    ],
+    [
+      "süß",
+      "sweet",
+      "bitter"
+    ],
+    [
+      "sauer",
+      "sour",
+      "süß"
+    ],
+    [
+      "bitter",
+      "bitter",
+      "süß"
+    ],
+    [
+      "frisch",
+      "fresh",
+      "alt"
+    ],
+    [
+      "weich",
+      "soft",
+      "hart"
+    ],
+    [
+      "hart",
+      "hard",
+      "weich"
+    ],
+    [
+      "dick",
+      "thick / fat",
+      "dünn"
+    ],
+    [
+      "dünn",
+      "thin",
+      "dick"
+    ],
+    [
+      "breit",
+      "wide",
+      "schmal"
+    ],
+    [
+      "schmal",
+      "narrow",
+      "breit"
+    ],
+    [
+      "geteilt",
+      "divided",
+      "ganz"
+    ],
+    [
+      "ganz",
+      "whole",
+      "geteilt"
+    ],
+    [
+      "gleich",
+      "same / equal",
+      "verschieden"
+    ],
+    [
+      "verschieden",
+      "different",
+      "gleich"
+    ],
+    [
+      "gemeinsam",
+      "shared / together",
+      "allein"
+    ],
+    [
+      "allein",
+      "alone",
+      "gemeinsam"
+    ],
+    [
+      "pünktlich",
+      "punctual",
+      "verspätet"
+    ],
+    [
+      "verspätet",
+      "late / delayed",
+      "pünktlich"
+    ],
+    [
+      "fleißig",
+      "hard-working",
+      "faul"
+    ],
+    [
+      "faul",
+      "lazy",
+      "fleißig"
+    ],
+    [
+      "klug",
+      "clever",
+      "dumm"
+    ],
+    [
+      "dumm",
+      "stupid",
+      "klug"
+    ],
+    [
+      "ehrlich",
+      "honest",
+      "unehrlich"
+    ],
+    [
+      "geduldig",
+      "patient",
+      "ungeduldig"
+    ],
+    [
+      "positiv",
+      "positive",
+      "negativ"
+    ],
+    [
+      "negativ",
+      "negative",
+      "positiv"
+    ],
+    [
+      "weiß",
+      "white",
+      "schwarz"
+    ],
+    [
+      "schwarz",
+      "black",
+      "weiß"
+    ],
+    [
+      "rot",
+      "red",
+      "grün"
+    ],
+    [
+      "grün",
+      "green",
+      "rot"
+    ],
+    [
+      "blau",
+      "blue",
+      "gelb"
+    ],
+    [
+      "gelb",
+      "yellow",
+      "blau"
+    ],
+    [
+      "braun",
+      "brown",
+      "beige"
+    ],
+    [
+      "grau",
+      "grey",
+      "bunt"
+    ],
+    [
+      "bunt",
+      "colourful",
+      "einfarbig"
+    ],
+    [
+      "einfarbig",
+      "single-coloured",
+      "bunt"
+    ],
+    [
+      "hell",
+      "bright / light",
+      "dunkel"
+    ],
+    [
+      "dunkel",
+      "dark",
+      "hell"
+    ],
+    [
+      "hungrig",
+      "hungry",
+      "satt"
+    ],
+    [
+      "satt",
+      "full (after eating)",
+      "hungrig"
+    ],
+    [
+      "durstig",
+      "thirsty",
+      "hungrig"
+    ],
+    [
+      "kaputt",
+      "broken / not working",
+      "funktionstüchtig"
+    ],
+    [
+      "heil",
+      "whole / uninjured",
+      "verletzt"
+    ],
+    [
+      "fertig",
+      "finished / ready",
+      "unfertig"
+    ],
+    [
+      "unfertig",
+      "unfinished",
+      "fertig"
+    ],
+    [
+      "beschäftigt",
+      "busy",
+      "frei"
+    ],
+    [
+      "verheiratet",
+      "married",
+      "ledig"
+    ],
+    [
+      "ledig",
+      "single / unmarried",
+      "verheiratet"
+    ],
+    [
+      "arm",
+      "poor",
+      "reich"
+    ],
+    [
+      "reich",
+      "rich",
+      "arm"
+    ],
+    [
+      "beliebt",
+      "popular",
+      "unbeliebt"
+    ],
+    [
+      "unbeliebt",
+      "unpopular",
+      "beliebt"
+    ],
+    [
+      "zufrieden",
+      "satisfied",
+      "unzufrieden"
+    ],
+    [
+      "unzufrieden",
+      "dissatisfied",
+      "zufrieden"
+    ],
+    [
+      "nervös",
+      "nervous",
+      "entspannt"
+    ],
+    [
+      "entspannt",
+      "relaxed",
+      "nervös"
+    ],
+    [
+      "nützlich",
+      "useful",
+      "nutzlos"
+    ],
+    [
+      "nutzlos",
+      "useless",
+      "nützlich"
+    ],
+    [
+      "notwendig",
+      "necessary",
+      "unnötig"
+    ],
+    [
+      "unnötig",
+      "unnecessary",
+      "notwendig"
+    ],
+    [
+      "schuldig",
+      "guilty",
+      "unschuldig"
+    ],
+    [
+      "unschuldig",
+      "innocent",
+      "schuldig"
+    ],
+    [
+      "aktiv",
+      "active",
+      "passiv"
+    ],
+    [
+      "passiv",
+      "passive",
+      "aktiv"
+    ],
+    [
+      "erfolgreich",
+      "successful",
+      "erfolglos"
+    ],
+    [
+      "erfolglos",
+      "unsuccessful",
+      "erfolgreich"
+    ]
+  ],
+  "nounGroups": [
+    {
+      "name": "All topics",
+      "start": 0,
+      "end": 410,
+      "articleTip": "Article counts show patterns in this word bank, not a rule for guessing new nouns. Learn each noun with its article and plural."
+    },
+    {
+      "name": "People & family",
+      "start": 0,
+      "end": 10,
+      "articleTip": "Family words often follow a person's gender (der Vater, die Mutter), but das Kind is neuter. Learn the article with the whole noun."
+    },
+    {
+      "name": "Home",
+      "start": 10,
+      "end": 20,
+      "articleTip": "Room and furniture words use all three genders. Meaning alone does not tell you an object's article."
+    },
+    {
+      "name": "Places & town",
+      "start": 20,
+      "end": 30,
+      "articleTip": "Place words are mixed. Some endings offer clues, such as -straße being feminine, but learn each place word with its article."
+    },
+    {
+      "name": "Work",
+      "start": 30,
+      "end": 40,
+      "articleTip": "Many feminine job titles use -in (die Lehrerin). Learn both forms of a profession with their articles."
+    },
+    {
+      "name": "School & learning",
+      "start": 40,
+      "end": 50,
+      "articleTip": "Nouns ending in -ung are feminine (die Übung). Common words such as das Buch and der Stift show why endings are only clues."
+    },
+    {
+      "name": "Food & drink",
+      "start": 50,
+      "end": 60,
+      "articleTip": "Food words are mixed: das Wasser, das Brot, der Kaffee, die Milch. Memorize the article as part of each word."
+    },
+    {
+      "name": "Time",
+      "start": 60,
+      "end": 70,
+      "articleTip": "Time words use all three genders: der Tag, die Woche, das Jahr. Practise the article whenever you say a new time word."
+    },
+    {
+      "name": "Travel",
+      "start": 70,
+      "end": 80,
+      "articleTip": "Travel words are mixed: der Zug, die Reise, das Fahrrad. Articles also change after many prepositions."
+    },
+    {
+      "name": "Health & body",
+      "start": 80,
+      "end": 90,
+      "articleTip": "Body and health words are mixed. The ending -heit is a reliable feminine clue, as in die Gesundheit."
+    },
+    {
+      "name": "Shopping & clothing",
+      "start": 90,
+      "end": 100,
+      "articleTip": "Clothing words use all three genders: das Kleid, der Schuh, die Farbe. Learn plurals for shopping situations."
+    },
+    {
+      "name": "Nature & weather",
+      "start": 100,
+      "end": 110,
+      "articleTip": "Nature words are mixed: das Wetter, die Sonne, der Regen. Learn them in useful phrases as well as on their own."
+    },
+    {
+      "name": "Communication & media",
+      "start": 110,
+      "end": 130,
+      "articleTip": "In a compound noun, the final noun determines gender: das Wörterbuch is neuter because Buch is neuter."
+    },
+    {
+      "name": "Technology & devices",
+      "start": 130,
+      "end": 150,
+      "articleTip": "Borrowed device names have no dependable gender pattern. Learn each new word with its article and plural."
+    },
+    {
+      "name": "Public services & documents",
+      "start": 150,
+      "end": 170,
+      "articleTip": "Nouns ending in -ung are feminine (die Anmeldung, die Bescheinigung). Das Formular is a useful exception to memorize."
+    },
+    {
+      "name": "Health & care",
+      "start": 170,
+      "end": 190,
+      "articleTip": "Endings -heit and -keit are feminine (die Krankheit, die Möglichkeit). Other health terms have mixed genders."
+    },
+    {
+      "name": "Feelings & relationships",
+      "start": 190,
+      "end": 210,
+      "articleTip": "Many abstract nouns ending in -ung or -schaft are feminine. Common words such as der Ärger still need to be learned individually."
+    },
+    {
+      "name": "Leisure & arts",
+      "start": 210,
+      "end": 230,
+      "articleTip": "Art and leisure words are mixed. For compounds, look at the last noun: das Theaterstück follows das Stück."
+    },
+    {
+      "name": "Sports & movement",
+      "start": 230,
+      "end": 250,
+      "articleTip": "Activity nouns formed with -en are often neuter (das Schwimmen). Equipment and sport names vary, so check each article."
+    },
+    {
+      "name": "Nature & landscape",
+      "start": 250,
+      "end": 270,
+      "articleTip": "Landscape words are mixed: der Berg, die Insel, das Tal. Learn every new place word with its article."
+    },
+    {
+      "name": "Environment & weather",
+      "start": 270,
+      "end": 290,
+      "articleTip": "Nouns ending in -ung are feminine (die Verschmutzung). Other environment words use mixed genders."
+    },
+    {
+      "name": "Travel & transport",
+      "start": 290,
+      "end": 310,
+      "articleTip": "Transport nouns are mixed: der Verkehr, die Fähre, das Schiff. Learn article and plural before using a noun after a preposition."
+    },
+    {
+      "name": "Food & cooking",
+      "start": 310,
+      "end": 330,
+      "articleTip": "Ingredients and kitchen words use all three genders. Practise each noun as a set: article, singular, plural."
+    },
+    {
+      "name": "Shopping & money",
+      "start": 330,
+      "end": 350,
+      "articleTip": "Shopping words are mixed. Many nouns ending in -ung are feminine, such as die Überweisung."
+    },
+    {
+      "name": "School & language",
+      "start": 350,
+      "end": 370,
+      "articleTip": "Nouns ending in -ung are feminine (die Bedeutung). Core words such as das Wort and der Satz are useful exceptions to know."
+    },
+    {
+      "name": "Clothing & personal care",
+      "start": 370,
+      "end": 390,
+      "articleTip": "Clothing nouns do not follow one gender pattern. Learn the article and plural, then use them in phrases such as mit dem Mantel."
+    },
+    {
+      "name": "Household & tools",
+      "start": 390,
+      "end": 410,
+      "articleTip": "Household objects use mixed genders. The article stays part of the word you memorize, even when the object seems familiar."
+    }
+  ],
+  "nouns": [
+    [
+      "der Mensch",
+      "die Menschen",
+      "person / human"
+    ],
+    [
+      "die Frau",
+      "die Frauen",
+      "woman"
+    ],
+    [
+      "der Mann",
+      "die Männer",
+      "man"
+    ],
+    [
+      "das Kind",
+      "die Kinder",
+      "child"
+    ],
+    [
+      "die Familie",
+      "die Familien",
+      "family"
+    ],
+    [
+      "der Freund",
+      "die Freunde",
+      "friend (male)"
+    ],
+    [
+      "die Freundin",
+      "die Freundinnen",
+      "friend (female)"
+    ],
+    [
+      "der Name",
+      "die Namen",
+      "name"
+    ],
+    [
+      "die Person",
+      "die Personen",
+      "person"
+    ],
+    [
+      "die Leute",
+      "—",
+      "people"
+    ],
+    [
+      "das Haus",
+      "die Häuser",
+      "house"
+    ],
+    [
+      "die Wohnung",
+      "die Wohnungen",
+      "apartment"
+    ],
+    [
+      "das Zimmer",
+      "die Zimmer",
+      "room"
+    ],
+    [
+      "die Tür",
+      "die Türen",
+      "door"
+    ],
+    [
+      "das Fenster",
+      "die Fenster",
+      "window"
+    ],
+    [
+      "der Tisch",
+      "die Tische",
+      "table"
+    ],
+    [
+      "der Stuhl",
+      "die Stühle",
+      "chair"
+    ],
+    [
+      "das Bett",
+      "die Betten",
+      "bed"
+    ],
+    [
+      "die Küche",
+      "die Küchen",
+      "kitchen"
+    ],
+    [
+      "das Bad",
+      "die Bäder",
+      "bathroom"
+    ],
+    [
+      "die Stadt",
+      "die Städte",
+      "city"
+    ],
+    [
+      "das Dorf",
+      "die Dörfer",
+      "village"
+    ],
+    [
+      "die Straße",
+      "die Straßen",
+      "street"
+    ],
+    [
+      "der Weg",
+      "die Wege",
+      "way / path"
+    ],
+    [
+      "der Platz",
+      "die Plätze",
+      "square / place"
+    ],
+    [
+      "der Bahnhof",
+      "die Bahnhöfe",
+      "train station"
+    ],
+    [
+      "die Haltestelle",
+      "die Haltestellen",
+      "stop / station"
+    ],
+    [
+      "der Flughafen",
+      "die Flughäfen",
+      "airport"
+    ],
+    [
+      "das Land",
+      "die Länder",
+      "country"
+    ],
+    [
+      "die Welt",
+      "die Welten",
+      "world"
+    ],
+    [
+      "die Arbeit",
+      "—",
+      "work"
+    ],
+    [
+      "der Beruf",
+      "die Berufe",
+      "occupation"
+    ],
+    [
+      "die Firma",
+      "die Firmen",
+      "company"
+    ],
+    [
+      "das Büro",
+      "die Büros",
+      "office"
+    ],
+    [
+      "der Kollege",
+      "die Kollegen",
+      "colleague (male)"
+    ],
+    [
+      "die Kollegin",
+      "die Kolleginnen",
+      "colleague (female)"
+    ],
+    [
+      "der Chef",
+      "die Chefs",
+      "boss (male)"
+    ],
+    [
+      "die Chefin",
+      "die Chefinnen",
+      "boss (female)"
+    ],
+    [
+      "der Termin",
+      "die Termine",
+      "appointment"
+    ],
+    [
+      "die Pause",
+      "die Pausen",
+      "break"
+    ],
+    [
+      "die Schule",
+      "die Schulen",
+      "school"
+    ],
+    [
+      "der Lehrer",
+      "die Lehrer",
+      "teacher (male)"
+    ],
+    [
+      "die Lehrerin",
+      "die Lehrerinnen",
+      "teacher (female)"
+    ],
+    [
+      "der Schüler",
+      "die Schüler",
+      "pupil (male)"
+    ],
+    [
+      "die Schülerin",
+      "die Schülerinnen",
+      "pupil (female)"
+    ],
+    [
+      "das Buch",
+      "die Bücher",
+      "book"
+    ],
+    [
+      "das Heft",
+      "die Hefte",
+      "notebook"
+    ],
+    [
+      "der Stift",
+      "die Stifte",
+      "pen"
+    ],
+    [
+      "die Frage",
+      "die Fragen",
+      "question"
+    ],
+    [
+      "die Antwort",
+      "die Antworten",
+      "answer"
+    ],
+    [
+      "das Wasser",
+      "—",
+      "water"
+    ],
+    [
+      "das Brot",
+      "die Brote",
+      "bread / loaf"
+    ],
+    [
+      "der Apfel",
+      "die Äpfel",
+      "apple"
+    ],
+    [
+      "die Banane",
+      "die Bananen",
+      "banana"
+    ],
+    [
+      "das Ei",
+      "die Eier",
+      "egg"
+    ],
+    [
+      "der Käse",
+      "—",
+      "cheese"
+    ],
+    [
+      "die Milch",
+      "—",
+      "milk"
+    ],
+    [
+      "der Kaffee",
+      "—",
+      "coffee"
+    ],
+    [
+      "der Tee",
+      "die Tees",
+      "tea"
+    ],
+    [
+      "das Essen",
+      "—",
+      "food / meal"
+    ],
+    [
+      "der Tag",
+      "die Tage",
+      "day"
+    ],
+    [
+      "die Woche",
+      "die Wochen",
+      "week"
+    ],
+    [
+      "der Monat",
+      "die Monate",
+      "month"
+    ],
+    [
+      "das Jahr",
+      "die Jahre",
+      "year"
+    ],
+    [
+      "die Stunde",
+      "die Stunden",
+      "hour"
+    ],
+    [
+      "die Minute",
+      "die Minuten",
+      "minute"
+    ],
+    [
+      "der Morgen",
+      "die Morgen",
+      "morning"
+    ],
+    [
+      "der Abend",
+      "die Abende",
+      "evening"
+    ],
+    [
+      "die Nacht",
+      "die Nächte",
+      "night"
+    ],
+    [
+      "die Zeit",
+      "die Zeiten",
+      "time"
+    ],
+    [
+      "der Zug",
+      "die Züge",
+      "train"
+    ],
+    [
+      "der Bus",
+      "die Busse",
+      "bus"
+    ],
+    [
+      "das Auto",
+      "die Autos",
+      "car"
+    ],
+    [
+      "das Fahrrad",
+      "die Fahrräder",
+      "bicycle"
+    ],
+    [
+      "das Ticket",
+      "die Tickets",
+      "ticket"
+    ],
+    [
+      "die Reise",
+      "die Reisen",
+      "journey / trip"
+    ],
+    [
+      "der Urlaub",
+      "die Urlaube",
+      "holiday"
+    ],
+    [
+      "der Koffer",
+      "die Koffer",
+      "suitcase"
+    ],
+    [
+      "die Tasche",
+      "die Taschen",
+      "bag"
+    ],
+    [
+      "der Schlüssel",
+      "die Schlüssel",
+      "key"
+    ],
+    [
+      "der Körper",
+      "die Körper",
+      "body"
+    ],
+    [
+      "der Kopf",
+      "die Köpfe",
+      "head"
+    ],
+    [
+      "das Auge",
+      "die Augen",
+      "eye"
+    ],
+    [
+      "die Hand",
+      "die Hände",
+      "hand"
+    ],
+    [
+      "der Fuß",
+      "die Füße",
+      "foot"
+    ],
+    [
+      "der Arzt",
+      "die Ärzte",
+      "doctor (male)"
+    ],
+    [
+      "die Ärztin",
+      "die Ärztinnen",
+      "doctor (female)"
+    ],
+    [
+      "die Gesundheit",
+      "—",
+      "health"
+    ],
+    [
+      "die Krankheit",
+      "die Krankheiten",
+      "illness"
+    ],
+    [
+      "die Hilfe",
+      "—",
+      "help"
+    ],
+    [
+      "das Geld",
+      "—",
+      "money"
+    ],
+    [
+      "der Preis",
+      "die Preise",
+      "price"
+    ],
+    [
+      "die Rechnung",
+      "die Rechnungen",
+      "bill / invoice"
+    ],
+    [
+      "der Einkauf",
+      "die Einkäufe",
+      "shopping / purchase"
+    ],
+    [
+      "das Geschäft",
+      "die Geschäfte",
+      "shop / business"
+    ],
+    [
+      "der Markt",
+      "die Märkte",
+      "market"
+    ],
+    [
+      "die Kleidung",
+      "—",
+      "clothing"
+    ],
+    [
+      "das Kleid",
+      "die Kleider",
+      "dress"
+    ],
+    [
+      "der Schuh",
+      "die Schuhe",
+      "shoe"
+    ],
+    [
+      "die Farbe",
+      "die Farben",
+      "colour"
+    ],
+    [
+      "das Wetter",
+      "—",
+      "weather"
+    ],
+    [
+      "die Sonne",
+      "die Sonnen",
+      "sun"
+    ],
+    [
+      "der Regen",
+      "—",
+      "rain"
+    ],
+    [
+      "der Baum",
+      "die Bäume",
+      "tree"
+    ],
+    [
+      "die Blume",
+      "die Blumen",
+      "flower"
+    ],
+    [
+      "das Tier",
+      "die Tiere",
+      "animal"
+    ],
+    [
+      "der Hund",
+      "die Hunde",
+      "dog"
+    ],
+    [
+      "die Katze",
+      "die Katzen",
+      "cat"
+    ],
+    [
+      "der Garten",
+      "die Gärten",
+      "garden"
+    ],
+    [
+      "die Natur",
+      "—",
+      "nature"
+    ],
+    [
+      "der Brief",
+      "die Briefe",
+      "letter"
+    ],
+    [
+      "die E-Mail",
+      "die E-Mails",
+      "email"
+    ],
+    [
+      "die Nachricht",
+      "die Nachrichten",
+      "message / news item"
+    ],
+    [
+      "das Wort",
+      "die Wörter",
+      "word"
+    ],
+    [
+      "der Satz",
+      "die Sätze",
+      "sentence"
+    ],
+    [
+      "die Sprache",
+      "die Sprachen",
+      "language"
+    ],
+    [
+      "das Gespräch",
+      "die Gespräche",
+      "conversation"
+    ],
+    [
+      "die Zeitung",
+      "die Zeitungen",
+      "newspaper"
+    ],
+    [
+      "die Zeitschrift",
+      "die Zeitschriften",
+      "magazine"
+    ],
+    [
+      "das Radio",
+      "die Radios",
+      "radio"
+    ],
+    [
+      "der Fernseher",
+      "die Fernseher",
+      "television set"
+    ],
+    [
+      "die Sendung",
+      "die Sendungen",
+      "broadcast / programme"
+    ],
+    [
+      "der Film",
+      "die Filme",
+      "film"
+    ],
+    [
+      "die Musik",
+      "—",
+      "music"
+    ],
+    [
+      "das Lied",
+      "die Lieder",
+      "song"
+    ],
+    [
+      "die Stimme",
+      "die Stimmen",
+      "voice"
+    ],
+    [
+      "der Laut",
+      "die Laute",
+      "sound"
+    ],
+    [
+      "das Wörterbuch",
+      "die Wörterbücher",
+      "dictionary"
+    ],
+    [
+      "die Übersetzung",
+      "die Übersetzungen",
+      "translation"
+    ],
+    [
+      "die Bedeutung",
+      "die Bedeutungen",
+      "meaning"
+    ],
+    [
+      "der Computer",
+      "die Computer",
+      "computer"
+    ],
+    [
+      "der Laptop",
+      "die Laptops",
+      "laptop"
+    ],
+    [
+      "das Tablet",
+      "die Tablets",
+      "tablet"
+    ],
+    [
+      "das Handy",
+      "die Handys",
+      "mobile phone"
+    ],
+    [
+      "das Telefon",
+      "die Telefone",
+      "telephone"
+    ],
+    [
+      "die Tastatur",
+      "die Tastaturen",
+      "keyboard"
+    ],
+    [
+      "der Bildschirm",
+      "die Bildschirme",
+      "screen"
+    ],
+    [
+      "die Maus",
+      "die Mäuse",
+      "mouse"
+    ],
+    [
+      "das Passwort",
+      "die Passwörter",
+      "password"
+    ],
+    [
+      "die Datei",
+      "die Dateien",
+      "file"
+    ],
+    [
+      "das Programm",
+      "die Programme",
+      "programme / software"
+    ],
+    [
+      "die App",
+      "die Apps",
+      "app"
+    ],
+    [
+      "die Webseite",
+      "die Webseiten",
+      "website"
+    ],
+    [
+      "das Internet",
+      "—",
+      "internet"
+    ],
+    [
+      "das Foto",
+      "die Fotos",
+      "photo"
+    ],
+    [
+      "das Bild",
+      "die Bilder",
+      "picture"
+    ],
+    [
+      "die Kamera",
+      "die Kameras",
+      "camera"
+    ],
+    [
+      "der Drucker",
+      "die Drucker",
+      "printer"
+    ],
+    [
+      "das Gerät",
+      "die Geräte",
+      "device"
+    ],
+    [
+      "die Technik",
+      "—",
+      "technology"
+    ],
+    [
+      "das Amt",
+      "die Ämter",
+      "public office / authority"
+    ],
+    [
+      "die Behörde",
+      "die Behörden",
+      "government authority"
+    ],
+    [
+      "das Rathaus",
+      "die Rathäuser",
+      "town hall"
+    ],
+    [
+      "die Anmeldung",
+      "die Anmeldungen",
+      "registration"
+    ],
+    [
+      "der Antrag",
+      "die Anträge",
+      "application / request"
+    ],
+    [
+      "das Formular",
+      "die Formulare",
+      "form"
+    ],
+    [
+      "der Ausweis",
+      "die Ausweise",
+      "identity card"
+    ],
+    [
+      "der Pass",
+      "die Pässe",
+      "passport"
+    ],
+    [
+      "die Bescheinigung",
+      "die Bescheinigungen",
+      "certificate"
+    ],
+    [
+      "die Unterschrift",
+      "die Unterschriften",
+      "signature"
+    ],
+    [
+      "die Adresse",
+      "die Adressen",
+      "address"
+    ],
+    [
+      "die Post",
+      "—",
+      "mail / post office"
+    ],
+    [
+      "der Briefkasten",
+      "die Briefkästen",
+      "mailbox"
+    ],
+    [
+      "das Paket",
+      "die Pakete",
+      "parcel"
+    ],
+    [
+      "die Lieferung",
+      "die Lieferungen",
+      "delivery"
+    ],
+    [
+      "die Steuer",
+      "die Steuern",
+      "tax"
+    ],
+    [
+      "das Gesetz",
+      "die Gesetze",
+      "law"
+    ],
+    [
+      "die Erlaubnis",
+      "die Erlaubnisse",
+      "permission"
+    ],
+    [
+      "die Versicherung",
+      "die Versicherungen",
+      "insurance"
+    ],
+    [
+      "der Vertrag",
+      "die Verträge",
+      "contract"
+    ],
+    [
+      "das Krankenhaus",
+      "die Krankenhäuser",
+      "hospital"
+    ],
+    [
+      "die Klinik",
+      "die Kliniken",
+      "clinic"
+    ],
+    [
+      "die Praxis",
+      "die Praxen",
+      "medical practice"
+    ],
+    [
+      "das Medikament",
+      "die Medikamente",
+      "medicine / medication"
+    ],
+    [
+      "das Rezept",
+      "die Rezepte",
+      "prescription / recipe"
+    ],
+    [
+      "die Apotheke",
+      "die Apotheken",
+      "pharmacy"
+    ],
+    [
+      "der Patient",
+      "die Patienten",
+      "patient (male)"
+    ],
+    [
+      "die Patientin",
+      "die Patientinnen",
+      "patient (female)"
+    ],
+    [
+      "die Untersuchung",
+      "die Untersuchungen",
+      "examination"
+    ],
+    [
+      "die Behandlung",
+      "die Behandlungen",
+      "treatment"
+    ],
+    [
+      "der Schmerz",
+      "die Schmerzen",
+      "pain"
+    ],
+    [
+      "das Fieber",
+      "—",
+      "fever"
+    ],
+    [
+      "der Husten",
+      "—",
+      "cough"
+    ],
+    [
+      "die Erkältung",
+      "die Erkältungen",
+      "cold (illness)"
+    ],
+    [
+      "die Verletzung",
+      "die Verletzungen",
+      "injury"
+    ],
+    [
+      "die Bewegung",
+      "die Bewegungen",
+      "movement"
+    ],
+    [
+      "die Pflege",
+      "—",
+      "care"
+    ],
+    [
+      "der Notfall",
+      "die Notfälle",
+      "emergency"
+    ],
+    [
+      "die Sprechstunde",
+      "die Sprechstunden",
+      "consultation hours"
+    ],
+    [
+      "die Wunde",
+      "die Wunden",
+      "wound"
+    ],
+    [
+      "die Freude",
+      "die Freuden",
+      "joy"
+    ],
+    [
+      "die Angst",
+      "die Ängste",
+      "fear"
+    ],
+    [
+      "die Hoffnung",
+      "die Hoffnungen",
+      "hope"
+    ],
+    [
+      "der Ärger",
+      "—",
+      "annoyance / trouble"
+    ],
+    [
+      "der Spaß",
+      "die Späße",
+      "fun / joke"
+    ],
+    [
+      "das Glück",
+      "—",
+      "luck / happiness"
+    ],
+    [
+      "die Liebe",
+      "—",
+      "love"
+    ],
+    [
+      "der Streit",
+      "die Streite",
+      "argument / dispute"
+    ],
+    [
+      "die Meinung",
+      "die Meinungen",
+      "opinion"
+    ],
+    [
+      "der Gedanke",
+      "die Gedanken",
+      "thought"
+    ],
+    [
+      "die Beziehung",
+      "die Beziehungen",
+      "relationship"
+    ],
+    [
+      "die Freundschaft",
+      "die Freundschaften",
+      "friendship"
+    ],
+    [
+      "die Einladung",
+      "die Einladungen",
+      "invitation"
+    ],
+    [
+      "die Feier",
+      "die Feiern",
+      "celebration"
+    ],
+    [
+      "das Fest",
+      "die Feste",
+      "festival / celebration"
+    ],
+    [
+      "der Gast",
+      "die Gäste",
+      "guest"
+    ],
+    [
+      "die Hochzeit",
+      "die Hochzeiten",
+      "wedding"
+    ],
+    [
+      "die Geburt",
+      "die Geburten",
+      "birth"
+    ],
+    [
+      "der Geburtstag",
+      "die Geburtstage",
+      "birthday"
+    ],
+    [
+      "der Besuch",
+      "die Besuche",
+      "visit"
+    ],
+    [
+      "das Hobby",
+      "die Hobbys",
+      "hobby"
+    ],
+    [
+      "die Freizeit",
+      "—",
+      "free time"
+    ],
+    [
+      "das Spiel",
+      "die Spiele",
+      "game"
+    ],
+    [
+      "das Konzert",
+      "die Konzerte",
+      "concert"
+    ],
+    [
+      "das Theater",
+      "die Theater",
+      "theatre"
+    ],
+    [
+      "das Museum",
+      "die Museen",
+      "museum"
+    ],
+    [
+      "die Ausstellung",
+      "die Ausstellungen",
+      "exhibition"
+    ],
+    [
+      "die Kunst",
+      "—",
+      "art"
+    ],
+    [
+      "der Künstler",
+      "die Künstler",
+      "artist (male)"
+    ],
+    [
+      "die Künstlerin",
+      "die Künstlerinnen",
+      "artist (female)"
+    ],
+    [
+      "die Karte",
+      "die Karten",
+      "card / map"
+    ],
+    [
+      "das Spielzeug",
+      "die Spielsachen",
+      "toy"
+    ],
+    [
+      "die Gitarre",
+      "die Gitarren",
+      "guitar"
+    ],
+    [
+      "das Klavier",
+      "die Klaviere",
+      "piano"
+    ],
+    [
+      "der Tanz",
+      "die Tänze",
+      "dance"
+    ],
+    [
+      "die Fotografie",
+      "die Fotografien",
+      "photography"
+    ],
+    [
+      "die Geschichte",
+      "die Geschichten",
+      "story / history"
+    ],
+    [
+      "das Gedicht",
+      "die Gedichte",
+      "poem"
+    ],
+    [
+      "der Verein",
+      "die Vereine",
+      "club / association"
+    ],
+    [
+      "die Bibliothek",
+      "die Bibliotheken",
+      "library"
+    ],
+    [
+      "die Sportart",
+      "die Sportarten",
+      "type of sport"
+    ],
+    [
+      "das Training",
+      "die Trainings",
+      "training session"
+    ],
+    [
+      "die Mannschaft",
+      "die Mannschaften",
+      "team"
+    ],
+    [
+      "der Spieler",
+      "die Spieler",
+      "player (male)"
+    ],
+    [
+      "die Spielerin",
+      "die Spielerinnen",
+      "player (female)"
+    ],
+    [
+      "der Ball",
+      "die Bälle",
+      "ball"
+    ],
+    [
+      "das Schwimmbad",
+      "die Schwimmbäder",
+      "swimming pool"
+    ],
+    [
+      "das Schwimmen",
+      "—",
+      "swimming"
+    ],
+    [
+      "der Lauf",
+      "die Läufe",
+      "run / race"
+    ],
+    [
+      "die Regel",
+      "die Regeln",
+      "rule"
+    ],
+    [
+      "der Wettbewerb",
+      "die Wettbewerbe",
+      "competition"
+    ],
+    [
+      "der Sieg",
+      "die Siege",
+      "victory"
+    ],
+    [
+      "die Niederlage",
+      "die Niederlagen",
+      "defeat"
+    ],
+    [
+      "der Spaziergang",
+      "die Spaziergänge",
+      "walk / stroll"
+    ],
+    [
+      "die Wanderung",
+      "die Wanderungen",
+      "hike"
+    ],
+    [
+      "das Fahrradrennen",
+      "die Fahrradrennen",
+      "bicycle race"
+    ],
+    [
+      "das Fitnessstudio",
+      "die Fitnessstudios",
+      "gym"
+    ],
+    [
+      "der Trainer",
+      "die Trainer",
+      "coach (male)"
+    ],
+    [
+      "die Trainerin",
+      "die Trainerinnen",
+      "coach (female)"
+    ],
+    [
+      "die Mannschaftsaufstellung",
+      "die Mannschaftsaufstellungen",
+      "team lineup"
+    ],
+    [
+      "das Meer",
+      "die Meere",
+      "sea"
+    ],
+    [
+      "der See",
+      "die Seen",
+      "lake"
+    ],
+    [
+      "der Fluss",
+      "die Flüsse",
+      "river"
+    ],
+    [
+      "das Gebirge",
+      "die Gebirge",
+      "mountain range"
+    ],
+    [
+      "das Tal",
+      "die Täler",
+      "valley"
+    ],
+    [
+      "der Wald",
+      "die Wälder",
+      "forest"
+    ],
+    [
+      "die Wiese",
+      "die Wiesen",
+      "meadow"
+    ],
+    [
+      "die Insel",
+      "die Inseln",
+      "island"
+    ],
+    [
+      "die Küste",
+      "die Küsten",
+      "coast"
+    ],
+    [
+      "der Strand",
+      "die Strände",
+      "beach"
+    ],
+    [
+      "der Himmel",
+      "die Himmel",
+      "sky"
+    ],
+    [
+      "die Erde",
+      "die Erden",
+      "earth / soil"
+    ],
+    [
+      "der Boden",
+      "die Böden",
+      "ground / floor"
+    ],
+    [
+      "der Felsen",
+      "die Felsen",
+      "rock / cliff"
+    ],
+    [
+      "die Höhle",
+      "die Höhlen",
+      "cave"
+    ],
+    [
+      "der Wasserfall",
+      "die Wasserfälle",
+      "waterfall"
+    ],
+    [
+      "die Quelle",
+      "die Quellen",
+      "spring / source"
+    ],
+    [
+      "die Landschaft",
+      "die Landschaften",
+      "landscape"
+    ],
+    [
+      "die Umgebung",
+      "die Umgebungen",
+      "surroundings"
+    ],
+    [
+      "der Hügel",
+      "die Hügel",
+      "hill"
+    ],
+    [
+      "die Umwelt",
+      "—",
+      "environment"
+    ],
+    [
+      "die Luft",
+      "—",
+      "air"
+    ],
+    [
+      "der Wind",
+      "die Winde",
+      "wind"
+    ],
+    [
+      "die Wolke",
+      "die Wolken",
+      "cloud"
+    ],
+    [
+      "der Schnee",
+      "—",
+      "snow"
+    ],
+    [
+      "das Eis",
+      "—",
+      "ice"
+    ],
+    [
+      "der Sturm",
+      "die Stürme",
+      "storm"
+    ],
+    [
+      "der Nebel",
+      "—",
+      "fog"
+    ],
+    [
+      "die Temperatur",
+      "die Temperaturen",
+      "temperature"
+    ],
+    [
+      "der Grad",
+      "die Grade",
+      "degree"
+    ],
+    [
+      "die Verschmutzung",
+      "die Verschmutzungen",
+      "pollution"
+    ],
+    [
+      "der Müll",
+      "—",
+      "rubbish / waste"
+    ],
+    [
+      "der Abfall",
+      "die Abfälle",
+      "waste"
+    ],
+    [
+      "das Recycling",
+      "—",
+      "recycling"
+    ],
+    [
+      "die Energie",
+      "die Energien",
+      "energy"
+    ],
+    [
+      "der Strom",
+      "die Ströme",
+      "electricity / current"
+    ],
+    [
+      "die Heizung",
+      "die Heizungen",
+      "heating"
+    ],
+    [
+      "der Klimawandel",
+      "—",
+      "climate change"
+    ],
+    [
+      "die Naturkatastrophe",
+      "die Naturkatastrophen",
+      "natural disaster"
+    ],
+    [
+      "die Überschwemmung",
+      "die Überschwemmungen",
+      "flood"
+    ],
+    [
+      "der Verkehr",
+      "—",
+      "traffic"
+    ],
+    [
+      "die Fahrkarte",
+      "die Fahrkarten",
+      "travel ticket"
+    ],
+    [
+      "die Verbindung",
+      "die Verbindungen",
+      "connection"
+    ],
+    [
+      "der Fahrplan",
+      "die Fahrpläne",
+      "timetable"
+    ],
+    [
+      "die Verspätung",
+      "die Verspätungen",
+      "delay"
+    ],
+    [
+      "die Abfahrt",
+      "die Abfahrten",
+      "departure"
+    ],
+    [
+      "die Ankunft",
+      "die Ankünfte",
+      "arrival"
+    ],
+    [
+      "die Fähre",
+      "die Fähren",
+      "ferry"
+    ],
+    [
+      "das Schiff",
+      "die Schiffe",
+      "ship"
+    ],
+    [
+      "die Kreuzung",
+      "die Kreuzungen",
+      "intersection"
+    ],
+    [
+      "die Ampel",
+      "die Ampeln",
+      "traffic light"
+    ],
+    [
+      "der Bürgersteig",
+      "die Bürgersteige",
+      "pavement / sidewalk"
+    ],
+    [
+      "die Autobahn",
+      "die Autobahnen",
+      "motorway"
+    ],
+    [
+      "die Tankstelle",
+      "die Tankstellen",
+      "petrol station"
+    ],
+    [
+      "der Führerschein",
+      "die Führerscheine",
+      "driving licence"
+    ],
+    [
+      "der Verkehrsunfall",
+      "die Verkehrsunfälle",
+      "traffic accident"
+    ],
+    [
+      "die Richtung",
+      "die Richtungen",
+      "direction"
+    ],
+    [
+      "die Grenze",
+      "die Grenzen",
+      "border"
+    ],
+    [
+      "das Ausland",
+      "—",
+      "abroad / foreign countries"
+    ],
+    [
+      "die Unterkunft",
+      "die Unterkünfte",
+      "accommodation"
+    ],
+    [
+      "die Zutat",
+      "die Zutaten",
+      "ingredient"
+    ],
+    [
+      "das Gemüse",
+      "—",
+      "vegetables"
+    ],
+    [
+      "das Obst",
+      "—",
+      "fruit"
+    ],
+    [
+      "die Kartoffel",
+      "die Kartoffeln",
+      "potato"
+    ],
+    [
+      "die Tomate",
+      "die Tomaten",
+      "tomato"
+    ],
+    [
+      "die Zwiebel",
+      "die Zwiebeln",
+      "onion"
+    ],
+    [
+      "das Fleisch",
+      "—",
+      "meat"
+    ],
+    [
+      "der Fisch",
+      "die Fische",
+      "fish"
+    ],
+    [
+      "die Suppe",
+      "die Suppen",
+      "soup"
+    ],
+    [
+      "der Salat",
+      "die Salate",
+      "salad"
+    ],
+    [
+      "die Mahlzeit",
+      "die Mahlzeiten",
+      "meal"
+    ],
+    [
+      "das Frühstück",
+      "die Frühstücke",
+      "breakfast"
+    ],
+    [
+      "das Mittagessen",
+      "die Mittagessen",
+      "lunch"
+    ],
+    [
+      "das Abendessen",
+      "die Abendessen",
+      "dinner"
+    ],
+    [
+      "der Geschmack",
+      "die Geschmäcker",
+      "taste / flavour"
+    ],
+    [
+      "die Flasche",
+      "die Flaschen",
+      "bottle"
+    ],
+    [
+      "das Glas",
+      "die Gläser",
+      "glass"
+    ],
+    [
+      "der Teller",
+      "die Teller",
+      "plate"
+    ],
+    [
+      "das Messer",
+      "die Messer",
+      "knife"
+    ],
+    [
+      "die Gabel",
+      "die Gabeln",
+      "fork"
+    ],
+    [
+      "das Konto",
+      "die Konten",
+      "bank account"
+    ],
+    [
+      "die Bank",
+      "die Banken",
+      "bank"
+    ],
+    [
+      "die Münze",
+      "die Münzen",
+      "coin"
+    ],
+    [
+      "der Schein",
+      "die Scheine",
+      "banknote"
+    ],
+    [
+      "der Rabatt",
+      "die Rabatte",
+      "discount"
+    ],
+    [
+      "das Angebot",
+      "die Angebote",
+      "offer"
+    ],
+    [
+      "der Kunde",
+      "die Kunden",
+      "customer (male)"
+    ],
+    [
+      "die Kundin",
+      "die Kundinnen",
+      "customer (female)"
+    ],
+    [
+      "der Verkäufer",
+      "die Verkäufer",
+      "salesperson (male)"
+    ],
+    [
+      "die Verkäuferin",
+      "die Verkäuferinnen",
+      "salesperson (female)"
+    ],
+    [
+      "der Laden",
+      "die Läden",
+      "shop"
+    ],
+    [
+      "der Supermarkt",
+      "die Supermärkte",
+      "supermarket"
+    ],
+    [
+      "die Kasse",
+      "die Kassen",
+      "checkout / cash desk"
+    ],
+    [
+      "der Einkaufswagen",
+      "die Einkaufswagen",
+      "shopping trolley"
+    ],
+    [
+      "der Korb",
+      "die Körbe",
+      "basket"
+    ],
+    [
+      "die Quittung",
+      "die Quittungen",
+      "receipt"
+    ],
+    [
+      "die Gebühr",
+      "die Gebühren",
+      "fee"
+    ],
+    [
+      "das Gehalt",
+      "die Gehälter",
+      "salary"
+    ],
+    [
+      "die Miete",
+      "die Mieten",
+      "rent"
+    ],
+    [
+      "die Überweisung",
+      "die Überweisungen",
+      "bank transfer"
+    ],
+    [
+      "der Unterricht",
+      "—",
+      "lesson / instruction"
+    ],
+    [
+      "das Fach",
+      "die Fächer",
+      "subject / compartment"
+    ],
+    [
+      "die Klasse",
+      "die Klassen",
+      "class"
+    ],
+    [
+      "die Prüfung",
+      "die Prüfungen",
+      "exam"
+    ],
+    [
+      "die Note",
+      "die Noten",
+      "grade / mark"
+    ],
+    [
+      "der Fehler",
+      "die Fehler",
+      "mistake"
+    ],
+    [
+      "die Lösung",
+      "die Lösungen",
+      "solution"
+    ],
+    [
+      "das Beispiel",
+      "die Beispiele",
+      "example"
+    ],
+    [
+      "die Grammatik",
+      "—",
+      "grammar"
+    ],
+    [
+      "die Aussprache",
+      "—",
+      "pronunciation"
+    ],
+    [
+      "der Buchstabe",
+      "die Buchstaben",
+      "letter (of alphabet)"
+    ],
+    [
+      "die Silbe",
+      "die Silben",
+      "syllable"
+    ],
+    [
+      "der Text",
+      "die Texte",
+      "text"
+    ],
+    [
+      "der Ausdruck",
+      "die Ausdrücke",
+      "expression"
+    ],
+    [
+      "das Verb",
+      "die Verben",
+      "verb"
+    ],
+    [
+      "das Adjektiv",
+      "die Adjektive",
+      "adjective"
+    ],
+    [
+      "der Artikel",
+      "die Artikel",
+      "article"
+    ],
+    [
+      "der Kurs",
+      "die Kurse",
+      "course"
+    ],
+    [
+      "die Hausaufgabe",
+      "die Hausaufgaben",
+      "homework assignment"
+    ],
+    [
+      "der Lernstoff",
+      "—",
+      "study material"
+    ],
+    [
+      "der Mantel",
+      "die Mäntel",
+      "coat"
+    ],
+    [
+      "die Jacke",
+      "die Jacken",
+      "jacket"
+    ],
+    [
+      "die Hose",
+      "die Hosen",
+      "trousers"
+    ],
+    [
+      "das Hemd",
+      "die Hemden",
+      "shirt"
+    ],
+    [
+      "das T-Shirt",
+      "die T-Shirts",
+      "T-shirt"
+    ],
+    [
+      "der Pullover",
+      "die Pullover",
+      "sweater"
+    ],
+    [
+      "der Rock",
+      "die Röcke",
+      "skirt"
+    ],
+    [
+      "die Mütze",
+      "die Mützen",
+      "cap / beanie"
+    ],
+    [
+      "der Hut",
+      "die Hüte",
+      "hat"
+    ],
+    [
+      "der Gürtel",
+      "die Gürtel",
+      "belt"
+    ],
+    [
+      "der Handschuh",
+      "die Handschuhe",
+      "glove"
+    ],
+    [
+      "der Schal",
+      "die Schals",
+      "scarf"
+    ],
+    [
+      "die Socke",
+      "die Socken",
+      "sock"
+    ],
+    [
+      "die Unterwäsche",
+      "—",
+      "underwear"
+    ],
+    [
+      "der Stiefel",
+      "die Stiefel",
+      "boot"
+    ],
+    [
+      "die Brille",
+      "die Brillen",
+      "glasses"
+    ],
+    [
+      "die Seife",
+      "die Seifen",
+      "soap"
+    ],
+    [
+      "das Shampoo",
+      "die Shampoos",
+      "shampoo"
+    ],
+    [
+      "die Zahnbürste",
+      "die Zahnbürsten",
+      "toothbrush"
+    ],
+    [
+      "das Handtuch",
+      "die Handtücher",
+      "towel"
+    ],
+    [
+      "der Kühlschrank",
+      "die Kühlschränke",
+      "refrigerator"
+    ],
+    [
+      "der Herd",
+      "die Herde",
+      "stove"
+    ],
+    [
+      "der Ofen",
+      "die Öfen",
+      "oven"
+    ],
+    [
+      "die Waschmaschine",
+      "die Waschmaschinen",
+      "washing machine"
+    ],
+    [
+      "der Staubsauger",
+      "die Staubsauger",
+      "vacuum cleaner"
+    ],
+    [
+      "die Lampe",
+      "die Lampen",
+      "lamp"
+    ],
+    [
+      "die Steckdose",
+      "die Steckdosen",
+      "electrical socket"
+    ],
+    [
+      "der Schrank",
+      "die Schränke",
+      "cupboard / wardrobe"
+    ],
+    [
+      "das Regal",
+      "die Regale",
+      "shelf"
+    ],
+    [
+      "der Spiegel",
+      "die Spiegel",
+      "mirror"
+    ],
+    [
+      "die Decke",
+      "die Decken",
+      "blanket / ceiling"
+    ],
+    [
+      "der Teppich",
+      "die Teppiche",
+      "carpet"
+    ],
+    [
+      "das Kissen",
+      "die Kissen",
+      "pillow"
+    ],
+    [
+      "der Eimer",
+      "die Eimer",
+      "bucket"
+    ],
+    [
+      "der Besen",
+      "die Besen",
+      "broom"
+    ],
+    [
+      "das Werkzeug",
+      "die Werkzeuge",
+      "tool"
+    ],
+    [
+      "der Hammer",
+      "die Hämmer",
+      "hammer"
+    ],
+    [
+      "die Schere",
+      "die Scheren",
+      "scissors"
+    ],
+    [
+      "die Batterie",
+      "die Batterien",
+      "battery"
+    ],
+    [
+      "das Schloss",
+      "die Schlösser",
+      "lock"
+    ]
+  ]
+}

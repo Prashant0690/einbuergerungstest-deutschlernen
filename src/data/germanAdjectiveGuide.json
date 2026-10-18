@@ -1,0 +1,54 @@
+{
+  "intro": "A German adjective can stand after a verb or directly before a noun. Its form depends on where it appears.",
+  "lessons": [
+    {
+      "title": "After sein, werden, or bleiben",
+      "label": "No adjective ending",
+      "examples": [
+        { "german": "Das Zimmer ist hell.", "english": "The room is bright." },
+        { "german": "Das Wetter bleibt kalt.", "english": "The weather is staying cold." }
+      ],
+      "note": "When the adjective describes the subject after these verbs, it stays in its basic form."
+    },
+    {
+      "title": "Before a noun",
+      "label": "Add an ending",
+      "examples": [
+        { "german": "ein heller Raum", "english": "a bright room (masculine)" },
+        { "german": "eine helle Küche", "english": "a bright kitchen (feminine)" },
+        { "german": "ein helles Zimmer", "english": "a bright room (neuter)" }
+      ],
+      "note": "The ending changes with the article, gender, number, and case. Start with these nominative examples; use the Cases Master for the full charts."
+    },
+    {
+      "title": "Compare things",
+      "label": "Comparative and superlative",
+      "examples": [
+        { "german": "schnell → schneller → am schnellsten", "english": "fast → faster → fastest" },
+        { "german": "Heute ist der Bus schneller als der Zug.", "english": "Today the bus is faster than the train." },
+        { "german": "Der Zug ist so schnell wie der Bus.", "english": "The train is as fast as the bus." }
+      ],
+      "note": "Many adjectives add -er and -sten. Some add an umlaut, and some forms are irregular."
+    },
+    {
+      "title": "Learn the common irregular forms",
+      "label": "Worth memorizing",
+      "examples": [
+        { "german": "gut → besser → am besten", "english": "good → better → best" },
+        { "german": "viel → mehr → am meisten", "english": "much / many → more → most" },
+        { "german": "hoch → höher → am höchsten", "english": "high → higher → highest" }
+      ],
+      "note": "Do not add the regular endings to these forms."
+    },
+    {
+      "title": "Describe a thing or a person",
+      "label": "Mind the meaning",
+      "examples": [
+        { "german": "Der Film ist interessant.", "english": "The film is interesting." },
+        { "german": "Ich bin an dem Film interessiert.", "english": "I am interested in the film." }
+      ],
+      "note": "Interessant describes what causes interest; interessiert describes the person who feels it."
+    }
+  ],
+  "caution": "The list pairs each adjective with a useful contrast or partner. Not every word has a perfect one-word opposite, and colours are grouped by contrast for easier recall."
+}

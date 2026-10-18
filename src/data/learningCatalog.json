@@ -49,6 +49,7 @@
       { "title": "German cases", "path": "/german-cases", "description": "See how Nominativ, Akkusativ, Dativ, and Genitiv work in context.", "level": "Go deeper" },
       { "title": "Modal verbs", "path": "/german-modal-verbs", "description": "Express ability, permission, obligation, and intention clearly.", "level": "Build accuracy" },
       { "title": "Ask better questions", "path": "/german-wh-questions", "description": "Practise question words and natural answer structures.", "level": "Use it" },
+      { "title": "Essential German words", "path": "/german-core-vocabulary", "description": "Build a strong foundation with common verbs, adjectives, and nouns learned with their articles and plurals.", "level": "Grow your vocabulary" },
       { "title": "Cases practice: 400 questions", "path": "/german-cases-practice", "description": "Apply case rules across a larger set of guided exercises.", "level": "Put it into practice" },
       { "title": "Citizenship vocabulary", "path": "/VocabularyPage", "description": "Learn useful words connected to the citizenship test and daily life.", "level": "Useful words" }
     ],

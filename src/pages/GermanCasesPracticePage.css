@@ -21,9 +21,84 @@
   margin-top: 2rem;
 }
 
+.cases-study-loop {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  gap: 0.45rem 1rem;
+  align-items: center;
+  margin: 1.25rem 0 0.75rem;
+  padding: 0.8rem 1rem;
+  background: #f6f9fc;
+  border: 1px solid #d5e3f1;
+  border-radius: 0.7rem;
+}
+
+.cases-study-loop > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #123a63;
+  font-size: 0.86rem;
+  font-weight: 650;
+}
+
+.cases-study-loop > span strong {
+  display: grid;
+  width: 1.45rem;
+  height: 1.45rem;
+  place-items: center;
+  color: #fff;
+  background: #1264a3;
+  border-radius: 50%;
+  font-size: 0.75rem;
+}
+
+.cases-study-loop p {
+  grid-column: 1 / -1;
+  margin: 0;
+  color: #526477;
+  font-size: 0.8rem;
+}
+
+.cases-jump-nav {
+  position: sticky;
+  top: 76px;
+  z-index: 1030;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  gap: 0.35rem;
+  margin: 0.75rem 0 1rem;
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid #d5e3f1;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.2rem 0.6rem rgba(18, 58, 99, 0.08);
+  backdrop-filter: blur(8px);
+}
+
+.cases-jump-nav .nav-link {
+  padding: 0.45rem 0.7rem;
+  color: #123a63;
+  background: #f3f7fb;
+  border: 1px solid #d5e3f1;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 650;
+}
+
+.cases-jump-nav .nav-link:hover,
+.cases-jump-nav .nav-link:focus-visible {
+  background: #e7f1fb;
+}
+
 .cases-practice-card {
   border: 1px solid #d5e3f1;
   box-shadow: 0 0.2rem 0.7rem rgba(18, 58, 99, 0.06);
+}
+
+.cases-practice-page .cases-section {
+  scroll-margin-top: 6rem;
+  margin-bottom: 1.25rem;
 }
 
 .cases-practice-switch {
@@ -156,5 +231,17 @@
 
   .cases-practice-hero h1 {
     font-size: 1.7rem;
+  }
+
+  .cases-study-loop {
+    grid-template-columns: 1fr;
+  }
+
+  .cases-jump-nav {
+    top: 0.5rem;
+  }
+
+  .cases-practice-page .cases-section {
+    scroll-margin-top: 1rem;
   }
 }

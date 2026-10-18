@@ -2,6 +2,7 @@ import React, { useMemo, useState } from "react";
 import { Accordion, Button, Card, Form, Nav } from "react-bootstrap";
 import GermanRoleLegend from "../components/GermanRoleLegend";
 import practiceDocument from "../data/German_Cases_400_Practice_Questions.json";
+import practicalPhraseData from "../data/German_Cases_Practical_Phrases.json";
 import "./GermanCasesPracticePage.css";
 
 const ONE_SENTENCE_SECTION = {
@@ -35,7 +36,9 @@ const ONE_SENTENCE_TOKENS = {
     "gives",
     "his little son",
     "a warm coat",
-    "of the department store",
+    "that",
+    "he bought yesterday",
+    "in a large department store",
   ],
   german: [
     "Wegen des schlechten Wetters",
@@ -43,15 +46,53 @@ const ONE_SENTENCE_TOKENS = {
     "gibt",
     "seinem kleinen Sohn",
     "einen warmen Mantel",
-    "des Kaufhauses",
+    "den",
+    "er gestern gekauft hat",
+    "in einem großen Kaufhaus",
   ],
-  roles: ["case-gen", "case-nom", "case-verb", "case-dat", "case-acc", "case-gen"],
+  roles: ["case-gen", "case-nom", "case-verb", "case-dat", "case-acc", "case-acc", "case-other", "case-dat"],
+};
+
+const PRACTICAL_PHRASES_SECTION = {
+  id: "everyday-phrases",
+  title: "Useful German for everyday conversations",
+  headline: "Short phrases for directions, feelings, and keeping a conversation going while you learn.",
+  bilingualPairs: [],
+  questionBlocks: [],
+  subcategories: [],
+  groupedParts: practicalPhraseData.categories.map((category, categoryIndex) => ({
+    id: `phrase-group-${categoryIndex + 1}`,
+    heading: category.title,
+    intro: "",
+    questionBlocks: category.items.map((item, itemIndex) => ({
+      id: `phrase-${categoryIndex + 1}-${itemIndex + 1}`,
+      number: String(itemIndex + 1),
+      question: item.english,
+      answer: item.german,
+      note: item.note || "",
+      details: [],
+    })),
+  })),
 };
 
 const BILINGUAL_ROW_REGEX = /^(\d+)\s*\|\s*(.+?)\s*\|\s*(.+?)\s*$/;
 const NUMBERED_BLOCK_REGEX = /^###\s*(\d+)(?:\.\s*(.*)|.*)$/gm;
 const INITIAL_VISIBLE_QUESTIONS = 5;
 const QUESTIONS_PER_PAGE = 10;
+const SECTION_PRESENTATION = {
+  "section-1": {
+    title: "250 bilingual examples",
+    description: "Read the English, recall the German, then notice which words signal each case.",
+  },
+  "section-2": {
+    title: "100 mixed case questions",
+    description: "Choose the right form across objects, prepositions, and adjective endings. Commit to an answer before revealing the explanation.",
+  },
+  "section-3": {
+    title: "50 translation exercises",
+    description: "Build the German sentence first, then compare word order and case endings with the model answer.",
+  },
+};
 
 function isLikelyAnswerLine(line) {
   if (!line) {
@@ -257,7 +298,7 @@ function GermanCasesPracticePage() {
   const { intro, sections } = useMemo(() => {
     return {
       intro: parsedText.intro,
-      sections: [...parsedText.sections, ONE_SENTENCE_SECTION],
+      sections: [...parsedText.sections, ONE_SENTENCE_SECTION, PRACTICAL_PHRASES_SECTION],
     };
   }, [parsedText]);
 
@@ -265,13 +306,14 @@ function GermanCasesPracticePage() {
     <section className="cases-practice-page">
       <header className="cases-practice-hero">
         <p className="cases-eyebrow">GERMAN CASES PRACTICE</p>
-        <h1>400 practice questions and answers</h1>
-        <p className="lead mb-0">250 bilingual examples, 100 mixed case questions, and 50 translation exercises.</p>
+        <h1>400 German case examples and exercises</h1>
+        <p className="lead mb-0">250 bilingual examples, 100 mixed case questions, and 50 translation exercises—plus a practical phrase bank for everyday conversations.</p>
       </header>
 
-          <p className="mt-4 mb-2 text-muted">
-            Read the English sentence first and identify each role. Reveal the German and rules only when you are ready to check your answer.
-          </p>
+          <div className="cases-study-loop" aria-label="Suggested study steps">
+            <span><strong>1</strong> Try it first</span><span><strong>2</strong> Reveal the answer</span><span><strong>3</strong> Notice the case clue</span>
+            <p>For translation prompts, build the sentence before opening the answer. For bilingual examples, cover the German and recall it from English.</p>
+          </div>
           <GermanRoleLegend />
           <div className="cases-practice-switch mt-4">
             <Form.Check
@@ -286,7 +328,7 @@ function GermanCasesPracticePage() {
           <Nav className="cases-jump-nav" aria-label="Practice sections">
             {sections.map((section) => (
               <Nav.Link href={`#${section.id}`} key={section.id}>
-                {section.title}
+                {section.id === "section-1" ? "250 bilingual examples" : section.id === "section-2" ? "100 mixed questions" : section.id === "section-3" ? "50 translations" : section.id === "one-sentence" ? "One full sentence" : "Useful phrases"}
               </Nav.Link>
             ))}
           </Nav>
@@ -303,8 +345,8 @@ function GermanCasesPracticePage() {
             <section className="cases-section" id={section.id} key={section.id}>
               <Card className="cases-practice-card">
                 <Card.Body>
-                  <h2>{section.title}</h2>
-                  {section.headline && <p className="text-muted mb-3">{section.headline}</p>}
+                  <h2>{SECTION_PRESENTATION[section.id]?.title || section.title}</h2>
+                  {(SECTION_PRESENTATION[section.id]?.description || section.headline) && <p className="text-muted mb-3">{SECTION_PRESENTATION[section.id]?.description || section.headline}</p>}
 
                   {section.id === "one-sentence" && (
                     <Card className="cases-part-card">

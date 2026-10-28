@@ -367,7 +367,7 @@ function GermanCasesPracticePage() {
                           </div>
                         ) : (
                           <details className="qa-reveal">
-                            <summary>Show German answer and breakdown</summary>
+                            <summary>Translation + teacher’s note</summary>
                             <p className="qa-answer-text mt-2 mb-2">
                               {renderRoleSentence(ONE_SENTENCE_TOKENS.german, ONE_SENTENCE_TOKENS.roles, "one-de")}
                             </p>
@@ -415,7 +415,7 @@ function GermanCasesPracticePage() {
                                         <p className="qa-answer-text mb-0">{item.german}</p>
                                       ) : (
                                         <details className="qa-reveal">
-                                          <summary>Show answer</summary>
+                                          <summary>Answer + case clue</summary>
                                           <p className="qa-answer-text mt-2 mb-0">{item.german}</p>
                                         </details>
                                       )}
@@ -438,7 +438,7 @@ function GermanCasesPracticePage() {
                                           <p className="qa-answer-text mb-0">{block.answer}</p>
                                         ) : (
                                           <details className="qa-reveal">
-                                            <summary>Show answer</summary>
+                                            <summary>Answer + case clue</summary>
                                             <p className="qa-answer-text mt-2 mb-0">{block.answer}</p>
                                           </details>
                                         )
@@ -491,7 +491,7 @@ function GermanCasesPracticePage() {
                                           <p className="qa-answer-text mb-0">{block.answer}</p>
                                         ) : (
                                           <details className="qa-reveal">
-                                            <summary>Show answer</summary>
+                                            <summary>Answer + case clue</summary>
                                             <p className="qa-answer-text mt-2 mb-0">{block.answer}</p>
                                           </details>
                                         )
@@ -549,7 +549,7 @@ function GermanCasesPracticePage() {
                                     <p className="qa-answer-text mb-0">{block.answer}</p>
                                   ) : (
                                     <details className="qa-reveal">
-                                      <summary>Show answer</summary>
+                                      <summary>Answer + case clue</summary>
                                       <p className="qa-answer-text mt-2 mb-0">{block.answer}</p>
                                     </details>
                                   )

@@ -23,7 +23,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import CitizenshipTestHomePage from "./pages/CitizenshipTestHomePage";
 import GermanLearningHomePage from "./pages/GermanLearningHomePage";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
 import LearningPage from "./pages/LearningPage";
 import Header from "./components/Header";
 import VocabularyPage from "./pages/VocabularyPage";
@@ -41,6 +40,7 @@ import GermanModalVerbsPage from "./pages/GermanModalVerbsPage";
 import GermanWhQuestionsPage from "./pages/GermanWhQuestionsPage";
 import GermanCoreVocabularyPage from "./pages/GermanCoreVocabularyPage";
 import UnifiedHomePage from "./pages/UnifiedHomePage";
+import "./App.css";
 
 
 function App() {

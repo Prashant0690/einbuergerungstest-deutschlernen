@@ -1,18 +1,18 @@
 :root {
-  --bg: #f5f6f2;
-  --surface: #ffffff;
-  --surface-alt: #f2f4ef;
-  --border: #dfe4dc;
-  --text: #1d2821;
-  --muted: #647067;
-  --brand: #286247;
-  --brand-strong: #1c4b35;
-  --accent: #e4ed83;
-  --focus: #91b8ff;
+  --bg: #f7f4eb;
+  --surface: #fffefa;
+  --surface-alt: #f2efe5;
+  --border: #ded8c8;
+  --text: #26384a;
+  --muted: #617080;
+  --brand: #315c7d;
+  --brand-strong: #23445f;
+  --accent: #f1df9b;
+  --focus: #3478a8;
 }
 
 * { box-sizing: border-box; }
-body { margin: 0; color: var(--text); background: var(--bg); font-family: Inter, "Segoe UI", Roboto, system-ui, -apple-system, sans-serif; line-height: 1.55; }
+body { margin: 0; color: var(--text); background-color: var(--bg); background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 31px, rgba(91, 132, 164, .09) 32px, transparent 33px); font-family: Inter, "Segoe UI", Roboto, system-ui, -apple-system, sans-serif; line-height: 1.6; }
 ::selection { color: var(--text); background: #e5edb2; }
 a { color: var(--brand); text-underline-offset: .16em; }
 a:hover { color: var(--brand-strong); }
@@ -145,6 +145,12 @@ h1, h2, h3, h4, h5, h6 { color: var(--text); letter-spacing: -.025em; font-weigh
   .exam-question-map { position: static; }
   .exam-map-grid { grid-template-columns: repeat(11,1fr); }
 }
+
+.cases-learning-path { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: .4rem; margin: 1.15rem auto .25rem; }
+.cases-learning-path a { display: inline-flex; align-items: center; gap: .35rem; padding: .3rem .4rem; color: #315c7d; font-size: .82rem; font-weight: 600; text-decoration: none; }
+.cases-learning-path a:hover { text-decoration: underline; text-decoration-style: dotted; text-underline-offset: .2em; }
+.cases-learning-path a span { display: grid; width: 1.35rem; height: 1.35rem; place-items: center; color: #fffefa; background: #315c7d; border-radius: 50%; font-size: .72rem; }
+.cases-learning-path i { color: #bd6c55; font-style: normal; }
 @media (max-width: 480px) {
   .app-main { padding-inline: .7rem; }
   .progress-overview { padding: .9rem; }
@@ -177,3 +183,223 @@ h1, h2, h3, h4, h5, h6 { color: var(--text); letter-spacing: -.025em; font-weigh
 .grammar-example, .grammar-memory-cue, .case-tip { border-radius: 8px !important; }
 .grammar-topic-list .nav-link.active { background: var(--brand) !important; border-radius: 7px; }
 .wh-token { background: var(--brand) !important; border-radius: 5px !important; }
+
+/* Shared notebook treatment: paper surfaces, blue ink, and restrained hand lettering. */
+.app-shell { position: relative; }
+.app-main { position: relative; }
+.top-navbar { background: rgba(255, 254, 250, .96); border-bottom: 2px solid #d9d2c2; box-shadow: 0 3px 10px rgba(49, 60, 70, .045); }
+.brand-mark { color: #fff8df; background: #315c7d; border-radius: 8px 8px 8px 2px; transform: rotate(-3deg); }
+.brand-copy strong { color: #23445f; font-family: "Bradley Hand", "Segoe Print", "Comic Sans MS", cursive; font-size: 1.12rem; letter-spacing: .01em; }
+.brand-kicker { color: #805e43; letter-spacing: .11em; }
+.primary-nav .nav-link { border-radius: 5px 5px 2px 2px; }
+.primary-nav .nav-link.active { color: #23445f; background: #f3edda; box-shadow: inset 0 -2px #c49a53; }
+.home-hero, .learning-library-hero, .unified-hero,
+.cases-hero, .grammar-hero, .modal-master-hero, .wh-master-hero, .cases-practice-hero {
+  background-color: #fffdf6 !important;
+  background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 34px, rgba(91, 132, 164, .12) 35px, transparent 36px) !important;
+  border: 1px solid #e2dac7 !important;
+  border-left: 5px solid #bd6c55 !important;
+  border-radius: 5px 14px 14px 5px !important;
+  box-shadow: 0 5px 16px rgba(63, 55, 40, .06);
+}
+.home-hero h1, .learning-library-hero h1, .unified-hero h1,
+.cases-hero h1, .grammar-hero h1, .modal-master-hero h1, .wh-master-hero h1, .cases-practice-hero h1 {
+  color: #23445f !important;
+  font-family: "Bradley Hand", "Segoe Print", "Comic Sans MS", cursive;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.card, .exam-question-map, .exam-question-card, .exam-results,
+.exam-highlight-card, .topic-card, .quick-link-card, .learning-path-card,
+.knowledge-card, .unified-tool-card, .german-track-card, .progress-overview,
+.vocabulary-controls, .vocabulary-word-card, .question-view, .question-container {
+  background-color: rgba(255, 254, 250, .96);
+  border-color: var(--border);
+  box-shadow: 0 2px 7px rgba(54, 58, 57, .045);
+}
+.knowledge-explanation, .exam-clock, .exam-option.selected, .result-stat { background-color: #f3f0e5; }
+.case-reference-details, .case-finder-results, .preposition-top-search { background-color: #fbf9f1; }
+.form-control, .form-select { background-color: #fffefa; }
+.form-control::placeholder { color: #87919a; }
+.btn { border-radius: 6px 6px 6px 2px; }
+.btn-primary { background: #315c7d; border-color: #315c7d; }
+.btn-primary:hover, .btn-primary:focus { background: #23445f; border-color: #23445f; }
+.progress, .exam-progress { background: #e6e1d5; }
+.cases-jump-nav { padding: .3rem; background: rgba(255, 254, 250, .85); border: 1px solid #e2dac7; border-radius: 8px; }
+.cases-jump-nav .nav-link { border-radius: 5px; }
+.cases-jump-nav .nav-link:hover { background: #f3edda; }
+.knowledge-label, .path-kicker, .cases-eyebrow { color: #805e43; }
+.knowledge-index { font-family: "Bradley Hand", "Segoe Print", cursive; color: #bd6c55; font-size: 1.15rem; }
+.footer-main, footer { background-color: #f2efe5; }
+
+@media (max-width: 575.98px) {
+  body { background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 35px, rgba(91, 132, 164, .08) 36px, transparent 37px); }
+  .brand-copy strong { font-size: .98rem; }
+}
+
+/* Turn every reference table into a readable page from the same notebook. */
+.table-responsive {
+  overflow-x: auto;
+  border: 1px solid #ded8c8;
+  border-radius: 7px;
+  background: #fffefa;
+  box-shadow: 0 2px 7px rgba(54, 58, 57, .04);
+}
+.table-responsive > .table {
+  margin: 0;
+  color: #26384a;
+  background: transparent;
+  --bs-table-bg: transparent;
+  --bs-table-color: #26384a;
+  --bs-table-border-color: #e5dfd2;
+  --bs-table-hover-bg: #f8f3e4;
+  --bs-table-hover-color: #26384a;
+}
+.table-responsive > .table > thead > tr > th {
+  padding: .72rem .8rem;
+  color: #23445f;
+  background: #f1ecde;
+  border-bottom: 2px solid #cdbf9f;
+  font-size: .76rem;
+  font-weight: 750;
+  line-height: 1.4;
+  vertical-align: middle;
+}
+.table-responsive > .table > tbody > tr > td {
+  padding: .65rem .8rem;
+  line-height: 1.5;
+  vertical-align: middle;
+  border-color: #e9e4d9;
+}
+.table-responsive > .table > tbody > tr:nth-child(even) > * { --bs-table-bg: #faf8f2; }
+.table-responsive > .table-hover > tbody > tr:hover > * { --bs-table-bg: #f8f3e4; }
+.table-responsive > .table-bordered > :not(caption) > * > * { border-color: #e5dfd2; }
+.app-main table.table {
+  color: #26384a;
+  --bs-table-bg: transparent;
+  --bs-table-color: #26384a;
+  --bs-table-border-color: #e5dfd2;
+  --bs-table-hover-bg: #f8f3e4;
+  --bs-table-hover-color: #26384a;
+}
+.app-main table.table thead th { color: #23445f; background: #f1ecde; border-bottom: 2px solid #cdbf9f; vertical-align: middle; }
+.app-main table.table tbody td { vertical-align: middle; border-color: #e9e4d9; }
+.app-main table.table tbody tr:nth-child(even) > * { --bs-table-bg: #faf8f2; }
+.app-main table.table-hover tbody tr:hover > * { --bs-table-bg: #f8f3e4; }
+.cases-table th { color: #23445f !important; background: #f1ecde !important; }
+.cases-table td:first-child { color: #805e43; font-weight: 700; }
+
+/* Make written explanations and practice prompts feel like marked-up notes. */
+main h1, main h1.h2, main h1.h3 {
+  color: #23445f;
+  font-family: "Bradley Hand", "Segoe Print", "Comic Sans MS", cursive;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+main h2:not(.display-5), main h3:not(.display-5) { color: #294b67; }
+.grammar-lesson, .wh-word-card, .wh-contrast-card, .wh-pattern-card,
+.wh-practice-card, .core-vocab-entry, .adjective-rule-card, .noun-rule-card,
+.verb-prefix-card, .prompt-card, .qa-card, .cases-part-card,
+.cases-subcategory-info, .case-quiz-card, .practice-sentence,
+.knowledge-card, .exam-question-card, .exam-results, .review-card {
+  background-color: rgba(255, 254, 250, .96);
+  border-color: #ded8c8;
+  border-radius: 8px;
+  box-shadow: 0 2px 7px rgba(54, 58, 57, .045);
+}
+.core-vocab-hero {
+  background-color: #fffdf6 !important;
+  background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 34px, rgba(91, 132, 164, .12) 35px, transparent 36px) !important;
+  border: 1px solid #e2dac7;
+  border-left: 5px solid #bd6c55;
+  border-radius: 5px 14px 14px 5px;
+  box-shadow: 0 5px 16px rgba(63, 55, 40, .06);
+}
+.core-vocab-hero h1 { color: #23445f; font-family: "Bradley Hand", "Segoe Print", "Comic Sans MS", cursive; letter-spacing: 0; }
+.core-vocab-list { background: #fffefa; border-color: #ded8c8; border-radius: 8px; box-shadow: 0 2px 7px rgba(54, 58, 57, .045); }
+.core-vocab-row { background: #fffefa; border-bottom-color: #e5dfd2; }
+.core-vocab-row:nth-child(even) { background: #faf8f2; }
+.core-vocab-index { color: #bd6c55; font-family: "Bradley Hand", "Segoe Print", cursive; }
+.core-vocab-tools, .practice-toolbar { padding: 1rem; background: #f2efe5; border: 1px solid #ded8c8; border-radius: 8px; }
+.core-vocab-counts span { background: #fffefa; border-color: #ded8c8; }
+.core-vocab-tabs button { background: #fffefa; border-color: #ded8c8; border-radius: 5px 5px 5px 2px; }
+.core-vocab-tabs button.active { color: #fffefa; background: #315c7d; border-color: #315c7d; }
+.core-vocab-tabs button.active span { color: #e5edf2; }
+.core-vocab-search input, .core-vocab-topic select { background: #fffefa; border-color: #d8d1c2; border-radius: 5px; }
+.core-vocab-insight { background: #f8f3e4; border-left-color: #bd6c55; }
+.verb-learning-guide, .noun-gender-guide, .adjective-use-guide { background: #fffefa; border-color: #ded8c8; border-radius: 8px; box-shadow: 0 2px 7px rgba(54, 58, 57, .045); }
+.verb-guide-content article, .verb-prefix-card, .noun-rule-card, .noun-case-examples article, .adjective-rule-card { background: #f8f6ef; }
+.core-vocab-section-heading { color: #23445f; background: #f1ecde; }
+.core-vocab-empty { background: #fffefa; border-color: #ded8c8; }
+.grammar-pattern { padding: .65rem .8rem; background: #f3efdf !important; border: 1px solid #e3d9c1; border-left: 4px solid #315c7d; border-radius: 3px 7px 7px 3px !important; }
+.grammar-pattern > span { color: #805e43 !important; }
+.grammar-pattern p { color: #23445f !important; font-family: "Bradley Hand", "Segoe Print", "Comic Sans MS", cursive; font-size: 1.02rem; }
+.grammar-example { border-left-color: #bd6c55; }
+.grammar-example figcaption { color: #805e43; }
+.grammar-memory { padding: .45rem .6rem; background: #f8f6ef; border: 1px dashed #d7ccb1; border-radius: 5px; }
+.grammar-check { border-color: #ded8c8; }
+.grammar-index a { background: #fffefa; border-color: #ded8c8; border-radius: 5px 5px 5px 2px; }
+.grammar-index a:hover { background: #f3efdf; border-color: #c9b98f; }
+.cases-study-loop { background: #f8f3e4; border-color: #ded8c8; border-radius: 7px; }
+.cases-study-loop > span { color: #23445f; }
+.cases-study-loop > span strong { background: #315c7d; border-radius: 4px; }
+.qa-card, .prompt-card, .cases-part-card { background: #fffefa; border-color: #ded8c8; }
+.qa-answer, .qa-reveal, .prompt-details { border-color: #e5dfd2; }
+.cases-subcategory-accordion .accordion-button { color: #23445f; background: #f1ecde; }
+.cases-subcategory-accordion .accordion-button:not(.collapsed) { color: #23445f; background: #e9e1cd; }
+.cases-subcategory-accordion .accordion-body, .cases-subcategory-info { background: #fffefa; }
+.core-vocab-audio, .core-vocab-learned { background: #fffefa; border-color: #d8d1c2; }
+.possessive-notes-card { max-width: none; background: #fffefa; border-color: #ded8c8; }
+.possessive-section-details { width: 100%; overflow: hidden; background: #fffefa; border: 1px solid #ded8c8; border-left: 4px solid #bd6c55; border-radius: 8px; }
+.possessive-section-details > summary { display: flex; align-items: baseline; flex-wrap: wrap; gap: .5rem 1rem; padding: .9rem 1rem; color: #294b6b; cursor: pointer; list-style: none; }
+.possessive-section-details > summary::-webkit-details-marker { display: none; }
+.possessive-section-details > summary::before { content: "+"; color: #bd6c55; font-size: 1.2rem; line-height: 1; }
+.possessive-section-details[open] > summary::before { content: "−"; }
+.possessive-section-details > summary strong { font-size: 1.2rem; }
+.possessive-section-details > summary span { color: #617080; font-size: .95rem; }
+.possessive-section-details[open] > summary { border-bottom: 1px dashed #d5c9ae; }
+.possessive-section-details[open] > summary + .possessive-notes-card { padding: 1rem 1.15rem 1.25rem; }
+.possessive-template-heading { display: grid; gap: .3rem; margin-bottom: .8rem; }
+.possessive-template-heading > span { color: #805e43; font-size: .7rem; font-weight: 800; letter-spacing: .1em; }
+.possessive-template-heading > strong { color: #23445f; font-size: 1.12rem; }
+.possessive-template-heading > p { margin: 0; color: #617080; line-height: 1.55; }
+.possessive-ending-table { max-width: none; }
+.possessive-ending-table td:not(:first-child) { color: #23445f; font-family: "Bradley Hand", "Segoe Print", cursive; font-size: 1.05rem; font-weight: 700; }
+.possessive-example-notes { display: grid; gap: .35rem; margin: .8rem 0; padding: .7rem .8rem; background: #f8f3e4; border-left: 3px solid #bd6c55; }
+.possessive-example-notes p { margin: 0; color: #526477; font-size: .86rem; line-height: 1.55; }
+.possessive-finder-link { color: #315c7d; font-size: .86rem; font-weight: 700; text-decoration-style: dotted; text-underline-offset: .18em; }
+.cases-practice-page .cases-subcategory-accordion .accordion-item { background: #fffefa; border-color: #ded8c8; border-left: 3px solid #bd6c55; border-radius: 5px; box-shadow: none; }
+.cases-practice-page .cases-subcategory-accordion .accordion-button { padding: .75rem .9rem; color: #23445f; background-color: #fffefa; background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 30px, rgba(91, 132, 164, .1) 31px, transparent 32px); border: 0; box-shadow: none; font-weight: 700; }
+.cases-practice-page .cases-subcategory-accordion .accordion-button:not(.collapsed) { color: #23445f; background-color: #f7f2e4; }
+.cases-practice-page .qa-card, .cases-practice-page .prompt-card, .cases-practice-page .cases-part-card { background-color: #fffefa; background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 34px, rgba(91, 132, 164, .08) 35px, transparent 36px); }
+.cases-practice-page .qa-prompt { color: #26384a; line-height: 1.6; }
+.cases-practice-page .qa-reveal { margin-top: .65rem; padding-top: .55rem; border-top: 1px dashed #d9d2c2; }
+.cases-practice-page .qa-reveal summary, .cases-practice-page .practice-reveal > summary { display: inline-flex; align-items: center; gap: .35rem; width: fit-content; padding: .12rem 0; color: #79664d; background: transparent; border: 0; border-radius: 0; font-family: "Bradley Hand", "Segoe Print", cursive; font-size: .9rem; font-weight: 500; letter-spacing: 0; list-style: none; text-decoration: none; cursor: pointer; }
+.cases-practice-page .qa-reveal summary::-webkit-details-marker, .practice-reveal summary::-webkit-details-marker { display: none; }
+.cases-practice-page .qa-reveal summary::before, .cases-practice-page .practice-reveal > summary::before { content: "✎"; color: #bd6c55; font-size: .95rem; }
+.cases-practice-page .qa-reveal summary:hover, .cases-practice-page .practice-reveal > summary:hover { color: #315c7d; }
+.cases-practice-page .qa-answer-text, .cases-practice-page .prompt-details, .practice-answer > p:last-child, .practice-reveal > p:last-child { padding: .65rem .8rem; color: #34485a; background: #f8f3e4; border-left: 3px solid #bd6c55; border-radius: 2px 5px 5px 2px; line-height: 1.6; }
+.cases-practice-page .prompt-details { margin-top: .65rem; border-top: 0; }
+.grammar-lesson-heading, .wh-section-heading { border-bottom-color: #d9d2c2; }
+.grammar-lesson-number, .wh-section-heading > span { color: #bd6c55; font-family: "Bradley Hand", "Segoe Print", cursive; }
+.grammar-rule, .grammar-memory, .wh-note, .case-tip, .practice-answer,
+.practice-reveal, .knowledge-explanation, .case-quiz-feedback,
+.preposition-quiz-feedback, .review-card {
+  background-color: #f7f3e7;
+  border-color: #e3d9c1;
+}
+.grammar-german, .practice-language, .wh-example { color: #23445f; }
+.practice-reveal summary, details > summary { color: #315c7d; }
+.exam-option { background-color: #fffefa; border-color: #ded8c8; }
+.exam-option:hover, .topic-menu-button:hover, .topic-menu-button.active { background-color: #f3efdf; }
+.form-check-input:checked { background-color: #315c7d; border-color: #315c7d; }
+.pagination .page-item.active .page-link { background-color: #315c7d; border-color: #315c7d; }
+.cases-quiz-section { background: #f3efe1; border-color: #ded4ba; border-left-color: #bd6c55; }
+.cases-quiz-section.preposition-practice-section { background: #edf4ef; border-color: #d0dfd5; border-left-color: #4e836b; }
+
+@media (max-width: 767.98px) {
+  .table-responsive > .table { font-size: .88rem; }
+  .table-responsive > .table > thead > tr > th,
+  .table-responsive > .table > tbody > tr > td { padding: .55rem .65rem; }
+  .possessive-section-details[open] > summary + .possessive-notes-card { padding: .75rem .65rem 1rem; }
+}

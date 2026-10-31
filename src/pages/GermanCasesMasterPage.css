@@ -1,5 +1,6 @@
 .cases-master {
-  max-width: 1180px;
+  width: calc(100% - 2rem);
+  max-width: 1380px;
   margin: 0 auto 2rem;
   color: #1f354b;
 }
@@ -163,6 +164,95 @@
 .case-reference-details[open] > summary { margin-bottom: .75rem; }
 .case-reference-details > summary:focus-visible { outline: 2px solid #1264a3; outline-offset: 3px; border-radius: 3px; }
 
+/* Personal-pronoun notes use a calm notebook palette and clear case cues. */
+.personal-pronouns-section { padding: 1.25rem; background: #fbfaf6; border: 1px solid #e7dfca; border-radius: .9rem; box-shadow: 0 .25rem .8rem rgba(61, 53, 33, .06); }
+.personal-pronouns-section h2 { margin-bottom: .35rem; }
+.personal-pronouns-section > .text-muted { max-width: 900px; line-height: 1.65; }
+.pronoun-memory-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .75rem; margin: 1rem 0; }
+.pronoun-memory-grid article { display: grid; gap: .25rem; padding: .8rem .9rem; background: #fff; border: 1px solid #e7dfca; border-top: 3px solid #547fa3; border-radius: .6rem; }
+.pronoun-memory-grid article:nth-child(2) { border-top-color: #328264; }
+.pronoun-memory-grid article:nth-child(3) { border-top-color: #7956a8; }
+.pronoun-memory-grid span { color: #687786; font-size: .74rem; font-weight: 650; }
+.pronoun-memory-grid strong { color: #203e59; font-size: 1.05rem; }
+.pronoun-memory-grid small { color: #526477; font-size: .9rem; line-height: 1.5; }
+.pronoun-notes-card { border-color: #e7dfca; background: rgba(255,255,255,.82); }
+.pronoun-notes-card .card-body { padding: 1rem; }
+.pronoun-table-wrap { overflow-x: auto; }
+.personal-pronoun-table { min-width: 760px; }
+.personal-pronoun-table th { background: #344e64; }
+.personal-pronoun-table td { color: #34475a; }
+.personal-pronoun-table tbody tr:nth-child(even) { background: #f7f6f1; }
+.personal-pronoun-table td:nth-child(2) { color: #14558d; font-weight: 750; }
+.personal-pronoun-table td:nth-child(3) { color: #267052; font-weight: 750; }
+.personal-pronoun-table td:nth-child(4) { color: #68449a; font-weight: 750; }
+.personal-pronoun-table th { font-size: .9rem; }
+.personal-pronoun-table td { padding: .72rem .68rem; font-size: .98rem; line-height: 1.45; }
+.bilingual-pronoun-example { display: grid; gap: .2rem; min-width: 190px; }
+.bilingual-pronoun-example em { color: #23445f; font-weight: 650; }
+.bilingual-pronoun-example small { color: #687786; font-size: .86rem; }
+.reference-cluster { padding: 1.35rem; background: #fffefa; border: 1px solid #e3dac5; border-left: 4px solid #bd6c55; border-radius: 8px 12px 12px 8px; }
+.reference-cluster > .cases-eyebrow { margin-bottom: .35rem; }
+.reference-cluster > h2 { margin-bottom: .3rem; }
+.reference-cluster > .text-muted { margin-bottom: 1.1rem; }
+.reference-cluster .personal-pronouns-section { padding: .2rem 0 1.4rem; margin: 0; background: transparent; border: 0; border-radius: 0; box-shadow: none; }
+.reference-cluster .personal-pronouns-section h3, .article-reference-panel h3 { margin: 0 0 .45rem; color: #294b6b; font-size: 1.3rem; }
+.reference-cluster .personal-pronouns-section > .text-muted, .article-reference-panel > .text-muted { max-width: 950px; font-size: .98rem; line-height: 1.6; }
+.article-reference-panel { padding-top: .2rem; scroll-margin-top: 1rem; }
+.article-reference-panel > hr { margin: .2rem 0 1rem; border: 0; border-top: 1px solid #d5c9ae; opacity: 1; }
+.article-chart-row { margin-right: 0; margin-left: 0; }
+.article-chart-row > * { padding-right: .35rem; padding-left: .35rem; }
+.article-reference-panel .article-chart { border-color: #d8dfd7; background: #fff; }
+.article-reference-panel .article-chart .card-body { padding: .8rem; }
+.article-reference-panel .article-chart h4 { margin-bottom: .2rem; color: #203e30; font-size: 1.15rem; }
+.article-reference-panel .article-chart .text-muted { min-height: 1.5rem; margin-bottom: .55rem; font-size: .88rem; }
+.article-reference-panel .article-chart .table-responsive { overflow-x: hidden; }
+.article-reference-panel .article-chart .cases-table { width: 100%; min-width: 0; table-layout: fixed; font-size: .88rem; }
+.article-reference-panel .article-chart .cases-table th,
+.article-reference-panel .article-chart .cases-table td { padding: .45rem .25rem; text-align: center; }
+.article-reference-panel .article-chart .cases-table th { white-space: normal; font-size: .78rem; }
+.article-reference-panel .article-chart .cases-table th:first-child,
+.article-reference-panel .article-chart .cases-table td:first-child { width: 18%; }
+.article-table-key { margin: .65rem 0 0; color: #5b6977; font-size: .8rem; line-height: 1.45; }
+.article-chart-note { margin-top: .8rem; padding: .7rem .8rem; background: #f8f3e4; border-left: 3px solid #bd6c55; color: #526477; font-size: .9rem; line-height: 1.5; }
+.article-chart-note > strong { color: #294b6b; }
+.article-chart-note p { margin: .3rem 0 0; }
+.article-chart-note p[lang="de"] em { color: #23445f; font-size: 1rem; font-weight: 650; }
+.article-chart-note p small { display: block; margin-top: .12rem; color: #687786; font-size: .86rem; }
+.pronoun-notes-bottom { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; margin-top: .85rem; }
+.pronoun-notes-bottom > div { padding: .75rem .85rem; background: #f8f7f2; border: 1px solid #e7dfca; border-radius: .55rem; }
+.pronoun-notes-bottom strong { color: #294b6b; font-size: .84rem; }
+.pronoun-notes-bottom p { margin: .25rem 0 0; color: #526477; font-size: .84rem; line-height: 1.55; }
+.pronoun-notes-bottom p[lang="de"] { color: #34475a; font-size: 1rem; font-weight: 650; }
+.pronoun-notes-bottom p small { display: block; margin-top: .2rem; color: #687786; font-size: .75rem; font-weight: 400; }
+.pronoun-role-subject { color: #14558d; }
+.pronoun-role-dative { color: #68449a; }
+.pronoun-role-accusative { color: #267052; }
+.pronoun-possessive-bridge { padding: .7rem .8rem; margin-top: .75rem; color: #526477; background: #fff9e9; border-left: 3px solid #c49a42; border-radius: .35rem; font-size: .84rem; line-height: 1.55; }
+.pronoun-quiz { padding: 1rem; margin-top: 1rem; background: #f8f3e4; border: 1px solid #e4dac1; border-left: 4px solid #bd6c55; border-radius: 7px; }
+.pronoun-quiz-section .pronoun-quiz { margin-top: 0; background: #fffefa; }
+.pronoun-quiz-prompt { display: grid; gap: .25rem; margin-bottom: .8rem; padding: .75rem .9rem; background: #f8f3e4; border-radius: .45rem; color: #526477; }
+.pronoun-quiz-prompt strong { color: #294b6b; font-size: 1.2rem; }
+.pronoun-quiz-options { display: flex; flex-wrap: wrap; gap: .5rem 1.1rem; padding: 0; border: 0; }
+.pronoun-quiz-options legend { float: none; width: auto; margin-bottom: .4rem; color: #526477; font-size: .88rem; }
+.pronoun-quiz-options .form-check { margin: 0; }
+.pronoun-quiz-feedback { margin-top: .85rem; padding: .75rem .9rem; border-left: 3px solid #57916f; background: #f0f7f1; color: #34475a; }
+.pronoun-quiz-feedback p { margin: .25rem 0 0; }
+.pronoun-quiz-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; }
+.pronoun-quiz-heading > div > span { color: #805e43; font-size: .7rem; font-weight: 750; letter-spacing: .09em; }
+.pronoun-quiz-heading h4 { margin: .2rem 0; color: #294b6b; font-size: 1.2rem; }
+.pronoun-quiz-heading p { margin: 0; color: #617080; font-size: .9rem; }
+.pronoun-quiz-heading > strong { min-width: 7rem; color: #294b6b; font-size: .85rem; text-align: right; }
+.pronoun-quiz-heading > strong small { display: block; color: #687786; font-size: .78rem; font-weight: 500; }
+.pronoun-quiz-prompt { display: grid; gap: .3rem; padding: .75rem; margin: .8rem 0; background: #fffefa; border-radius: 5px; }
+.pronoun-quiz-prompt span { color: #687786; font-size: .88rem; }
+.pronoun-quiz-prompt strong { color: #23445f; font-family: "Bradley Hand", "Segoe Print", cursive; font-size: 1.2rem; }
+.pronoun-quiz-options { display: flex; flex-wrap: wrap; gap: .3rem 1rem; padding: .55rem .75rem .7rem; border: 1px solid #ded5c2; border-radius: 5px; }
+.pronoun-quiz-options legend { float: none; width: auto; padding: 0 .25rem; margin: 0; color: #526477; font-size: .82rem; font-weight: 650; }
+.pronoun-quiz-options .form-check { margin: 0; }
+.pronoun-quiz-feedback { padding: .7rem .8rem; margin-top: .8rem; background: #fffefa; border-left: 3px solid currentColor; border-radius: 3px 6px 6px 3px; }
+.pronoun-quiz-feedback p { margin: .3rem 0 0; color: #526477; font-size: .9rem; line-height: 1.5; }
+.pronoun-quiz-feedback p em { color: #23445f; font-weight: 650; }
+
 @media (max-width: 991.98px) {
   .case-finder-controls { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .case-finder-adjective-control { grid-column: 1 / -1; }
@@ -170,6 +260,17 @@
 }
 
 @media (max-width: 767.98px) {
+  .pronoun-memory-grid,
+  .pronoun-notes-bottom { grid-template-columns: 1fr; }
+  .personal-pronouns-section { padding: 1rem .7rem; }
+  .reference-cluster { padding: 1rem .65rem; }
+  .reference-cluster .personal-pronouns-section { padding: .1rem 0 1.1rem; }
+  .pronoun-quiz { padding: .75rem; }
+  .pronoun-quiz-heading { flex-direction: column; gap: .35rem; }
+  .pronoun-quiz-heading > strong { text-align: left; }
+  .pronoun-quiz-options { display: grid; }
+  .cases-master { width: calc(100% - 1rem); }
+  .pronoun-notes-card .card-body { padding: .65rem; }
   .quiz-section-heading { align-items: flex-start; flex-direction: column; gap: .15rem; }
   .quiz-step-mark { margin-bottom: .3rem; }
   .case-quiz-inputs,
@@ -240,7 +341,7 @@
 
 .cases-table {
   margin-bottom: 0;
-  font-size: 0.94rem;
+  font-size: 1rem;
 }
 
 .cases-table th {
@@ -543,6 +644,12 @@
 }
 
 @media (max-width: 767.98px) {
+  .article-reference-panel .article-chart .card-body { padding: .65rem .5rem; }
+  .article-reference-panel .article-chart .cases-table { font-size: .78rem; }
+  .article-reference-panel .article-chart .cases-table th,
+  .article-reference-panel .article-chart .cases-table td { padding: .38rem .16rem !important; }
+  .pronoun-quiz-heading { flex-direction: column; }
+  .pronoun-quiz-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .cases-hero {
     padding: 2rem 1rem;
   }

@@ -23,7 +23,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import CitizenshipTestHomePage from "./pages/CitizenshipTestHomePage";
 import GermanLearningHomePage from "./pages/GermanLearningHomePage";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
 import LearningPage from "./pages/LearningPage";
 import Header from "./components/Header";
 import VocabularyPage from "./pages/VocabularyPage";
@@ -40,7 +39,13 @@ import GermanCasesPracticePage from "./pages/GermanCasesPracticePage";
 import GermanModalVerbsPage from "./pages/GermanModalVerbsPage";
 import GermanWhQuestionsPage from "./pages/GermanWhQuestionsPage";
 import GermanCoreVocabularyPage from "./pages/GermanCoreVocabularyPage";
+import GermanGrammarMasterPage from "./pages/GermanGrammarMasterPage";
+import GermanIrregularVerbsPage from "./pages/GermanIrregularVerbsPage";
+import GermanAuxiliaryVerbsPage from "./pages/GermanAuxiliaryVerbsPage";
+import GermanFutureTensePage from "./pages/GermanFutureTensePage";
+import GermanPastTensePage from "./pages/GermanPastTensePage";
 import UnifiedHomePage from "./pages/UnifiedHomePage";
+import "./App.css";
 
 
 function App() {
@@ -101,6 +106,11 @@ function App() {
             <Route path="/german-flashcard-sprint" element={<GermanLanguageSprintPage />} />
             <Route path="/deutsch-sprint" element={<GermanLanguageSprintPage />} />
             <Route path="/german-grammar" element={<GermanGrammarPage />} />
+            <Route path="/german-grammar-master" element={<GermanGrammarMasterPage />} />
+            <Route path="/german-auxiliary-verbs" element={<GermanAuxiliaryVerbsPage />} />
+            <Route path="/german-future-tense" element={<GermanFutureTensePage />} />
+            <Route path="/german-past-tense" element={<GermanPastTensePage />} />
+            <Route path="/german-irregular-verbs" element={<GermanIrregularVerbsPage />} />
             <Route path="/german-cases" element={<GermanCasesMasterPage />} />
             <Route path="/german-cases-practice" element={<GermanCasesPracticePage />} />
             <Route path="/german-modal-verbs" element={<GermanModalVerbsPage />} />

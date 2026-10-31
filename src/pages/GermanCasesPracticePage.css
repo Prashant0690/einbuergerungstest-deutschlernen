@@ -60,7 +60,7 @@
   font-size: 0.8rem;
 }
 
-.cases-jump-nav {
+.cases-practice-page .cases-jump-nav {
   position: sticky;
   top: 76px;
   z-index: 1030;
@@ -69,26 +69,26 @@
   padding: 0.5rem;
   gap: 0.35rem;
   margin: 0.75rem 0 1rem;
-  background: rgba(255, 255, 255, 0.96);
-  border: 1px solid #d5e3f1;
-  border-radius: 0.8rem;
-  box-shadow: 0 0.2rem 0.6rem rgba(18, 58, 99, 0.08);
+  background: rgba(255, 254, 250, 0.97);
+  border: 1px solid #ded8c8;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 7px rgba(54, 58, 57, 0.06);
   backdrop-filter: blur(8px);
 }
 
-.cases-jump-nav .nav-link {
+.cases-practice-page .cases-jump-nav .nav-link {
   padding: 0.45rem 0.7rem;
-  color: #123a63;
-  background: #f3f7fb;
-  border: 1px solid #d5e3f1;
-  border-radius: 999px;
+  color: #23445f;
+  background: #f4f0e4;
+  border: 1px solid #e0d8c5;
+  border-radius: 5px 5px 5px 2px;
   font-size: 0.82rem;
   font-weight: 650;
 }
 
-.cases-jump-nav .nav-link:hover,
-.cases-jump-nav .nav-link:focus-visible {
-  background: #e7f1fb;
+.cases-practice-page .cases-jump-nav .nav-link:hover,
+.cases-practice-page .cases-jump-nav .nav-link:focus-visible {
+  background: #eae2cd;
 }
 
 .cases-practice-card {
@@ -237,7 +237,7 @@
     grid-template-columns: 1fr;
   }
 
-  .cases-jump-nav {
+  .cases-practice-page .cases-jump-nav {
     top: 0.5rem;
   }
 

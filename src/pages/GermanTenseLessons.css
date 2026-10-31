@@ -1,0 +1,31 @@
+.tense-lesson-page { max-width: 1100px; margin: 2rem auto 4rem; padding: 0 1rem; color: #203248; font-size: 1.2rem; line-height: 1.8; }
+.tense-lesson-hero { padding: clamp(1.5rem, 5vw, 3.5rem); border-radius: 1.25rem; color: #fff; background: linear-gradient(130deg,#173b5c,#245f70); }
+.tense-lesson-hero h1 { max-width: 780px; margin-bottom: 1rem; color: #fff; font-size: clamp(2.1rem, 5vw, 3.35rem); font-weight: 800; line-height: 1.12; letter-spacing: -.035em; }
+.tense-eyebrow { margin: 0 0 .65rem; color: #b9f1df; font-size: .85rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.tense-lesson-hero p:last-of-type { max-width: 760px; margin-bottom: .5rem; color: #f0f7fa; font-size: 1.28rem; line-height: 1.75; }
+.tense-lesson-nav { display:flex; flex-wrap:wrap; gap:.6rem; margin-top:1.25rem; }
+.tense-lesson-nav a { padding:.5rem .8rem; border:1px solid #b9d5df; border-radius:99px; color:#fff; font-size:1.08rem; font-weight:650; text-decoration:none; }
+.tense-lesson-nav a:hover { color:#173b5c; background:#fff; }
+.tense-section { margin-top:2rem; padding:clamp(1.2rem,3vw,2rem); border:1px solid #dce5ee; border-radius:1rem; background:#fff; box-shadow:0 8px 26px #173a5b0a; }
+.tense-section h2 { margin-bottom:.85rem; color:#173b5c; font-size:clamp(1.55rem,3vw,2rem); font-weight:800; line-height:1.25; letter-spacing:-.02em; }
+.tense-section p { margin-bottom:.8rem; }
+.tense-rule-grid,.tense-video-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr)); gap:1rem; margin-top:1rem; }
+.tense-rule-card,.tense-video-card { padding:1.2rem; border:1px solid #dce8e9; border-radius:.8rem; background:#f3f8f7; }
+.tense-rule-card h3,.tense-video-card h3 { margin-bottom:.65rem; color:#174f55; font-size:1.3rem; font-weight:750; }
+.tense-table-wrap { overflow-x:auto; margin-top:1rem; }
+.tense-table { width:100%; border-collapse:collapse; }
+.tense-table th,.tense-table td { padding:.8rem .9rem; border:1px solid #cbd9e2; text-align:left; font-size:1.14rem; }
+.tense-table th { color:#173b5c; background:#e8f0f4; font-weight:750; }
+.tense-example { margin:.75rem 0; padding:.8rem 1rem; border-left:4px solid #087e75; border-radius:0 .5rem .5rem 0; color:#33465b; background:#f0f7f5; }
+.tense-example em { display:inline-block; margin-bottom:.15rem; color:#075e58; font-size:1.3rem; font-style:normal; font-weight:800; }
+.tense-callout { margin-top:1rem; padding:1rem 1.15rem; border-left:4px solid #2876a1; border-radius:0 .6rem .6rem 0; color:#203b52; background:#edf5fa; font-size:1.14rem; }
+.tense-video-card a { display:inline-block; margin-top:.7rem; }
+.tense-video-frame { aspect-ratio:16/9; overflow:hidden; border-radius:.6rem; background:#172b4d; }
+.tense-video-frame iframe { width:100%; height:100%; border:0; }
+.tense-next-links { display:flex; flex-wrap:wrap; gap:.7rem; margin-top:1rem; }
+.tense-next-links a { padding:.55rem .8rem; border:1px solid #cbd8e4; border-radius:.6rem; text-decoration:none; }
+.tense-steps { display:flex; flex-wrap:wrap; gap:.5rem; margin:1.25rem 0 0; padding:0; list-style:none; }
+.tense-steps li { padding:.45rem .8rem; border:1px solid #b8e2d8; border-radius:99px; color:#133f45; background:#e4f5ef; font-size:1.08rem; font-weight:700; }
+.tense-practice { margin-top:1rem; padding:1.1rem; border:1px solid #c7d9df; border-radius:.7rem; color:#203248; background:#f8fbfc; }
+.tense-practice summary { cursor:pointer; color:#075e58; font-size:1.16rem; font-weight:750; }
+.tense-practice p { margin:.75rem 0 0; }

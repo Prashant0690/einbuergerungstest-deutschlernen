@@ -29,6 +29,12 @@ const articleCharts = {
   },
 };
 
+const articleChartNotes = {
+  definite: { rule: "Use this when both people know which noun you mean.", german: "Ich sehe den Mann.", english: "I see the man." },
+  indefinite: { rule: "Use this when you introduce one non-specific noun.", german: "Ich sehe einen Mann.", english: "I see a man." },
+  negative: { rule: "Kein declines like ein and means no / not any.", german: "Ich sehe keinen Mann.", english: "I see no man." },
+};
+
 const prepositions = {
   acc: [
     ["durch", "through / via", "durch den Park"],
@@ -71,21 +77,38 @@ const possessives = [
   ["euer-", "euer", "eure", "euer", "eure"],
 ];
 
-const pronounDerivations = [
-  ["ich", "mein-", "Mein Hund schläft.", "mein- + no ending (Nom. masculine) = mein"],
-  ["du", "dein-", "Wo ist deine Tasche?", "dein- + -e (Nom. feminine) = deine"],
-  ["er / es", "sein-", "Er hilft seinem Vater.", "sein- + -em (Dat. masculine) = seinem"],
-  ["sie", "ihr-", "Sie sucht ihren Bruder.", "ihr- + -en (Acc. masculine) = ihren"],
-  ["wir", "unser-", "Unser Auto steht draußen.", "unser- + no ending (Nom. neuter) = unser"],
-  ["ihr", "euer-", "Eure Kinder spielen im Garten.", "euer- + -e, drop inner e = eure"],
-  ["sie / Sie", "ihr- / Ihr-", "Wie ist Ihr Name?", "Ihr- + no ending (Nom. masculine) = Ihr"],
+// Personal pronouns change with their role in the sentence. Possessive bases
+// are included here as a bridge to the detailed possessive charts below.
+const personalPronouns = [
+  ["I", "ich", "mich", "mir", "mein-", "Ich sehe mich im Spiegel.", "I see myself in the mirror."],
+  ["you (informal, singular)", "du", "dich", "dir", "dein-", "Ich helfe dir.", "I help you."],
+  ["he", "er", "ihn", "ihm", "sein-", "Sie besucht ihn.", "She visits him."],
+  ["she", "sie", "sie", "ihr", "ihr-", "Er gibt ihr das Buch.", "He gives her the book."],
+  ["it (neuter)", "es", "es", "ihm", "sein-", "Das Kind ist müde. Wir helfen ihm.", "The child is tired. We help them."],
+  ["we", "wir", "uns", "uns", "unser-", "Sie sieht uns.", "She sees us."],
+  ["you (informal, plural)", "ihr", "euch", "euch", "euer-", "Ich besuche euch.", "I am visiting you all."],
+  ["they", "sie", "sie", "ihnen", "ihr-", "Er schreibt ihnen.", "He writes to them."],
+  ["you (formal)", "Sie", "Sie", "Ihnen", "Ihr-", "Ich danke Ihnen.", "I thank you (formal)."],
 ];
 
-const einTemplate = [
-  ["Nom", "ein (-)", "eine (-e)", "ein (-)", "meine (-e)"],
-  ["Acc", "einen (-en)", "eine (-e)", "ein (-)", "meine (-e)"],
-  ["Dat", "einem (-em)", "einer (-er)", "einem (-em)", "meinen (-en)"],
-  ["Gen", "eines (-es)", "einer (-er)", "eines (-es)", "meiner (-er)"],
+const personalPronounQuizQuestions = [
+  { prompt: "I am learning German.", sentence: "___ lerne Deutsch.", answer: "Ich", choices: ["Ich", "Mich", "Mir", "Mein"], note: "Ich is the subject doing the action, so it takes Nominativ.", complete: "Ich lerne Deutsch." },
+  { prompt: "I see myself in the mirror.", sentence: "Ich sehe ___ im Spiegel.", answer: "mich", choices: ["ich", "mich", "mir", "mein"], note: "Sehen takes a direct object (Wen sehe ich?), so use Akkusativ: mich.", complete: "Ich sehe mich im Spiegel." },
+  { prompt: "I help you. (informal, singular)", sentence: "Ich helfe ___.", answer: "dir", choices: ["du", "dich", "dir", "dein"], note: "Helfen takes a Dativ object (Wem helfe ich?), so use dir.", complete: "Ich helfe dir." },
+  { prompt: "She visits him.", sentence: "Sie besucht ___.", answer: "ihn", choices: ["er", "ihn", "ihm", "sein"], note: "Besuchen takes a direct object (Wen besucht sie?), so use Akkusativ: ihn.", complete: "Sie besucht ihn." },
+  { prompt: "He gives her the book.", sentence: "Er gibt ___ das Buch.", answer: "ihr", choices: ["sie", "ihr", "ihre", "ihnen"], note: "The person receiving the book answers Wem? and takes Dativ: ihr.", complete: "Er gibt ihr das Buch." },
+  { prompt: "The child is tired. We help them.", sentence: "Das Kind ist müde. Wir helfen ___.", answer: "ihm", choices: ["es", "ihn", "ihm", "sein"], note: "Das Kind is neuter. Helfen takes Dativ, where neuter es becomes ihm.", complete: "Das Kind ist müde. Wir helfen ihm." },
+  { prompt: "She sees us.", sentence: "Sie sieht ___.", answer: "uns", choices: ["wir", "uns", "unser", "ihnen"], note: "We are the direct object (Wen sieht sie?), so use Akkusativ: uns.", complete: "Sie sieht uns." },
+  { prompt: "I am visiting you all. (informal, plural)", sentence: "Ich besuche ___.", answer: "euch", choices: ["ihr", "euch", "euer", "ihnen"], note: "You all are the direct object (Wen besuche ich?), so use Akkusativ: euch.", complete: "Ich besuche euch." },
+  { prompt: "He writes to them.", sentence: "Er schreibt ___.", answer: "ihnen", choices: ["sie", "ihnen", "ihr", "ihrer"], note: "The people receiving the message answer Wem? and take Dativ: ihnen.", complete: "Er schreibt ihnen." },
+  { prompt: "I thank you. (formal)", sentence: "Ich danke ___.", answer: "Ihnen", choices: ["Sie", "Ihnen", "Ihr", "Ihrer"], note: "Danken takes Dativ. Formal you is Ihnen and keeps its capital I.", complete: "Ich danke Ihnen." },
+];
+
+const possessiveEndings = [
+  ["Nom", "—", "-e", "—", "-e"],
+  ["Acc", "-en", "-e", "—", "-e"],
+  ["Dat", "-em", "-er", "-em", "-en"],
+  ["Gen", "-es", "-er", "-es", "-er"],
 ];
 
 const possessiveLookup = [
@@ -96,6 +119,15 @@ const possessiveLookup = [
   ["unser-", "Nom", "unser", "unsere", "unser", "unsere"], ["unser-", "Acc", "unseren", "unsere", "unser", "unsere"], ["unser-", "Dat", "unserem", "unserer", "unserem", "unseren"], ["unser-", "Gen", "unseres", "unserer", "unseres", "unserer"],
   ["euer-", "Nom", "euer", "eure", "euer", "eure"], ["euer-", "Acc", "euren", "eure", "euer", "eure"], ["euer-", "Dat", "eurem", "eurer", "eurem", "euren"], ["euer-", "Gen", "eures", "eurer", "eures", "eurer"],
 ];
+
+const possessiveMasterGroups = ["mein-", "dein-", "sein-", "ihr- / Ihr-", "unser-", "euer-"].map((stem) => ({
+  stem,
+  rows: possessiveLookup.filter((row) => row[0] === stem).map((row) => row.slice(1)),
+}));
+possessiveMasterGroups.splice(4, 0, {
+  stem: "Ihr- (formal)",
+  rows: possessiveLookup.filter((row) => row[0] === "ihr- / Ihr-").map((row) => row.slice(1).map((cell, index) => index > 0 ? `${cell[0].toUpperCase()}${cell.slice(1)}` : cell)),
+});
 
 const articleTypeOptions = [
   { value: "all", label: "All" },
@@ -165,6 +197,13 @@ function shuffleItems(items) {
   return shuffled;
 }
 
+function makePronounQuizRound() {
+  return shuffleItems(personalPronounQuizQuestions).map((question) => ({
+    ...question,
+    choices: shuffleItems(question.choices),
+  }));
+}
+
 // Curated, natural examples replace the old combinatorial generator: case
 // practice should teach useful language, not merely produce grammatical strings.
 const practiceSentences = [
@@ -215,7 +254,7 @@ function ColourSentence({ sentence, showAnswer }) {
           </div>
         ) : (
           <details className="practice-reveal">
-            <summary>Show German answer and rules</summary>
+            <summary>German answer + teacher’s note</summary>
             <p className="practice-language mt-3">{renderSentenceTokens(sentence.german, colours, "de")}</p>
             <p className="mb-0"><strong>Teacher’s note:</strong> {sentence.rule || sentence.rules}</p>
           </details>
@@ -257,6 +296,11 @@ function GermanCasesMasterPage() {
   const [prepositionQuizAnswer, setPrepositionQuizAnswer] = useState("");
   const [prepositionQuizChecked, setPrepositionQuizChecked] = useState(false);
   const [prepositionQuizScore, setPrepositionQuizScore] = useState({ correct: 0, answered: 0 });
+  const [pronounQuizIndex, setPronounQuizIndex] = useState(0);
+  const [pronounQuizOrder, setPronounQuizOrder] = useState(makePronounQuizRound);
+  const [pronounQuizAnswer, setPronounQuizAnswer] = useState("");
+  const [pronounQuizChecked, setPronounQuizChecked] = useState(false);
+  const [pronounQuizScore, setPronounQuizScore] = useState({ correct: 0, answered: 0 });
 
   const genderOptions = [
     { id: "masculine", label: "Masculine", column: 1 },
@@ -312,6 +356,7 @@ function GermanCasesMasterPage() {
   const caseQuizExpectedPossessive = caseQuizQuestion.possessive === "Ihr (formal)" ? caseQuizPossessive.replace(/^./, (letter) => letter.toUpperCase()) : caseQuizPossessive;
   const caseQuizExpectedAdjective = caseQuizAdjective.rows.find((row) => row[0] === caseQuizCase.short)?.[caseQuizGender.column] || "";
   const prepositionQuizQuestion = prepositionQuizOrder[prepositionQuizIndex];
+  const pronounQuizQuestion = pronounQuizOrder[pronounQuizIndex];
   const caseQuizPossessiveClue = {
     "mein-": "my",
     "dein-": "your (informal)",
@@ -363,6 +408,24 @@ function GermanCasesMasterPage() {
     setPrepositionQuizChecked(true);
   };
 
+  const checkPronounQuiz = (event) => {
+    event.preventDefault();
+    if (pronounQuizChecked) return;
+    setPronounQuizScore((score) => ({ correct: score.correct + (pronounQuizAnswer === pronounQuizQuestion.answer ? 1 : 0), answered: score.answered + 1 }));
+    setPronounQuizChecked(true);
+  };
+
+  const nextPronounQuizQuestion = () => {
+    if (pronounQuizIndex + 1 >= pronounQuizOrder.length) {
+      setPronounQuizOrder(makePronounQuizRound());
+      setPronounQuizIndex(0);
+    } else {
+      setPronounQuizIndex((index) => index + 1);
+    }
+    setPronounQuizAnswer("");
+    setPronounQuizChecked(false);
+  };
+
   const normalizeQuizForm = (value) => value.trim().toLocaleLowerCase().replace(/[–—]/g, "-");
   const caseQuizResults = [
     { key: "article", label: "Article", answer: caseQuizArticle, correct: normalizeQuizForm(caseQuizAnswers.article) === normalizeQuizForm(caseQuizArticle) },
@@ -387,17 +450,25 @@ function GermanCasesMasterPage() {
         <p className="cases-eyebrow">GERMAN CASES MASTER REFERENCE</p>
         <h1>See the role. Choose the case.</h1>
         <p className="lead mb-0">A colour-coded guide to the German cases, their articles, endings, and triggers.</p>
+        <nav className="cases-learning-path" aria-label="Suggested learning order">
+          <a href="#overview"><span>1</span> Find the role</a><i aria-hidden="true">→</i>
+          <a href="#personal-pronouns"><span>2</span> Learn pronouns</a><i aria-hidden="true">→</i>
+          <a href="#possessives"><span>3</span> Build forms</a><i aria-hidden="true">→</i>
+          <a href="#case-practice-quiz"><span>4</span> Practise recall</a>
+        </nav>
         <Button as={Link} to="/german-cases-practice" variant="outline-primary" className="mt-3">
           Open Cases Practice 400
         </Button>
       </header>
 
       <Nav className="cases-jump-nav" aria-label="Cases page sections">
-        <Nav.Link href="#quick-lookup">Quick case finder</Nav.Link>
         <Nav.Link href="#overview">Four cases</Nav.Link>
+        <Nav.Link href="#personal-pronouns">Personal pronouns</Nav.Link>
+        <Nav.Link href="#personal-pronoun-quiz">Pronoun quiz</Nav.Link>
         <Nav.Link href="#articles">Articles</Nav.Link>
         <Nav.Link href="#possessives">Possessives</Nav.Link>
         <Nav.Link href="#adjectives">Adjective endings</Nav.Link>
+        <Nav.Link href="#quick-lookup">Quick case finder</Nav.Link>
         <Nav.Link href="#prepositions">Preposition search</Nav.Link>
         <Nav.Link href="#preposition-reference">Preposition table</Nav.Link>
         <Nav.Link href="#sentences">Practice sentences</Nav.Link>
@@ -498,58 +569,66 @@ function GermanCasesMasterPage() {
         </Row>
       </section>
 
-      <section id="articles" className="cases-section">
-        <h2>Full article tables</h2>
-        <p className="text-muted">The quick finder above is best for a single form. Open the full charts when you want to compare every case.</p>
-        <details className="case-reference-details">
-          <summary>Open definite, indefinite, and negative article charts</summary>
-          <Row className="g-4 mt-1">
-            {Object.entries(articleCharts).map(([type, chart]) => (
-              <Col lg={4} key={type}>
+      <section id="personal-pronouns" className="cases-section reference-cluster">
+        <p className="cases-eyebrow">STUDY TOGETHER · PEOPLE WORDS AND THE ARTICLES THEY CHANGE</p>
+        <h2>Pronouns & articles</h2>
+        <p className="text-muted">Start with the person or thing doing the action. Then compare how articles change with the noun’s role.</p>
+        <section className="personal-pronouns-section">
+          <h3>Personal pronouns in the four cases</h3>
+          <p className="text-muted">Nominativ is the subject, Akkusativ is the direct object, and Dativ is the recipient. Personal pronouns rarely use Genitiv in everyday German; use <em>von + Dativ</em>.</p>
+          <div className="pronoun-memory-grid">
+            <article><span>1 · Who acts?</span><strong>Nominativ</strong><small><em>Ich lerne Deutsch.</em><br />I am learning German.</small></article>
+            <article><span>2 · Who/what is affected?</span><strong>Akkusativ</strong><small><em>Ich sehe dich.</em><br />I see you.</small></article>
+            <article><span>3 · To/for whom?</span><strong>Dativ</strong><small><em>Ich helfe dir.</em><br />I am helping you.</small></article>
+          </div>
+          <Card className="pronoun-notes-card"><Card.Body>
+            <div className="pronoun-notes-bottom">
+              <div><strong>Remember the biggest changes</strong><p><em>ich → mich → mir</em> · <em>du → dich → dir</em> · <em>er → ihn → ihm</em>. The Dativ plural is <em>ihnen</em>; formal “you” is <em>Ihnen</em> (capital I).</p></div>
+              <div><strong>One sentence, three roles</strong><p lang="de"><span className="pronoun-role-subject">Ich</span> gebe <span className="pronoun-role-dative">ihr</span> <span className="pronoun-role-accusative">das Buch</span>.<small>I give her the book. Ich = subject · ihr = recipient · das Buch = thing given.</small></p></div>
+            </div>
+            <p className="pronoun-possessive-bridge mb-2">The last column gives the owner stem. Match its ending to the <strong>thing owned</strong>: <em>mein Bruder</em>, <em>meine Schwester</em>, <em>mit meinem Kind</em>. Continue to <a href="#possessives">possessive articles</a>.</p>
+            <div className="pronoun-table-wrap"><CaseTable headers={["English", "Nominativ · subject", "Akkusativ · direct object", "Dativ · recipient", "Possessive base"]} rows={personalPronouns.map(([meaning, nom, acc, dat, possessive]) => [meaning, nom, acc, dat, possessive])} className="personal-pronoun-table" /></div>
+          </Card.Body></Card>
+        </section>
+
+        <section id="articles" className="article-reference-panel">
+          <hr aria-hidden="true" />
+          <Row className="g-2 mt-1 article-chart-row">
+            {Object.entries(articleCharts).map(([type, chart]) => {
+              const note = articleChartNotes[type];
+              return <Col lg={4} md={6} key={type}>
                 <Card className={`article-chart article-${type} h-100`}>
                   <Card.Body>
-                    <h3>{chart.title}</h3>
+                    <h4>{chart.title}</h4>
                     <p className="text-muted">{chart.subtitle}</p>
                     <CaseTable headers={["Case", "Masc.", "Fem.", "Neuter", "Plural"]} rows={chart.rows} />
+                    <aside className="article-chart-note"><strong>When to use it</strong><p>{note.rule}</p><p lang="de"><em>{note.german}</em><small>{note.english}</small></p></aside>
                   </Card.Body>
                 </Card>
-              </Col>
-            ))}
+              </Col>;
+            })}
           </Row>
-          <Row className="g-3 mt-1">
-            <Col md={6}><Card className="case-tip h-100"><Card.Body><strong>Dative plural</strong><br />Add <strong>-n</strong> to the noun when possible: <em>mit den Kindern</em>.</Card.Body></Card></Col>
-            <Col md={6}><Card className="case-tip h-100"><Card.Body><strong>Genitive masculine/neuter</strong><br />The noun often adds <strong>-s</strong> or <strong>-es</strong>: <em>des Vaters</em>.</Card.Body></Card></Col>
-          </Row>
-        </details>
+          <p className="article-table-key"><strong>Plural:</strong> the indefinite form is “—”. In Dativ plural, add <strong>-n</strong> when possible (<em>mit den Kindern</em>); Genitiv masculine/neuter often adds <strong>-s / -es</strong> (<em>des Vaters</em>).</p>
+        </section>
       </section>
 
-      <section id="possessives" className="cases-section">
-        <h2>Possessive articles</h2>
-        <p className="text-muted">Use the quick finder above for a specific form. The full derivation and reference charts are here when you need them.</p>
-        <details className="case-reference-details">
-          <summary>Open possessive rules, examples, and full charts</summary>
-        <h3>1. Pronoun, stem, and derivation</h3>
-        <CaseTable headers={["Pronoun", "Stem", "Example sentence", "How it is formed"]} rows={pronounDerivations} />
-        <h3 className="mt-4">2. Master <em>ein</em> template</h3>
-        <p>This table supplies the ending. Replace <em>ein-</em> with <em>mein-, dein-, sein-, ihr-, unser-</em>, or <em>euer-</em>.</p>
-        <CaseTable headers={["Case", "Masculine", "Feminine", "Neuter", "Plural"]} rows={einTemplate} />
-        <Card className="case-tip mt-3"><Card.Body><strong>Derive it in three steps:</strong> <em>with my sister</em> means Dative + feminine. The template gives <strong>-er</strong>; add it to <em>mein-</em> to form <strong>mit meiner Schwester</strong>.</Card.Body></Card>
-        <h3 className="mt-4">3. Owner stem overview</h3>
-        <p>Choose the stem that matches the owner. The ending then comes from the template above.</p>
-        <div className="stem-grid">{possessives.map(([stem]) => <span key={stem}>{stem}</span>)}</div>
-        <h3 className="mt-4">4. Full master lookup chart</h3>
-        <p>Use this only when you need a quick confirmation. Each owner stem is grouped and can be opened separately.</p>
-        <Accordion className="possessive-lookup">
-          {possessives.map(([stem], index) => (
-            <Accordion.Item eventKey={stem} key={stem}>
-              <Accordion.Header>{stem} possessive forms</Accordion.Header>
-              <Accordion.Body>
-                <CaseTable headers={["Case", "Masc.", "Fem.", "Neuter", "Plural"]} rows={possessiveLookup.slice(index * 4, index * 4 + 4).map((row) => row.slice(1))} />
-              </Accordion.Body>
-            </Accordion.Item>
-          ))}
-        </Accordion>
-        <Card className="case-tip mt-3"><Card.Body><strong><em>euer</em> shortcut:</strong> drop the inner <em>e</em> before a vowel ending: <em>eure, euren, eurem, eurer</em>.</Card.Body></Card>
+      <section id="possessives" className="cases-section possessive-section">
+        <details className="possessive-section-details">
+          <summary><strong>Possessive articles</strong><span>The owner stem tells you whose; match the ending to the noun.</span></summary>
+          <div className="possessive-notes-card">
+          <div className="possessive-template-heading"><span>2 · ENDINGS AT A GLANCE</span><strong>Owner stem + ending for the noun</strong><p>Start with <em>mein-, dein-, sein-, ihr-, unser-, euer-</em>, or formal <em>Ihr-</em>. Then match the case and gender/number of the thing owned.</p></div>
+          <CaseTable headers={["Case", "Masculine", "Feminine", "Neuter", "Plural"]} rows={possessiveEndings} className="possessive-ending-table" />
+          <div className="possessive-example-notes"><p><strong>Examples:</strong> <em>mein Bruder</em> · <em>meine Schwester</em> · <em>mit meinem Kind</em> · <em>mit meinen Freunden</em></p><p><strong>One small exception:</strong> <em>euer-</em> drops its inner <em>e</em> before an ending: <em>eure, euren, eurem, eurer, eures</em>.</p></div>
+          <h3 className="possessive-lookup-heading">4. Full master lookup chart</h3>
+          <p className="possessive-lookup-intro">Open an owner stem to compare all four cases at once. The formal <em>Ihr-</em> forms are shown with a capital letter.</p>
+          <Accordion className="possessive-lookup">
+            {possessiveMasterGroups.map(({ stem, rows }) => <Accordion.Item eventKey={stem} key={stem}>
+              <Accordion.Header>{stem} forms</Accordion.Header>
+              <Accordion.Body><CaseTable headers={["Case", "Masc.", "Fem.", "Neuter", "Plural"]} rows={rows} /></Accordion.Body>
+            </Accordion.Item>)}
+          </Accordion>
+          <a className="possessive-finder-link" href="#quick-lookup">Need one form? Use the case finder ↑</a>
+          </div>
         </details>
       </section>
 
@@ -675,6 +754,25 @@ function GermanCasesMasterPage() {
             <strong>{prepositionQuizAnswer === prepositionQuizQuestion.answer ? "Correct" : `Answer: ${prepositionQuizQuestion.answer === "two-way" ? "Two-way" : prepositionQuizQuestion.answer === "acc" ? "Akkusativ" : "Dativ"}`}</strong>
             <div>{prepositionQuizQuestion.examples.map((example) => <span lang="de" key={example}>{example}</span>)}</div>
             {prepositionQuizQuestion.answer === "two-way" && <small>Movement toward a destination answers <em>Wohin?</em> and takes Akkusativ. A fixed location answers <em>Wo?</em> and takes Dativ.</small>}
+          </div>}
+        </Card.Body></Card>
+      </section>
+
+      <section id="personal-pronoun-quiz" className="cases-section cases-quiz-section pronoun-quiz-section" aria-labelledby="pronoun-quiz-title">
+        <div className="quiz-section-heading"><div><span className="quiz-section-label">ACTIVE RECALL · PERSONAL PRONOUNS</span><h2 id="pronoun-quiz-title">Try the forms from memory</h2></div><span className="quiz-step-mark">Question {pronounQuizIndex + 1} / {pronounQuizOrder.length} · Score {pronounQuizScore.correct} / {pronounQuizScore.answered}</span></div>
+        <p className="text-muted">Choose the pronoun that fits the German sentence. Use the English meaning as your clue.</p>
+        <Card className="case-quiz-card pronoun-quiz"><Card.Body>
+          <div className="pronoun-quiz-prompt"><span>{pronounQuizQuestion.prompt}</span><strong lang="de">{pronounQuizQuestion.sentence}</strong></div>
+          <Form onSubmit={checkPronounQuiz}>
+            <fieldset className="pronoun-quiz-options" disabled={pronounQuizChecked}><legend>Which pronoun belongs in the blank?</legend>
+              {pronounQuizQuestion.choices.map((choice, index) => <Form.Check type="radio" name="personal-pronoun-answer" id={`pronoun-quiz-option-${index}`} value={choice} checked={pronounQuizAnswer === choice} onChange={() => setPronounQuizAnswer(choice)} label={choice} key={choice} required />)}
+            </fieldset>
+            <div className="case-quiz-actions"><Button type="submit" variant="primary" disabled={!pronounQuizAnswer || pronounQuizChecked}>Check answer</Button><Button type="button" variant="outline-secondary" onClick={nextPronounQuizQuestion} disabled={!pronounQuizChecked}>Next question</Button></div>
+          </Form>
+          {pronounQuizChecked && <div className={`pronoun-quiz-feedback ${pronounQuizAnswer === pronounQuizQuestion.answer ? "quiz-correct" : "quiz-incorrect"}`} aria-live="polite">
+            <strong>{pronounQuizAnswer === pronounQuizQuestion.answer ? "Correct" : `Answer: ${pronounQuizQuestion.answer}`}</strong>
+            <p>{pronounQuizQuestion.note}</p>
+            <p className="mb-0"><em lang="de">{pronounQuizQuestion.complete}</em> — {pronounQuizQuestion.prompt}</p>
           </div>}
         </Card.Body></Card>
       </section>

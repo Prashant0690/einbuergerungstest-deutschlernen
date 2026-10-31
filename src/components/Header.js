@@ -16,6 +16,11 @@ const citizenshipLinks = [
 const germanLinks = [
   ["/everyday-german", "Everyday German"],
   ["/german-grammar", "Grammar essentials"],
+  ["/german-auxiliary-verbs", "Haben & sein"],
+  ["/german-future-tense", "Future tense"],
+  ["/german-past-tense", "Past tense · Perfekt & Präteritum"],
+  ["/german-grammar-master", "Tenses & sentence patterns"],
+  ["/german-irregular-verbs", "Irregular verbs · A1–C2"],
   ["/german-cases", "German cases"],
   ["/german-modal-verbs", "Modal verbs"],
   ["/german-wh-questions", "Question words"],
